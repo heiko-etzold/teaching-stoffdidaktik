@@ -1,0 +1,49 @@
+\addtokomafont{disposition}{\rmfamily}
+\KOMAoptions{numbers=noenddot}
+
+\usepackage{libertine}
+\usepackage{libertinus-otf}
+
+\usepackage{color}
+\definecolor{formalColor}{HTML}{00A2FF}
+\definecolor{semanticColor}{HTML}{1DB100}
+\definecolor{concreteColor}{HTML}{EE220C}
+\definecolor{empiricColor}{HTML}{F8BA00}
+\definecolor{linkColor}{HTML}{929292}
+\definecolor{quoteColor}{HTML}{666666}
+
+% \usepackage{framed}
+% \renewenvironment{quote}{
+%   \list{}{
+% 	\leftmargin0.2cm   % this is the adjusting screw
+%     \rightmargin\leftmargin
+%       	\def\FrameCommand
+%     {%
+%         {\color{quoteColor}\vrule width 3pt}%
+%         \hspace{0pt}%must no space.
+%         %
+%     }%
+%     \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
+%     }
+%   \item\relax
+% }
+% {\endlist\color{black}\endMakeFramed}
+
+
+\makeatletter
+\def\renewtheorem#1{%
+  \expandafter\let\csname#1\endcsname\relax
+  \expandafter\let\csname c@#1\endcsname\relax
+  \gdef\renewtheorem@envname{#1}
+  \renewtheorem@secpar
+}
+\def\renewtheorem@secpar{\@ifnextchar[{\renewtheorem@numberedlike}{\renewtheorem@nonumberedlike}}
+\def\renewtheorem@numberedlike[#1]#2{\newtheorem{\renewtheorem@envname}[#1]{#2}}
+\def\renewtheorem@nonumberedlike#1{
+\def\renewtheorem@caption{#1}
+\edef\renewtheorem@nowithin{\noexpand\newtheorem{\renewtheorem@envname}{\renewtheorem@caption}}
+\renewtheorem@thirdpar
+}
+\def\renewtheorem@thirdpar{\@ifnextchar[{\renewtheorem@within}{\renewtheorem@nowithin}}
+\def\renewtheorem@within[#1]{\renewtheorem@nowithin[#1]}
+\makeatother

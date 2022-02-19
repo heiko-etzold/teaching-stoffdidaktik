@@ -1,0 +1,56 @@
+
+
+# Stoffdidaktik Mathematik an der UP
+
+## Struktur der Veranstaltung 
+
+Die Veranstaltung *Stoffdidaktik Mathematik*^[Die Modulbeschreibung finden Sie bei [PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3155&menuid=&topitem=Modulbeschreibung&subitem=).] besteht aus einer **Vorlesung (2 SWS)** und einem zugehörigen **Seminar (2 SWS)**.
+
+Im Wintersemester 2021/22 wird die **Vorlesung semesterbegleitend** stattfinden und das **Seminar als Block** am Ende des Semesters.
+
+In der Vorlesung erhalten Sie einen **Input zu stoffdidaktischen Grundlagen**, wobei der Schwerpunkt auf **stoffdidaktischen Theorien** liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig **auf verschiedene Lerngegenstände anzuwenden**. 
+
+Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. Genauere Hinweise dazu finden Sie im Anhang \@ref(seminar-und-hausarbeit).
+
+Am Ende der Veranstaltung steht damit ein **Katalog an stoffdidaktischen Analysen**, der Ihnen im weiteren Studium und in Ihrer späteren Lehrtätigkeit an der Schule dienlich sein kann.
+
+
+## Einordnung 
+
+Die Veranstaltung *Stoffdidaktik Mathematik* findet nach empfohlenen Studienverlaufsplan im **5. Fachsemester parallel zur *Einführung in die Mathematikdidaktik*** statt.
+
+Das heißt insbesondere, dass Sie bereits die **Grundlagen** zur Analysis, Linearen Algebra, Stochastik, Geometrie, Algebra und Numerik studiert haben sollten. Auf diese Grundlagen wird in der Stoffdidaktisch **fachlich aufgebaut** und sie sollten daher von Ihnen sicher beherrscht werden.
+
+Während Sie sich in der *Einführung in die Mathematikdidaktik* mit verschiedenen Lehr-Lern-Theorien, Unterrichtsprinzipien, fach- und prozessbezogenen Kompetenzen oder methodischen Grundlagen des Mathematikunterrichtens beschäftigen, liegt in der *Stoffdidaktik Mathematik* der Fokus in der **Auswahl und Strukturierung der Unterrichtsinhalte**, basierend auf fachlichen und fachdidaktischen Erkenntnissen.
+
+Im Anschluss an beide Veranstaltungen absolvieren Sie die **Schulpraktischen Studien**, in denen Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
+
+
+## Lernziele der Veranstaltung 
+
+Als Lernziele, die Sie nach Abschluss von Vorlesung und Seminar erreicht haben sollen, sind angedacht:
+
+- Sie **kennen Aspekte und Grundvorstellungen** zu zentralen mathematischen Begriffen.
+- Sie **beurteilen Unterrichtsmaterialien und Lernumgebungen** hinsichtlich ihrer stoffdidaktischen Eignung.
+- Sie **erstellen Aufgaben und erste Lernumgebungen** zu konkreten Stoffgebieten.
+- Sie **erkennen mathematikdidaktische Prinzipien und Ideen** als **Entscheidungs- und Strukturierungsgrundlage** zu stofflichen Inhalten der mathematischen Bildung.
+- Sie **wählen zielgerichtet** analoge und digitale **Medien** zur Unterstützung stofflich orientierter Lehr-Lern-Prozesse aus.
+- Sie **setzen sich** selbstständig **mit stoffdidaktischen Fragestellungen auseinander** und nutzen dafür geeignete mathematikdidaktische Literatur.
+- Sie **reflektieren die Inhalte der vorangegangenen Mathematik-Fachmodule** unter stoffdidaktischen Gesichtspunkten.
+
+
+## Was ist Stoffdidaktik? 
+
+Für die Disziplin der *Stoffdidaktik Mathematik* gibt es keine allgemeingültige Definition, auch haben sich die Schwerpunkte in der historischen Entwicklung stets verschoben.
+
+Grundsätzliches Ziel ist, stoffliche Inhaltsbereiche für den Mathematikunterricht auszuwählen (***Was?***) und aufzubereiten (***Wie?***). Im Sinne dieser Veranstaltung kann Stoffdidaktik grob als **Spezifierung und Strukturierung von Lerngegenständen** aufgefasst werden [zur begrifflichen Einordnung siehe auch @Hussmann:2016a].
+
+Während hierzu, historisch betrachtet, anfangs der Stoff ausschließlich aus fachmathematischer Perspektive aufbereitet wurde (z. B. durch *didaktisch-orientierte Sachanalysen*), nahmen in der Folgezeit mehr und mehr auch Lehr-Lern-Theorien Einzug -- gar ein Verschwinden der stofflichen Orientierung der Mathematikdidaktik wird befürchtet [vgl. @Jahnke:2010].
+
+Mit dem Begriff der **Strukturgenetischen Analyse** erweitert @Wittmann:2015 die historische Sichtweise als eine »Mathematikdidaktik *vom Fach aus*«, die sich »auf implizite Theorien des Lehrens und Lernens, die im Fach selbst liegen[, stützt]« [@Wittmann:2015 240]. »Anders als bei der Stoffdidaktik, die sich im Wesentlichen auf die logische Analyse des Stoffes und die Wissensvermittlung konzentriert hat, stehen jetzt aber die Genese des Wissens im Verlauf der Schulzeit und Lernprozesse unter Bezug auf unterschiedliche Lernvoraussetzungen im Vordergrund« [@Wittmann:2015 250]. Eine derartig ganzheitliche Sichtweise soll auch den Geist dieser Veranstaltung ausmachen.
+
+> **Überblicke zur historischen Entwicklung der Stoffdidaktik**  
+>  
+> - @Hefendehl-Hebeker:2016: Subject-matter didactics in German traditions: Early historical developments
+> - @Schupp:2016 [{79 ff.}]: Gedanken zum „Stoff“ und zur „Stoffdidaktik“ sowie zu ihrer Bedeutung für die Qualität des Mathematikunterrichts
+

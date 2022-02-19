@@ -1,0 +1,76 @@
+# Leitidee Funktionaler Zusammenhang
+
+> **Bedeutsame Lerngegenstände**
+> 
+> - Zuordnungsbegriff
+> - Proportionalität
+> - Gleichungen und Ungleichungen
+> - Terme und Variablen
+> - Funktionsbegriff
+> - verschiedene Funktionsklassen (linear, quadratisch, trigonometrisch, …)
+> - Parametereinfluss
+> - Gleichungssysteme
+> - Folgen und Grenzwerte
+> - Ableitung
+> - Integral
+> - Zufallsgröße
+> - Wahrscheinlichkeitsverteilung
+>  
+> **Literaturempfehlungen**  
+> 
+> - @Greefrath2016: *Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe* 
+> - @Danckwerts2010: *Analysis verständlich unterrichten*  
+> - @Tietze:2000a: *Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis*
+
+
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-funktionaler-zusammenhang}
+
+
+In den Bildungsstandards für die Primarstufe lautet diese Leitidee »Muster und Strukturen« [@KMK2005 {10 f.}], im Brandenburgischen Rahmenlehrplan wird sie als »Gleichungen und Funktionen« bezeichnet [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a 9].
+
+Das @LISUMd hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptFunktionen)), ergänzt durch einen didaktischen Kommentar von @Kortenkampa und Materialien zur Diagnose und Förderung [@LISUMc].
+
+(ref:citeKonzeptFunktionen) Konzeptbild zur Leitidee *Gleichungen und Funktionen* [@LISUMd]
+
+```{r KonzeptFunktionen, echo=FALSE, fig.cap="(ref:citeKonzeptFunktionen)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/D-KonzeptFunktion.png")
+```  
+
+
+
+## Funktionsaspekte
+
+Dreh- und Angelpunkt der Leitidee Funktionaler Zusammenhang und damit auch des Stoffgebiets Analysis ist der **Funktionsbegriff**. Gemäß der in Kapitel \@ref(grundvorstellungen) eingeführten Bezeichnungen können zu drei Grundvorstellungen des Funktionsbegriff Aspekte formuliert werden, hier wörtlich entnommen aus @Greefrath2016 [{47 ff.}]^[Dabei ist zu beachten, dass dort die Bezeichnung *Aspekt* in einer anderen Bedeutung als hier im Dokument verwendet wird, siehe dazu eine Diskussion bei @Etzold2021 [{72 f.}].]:
+
+- Grundvorstellung zum **Zuordnungsaspekt**: »Eine Funktion ordnet jedem Wert einer Größe genau einen Wert einer zweiten Größe zu. Mit dem Mengenbegriff formuliert bedeutet dies: Eine Funktion ordnet jedem Element einer Definitionsmenge genau ein Element einer Zielmenge zu.«
+
+  Typische Repräsentationen dieser Vorstellung sind Wertetabellen oder Pfeildiagramme. Über die (nicht-)Eindeutigkeit abgehender und ankommender Pfeile in der Definitions- und Zielmenge kann bspw. operativ an Beispielen diskutiert werden, ob eine Funktion vorliegt oder nicht. Die einführende Definition des formalen Funktionsbegriffs (meist in Klassenstufe 8) erfolgt in der Regel über den Zuordnungsaspekt -- was die Gefahr einer einseitigen Betrachtung des Begriffs mit sich bringt. Sie müssen sich als Lehrkraft also zunächst einmal der Aspektvielfalt bewusst sein und diese dann auch bei Ihrer Unterrichtsgestaltung beachten.
+
+- Grundvorstellung zum **Kovariationsaspekt/Änderungsaspekt**: »Mit Funktionen wird erfasst, wie sich Änderungen einer Größe auf eine zweite Größe auswirken bzw. wie die zweite Größe durch die erste beeinflusst wird.«
+
+  Ohne den Kovariationsaspekt ist kein inhaltliches Verständnis von Differenzialrechnung möglich, da der Ableitungsbegriff ja gerade die lokale Änderung einer Funktion beschreibt. Aber auch in der Sekundarstufe I spielt dieser Aspekt schon eine bedeutsame Rolle, bspw. bei der Betrachtung proportionaler Zuordnungen als *gleichmäßige Zunahme* oder wenn unterschiedlich steile lineare Funktionen und das entsprechende Anstiegsdreick behandelt werden.
+
+- Grundvorstellung zum **Objektaspekt**: »Eine Funktion ist ein einziges Objekt, das einen Zusammenhang als Ganzes beschreibt.«
+
+  Insbesondere bei der Betrachtung von Funktionsgraphen wird ein solcher Gesamtblick geschult und die Funktion als Objekt aufgefasst. Der Objektaspekt ist u. a. auch bei der Betrachtung des Parametereinflusses von Relevanz, da dort die Funktion *als Ganzes* manipuliert wird. Algebraisch spielt der Aspekt eine Rolle, wenn Funktionsterme addiert werden oder Funktionen bspw. als Elemente eines Vektorraumes aufgefasst werden.
+
+
+## Analysis in der Sek. II
+
+### Konflikt zur Fachmathematik
+
+Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den **Folgen-, Grenzwert- und Stetigkeitsbegriff** [ @Tietze:2000a {252 ff.}; @Danckwerts2010 {17 ff.}; @Greefrath2016 {23 ff.}]. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion $f$ an einer Stelle $a$ existiert, wenn für alle Folgen $(x_n)_{n\in\mathbb{N}}$ mit $x_n\rightarrow a$ auch die Folge der Funktionswerte konvergiert, also $f(x_n)\rightarrow f(a)$. Für den Konvergenzbegriff einer Folge ist nun zum anderen die **Vollständigkeit der reellen Zahlen** von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird [siehe z. B. @Danckwerts2010 {27 ff.}]. Mathematisch relevant ist für die Konvergenz einer Folge $(x_n)_{n\in\mathbb{N}}$ gegen $a$ eben nicht nur, dass die Folgenglieder dem $a$ beliebig nahe kommen, sondern dass $a$ im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heronverfahren zum Wurzelbestimmen. So liefert die rekursive Folge^[Für eine geometrische Interpretation dieser Formel siehe auch @dewiki:216870314 [Abschnitt 2]. Hat man diese Interpretation im Hinterkopf, muss man sich nicht einmal die Formel merken.] $x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)$ mit bspw. $x_0 = 1$ ausschließlich Folgenglieder aus $\mathbb{Q}$, die sich auch beliebig nahe kommen (eine sogenannte *Cauchy-Folge*), der Grenzwert selbst ist aber $\sqrt{5}$, was nicht in $\mathbb{Q}$, sondern nur in $\mathbb{R}$ liegt.
+
+Ohne derartige zentrale (im fachmathematischen Sinne sauber ausgeprägte) Begriffe Analysisunterricht zu betreiben, bedarf also einer starken Orientierung an den hinter den Begriffen liegenden Grundvorstellungen, damit dennoch ein inhaltlich-anschauliches Verständnis aufgebaut werden kann und der Unterricht nicht zu einem kalkülhaften Vorgehen verkommt. Spezifische Anregungen für einzelne Lerngegenstände bieten die bereits zitierten Quellen.
+
+### Beispiel Ableitungsbegriff
+
+Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl historisch als auch in der fachdidaktischen Literatur zwei wesentliche Vorstellungen herausgebildet [@Greefrath2016 {147 ff.}; @Danckwerts2010 {45 ff.}]:
+
+* Grundvorstellung zum Aspekt der **lokalen Änderungsrate**: Die Ableitung einer Funktion an einer Stelle beschreibt, wie stark sich die Funktionswerte in der Umgebung dieser Stelle verändern. Wird sich dieser Änderungsrate graphisch genähert, erfolgt dies i. d. R. durch den Übergang des Anstiegs einer Sekante zu dem einer Tangente^[Zur Diskussion der Vorstellung, was eine Tangente ist, siehe auch @Greefrath2016 [149]], womit die Ableitung über den **Grenzwert des Differenzenquotienten** $\lim\limits_{h\rightarrow 0}\cfrac{f(x_0+h)-f(x_0)}{h}$ quantifiziert werden kann und dem **Anstieg der Tangente** entspricht. 
+
+  Diese Sichtweise ermöglicht, den Ableitungbegriff konstruktiv über den Sekanten-Tangenten-Übergang einzuführen und unmittelbar numerisch zu beschreiben. Auch bedienen sich vielfältige Anwendungen (z. B. Momentan- vs. Durchschnittsgeschwindigkeit) dieser Vorstellung.
+
+* Grundvorstellung zum Aspekt der **lokalen Linearität**: Diese Vorstellung betont noch stärker die Differenzierbarkeit als Eigenschaft einer Funktion, nämlich die Möglichkeit, sie lokal durch eine lineare Funktion annähern zu können. Eine typische Repräsentation ist das Heranzoomen an die Funktion, sodass dabei die lokale Linearität besonders deutlich wird. Mathematisch greifbar wird diese Vorstellung darüber, dass sich die Funktion über $f(x) = f(x_0) + m\cdot r(h)$ beschreiben lässt, wobei der *Fehler* $r(h)$ so schnell gegen $0$ geht, dass sogar $\lim\limits_{h\rightarrow 0}\cfrac{r(h)}{h}=0$ gilt. $m$ selbst ist dann die Ableitung und der Anstieg der *besten linearen Näherung* -- was natürlich wieder die Tangente an entsprechender Stelle ist.  
+
+  Dieses Vorgehen besticht v. a. durch seine mathematische Verallgemeinerbarkeit für die höherdimensionale Analysis. Auch entspricht es dem Bedürfnis, Prozesse linear zu approximieren (vgl. Abschnitt \@ref(beispiel-linearitaet)). 
