@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2021/22 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="stoffdidaktik.heiko-etzold.de/" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2021/22 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2021/22 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="4-grundvorstellungen.html"/>
+<link rel="next" href="6-begriffsbildung.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2021/22</b></a></li>
+<li class="divider"></li>
+<li class="part"><span><b>Einleitung</b></span></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="1" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i><b>1</b> Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i><b>1.1</b> Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="1.2" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i><b>1.2</b> Einordnung</a></li>
+<li class="chapter" data-level="1.3" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#lernziele-der-veranstaltung"><i class="fa fa-check"></i><b>1.3</b> Lernziele der Veranstaltung</a></li>
+<li class="chapter" data-level="1.4" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i><b>1.4</b> Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>2</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#analyse-von-lerngegenständen"><i class="fa fa-check"></i><b>2.1</b> Analyse von Lerngegenständen</a></li>
+<li class="chapter" data-level="2.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#themen-der-vorlesung"><i class="fa fa-check"></i><b>2.2</b> Themen der Vorlesung</a></li>
+<li class="chapter" data-level="2.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>2.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>2.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>2.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>2.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>2.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="2.3.5" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#verknüpfung-der-ebenen"><i class="fa fa-check"></i><b>2.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>2.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Formale und Semantische Ebene</b></span></li>
+<li class="chapter" data-level="3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html"><i class="fa fa-check"></i><b>3</b> Fundamentale Ideen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-begriffsklaerung"><i class="fa fa-check"></i><b>3.1</b> Begriffsklärung</a></li>
+<li class="chapter" data-level="3.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#auswahl-fundamentaler-ideen"><i class="fa fa-check"></i><b>3.2</b> Auswahl fundamentaler Ideen</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#kategorisierung"><i class="fa fa-check"></i><b>3.2.1</b> Kategorisierung</a></li>
+<li class="chapter" data-level="3.2.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#beispiel-linearitaet"><i class="fa fa-check"></i><b>3.2.2</b> Beispiel Linearität</a></li>
+<li class="chapter" data-level="3.2.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#gegenbeispiele"><i class="fa fa-check"></i><b>3.2.3</b> Gegenbeispiele</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fund.-ideen-und-stoffdidaktik"><i class="fa fa-check"></i><b>3.3</b> Fund. Ideen und Stoffdidaktik</a></li>
+<li class="chapter" data-level="3.4" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-nachbereitung"><i class="fa fa-check"></i><b>3.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html"><i class="fa fa-check"></i><b>4</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>4.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="4.1.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>4.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>4.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="4.3" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>4.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#natürliche-zahlen"><i class="fa fa-check"></i><b>4.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="4.3.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>4.3.2</b> Bruchzahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html"><i class="fa fa-check"></i><b>5</b> Erstes Intermezzo: Flächeninhalt</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#darstellung-im-schulbuch"><i class="fa fa-check"></i><b>5.1</b> Darstellung im Schulbuch</a></li>
+<li class="chapter" data-level="5.2" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#formale-ebene-1"><i class="fa fa-check"></i><b>5.2</b> Formale Ebene</a></li>
+<li class="chapter" data-level="5.3" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#semantische-ebene-1"><i class="fa fa-check"></i><b>5.3</b> Semantische Ebene</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#fundamentale-idee-messen"><i class="fa fa-check"></i><b>5.3.1</b> Fundamentale Idee Messen</a></li>
+<li class="chapter" data-level="5.3.2" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#gv-zum-flächeninhalt"><i class="fa fa-check"></i><b>5.3.2</b> GV zum Flächeninhalt</a></li>
+<li class="chapter" data-level="5.3.3" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#auswirkungen-auf-lernpfad"><i class="fa fa-check"></i><b>5.3.3</b> Auswirkungen auf Lernpfad</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#ausblick-auf-konkrete-ebene"><i class="fa fa-check"></i><b>5.4</b> Ausblick auf konkrete Ebene</a></li>
+<li class="chapter" data-level="5.5" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#ausblick-auf-empirische-ebene"><i class="fa fa-check"></i><b>5.5</b> Ausblick auf empirische Ebene</a></li>
+<li class="chapter" data-level="5.6" data-path="5-erstes-intermezzo-flaecheninhalt.html"><a href="5-erstes-intermezzo-flaecheninhalt.html#erstesintermezzo-nachbereitung"><i class="fa fa-check"></i><b>5.6</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Konkrete Ebene</b></span></li>
+<li class="chapter" data-level="6" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html"><i class="fa fa-check"></i><b>6</b> Begriffsbildung</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#begriffsverständnis"><i class="fa fa-check"></i><b>6.1</b> Begriffsverständnis</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#begriffsbegriff"><i class="fa fa-check"></i><b>6.1.1</b> Begriffsbegriff</a></li>
+<li class="chapter" data-level="6.1.2" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#verständnistiefe"><i class="fa fa-check"></i><b>6.1.2</b> Verständnistiefe</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#wege-zum-begriff"><i class="fa fa-check"></i><b>6.2</b> Wege zum Begriff</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#arten-der-begriffseinführung"><i class="fa fa-check"></i><b>6.2.1</b> Arten der Begriffseinführung</a></li>
+<li class="chapter" data-level="6.2.2" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#beispiele-und-gegenbeispiele"><i class="fa fa-check"></i><b>6.2.2</b> Beispiele und Gegenbeispiele</a></li>
+<li class="chapter" data-level="6.2.3" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#begriffsfestlegung"><i class="fa fa-check"></i><b>6.2.3</b> Begriffsfestlegung</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#begriffe-handwerk-nachbereitung"><i class="fa fa-check"></i><b>6.3</b> Zum Nachbereiten</a></li>
+<li class="chapter" data-level="6.4" data-path="6-begriffsbildung.html"><a href="6-begriffsbildung.html#bonus-operative-genese"><i class="fa fa-check"></i><b>6.4</b> Bonus: Operative Genese</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html"><i class="fa fa-check"></i><b>7</b> Lehr-Lern-Prozesse</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#tätigkeitstheoretische-sicht"><i class="fa fa-check"></i><b>7.1</b> Tätigkeitstheoretische Sicht</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#grundannahmen"><i class="fa fa-check"></i><b>7.1.1</b> Grundannahmen</a></li>
+<li class="chapter" data-level="7.1.2" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#gestaltung-von-lehr-lern-prozessen"><i class="fa fa-check"></i><b>7.1.2</b> Gestaltung von Lehr-Lern-Prozessen</a></li>
+<li class="chapter" data-level="7.1.3" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#aufsteigen-vom-abstrakten-zum-konkreten"><i class="fa fa-check"></i><b>7.1.3</b> Aufsteigen vom Abstrakten zum Konkreten</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#bezug-zum-vier-ebenen-ansatz"><i class="fa fa-check"></i><b>7.2</b> Bezug zum Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#kontexte-kernideen-kernfragen"><i class="fa fa-check"></i><b>7.2.1</b> Kontexte, Kernideen, Kernfragen</a></li>
+<li class="chapter" data-level="7.2.2" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#aufbau-von-grundvorstellungen"><i class="fa fa-check"></i><b>7.2.2</b> Aufbau von Grundvorstellungen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="7-lehr-lern-prozesse.html"><a href="7-lehr-lern-prozesse.html#begriffe-lerntheoretisch-nachbereitung"><i class="fa fa-check"></i><b>7.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-zweites-intermezzo-wurzel.html"><a href="8-zweites-intermezzo-wurzel.html"><i class="fa fa-check"></i><b>8</b> Zweites Intermezzo: Wurzel</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="8-zweites-intermezzo-wurzel.html"><a href="8-zweites-intermezzo-wurzel.html#wurzel-begriffsverständnis"><i class="fa fa-check"></i><b>8.1</b> Wurzel-Begriffsverständnis</a></li>
+<li class="chapter" data-level="8.2" data-path="8-zweites-intermezzo-wurzel.html"><a href="8-zweites-intermezzo-wurzel.html#wurzel-begriffseinführung"><i class="fa fa-check"></i><b>8.2</b> Wurzel-Begriffseinführung</a></li>
+<li class="chapter" data-level="8.3" data-path="8-zweites-intermezzo-wurzel.html"><a href="8-zweites-intermezzo-wurzel.html#zweites-intermezzo-nachbereitung"><i class="fa fa-check"></i><b>8.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Unterrichtsgestaltung</b></span></li>
+<li class="chapter" data-level="" data-path="lernumgebungen.html"><a href="lernumgebungen.html"><i class="fa fa-check"></i>Lernumgebungen</a></li>
+<li class="chapter" data-level="9" data-path="9-arbeitsmittel-analysieren.html"><a href="9-arbeitsmittel-analysieren.html"><i class="fa fa-check"></i><b>9</b> Arbeitsmittel analysieren</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="9-arbeitsmittel-analysieren.html"><a href="9-arbeitsmittel-analysieren.html#acat-modell"><i class="fa fa-check"></i><b>9.1</b> ACAT-Modell</a></li>
+<li class="chapter" data-level="9.2" data-path="9-arbeitsmittel-analysieren.html"><a href="9-arbeitsmittel-analysieren.html#analyseschritte"><i class="fa fa-check"></i><b>9.2</b> Analyseschritte</a></li>
+<li class="chapter" data-level="9.3" data-path="9-arbeitsmittel-analysieren.html"><a href="9-arbeitsmittel-analysieren.html#arbeitsmittel-analysieren-nachbereitung"><i class="fa fa-check"></i><b>9.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html"><i class="fa fa-check"></i><b>10</b> Aufgaben gestalten</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#funktionen-von-aufgaben"><i class="fa fa-check"></i><b>10.1</b> Funktionen von Aufgaben</a></li>
+<li class="chapter" data-level="10.2" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#produktives-üben"><i class="fa fa-check"></i><b>10.2</b> Produktives Üben</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#Faehigkeitsaspekte"><i class="fa fa-check"></i><b>10.2.1</b> Fähigkeitsaspekte</a></li>
+<li class="chapter" data-level="10.2.2" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#aufgaben-verändern"><i class="fa fa-check"></i><b>10.2.2</b> Aufgaben verändern</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#differenzieren"><i class="fa fa-check"></i><b>10.3</b> Differenzieren</a>
+<ul>
+<li class="chapter" data-level="10.3.1" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#gestufte-hilfen"><i class="fa fa-check"></i><b>10.3.1</b> Gestufte Hilfen</a></li>
+<li class="chapter" data-level="10.3.2" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#differenzierende-aufgaben"><i class="fa fa-check"></i><b>10.3.2</b> Differenzierende Aufgaben</a></li>
+<li class="chapter" data-level="10.3.3" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#natürliche-differenzierung"><i class="fa fa-check"></i><b>10.3.3</b> Natürliche Differenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="10.4" data-path="10-aufgaben-gestalten.html"><a href="10-aufgaben-gestalten.html#aufgaben-gestalten-nachbereitung"><i class="fa fa-check"></i><b>10.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-leitidee-zahl.html"><a href="A-leitidee-zahl.html"><i class="fa fa-check"></i><b>A</b> Leitidee Zahl</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="A-leitidee-zahl.html"><a href="A-leitidee-zahl.html#strukturierung-der-leitidee-zahl"><i class="fa fa-check"></i><b>A.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="A.2" data-path="A-leitidee-zahl.html"><a href="A-leitidee-zahl.html#aufbau-der-zahlbereiche"><i class="fa fa-check"></i><b>A.2</b> Aufbau der Zahlbereiche</a>
+<ul>
+<li class="chapter" data-level="A.2.1" data-path="A-leitidee-zahl.html"><a href="A-leitidee-zahl.html#hochschulperspektive"><i class="fa fa-check"></i><b>A.2.1</b> Hochschulperspektive</a></li>
+<li class="chapter" data-level="A.2.2" data-path="A-leitidee-zahl.html"><a href="A-leitidee-zahl.html#schulperspektive"><i class="fa fa-check"></i><b>A.2.2</b> Schulperspektive</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="B-leitidee-messen.html"><a href="B-leitidee-messen.html"><i class="fa fa-check"></i><b>B</b> Leitidee Messen</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="B-leitidee-messen.html"><a href="B-leitidee-messen.html#strukturierung-der-leitidee-messen"><i class="fa fa-check"></i><b>B.1</b> Strukturierung der Leitidee</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="C-leitidee-raum-und-form.html"><a href="C-leitidee-raum-und-form.html"><i class="fa fa-check"></i><b>C</b> Leitidee Raum und Form</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="C-leitidee-raum-und-form.html"><a href="C-leitidee-raum-und-form.html#übersicht-zur-geometrie"><i class="fa fa-check"></i><b>C.1</b> Übersicht zur Geometrie</a></li>
+<li class="chapter" data-level="C.2" data-path="C-leitidee-raum-und-form.html"><a href="C-leitidee-raum-und-form.html#elementargeometrische-sätze"><i class="fa fa-check"></i><b>C.2</b> Elementargeometrische Sätze</a>
+<ul>
+<li class="chapter" data-level="C.2.1" data-path="C-leitidee-raum-und-form.html"><a href="C-leitidee-raum-und-form.html#innenwinkelsatz-für-dreiecke"><i class="fa fa-check"></i><b>C.2.1</b> Innenwinkelsatz für Dreiecke</a></li>
+<li class="chapter" data-level="C.2.2" data-path="C-leitidee-raum-und-form.html"><a href="C-leitidee-raum-und-form.html#sätze-am-kreis"><i class="fa fa-check"></i><b>C.2.2</b> Sätze am Kreis</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html"><i class="fa fa-check"></i><b>D</b> Leitidee Funktionaler Zusammenhang</a>
+<ul>
+<li class="chapter" data-level="D.1" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html#strukturierung-der-leitidee-funktionaler-zusammenhang"><i class="fa fa-check"></i><b>D.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="D.2" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html#funktionsaspekte"><i class="fa fa-check"></i><b>D.2</b> Funktionsaspekte</a></li>
+<li class="chapter" data-level="D.3" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>D.3</b> Analysis in der Sek. II</a>
+<ul>
+<li class="chapter" data-level="D.3.1" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html#konflikt-zur-fachmathematik"><i class="fa fa-check"></i><b>D.3.1</b> Konflikt zur Fachmathematik</a></li>
+<li class="chapter" data-level="D.3.2" data-path="D-leitidee-funktionaler-zusammenhang.html"><a href="D-leitidee-funktionaler-zusammenhang.html#beispiel-ableitungsbegriff"><i class="fa fa-check"></i><b>D.3.2</b> Beispiel Ableitungsbegriff</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="E" data-path="E-leitidee-daten-und-zufall.html"><a href="E-leitidee-daten-und-zufall.html"><i class="fa fa-check"></i><b>E</b> Leitidee Daten und Zufall</a>
+<ul>
+<li class="chapter" data-level="E.1" data-path="E-leitidee-daten-und-zufall.html"><a href="E-leitidee-daten-und-zufall.html#strukturierung-der-leitidee-daten-und-zufall"><i class="fa fa-check"></i><b>E.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="E.2" data-path="E-leitidee-daten-und-zufall.html"><a href="E-leitidee-daten-und-zufall.html#stochastische-vorgänge"><i class="fa fa-check"></i><b>E.2</b> Stochastische Vorgänge</a></li>
+<li class="chapter" data-level="E.3" data-path="E-leitidee-daten-und-zufall.html"><a href="E-leitidee-daten-und-zufall.html#lagemaße"><i class="fa fa-check"></i><b>E.3</b> Lagemaße</a></li>
+</ul></li>
+<li class="chapter" data-level="F" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html"><i class="fa fa-check"></i><b>F</b> Seminar und Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="F.1" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html#hausarbeit"><i class="fa fa-check"></i><b>F.1</b> Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="F.1.1" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html#aufgabenstellung"><i class="fa fa-check"></i><b>F.1.1</b> Aufgabenstellung</a></li>
+<li class="chapter" data-level="F.1.2" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html#bewertungskriterien"><i class="fa fa-check"></i><b>F.1.2</b> Bewertungskriterien</a></li>
+<li class="chapter" data-level="F.1.3" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html#formale-hinweise"><i class="fa fa-check"></i><b>F.1.3</b> Formale Hinweise</a></li>
+</ul></li>
+<li class="chapter" data-level="F.2" data-path="F-seminar-und-hausarbeit.html"><a href="F-seminar-und-hausarbeit.html#seminarvortrag"><i class="fa fa-check"></i><b>F.2</b> Seminarvortrag</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="vollständiges-literaturverzeichnis.html"><a href="vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i>Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2022</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="erstes-intermezzo-flaecheninhalt" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Erstes Intermezzo: Flächeninhalt</h1>
+<blockquote>
+<p><strong>Lernziele</strong></p>
+<ul>
+<li>Sie vertiefen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere auf der formalen und semantischen Ebene.</li>
+<li>Sie verknüpfen Ihr Wissen über Fundamentale Ideen und Grundvorstellungen am Beispiel des Flächeninhaltsbegriffs.</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zur Vorlesung zum Ersten Intermezzo (<a href="files/Stoffdidaktik-WiSe2122-Kap5.pdf">pdf</a>, <a href="files/Stoffdidaktik-WiSe2122-Kap5.key">Keynote</a>)</li>
+</ul>
+</blockquote>
+<p>In diesem Kapitel werden Fundamentale Ideen und Grundvorstellungen im Zusammenhang mit dem Flächeninhaltsbegriff diskutiert. Ein Schulbuchkapitel zum Flächeninhaltsbegriff bietet die Motivation, die <span style="color: #00A2FF;">formale</span> und <span style="color: #1DB100;">semantische</span> Ebene des <a href="2-vier-ebenen-ansatz.html#tab:fragen-ebenen">Vier-Ebenen-Ansatzes</a> zu diskutieren und einen ersten Ausblick auf die <span style="color: #EE220C;">konkrete</span> und <span style="color: #F8BA00;">empirische</span> Ebene zu geben.</p>
+<p>In dem Sinne wird also existierendes Material analysiert und hinsichtlich der mathematikdidaktischen Theorie reflektiert. Ein solches Vorgehen wäre auch für Ihren Seminarvortrag bzw. die Hausarbeit im Rahmen dieser Veranstaltung möglich – dann natürlich etwas ausführlicher, als hier dargestellt.</p>
+<div id="darstellung-im-schulbuch" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Darstellung im Schulbuch</h2>
+<p>In dem Schulbuch <em>Mathewerkstatt</em> <span class="citation">(<a href="#ref-Barzel2012" role="doc-biblioref">Barzel et al., 2012c</a>)</span> wird der Flächeninhalt über den Kontext von Tiergehen eingeführt (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:Tiergehege">5.1</a>). So haben in einem Zoo verschiedene Tiere unterschiedlich große Gehe zur Verfügung. Die Form der Gehege variiert dabei ebenfalls.</p>
+
+<div class="figure" style="text-align: center"><span id="fig:Tiergehege"></span>
+<img src="pictures/5-Tiergehege.jpg" alt="Einstiegsbild zum Thema Flächeninhalt (Barzel et al., 2012c, S. 168 f.)" width="100%" />
+<p class="caption">
+Abb. 5.1: Einstiegsbild zum Thema Flächeninhalt <span class="citation">(<a href="#ref-Barzel2012" role="doc-biblioref">Barzel et al., 2012c, S. 168 f.</a>)</span>
+</p>
+</div>
+<p>Die Schülerinnen und Schüler werden nun in einer Erkundungsphase vor die Aufgabe gestellt, die Gehegegrößen miteinander zu vergleichen sowie möglichst geschickt die Größe eines Geheges messen zu können.</p>
+<p>Anschließend erfolgen Ordnungs- und Vertiefungsphasen, in denen das Wissen struktruiert und geübt wird. Das Schulbuch wird durch einen Materialblock begleitet <span class="citation">(<a href="#ref-Barzel2012b" role="doc-biblioref">Barzel et al., 2012b</a>)</span>, was in diesem Fall insbesondere dem Auseinanderschneiden und Zusammenlegen bzw. dem Auslegen von Flächen dienen soll. Weiterhin gibt es für Lehrerinnen und Lehrer ein ausführliches Begleitmaterial <span class="citation">(<a href="#ref-Barzel2012a" role="doc-biblioref">Barzel et al., 2012a</a>)</span>, in dem alle Seiten des Schulbuches sowie fachdidaktische Hintergründe zur Thematik erläutert sind.</p>
+</div>
+<div id="formale-ebene-1" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Formale Ebene</h2>
+<blockquote>
+<p>Welche Begriffe und Sätze sollen erarbeitet werden?<br />
+Welche Verfahren sollen erarbeitet werden und wie werden sie formal begründet?<br />
+Wie lassen sich die Begriffe, Sätze, Begründungen und Verfahren logisch strukturieren?<br />
+Welche Verbindungen zwischen den Fachinhalten sind entscheidend, welche weniger bedeutsam?<br />
+Wie kann das Netzwerk aus Begriffen, Sätzen, Begründungen und Verfahren entwickelt werden?</p>
+</blockquote>
+<p>Fachmathematisch kann der Flächeninhalt einer Figur als ein <strong>nichtnegatives Maß</strong> aufgefasst werden, wobei zwei <strong>zueinander kongruenten Figuren dasselbe Maß</strong> zugeordnet wird und der Flächeninhalt einer Figur gleich der <strong>Summe der Flächeninhalte ihrer Teilfiguren</strong> ist, sofern zerlegbar. Hinzu wird das Flächeninhaltsmaß eines Quadrates der Seitenlänge 1 LE auf 1 LE<sup>2</sup> festgelegt <span class="citation">(vgl. <a href="#ref-Kuntze2018" role="doc-biblioref">Kuntze, 2018, S. 161</a>)</span>.</p>
+<p>Dies ist eine <strong>axiomatische Herangehensweise</strong>, die sich für Schülerinnen und Schüler in der Regel als herausfordernd darstellt <span class="citation">(<a href="#ref-Kuntze2018" role="doc-biblioref">Kuntze, 2018, S. 162</a>)</span>. Häufig wird eine umschreibende Definition genutzt, wie: <em>Der Flächeninhalt einer Fläche gibt an, wie groß diese ist.</em> Dabei ist jedoch die mögliche Mehrdeutigkeit dieser Formulierung zu beachten – so könnte auch der Umfang einer Figur als Maß für ihre <em>Größe</em> aufgefasst werden, da der Größenbegriff in dem Fall unspezifisch ist.</p>
+<p>Ob nun eine explizite Definition gewählt wird oder nicht – dies ist auch abhängig von der persönlichen Einstellung der Lehrkraft und den Voraussetzungen der Lerngruppe – in jedem Fall ist ein tragfähiges mathematisches Verständnis aufzubauen. Hierzu können die in den Axiomen enthaltenen Eigenschaften über sinnvolle <strong>Lernhandlungen</strong> aufgebaut werden <span class="citation">(siehe auch <a href="#ref-Worner2014" role="doc-biblioref">Wörner, 2014, S. 1328 f.</a>)</span>:</p>
+<ul>
+<li>Vergleichen verschiedener Flächen durch Zerlegen, Ergänzen und Übereinanderlegen</li>
+<li>Bestimmen des Maßes einer Fläche über Auszählen mittels eines Vergleichsmaßes</li>
+<li>Nutzen eines quadratischen Vergleichsmaßes, in der Regel 1 cm<sup>2</sup></li>
+</ul>
+<p>All diese Überlegungen kommen zunächst <strong>ohne Formeln</strong> aus, weshalb diese im Unterricht auch erst im Anschluss an eine inhaltliche Erarbeitung des Flächeninhaltsbegriffs eingeführt und genutzt werden sollten.</p>
+<p>Fachsystematisch entscheidend ist, dass ein <strong>Flächenvergleich zunächst ohne ein explizites Maß</strong> möglich ist – hierfür reichen die Kongruenzeigenschaft und das Zerlegen/Ergänzen von Flächen aus. Das Vergleichsmaß ist dann relevant, wenn man den <strong>Flächeninhalt mithilfe einer Zahl objektivieren</strong> bzw. ohne eine explizite Vergleichsfigur auskommen möchte.</p>
+<p>Interessant ist hier auch die <strong><em>Willkürlichkeit</em> des Vergleichsmaßes</strong>. Kulturell geprägt ist hier (in Kontinentaleuropa) zwar beispielsweise 1 cm<sup>2</sup>, aber auch andere Einheiten sind gleichberechtigt möglich. Auch muss das Vergleichsmaß nicht zwingend ein Quadrat sein. Nicht selten wird z. B. von großen Flächen angegeben, wie viele Fußballfelder in sie hineinpassen würden. Für den Unterricht bedeutet das, dass im Sinne einer auf den mathematischen Kern orientierten Sichtweise zunächst möglichst allgemeine und vielfältige (auch <em>unförmige</em>) Vergleichsflächen herangezogen werden können. Später ist dann natürlich ein Bezug zu den Standardeinheiten herzustellen (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheEinheiten">5.2</a>).</p>
+
+<div class="figure" style="text-align: center"><span id="fig:FlaecheEinheiten"></span>
+<img src="pictures/5-Einheiten.jpeg" alt="Standardeinheiten typischer Vergleichsflächen (Lambacher Schweizer Mathematik für Gymnasien. 5, Schülerbuch, 2010, S. 193)" width="75%" />
+<p class="caption">
+Abb. 5.2: Standardeinheiten typischer Vergleichsflächen <span class="citation">(<a href="#ref-Lambacher2010" role="doc-biblioref"><em>Lambacher <span>Schweizer</span> <span>Mathematik</span> für <span>Gymnasien</span>. 5, <span>Schülerbuch</span></em>, 2010, S. 193</a>)</span>
+</p>
+</div>
+</div>
+<div id="semantische-ebene-1" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Semantische Ebene</h2>
+<blockquote>
+<p>Welche Fundamentalen Ideen liegen hinter den Begriffen, Sätzen und Verfahren?<br />
+Welche Grundvorstellungen und Repräsentationen (graphisch, verbal, numerisch und algebraisch) sind für den Verständnisaufbau entscheidend?<br />
+Wie verhalten sich Ideen und Vorstellungen zueinander und zu früheren und späteren Lerninhalten?<br />
+Wie kann ein Lernpfad angeordnet werden, in dem das Verständnis, zusammen mit den Erkenntnissen der formalen Ebene, aufgebaut wird?</p>
+</blockquote>
+<div id="fundamentale-idee-messen" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Fundamentale Idee Messen</h3>
+<p>Dem Flächeninhaltsbegriff liegt zweifelsohne die Fundamentale Idee des <em>Messens</em> zugrunde. <span class="citation"><a href="#ref-Vohns:2000" role="doc-biblioref">Vohns</a> (<a href="#ref-Vohns:2000" role="doc-biblioref">2000, S. 52 ff.</a>)</span> stellt ausführlich dar, warum das Messen als Fundamentale Idee aufgefasst werden kann, worauf in diesem Abschnitt Bezug genommen wird. Besondere Betonung legt <span class="citation"><a href="#ref-Vohns:2000" role="doc-biblioref">Vohns</a> (<a href="#ref-Vohns:2000" role="doc-biblioref">2000, S. 49</a>)</span> darauf, dass Messen »der indirekte Vergleich von Objekten in bezug [sic] auf eine bestimmte Eigenschaft« ist.</p>
+<p><em>Horizontal</em> zieht sich dies über viele Gebiete der Mathematik hinweg (z. B. Messprozesse in der Geometrie, Maßzahlaspekt von Brüchen in der Arithmetik, Erwartungswert als Lagemaß in der Stochastik, Integral in der Analysis), aber auch darüber hinaus ist das Messen von hoher Relevanz (z. B. Messprozesse in der Physik, quantitative Studien in den Sozialwissenschaften, Pulsmessung in der Medizin). Damit wird auch das <em>Sinnkriterium</em> der Fundamentalen Idee offensichtlich.</p>
+<p>Das <em>Vertikalkriterium</em> zeigt sich beispielsweise in der Längenbestimmung in der Grundschule, Flächeninhaltsbestimmung in der Orientierungsstufe, bei Verwandlungen von Flächen (z. B. beim Beweis des Satzes des Pythagoras) bzw. der Approximation von Flächen (z. B. Bestimmen des Kreisflächeninhalts) bis hin zum Integralbegriff als verallgemeinerter Flächeninhalt.</p>
+<p><em>Historisch</em> ist das Messen ebenfalls in vielen Epochen der Mathematik bedeutsam, worauf typische Wortwendungen wie <em>Alles ist Zahl!</em> (bei den Pythagoräern), <em>Die Vermessung der Welt</em> (mit der Methode der Triangulation) oder die <em>Quadratur des Kreises</em> (als klassisches Problem der Geometrie) hindeuten. Auch die Vereinheitlichung von Maßeinheiten (z. B. SI-Einheiten) zeigt die Bedeutsamkeit des Messens für die wissenschaftliche Entwicklung.</p>
+</div>
+<div id="gv-zum-flächeninhalt" class="section level3" number="5.3.2">
+<h3><span class="header-section-number">5.3.2</span> GV zum Flächeninhalt</h3>
+<p>Die folgenden Überlegungen sind empirisch nicht abgesichert, sondern vorwiegend theoretischer Natur. Ansatzpunkt ist ein Beitrag von <span class="citation"><a href="#ref-Worner2014" role="doc-biblioref">Wörner</a> (<a href="#ref-Worner2014" role="doc-biblioref">2014</a>)</span>. Setzt man die dortigen Darstellungen genauer mit der Definition <a href="4-grundvorstellungen.html#def:Grundvorstellungen">4.1</a> von Grundvorstellungen in Bezug, lassen sich (meiner Meinung nach) Grundvorstellungen zu drei Aspekten des Flächeninhaltsbegriffs formulieren:</p>
+<ul>
+<li><strong>Maßzahlaspekt</strong>: Flächeninhalt einer Figur als nichtnegative Maßzahl, die mittels normierter Flächeninhaltsmaße bestimmt wird</li>
+<li><strong>Vereinigungsaspekt</strong>: Flächeninhalt einer Figur als Summe der Flächeninhalte der Teilfiguren, aus denen sich die Figur zusammensetzen lässt</li>
+<li><strong>Kongruenzaspekt</strong>: Flächeninhalt einer Figur als invariante Eigenschaft gegenüber Kongruenzabbildungen</li>
+</ul>
+<p>Für jeden dieser Aspekte sollen nun Handlungserfahrungen, Repräsentationen und mögliche Anwendungen auf die Realität diskutiert werden. Weiterhin werden einige Operationen mit Flächeninhalten besprochen.</p>
+<div id="maßzahlaspekt" class="section level4" number="5.3.2.1">
+<h4><span class="header-section-number">5.3.2.1</span> Maßzahlaspekt</h4>
+<p>Eine Erfahrung, die die Grundvorstellung zu diesem Aspekt stützt, ist das Auslegen von Flächen mittels normierter Flächenstücke, wie z. B. Quadrate. Hieraus kann die Erfahrung gewonnen werden, dass die Anzahl der Quadrate direkt den Flächeninhalt (mit der entsprechenden Einheit) angibt.</p>
+<p>Als Repräsentation kann hierfür einfaches Kästchenpapier dienen, auf das die auszumessende Fläche gemalt wird (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheMasszahl">5.3</a>). Daran kann man das Abzählen der normierten Flächenstücke durchführen bzw. sich vorstellen. Insbesondere können daran auch Verfeinerungen (und damit genaueres Messen) nachvollzogen werden.</p>
+<div class="figure" style="text-align: center"><span id="fig:FlaecheMasszahl"></span>
+<img src="pictures/5-Masszahl.png" alt="Repräsentation des Maßzahlaspektes" width="25%" />
+<p class="caption">
+Abb. 5.3: Repräsentation des Maßzahlaspektes
+</p>
+</div>
+<p>Eine mögliche Anwendung in der Realität ist das Bestimmen der Größe eines Fußballfeldes. Hier kann man die Länge und Breite in Metern messen, um zu bestimmen, wie viele Quadratmeter in das Feld passen. Dies wird dann zwar nicht über tatsächliches Auslegen realisiert, aber es wird (bei Verwendung der Rechteckinhaltsformel) auf die entsprechende Vorstellung Bezug genommen.</p>
+</div>
+<div id="vereinigungsaspekt" class="section level4" number="5.3.2.2">
+<h4><span class="header-section-number">5.3.2.2</span> Vereinigungsaspekt</h4>
+<p>Zur Grundvorstellung des Vereinigungsaspektes gehört die Erfahrung, Flächen auseinanderzuschneiden und neu zusammenzulegen, um ihren Flächeninhalt bestimmen bzw. die Größe zweier Flächen miteinander vergleichen zu können.</p>
+<p>Die Schnittlinien können bspw. durch gestrichelte Linien repräsentiert werden, so dass die Handlungserfahrung hier in der Vorstellung nachvollzogen werden kann (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheVereinigung">5.4</a>).</p>
+<div class="figure" style="text-align: center"><span id="fig:FlaecheVereinigung"></span>
+<img src="pictures/5-abb-Vereinigung.png" alt="Repräsentation des Vereinigungsaspektes" width="25%" />
+<p class="caption">
+Abb. 5.4: Repräsentation des Vereinigungsaspektes
+</p>
+</div>
+<p>Möchte man die Größe eines Landes bestimmen, so ist es in der Regel notwendig, dieses in geeignete Flächenstücke zu zerlegen, deren Flächeninhalte einfacher berechnet werden können. Dies ist also eine mögliche Anwendung in der Realität. Je nach Komplexität der Figur (und ggf. zusätzlichen geometrischen Überlegungen) können so auch Flächeninhaltsformeln gefunden werden (was schon eine innermathematische Anwendung ist).</p>
+</div>
+<div id="kongruenzaspekt" class="section level4" number="5.3.2.3">
+<h4><span class="header-section-number">5.3.2.3</span> Kongruenzaspekt</h4>
+<p>Wer hat größere Hände? Um diese Frage zu beantworten, ist eine typische Erfahrung, die Hände aneinanderzulegen und ihre Größen zu vergleichen. Dabei wird die Vorstellung genutzt, dass zueinander kongruente Figuren den gleichen Flächeninhalt haben.</p>
+<p>Eine Repräsentation, die dabei unterstützt, im Kongruenzaspekt zu operieren, kann in der Teilung oder <em>Ummantelung</em> von Figuren mittels zueinander kongruenter Figuren liegen (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheKongruenz">5.5</a>). Dies ist z. B. bei der Herleitung der Flächeninhaltsformel für ein Dreieck sinnvoll, um zu erkennen, dass dieser der Hälfte des Flächeninhalts des umschriebenen Rechtecks entspricht<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:FlaecheKongruenz"></span>
+<img src="pictures/5-Kongruenz.png" alt="Repräsentation des Kongruenzaspektes" width="25%" />
+<p class="caption">
+Abb. 5.5: Repräsentation des Kongruenzaspektes
+</p>
+</div>
+<p>Eine (innermathematische) Anwendung dieser Vorstellung könnte zum Beispiel bei der Berechnung des Oberflächeninhalts eines Primas liegen, wo die Flächeninhalte von Grund- und Deckfläche i. d. R. nicht einzeln berechnet werden, sondern einer der Flächeninhalte wegen der Kongruenz einfach verdoppelt wird.</p>
+</div>
+<div id="operieren-mit-flächeninhalten" class="section level4" number="5.3.2.4">
+<h4><span class="header-section-number">5.3.2.4</span> Operieren mit Flächeninhalten</h4>
+<p>Für unterschiedliche Operationen, die mit Flächeninhalten durchgeführt werden, können nun in unterschiedlicher Weise die Grundvorstellungen zu den Aspekten aufgegriffen und genutzt werden:</p>
+<ul>
+<li>Um Flächeninhalte direkt miteinander zu <strong>vergleichen</strong>, sind der Vereinigungs- und Kongruenzaspekt relevant, da die Flächen ggf. neu aufgeteilt werden müssen und dann mittels Übereinanderlegen gegeneinander abgeschätzt werden können.</li>
+<li>Um die <strong>Flächeninhaltsformel eines Rechtecks</strong> zu begründen, benötigt es den Maßzahlaspekt, da das Abzählen einbeschriebener Vergleichsquadrate wesentlich ist. Dies hängt auch eng mit der Grundvorstellung der Multiplikation als Rechteckflächeninhalt zusammen (siehe Abbildung <a href="4-grundvorstellungen.html#fig:Bruchmultiplikation">4.3</a>).</li>
+<li>Für die <strong>Flächeninhaltsformel des Dreiecks</strong> sind wieder Kongruenz- und Vereinigungsaspekt relevant, da das Dreieck geeignet zerlegt und mit dem umschriebenen Rechteck verglichen werden muss (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheKongruenz">5.5</a>). Da Bezug zur Rechteckformel genommen wird, ist natürlich auch der Maßzahlaspekt relevant.</li>
+<li>Um <strong>Flächeninhalte zu approximieren</strong>, wie z. B. den eines Kreises (siehe Abbildung <a href="5-erstes-intermezzo-flaecheninhalt.html#fig:FlaecheKreis">5.6</a>), benötigt es wieder alle drei Vorstellungen. So kann der Kreis in zueinander kongruente Teilflächen zerlegt werden (Kongruenz- und Vereinigungsaspekt), deren Gesamtflächeninhalt dann über die Rechteckformel näherungsweise bestimmt wird (Maßzahlaspekt).</li>
+</ul>
+<div class="figure" style="text-align: center"><span id="fig:FlaecheKreis"></span>
+<img src="pictures/5-abb-Kreis.png" alt="Approximation des Kreisflächeninhalts" width="75%" />
+<p class="caption">
+Abb. 5.6: Approximation des Kreisflächeninhalts
+</p>
+</div>
+<ul>
+<li>Bei der <strong>Bestimmung von Oberflächeninhalten</strong> von Körpern, werden der Vereinigungsaspekt für die einzelnen Seitenflächen und ggf. der Kongruenzaspekt angesprochen, wenn es zueinander kongruente Seitenflächen gibt (wie z. B. bei Prismen), deren Flächeninhalte dann mit der entsprechenden Anzahl multipliziert und nicht einzeln ausgerechnet werden.</li>
+</ul>
+</div>
+</div>
+<div id="auswirkungen-auf-lernpfad" class="section level3" number="5.3.3">
+<h3><span class="header-section-number">5.3.3</span> Auswirkungen auf Lernpfad</h3>
+<p>Der Lernpfad des Schulbuches greift diese Fundamentale Idee und die Grundvorstellungen auf, indem zunächst Flächeninhalte (durch Ausseinanderschneiden und Zusammenfügen) miteinander verglichen werden, anschließend das Auslegen mit normierten Flächenstücken erfolgt und daraufhin geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsberechnung eines Rechtecks behandelt wird.</p>
+<p>Die formale und empirische Ebenen wurden hier getrennt dargestellt, was jedoch für eine stoffdidaktische Analyse gar nicht zwingend nötig ist. Entscheidend ist, dass Sie den ganzheitlichen Blick auf die aufgeworfenen Fragen haben und diese (zumindest in Teilen) beantworten können. Die getrennte Darstellung dient hier noch der Übersicht für Sie als <em>Anfängerinnen und Anfänger</em> im Umgang mit stoffdidaktischen Analysen – auch wenn darauf verzichtet wurde, die einzelnen Fragen schrittweise explizit zu beantworten.</p>
+</div>
+</div>
+<div id="ausblick-auf-konkrete-ebene" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Ausblick auf konkrete Ebene</h2>
+<blockquote>
+<p>Welche Kernfragen und Kernideen können die Entwicklung der Begriffe, Sätze und Verfahren leiten?<br />
+Welche Kontexte und Probleme sind geeignet, um an ihnen die Kernfragen und -ideen exemplarisch zu behandeln und die Inhalte zu rekonstruieren?<br />
+Wie kann das Verständnis sukzessive über konkrete Situationen in den beabsichtigten Lernpfaden konstruiert werden (horizontale Mathematisierung)?<br />
+Wie können die Lernpfade in Bezug auf die Problemstruktur angeordnet werden (vertikale Mathematisierung)?</p>
+</blockquote>
+<p>Als <strong>Kontext</strong> wählt das Schulbuch den Platzbedarf bei <strong>Tiergehegen im Zoo.</strong> Dieser Kontext ist aus mehreren Gründen besonders gut geeignet:</p>
+<ul>
+<li>In der Regel interessiert tatsächlich nur der Flächeninhalt des Geheges. Inhaltliche Verwechslungen mit dem Umfang oder dem Volumen können damit reduziert werden.<br />
+</li>
+<li>Es ist aus dem Kontext heraus sinnstiftend, die Größe der Gehege miteinander zu vergleichen, da verschiedene Tiere einen unterschiedlichen Platzbedarf haben.<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a></li>
+<li>Verschiedene Formen der Tiergehege lassen sich nutzen, um verschiedene Vergleichsstrategien zu motivieren. So können z. B. Flächen zerlegt und neu zusammengesetzt werden, runde Formen angenähert werden und durch das Ausschneiden der Figuren ist ein Übereinanderlegen möglich.</li>
+</ul>
+<p>Dabei werden zwei <strong>Kernideen</strong> aufgegriffen <span class="citation">(<a href="#ref-Barzel2012a" role="doc-biblioref">Barzel et al., 2012a, S. 359 f.</a>)</span>:</p>
+<ul>
+<li>Eine besteht im <strong>Vergleich der Flächeninhalte</strong> der verschiedenen Gehege. Dieses aus dem Kontext heraus begründbare Vorgehen führt im mathematischen Sinne zum Bedürfnis, Flächen zu vermessen, um sie miteiander vergleichen zu können.<br />
+</li>
+<li>Die zweite Kernidee ist das <strong>geschickte Bestimmen eines Flächeninhalts</strong>, wofür zunächst mittels Kästchenpapier das Auszählen von Flächen mit unterschiedlicher Genauigkeit diskutiert wird, anschließend geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsformel des Rechtsecks behandelt wird.</li>
+</ul>
+<p>Diese Ideen werden jeweils über die Prozesse des Erkunden, Ordnens und Vertiefens realisiert. Durch dieses Vorgehen<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a> wird das Verständnis sukzessive aufgebaut. Es wird Bestandteil der weiteren Veranstaltung der Stoffdidaktik sein, wie zu mathematischen Inhaltsbereichen geeignete Kontexte und Kernideen bzw. Kernfragen gefunden werden können, die den Lernpfad anschließend leiten.</p>
+</div>
+<div id="ausblick-auf-empirische-ebene" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Ausblick auf empirische Ebene</h2>
+<blockquote>
+<p>Welche typischen individuellen Voraussetzungen (Vorstellungen, Kenntnisse, Kompetenzen, …) sind zu erwarten und wie passen diese zum angestrebten Verständnis (Ressourcen vs. Hindernisse)?<br />
+Woher kommen typische Hindernisse oder unerwünschte Vorstellungen?<br />
+Wie können typische Vorkenntnisse und Vorstellungen als fruchtbare Anknüpfungspunkte dienen?<br />
+Welche Schlüsselstellen (Hindernisse, Wendepunkte, …) gibt es im Lernweg der Schülerinnen und Schüler?<br />
+Wie kann der angestrebte Lernpfad bezüglich der Anknüpfungspunkte und Schlüsselstellen neu angeordnet werden?</p>
+</blockquote>
+<p><span class="citation"><a href="#ref-Kuntze2018" role="doc-biblioref">Kuntze</a> (<a href="#ref-Kuntze2018" role="doc-biblioref">2018, S. 159 f.</a>)</span> verweist auf typische Schwierigkeiten von Schülerinnen und Schülern im Umgang mit dem Flächeninhaltsbegriff.</p>
+<p>So kommt es häufig zu einer Verwechslung zwischen Längenmaßen, Flächeninahlten und Volumina. Eine Ursache wird v. a. in der frühzeitigen kalkülhaften Herangehensweise gesehen, Flächeninhalte über Formeln berechnen zu müssen. So fehlt ein tiefergehendes Begriffsverständnis und die Formeln können nicht sinnstiftend genutzt werden. Dem kann u. a. dadurch begegnet werden, indem bewusst die Zusammenhänge hergestellt werden, z. B. zwischen Umfang und Flächeninhalt.
+Letztlich zeigen empirische Erhebungen, dass Kinder mit einem vertieften Verständnis über Flächeninhalte auch besser in der Lage sind, entsprechende Formeln anzuwenden <span class="citation">(<a href="#ref-Worner2014" role="doc-biblioref">Wörner, 2014, S. 1330</a>)</span>.</p>
+<p>Weiterhin besteht wegen der Wortverwandtschaft von <em>Fläche</em> und <em>Flächeninhalt</em> die Gefahr, dass entsprechende Vorstellungen nicht aufgebaut werden, insbesondere dann, wenn die Begriffe (zumindest von der Lehrkraft) nicht sauber getrennt verwendet werden. Die Fläche ist die Figur an sich und wird über ihre <em>Form</em> bestimmt. Der Flächeninhalt ist ein <em>Maß</em> für die Größe der Figur <span class="citation">(vgl. <a href="#ref-Barzel2012a" role="doc-biblioref">Barzel et al., 2012a, S. 362</a>)</span>. Insbesondere für Schülerinnen und Schüler, deren Muttersprache nicht Deutsch ist, kann die fehlerhafte Verwendung dieser feinen Unterschiede hinderlich dabei sein, dem Unterricht zu folgen.</p>
+<p>Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z. B. strikte sprachliche Trennung) oder explizit thematisiert (z. B. verbindende und vergleichende Behandlung mit dem Umfang von Figuren), so dass auch dies wieder die Gestaltung des Lernpfades beeinflusst.</p>
+</div>
+<div id="erstesintermezzo-nachbereitung" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Zum Nachbereiten</h2>
+<ol style="list-style-type: decimal">
+<li>Diskutieren Sie zu weiteren typischen Operationen mit Flächeninhalten, welche Grundvorstellungen dafür aufgegriffen und genutzt werden.</li>
+<li>Finden Sie einen alternativen Kontext (statt den Zoogehegen), der geeignet ist, die Kernideen so aspektreich durchzuarbeiten.</li>
+</ol>
+
+</div>
+</div>
+
+
+
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Barzel2012a" class="csl-entry">
+Barzel, B., Hußmann, S., Leuders, T., &amp; Prediger, S. (Hrsg.). (2012a). <em>Mathewerkstatt. 5, <span>Handreichungen</span></em> [DVD]. Cornelsen.
+</div>
+<div id="ref-Barzel2012b" class="csl-entry">
+Barzel, B., Hußmann, S., Leuders, T., &amp; Prediger, S. (Hrsg.). (2012b). <em>Mathewerkstatt. 5, <span>Materialblock</span></em> (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl). Cornelsen.
+</div>
+<div id="ref-Barzel2012" class="csl-entry">
+Barzel, B., Hußmann, S., Leuders, T., &amp; Prediger, S. (Hrsg.). (2012c). <em>Mathewerkstatt. 5, <span>Schulbuch</span></em> (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
+</div>
+<div id="ref-BundesministeriumfurErnahrungundLandwirtschaft2014" class="csl-entry">
+Bundesministerium für Ernährung und Landwirtschaft. (2014). <em>Gutachten über <span>Mindestanforderungen</span> an die <span>Haltung</span> von <span>Säugetieren</span></em>. <a href="https://www.bmel.de/SharedDocs/Downloads/DE/_Tiere/Tierschutz/HaltungSaeugetiere.pdf;jsessionid=6B0914AB410E7E118E6CC87C65735734.live832?__blob=publicationFile&amp;v=7">https://www.bmel.de/SharedDocs/Downloads/DE/_Tiere/Tierschutz/HaltungSaeugetiere.pdf;jsessionid=6B0914AB410E7E118E6CC87C65735734.live832?__blob=publicationFile&amp;v=7</a>
+</div>
+<div id="ref-Kuntze2018" class="csl-entry">
+Kuntze, S. (2018). Flächeninhalt und <span>Volumen</span>. In <em>Didaktik der <span>Geometrie</span> für die <span>Sekundarstufe</span> <span>I</span></em> (S. 149–177). Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-56217-8_7">https://doi.org/10.1007/978-3-662-56217-8_7</a>
+</div>
+<div id="ref-Lambacher2010" class="csl-entry">
+<em>Lambacher <span>Schweizer</span> <span>Mathematik</span> für <span>Gymnasien</span>. 5, <span>Schülerbuch</span></em> (Sachsen, 1. Aufl). (2010). Klett.
+</div>
+<div id="ref-Prediger2014" class="csl-entry">
+Prediger, S., Hußmann, S., Leuders, T., &amp; Barzel, B. (2014). Kernprozesse – <span>Ein</span> <span>Modell</span> zur <span>Strukturierung</span> von <span>Unterrichtsdesign</span> und <span>Unterrichtshandeln</span>. In I. Bausch, G. Pinkernell, &amp; O. Schmitt (Hrsg.), <em>Unterrichtsentwicklung und <span>Kompetenzorientierung</span>. <span>Festschrift</span> für <span>Regina</span> <span>Bruder</span></em> (S. 81–92). WTM. <a href="https://www.researchgate.net/publication/261402528_Fachspezifische_Differenzierungsansatze_fur_unterschiedliche_Unterrichtsphasen">https://www.researchgate.net/publication/261402528_Fachspezifische_Differenzierungsansatze_fur_unterschiedliche_Unterrichtsphasen</a>
+</div>
+<div id="ref-Vohns:2000" class="csl-entry">
+Vohns, A. (2000). <em>Das <span>Messen</span> als fundamentale <span>Idee</span></em> [1. Staatsexamensarbeit, Universität-Gesamthochschule Siegen]. <a href="https://wwwu.aau.at/avohns/pdf/messen.pdf">https://wwwu.aau.at/avohns/pdf/messen.pdf</a>
+</div>
+<div id="ref-Worner2014" class="csl-entry">
+Wörner, D. (2014). Grundvorstellungen zum <span>Flächeninhaltsbegriff</span> ausbilden – eine exemplarische <span>Studie</span>. In J. Roth &amp; J. Ames (Hrsg.), <em>Beiträge zum <span>Mathematikunterricht</span> 2014, 48. <span>Jahrestagung</span> der <span>Gesellschaft</span> für <span>Didaktik</span> der <span>Mathematik</span> vom 10.03.2014 bis 14.03.2014 in <span>Koblenz</span></em> (S. 1327–1330). <a href="https://doi.org/10.17877/DE290R-1049">https://doi.org/10.17877/DE290R-1049</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="6">
+<li id="fn6"><p>Um diesen Zusammenhang vollumfänglich zu verstehen, sind weiterhin der Vereinigungsapekt (Aufteilen in Teildreiecke) und der Maßzahlaspekt (um die Flächeninhaltsformel fürs Rechteck zu verstehen) nötig.<a href="5-erstes-intermezzo-flaecheninhalt.html#fnref6" class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p>Verwiesen wird auch auf ein <em>Gutachten über Mindestanforderungen an die Haltung von Säugetieren</em> vom <span class="citation"><a href="#ref-BundesministeriumfurErnahrungundLandwirtschaft2014" role="doc-biblioref">Bundesministerium für Ernährung und Landwirtschaft</a> (<a href="#ref-BundesministeriumfurErnahrungundLandwirtschaft2014" role="doc-biblioref">2014</a>)</span>.<a href="5-erstes-intermezzo-flaecheninhalt.html#fnref7" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p><span class="citation"><a href="#ref-Prediger2014" role="doc-biblioref">Prediger et al.</a> (<a href="#ref-Prediger2014" role="doc-biblioref">2014</a>)</span> bezeichnen diese Prozesse auch als <em>Kernprozesse</em> des Unterrichtens.<a href="5-erstes-intermezzo-flaecheninhalt.html#fnref8" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="4-grundvorstellungen.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="6-begriffsbildung.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/05-Erstes-Intermezzo.Rmd",
+"text": null
+},
+"download": ["Stoffdidaktik2021-Etzold.pdf"],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

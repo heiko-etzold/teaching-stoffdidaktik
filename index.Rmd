@@ -1,8 +1,8 @@
 ---
 title: "Stoffdidaktik Mathematik"
-description: "Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2021/22 an der Universität Potsdam bei Dr. Heiko Etzold"
+description: "Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold"
 author: "Dr. Heiko Etzold, Universität Potsdam"
-date: "Wintersemester 2021/22; letzte Änderung: `r format(Sys.time(), '%d.%m.%Y')`"
+date: "Wintersemester 2022/23; letzte Änderung: `r format(Sys.time(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
@@ -13,7 +13,7 @@ output:
         collapse: section 
         scroll_highlight: true
         before: 
-          <li><a href="index.html"><b>Stoffdidaktik Mathematik 2021/22</b></a></li>
+          <li><a href="index.html"><b>Stoffdidaktik Mathematik 2022/23</b></a></li>
         after:
           <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2022</li>
       sharing:
@@ -43,22 +43,23 @@ github-repo: "heiko-etzold/teaching-stoffdidaktik"
 url: "stoffdidaktik.heiko-etzold.de/"
 ---
 
-#  (PART\*) Einleitung {-}
-
 # Über dieses Dokument {-}
 
 Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments.
 
-## Aufbau des Dokuments {.unnumbered .unlisted}
+Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter https://stoffdidaktik.heiko-etzold.de/2021.
 
-In den Kapiteln \@ref(stoffdidaktik-mathematik-an-der-up) und \@ref(vier-ebenen-ansatz) werden die begrifflichen und inhaltlichen Grundlagen für den weiteren Verlauf des Skriptes gelegt. Angelehnt an die in Kapitel \@ref(vier-ebenen-ansatz) eingeführte theoretische Grundlage werden in den Kapiteln \@ref(fundamentale-ideen) bis \@ref(zweites-intermezzo-wurzel) einzelne Themen sowohl theoretisch als auch anhand von Praxisbeispielen näher beleuchtet. Die Kapitel \@ref(arbeitsmittel-analysieren) und \@ref(aufgaben-gestalten) legen noch einmal den Fokus auf die Gestaltung von Unterricht unter stoffdidaktischer Perspektive. Im Anhang \@ref(leitidee-zahl) bis \@ref(leitidee-daten-und-zufall) werden anhand der Leitideen bedeutsame Lerngegenstände aufgezählt und ausgewählte Begriffe und Zusammenhänge diskutiert. Anhang \@ref(seminar-und-hausarbeit) gibt Hinweise zum Seminar bzw. der Hausarbeit zur Veranstaltung.
+
+<!-- ## Aufbau des Dokuments {.unnumbered .unlisted} -->
+
+<!-- In den Kapiteln \@ref(stoffdidaktik-mathematik-an-der-up) und \@ref(vier-ebenen-ansatz) werden die begrifflichen und inhaltlichen Grundlagen für den weiteren Verlauf des Skriptes gelegt. Angelehnt an die in Kapitel \@ref(vier-ebenen-ansatz) eingeführte theoretische Grundlage werden in den Kapiteln \@ref(fundamentale-ideen) bis \@ref(zweites-intermezzo-wurzel) einzelne Themen sowohl theoretisch als auch anhand von Praxisbeispielen näher beleuchtet. Die Kapitel \@ref(arbeitsmittel-analysieren) und \@ref(aufgaben-gestalten) legen noch einmal den Fokus auf die Gestaltung von Unterricht unter stoffdidaktischer Perspektive. Im Anhang \@ref(leitidee-zahl) bis \@ref(leitidee-daten-und-zufall) werden anhand der Leitideen bedeutsame Lerngegenstände aufgezählt und ausgewählte Begriffe und Zusammenhänge diskutiert. Anhang \@ref(seminar-und-hausarbeit) gibt Hinweise zum Seminar bzw. der Hausarbeit zur Veranstaltung. -->
 
 
 ## Lizenz {.unnumbered .unlisted}
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.
 
-Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVausbilden), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:DefSenkrecht), \@ref(fig:OperativeGenese), \@ref(fig:GVVerinnerlichen), \@ref(fig:ACAT), \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig), \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis), \@ref(fig:DefinitionZufallsexperiment) und \@ref(fig:Modelle) -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
+Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel) und \@ref(fig:FreudenthalWinkelSpiegeln)<!--, \@ref(fig:GVausbilden), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:DefSenkrecht), \@ref(fig:OperativeGenese), \@ref(fig:GVVerinnerlichen), \@ref(fig:ACAT), \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig), \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis), \@ref(fig:DefinitionZufallsexperiment) und \@ref(fig:Modelle)--> -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
 
 
 ```{r echo=FALSE}

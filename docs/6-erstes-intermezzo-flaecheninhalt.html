@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Erstes Intermezzo: Flächeninhalt | Stoffdidaktik Mathematik" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="5-kontexte-kernideen-kernfragen.html"/>
+<link rel="next" href="A-seminar-und-hausarbeit.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2022/23</b></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="1" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i><b>1</b> Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i><b>1.1</b> Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="1.2" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i><b>1.2</b> Einordnung</a></li>
+<li class="chapter" data-level="1.3" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#lernziele-der-veranstaltung"><i class="fa fa-check"></i><b>1.3</b> Lernziele der Veranstaltung</a></li>
+<li class="chapter" data-level="1.4" data-path="1-stoffdidaktik-mathematik-an-der-up.html"><a href="1-stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i><b>1.4</b> Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="part"><span><b>Stoffdidaktische Analyse</b></span></li>
+<li class="chapter" data-level="2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>2</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#analyse-von-lerngegenständen"><i class="fa fa-check"></i><b>2.1</b> Analyse von Lerngegenständen</a></li>
+<li class="chapter" data-level="2.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#themen-der-vorlesung"><i class="fa fa-check"></i><b>2.2</b> Themen der Vorlesung</a></li>
+<li class="chapter" data-level="2.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>2.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>2.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>2.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>2.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>2.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="2.3.5" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#verknüpfung-der-ebenen"><i class="fa fa-check"></i><b>2.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>2.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html"><i class="fa fa-check"></i><b>3</b> Fundamentale Ideen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-begriffsklaerung"><i class="fa fa-check"></i><b>3.1</b> Begriffsklärung</a></li>
+<li class="chapter" data-level="3.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#auswahl-fundamentaler-ideen"><i class="fa fa-check"></i><b>3.2</b> Auswahl fundamentaler Ideen</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#kategorisierung"><i class="fa fa-check"></i><b>3.2.1</b> Kategorisierung</a></li>
+<li class="chapter" data-level="3.2.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#beispiel-linearitaet"><i class="fa fa-check"></i><b>3.2.2</b> Beispiel Linearität</a></li>
+<li class="chapter" data-level="3.2.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#gegenbeispiele"><i class="fa fa-check"></i><b>3.2.3</b> Gegenbeispiele</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fund.-ideen-und-stoffdidaktik"><i class="fa fa-check"></i><b>3.3</b> Fund. Ideen und Stoffdidaktik</a></li>
+<li class="chapter" data-level="3.4" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-nachbereitung"><i class="fa fa-check"></i><b>3.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html"><i class="fa fa-check"></i><b>4</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>4.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="4.1.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>4.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>4.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="4.3" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>4.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#natürliche-zahlen"><i class="fa fa-check"></i><b>4.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="4.3.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>4.3.2</b> Bruchzahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-kontexte-kernideen-kernfragen.html"><a href="5-kontexte-kernideen-kernfragen.html"><i class="fa fa-check"></i><b>5</b> Kontexte, Kernideen, Kernfragen</a></li>
+<li class="chapter" data-level="6" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html"><i class="fa fa-check"></i><b>6</b> Erstes Intermezzo: Flächeninhalt</a></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html"><i class="fa fa-check"></i><b>A</b> Seminar und Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#hausarbeit"><i class="fa fa-check"></i><b>A.1</b> Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="A.1.1" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#aufgabenstellung"><i class="fa fa-check"></i><b>A.1.1</b> Aufgabenstellung</a></li>
+<li class="chapter" data-level="A.1.2" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#bewertungskriterien"><i class="fa fa-check"></i><b>A.1.2</b> Bewertungskriterien</a></li>
+<li class="chapter" data-level="A.1.3" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#formale-hinweise"><i class="fa fa-check"></i><b>A.1.3</b> Formale Hinweise</a></li>
+</ul></li>
+<li class="chapter" data-level="A.2" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#seminarvortrag"><i class="fa fa-check"></i><b>A.2</b> Seminarvortrag</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="vollständiges-literaturverzeichnis.html"><a href="vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i>Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2022</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="erstes-intermezzo-flaecheninhalt" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Erstes Intermezzo: Flächeninhalt<a href="6-erstes-intermezzo-flaecheninhalt.html#erstes-intermezzo-flaecheninhalt" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Inhalte folgen …</em></p>
+<!-- > **Lernziele**   -->
+<!-- >   -->
+<!-- > + Sie vertiefen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere auf der formalen und semantischen Ebene. -->
+<!-- > + Sie verknüpfen Ihr Wissen über Fundamentale Ideen und Grundvorstellungen am Beispiel des Flächeninhaltsbegriffs. -->
+<!-- >   -->
+<!-- > **Material**   -->
+<!-- >   -->
+<!-- > + Folien zur Vorlesung zum Ersten Intermezzo ([pdf](files/Stoffdidaktik-WiSe2122-Kap5.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap5.key)) -->
+<!-- In diesem Kapitel werden Fundamentale Ideen und Grundvorstellungen im Zusammenhang mit dem Flächeninhaltsbegriff diskutiert. Ein Schulbuchkapitel zum Flächeninhaltsbegriff bietet die Motivation, die <span style='color: #00A2FF;'>formale</span> und <span style='color: #1DB100;'>semantische</span> Ebene des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) zu diskutieren und einen ersten Ausblick auf die <span style='color: #EE220C;'>konkrete</span> und <span style='color: #F8BA00;'>empirische</span> Ebene zu geben. -->
+<!-- In dem Sinne wird also existierendes Material analysiert und hinsichtlich der mathematikdidaktischen Theorie reflektiert. Ein solches Vorgehen wäre auch für Ihren Seminarvortrag bzw. die Hausarbeit im Rahmen dieser Veranstaltung möglich -- dann natürlich etwas ausführlicher, als hier dargestellt. -->
+<!-- ## Darstellung im Schulbuch  -->
+<!-- In dem Schulbuch *Mathewerkstatt* [@Barzel2012] wird der Flächeninhalt über den Kontext von Tiergehen eingeführt (siehe Abbildung \@ref(fig:Tiergehege)). So haben in einem Zoo verschiedene Tiere unterschiedlich große Gehe zur Verfügung. Die Form der Gehege variiert dabei ebenfalls. -->
+<!-- (ref:citeTiergehege) Einstiegsbild zum Thema Flächeninhalt [@Barzel2012 {168 f.}] -->
+<!-- ```{r Tiergehege, echo=FALSE, fig.cap="(ref:citeTiergehege)", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/5-Tiergehege.jpg") -->
+<!-- ``` -->
+<!-- Die Schülerinnen und Schüler werden nun in einer Erkundungsphase vor die Aufgabe gestellt, die Gehegegrößen miteinander zu vergleichen sowie möglichst geschickt die Größe eines Geheges messen zu können.  -->
+<!-- Anschließend erfolgen Ordnungs- und Vertiefungsphasen, in denen das Wissen struktruiert und geübt wird. Das Schulbuch wird durch einen Materialblock begleitet [@Barzel2012b], was in diesem Fall insbesondere dem Auseinanderschneiden und Zusammenlegen bzw. dem Auslegen von Flächen dienen soll. Weiterhin gibt es für Lehrerinnen und Lehrer ein ausführliches Begleitmaterial [@Barzel2012a], in dem alle Seiten des Schulbuches sowie fachdidaktische Hintergründe zur Thematik erläutert sind. -->
+<!-- ## Formale Ebene -->
+<!-- > Welche Begriffe und Sätze sollen erarbeitet werden?   -->
+<!-- > Welche Verfahren sollen erarbeitet werden und wie werden sie formal begründet?   -->
+<!-- > Wie lassen sich die Begriffe, Sätze, Begründungen und Verfahren logisch strukturieren?   -->
+<!-- > Welche Verbindungen zwischen den Fachinhalten sind entscheidend, welche weniger bedeutsam?   -->
+<!-- > Wie kann das Netzwerk aus Begriffen, Sätzen, Begründungen und Verfahren entwickelt werden? -->
+<!-- Fachmathematisch kann der Flächeninhalt einer Figur als ein **nichtnegatives Maß** aufgefasst werden, wobei zwei **zueinander kongruenten Figuren dasselbe Maß** zugeordnet wird und der Flächeninhalt einer Figur gleich der **Summe der Flächeninhalte ihrer Teilfiguren** ist, sofern zerlegbar. Hinzu wird das Flächeninhaltsmaß eines Quadrates der Seitenlänge 1 LE auf 1 LE<sup>2</sup> festgelegt [vgl. @Kuntze2018 161]. -->
+<!-- Dies ist eine **axiomatische Herangehensweise**, die sich für Schülerinnen und Schüler in der Regel als herausfordernd darstellt [@Kuntze2018 162]. Häufig wird eine umschreibende Definition genutzt, wie: *Der Flächeninhalt einer Fläche gibt an, wie groß diese ist.* Dabei ist jedoch die mögliche Mehrdeutigkeit dieser Formulierung zu beachten -- so könnte auch der Umfang einer Figur als Maß für ihre *Größe* aufgefasst werden, da der Größenbegriff in dem Fall unspezifisch ist.  -->
+<!-- Ob nun eine explizite Definition gewählt wird oder nicht -- dies ist auch abhängig von der persönlichen Einstellung der Lehrkraft und den Voraussetzungen der Lerngruppe -- in jedem Fall ist ein tragfähiges mathematisches Verständnis aufzubauen. Hierzu können die in den Axiomen enthaltenen Eigenschaften über sinnvolle **Lernhandlungen** aufgebaut werden [siehe auch @Worner2014 {1328 f.}]: -->
+<!-- - Vergleichen verschiedener Flächen durch Zerlegen, Ergänzen und Übereinanderlegen -->
+<!-- - Bestimmen des Maßes einer Fläche über Auszählen mittels eines Vergleichsmaßes -->
+<!-- - Nutzen eines quadratischen Vergleichsmaßes, in der Regel 1 cm<sup>2</sup> -->
+<!-- All diese Überlegungen kommen zunächst **ohne Formeln** aus, weshalb diese im Unterricht auch erst im Anschluss an eine inhaltliche Erarbeitung des Flächeninhaltsbegriffs eingeführt und genutzt werden sollten.  -->
+<!-- Fachsystematisch entscheidend ist, dass ein **Flächenvergleich zunächst ohne ein explizites Maß** möglich ist -- hierfür reichen die Kongruenzeigenschaft und das Zerlegen/Ergänzen von Flächen aus. Das Vergleichsmaß ist dann relevant, wenn man den **Flächeninhalt mithilfe einer Zahl objektivieren** bzw. ohne eine explizite Vergleichsfigur auskommen möchte.  -->
+<!-- Interessant ist hier auch die ***Willkürlichkeit* des Vergleichsmaßes**. Kulturell geprägt ist hier (in Kontinentaleuropa) zwar beispielsweise 1 cm<sup>2</sup>, aber auch andere Einheiten sind gleichberechtigt möglich. Auch muss das Vergleichsmaß nicht zwingend ein Quadrat sein. Nicht selten wird z. B. von großen Flächen angegeben, wie viele Fußballfelder in sie hineinpassen würden. Für den Unterricht bedeutet das, dass im Sinne einer auf den mathematischen Kern orientierten Sichtweise zunächst möglichst allgemeine und vielfältige (auch *unförmige*) Vergleichsflächen herangezogen werden können. Später ist dann natürlich ein Bezug zu den Standardeinheiten herzustellen (siehe Abbildung \@ref(fig:FlaecheEinheiten)). -->
+<!-- (ref:citeFlaecheEinheiten) Standardeinheiten typischer Vergleichsflächen [@Lambacher2010 193] -->
+<!-- ```{r FlaecheEinheiten, echo=FALSE, fig.cap="(ref:citeFlaecheEinheiten)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/5-Einheiten.jpeg") -->
+<!-- ``` -->
+<!-- ## Semantische Ebene -->
+<!-- > Welche Fundamentalen Ideen liegen hinter den Begriffen, Sätzen und Verfahren?   -->
+<!-- > Welche Grundvorstellungen und Repräsentationen (graphisch, verbal, numerisch und algebraisch) sind für den Verständnisaufbau entscheidend?   -->
+<!-- > Wie verhalten sich Ideen und Vorstellungen zueinander und zu früheren und späteren Lerninhalten?   -->
+<!-- > Wie kann ein Lernpfad angeordnet werden, in dem das Verständnis, zusammen mit den Erkenntnissen der formalen Ebene, aufgebaut wird? -->
+<!-- ### Fundamentale Idee Messen -->
+<!-- Dem Flächeninhaltsbegriff liegt zweifelsohne die Fundamentale Idee des *Messens* zugrunde. @Vohns:2000 [{52 ff.}] stellt ausführlich dar, warum das Messen als Fundamentale Idee aufgefasst werden kann, worauf in diesem Abschnitt Bezug genommen wird. Besondere Betonung legt @Vohns:2000 [49] darauf, dass Messen »der indirekte Vergleich von Objekten in bezug [sic] auf eine bestimmte Eigenschaft« ist. -->
+<!-- *Horizontal* zieht sich dies über viele Gebiete der Mathematik hinweg (z. B. Messprozesse in der Geometrie, Maßzahlaspekt von Brüchen in der Arithmetik, Erwartungswert als Lagemaß in der Stochastik, Integral in der Analysis), aber auch darüber hinaus ist das Messen von hoher Relevanz (z. B. Messprozesse in der Physik, quantitative Studien in den Sozialwissenschaften, Pulsmessung in der Medizin). Damit wird auch das *Sinnkriterium* der Fundamentalen Idee offensichtlich. -->
+<!-- Das *Vertikalkriterium* zeigt sich beispielsweise in der Längenbestimmung in der Grundschule, Flächeninhaltsbestimmung in der Orientierungsstufe, bei Verwandlungen von Flächen (z. B. beim Beweis des Satzes des Pythagoras) bzw. der Approximation von Flächen (z. B. Bestimmen des Kreisflächeninhalts) bis hin zum Integralbegriff als verallgemeinerter Flächeninhalt. -->
+<!-- *Historisch* ist das Messen ebenfalls in vielen Epochen der Mathematik bedeutsam, worauf typische Wortwendungen wie *Alles ist Zahl!* (bei den Pythagoräern), *Die Vermessung der Welt* (mit der Methode der Triangulation) oder die *Quadratur des Kreises* (als klassisches Problem der Geometrie) hindeuten. Auch die Vereinheitlichung von Maßeinheiten (z. B. SI-Einheiten) zeigt die Bedeutsamkeit des Messens für die wissenschaftliche Entwicklung. -->
+<!-- ### GV zum Flächeninhalt -->
+<!-- Die folgenden Überlegungen sind empirisch nicht abgesichert, sondern vorwiegend theoretischer Natur. Ansatzpunkt ist ein Beitrag von @Worner2014. Setzt man die dortigen Darstellungen genauer mit der Definition \@ref(def:Grundvorstellungen) von Grundvorstellungen in Bezug, lassen sich (meiner Meinung nach) Grundvorstellungen zu drei Aspekten des Flächeninhaltsbegriffs formulieren: -->
+<!-- - **Maßzahlaspekt**: Flächeninhalt einer Figur als nichtnegative Maßzahl, die mittels normierter Flächeninhaltsmaße bestimmt wird -->
+<!-- - **Vereinigungsaspekt**: Flächeninhalt einer Figur als Summe der Flächeninhalte der Teilfiguren, aus denen sich die Figur zusammensetzen lässt -->
+<!-- - **Kongruenzaspekt**: Flächeninhalt einer Figur als invariante Eigenschaft gegenüber Kongruenzabbildungen -->
+<!-- Für jeden dieser Aspekte sollen nun Handlungserfahrungen, Repräsentationen und mögliche Anwendungen auf die Realität diskutiert werden. Weiterhin werden einige Operationen mit Flächeninhalten besprochen. -->
+<!-- #### Maßzahlaspekt -->
+<!-- Eine Erfahrung, die die Grundvorstellung zu diesem Aspekt stützt, ist das Auslegen von Flächen mittels normierter Flächenstücke, wie z. B. Quadrate. Hieraus kann die Erfahrung gewonnen werden, dass die Anzahl der Quadrate direkt den Flächeninhalt (mit der entsprechenden Einheit) angibt.  -->
+<!-- Als Repräsentation kann hierfür einfaches Kästchenpapier dienen, auf das die auszumessende Fläche gemalt wird (siehe Abbildung \@ref(fig:FlaecheMasszahl)). Daran kann man das Abzählen der normierten Flächenstücke durchführen bzw. sich vorstellen. Insbesondere können daran auch Verfeinerungen (und damit genaueres Messen) nachvollzogen werden. -->
+<!-- ```{r FlaecheMasszahl, echo=FALSE, fig.cap="Repräsentation des Maßzahlaspektes", fig.align='center', out.width='25%'} -->
+<!-- knitr::include_graphics("pictures/5-Masszahl.png") -->
+<!-- ``` -->
+<!-- Eine mögliche Anwendung in der Realität ist das Bestimmen der Größe eines Fußballfeldes. Hier kann man die Länge und Breite in Metern messen, um zu bestimmen, wie viele Quadratmeter in das Feld passen. Dies wird dann zwar nicht über tatsächliches Auslegen realisiert, aber es wird (bei Verwendung der Rechteckinhaltsformel) auf die entsprechende Vorstellung Bezug genommen. -->
+<!-- #### Vereinigungsaspekt  -->
+<!-- Zur Grundvorstellung des Vereinigungsaspektes gehört die Erfahrung, Flächen auseinanderzuschneiden und neu zusammenzulegen, um ihren Flächeninhalt bestimmen bzw. die Größe zweier Flächen miteinander vergleichen zu können. -->
+<!-- Die Schnittlinien können bspw. durch gestrichelte Linien repräsentiert werden, so dass die Handlungserfahrung hier in der Vorstellung nachvollzogen werden kann (siehe Abbildung \@ref(fig:FlaecheVereinigung)). -->
+<!-- ```{r FlaecheVereinigung, echo=FALSE, fig.cap="Repräsentation des Vereinigungsaspektes", fig.align='center', out.width='25%'} -->
+<!-- knitr::include_graphics("pictures/5-abb-Vereinigung.png") -->
+<!-- ``` -->
+<!-- Möchte man die Größe eines Landes bestimmen, so ist es in der Regel notwendig, dieses in geeignete Flächenstücke zu zerlegen, deren Flächeninhalte einfacher berechnet werden können. Dies ist also eine mögliche Anwendung in der Realität. Je nach Komplexität der Figur (und ggf. zusätzlichen geometrischen Überlegungen) können so auch Flächeninhaltsformeln gefunden werden (was schon eine innermathematische Anwendung ist).  -->
+<!-- #### Kongruenzaspekt -->
+<!-- Wer hat größere Hände? Um diese Frage zu beantworten, ist eine typische Erfahrung, die Hände aneinanderzulegen und ihre Größen zu vergleichen. Dabei wird die Vorstellung genutzt, dass zueinander kongruente Figuren den gleichen Flächeninhalt haben. -->
+<!-- Eine Repräsentation, die dabei unterstützt, im Kongruenzaspekt zu operieren, kann in der Teilung oder *Ummantelung* von Figuren mittels zueinander kongruenter Figuren liegen (siehe Abbildung \@ref(fig:FlaecheKongruenz)). Dies ist z. B. bei der Herleitung der Flächeninhaltsformel für ein Dreieck sinnvoll, um zu erkennen, dass dieser der Hälfte des Flächeninhalts des umschriebenen Rechtecks entspricht^[Um diesen Zusammenhang vollumfänglich zu verstehen, sind weiterhin der Vereinigungsapekt (Aufteilen in Teildreiecke) und der Maßzahlaspekt (um die Flächeninhaltsformel fürs Rechteck zu verstehen) nötig.].    -->
+<!-- ```{r FlaecheKongruenz, echo=FALSE, fig.cap="Repräsentation des Kongruenzaspektes", fig.align='center', out.width='25%'} -->
+<!-- knitr::include_graphics("pictures/5-Kongruenz.png") -->
+<!-- ``` -->
+<!-- Eine (innermathematische) Anwendung dieser Vorstellung könnte zum Beispiel bei der Berechnung des Oberflächeninhalts eines Primas liegen, wo die Flächeninhalte von Grund- und Deckfläche i. d. R. nicht einzeln berechnet werden, sondern einer der Flächeninhalte wegen der Kongruenz einfach verdoppelt wird. -->
+<!-- #### Operieren mit Flächeninhalten -->
+<!-- Für unterschiedliche Operationen, die mit Flächeninhalten durchgeführt werden, können nun in unterschiedlicher Weise die Grundvorstellungen zu den Aspekten aufgegriffen und genutzt werden: -->
+<!-- - Um Flächeninhalte direkt miteinander zu **vergleichen**, sind der Vereinigungs- und Kongruenzaspekt relevant, da die Flächen ggf. neu aufgeteilt werden müssen und dann mittels Übereinanderlegen gegeneinander abgeschätzt werden können.  -->
+<!-- - Um die **Flächeninhaltsformel eines Rechtecks** zu begründen, benötigt es den Maßzahlaspekt, da das Abzählen einbeschriebener Vergleichsquadrate wesentlich ist. Dies hängt auch eng mit der Grundvorstellung der Multiplikation als Rechteckflächeninhalt zusammen (siehe Abbildung \@ref(fig:Bruchmultiplikation)). -->
+<!-- - Für die **Flächeninhaltsformel des Dreiecks** sind wieder Kongruenz- und Vereinigungsaspekt relevant, da das Dreieck geeignet zerlegt und mit dem umschriebenen Rechteck verglichen werden muss (siehe Abbildung \@ref(fig:FlaecheKongruenz)). Da Bezug zur Rechteckformel genommen wird, ist natürlich auch der Maßzahlaspekt relevant.  -->
+<!-- - Um **Flächeninhalte zu approximieren**, wie z. B. den eines Kreises (siehe Abbildung \@ref(fig:FlaecheKreis)), benötigt es wieder alle drei Vorstellungen. So kann der Kreis in zueinander kongruente Teilflächen zerlegt werden (Kongruenz- und Vereinigungsaspekt), deren Gesamtflächeninhalt dann über die Rechteckformel näherungsweise bestimmt wird (Maßzahlaspekt).  -->
+<!-- ```{r FlaecheKreis, echo=FALSE, fig.cap="Approximation des Kreisflächeninhalts", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/5-abb-Kreis.png") -->
+<!-- ``` -->
+<!-- - Bei der **Bestimmung von Oberflächeninhalten** von Körpern, werden der Vereinigungsaspekt für die einzelnen Seitenflächen und ggf. der Kongruenzaspekt angesprochen, wenn es zueinander kongruente Seitenflächen gibt (wie z. B. bei Prismen), deren Flächeninhalte dann  mit der entsprechenden Anzahl multipliziert und nicht einzeln ausgerechnet werden.  -->
+<!-- ### Auswirkungen auf Lernpfad -->
+<!-- Der Lernpfad des Schulbuches greift diese Fundamentale Idee und die Grundvorstellungen auf, indem zunächst Flächeninhalte (durch Ausseinanderschneiden und Zusammenfügen) miteinander verglichen werden, anschließend das Auslegen mit normierten Flächenstücken erfolgt und daraufhin geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsberechnung eines Rechtecks behandelt wird. -->
+<!-- Die formale und empirische Ebenen wurden hier getrennt dargestellt, was jedoch für eine stoffdidaktische Analyse gar nicht zwingend nötig ist. Entscheidend ist, dass Sie den ganzheitlichen Blick auf die aufgeworfenen Fragen haben und diese (zumindest in Teilen) beantworten können. Die getrennte Darstellung dient hier noch der Übersicht für Sie als *Anfängerinnen und Anfänger* im Umgang mit stoffdidaktischen Analysen -- auch wenn darauf verzichtet wurde, die einzelnen Fragen schrittweise explizit zu beantworten. -->
+<!-- ## Ausblick auf konkrete Ebene -->
+<!-- > Welche Kernfragen und Kernideen können die Entwicklung der Begriffe, Sätze und Verfahren leiten?   -->
+<!-- > Welche Kontexte und Probleme sind geeignet, um an ihnen die Kernfragen und -ideen exemplarisch zu behandeln und die Inhalte zu rekonstruieren?   -->
+<!-- > Wie kann das Verständnis sukzessive über konkrete Situationen in den beabsichtigten Lernpfaden konstruiert werden (horizontale Mathematisierung)?   -->
+<!-- > Wie können die Lernpfade in Bezug auf die Problemstruktur angeordnet werden (vertikale Mathematisierung)? -->
+<!-- Als **Kontext** wählt das Schulbuch den Platzbedarf bei **Tiergehegen im Zoo.** Dieser Kontext ist aus mehreren Gründen besonders gut geeignet: -->
+<!-- - In der Regel interessiert tatsächlich nur der Flächeninhalt des Geheges. Inhaltliche Verwechslungen mit dem Umfang oder dem Volumen können damit reduziert werden.   -->
+<!-- - Es ist aus dem Kontext heraus sinnstiftend, die Größe der Gehege miteinander zu vergleichen, da verschiedene Tiere einen unterschiedlichen Platzbedarf haben.^[Verwiesen wird auch auf ein *Gutachten über Mindestanforderungen an die Haltung von Säugetieren* vom @BundesministeriumfurErnahrungundLandwirtschaft2014.]  -->
+<!-- - Verschiedene Formen der Tiergehege lassen sich nutzen, um verschiedene Vergleichsstrategien zu motivieren. So können z. B. Flächen zerlegt und neu zusammengesetzt werden, runde Formen angenähert werden und durch das Ausschneiden der Figuren ist ein Übereinanderlegen möglich. -->
+<!-- Dabei werden zwei **Kernideen** aufgegriffen [@Barzel2012a {359 f.}]:   -->
+<!-- - Eine besteht im **Vergleich der Flächeninhalte** der verschiedenen Gehege. Dieses aus dem Kontext heraus begründbare Vorgehen führt im mathematischen Sinne zum Bedürfnis, Flächen zu vermessen, um sie miteiander vergleichen zu können.   -->
+<!-- - Die zweite Kernidee ist das **geschickte Bestimmen eines Flächeninhalts**, wofür zunächst mittels Kästchenpapier das Auszählen von Flächen mit unterschiedlicher Genauigkeit diskutiert wird,  anschließend geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsformel des Rechtsecks behandelt wird. -->
+<!-- Diese Ideen werden jeweils über die Prozesse des Erkunden, Ordnens und Vertiefens realisiert. Durch dieses Vorgehen^[@Prediger2014 bezeichnen diese Prozesse auch als *Kernprozesse* des Unterrichtens.] wird das Verständnis sukzessive aufgebaut. Es wird Bestandteil der weiteren Veranstaltung der Stoffdidaktik sein, wie zu mathematischen Inhaltsbereichen geeignete Kontexte und Kernideen bzw. Kernfragen gefunden werden können, die den Lernpfad anschließend leiten. -->
+<!-- ## Ausblick auf empirische Ebene -->
+<!-- > Welche typischen individuellen Voraussetzungen (Vorstellungen, Kenntnisse, Kompetenzen, …) sind zu erwarten und wie passen diese zum angestrebten Verständnis (Ressourcen vs. Hindernisse)?   -->
+<!-- > Woher kommen typische Hindernisse oder unerwünschte Vorstellungen?   -->
+<!-- > Wie können typische Vorkenntnisse und Vorstellungen als fruchtbare Anknüpfungspunkte dienen?   -->
+<!-- > Welche Schlüsselstellen (Hindernisse, Wendepunkte, …) gibt es im Lernweg der Schülerinnen und Schüler?   -->
+<!-- > Wie kann der angestrebte Lernpfad bezüglich der Anknüpfungspunkte und Schlüsselstellen neu angeordnet werden? -->
+<!-- @Kuntze2018 [{159 f.}] verweist auf typische Schwierigkeiten von Schülerinnen und Schülern im Umgang mit dem Flächeninhaltsbegriff.  -->
+<!-- So kommt es häufig zu einer Verwechslung zwischen Längenmaßen, Flächeninahlten und Volumina. Eine Ursache wird v. a. in der frühzeitigen kalkülhaften Herangehensweise gesehen, Flächeninhalte über Formeln berechnen zu müssen. So fehlt ein tiefergehendes Begriffsverständnis und die Formeln können nicht sinnstiftend genutzt werden. Dem kann u. a. dadurch begegnet werden, indem bewusst die Zusammenhänge hergestellt werden, z. B. zwischen Umfang und Flächeninhalt. -->
+<!-- Letztlich zeigen empirische Erhebungen, dass Kinder mit einem vertieften Verständnis über Flächeninhalte auch besser in der Lage sind, entsprechende Formeln anzuwenden [@Worner2014 1330]. -->
+<!-- Weiterhin besteht wegen der Wortverwandtschaft von *Fläche* und *Flächeninhalt* die Gefahr, dass entsprechende Vorstellungen nicht aufgebaut werden, insbesondere dann, wenn die Begriffe (zumindest von der Lehrkraft) nicht sauber getrennt verwendet werden. Die Fläche ist die Figur an sich und wird über ihre *Form* bestimmt. Der Flächeninhalt ist ein *Maß* für die Größe der Figur [vgl. @Barzel2012a 362]. Insbesondere für Schülerinnen und Schüler, deren Muttersprache nicht Deutsch ist, kann die fehlerhafte Verwendung dieser feinen Unterschiede hinderlich dabei sein, dem Unterricht zu folgen. -->
+<!-- Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z. B. strikte sprachliche Trennung) oder explizit thematisiert (z. B. verbindende und vergleichende Behandlung mit dem Umfang von Figuren), so dass auch dies wieder die Gestaltung des Lernpfades beeinflusst. -->
+<!-- ## Zum Nachbereiten {#erstesintermezzo-nachbereitung} -->
+<!-- 1. Diskutieren Sie zu weiteren typischen Operationen mit Flächeninhalten, welche Grundvorstellungen dafür aufgegriffen und genutzt werden. -->
+<!-- 2. Finden Sie einen alternativen Kontext (statt den Zoogehegen), der geeignet ist, die Kernideen so aspektreich durchzuarbeiten. -->
+
+<!-- # Lehr-Lern-Prozesse -->
+<!-- > **Lernziele** -->
+<!-- > -->
+<!-- > + Sie kennen Grundideen der Tätigkeitstheorie. -->
+<!-- > + Sie kennen die Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten und können diese mit der konkreten Ebene des Vier-Ebenen-Ansatzes und der Ausbildung von Grundvorstellungen in Bezug bringen. -->
+<!-- > + Sie sind sich der Herausforderungen im Finden von Kontexten und Kernideen bewusst. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zu Lehr-Lern-Prozessen ([pdf](files/Stoffdidaktik-WiSe2122-Kap7.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap7.key)) -->
+<!-- In diesem Kapitel sollen Grundideen der *Tätigkeitstheorie* aufgegriffen und mit der konkreten Ebene des Vier-Ebenen-Ansatzes in Bezug gebracht werden. Ziel ist es, Lernprozesse (insbesondere zur Begriffsbildung) aus theoretischer Perspektive zu beschreiben und daraus Rückschlüsse auf die Gestaltung von Unterricht abzuleiten. Die Tätigkeitstheorie ist dabei nur *eine* Möglichkeit, Lernen zu beschreiben -- und wird hier insbesondere aufgrund des entsprechenden Forschungsschwerpunktes an der Universität Potsdam gewählt. -->
+<!-- ## Tätigkeitstheoretische Sicht -->
+<!-- ### Grundannahmen -->
+<!-- Eine Grundannahme der Tätigkeitstheorie ist das Verständnis, dass sich Individuen aktiv-handelnd mit ihrer Umwelt auseinandersetzen, die Umwelt dabei in der Interaktion mit der Gesellschaft verändern, und beide Prozesse wiederum psychisch im Individuum abgebildet werden. Dies widerspricht bspw. der *behavioristischen* Annahme, dass man sich seiner Umwelt einfach nur anpasst, aber es ist auch nicht mit der *konstruktivistischen* Annahme zu verwechseln, nach der Individuen ein Abbild der Umwelt kognitiv rekonstruieren. Die Tätigkeitstheorie kann  eher als »(moderat) konstruktivistische[r][..] Ansatz« bezeichnet werden [@Giest2016a 47]. -->
+<!-- Weiterhin besteht die Annahme, dass Lernprozesse niemals direkt zwischen einem Individuum (dem **Subjekt**) und dem zu betrachtenden Lerngegenstand (dem **Objekt**) erfolgen, sondern dies stets über ein **vermittelndes Werkzeug** geschieht. Ein solches Werkzeug kann eine Geste sein, die Sprache (ein sogenanntes *psychisches Werkzeug*), Abbildungen und Skizzen, aber eben auch *echte* Werkzeuge wie Maschinen, Geräte und andere Hilfsmittel. -->
+<!-- ```{r SubjektObjekt, echo=FALSE, fig.cap="Werkzeuge als Vermittler in der Tätigkeitstheorie", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/7-SubjektObjekt.png") -->
+<!-- ``` -->
+<!-- Durch die Nutzung eines geeigneten Werkzeugs ist das Subjekt damit also einerseits in der Lage, sein eigenes Wissen zu *externalisieren*, d. h. das Werkzeug zielgerichtet so einzusetzen, dass auf das Objekt eingewirkt werden kann. Andererseits kann das Werkzeug auch dabei helfen, Eigenschaften des Objekts zu *internalisieren*, indem die Werkzeugnutzung dazu führt, dass das Subjekt Wissen über das Objekt aufbaut. -->
+<!-- Für die Gestaltung von Mathematikunterricht ist nun von besonderem Interesse, welche Werkzeuge bei bestimmten Begriffen geeignet sind bzw. wie diese auszusehen haben, um den Begriffserwerb zu unterstützen. Die Tätigkeitstheorie ist noch deutlich komplexer als hier in wenigen Zeilen dargestellt. Eine übersichtliche Einführung bietet z. B. @Giest2016a, speziell für die Werkzeuggestaltung im Mathematikunterricht siehe auch @Etzold2021. -->
+<!-- ### Gestaltung von Lehr-Lern-Prozessen -->
+<!-- Nach einer ausführlicheren theoretischen Betrachtung schlägt @Lompscher1983a [{77 f.}] für die Gestaltung von Lehr-Lern-Prozessen folgende Abfolge vor: -->
+<!-- 1. Zunächst einmal sollte den Schülerinnen und Schülern eine Anforderungssituation in ihrer **Zone der nächsten Entwicklung** (ZdnE) präsentiert werden. Dies ist eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihres bisherigen Wissens und Könnens verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht in der Lage sind. Damit soll eine Motivation geschaffen werden, sich mit der Thematik tiefer auseinanderzusetzen. Es ist durchaus möglich, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen. Daran ist besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« [@Lompscher1996 4]. -->
+<!-- 2. Anschließend werden gemeinsam mit der Lehrkraft **Lernziele** herausgearbeitet, die den weiteren Verlauf des Lernens strukturieren sollen. Wichtig ist hier eine Unterscheidung zu *Lehrzielen*, die die Sicht der Lehrkraft widerspiegeln. *Lernziele* dagegen sind die Ziele aus Sicht der Schülerinnen und Schüler, auf die sich im individuellen Lernprozess auch bezogen werden können muss. Es bietet sich daher auch eine explizite Formulierung der Lernziele an. -->
+<!-- 3. Nun wird durch den **Aufbau von Lernhandlungen** auf den Lerngegenstand eingewirkt. Lernhandlungen sind nach @Lompscher1983 [46] »relativ geschlossene und abgrenzbare, zeitlich und logisch strukturierte Abschnitte im Verlauf der Lerntätigkeit, die ein konkretes Lernziel realisieren, durch bestimmte Lernmotive angetrieben werden und entsprechend den konkreten Lernbedingungen durch den Einsatz äußerer und verinnerlichter Lernmittel in einer jeweils spezifischen Folge von Teilhandlungen vollzogen werden.« Konkreter lässt sich dies auch nicht wirklich beschreiben -- je nach Lerngegenstand sind von der Lehrkraft geeignete Lernhandlungen zu identifizieren. Entscheidend ist, dass die Lernhandlungen das Wesen des Lerngegenstands repräsentieren, damit über sie das Wissen aufgebaut werden kann. -->
+<!-- 4. Um nun den Lerngegenstand (also das *Objekt*) psychisch (im *Subjekt*) abbilden zu können, ist eine **Verinnerlichung der Lernhandlungen** nötig. Nach Gal'perin bietet sich hierfür eine *etappenweise Verinnerlichung* an [vgl. @Lompscher1983a {66 f.}]: -->
+<!--     * **Etappe der materiellen bzw. materialisierten Handlung** -->
+<!--         Die Handlungen werden mit dem konkreten Material bzw. Repräsentationen durchgeführt. -->
+<!--     * **Etappe der sprachlichen Handlung** -->
+<!--         Die Handlungen werden nicht mehr direkt durchgeführt, aber durch äußeres (oder inneres) Sprechen beschrieben. Dabei wird i. d. R. Bezug auf die vorherigen Handlungen genommen. -->
+<!--     * **Etappe der geistigen Handlung**   -->
+<!--         Die Handlungen werden nun rein kognitiv durchgeführt und bedürfen weder des Materials noch der Sprache. -->
+<!-- 5. Darauf aufbauend ist nun das **Lösen von Aufgaben** möglich, die zu einer weiteren Verankerung des neu erworbenen Wissens führen sollen.  -->
+<!-- Insbesondere für die Bildung von Begriffen bietet sich für den Aufbau von Lernhandlungen und ihre Verinnerlichung das im folgenden Abschnitt beschriebene Vorgehen an: -->
+<!-- ### Aufsteigen vom Abstrakten zum Konkreten -->
+<!-- Die sogenannte Lehrstrategie des **Aufsteigens vom Abstrakten zum Konkreten** (siehe Abbildung \@ref(fig:Aufsteigen)) kann als Abwandlung einer Mischung zwischen induktivem und deduktivem Vorgehen angesehen werden. -->
+<!-- (ref:citeAufsteigen) Aufsteigen vom Abstrakten zum Konkreten [vgl. @Etzold2021 83] -->
+<!-- ```{r Aufsteigen, echo=FALSE, fig.cap="(ref:citeAufsteigen)", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/7-AK.png") -->
+<!-- ``` -->
+<!-- Für die Einführung eines mathematischen Begriffs wird ein konkretes Ausgangsbeispiel gewählt, an dem das Wesen des Begriffs besonders gut deutlich wird. An diesem **Ausgangskonkretum** werden Lernhandlungen erarbeitet, die sich zwar am Beispiel orientieren, aber verallgemeinern lassen, sodass sie dem Begriffsaufbau dienlich sind.  -->
+<!-- Im Anschluss wird, mit Unterstützung der Lehrkraft, das Wesen des Begriffs herausgearbeitet und in Form einer **Ausgangsabstraktion** formuliert. Dieses Vorgehen ist vergleichbar mit dem induktiven Begriffserwerb, allerdings wird nicht aus einer Vielzahl von Beispielen eine gemeinsame Eigenschaft eliminiert, sondern am charakteristischen Beispiel wird die Eigenschaft durch eine *wissende Person* (Lehrkraft) in Bezug auf die Handlungserfahrungen der Schülerinnen und Schüler dargestellt. Dieser Prozess wird unterstützt mithilfe von **Lernmodellen** -- als »sinnliche Stützen geistigen Handelns« [@Giest2006 225]. Dies können Zeichnungen, strukturierte Darstellungen, digitale Anwendungen usw. sein, die das Wesen des Begriffs beeinhalten und erlebbar machen, wie man zu diesem Wesen gelangen kann. -->
+<!-- Der dritte Schritt, das eigentliche *Aufsteigen vom Abstrakten zum Konkreten*, ist nun das Abarbeiten von **Konkretisierungsreihen**. Hierzu werden weitere Beispiele für den Begriff betrachtet, auf die das Ausgangsabstraktum angewandt wird. Das Lernmodell dient dabei als Mittler und die Lernhandlungen werden in verallgemeinerter und ggf. auch modifizierter Form angewandt. Erst auf diese Weise ist ein echtes *Durchdringen* des Begriffs möglich. Dieses Vorgehen ist mit dem deduktiven Vorgehen vergleichbar, allerdings nicht im dem Sinne, dass aus einer Definition heraus die Beispiele generiert werden. Vielmehr wird auf gegebene Beispiele die Definition angewandt, ausgeschärft und damit der Begriff immer besser verstanden. -->
+<!-- Bereits in Abschnitt \@ref(konkrete-ebene) wurde das Beispiel des Begriffs *Winkelfeld* kurz dargestellt. Das *Ausgangskonkretum* waren dort Sichtfelder von Tieren, da an diesen die Feld-Eigenschaft eines Winkelfeldes in besonderer Weise deutlich wird und auch die weiteren Bestandteile des Winkelfeldes (Scheitelpunkt, Schenkel) eine bedeutsame reale Entsprechung (Kopf des Tieres, Begrenzung des Sichtfeldes) haben. Eine mögliche *Lernhandlung* war es, das Schaf so zu bewegen, dass es die gesamte Zeit über von der Kuh *gerade noch so* gesehen wird (siehe Abbildung \@ref(fig:HandlungSchaf)).  -->
+<!-- (ref:citeHandlungSchaf) Lernhandlung in der App *Winkel-Farm* [@Etzold:2019] -->
+<!-- ```{r HandlungSchaf, echo=FALSE, fig.cap="(ref:citeHandlungSchaf)", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/2-Winkelfarm.png") -->
+<!-- ``` -->
+<!-- Dabei erfolgt die Bewegung geradlinig, in Richtung des Kopfes der Kuh begrenzt und in die andere Richtung unbegrenzt. In verallgemeinerter Form wird damit die Strahl-Eigenschaft des Schenkels charakterisiert. Die App mit der Möglichkeit, die Bestandteile des Winkelfeldes ein- und ausblenden zu lassen sowie vom *Tiermodus* in den *Winkelfeldmodus* zu wechseln, stellt dabei das *Lernmodell* dar. *Konkretisierungreihen* sind an diesem Beispiel noch nicht erfolgt. -->
+<!-- ## Bezug zum Vier-Ebenen-Ansatz -->
+<!-- Das oben beschriebene Vorgehen bietet die Möglichkeit, die Fragen der <span style='color: #EE220C;'>konkreten Ebene</span> des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) anzugehen. Dies wird insbesondere deutlich, wenn man den Aufbau des Schulbuchs *Mathewerkstatt* [@Barzel2012]^[Zur besseren Lesbarkeit wird auf die Zitation der *Mathewerkstatt* im restlichen Kapitel verzichtet.] betrachtet, das als Basis die Fragestellungen des Vier-Ebenen-Ansatzes hat. So lassen sich dort vom Vorgehen her Elemente wiederfinden, die mit den tätigkeitstheoretischen Grundlagen und der daraus abgeleiteten Gestaltung von Lehr-Lern-Prozessen vereinbar sind. Der entsprechende Zusammenhang wird auch von den Autorinnen und Autoren der *Mathewerkstatt* selbst implizit hergestellt, indem die im Schulbuch auftretenden *Kernprozesse* mit den von Bruder als Vertreterin der Tätigkeitstheorie formulierten *Unterrichtssituationen* in Beziehung gesetzt werden [siehe @Prediger2014].  -->
+<!-- ### Kontexte, Kernideen, Kernfragen -->
+<!-- Der von @Hussmann:2016 geforderte **Kontext**, der geeignet sein soll, sich dem Lerngegenstand zu nähern, kann über die **Zone der nächsten Entwicklung** motiviert werden und sich im **Ausgangskonkretum** widerspiegeln. In der *Mathewerkstatt* ist dies die *Anküpfung* auf der Einstiegsseite (am Beispiel des [Ersten Intermezzos](#erstes-intermezzo-flaecheninhalt) die Situation der Tiergehe, siehe Abbildung \@ref(fig:Tiergehege)). @Leuders2011 [4, Hervorhebungen im Original] formulieren: -->
+<!-- »Ein *sinnstiftender Kontext* ist ein Ausschnitt einer inner- oder außermathematischen Welt, der folgende Anforderungen möglichst gut erfüllt:   -->
+<!-- * Er ist anschlussfähig an die Erfahrungen, Interessen und die Denk- und Handlungsmuster der Lernenden *(Lebensweltbezug)*. -->
+<!-- * Er ermöglicht es, authentische Fragen zu bearbeiten und dabei auch etwas über den Kontext zu lernen *(Kontextauthentizität)*. -->
+<!-- * Er ist problemhaltig und offen genug, um Lernende zum reichhaltigen Fragen und Erkunden anzuregen *(Reichhaltigkeit)*.« -->
+<!-- Daran anknüpfend werden **Kernideen** sichtbar gemacht, die in Form von **Kernfragen** formuliert und beantwortet werden (am Beispiel des [Ersten Intermezzos](#erstes-intermezzo-flaecheninhalt): *Wie kann ich die Größe von Flächen vergleichen?*, *Wie kann ich die Größe einer Fläche geschickt bestimmen?*). Deren Ziel ist es, sich aus Perspektive der Schülerinnen und Schüler dem Wesen des Begriffs nähern zu können. In der Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten erfolgt dies sowohl bei der Ausübung der **Lernhandlung am Ausgangskonkretum**, als auch in der Verallgemeinerung der Lernhandlungen beim **Entwickeln der Ausgangsabstraktion** sowie in vertiefter Art und Weise beim **Abarbeiten der Konkretisierungsreihen**. Diese beiderseitige Entwicklung wird auch bei @Leuders2011 [8, Hervorhebungen im Original fett oder fettkursiv, hier kursiv] sichtbar: -->
+<!-- »Eine *Kernidee* umfasst in *Vorschauperspektive* Fragen, die die Lernenden stellen können und berücksichtigt so die subjektbezogene Dimension der Sinnstiftung. Die Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern[. …] -->
+<!-- Die zu einer Kernidee gehörenden Fragen fokussieren in genetischer Perspektive konkrete zentrale Probleme, die letztlich zur Entwicklung der ›Rückschauantworten‹ der Kernidee führen. -->
+<!-- Eine *Kernidee* beschreibt in der *Rückschauperspektive* den ideenbezogenen Kern einer längeren Lernepisode[. …] -->
+<!-- Zur Kernidee gehört also die ›Rückschauantwort‹, in der eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt werden. Damit wird deutlich, dass eine Kernidee die Zwecke der Mathematisierungsprozesse und damit den Sinn der mathematischen Konzepte miterfasst.« -->
+<!-- In der *Mathewerkstatt* werden über die Prozesse des *Erkundens* und *Ordnens* diese Vor- und Rückschauperspektive realisiert und in den *Vertiefungen* -- wie es das Wort schon sagt -- vertieft.  -->
+<!-- Abbildung \@ref(fig:AKMathewerkstatt) zeigt noch einmal die Phasen in der *Mathewerkstatt* [vgl. auch @Prediger2014] mit einer möglichen Anknüpfung an die Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten. -->
+<!-- (ref:citeAKMathewerkstatt) Gegenüberstellung des Aufsteigens vom Abstrakten zum Konkreten mit dem Vorgehen in der *Mathewerkstatt* -->
+<!-- ```{r AKMathewerkstatt, echo=FALSE, fig.cap="(ref:citeAKMathewerkstatt)", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/7-Vergleich.png") -->
+<!-- ``` -->
+<!-- ### Aufbau von Grundvorstellungen -->
+<!-- Gemäß der Grundvorstellungsidee (siehe Def. \@ref(def:Grundvorstellungen)) sollen Grundvorstellungen einen *Handlungsbezug* aufweisen, operationsfähige *Repräsentationen* beinhalten und eine *Anwendung in der Realität* ermöglichen.  -->
+<!-- Mit den **Lernhandlungen** am Ausgangskonkretumg und den Konkretisierungsreihen ist der **Handlungsbezug** herstellbar, außerdem kann darüber die **Anwendung in der Realität** sichtbar gemacht werden -- sowohl beschreibend (von der Mathematik zur Realität) als auch modellierend (von der Realität zur Mathematik). -->
+<!-- Das **Lernmodell** selbst kann als **Repräsentation** dienen, anhand dessen mit dem Begriff operiert wird. Dies ist ja auch eine Eigenschaft des Lernmodells: Sie sind eine »abstrakte Struktur des Gegenstands zusammen mit dem prinzipiellen Weg [..], der zur Aufdeckung der Struktur geführt hat« [@Lompscher1996 6]. -->
+<!-- Auch das **Verinnerlichen der Lernhandlungen** kann dem Aufbau von Grundvorstellungen dienen. So stellen bspw. @Wartha2011 [11] ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert.  -->
+<!-- (ref:citeGVVerinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11] -->
+<!-- ```{r GVVerinnerlichen, echo=FALSE, fig.cap="(ref:citeGVVerinnerlichen)", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/7-GVverinnerlichen.png") -->
+<!-- ``` -->
+<!-- Für eine ausführlichere Darstellung zu den Zusammenhängen aus der Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten und der Grundvorstellungsidee siehe auch @Etzold2021 [{71 ff.}]. -->
+<!-- ## Zum Nachbereiten {#begriffe-lerntheoretisch-nachbereitung} -->
+<!-- 1. Lesen Sie den Beitrag von @Lompscher1996 zum Aufsteigen vom Abstrakten zum Konkreten. -->
+<!-- 2. Wählen Sie einen mathematischen Begriff und überlegen Sie sich, wie ein geeignetes Lernmodell für diesen Begriff aussehen kann. Sie können dabei auch spekulieren, was dieses Lernmodell können müsste (z. B. wenn es digital umgesetzt werden könnte). -->
+
+<!-- #  (PART\*) Konkrete Ebene {-} -->
+<!-- # Begriffsbildung -->
+<!-- > **Lernziele** -->
+<!-- > -->
+<!-- > + Sie kennen Kriterien für das Verständnis von Begriffen. -->
+<!-- > + Sie kennen Wege der Begriffseinführung und wählen diese zielgerichtet aus – auch abhängig von der didaktischen Funktion des jeweiligen Begriffs. -->
+<!-- > + Sie können geeignete Beispiele und Gegenbeispiele auswählen und anordnen, um Begriffsbildungsprozesse zu unterstützen. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zur Begriffsbildung ([pdf](files/Stoffdidaktik-WiSe2122-Kap6.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap6.key)) -->
+<!-- ## Begriffsverständnis -->
+<!-- ### Begriffsbegriff -->
+<!-- Angenommen, Sie würden eine Schülerin oder einen Schüler auffordern, den Begriff *Quader* zu definieren. Die Person äußert sich, dass es sich dabei um ein Viereck mit vier gleich langen Seiten und vier rechten Winkeln handelt. Wie würden Sie da als Lehrkraft reagieren? Hat diese Person tatsächlich nicht verstanden, was ein Quader ist? Was können Sie als Lehrkraft tun, um herauszufinden, welche Wissens- oder Verständnislücken vorliegen? -->
+<!-- Derartige Gedanken werden Ihren Schulalltag prägen, denn die **Bildung von Begriffen** ist eine der wesentlichen Aufgaben des Mathematikunterrichts. Nach @Zech1998 [165] bietet sich folgende Definition an: -->
+<!-- ::: {.definition #Begriff name="Begriff"} -->
+<!-- Man spricht allgemein von einem »Begriff«, wenn eine Anzahl von Objekten oder Ereignissen aufgrund gewisser übereinstimmender Merkmale mit einem gemeinsamen Namen belegt wird (vgl. Weinert 1974, S. 664). -->
+<!-- ::: -->
+<!-- Damit werden zwei Dimensionen von Begriffen sichtbar, nämlich der **Bezeichner** und das **Bezeichnete**. Während der Bezeichner das *Wort* bzw. der *Name* ist, mit dem das zu betrachtende Objekt oder Ereignis belegt wird, ist das Bezeichnete die *Idee* hinter dem Objekt, also das Gefüge an *übereinstimmenden Merkmalen*. Weder *Bezeichner* noch *Bezeichnetes* sind jedoch das Objekt oder Ereignis selbst. -->
+<!-- Äquivalente, und auch in den Sprachwissenschaften bedeutsame Bezeichnungen sind **Signifikant** für den Bezeichner und **Signifikat** für das Bezeichnete [vgl. auch @Rembowski2015 {13 ff.}; @dewiki:214582005; @dewiki:212433603]. -->
+<!-- Im obigen Beispiel hat die Schülerin oder der Schüler für den Bezeichner *Quader* das Bezeichnete eines Quadrates definiert. Es kann sich hier also durchaus um eine Wortverwechslung handeln, die nicht zwingend mit einem inhaltlichen Fehlverständnis einhergehen muss. -->
+<!-- Was heißt es nun, einen Begriff *verstanden* zu haben? -->
+<!-- Zunächst einmal müssen »Kenntnisse, Vorstellungen über sowie Fähigkeiten im Umgang mit Merkmalen oder Eigenschaften eines Begriffs und deren Beziehungen untereinander« entwickelt werden [@Weigand2015, 264]. Dies wird als ein Verständnis über den **Begriffsinhalt** bezeichnet, zu dem natürlich auch die Definition des Begriffs gehört, aber eben nicht ausschließlich. -->
+<!-- Weiterhin ist der **Begriffsumfang** Bestandteil des Begriffsverständnisses, was heißt, »einen Überblick über die Gesamtheit aller Objekte [zu] erhalten, die unter einem Begriff zusammengefasst werden« [@Weigand2015, 264]. -->
+<!-- Hinzu kommt das **Begriffsnetz**, über das »Beziehungen des Begriffs zu anderen Begriffen« aufgezeigt werden können [@Weigand2015, 264]. -->
+<!-- Wenn dann noch »Kenntnisse hinsichtlich der Anwendungen des Begriffs sowie Fähigkeiten im Umgang mit dem Begriff« ausgeprägt sind und die Schülerinnen und Schüler in der Lage sind, die »Begriffsbildungen kritisch zu reflektieren« [@Weigand2015, 264], kann von einem weitreichenden Begriffsverständnis gesprochen werden. -->
+<!-- ### Verständnistiefe -->
+<!-- Die verschiedenen mathematischen Begriffe haben eine unterschiedliche Bedeutsamkeit innerhalb der mathematischen Bildung in der Schule (und darüber hinaus). So ist offenbar der *Zahlbegriff* derart fundamental und vielschichtig, dass er in allen Jahrgängen in verschiedenen Ausprägungen trägt (und nicht umsonst eine der fünf Leitideen nach den Bildungsstandards ist), während beispielsweise der Begriff *Bruchstrich* als Bestandteil eines Bruches kaum weitergehende Bedeutung hat und vielmehr einer erleichternden Kommunikation dient. -->
+<!-- @Vollrath [2] unterscheidet dahingehend in verschiedene *Didaktische Funktionen eines Begriffs* und formuliert (Hervorhebungen im Original kursiv, hier fett): -->
+<!-- »Begriffe können als **Leitbegriffe** eines **Themenstrangs** dienen, der sich über mehrere Jahrgangsstufen erstreckt. Man denke etwa an die Begriffe Zahl, Funktion, Figur oder Abbildung. -->
+<!-- Begriffe können als **Schlüsselbegriffe** eine **Unterrichtssequenz** strukturieren. Das kann etwa der Begriff des Bruchs für die Bruchrechnung sein, der Begriff der proportionalen Zuordnung für die Schlussrechnung, der Begriff der Symmetrie für die Lehre von den Dreiecken und Vierecken. -->
+<!-- Ein Begriff kann **zentraler Begriff** einer **Unterrichtseinheit** sein, der in ihr erarbeitet wird. Hier ist an Begriffe zu denken wie Primzahl, Quadratwurzel, Potenzfunktion, gleichseitiges Dreieck, Kreis, Tangente, Scherung, Prisma usw. -->
+<!-- Schließlich dienen Begriffe als **Arbeitsbegriffe** dazu, beim Arbeiten bestimmte Sachverhalte griffig zu formulieren, um über sie sprechen zu können. Hier ist an Begriffe wie Zähler, Nenner, Klammer, Grundzahl, Hochzahl, Ecke, Seite, Kante usw. zu denken.« -->
+<!-- Offensichtlich benötigen Begriffe mit einer langfristigeren Perspektive, wie Leitbegriffe, auch ein tieferes Verständnis und damit mehr Aufmerksamkeit bei der Begriffsbildung. @Vollrath1984 [{215 f.}] schlägt für Leitbegriffe daher einen mehrstufigen Aufbau der Verständnistiefe vor [vgl. auch @Lechner 10]: -->
+<!-- 1. **Intuitives** Begriffsverständnis (Begriff als Phänomen) -->
+<!--     Die Schülerinnen und Schüler entwickeln eine grundlegende Idee des Begriffs, ohne dass er für sie schon mathematisch greifbar sein muss. Der Begriff wird bspw. als Phänomen in der Umwelt erkannt oder sich ihm durch Handlungserfahrungen genähert. Diese Stufe ist also auch wesentlich, um Grundvorstellungen aufzubauen. -->
+<!-- 2. **Inhaltliches** Begriffsverständnis (Begriff als Träger von Eigenschaften) -->
+<!--     Der Begriff wird über seine Eigenschaften erfasst, ohne dass diese explizit benannt werden müssten. So können z. B. Vorschulkinder Dreiecke und Vierecke erkennen, ohne dass ihnen eine mathematische Definition bewusst wäre. Auf dieser Stufe ist es auch schon möglich, Probleme mithilfe der Begriffseigenschaften zu lösen (z. B. das Einsetzen entsprechender Figuren in geometrische Puzzle), ohne dass der Bezeichner des Begriffs zwingend verwendet werden muss. -->
+<!-- 3. **Integriertes** Begriffsverständnis (Begriff als Teil eines Begriffsnetzes) -->
+<!--     Der Begriff kann nun in Zusammenhang mit anderen Begriffen eines Begriffsnetzes gebracht werden. So können bspw. Gemeinsamkeiten und Unterschiede verwandter Begriffe identifiziert werden. -->
+<!-- 4. **Formales** Begriffsverständnis (Begriff als formales Objekt) -->
+<!--     Auf dieser Stufe ist für den Begriff eine mathematische Definion bekannt. So können Eigenschaften des Begriffs erläutert werden und es kann begründet werden, ob und warum einzelne Objekte zum Begriff gehören oder nicht. Der Begriff kann somit auch in Beweisen genutzt werden. -->
+<!-- 5. **Strukturelles** Begriffsverständnis (Begriff als strukturierbares Objekt) -->
+<!--     Der Begriff kann nun als Strukturobjekt aufgefasst werden, so dass er selbst wieder Anlass für mathematische Untersuchungen ist. Beim Funktionsbegriff heißt dies z. B., dass Verknüpfungen zwischen Funktionen hergestellt werden oder Darstellungsformen miteinander in Bezug gebracht werden können. -->
+<!-- Zumindest die ersten drei Stufen sind auch für kurz- und mittelfristig auszuprägende Begriffe relevant [vgl. @Weigand2015 {273 ff.}]. -->
+<!-- ## Wege zum Begriff -->
+<!-- ### Arten der Begriffseinführung -->
+<!-- Die Einführung von Begriffen kann stets als Wechselspiel zwischen **Beispielen/Gegenbeispielen** und der **Begriffsfestlegung** aufgefasst werden. Je nachdem, in welcher Richtung und Qualität dieser Zusammenhang erbracht wird, spricht man von einer **ostensiven**, **induktiven** oder **deduktiven** Begriffseinführung (siehe Abbildung \@ref(fig:Begriffseinfuehrung)). -->
+<!-- ```{r Begriffseinfuehrung, echo=FALSE, fig.cap="Möglichkeiten der Begriffseinführung", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/6-Begriffe.png") -->
+<!-- ``` -->
+<!-- Neben diesen drei Grundformen gibt es auch noch Abwandlungen und Abweichungen, wie z. B. das Aufsteigen vom Abstrakten zum Kokreten (siehe Abschnitt \@ref(aufsteigen-vom-abstrakten-zum-konkreten)) oder die Operative Genese in der Geometrie (siehe Abschnitt \@ref(bonus-operative-genese)). -->
+<!-- #### Ostensive Begriffseinführung -->
+<!-- Bei der ostensiven Begriffseinführung wird das Lernen eines Begriffs als **Erfassen der Gestalt** als einprägsames Ganzes angenommen. Das heißt, der Begriff wird gar nicht formal definiert, sondern nur über Beispiele dargestellt. Dies wird insbesondere bei Arbeitsbegriffen so gehandhabt (z. B. *Bruchstrich*) oder bei der Begriffseinführung in der Grundschule, wenn deren Gestalt leicht eingänglich ist (z. B. *Kreis*). -->
+<!-- Dabei muss jedoch die **wahrgenommene Gestalt dem Wesentlichen** des Begriffs entsprechen und der **Gestalteindruck ist häufig abhängig von der Lage**. Es ist also darauf zu achten, nicht ausschließlich Spezialfälle zu präsentieren, die dann zu einer Untergeneralisierung des Begriffs führen. Werden z. B. zwei *zueinenander senkrechte* Strecken präsentiert, sollten diese also nicht gleich lang sein, sich nicht in der Mitte schneiden und auch nicht parallel zu den Tafel-/Blatt-/Bildschirmrändern ausgerichtet sein (siehe Abbildung \@ref(fig:SenkrechtOstensiv)). -->
+<!-- (ref:citeSenkrechtOstensiv) Ungeeignete und geeignete ostensive Darstellung des Begriffs *senkrecht zueinander* -->
+<!-- ```{r SenkrechtOstensiv, echo=FALSE, fig.cap="(ref:citeSenkrechtOstensiv)", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/6-senkrecht.png") -->
+<!-- ``` -->
+<!-- #### Induktive Begriffseinführung -->
+<!-- Bei der induktiven Begriffseinführung wird zunächst eine **Vielzahl an Beispielen** präsentiert. Aus diesen heraus wird dann das **Wesentliche des Begriffs extrahiert**. Dafür werden die Objekte zunächst beschrieben und anschließend gemeinsame Eigenschaften entdeckt. Dies kann passieren, indem die ungeordneten Beispiele nach Merkmalen sortieren werden oder bereits in Teilmengen aufgeteilt präsentiert werden. Daran wird nun der Begriffsinhalt herausgearbeitet. -->
+<!-- Dieses Vorgehen ist relativ natürlich, da es auch der Begriffsbildung im Vorschulalter bzw. im Alltag entspricht. Allerdings benötigt es sehr viel Zeit. Hinzu kommt, dass das Erkennen der gemeinsamen Merkmale in der Unterrichtssituation nicht selten zu einem *Ostereiersuchen* verfällt, indem die Lehrkraft so lange nachfragt, bis die gewünschte Eigenschaft gefunden wird. Oder noch kritischer formuliert: »Die Lernenden jedoch haben noch keine Ahnung von diesem Wesen und können sie auch nicht gewinnen, da sie keinerlei Mittel dafür besitzen.« [@Giest2004a] -->
+<!-- Beim Einsatz der induktiven Begriffseinführung müssen also insbesondere geeignete Impulsfragen im Vorhinein bedacht werden, um die Schülerinnen und Schüler durch gezielte Fragestellungen das Wesentliche des Begriffs entdecken lassen zu können. -->
+<!-- #### Deduktive Begriffseinführung -->
+<!-- Die deduktive Begriffseinführung geht den Weg **von der Definition zu den Beispielen**. Dieses Vorgehen ist das übliche in der Hochschulmathematik und sollte -- um zum Beispiel wissenschaftspropädeutisch tätig zu sein -- auch im Schulunterricht schon vermittelt werden. -->
+<!-- Typische Lernhandlungen im Zusammenhang mit deduktiver Begriffseinführung sind das **Identifizieren** (d. h. anhand existierender Objekte die Begriffszugehörigkeit entscheiden) und **Realisieren** (d. h. Herstellen) von Repräsentanten^[Diese *Repräsentanten* eines Begriffs sind nicht mit dessen *Repräsentationen* im Sinne der Grundvorstellungsidee zu verwechseln! Die Repräsentanten sind konkrete (reale oder ideelle) Objekte, Repräsentationen dagegen Darstellungen, die ein operatives Arbeiten ermöglichen. Beides kann aber natürlich sehr ähnlich aussehen oder sogar zusammenfallen.] des Begriffs und das **Begründen** der Begriffszugehörigkeit. -->
+<!-- Typische Impulsfragen für den Unterricht, um die deduktive Begriffseinführung nach Gabe der Definition zu unterstützen, können sein: -->
+<!-- * Ist das ein …? -->
+<!-- * Stelle ein … her. -->
+<!-- * Welche Teile der Definition sind nicht erfüllt? -->
+<!-- * Was muss an dem … verändert werden, damit es ein … ist? -->
+<!-- * Wie prüft man, ob das ein … ist? -->
+<!-- * Warum entsteht ein …, wenn man das so und so herstellt? -->
+<!-- ### Beispiele und Gegenbeispiele -->
+<!-- Unabhängig davon, auf welche Art und Weise man Begriffe einführt, ist stets ein Zusammenspiel aus Beispielen, Gegenbeispielen und verbalen Erläuterungen notwendig -- und das in allen Altersklassen! Bei entsprechenden Verbalisierungen sind ggf. weniger Beispiele/Gegenbeispiele nötig, da damit das Wesen des Begriffs besser herausgearbeitet werden kann [@Zech1998 260]. -->
+<!-- Bei der Auswahl von Beispielen und Gegenbeispielen bieten sich das **Variationsprinzip** und das **Kontrastprinzip** an. Die folgenden Überlegungen stammen hauptsächlich von @Zech1998 [{260 ff.}]. -->
+<!-- #### Variationsprinzip -->
+<!-- Beispiele sollten breit variiert werden, es darf nicht zu einer Untergeneralisierung kommen. Im Alltag als Gegenbeispiele empfundene Beispiele müssen mit angebracht werden. Wichtig erscheinende **irrelevante Merkmale** sollten mindestens einmal **variiert** werden. -->
+<!-- Für den Rechtecktbegriff kann dies eine Variation in Größe, Seitenverhältnis, Ausrichtung und Farbe, aber auch die Präsentation von Spezialfällen (z. B. eines Quadrates) bedeuten (siehe Abbildung \@ref(fig:VariationRechteck)). -->
+<!-- (ref:citeVariationRechteck) Variationsprinzip beim Begriff *Rechteck* -->
+<!-- ```{r VariationRechteck, echo=FALSE, fig.cap="(ref:citeVariationRechteck)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/6-Variation.png") -->
+<!-- ``` -->
+<!-- Um dieses Prinzip für einen Begriff zu realisieren, muss man sich als Lehrkraft also Gedanken über die mathematisch relevanten und irrelevanten Eigenschaften machen. Auch eine explizite Diskussion mit den Schülerinnen und Schüler, warum diese Eigenschaften variiert werden durften (und andere nicht), kann hilfreich für das Begriffsverständnis sein. -->
+<!-- #### Kontrastprinzip -->
+<!-- Gegenbeispiele dürfen nicht für Beispiele gehalten werden, es darf nicht zu einer Übergeneralisierung kommen. Im Alltag als Beispiele empfundene Gegenbeispiele (sogenannte *Fastbeispiele*) müssen diskutiert werden. **Relevante Merkmale** müssen mindestens einmal **fehlen**. -->
+<!-- Für den Rechteckbegriff relevant sind etwa die rechten Winkel (was bei Beibehaltung der gleich langen, parallelen Seiten zu einem Parallelogramm führt). Auch die *Ecken*-Eigenschaften und die Tatsache, dass es sich um eine Figur (und nicht um einen Körper) handelt, sind relevant (siehe Abbildung \@ref(fig:KontrasRechteck)). -->
+<!-- (ref:citeKontrasRechteck) Kontrastprinzip beim Begriff *Rechteck* -->
+<!-- ```{r KontrasRechteck, echo=FALSE, fig.cap="(ref:citeKontrasRechteck)", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/6-Kontrast.png") -->
+<!-- ``` -->
+<!-- #### Darbietung von Beispielen und Gegenbeispielen -->
+<!-- @Zech1998 [261] fasst zusammen: **»Beispiele und Gegenbeispiele sind dann am effektivsten, wenn sich die Beispiele möglichst stark in den irrelevanten Merkmalen unterscheiden und die Gegenbeispiele in möglichst wenigen relevanten Merkmalen unterscheiden.«** -->
+<!-- Eine simultane Darbietung zweier stark kontrastierender Beispiele (Abbildung \@ref(fig:SimultanBeispiel)) oder eines Beispiels mit einem sehr ähnlichen Gegenbeispiel  (Abbildung \@ref(fig:SimultanGegenbeispiel)) kann weiterhin den Fokus auf die relevanten Merkmale des Begriffs lenken. -->
+<!-- (ref:citeSimultanBeispiel) Simultane Darbietung zweier Beispiele zum Begriff *Quadrat* -->
+<!-- ```{r SimultanBeispiel, echo=FALSE, fig.cap="(ref:citeSimultanBeispiel)", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/6-Quadrat.png") -->
+<!-- ``` -->
+<!-- (ref:citeSimultanGegenbeispiel) Simultane Darbietung von Beispiel und Gegenbeispiel zum Begriff *Achsensymmetrie* -->
+<!-- ```{r SimultanGegenbeispiel, echo=FALSE, fig.cap="(ref:citeSimultanGegenbeispiel)", fig.align='center', out.width='40%'} -->
+<!-- knitr::include_graphics("pictures/6-Achsensymmetrie.png") -->
+<!-- ``` -->
+<!-- ### Begriffsfestlegung -->
+<!-- Nach Abbildung \@ref(fig:Begriffseinfuehrung) ist neben der Präsentation und Diskussion geeigneter Beispiele und Gegenbeispiele die *Festlegung und Benennung* des zu vermittelnden Begriffs von Bedeutung. Hierfür gibt es wieder vielfältige Möglichkeiten: -->
+<!-- * **Spezifizieren aus Oberbegriff** -->
+<!--     Der Begriff wird als eine Besonderheit eines bereits bekannten Begriffs festgelegt, z. B. ein **Parallelogramm** (neuer Begriff) als ein Viereck (bekannter Oberbegriff) mit zwei Paar zueinander paralleler Seiten. -->
+<!-- * **Sammeln unter neuem Oberbegriff** -->
+<!--     Dies entspricht dem umgekehrten Vorgehen: Bereits bekannte Begriffe werden unter einem Oberbegriff zusammengeführt, so können z. B. die Rationalen und Irrationalen Zahlen unter dem neuen Begriff der *Reellen Zahlen* gesammelt werden. -->
+<!-- * **Erklären durch Konstruktionsvorschrift** -->
+<!--     Der (in der Regel) geometrische Begriff wird über seine Konstruktionsvorschrift erklärt, z. B. eine **zentrische Streckung** eine Figur, die entsteht, indem von einem Streckungszentrum aus Strahlen entlang der Eckpunkte einer Figur gezeichnet werden und anschließend diese Punkte mit einem festen Verhältnis entlang der Strahlen abgetragen werden. -->
+<!-- * **genetische Definition** -->
+<!--     Diese Art der Begriffseinführung ähnelt der Konstruktionsvorschrift, kann sich aber auch auf eine gedankliche Entstehung eines Begriffs beziehen. So entsteht beispielsweise ein Kreis, indem von einem Mittelpunkt aus alle Punkte einer Ebene mit festem Abstand markiert werden. -->
+<!-- * **rekursive Definition** -->
+<!--     Bei dieser Art von Definition wird der neue Begriff selbst genutzt, um ihn besser zu erklären. Dies kann hilfreich sein, um schwer zugängliche Begriffe zu definieren, z. B. den Begriff *Term*: Zahlen und Variablen sind Terme. Verknüpfungen von Termen über die Grundrechenoperationen (und daraus abgeleitete Verknüpfungen) sind wieder Terme. -->
+<!-- * **Umschreibung** -->
+<!--     Nicht immer ist eine fachlich bzw. formal korrekte Definition im Schulunterricht möglich oder sinnvoll. Dann kann auf eine Umschreibung zurückgegriffen werden, z. B. der Begriff der *Menge* als Zusammenfassung mehrerer Elemente.  -->
+<!-- Bestandteil der Festlegung ist in der Regel auch eine konkret formulierte und meist auch notierte Definition des Begriffs. Dabei können verschiedene **Anforderungen an eine Definition** gestellt werden. -->
+<!-- 1. Neben der fachlichen Korrektheit (die natürlich immer gegeben sein muss) ist eine **möglichst einfach verständliche Formulierung** von hoher Relevanz. Das heißt zum Beispiel, dass der typische *mathematisch Konjunktiv* (*Es sei …*) im Schulunterricht vermieden werden sollte.  -->
+<!-- 2. Weiterhin können **wesentliche Eigenschaften  wichtiger als die mathematische Vollständigkeit** sein, sofern dies nicht zu exlatanten fachlichen Fehlern führt. Wenn beispielsweise der *Kreis als Menge aller Punkte, die von einem Mittelpunkt denselben Abstand haben* definiert wird, fehlt hier der Vollständigkeit halber der Zusatz, dass diese Punkte in einer Ebene liegen müssen (weil es sich sonst auch um eine Kugel handeln kann). Je nach Lerngruppe müssten Sie hier als Lehrkraft überlegen, ob diese Eigenschaft Bestandteil der Definition sein sollte oder nicht. -->
+<!-- 3. Die Definition sollte an **Vorwissen anknüpfen** und mehrere **Darstellungsebenen** aufgreifen und miteinander vernetzen. -->
+<!-- Eine in dem Sinne gelungene Definiton zeigt Abbildung  \@ref(fig:DefSenkrecht). So werden die enaktive (Bastelanleitung), ikonische (Darstellung der Geraden) und symbolische Ebene (Schreibweise) miteinander verknüpft. -->
+<!-- (ref:citeDefSenkrecht) Definition zu den Begriffen *senkrecht zueinander* und *parallel zueinenader* [@Kleine2011 78] -->
+<!-- ```{r DefSenkrecht, echo=FALSE, fig.cap="(ref:citeDefSenkrecht)", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/6-SenkrechtDefinition.png") -->
+<!-- ``` -->
+<!-- ## Zum Nachbereiten {#begriffe-handwerk-nachbereitung} -->
+<!-- 1. Lesen Sie das Kapitel zur Begriffsbildung von @Weigand2015. -->
+<!-- 2. Wählen Sie einen Begriff und sammeln Sie geeignete Beispiele und Gegenbeispiele nach dem Variations- und Kontrastprinzip. -->
+<!-- Abbildung \@ref(fig:BegriffeZusammenfassung) fasst die Inhalte dieses Kapitels noch einmal zusammen.  -->
+<!-- ```{r BegriffeZusammenfassung, echo=FALSE, fig.cap="Zusammenfassung zur Begriffsbildung", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/6-Zusammenfassung.png") -->
+<!-- ``` -->
+<!-- ## Bonus: Operative Genese -->
+<!-- Eine weitere Möglichkeit der Begriffseinführung ist die *Umwelterschließung im Geometrieunterricht durch operative Begriffsbildung* nach @Bender1978. Dabei geht man davon aus, dass sich die Begriffe der Mathematik an Phänomenen aus der Umwelt orientieren. -->
+<!-- Orientierung heißt, dass reale Objekte dahingehend analysiert werden, welchen **Zweck** sie erfüllen. Betrachtet man zum Beispiel Ziegelsteine, erfüllen diese den Zweck, eine Mauer bauen zu können. Um dies zu ermöglichen, müssen die Steine eine bestimmte **Funktion** erfüllen, im konkreten Fall das Übereinanderstapeln handlicher Objekte zu einem i. d. R. rechtwinkligen Gesamtobjekt im Raum. Aus diesen Funktionen heraus kann nun das Objekt idealisiert werden, woraus sich Bedingungen ergeben, die es erfüllen muss. Der Ziegelstein muss also aus »ebenen, paarweise parallelen Seitenflächen und rechten Kantenwinkeln« bestehen [@Bender1978 36], was zum **Begriff** des Quaders führt. Daraus abgeleitet kann nun wieder das **Realisat** hergestellt werden, also echte Quader. -->
+<!-- (ref:citeOperativeGenese) Operative Genese in der Geometrie nach @Bender1978 [35] -->
+<!-- ```{r OperativeGenese, echo=FALSE, fig.cap="(ref:citeOperativeGenese)", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/6-operativ.png") -->
+<!-- ``` -->
+<!-- In dem Beispiel heißt die Orientierung an der Umwelt nicht, dass Quader das Ergebnis eines Abstraktionsprozesses sind (in dem Sinne, dass man echte Ziegelsteine nimmt, ansieht und feststellt, dass sie bestimmte Eigenschaften haben), sondern genau andersrum: Echte Quader sind die Ergebnisse, denen die mathematische Idee schon (über ihre Anwendung in der Umwelt) zugrunde liegt. Ggf. ist auch ein mehrmaliges Durchlaufen des Schemas notwendig, wobei der Bau von Modellen als Zwischenschritt zwischen Idee und Realisat dienen kann. -->
+
+<!-- # Lernumgebungen {.unnumbered} -->
+<!-- Mit den Kapiteln \@ref(fundamentale-ideen) bis \@ref(zweites-intermezzo-wurzel) haben Sie Ansätze kennengelernt, die Fragen der <span style='color: #00A2FF;'>formalen</span>, <span style='color: #1DB100;'>semantischen</span> und <span style='color: #EE220C;'>konkreten</span> Ebene des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) nach @Hussmann:2016 zu beantworten. Mit der deskriptiven Perspektive auf Grundvorstellungen kennen Sie auch schon erste Grundlagen, Fragen der <span style='color: #F8BA00;'>empirischen</span> Ebene zu untersuchen. Ziel bei all den Fragen war immer, **Lernpfade** für Lerngegenstände zu generieren, also den Stoff derart auszuwählen (*spezifizieren*) und anzuordnen (*strukturieren*), dass er sinnstiftend gelehrt und gelernt werden kann. Nach einer solchen **stoffdidaktischen Analyse** ist nun der nächste Schritt die Planung der Unterrichtsgestaltung an sich.  -->
+<!-- In der fachdidaktischen und bildungswissenschaftlichen Literatur hat sich hierfür der Begriff der **Lernumgebung** durchgesetzt -- dabei aber auch mit verschiedenen Sichtweisen wie eine »pädagogische« (z. B. angenehme Lernatmosphäre, respektvolles Miteinander), als ein »methodisch-organisatorisches Arrangement« (z. B. Gestaltung des Klassenraums) oder eben auch als »inhaltliches Verständnis«, das hier weiter verfolgt werden soll [vgl. @Krauthausen:2018 255].   -->
+<!-- Nach @Leuders2015 [448] beinhalten Lernumgebungen für den Mathematikunterricht **»i) ein nach bestimmten Prinzipien geordnetes System von Aufgaben, ii) methodische Organisationsformen und iii) Stützsysteme, wie z. B. Medien, Lehrerinterventionen und Kommunikationsformen.«**  -->
+<!-- Die Grundlagen für die entsprechenden Bestandteile lernten und lernen Sie v. a. in den weiteren Veranstaltungen der Fachdidaktiken und Bildungswissenschaften sowie in Ihrer schulpraktischen Ausbildung (und auch noch während Ihrer Tätigkeit als voll ausgebildete Lehrkraft). Aufgrund der inhaltlichen Nähe zur Stoffdidaktik-Veranstaltung sollen hier noch zwei Schwerpunkte herausgegriffen werden: -->
+<!-- * Von den *Medien* (zu denen ja beispielsweise auch die Tafel, Computer oder Zettel und Stift gehören -- der entsprechende Medienbegriff sollte Ihnen aus den Bildungswissenschaften bekannt sein) werden im Speziellen **Arbeitsmittel**^[In der englischsprachigen Literatur werden *Arbeitsmittel* oft als *manipulatives* bezeichnet. Dies soll nicht ausdrücken, dass diese Arbeitsmittel in irgendeiner Weise manipulierend auf die Schülerin oder den Schüler wirken, sondern dass die Schülerinnen und Schüler selbst das Arbeitsmittel verändern bzw. mit dessen Hilfe auf den Lerngegenstand einwirken [siehe auch @enwiki:1023437370].] herausgegriffen. Diese »repräsentieren mathematische Objekte und erlauben zudem Handlungen oder Operationen mit diesen Objekten« [@Schmidt-Thieme2015 {461 f.}] Im Sinne der Tätigkeitstheorie dienen sie damit als Mittler zwischen Lerngegenstand und Schülerin bzw. Schüler. Im Schulalltag wird es in der Regel Ihre Aufgabe sein, derartige Arbeitsmittel zu **analysieren**, um sie zielgerichtet auszuwählen und im Unterricht einzusetzen. Das Herstellen entsprechender Arbeitsmittel bleibt meist die Aufgabe der fachdidaktischen Forschung und Entwicklung. Vorschläge, um Arbeitsmittel zu analysieren, finden Sie in Kapitel \@ref(arbeitsmittel-analysieren). -->
+<!-- * Eng verbunden mit dem Einsatz von Arbeitsmitteln sind **Aufgaben**, die Sie den Schülerinnen und Schülern stellen. Aufgaben können dabei »als Aufforderung an Lernende zum mathematischen Handeln aufgefasst« werden [@Leuders2015 435]. Neben der Auswahl von Aufgaben werden Sie als Lehrkraft aber insbesondere Aufgaben **gestalten**, also selbst welche entwickeln und vorhandene Aufgaben variieren und an Ihre Lerngruppe anpassen. Maßnahmen, um Aufgaben zu gestalten, sind in Kapitel \@ref(aufgaben-gestalten) dargestellt. -->
+<!-- # Arbeitsmittel analysieren -->
+<!-- > **Lernziele** -->
+<!-- > -->
+<!-- > + Sie kennen ein Instrument zur Analyse von Arbeitsmitteln. -->
+<!-- > + Sie können das Analyseinstrument tätigkeitstheoretisch einordnen. -->
+<!-- > + Sie sind, ggf. mit Unterstützung, in der Lage, den Analyseprozess für Arbeitsmittel durchzuführen. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zur Analyse von Arbeitsmitteln ([pdf](files/Stoffdidaktik-WiSe2122-Kap9.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap9.key)) -->
+<!-- ## ACAT-Modell -->
+<!-- Um Arbeitsmittel (fundiert) analysieren zu können, sollte sich diese Analyse auf eine zugrundliegende Theorie (über das Lernen und Lehren) stützen und strukturiert ablaufen. Ein Vorschlag hierfür bietet das auf die Tätigkeitstheorie aufbauende Modell **Artifact-Centric Activity Theory (ACAT)**^[übersetzt: Artefakt-zentrierte Tätigkeitstheorie] von @Ladel2013, siehe Abbildung \@ref(fig:ACAT). -->
+<!-- (ref:citeACAT) ACAT-Modell nach @Ladel2013 [4] -->
+<!-- ```{r ACAT, echo=FALSE, fig.cap="(ref:citeACAT)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/9-ACAT.png") -->
+<!-- ```   -->
+<!-- Zunächst einmal ist auf der Hauptachse das Beziehungsgefüge aus Subjekt, Objekt und Artefakt dargestellt, das eine Grundannahme der Tätigkeitstheorie darstellt (siehe Abschnitt \@ref(grundannahmen)). Es ist hier jedoch von einem *Artefakt* die Rede. Damit soll ausgedrückt werden, dass es sich um ein künstlich geschaffenes Medium handelt, das zum Zwecke des Wissenserwerbs von einer mit dem Lerngegenstand vertrauten Person (z. B. Lehrkraft oder Forscherin bzw. Forscher) entwickelt worden ist. Erst mit dem tatsächlichen und zielgerichteten Einsatz durch die Schülerinnen und Schüler wird es zum *Werkzeug*, weil erst dann Internalisierungs- und Externalisierungsprozesse stattfinden.^[Die Entwicklung vom Artefakt zum Werkzeug wird auch als *Instrumentelle Genese* bezeichnet [vgl. @Etzold2021 {101 f.}].] Diese *Internalisierung- und Externalisierungsprozesse* werden hier im Modell auf der Hauptachse dargestellt. -->
+<!-- Das obere rechte Dreieck beschreibt die spezifische Gestaltung des Artefakts über sogenannte *Regeln*. Die Regeln ergeben sich einerseits aus dem mathematischen Gegenstand selbst. Andererseits stammen sie aus weiteren Wissenschaftsbereichen wie der Psychologie, allgemeinen Didaktik, Multimedia-Design usw. und wirken wieder zurück auf das mathematische Objekt, indem die Regeln einen Einfluss darauf haben, welche Eigenschaften des Objektes repräsentiert werden. Wenn beispielsweise ein Spielwürfel aus Design-Gründen abgerundete Ecken und Kanten hat (damit sich die spielenden Kinder nicht verletzen), kann sich dies auf ein (falsches) mathematisches Verständnis des Würfel-Begriffs auswirken. Daher ist ein solcher Spielwürfel ungeeignet als Arbeitsmittel für den Erstkontakt mit dem entsprechenden Begriff. Aus den Regeln heraus wird das Artefakt gestaltet. -->
+<!-- Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensituation* dargestellt. Hierbei spielen z. B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgereichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als *instrumental orchestration* bezeichnet [siehe z. B. @Drijvers2010 {214 f.}].    -->
+<!-- ## Analyseschritte -->
+<!-- @Larkin2019 stellen dar, wie sich das ACAT-Modell als Analyseinstrument für Unterrichtsapps einsetzen lässt, eine Übersetzung des Beurteilungsleitfadens findet sich bei @Etzold2018 und eine für Lehrkräfte angepasste Variante bieten @Kortenkamp2019. Daran angelehnt bieten sich folgende Prozessschritte für die Analyse eines Arbeitsmittels an: -->
+<!-- 1. **Identifizieren des mathematischen Objekts** -->
+<!--     Zunächst muss klar sein, für welches mathematische Objekt – also für welchen Begriff, welchen Inhalt, welches Thema – das Arbeitsmittel eingesetzt werden soll. Sind mehrere mathematische Objekte möglich, muss die Analyse auch für jedes getrennt erfolgen, da das Arbeitsmittel ggf. unterschiedlich gut geeignet sein kann. Theoretischer Hintergrund ist, dass **ohne Objekt keine zielgerichtete Handlung eines Subjekts möglich** ist. Daher können Handlungen von Schülerinnen und Schülern mit einem Arbeitsmittel nur dann bewertet werden, wenn Klarheit bezüglich des (mathematischen) Objekts besteht. -->
+<!--     ***Mögliche Quellen*** hierfür sind die Bezeichnung des Arbeitsmittels bzw. eine offizielle Beschreibung, Zusatzmaterialien zum Arbeitsmittel (wie Arbeitsblätter, Handreichungen, …), externe Referenzen (z. B. Empfehlungen durch Dritte) oder auch das selbstständige Ausprobieren des Arbeitsmittels.   -->
+<!-- 2. **Herausstellen der Interaktionsmöglichkeiten mit dem mathematischen Objekt über das Arbeitsmittel** -->
+<!--     Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel eine *pinch-to-zoom*-Geste zum Vergrößern oder Verkleinern einer Landkarte auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von **Externalisierung**. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z. B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von **Internalisierung**. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten: -->
+<!--     **S → A:** Welche Handlungen sind mit dem Arbeitsmittel möglich?   -->
+<!--     **A → O:** Wie repräsentiert das Arbeitsmittel das mathematische Objekt?   -->
+<!--     **O → A:** Wie beeinflusst das Objekt das Verhalten des Arbeitsmittels?   -->
+<!--     **A → S:** Welche Erfahrungen können Schülerinnen und Schüler dadurch machen? -->
+<!--     Eine ***mögliche Quelle*** ist die eigene, systematische Nutzung des Arbeitsmittels. -->
+<!-- 3. **Analyse der Entwicklung der Interaktion** -->
+<!--     Nun werden die möglichen Interaktionen qualitativ strukturiert, um die mögliche Entwicklung des Lernens der Schülerinnen und Schüler besser zu beschreiben. Die Strukturierung bezieht sich auf die in der Tätigkeitstheorie übliche Unterscheidung in Tätigkeiten, Handlungen und Operationen: -->
+<!--     * **Tätigkeiten** sind übergeordnete, an *Motiven* orientierte Interaktionen (z. B. das Lesen einer Landkarte). -->
+<!--     * **Handlungen** sind *zielgerichtete*, individuelle Interaktionen, die die Tätigkeit realisieren (z. B. das Vergrößern eines Kartenausschnittes, um diesen detaillierter betrachten zu können). -->
+<!--     * **Operationen** sind zur Handlungsausführung notwendige Interaktionen, die jedoch kein weiteres Nachdenken erfordern und ggf. *instrumentellen Zwängen* unterworfen sind (z. B. das Ausführen der *pinch-to-zoom*-Geste oder das Verschieben der Karte mit dem Finger). -->
+<!--     In einem erfolgreichen Lernprozess verschieben sich (durch Verinnerlichungsprozesse) insbesondere Handlungen zu Operationen, um darauf neue, komplexere Handlungen aufbauen zu können. Es ist also darzustellen, wie eine dartige Entwicklung mithilfe des Arbeitsmittels unterstützt werden kann. -->
+<!--     ***Mögliche Quellen*** sind hypothetische Diskussionen potenzieller Entwicklungen, aber auch empirische Untersuchungen. -->
+<!-- 4. **Überprüfung der Eignung des Arbeitsmittels für die Vermittlung des mathematischen Objekts** -->
+<!--     In diesem Schritt wird die Realisierung des Arbeitsmittels für das spezielle mathematische Objekt mit den Erkenntnissen aus Fachdidaktik, Fachwissenschaft und Psychologie verglichen. Dabei wird geprüft, ob die in den Schritten 2 und 3 analysierten Interaktionen tatsächlich die aus Sicht der Mathematik(-didaktik) erwünschten oder benötigten Vorstellungen, Erfahrungen und Kompetenzen unterstützen. Im ACAT-Modell entspricht dies der regelgeleiteten Gestaltung des Artefakts, wobei diese Regeln wiederum aus mathematikdidaktischen Überlegungen, allgemeinem Multimediadesign, usw. stammen. -->
+<!--     ***Mögliche Quellen*** für diesen Schritt sind neben der Synthese der vorherigen Diskussionen v. a. auch wissenschaftliche Referenzen und Veröffentlichungen. -->
+<!-- 5. **Möglichkeiten zur Verwendung des Arbeitsmittels in der Klassensituation ** -->
+<!--     In einem letzten Schritt werden Möglichkeiten dargestellt, wie der Einsatz des Arbeitsmittels im Unterricht konkret aussehen kann. Folgende Fragen bieten eine Orientierung: -->
+<!--     * Ist das Arbeitsmittel für individuelle Arbeit, Partnerarbeit oder Kleingruppenarbeit geeignet? -->
+<!--     * Was sind mögliche Impulse und Aufgabenstellungen, die Sie als Lehrerin oder Lehrer geben können? -->
+<!--     * Welche Differenzierungsmaßnahmen und verschiedenen Schwierigkeitsgrade sind möglich? -->
+<!--     * Handelt es sich um Übungsmaterial oder dient es zur Einführung neuer Lerninhalte und dem Aufbau von Grundvorstellungen? -->
+<!--     * Welche Voraussetzungen/Kompetenzen werden an die Schülerinnen und Schüler für die Nutzung des Arbeitsmittels gestellt? -->
+<!--     * Wie können Diskussionen bzw. Interaktionen innerhalb der Klasse mithilfe des Arbeitsmittels direkt oder indirekt gefördert werden? -->
+<!--     Tätigkeitstheoretischer Hintergrund ist hierbei, dass Lernen niemals als eine rein individuelle Tätigkeit eines Schülers oder einer Schülerin angenommen wird, sondern immer im gesellschaftlichen und sozialen Kontext geschieht. Oder mit anderen Worten: »Im Unterricht agiert immer ein pädagogisches Gesamtsubjekt« [@Giest2004a 112]. -->
+<!--     ***Mögliche Quellen*** für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien bzw. Versuchsdurchführungen im Unterricht. -->
+<!-- Diese fünf Schritte sprechen damit jeweils verschiedene Elemente des ACAT-Modells an. Abbildung \@ref(fig:ACATAnalyse) fasst dies noch einmal zusammen. -->
+<!-- ```{r ACATAnalyse, echo=FALSE, fig.cap="ACAT-Analysemodell für Arbeitsmittel", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/9-ACATAnalyse.png") -->
+<!-- ```   -->
+<!-- Am Beispiel der App *Klipp Klapp* [@Etzold2020a] stellt @Stein2018 eine entsprechende Analyse dar, die englischsprachige Übersetzung ist bei @Larkin2019 [{85 ff.}] zu finden. -->
+<!-- Im Übrigen kann ein auf diese Weise als erfolgreich beurteiltes Arbeitsmittel den Charakter eines *Lernmodells* annehmen, wie es im Abschnitts \@ref(aufsteigen-vom-abstrakten-zum-konkreten) charakterisiert wird.  -->
+<!-- ## Zum Nachbereiten {#arbeitsmittel-analysieren-nachbereitung} -->
+<!-- 1. Lesen Sie als Hintergrundtheorie zur Analyse von Unterrichtsapps den Artikel von @Larkin2019. -->
+<!-- 2. Führen Sie nach der hier vorgestellten Schrittfolge eine Analyse des Arbeitsmittels *Zahlenstrahl* durch [siehe z. B. auch @Schulz2018]. -->
+
+<!-- # Aufgaben gestalten -->
+<!-- > **Lernziele** -->
+<!-- > -->
+<!-- > + Sie kennen Möglichkeiten, Aufgaben je nach ihrer Funktion und den auszubildenden Fähigkeitsaspekten auszuwählen bzw. zu erstellen. -->
+<!-- > + Sie können Aufgaben aus Schulbüchern für produktives Üben anpassen. -->
+<!-- > + Sie kennen Differenzierungsmöglichkeiten mithilfe von Aufgaben und können differenzierende Aufgaben erstellen. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zur Gestaltung von Aufgaben ([pdf](files/Stoffdidaktik-WiSe2122-Kap10.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap10.key)) -->
+<!-- In der Veranstaltung *Einführung in die Mathematikdidaktik* lern(t)en Sie zentrale Aufgabentypen kennen, die Ihnen Aussage über die *Offenheit* von Aufgaben liefern [siehe auch @Bruder 2]. Weiterhin wird an dieser Stelle davon ausgegangen, dass Sie *Operatoren* kennen, die für eine präzise Formulierung von Aufgabenstellungen genutzt werden können [siehe auch @InstitutfurQualitatsentwicklungimBildungswesen2019; @MinisteriumfurBildungJugendundSportdesLandesBrandenburg 11]. -->
+<!-- ## Funktionen von Aufgaben -->
+<!-- »Eine Aufforderung zum Lern-Handeln im Mathematikunterricht wird als **Aufgabe** bezeichnet« [@Bruder2012 19, Hervorhebung im Original]. Mit diesem Aufgabenbegriff sind Sie nun als Lehrkraft gefordert, Ihre Schülerinnen und Schüler anzuregen, sich aktiv mit mathematischen Lerngegenständen auseinanderzusetzen. Dabei sollten Sie sich der verschiedenen möglichen **Funktionen von Aufgaben** bewusst sein, da dies jeweils die Art und Weise, wie Sie Aufgaben formulieren und sie im Unterricht einsetzen, beeinflussen [vgl. @Leuders2015 439; @SINUSBayern]. Die hier angebrachten Beispiele beziehen sich auf den Lerngegenstand *Prozentrechnung*. -->
+<!-- (ref:citeProzentErkunden) Erkundungsaufgabe zur Prozentrechnung [@Barzel2015a 223] -->
+<!-- (ref:citeProzentSammeln) Systematisierungsaufgabe zur Prozentrechnung [@Barzel2015a 226] -->
+<!-- (ref:citeProzentUeben) Übungsaufgaben zur Prozentrechnung [@Barzel2015a 232] -->
+<!-- (ref:citeProzentVertiefen) Vertiefungsaufgabe zur Prozentrechnung [@Barzel2015a 241] -->
+<!-- (ref:citeProzentLeisten) Selbsteinschätzungsaufgabe zur Prozentrechnung [@Barzel2015a 244] -->
+<!-- * Aufgaben können dem **Erkunden**, **Entdecken** und **Erfinden** dienen. Diese in der Regel am Anfang eines Themengebiets stehenden Aufgaben sollten möglich offen formuliert sein und in besonderer Weise Motivation schaffen, sich mit dem Lerngegenstand erstmals auseinanderzusetzen (siehe Abbildung \@ref(fig:ProzentErkunden)). An dieser Stelle können auch typische W-Fragen gestellt werden -- es ist im Sinne der Offenheit nicht zwingend notwendig, sich an den Operatoren zu orientieren. -->
+<!--     ```{r ProzentErkunden, echo=FALSE, fig.cap="(ref:citeProzentErkunden)", fig.align='center', out.width='75%'} -->
+<!--     knitr::include_graphics("pictures/10-ProzentErkunden.png") -->
+<!--     ```   -->
+<!-- * Aufgaben zum **Sammeln**, **Sichern** und **Systematisieren** greifen vorherige Ideen auf, mit denen dann eine gewünschte mathematische  Struktur herausgearbeitet werden soll (siehe Abbildung \@ref(fig:ProzentSammeln)). In derartigen Aufgaben können Schülerinnen und Schüler auch angeleitet werden, sinnvolle Repräsentationen zu nutzen, um Grundvorstellungen auszubilden.  -->
+<!--     ```{r ProzentSammeln, echo=FALSE, fig.cap="(ref:citeProzentSammeln)", fig.align='center', out.width='75%'} -->
+<!--     knitr::include_graphics("pictures/10-ProzentSammeln.png") -->
+<!--     ```   -->
+<!-- * **Üben**, **Festigen** und **Wiederholen** sind weitere wesentliche Funktionen von Aufgaben im Mathematikunterricht. Hier sollten Sie eine möglichst große Vielfalt an Fähigkeitsaspekten ansprechen (siehe Abschnitt \@ref(Faehigkeitsaspekte)), um sowohl Automatisierungsprozesse als auch den Transfer anzuregen. Sowohl geschlossene als auf teilweise geöffnete Aufgaben bieten sich hier an -- auch sind die verschiedenen Anforderungsbereiche anzusprechen, was sich in einer gezielten Auswahl an Operatoren widerspiegeln sollte (siehe Abbildung \@ref(fig:ProzentUeben)). -->
+<!--     ```{r ProzentUeben, echo=FALSE, fig.cap="(ref:citeProzentUeben)", fig.align='center', out.width='75%'} -->
+<!--     knitr::include_graphics("pictures/10-ProzentUeben.png") -->
+<!--     ```   -->
+<!-- * Das **Vertiefen**, **Strukturieren** und **Vernetzen** stärkt das Kompetenzerleben der Schülerinnen und Schüler. Die Aufgaben werden wieder offener und können mit anderen Lerngegenständen in Bezug gebracht werden. Auch können Sonder- oder Grenzfälle der bisher betrachteten Aufgaben nun verstärkt eine Rolle spielen (siehe Abbildung \@ref(fig:ProzentVertiefen)). -->
+<!--     ```{r ProzentVertiefen, echo=FALSE, fig.cap="(ref:citeProzentVertiefen)", fig.align='center', out.width='75%'} -->
+<!--     knitr::include_graphics("pictures/10-ProzentVertiefen.png") -->
+<!--     ```   -->
+<!-- * Die bisher genannten Funktionen hängen oftmals eng mit entsprechenden Unterrichtsphasen zusammen. Davon unabhängig können Aufgaben auch die Funktion des **Differenzierens** haben. Maßnahmen dafür werden in Abschnitt \@ref(differenzieren) näher erläutert. -->
+<!-- * Weiterhin ist zwischen **Lernaufgaben** und **Leistungsaufgaben** zu unterscheiden. Letztere spielen bei der **Selbsteinschätzung**, **Diagnose** und **Leistungsmessung** eine besondere Rolle (siehe Abbildung \@ref(fig:ProzentLeisten)). Insbesondere für solche Aufgaben sollten Operatoren genutzt werden, um die gewünschten Komptenzen gezielt überprüfen zu können, Erwartungen an die Schülerinnen und Schüler transparent zu machen und eine Vergleichbarkeit zu sichern.  -->
+<!--     ```{r ProzentLeisten, echo=FALSE, fig.cap="(ref:citeProzentLeisten)", fig.align='center', out.width='75%'} -->
+<!--     knitr::include_graphics("pictures/10-ProzentLeisten.png") -->
+<!--     ```   -->
+<!-- ## Produktives Üben -->
+<!-- ### Fähigkeitsaspekte {#Faehigkeitsaspekte} -->
+<!-- Nicht selten wird man in Schulbüchern mit sogenannten *Aufgabenplantagen* konfrontiert, also einer Vielzahl an Aufgaben immer derselben Art. Diese haben in der Regel das (berechtigte) Ziel, dass bestimmte Rechenoperation durch wiederholtes Üben automatisiert durchgeführt werden können. Im Schulalltag besteht jedoch die Gefahr, dass das Üben im Mathematikunterricht dann zum alleinigen *Päckchenrechnen* verkommt, was der Vielzahl an **Fähigkeitsaspekten**, die ausgeprägt werden sollen, nicht gerecht wird. -->
+<!-- Diese Fähigkeitsaspekte sind nach @Leuders2009 [133]: -->
+<!-- * **Kenntnisse**, es kann z. B. die Definition eines math. Inhalts mit eigenen Worten wiedergegeben werden. -->
+<!-- * **Fertigkeiten**, es können z. B. bestimmte Rechenoperationen durchgeführt werden. -->
+<!-- * **Verstehen/Vorstellungen**, es kann z. B. an einem Bild der entsprechende math. Inhalt erklärt werden. -->
+<!-- * **Anwendungsfähigkeit**, es können z. B. unbekannte Situationen mithilfe des math. Inhalts gelöst werden. -->
+<!-- * **(übergreifende) Strategien**, es können z. B. Heurismen [vgl. @Kuzle] mithilfe des math. Inhalts angewandt werden. -->
+<!-- * **Reflexionsfähigkeit**, es kann z. B. beurteilt werden, inwieweit der math. Inhalt in einer Situation relevant ist. -->
+<!-- * **Einstellungen**, es besteht z. B. die Bereitschaft, sich mit dem math. Inhalt auseinanderzusetzen. -->
+<!-- Diese Fähigkeitsaspekte sind nicht als Stufen aufzufassen, sondern gleichermaßen und unabhängig voneinander bedeutsam [@Leuders2009 133]. -->
+<!-- ### Aufgaben verändern -->
+<!-- Einerseits sollten Sie als Lehrkraft in der Lage sein, zielgerichtet je nach Fähigkeitsaspekt Aufgaben auszuwählen. Andererseits, und das ist dann notwendig, wenn Sie keine guten Aufgaben finden, müssten Sie auch selbst welche entwickeln können -- was jedoch sehr zeitaufwendig ist. Ein in der Unterrichtspraxis effektiver Umgang ist das Verändern von existierenden Aufgaben, um diese *produktiver* zu machen, d. h. vielfältige Fähigkeitsaspekte anzusprechen.  -->
+<!-- @Leuders2009 [{137 ff.}] stellt in einer ausführlichen Tabelle (am Beispiel des arithmetischen Mittels) dar, wie man sich ausgehend vom gewünschten Fähigkeitsaspekt (z. B. »Strukturen reflektieren«) und damit zusammenhängenden Aufgabentypen (z. B. »Muster erkennen und erzeugen«) an geeigneten Fragetypen (z. B.»Muster fortsetzen«) orientieren kann, um einen produktiven Umgang mit Aufgaben zu ermöglichen. Mit diesem Hintergrundwissen können Sie Ihren Blick auf existierende Schulbuchaufgaben richten und diese dann zielgerichtet anpassen. -->
+<!-- Die soll am Beispiel einer Schulbuchseite zur Prozentrechnung dargestellt werden, siehe Abbildung \@ref(fig:ProzentSchulbuch). -->
+<!-- (ref:citeProzentSchulbuch) Schulbuchseite zur Prozentrechnung [@Kleine2011a 65] -->
+<!-- ```{r ProzentSchulbuch, echo=FALSE, fig.cap="(ref:citeProzentSchulbuch)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/10-ProzentSchulbuch.jpg") -->
+<!-- ```   -->
+<!-- * Bei Aufgabe 2 könnte ergänzt werden: -->
+<!--     *Welche Brüche lassen sich besonders leicht, welche schwerer in Dezimalbrüche und Prozent umrechnen? Woran liegt das?* -->
+<!--     Damit soll die Reflexion darüber angeregt werden, dass das Erweitern und Kürzen, sodass der Nenner 100 ergibt, je nach gegebenem Nenner unterschiedlich schwer sein kann. Hinsichtlich der Tabelle von @Leuders2009 [138] kann diese Aufgabe der Situation »Strukturen reflektieren« → »Strukturieren« → »Bewerten« zugeordnet werden. Statt alle Päckchen rechnen zu müssen, könnte nach der obigen Reflexion auch aufgefodert werden: -->
+<!--     *Wähle eine leichte und eine schwere Teilaufgabe aus und löse sie.* -->
+<!-- * Aufgabe 3 ließe sich ergänzen durch: -->
+<!--     *Wie ändert sich Lisas Leistung, wenn du weitere Schüsse aufs Tor zielst, die sie alle hält?* -->
+<!--     Diese Aufgabe betont den Zusammenhang zwischen Grundwert, Prozentwert und Protenzsatz, da jeder weitere Schuss sowohl den Grundwert als auch Prozentwert um 1 erhöht, womit zwar der Prozentsatz zunimmt, aber nicht linear steigt. Damit kann gleichzeitig eine tiefere Beschäftigung mit der dahinterliegenden arithmetischen Struktur angeregt werden. Nach @Leuders2009 [137] gehört diese Aufgabe zum Bereich »Probleme lösen« → »Operatives Durcharbeiten« → »Funktionale Abhängigkeit«.  -->
+<!-- * Aufgabe 5 könnte ergänzt werden: -->
+<!--     *Erfinde eine andere Situation, in der auf dieselbe Art und Weise gerechnet werden kann. Welche deiner Größen entsprechen den »Punkten« und der »Anzahl der Lose« und welche Rolle spielen diese Größen bei der Berechnung?* -->
+<!--     Hierüber wird eine strukturgleiche Übertragung der gegebenen Situation auf eine neue Situation gefordert. Dies führt dazu, sich tiefer mit dem Zusammenhang aus Rechenoperation und Anwendungskontext auseinanderzusetzen und entspricht bei @Leuders2009 [139] der Kategorie »Anwendungen erkunden« → »Anwenden« → »Anwendungen erfinden«.  -->
+<!-- ## Differenzieren -->
+<!-- Um differenzierenden Unterricht zu ermöglichen, können Aufgaben entsprechend gestaltet werden. Dies kann mit *leichten* und *schweren* Aufgaben erfolgen -- es gibt aber noch weitaus mehr Möglichkeiten. Davon sollen hier einige exemplarisch vorgestellt werden, genauere Maßnahmen finden sich in den jeweils zitierten Quellen. -->
+<!-- ### Gestufte Hilfen -->
+<!-- Bei komplexen Aufgaben bietet es sich an, den Schülerinnen und Schülern gestufte Hilfen bereitzustellen, damit diese im Lösungsweg individuell unterstützt werden können [siehe auch @Zech1998 {315 ff.}]. Auch wenn Motivationshilfen (*Die Aufgabe ist nicht so schwer.*), Rückmeldungshilfen (*Du bist auf einem guten Weg.*) oder allgemeine strategische Hilfen (*Lies die Aufgabe noch mal durch.*) deratige Unterstützungen sind, sollte bei der stoffdidaktisch-orientierten Unterrichtsplanung der Schwerpunkt auf **inhaltsorientierten strategischen Hilfen** sowie auf **inhaltlichen Hilfen** im Zusammenhang mit dem Lerngegenstand liegen. -->
+<!-- * Inhaltsorientierte strategische Hilfen beziehen sich auf typische am Lerngegenstand orientierte Herangehensweisen zur Lösung einer Aufgabe. Mögliche Beispiele sind: -->
+<!--     *Veranschauliche dir die Situation mit einer Skizze.*   -->
+<!--     *Stelle eine Gleichung auf.*   -->
+<!--     *Orientiere dich beim Vorgehen an dem Beispiel, das du bereits gerechnet hast.* -->
+<!-- * Inhaltliche Hilfen beziehen sich direkt auf die mit der Aufgabe verbundenen Begriffe, Regeln und Zusammenhänge. Dies können z. B. sein: -->
+<!--     *Überlege, was mit dem Flächeninhalt passiert, wenn du die Seitenlängen verdoppelst.*   -->
+<!--     *Du kannst hier das Kommutativgesetz anwenden.*   -->
+<!-- @Zech1998 [315] betont, »nie mehr [zu] helfen als erforderlich«, um eine Aufgabe erfolgreich lösen zu können. Gestufte Hilfen haben demnach die Funktion, trotz ggf. vorhandener Schwierigkeiten Erfolgserlebnisse bei den Schülerinnen und Schülern zu ermöglichen. -->
+<!-- ### Differenzierende Aufgaben -->
+<!-- #### Schwierigkeitsbestimmende Merkmale  -->
+<!-- Ob eine Aufgabe leicht oder schwer ist, wird natürlich stets subjektiv beeinflusst. Dennoch können schwierigkeitsbestimmende Merkmale von Aufgaben identifiziert werden, die bspw. bei der Konstruktion differenzierender Aufgaben hilfreich sind. Nach @Druke-Noe2018 [11] sind diese Merkmale: -->
+<!-- * Zugehörigkeit zu einer curricularen Wissensstufe -->
+<!-- * Komplexität und Qualität einer erforderlichen Modellierung -->
+<!-- * Offenheit des Modellierungsprozesses -->
+<!-- * Art des Kontextes -->
+<!-- * Erfordernis, mathematische Argumente zu formulieren -->
+<!-- * Anzahl zu steuernder Denkprozesse -->
+<!-- * Technische Komplexität -->
+<!-- * „Umfang“ eines Verarbeitungsprozesses (u. a. Anzahl der Rechenschritte, Art des Zahlenmaterials) -->
+<!-- * Sprachlogische Komplexität -->
+<!-- Abbildung \@ref(fig:Schwierig) zeigt eine mögliche Realisierung zur Generierung unterschiedlich schwerer Aufgaben. -->
+<!-- (ref:citeSchwierig) Unterschiedlich schwere Aufgaben zum Prismenvolument [aus @Druke-Noe2018 10] -->
+<!-- ```{r Schwierig, echo=FALSE, fig.cap="(ref:citeSchwierig)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/10-Schwierig.png") -->
+<!-- ```   -->
+<!-- In der Unterrichtspraxis kann dies nun bedeuten, dass Sie auswählen, welche Schülerinnen und Schüler welche Aufgaben lösen [sogenannte **paralleldifferenzierende Aufgaben**, vgl. @Leuders2015 441], Sie können die Auswahl den Lernenden selbst überlassen oder auch eine Stufung im Schwierigkeitsgrad vornehmen, die dann durchlaufen werden soll (**gestuft differenzierende Aufgaben**). -->
+<!-- #### Blütenaufgaben -->
+<!-- Eine besondere Form gestufter Aufgaben sind **Blütenaufgaben**. Diese sind dadurch gekennzeichnet, dass der **Offenheitscharakter der Teilaufgaben steigt**, wobei alle Teilaufgaben einem **gemeinsamen Kontext** zuzuordnen sind. Die Schülerinnen und Schüler entscheiden dabei selbst, wie weit sie in der Bearbeitung der Aufgabe vordringen, womit Blütenaufgaben *anforderungsgestuft* und *selbstdifferenzierend* sind [vgl. @Bruder2015a {528 f.}]. -->
+<!-- Einen etwas ausführlicheren Hintergrund und einige Beispiele zeigt ein Video von @Quarder2020.  -->
+<!-- ### Natürliche Differenzierung -->
+<!-- Eine noch offenere und für die Unterrichtsplanung durchaus anspruchsvollere Form ist die **natürliche Differenzierung**. Nach @Krauthausen2010 [{5 f.}] weist eine natürlich differenzierte Lernumgebung folgende Merkmale auf: -->
+<!-- * Alle Schülerinnen und Schüler arbeiten an einem gemeinsamen Lerngegenstand mit **demselben Lernangebot**, d. h. allen wird dasselbe Material zur Verfügung gestellt. -->
+<!-- * Das Material weist eine **inhaltliche Ganzheitlichkeit** auf, d. h. es ist komplex genug, um sich tiefgründig mit dem Lerngegenstand auseinandersetzen zu können.  -->
+<!-- * Es erfolgt (durch die Lehrkraft) eine **fachliche Rahmung**, die naturgemäß zu **Fragestellungen unterschiedlichen Schwierigkeitsgrades** führt. Daraufhin haben die Schülerinnen und Schüler die **Wahl, auf welchem Nivau** die Problemstellung betrachtet wird -- das Material muss hier also verschiedene Niveaus gleichermaßen ermöglichen.  -->
+<!-- * Den Schülerinnen und Schülern ist es **freigestellt, welche Wege, Hilfsmittel und Darstellungsweisen** genutzt werden, um die Problemstellung zu bearbeiten. Die Lehrkraft hat hier die Veranwortung, die Schülerinnen und Schüler zu *befähigen*, eine sinnvolle Auswahl zu treffen. Dies kann bspw. durch geeignete Impulse erfolgen, auch ist ggf. eine explizite Heurismenschulung notwendig.  -->
+<!-- * Letztlich ist natürliche Differenzierung durch ein intensives **soziales Mit- und Voneinanderlernen** geprägt, wofür eine kommunikationsfreundliche Umgebung geschaffen werden muss. Dies betrifft z. B. die Diskussion unterschiedlicher Lösungswege, *natürlich* entstandene (ggf. abweichende) Fragestellungen oder auch unterschiedliche Auffassungen. -->
+<!-- Bisher existieren wenige Aufgaben zur natürlichen Differenzierung für die Sekundarstufe. Ein Beispiel zur Bruchrechnung zeigen @Fockler2018 [2]. -->
+<!-- ## Zum Nachbereiten {#aufgaben-gestalten-nachbereitung} -->
+<!-- Erstellen Sie zum Lerngegenstand *Rechnen mit negativen Zahlen* -->
+<!-- a) jeweils eine Aufgabe zum Erkunden, Sichern, Üben und Vertiefen, -->
+<!-- b) für die Vertiefungsaufgabe zwei bis drei gestufte Hilfen, sowie -->
+<!-- c) eine Blütenaufgabe. -->
+
+<!-- # Zweites Intermezzo: Wurzel -->
+<!-- > **Lernziele**   -->
+<!-- >   -->
+<!-- > + Sie vertiefen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere zu Begriffsbildungsprozessen auf der konkreten Ebene. -->
+<!-- > + Sie gewinnen einen Einblick in die Tätigkeitstheorie-basierte Gestaltung von Lernprozessen am Beispiel des Wurzelbegriffs. -->
+<!-- Am Beispiel des Begriffs *Wurzel* sollen die in den letzten beiden Kapiteln dargestellten Inhalte auf der <span style='color: #EE220C;'>konkreten</span> Ebene verdeutlicht werden. Um die Überlegungen zur Begriffsbildung anstellen zu können, wäre vorher eine Analyse auf der <span style='color: #00A2FF;'>formalen</span> und <span style='color: #1DB100;'>semantischen</span> Ebene notwendig. Darauf wird hier der Übersichtlichkeit halber verzichtet -- entsprechende Gedanken fließen implizit ein. -->
+<!-- ## Wurzel-Begriffsverständnis -->
+<!-- Als **Begriffsinhalt** des Wurzelbegriffs ist zunächst festzuhalten, dass die Wurzel bzw. das Wurzelziehen die Umkehrung des Quadrierens im Bereich der nichtnegativen Zahlen ist. Diese Nichtnegativität ist übrigens im Unterricht besonders herauszuarbeiten. Während $(-3)^2 = 9$ und $3^2= 9$ ist, also die Gleichung $x^2 = 9$ zwei Lösungen in den reellen Zahlen hat, ist $\sqrt{9} = 3$ eindeutig festgelegt. Man kann also nicht pauschal von der Wurzel als die Umkehrung des Quadrates sprechen.^[Dies wird bei höheren Exponenten sogar noch bedeutsamer: Dort ist $(-3)^3 = -27$. Die Gleichung $x^3 = -27$ ist im Reellen sogar eindeutig lösbar (im Komplexen dagegen hat sie drei Lösungen), aber $\sqrt[3]{-27}$ ist nicht definiert. Gerade, weil einige Taschenrechner fälschlicherweise die dritte Wurzel aus $-27$ mit $-3$ angeben, muss auf eine derartige Gefahr eingegangen werden, wenn Wurzeln höherer Exponenten behandelt werden. Dies zeigt einmal mehr, dass Sie als Lehrkraft über den aktuellen Unterrichtsstoff (z. B. Quadratwurzeln) hinausdenken müssen (z. B. Kubikwurzeln), um Rückschlüsse ziehen zu können, welche inhaltlichen Besonderheiten zu betonen sind.] Weiterhin zum Begriffsinhalt gehört die Eigenschaft, dass Wurzeln nicht immer rational sein müssen, auch wenn die Zahl, aus der die Wurzel gezogen wird, rational ist (z. B. bei $\sqrt{2}$). Der Wert einer Wurzel lässt sich jedoch mittels rationaler Zahlen annähern^[Die fachmathematische Grundlage hierfür ist, dass Cauchy-Folgen in den reellen Zahlen immer konvergieren und sich die nichtnegative Lösung der Gleichung $x^2 = a$ mit $a\geq 0$ über eine rationale Cauchy-Folge nähern lässt -- konkret mit dem *Heron-Verfahren*.]. Das Vorgehen zum Finden einer Annäherung kann durchaus auch als Bestandteil des Begriffsinhalts aufgefasst werden. -->
+<!-- Der **Begriffsumfang** der Wurzel sind demnach alle nichtnegativen reellen Zahlen, da für jede (rationale oder reelle) Zahl $a\geq 0$ eine reelle Zahl $x\geq 0$ gefunden werden kann, für die $x^2 = a$ gilt. Dieser Begriffsumfang kann sich jedoch erst schrittweise entwickeln, da mit der Einführung des Wurzelbegriffs in der Regel noch nicht die reellen Zahlen bekannt sind. Die Menge aller Wurzeln rationaler Zahlen besteht zwar aus  nichtnegativen reellen Zahlen -- aber noch nicht aus allen (denn z. B. $\sqrt{\pi}$ existiert ja auch). Ein vollständiger Begriffsumfang des Wurzelbegriffs ist also erst dann ausgeprägt, wenn die reellen Zahlen eingeführt wurden. -->
+<!-- Damit werden auch schon Zusammenhänge des **Begriffsnetzes** sichtbar. Eng verbunden ist der Wurzelbegriff mit dem des *Quadrates* (sowohl algebraisch als auch geometrisch) und den *Reellen Zahlen* (als *Lückenfüller* der rationalen Achse). Auch das *Wurzelziehen* bzw. *Radizieren*^[Hier lohnt es sich übrigens, auf die Wortherkunft einzugehen und zu begründen, warum Radieschen als solche bezeichnet werden.] als verwandte Arbeitsbegriffe gehören zum engen Begriffsnetz. Bei der Betrachtung der Gleichung $x^2 = a$ sind auch *Basis* und *Exponent* sowie der *Radikant*, v. a. in der Schreibweise $\sqrt{a} = x$, Bestandteile des Begriffsnetzes. Der *Wurzelexponent* wird dann v. a. bei höheren Exponenten von Bedeutung, wenn er in der Schreibweise $\sqrt[n]{a}$ auftritt. Ob die *Intervallschachtelung* als Fachbegriff im Zusammenhang mit dem Wurzelziehen auftauchen muss, sollte abhängig von der Lerngruppe entschieden werden -- bekommt damit aber eine besondere Bedeutung als Begriff eines Verfahrens. -->
+<!-- Der Begriff der Wurzel kann als **zentraler Begriff** einer Unterrichtseinheit aufgefasst werden. Die verschiedenen **Stufen des Begriffsverständnisses** lassen sich nun auf den Wurzelbegriff anwenden: Das *intuitive Begriffsverständnis* ist gegeben, wenn die Schülerinnen und Schüler Wurzeln als Seitenlängen zu Quadraten mit vorgegebenen Flächeninhalten auffassen oder dies in einer algebraischen Sichtweise nachvollziehen. Zum *inhaltlichen Begriffsverständnis* gehört darauf aufbauend hinzu, dass es sich stets um nichtnegative Werte handeln muss. Ein *integriertes Begriffsverständnis* liegt vor, wenn die Monotonie und nicht-Linearität erkannt ist, also bspw. die näherungsweise Bestimmung einer Wurzel möglich ist. Auch der begriffliche Zusammenhang zu *Quadrat*, *Basis* und *Exponent* kann auf dieser Stufe von den Schülerinnen und Schülern hergestellt werden. Bestandteil der Stufe ist (später) ebenfalls die Verknüpfung zu höheren Potenzen und deren $n$-te Wurzeln. Das *formale Begriffsverständnis* geht einher mit der Kenntnis und Anwendbarkeit der Definition der Wurzel, hier insbesondere auch die Fähigkeit zu begründen, warum es keine negativen Wurzeln bzw. keine Wurzeln aus negativen Zahlen gibt. Ein *strukturelles Begriffsverständnis* ist bei einem zentralen Begriff (im Gegensatz zu Leitbegriffen) nicht zwingend notwendig. -->
+<!-- ## Wurzel-Begriffseinführung -->
+<!-- Hier vorgestellt werden soll eine Orientierung am Aufsteigen vom Abstrakten zum Konkreten, wobei einige Anregungen aus der *Mathewerkstatt* für die Klassenstufe 9 [@Barzel2016 {92 ff.}] entnommen sind. -->
+<!-- 1. Die **Zone der nächsten Entwicklung** ist natürlich eine individuelle Bezugsnorm der Schülerinnen und Schüler. Es kann aber prinzipiell davon ausgegangen werden, dass den Lernenden Quadrate bekannt sind und sie aus diesen Seitenlängen abmessen und den Flächeninhalt berechnen können. Noch nicht in der Lage sind sie, aus gegebenen Flächeninhalten die Seitenlänge eines Quadrates zu berechnen bzw. halbquantitive Zusammenhänge zu erzeugen (z. B. *Wie ändert sich die Seitenlänge, wenn der Flächeninhalt halbiert wird?*). Jedoch können sie diese Anforderungssituation mit ihrem bisherigen Wissen verstehen. -->
+<!--     Der (innermathematische) **Kontext** ist also das Bestimmen einer Seitenlänge eines Quadrates bei gegebenem Flächeninhalt. Dies kann u. a. dadurch konkretisiert werden, dass zu einem Quadrat das mit dem halben Flächeninhalt gesucht wird. Dies erhöht die Konxtauthentizität dahingehend, das es sich um ein historisch relevantes Problem handelt [vgl. @Barzel2016 94]. Dabei ist es reichthaltig genug, auch von der Halbierung abzusehen und allgemeinere Zusammenhänge zu erkunden. Ein erster Lösungsversuch ist zum Beispiel über das Falten eines quadratischen Blatt Papiers möglich (indem alle vier Ecken auf den Mittelpunkt gefaltet werden). Durch einen Vergleich des ursprünglichen und des gefalteten Quadrates kann man erkennen, dass die Seitenlänge nicht einfach halbiert werden kann. -->
+<!-- 2. Als **Lernziel** kann herausgearbeitet und formuliert werden: *Wir wollen für ein Quadrat mit einem bestimmten Flächeninhalt die Seitenlänge bestimmen können.* Dies ist allgemeiner formuliert als das Halbierungsproblem, aber eine solch allgemeine Formulierung ist durchaus sinnvoll, um das übergeordnete Ziel während des Lernprozesses stets vor Augen zu haben. Wichtig ist hierbei, dass auch das Ziel selbst von den Lernenden verstanden wird und sie jederzeit überprüfen können, inwieweit sie das Ziel schon erreicht haben. -->
+<!-- 3. Bei der Überlegung, welche **Lernhandlungen** geeignet sind, sich dem Wurzelbegriff zu nähern, sollen diese aus den fachlich relevanten Zusammenhängen extrahiert und am gewählten Kontext konkretisiert werden:   -->
+<!--     * Ein wesentlicher Zusammenhang ist, dass sich Seitenlänge und Flächeninhalt eines Quadrates nicht proportional zueinander verhalten, also eine doppelte Seitenlänge nicht zu einem doppelten Flächeninhalt führt. Dieser nicht-Zusammenhang gilt aber dann natürlich auch umkehrt: Der doppelte Flächeninhalt wird nicht durch eine doppelte Seitenlänge verursacht. Diese Perspektive ist wichtig, um zu erkennen, dass sich Wurzeln unbekannter Zahlen nicht so einfach linear aus Wurzeln bekannter Zahlen konstruieren lassen. Als konkrete Lernhandlung lässt sich die umsetzen, indem zu vorgegebenen Quadraten Seitenlängen und Flächeninhalte bestimmt werden müssen. Die Auswahl sollte derart erfolgen, dass sowohl vielfache Seitenlängen als auch vielfache Flächeninhalte auftreten, damit bei den jeweils anderen Größen erkannt wird, dass diese keine entsprechenden Vielfachen darstellen. -->
+<!--     * Trotz der nicht-Linearität ist die bestehende (strenge) Monotonie ein weiterer Zusammenhang zwischen Seitenlängen und Flächeninhalt. Dieser kann herausgearbeitet werden, indem (nach der vorherigen Erfahrung) Flächeninhalte und Seitenlängen von Quadraten gegeben werden und zwischen diesen eine Zuordnung erfolgen muss. Dies betont den qualitativen Zusammenhang -- auch wenn ein konkretes Ausrechnen damit noch nicht möglich ist. -->
+<!--     * Der nächste Handlungsschritt ist nun das näherungsweise Bestimmen von Seitenlängen über das Intervallschachtelungsprinzip. Dieses baut in fachlicher Hinsicht auf die Monotonie auf und es sind nun immer Zahlenpaare $a_1$ und $a_2$ gesucht, für die $a_1^2 \leq A \leq a_2^2$ für einen gegebenen Flächeninhalt $A$ gilt. Über eine vorstrukturierte (und ggf. auch schon über Beispiele vorausgefüllte) Tabelle kann dieses Vorgehen unterstützt werden. Begleitet werden kann dieses Vorgehen natürlich auch über ein zeichnerisches Nähern, indem den Quadraten weitere einbeschrieben werden, deren Seitenlängen gemessen und daraus der Flächeninhalt berechnet wird. -->
+<!--     |  $a_1^2$ | $a_1 \leq \sqrt{8\,\mathrm{cm}^2} \leq a_2$  | $a_2^2$    -->
+<!--     |:----:|:----:|:----: -->
+<!--     |$4\,\mathrm{cm}^2$| $2\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 3\,\mathrm{cm}$ | $9\,\mathrm{cm}^2$ -->
+<!--     |$7{,}84\,\mathrm{cm}^2$| $2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 3\,\mathrm{cm}$ | $9\,\mathrm{cm}^2$ -->
+<!--     |$7{,}84\,\mathrm{cm}^2$| $2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 2{,}9\,\mathrm{cm}$ | $8{,}41\,\mathrm{cm}^2$ -->
+<!--     |$7{,}84\,\mathrm{cm}^2$| $2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 2{,}85\,\mathrm{cm}$ | $8{,}1225\,\mathrm{cm}^2$ -->
+<!--     | | $\vdots$ |  -->
+<!-- Table: (\#tab:intervallschachtelung) Intervallschachtelung zur Bestimmung von $\sqrt{8}$ -->
+<!--       All die Handlungen haben gemeinsam, dass dabei zwar am **Ausgangskonkretum** (Quadrate mit bestimmten Flächeninhalten und Seitenlängen) agiert wird, allerdings sind sie verallgemeinerbar und in ihrer Ausführung nicht an die genutzen Größen- und Zahlenwerte gebunden. Die mit den Lernhandlungen verbunden Aufgabenstellungen sollten dabei über eine **Kernfrage** in ihrer Vorschauperspektive begleitet werden. Aus dem Lernziel heraus lässt sich beispielsweise formulieren [siehe @Barzel2016 94]: »Warum ist es so schwierig, das Quadrieren rückwärts zu rechnen?«   -->
+<!-- 4. Die **etappenweise Verinnerlichung von Handlungen** bietet sich insbesondere für die dritte Lernhandlung an (in der die Wurzeln näherungsweise bestimmt werden), da in dieser Handlung alle vorherigen Zusammenhänge integriert sind. Eine *materielle bzw. materialisierte Handlung* ist schwer zu identifizieren, ggf. noch das Ausmessen der Seitenlänge eines Quadrates. In der *sprachlichen Handlung* sollte das Vorgehen der Intervallschachtelung von den Schülerinnen und Schülern beschrieben werden. Die *geistige Handlung* ist dann das Ausführen der Intervallschachtelung selbst (wobei natürlich die errechneten Zahlen notiert werden). -->
+<!--     Die bei der Diskussion der Lernhandlungen dargestellten wesentlichen Begriffseigenschaften müssen nun den Schülerinnen und Schülern über die **Verallgemeinerung der Lernhandlungen** explizit gemacht werden. Dies kann bspw. im Unterrichtsgespräch erfolgen, indem das Vorgehen am konkreten Beispiel reflektiert und dabei das Allgemeine daran herausgearbeit wird. Es müssen natürlich nicht Begriffe wie *nicht-Linearität*, *Monotonie* und *Intervallschachtelung* genutzt werden, aber deren inhaltliche Aussagekraft muss sichtbar werden. Daraus abgeleitet kann nun die **Ausgangsabstraktion** formuliert werden. Angelehnt an die **Anforderungen an eine Definition**, könnte dies sein: -->
+<!--     *Die Wurzel einer nichtnegativen Zahl $A$ ist diejenige nichtnegative Zahl $a$, für die $a^2 = A$ gilt.* -->
+<!--     *Man schreibt: $a = \sqrt{A}$.* -->
+<!--     *Beispiel: $\sqrt{9} = 3$, denn $3^2 = 9$.* -->
+<!--     (ref:citeLernmodellWurzel) Veranschaulichung der *Wurzel* -->
+<!--     ```{r LernmodellWurzel, echo=FALSE, fig.cap="(ref:citeLernmodellWurzel)", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/8-Lernmodell.png") -->
+<!--     ```   -->
+<!--     *Achtung! Es ist zwar $(-3)^2 = 9$, aber $\sqrt{9} \neq -3$, da $-3$ negativ ist. Außerdem ist $\sqrt{-9}$ nicht definiert, da $-9$ negativ ist.* -->
+<!--     In der Definition werden beschreibende Elemente mit der ikonischen und symbolischen Darstellungsebene in Bezug gebracht. Abbildung \@ref(fig:LernmodellWurzel) kann gleichzeitig als **Lernmodell** aufgefasst werden: Sie veranschaulicht den Begriff und stellt gleichzeitig dar, wie zum Begriff gelangt werden kann. Damit liefert sie auch eine anschauliche Orientierung, wie das näherungsweise Bestimmen von Wurzeln über das Einbeschreiben von Quadraten erfolgen kann (siehe Abbildung \@ref(fig:IntervallWurzel)). -->
+<!--     ```{r IntervallWurzel, echo=FALSE, fig.cap="Nutzung des Lernmodells für die Intervallschachtelung", fig.align='center', out.width='25%'} -->
+<!-- knitr::include_graphics("pictures/8-Intervall.png") -->
+<!--     ```   -->
+<!--     Auch die Auswahl des **Beispiels** $\sqrt{9}=3$ war nicht zufällig. Als Einstiegsbeispiel sollte ein leicht nachvollziehbares gewählt werden, daher sollte es sich um (möglichst kleine) natürliche Zahlen handeln und nicht mit Einheiten agiert werden. $\sqrt{0}$ und $\sqrt{1}$ fallen weg, da dies Spezialfälle sind, in denen die Werte für Wurzel und Quadrat identisch sind. $\sqrt{4}$ ist ebenfalls ungünstig, weil dann bei der Erklärung der Umkehrung $2^2 = 4$ die Ziffer $2$ doppelt (und in verschiedenen Funktionen) auftaucht, nämlich als Basis und als Exponent. Um derartige *Anfangsverwirrungen* zu vermeiden, ist dann $\sqrt{9}$ das nächstliegende Einstiegsbeispiel. Entsprechend dem Kontrastprinzip müssen auch nahe **Gegenbeispiele** wie $\sqrt{-9}$ sowie $\sqrt{9}\neq -3$ gebracht werden. Das Variationsprinzip für die Auswahl von Beispielen kann über die verschiedenen Quadrate am Ausgangskonkretum erfüllt werden, in dem dort etwa nicht nur natürliche Zahlen auftreten.     -->
+<!-- 5. Im letzten Schritt folgt das **Abarbeiten von Konkretisierungsreihen**, anhand derer das Ausgangsabstraktum tiefer durchdrungen wird.  -->
+<!--     * Beim Wurzelbegriff geht dies insbesondere mit der Zahlbereichserweiterung in die reellen Zahlen einher. Dabei werden Wurzeln als Zahlen (und nicht Seitenlängen) aufgefasst und bspw. auch auf dem Zahlenstrahl geordnet.  -->
+<!--     * Eine weitere charakteristische Anwendung der Lernhandlungen am Lernmodell ist bei der Betrachtung des Wurzelgesetzes $\sqrt{x\cdot y} = \sqrt{x}\cdot \sqrt{y}$ möglich. Wird die Wurzel als *Aufforderung* verstanden, zu einem Flächeninhalt die Seitenlänge des zugehörigen Quadrates zu finden, kann man den Term $\sqrt{9\cdot 5}$ auffassen als die Suche nach der Seitenlänge des Quadrates mit dem $9$-Fachen des Flächeninhalts von $5\,\mathrm{cm}^2$. Geometrisch interpretiert und angelehnt ans Lernmodell kann dies als ein Quadrat von Quadraten dargestellt werden (siehe Abbildung \@ref(fig:QuadratQuadrat)). Dann ist die gesuchte Seitenlänge gerade das $\sqrt{9}$-Fache der Seitenlänge des Quadrates mit $5\,\mathrm{cm}^2$ Flächeninhalt, also $\sqrt{9\cdot 5} = \sqrt{9}\cdot \sqrt{5}$. Dies ist natürlich nur eine Plausibilitätsbetrachtung. Eine Begründung ist dann aber ebenfalls mithilfe der Definition über die Umkehrung und Nutzung der Potenzgesetze möglich: $x^2\cdot y^2 = (x\cdot y)^2$. -->
+<!--      ```{r QuadratQuadrat, echo=FALSE, fig.cap="Nutzung des Lernmodells für Quadrate von Quadraten", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/8-QuadratQuadrat.png") -->
+<!--     ```   -->
+<!-- Wie nun aber konkrete Aufgaben und Lernumgebungen gestaltet werden können, die bspw. die Lernprozesse vom Ausgangskonkretum zum Ausgangsabstraktum bzw. zum Abarbeiten der Konkretisierungsreihen unterstützen, soll im weiteren Verlauf der Veranstaltung geklärt werden.     -->
+<!-- ## Zum Nachbereiten {#zweites-intermezzo-nachbereitung} -->
+<!-- Relektieren Sie, inwieweit das Vorgehen beim [Ersten Intermezzo zum Flächeninhalt][Erstes Intermezzo: Flächeninhalt] über das Aufsteigen vom Abstrakten zum Konkreten realisiert werden kann und was dabei insbesondere das *Ausgangskonkretum*, die *Lernhandlungen*, das *Lernmodell* und die *Ausgangsabstraktion* sein können. -->
+
+<!-- # (APPENDIX) Anhang {-} -->
+<!-- # Leitidee Zahl -->
+<!-- > **Bedeutsame Lerngegenstände** -->
+<!-- > -->
+<!-- > - Zahlbereiche -->
+<!-- > - Prozente -->
+<!-- > - Kombinatorik -->
+<!-- > - Grenzwert -->
+<!-- > - Tupel, Matrizen -->
+<!-- > -->
+<!-- > **Literaturempfehlungen** -->
+<!-- > -->
+<!-- > - @Padberg2015: *Einführung Mathematik Primarstufe -- Arithmetik* -->
+<!-- > - @Padberg:2017: *Didaktik der Bruchrechnung* -->
+<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-zahl} -->
+<!-- In den Bildungsstandards für die allgemeine Hochschulreife lautet diese Leitidee »Algorithmus und Zahl« [@KMK:2012 11], in denen für den Primarbereich »Zahlen und Operationen« [@KMK2005 9]. -->
+<!-- Das @LISUM2021 hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptZahl)), ergänzt durch einen didaktischen Kommentar von @Schulz und Materialien zur Diagnose und Förderung [@LISUMb]. -->
+<!-- (ref:citeKonzeptZahl) Konzeptbild zur Leitidee *Zahlen und Operationen* [@LISUM2021] -->
+<!-- ```{r KonzeptZahl, echo=FALSE, fig.cap="(ref:citeKonzeptZahl)", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/A-KonzeptZahl.png") -->
+<!-- ```   -->
+<!-- ## Aufbau der Zahlbereiche -->
+<!-- Die Einführung der Zahlbereiche unterscheidet sich deutlich zwischen Schule und Universität. Dies beginnt schon bei der Reihenfolge: Während in der Schule nach den Natürlichen Zahlen i. d. R. die Bruchzahlen eingeführt werden, folgt in der Hochschulmathematik normalerweise erst die Einführung der negativen Zahlen. -->
+<!-- ```{r ZahlReihenfolge, echo=FALSE, fig.cap="Zahlbereiche im Laufe der Schulzeit", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/A-ZahlReihenfolge.png") -->
+<!-- ```   -->
+<!-- Aus Abbildung \@ref(fig:ZahlReihenfolge) wird weiterhin sichtbar, dass über einen sehr langen Zeitraum ausschließlich mit Natürlichen Zahlen gearbeitet wird, was Vorstellungen verfestigt, die dann ggf. in den weiteren Zahlbereichen nicht mehr tragfähig sind (vgl. Abschnitt \@ref(bruchzahlen) und die dortige [Fußnote zu Fehlvorstellungen](#fn5)). -->
+<!-- ### Hochschulperspektive -->
+<!-- In universitären Veranstaltungen ist als Aufbau der Zahlbereiche üblich: -->
+<!-- 1. Definition der Natürlichen Zahlen als Ordinalzahlen über die Peano-Axiome. -->
+<!-- 2. Definition der Natürlichen Zahlen als Kardinalzahlen über die Anzahl der Elemente eine Menge. Dabei werden Bijektionen zwischen gleichmächtigen Mengen betrachtet und eine Zahl $n$ kann als Äquivalenzklasse aufgefasst werden, die für alle Mengen der entsprechenden Mächtigkeit steht. -->
+<!-- 3. Definition der Ganzen Zahlen, ebenfalls über Äquivalenzklassen von geordneten Paaren Natürlicher Zahlen, wobei $(n,m)$ und $(k,l)$ in Relation zueinander stehen, wenn $n+l = k+m$ gilt. Es ist hier notwendig, über die Addition zu definieren (und nicht etwa über die Relation, wenn $n-m = k-l$ gilt), da die Existenz eines Ergebnisses $n-m$ ja für $n,m\in\mathbb{N}$ noch gar nicht gesichert ist. -->
+<!-- 4. Definition der Rationalen Zahlen als Äquivalenzklassen von geordneten Paaren Ganzer Zahlen, wobei $(r,s)$ und $(u,v)$ in Relation zueinander stehen, wenn $r\cdot v = s\cdot u$ gilt. Zu Beachten ist, dass als zweiter Eintrag der Paare $0$ ausgeschlossen wird. -->
+<!-- 5. Definition der Reellen Zahlen als Äquivalenzklassen von Cauchy-Folgen, die in Relation zueinander stehen, wenn ihre Differenz eine Nullfolge ist (also sie denselben Grenzwert haben). Auch hier ist der *Umweg* über die Nullfolgen notwendig, da die Existenz des Grenzwertes in den Rationalen Zahlen nicht gesichert ist -- es werden ja damit erst die Reellen Zahlen konstruiert. -->
+<!-- 6. Definition der Komplexen Zahlen als Paare Reeller Zahlen. -->
+<!-- Bei all den Zahlbereichserweiterungen muss stets überprüft werden, ob diese *wohldefiniert* sind, also die Rechengesetze im bisherigen Zahlbereich auf den neuen übertragbar sind und dies zu keinen Widersprüchen führt. -->
+<!-- ### Schulperspektive -->
+<!-- Auch wenn im Matheamtikunterricht keine Peano-Axiome, Äquivalenzklassen oder Cauchy-Folgen betrachtet werden, werden bei den Zahlbereichen dennoch Ideen der fachmathematischen Zusammenhänge aufgegriffen und sind für den Lernfortschritt bedeutsam. -->
+<!-- * Die kardinale Vorstellung **Natürlicher Zahlen** wird in der Grundschule unterstützt, indem eine bestimmte Anzahl an Objekten eingekreist werden muss und Mengen strukturiert erfasst werden [vgl. @DZLM]. -->
+<!-- * Die Einführung **Ganzer Zahlen** über Paare Natürlicher Zahlen kann im Unterricht über sogenannte Guthaben-Schulen-Situationen besprochen werden. Dabei werden bspw. Guthaben- und Schulkarten gesammelt und untersucht, wer denselben *Kontostand* hat. Daran können auch einige der Rechengesetze erarbeitet werden [siehe z. B. @Hattermann2014]. -->
+<!-- * Die Idee der Äquivalenzklassen spielt bei **Rationalen Zahlen** eine Rolle, wenn besprochen wird, dass verschiedene Repräsentanten (wie z. B. $\frac{2}{3}$ und $\frac{4}{6}$) für dieselbe Zahl stehen können.  -->
+<!-- * **Reelle Zahlen** können in der Schule über Intervallschachtelungen angenähert werden, was die Idee der konvergierenden Cauchy-Folgen aufgreift. Der Fokus liegt dabei jedoch weniger in der Nichtexistenz des Grenzwertes in $\mathbb{Q}$, sondern vielmehr in der Möglichkeit, bestimmte Zahlen (z. B. $\sqrt{2}$) als Rationale Zahl darzustellen.  -->
+<!-- <!-- Konzeptbild -->
+<p>–&gt;</p>
+<!-- <!-- Was zeichnet die Leitidee aus? -->
+<p>–&gt;</p>
+<!-- <!-- Bedeutung der Primarstufe für die Sekundarstufe -->
+<p>–&gt;</p>
+<!-- <!-- Warum kann ich aus -1 die Wurzel ziehen aber niemals  durch 0 teilen? -->
+<p>–&gt;</p>
+<!-- <!-- Auf Folien mathematik lehren anwerben -->
+<p>–&gt;
+<!-- <!-- (am Bsp. "Den Stellenwerten eine Bedeutung geben") --> –&gt;</p>
+<!-- <!-- Termbegriff und Variablenaspekte -->
+<p>–&gt;</p>
+
+<!-- # Leitidee Messen -->
+<!-- > **Bedeutsame Lerngegenstände** -->
+<!-- > -->
+<!-- > - Größen -->
+<!-- > - Flächeninhalt -->
+<!-- > - Volumen -->
+<!-- > - Anstieg/Steigung -->
+<!-- > - Erwartungswert -->
+<!-- > - Standardabweichung -->
+<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-messen} -->
+<!-- In den Bildungsstandards für den Primarbereich lautet diese Leitidee »Größen und Messen« [@KMK2005 11]. -->
+<!-- Das @LISUMf hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptMessen)), ergänzt durch einen didaktischen Kommentar von @Kortenkampb und Materialien zur Diagnose und Förderung [@LISUMe]. -->
+<!-- (ref:citeKonzeptMessen) Konzeptbild zur Leitidee *Größen und Messen* [@LISUMf] -->
+<!-- ```{r KonzeptMessen, echo=FALSE, fig.cap="(ref:citeKonzeptMessen)", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/B-KonzeptMessen.png") -->
+<!-- ``` -->
+<!-- Grundlegende Überlegungen zu der Leitidee finden sich am Beispiel des Flächeninhalts im [Ersten Intermezzo](#erstes-intermezzo-flaecheninhalt). -->
+
+<!-- # Leitidee Raum und Form -->
+<!-- > **Bedeutsame Lerngegenstände** -->
+<!-- > -->
+<!-- > - Punkt, Strecke -->
+<!-- > - Dreieck, Viereck -->
+<!-- > - Winkel -->
+<!-- > - Geometrische Körper -->
+<!-- > - Vektor -->
+<!-- > - Skalarprodukt -->
+<!-- > - Gerade, Ebene -->
+<!-- > - Sätze am Kreis -->
+<!-- > - Satzgruppe des Pythagoras -->
+<!-- >   -->
+<!-- > **Literaturempfehlungen**   -->
+<!-- >  -->
+<!-- > - @Franke2016: *Didaktik der Geometrie. In der Grundschule* -->
+<!-- > - @Weigand2018: *Didaktik der Geometrie für die Sekundarstufe I* -->
+<!-- > - @Tietze:2000: *Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra* -->
+<!-- ## Übersicht zur Geometrie -->
+<!-- Im Rahmen der Vorlesung wurde ein Übersichtsbild erstellt, in dem geometrische Objekte (gelb), Relationen (rot), Sätze (blau) und relevante Werkzeuge (grün) in Beziehung zueinander gesetzt werden (siehe Abbildung \@ref(fig:KonzeptRaumForm). Die Übersicht steht auch als [pdf-Datei](files/Stoffdidaktik-WiSe2122-AnhangR-KonzeptRaumForm.pdf) zur Verfügung. -->
+<!-- ```{r KonzeptRaumForm, echo=FALSE, fig.cap="Übersicht zur Geometrie", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/D-KonzeptRaumForm.png") -->
+<!-- ```   -->
+<!-- Eine derartige Übersicht kann Ihnen bei der stoffdidaktischen Analyse helfen, fachliche Zusammenhänge im Blick zu behalten und Sie in der Spezifizierung und Strukturierung von Lerninhalten zu unterstützen. -->
+<!-- ## Elementargeometrische Sätze -->
+<!-- Elementargeometrische Sätze bieten eine gute Möglichkeit, Argumentieren und Beweisen auf verschiedenen Niveaus im Mathematikunterricht zu realisieren. -->
+<!-- ### Innenwinkelsatz für Dreiecke -->
+<!-- Dass die Innenwinkelsumme von (ebenen) Dreiecken stets $180°$ beträgt, lässt sich auf verschiedene Weisen plausibel machen und begründen. -->
+<!-- Zunächst einmal ist es möglich, die Innenwinkel tatsächlich **auszumessen und zu addieren**. Dies ist besonders dann überzeugend, wenn die Schülerinnen und Schüler selbst ein beliebiges Dreieck zeichnen und daran ihre Messungen vornehmen. Aufgrund von Messungenauigkeiten wird es ggf. vorkommen, dass die Summe nicht exakt $180°$ beträgt, aber immerhin sollten sich alle Innenwinkelsummen in diesem Bereich bewegen. Ein nächster Schritt könnte die Nutzung **Dynamischer Geometriesoftware** sein, wo die Messungen und die Summe exakter bestimmt werden können. Dabei überzeugt weiterhin die Möglichkeit, das Dreieck selbst zu variieren und simultan zu erkennen, dass sich zwar die Größen der drei Innenwinkel ändern, nicht jedoch ihre Summe. -->
+<!-- Auf enaktiver Ebene sind das **Abreißen von Ecken**^[Es ist darauf zu achten, dass wirklich *gerissen* und nicht *geschnitten* wird, weil sonst nicht mehr erkennbar ist, was die eigentliche Ecke war.] oder das **Aneinanderlegen zueinander kongruenter Dreiecke** mögliche Herangehensweisen, um einen gestreckten Winkel von $180°$ zu erzeugen (siehe Abbildung \@ref(fig:InnenwinkelReissen)). -->
+<!-- (ref:citeInnenwinkelReissen) Innenwinkelsumme enaktiv bestimmen [@Etzold2014a 32] -->
+<!-- ```{r InnenwinkelReissen, echo=FALSE, fig.cap="(ref:citeInnenwinkelReissen)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-InnenwinkelReissen.png") -->
+<!-- ``` -->
+<!-- Gegenüber dem Messen und Rechnen hat dieses Vorgehen, insbesondere das Aneinanderlegen, die Besonderheit, dass daran schon eine allgemeine Beweisidee sichtbar wird. Dies ist auch der Fall, wenn man einen **Stift im Inneren des Dreiecks wandern**, der, wenn er alle Ecken einmal abgelaufen ist, insgesamt eine halbe Drehung (also um $180°$) vollführt hat (siehe Abbildung \@ref(fig:InnenwinkelStift)). -->
+<!-- ```{r InnenwinkelStift, echo=FALSE, fig.cap="Innenwinkelsumme mit Stiftbewegung erfahren", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/C-InnenwinkelStift.gif") -->
+<!-- ``` -->
+<!-- Für den eigentlichen Beweis kann man parallel zu einer Dreiecksseite einen Gerade durch den gegenüberliegenden Punkt zeichnen (siehe Abbildung \@ref(fig:InnenwinkelBeweisfigure)) und den gestreckten Winkel von $180°$ mithilfe Wechselwinkelsatzes begründen. -->
+<!-- ```{r InnenwinkelBeweisfigure, echo=FALSE, fig.cap="Beweisfigur des Innenwinkelsatzes für Dreiecke", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-InnenwinkelBeweisfigur.png") -->
+<!-- ``` -->
+<!-- ### Sätze am Kreis -->
+<!-- #### Zentri-Peripheriewinkelsatz -->
+<!-- Der Zentri-Peripheriewinkelsatz besagt, dass der Zentriwinkel über der Sehne eines Kreises stets doppelt so groß ist wie ein Peripheriewinkel auf derselben Seite derselben Sehne (siehe Abbildung \@ref(fig:Zentri)). -->
+<!-- ```{r Zentri, echo=FALSE, fig.cap="Zentriwinkel (rot) und Peripheriewinkel (blau) auf derselben Seite über derselben Kreissehne", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-Zentri.png") -->
+<!-- ``` -->
+<!-- Um diesen Satz zu beweisen, bedarf es vielfältiger Heurismen, wie das Zeichnen geeigneter Hilfslinien (Radius), die Bezugnahme auf bekannte Sätze (Basiswinkelsatz im gleichschenkligen Dreieck, Innenwinkelsatz im Dreieck) und das Erkennen der Gleichheit von Termen. -->
+<!-- ```{r ZentriBeweis, echo=FALSE, fig.cap="Beweisfigur des Zentri-Peripherwiewinkelsatzes", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-ZentriBeweis.png") -->
+<!-- ``` -->
+<!-- Mit den Farben der Winkel aus Abbildung \@ref(fig:ZentriBeweis) gilt dann in den jeweiligen Dreiecken: -->
+<!-- $$ -->
+<!-- \begin{aligned} -->
+<!-- 2\cdot \mathrm{\color{green}{grün}} + 2\cdot \mathrm{\color{orange}{orange}} + 2\cdot \mathrm{\color{purple}{lila}}  &= 180°\\ -->
+<!--  \mathrm{\color{red}{rot}} + 2\cdot \mathrm{\color{purple}{lila}} &= 180° -->
+<!-- \end{aligned} -->
+<!-- $$ -->
+<!-- Daraus folgt aus dem Vergleich der beiden Zeilen direkt die Aussage des Satzes: -->
+<!-- $$\begin{aligned} -->
+<!-- \mathrm{\color{red}{rot}} &= 2\cdot \mathrm{\color{green}{grün}} + 2\cdot \mathrm{\color{orange}{orange}} \\ -->
+<!-- \mathrm{\color{red}{rot}} &= 2\cdot (\mathrm{\color{green}{grün}} +  \mathrm{\color{orange}{orange}}) \\ -->
+<!-- \mathrm{\color{red}{rot}} &= 2\cdot \mathrm{\color{blue}{blau}} -->
+<!-- \end{aligned} -->
+<!-- $$ -->
+<!-- Da der Satz selbst für den weiteren Schulunterricht keine so hohe Bedeutung hat, müssen Sie als Lehrkraft besonders abwägen, ob Sie diesen Beweis besprechen wollen -- auch abhängig von Ihrer Lerngruppe. Im Sinne der Schulung von Heurismen in der Geometrie hat er aber durchaus Potenzial. -->
+<!-- #### Peripheriewinkelsatz -->
+<!-- Der Peripheriewinkelsatz besagt, dass alle Peripheriewinkel auf derselben Seite über derselben Sehne eines Kreises gleich groß sind. Eine Erkundung dieses Satzes ist -- wie beim Innenwinkelsatz für Dreiecke -- bspw. mit Dynamischer Geometriesoftware möglich, indem bei Bewegung des Punktes auf dem Kreis der Peripherwiewinkel permanent gemessen wird.  -->
+<!-- Formal folgt der Satz direkt aus dem Zentri-Peripherwiewinkelsatz, da der Zentriwinkel bei fester Sehne gleich groß bleibt. -->
+<!-- #### Satz des Thales  -->
+<!-- Eine weitere direkte Folgerung aus dem Zentri-Peripherwiewinkelsatz ist der Satz des Thales, also dass Peripheriewinkel über dem Durchmesser eines Kreises stets $90°$ betragen. Dies liegt daran, dass der Zentriwinkel in diesem Fall $180°$ beträgt (siehe Abbildung \@ref(fig:Thales)). -->
+<!-- ```{r Thales, echo=FALSE, fig.cap="Peripheriewinkel über dem Durchmesser eines Kreises", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-Thales.png") -->
+<!-- ``` -->
+<!-- Der Zusammenhang zwischen Satz des Thales und Zentri-Peripherwiewinkelsatz sollte v. a. dann hergestellt werden, wenn der Zentri-Peripherwiewinkelsatz intensiv behandelt worden ist. Alternativ lässt sich der Satz des Thales auch direkt beweisen -- und das ist als Spezielfall sogar einfacher als der Beweis des Zentri-Peripherwiewinkelsatzes. Abbildung \@ref(fig:ThalesBeweis) zeigt einen Lückentext-Beweis, wie er von Schülerinnen und Schülern durchgeführt werden könnte. -->
+<!-- (ref:citeThalesBeweis) Lückentext-Beweis des Satz des Thales [@Wennekers2016 173] -->
+<!-- ```{r ThalesBeweis, echo=FALSE, fig.cap="(ref:citeThalesBeweis)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/C-ThalesBeweis.png") -->
+<!-- ``` -->
+
+<!-- # Leitidee Funktionaler Zusammenhang -->
+<!-- > **Bedeutsame Lerngegenstände** -->
+<!-- >  -->
+<!-- > - Zuordnungsbegriff -->
+<!-- > - Proportionalität -->
+<!-- > - Gleichungen und Ungleichungen -->
+<!-- > - Terme und Variablen -->
+<!-- > - Funktionsbegriff -->
+<!-- > - verschiedene Funktionsklassen (linear, quadratisch, trigonometrisch, …) -->
+<!-- > - Parametereinfluss -->
+<!-- > - Gleichungssysteme -->
+<!-- > - Folgen und Grenzwerte -->
+<!-- > - Ableitung -->
+<!-- > - Integral -->
+<!-- > - Zufallsgröße -->
+<!-- > - Wahrscheinlichkeitsverteilung -->
+<!-- >   -->
+<!-- > **Literaturempfehlungen**   -->
+<!-- >  -->
+<!-- > - @Greefrath2016: *Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe*  -->
+<!-- > - @Danckwerts2010: *Analysis verständlich unterrichten*   -->
+<!-- > - @Tietze:2000a: *Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis* -->
+<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-funktionaler-zusammenhang} -->
+<!-- In den Bildungsstandards für die Primarstufe lautet diese Leitidee »Muster und Strukturen« [@KMK2005 {10 f.}], im Brandenburgischen Rahmenlehrplan wird sie als »Gleichungen und Funktionen« bezeichnet [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a 9]. -->
+<!-- Das @LISUMd hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptFunktionen)), ergänzt durch einen didaktischen Kommentar von @Kortenkampa und Materialien zur Diagnose und Förderung [@LISUMc]. -->
+<!-- (ref:citeKonzeptFunktionen) Konzeptbild zur Leitidee *Gleichungen und Funktionen* [@LISUMd] -->
+<!-- ```{r KonzeptFunktionen, echo=FALSE, fig.cap="(ref:citeKonzeptFunktionen)", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/D-KonzeptFunktion.png") -->
+<!-- ```   -->
+<!-- ## Funktionsaspekte -->
+<!-- Dreh- und Angelpunkt der Leitidee Funktionaler Zusammenhang und damit auch des Stoffgebiets Analysis ist der **Funktionsbegriff**. Gemäß der in Kapitel \@ref(grundvorstellungen) eingeführten Bezeichnungen können zu drei Grundvorstellungen des Funktionsbegriff Aspekte formuliert werden, hier wörtlich entnommen aus @Greefrath2016 [{47 ff.}]^[Dabei ist zu beachten, dass dort die Bezeichnung *Aspekt* in einer anderen Bedeutung als hier im Dokument verwendet wird, siehe dazu eine Diskussion bei @Etzold2021 [{72 f.}].]: -->
+<!-- - Grundvorstellung zum **Zuordnungsaspekt**: »Eine Funktion ordnet jedem Wert einer Größe genau einen Wert einer zweiten Größe zu. Mit dem Mengenbegriff formuliert bedeutet dies: Eine Funktion ordnet jedem Element einer Definitionsmenge genau ein Element einer Zielmenge zu.« -->
+<!--   Typische Repräsentationen dieser Vorstellung sind Wertetabellen oder Pfeildiagramme. Über die (nicht-)Eindeutigkeit abgehender und ankommender Pfeile in der Definitions- und Zielmenge kann bspw. operativ an Beispielen diskutiert werden, ob eine Funktion vorliegt oder nicht. Die einführende Definition des formalen Funktionsbegriffs (meist in Klassenstufe 8) erfolgt in der Regel über den Zuordnungsaspekt -- was die Gefahr einer einseitigen Betrachtung des Begriffs mit sich bringt. Sie müssen sich als Lehrkraft also zunächst einmal der Aspektvielfalt bewusst sein und diese dann auch bei Ihrer Unterrichtsgestaltung beachten. -->
+<!-- - Grundvorstellung zum **Kovariationsaspekt/Änderungsaspekt**: »Mit Funktionen wird erfasst, wie sich Änderungen einer Größe auf eine zweite Größe auswirken bzw. wie die zweite Größe durch die erste beeinflusst wird.« -->
+<!--   Ohne den Kovariationsaspekt ist kein inhaltliches Verständnis von Differenzialrechnung möglich, da der Ableitungsbegriff ja gerade die lokale Änderung einer Funktion beschreibt. Aber auch in der Sekundarstufe I spielt dieser Aspekt schon eine bedeutsame Rolle, bspw. bei der Betrachtung proportionaler Zuordnungen als *gleichmäßige Zunahme* oder wenn unterschiedlich steile lineare Funktionen und das entsprechende Anstiegsdreick behandelt werden. -->
+<!-- - Grundvorstellung zum **Objektaspekt**: »Eine Funktion ist ein einziges Objekt, das einen Zusammenhang als Ganzes beschreibt.« -->
+<!--   Insbesondere bei der Betrachtung von Funktionsgraphen wird ein solcher Gesamtblick geschult und die Funktion als Objekt aufgefasst. Der Objektaspekt ist u. a. auch bei der Betrachtung des Parametereinflusses von Relevanz, da dort die Funktion *als Ganzes* manipuliert wird. Algebraisch spielt der Aspekt eine Rolle, wenn Funktionsterme addiert werden oder Funktionen bspw. als Elemente eines Vektorraumes aufgefasst werden. -->
+<!-- ## Analysis in der Sek. II -->
+<!-- ### Konflikt zur Fachmathematik -->
+<!-- Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den **Folgen-, Grenzwert- und Stetigkeitsbegriff** [ @Tietze:2000a {252 ff.}; @Danckwerts2010 {17 ff.}; @Greefrath2016 {23 ff.}]. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion $f$ an einer Stelle $a$ existiert, wenn für alle Folgen $(x_n)_{n\in\mathbb{N}}$ mit $x_n\rightarrow a$ auch die Folge der Funktionswerte konvergiert, also $f(x_n)\rightarrow f(a)$. Für den Konvergenzbegriff einer Folge ist nun zum anderen die **Vollständigkeit der reellen Zahlen** von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird [siehe z. B. @Danckwerts2010 {27 ff.}]. Mathematisch relevant ist für die Konvergenz einer Folge $(x_n)_{n\in\mathbb{N}}$ gegen $a$ eben nicht nur, dass die Folgenglieder dem $a$ beliebig nahe kommen, sondern dass $a$ im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heronverfahren zum Wurzelbestimmen. So liefert die rekursive Folge^[Für eine geometrische Interpretation dieser Formel siehe auch @dewiki:216870314 [Abschnitt 2]. Hat man diese Interpretation im Hinterkopf, muss man sich nicht einmal die Formel merken.] $x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)$ mit bspw. $x_0 = 1$ ausschließlich Folgenglieder aus $\mathbb{Q}$, die sich auch beliebig nahe kommen (eine sogenannte *Cauchy-Folge*), der Grenzwert selbst ist aber $\sqrt{5}$, was nicht in $\mathbb{Q}$, sondern nur in $\mathbb{R}$ liegt. -->
+<!-- Ohne derartige zentrale (im fachmathematischen Sinne sauber ausgeprägte) Begriffe Analysisunterricht zu betreiben, bedarf also einer starken Orientierung an den hinter den Begriffen liegenden Grundvorstellungen, damit dennoch ein inhaltlich-anschauliches Verständnis aufgebaut werden kann und der Unterricht nicht zu einem kalkülhaften Vorgehen verkommt. Spezifische Anregungen für einzelne Lerngegenstände bieten die bereits zitierten Quellen. -->
+<!-- ### Beispiel Ableitungsbegriff -->
+<!-- Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl historisch als auch in der fachdidaktischen Literatur zwei wesentliche Vorstellungen herausgebildet [@Greefrath2016 {147 ff.}; @Danckwerts2010 {45 ff.}]: -->
+<!-- * Grundvorstellung zum Aspekt der **lokalen Änderungsrate**: Die Ableitung einer Funktion an einer Stelle beschreibt, wie stark sich die Funktionswerte in der Umgebung dieser Stelle verändern. Wird sich dieser Änderungsrate graphisch genähert, erfolgt dies i. d. R. durch den Übergang des Anstiegs einer Sekante zu dem einer Tangente^[Zur Diskussion der Vorstellung, was eine Tangente ist, siehe auch @Greefrath2016 [149]], womit die Ableitung über den **Grenzwert des Differenzenquotienten** $\lim\limits_{h\rightarrow 0}\cfrac{f(x_0+h)-f(x_0)}{h}$ quantifiziert werden kann und dem **Anstieg der Tangente** entspricht.  -->
+<!--   Diese Sichtweise ermöglicht, den Ableitungbegriff konstruktiv über den Sekanten-Tangenten-Übergang einzuführen und unmittelbar numerisch zu beschreiben. Auch bedienen sich vielfältige Anwendungen (z. B. Momentan- vs. Durchschnittsgeschwindigkeit) dieser Vorstellung. -->
+<!-- * Grundvorstellung zum Aspekt der **lokalen Linearität**: Diese Vorstellung betont noch stärker die Differenzierbarkeit als Eigenschaft einer Funktion, nämlich die Möglichkeit, sie lokal durch eine lineare Funktion annähern zu können. Eine typische Repräsentation ist das Heranzoomen an die Funktion, sodass dabei die lokale Linearität besonders deutlich wird. Mathematisch greifbar wird diese Vorstellung darüber, dass sich die Funktion über $f(x) = f(x_0) + m\cdot r(h)$ beschreiben lässt, wobei der *Fehler* $r(h)$ so schnell gegen $0$ geht, dass sogar $\lim\limits_{h\rightarrow 0}\cfrac{r(h)}{h}=0$ gilt. $m$ selbst ist dann die Ableitung und der Anstieg der *besten linearen Näherung* -- was natürlich wieder die Tangente an entsprechender Stelle ist.   -->
+<!--   Dieses Vorgehen besticht v. a. durch seine mathematische Verallgemeinerbarkeit für die höherdimensionale Analysis. Auch entspricht es dem Bedürfnis, Prozesse linear zu approximieren (vgl. Abschnitt \@ref(beispiel-linearitaet)).  -->
+
+<!-- # Leitidee Daten und Zufall -->
+<!-- > **Bedeutsame Lerngegenstände** -->
+<!-- > -->
+<!-- > - Zufallsversuch -->
+<!-- > - Wahrscheinlichkeit -->
+<!-- > - Kombinatorik -->
+<!-- > - Lage- und Streumaße -->
+<!-- > - Bedingte Wahrscheinlichkeit -->
+<!-- > - Binomialverteilung -->
+<!-- > - Normalverteilung -->
+<!-- > - Hypothesentest -->
+<!-- >   -->
+<!-- > **Literaturempfehlungen**   -->
+<!-- >  -->
+<!-- > - @Kruger2015: *Didaktik der Stochastik in der Sekundarstufe I* -->
+<!-- > - @Tietze:2002: *Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik* -->
+<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-daten-und-zufall} -->
+<!-- Das @LISUMa hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptDatenZufall)), ergänzt durch einen didaktischen Kommentar von @Kortenkamp und Materialien zur Diagnose und Förderung [@LISUM]. -->
+<!-- (ref:citeKonzeptDatenZufall) Konzeptbild zur Leitidee *Daten und Zufall* [@LISUMa] -->
+<!-- ```{r KonzeptDatenZufall, echo=FALSE, fig.cap="(ref:citeKonzeptDatenZufall)", fig.align='center', out.width='90%'} -->
+<!-- knitr::include_graphics("pictures/E-KonzeptDatenZufall.png") -->
+<!-- ```   -->
+<!-- In Konzeptbild wird sichtbar, dass der Wahrscheinlichkeitsbegriff die verschiedenen Ideen miteinander in Bezug bringt, was die Bedeutsamkeit von **stochastischen Vorgängen** für die Leitidee hervorhebt.  -->
+<!-- ## Stochastische Vorgänge -->
+<!-- @Kruger2015 [{219 f.}] argumentiert, dass der häufig verbreitete Begriff des **Zufallsexperiments** aus fachlicher wie didaktischer Sicht ungeeignet für den Unterricht erscheint. Er begründet dies u. a. mit der Nichtnotwendigkeit des Begriffs in der Fachmathematik und damit, dass es sich nicht um ein *Experiment* im naturwissenschaftlichen Sinne der Hypothesenüberprüfung unter kontrollierten Bedingungen handele -- die oftmals formulierte Regel der »beliebige[n] Wiederholbarkeit unter gleichen Bedingungen« sei letztlich schon ein Modell mit der Annahme der stochastischen Unabhängigkeit [@Kruger2015 219]. Spiele, in denen der Zufall eine Rolle spielt, sind für den Mathematikunterricht höchst relevant -- sollten aber nicht als Experimente aufgefasst werden. Stattdessen werden für die Grundschule der Begriff **Vorgang mit mehreren möglichen Ergebnissen** und für die weiterführenden Schulen der Begriff **stochastischer Vorgang** vorgeschlagen [@Kruger2015 220] -->
+<!-- Für die tatsächliche Unterrichtsausführung ist dies insofern problematisch, da der Begriff *Zufallsexperiment* i. d. R. Bestandtteil der Lehrpläne ist [siehe z. B. @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a {59, 61}] und damit unterrichtet werden muss. Sie als Lehrkraft sollten also stets die an der Verwendung des Begriffs vorgebrachte Kritik im Hinterkopf haben und dies sensibel bei Ihrer Unterrichtsgestaltung beachten. Dies kann etwa bedeuten, dass Sie dennoch eine *übliche* Definition des Begriffs Zufallsexperiment nutzen (siehe Abbildung \@ref(fig:DefinitionZufallsexperiment)), aber im Unterricht die Unterschiede zu *echten* Experimenten thematisieren und über geeignete Beispiele und Gegenbeispiele den Begriff ausschärfen. -->
+<!-- (ref:citeDefinitionZufallsexperiment) Schulbuchdefinition des Begriff *Zufallsexperiment* [@Adam2016 18] -->
+<!-- ```{r DefinitionZufallsexperiment, echo=FALSE, fig.cap="(ref:citeDefinitionZufallsexperiment)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/E-DefinitionZufallsexperiment.jpeg") -->
+<!-- ```   -->
+<!-- Grundsätzlich ist es Aufgabe der Stochastik, reale Prozesse zu modellieren, um diese mit mathematischen Mitteln greifbar (und bearbeitbar) zu machen. Dazu ist es normalerweise notwendig, die reale Situation zu vereinfachen und in ein *Realmodell* überzuführen (siehe Abbildung \@ref(fig:Modelle). Der Begriff *stochastischer Vorgang* ist dann »auf der Ebene der Realmodelle angesiedelt«, mit der Verwendung des Begriffs *Zufallsexperiment* dagegen »verwischt man die Grenzen zwischen Realität und Modellebene« [@Kruger2015 {219 f.}]. -->
+<!-- (ref:citeModelle) Modellierungsstruktur in der Stochastik [@Kruger2015 13] -->
+<!-- ```{r Modelle, echo=FALSE, fig.cap="(ref:citeModelle)", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/E-Modelle.png") -->
+<!-- ```   -->
+<!-- Aufbauend auf diese Struktur [die »nicht als expliziter Gegenstand des Stochastikunterrichts aufzufassen« ist, @Kruger2015 13] können Sie Ihre Diskussionen im Unterricht leiten und Schwierigkeiten der Schülerinnen und Schüler besser einordnen, z. B.:  -->
+<!-- * Wenn ein Würfel geworfen wird (reale Situation) und man die Wahrscheinlichkeit für eine Augenzahl angibt (theoretisches Modell), geht man davon aus, dass der Würfel aus sechs identischen Seiten besteht und in sich homogen ist (Realmodell). Mögliche Fragen, die auf eine solche Denkweise hinarbeiten, könnten sein: *Welche Annahmen triffst du? Welche Eigenschaften muss der Würfel haben, damit du so rechnen darfst?* -->
+<!-- * Wenn erstmals *Zufallsgeräte* (übrigens auch ein Begriff auf der Ebene der Realmodelle) genutzt werden, muss eine Untergeneralisierung vermieden werden, es sollten also frühzeitig auch nicht-Laplace-Geräte eingesetzt werden, wie Reißzwecken, Quader, sogenannte Riemer-Würfel [@Riemer1988] oder auch *Würfel-Schweine* [@dewiki:214496187]. -->
+<!-- * Wenn eine Schülerin oder ein Schüler nicht in der Lage ist, für das Ziehen einer Herz-Karte aus einem Skatblatt die Wahrscheinlichkeit anzugeben, sollten Sie als Lehrkraft herausfinden, auf welcher Ebene Schwierigkeiten bestehen. Wird die reale Situation nicht verstanden (weil z. B. die Spielkartenfarben oder der Begriff *Skatblatt* unbekannt sind)? Bestehen Schwierigkeiten im Aufstellen eines Realmodells (dass also das Ziehen jeder Karte mit derselben Wahrscheinlichkeit verbunden ist und dafür die Anzahl der relevanten Karten bestimmt werden muss)? Oder sind Defizite in der Theorie verortet (weil etwa nicht die Laplace-Formel für die Berechnung der Wahrscheinlichkeit angewandt werden kann oder gar Schwierigkeiten bei der Division bestehen)? -->
+<!-- ## Lagemaße -->
+<!-- Während der Vorlesungsveranstaltung wurde ein virtuelles Arbeitsmittel^[zum Begriff des Arbeitsmittels siehe Kapitel zu [Lernumgebungen](#lernumgebungen)] mit Cinderalla und CindyScript [vgl. @Richter-Gebert2012] zur Erkundung von **arithmetischem Mittel** und **Median** erstellt. Abbildung \@ref(fig:ScreenshotLagemass) zeigt einen Screenshot des [virtuellen Arbeitsmittels](files/Stoffdidaktik-WiSe2122-AnhangE-Lagemasse.html), das auch als [Cinderella-Datei](files/Stoffdidaktik-WiSe2122-AnhangE-Lagemasse.cdy) zur Verfügung steht. -->
+<!-- ```{r ScreenshotLagemass, echo=FALSE, fig.cap="Screenshot des virtuellen Arbeitsmittels zu Lagemaßen", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/E-ScreenshotLagemass.png") -->
+<!-- ```   -->
+<!-- Anregungen für Aufgabenstellungen, die zu einer vertiefenden Beschäftigung mit den beiden Lagemaßen unter Zuhilfenahme des Arbeitsmittes führen können, sind zum Beispiel: -->
+<!-- * *Verändere die Punkte so, dass Median und arithmetisches Mittel gleich sind.* -->
+<!-- * *Kannst du Punkte verschieben, so dass Median oder arithmetisches Mittel unverändert bleiben? Bei welchen Punkten geht das (nicht) und warum (nicht)?* -->
+<!-- * *Wie verändert sich das beobachtete Verhalten von arithmetischem Mittel und Median bei ungerader Anzahl an Punkten?* -->
+<!-- * *Zeige mit dem Arbeitsmittel, dass der Median stabil gegenüber Ausreißern ist, das arithmetische Mittel jedoch nicht.* -->
+
+</div>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="5-kontexte-kernideen-kernfragen.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="A-seminar-und-hausarbeit.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/06-Erstes-Intermezzo.Rmd",
+"text": null
+},
+"download": ["Stoffdidaktik2022-Etzold.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
