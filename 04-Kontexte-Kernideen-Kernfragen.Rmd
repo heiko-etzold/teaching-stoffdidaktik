@@ -1,84 +1,96 @@
 # Kernideen, Kernfragen, Kontexte
 
-<!-- > **Lernziele** -->
-<!-- > -->
-<!-- > + Sie können die Grundvorstellungsidee beschreiben und wissen über deren Bedeutung für den Mathematikunterricht. -->
-<!-- > + Sie kennen Grundvorstellungen zu einzelnen mathematischen Begriffen. -->
+> **Lernziele**
+>
+> + Sie können zu ausgewählten Lerngegenständen Kernideen und Kernfragen formulieren.
+> + Sie können gegebene Kontexte zu Lerngegenständen hinsichtlich ihrer Sinnstiftung beurteilen.
+> + Sie sind sich der Möglichkeiten und Bedeutung horizontaler und vertikaler Matheamtisierung bewusst.
 <!-- > -->
 <!-- > **Material** -->
 <!-- > -->
-<!-- > + Folien zur Vorlesung zu Grundvorstellungen ([pdf](files/Stoffdidaktik-WiSe2122-Kap4.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap4.key)) -->
-
-
-<!-- Auf der `r concrete("konkreten Ebene")` fragen @Hussmann:2016 nach **Kernideen und Kernfragen**, die leitend für den Lernpfad sein können, sowie nach **Kontexten**, die geeignet sein sollen, sich dem Lerngegenstand exemplarisch zu nähern. -->
-
-<!-- ## Begriffsklärung Kernidee {#kernidee-begriffsklaerung} -->
-
-
-<!-- **Kernideen** haben die Aufgabe, den Lerngegenstand auf sein Wesen »herunterzubrechen« und müssen dabei sowohl aus objektiver (also mathematischer) Perspektive tragfähig sein, als auch aus subjektiver Perspektive für die Schülerinnen und Schüler greifbar werden können. Kernideen bieten damit im Vorfeld des Lernpfades eine Orientierung und im Nachgang des Lernpfades eine Reflexionsmöglichkeit über den Lerngegenstand.^[Der Begriff der Kernidee taucht auch beim Dialogischen Lernen nach Gallin und Ruf auf, hat dort jedoch eine viel subjektivere Ausrichtung.] -->
-
-<!-- ::: {.definition #Kernidee name="Kernidee"} -->
-<!-- blubb -->
-<!-- ::: -->
-
-<!-- Betrachtet man etwa »proportionale Zuordnungen«, so ist eine Kernidee hinter diesem Begriff, dass damit Prozesse beschrieben werden können, bei denen sich eine Größe um denselben Faktor vervielfacht wie eine andere ihr zugeordnete Größe.  -->
+<!-- > + Folien zur Vorlesung zu Kernideen, Kernfragen, Kontexte ([pdf](files/Stoffdidaktik-WiSe2223-Kap4.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap4.key)) -->
 
 
 
-<!-- Um bei den Schülerinnen und Schülern Lernprozesse zu einem Lerngegenstand zu initiieren, werden die Kernideen ansprechend in Form von **Kernfragen** formuliert. »Die zu einer Kernidee gehörenden Fragen fokussieren in genetischer Perspektive konkrete zentrale Probleme, die letztlich zur Entwicklung der ›Rückschauantworten‹ der Kernidee führen« [@Leuders2011, 8]. Kernfragen sollten daher prinzipiell aus subjektiver Sicht formuliert sein und insbesondere adressieren, wie man selbst mit dem Lerngegenstand umgehen kann.  -->
+## Begriffsklärung Kernidee/-frage {#kernidee-begriffsklaerung}
 
+**Kernideen** haben die Aufgabe, den Lernpfad zu leiten und dabei *sinnstiftend* das *Wesen* des neuen Lerngegenstands sichtbar zu machen. Sie müssen dabei sowohl aus objektiver (also mathematischer) Perspektive tragfähig sein, als auch aus subjektiver Perspektive für die Schülerinnen und Schüler greifbar werden können. Kernideen bieten damit im *Vorfeld* des Lernpfades eine Orientierung und im *Nachgang* des Lernpfades eine Reflexionsmöglichkeit über den Lerngegenstand.^[Der Begriff der Kernidee ist geprägt worden über das Dialogische Lernen nach Gallin und Ruf, spricht dort jedoch vorwiegend die Vorschauperspektive an [vgl. @Leuders2011 7].] Um bei den Schülerinnen und Schülern Lernprozesse zu einem Lerngegenstand zu initiieren, werden die Kernideen ansprechend in Form von **Kernfragen** formuliert. Kernfragen sollten daher prinzipiell aus subjektiver Sicht formuliert sein und insbesondere adressieren, wie man selbst mit dem Lerngegenstand umgehen kann.
+
+Am Beispiel des *Funktionsbegriffs* etwa besteht eine Kernidee darin, dass Funktionen den Zusammenhang zwischen zwei Größen beschreiben und damit auch vorhersagen können (vgl. auch Aspekte des Funktionsbegriffs in Kapitel \@ref(leitidee-strukturen-und-funktionaler-zusammenhang)). Als Kernfrage formuliert: »Wie kann man die Beziehung zwischen zwei sich verändernden Größen beschreiben und wie kann man damit weitere Werte bestimmen?« [@Thiel-Schneider2018 49]
+<!-- Betrachtet man etwa »proportionale Zuordnungen«, so ist eine Kernidee hinter diesem Begriff, dass damit Prozesse beschrieben werden können, bei denen sich eine Größe um denselben Faktor vervielfacht wie eine andere ihr zugeordnete Größe. -->
 <!-- Am Beispiel der proportionalen Zuordnungen könnte zur oben beschriebenen Kernidee als Kernfrage formuliert werden: *???* -->
 
 
-<!-- ## Begriffsklärung Kontext {#kontexte-begriffsklaerung} -->
-
-<!-- Neben der Kernfrage, die bei der Beschäftigung mit dem Lerngegenstand Orientierung bietet, sollte eine sinnstiftende  -->
-
-<!-- Hierfür ist ein *sinnstiftender Kontext* zu suchen. -->
+In der *Vorschauperspektive* heißt das, die »Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern« [@Leuders2011, 8]. In der *Rückschauperspektive* dagegen können über die Kernidee (dann quasi als Antwort auf die Kernfrage) »eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt« werden [@Leuders2011, 8].
 
 
 
-<!-- , kann über die **Zone der nächsten Entwicklung** motiviert werden und sich im **Ausgangskonkretum** widerspiegeln. In der *Mathewerkstatt* ist dies die *Anküpfung* auf der Einstiegsseite (am Beispiel des [Ersten Intermezzos](#erstes-intermezzo-flaecheninhalt) die Situation der Tiergehe, siehe Abbildung \@ref(fig:Tiergehege)). @Leuders2011 [4, Hervorhebungen im Original] formulieren: -->
+::: {.definition #Kernidee name="Kernidee und Kernfrage"}
+Eine **Kernidee** beschreibt unter sinnstiftender Perspektive das mathematische Wesen eines Lerngegenstand.
 
-<!-- ::: {.definition #Kontext name="Sinnstiftender Kontext"} -->
-<!-- Ein **sinnstiftender Kontext** ist ein Ausschnitt einer inner- oder außermathematischen Welt, der folgende Anforderungen möglichst gut erfüllt: -->
+Eine **Kernfrage** stellt die Kernidee in Frageform aus der Perspektive der Schülerinnen und Schüler dar.
 
-<!-- * Er ist anschlussfähig an die Erfahrungen, Interessen und die Denk- und Handlungsmuster der Lernenden **(Lebensweltbezug)**. -->
-<!-- * Er ermöglicht es, authentische Fragen zu bearbeiten und dabei auch etwas über den Kontext zu lernen **(Kontextauthentizität)**. -->
-<!-- * Er ist problemhaltig und offen genug, um Lernende zum reichhaltigen Fragen und Erkunden anzuregen **(Reichhaltigkeit)**. -->
-<!-- ::: -->
-
-<!-- Um einer eingeschränkten Sichtweise vorzubeugen, sei gesagt: Der *Lebensweltbezug* heißt nicht zwingend, dass es sich um einen *Realitätsbezug* (im Sinne einer Modellierung) handeln muss. Dies ist zwar in vielen Fällen angebracht, aber auch eine innermathematische Anschlussfähigkeit kann für die Schülerinnen und Schüler ansprechend sein (und damit Bezug zu deren -- schulichem -- Leben herstellen). -->
-
-<!-- Bei proportionalen Zuordnungen könnte ein solcher Kontext ??? sein. Dieser stellt einen Bezug zum Alltag der Schülerinnen und Schüler der siebten Klassenstufe her (was Stromrechnungen nicht tun würden). Der Kontext ist authentisch, weil damit die Mathematik nicht nur eingekleidet wird, sondern tatsächliches Interesse besteht, die Frage mathematisch zu beantworten. Außerdem ist der Kontext reichhaltig, das er ... -->
-
-<!-- Das Finden derartiger stinnstiftender Kontexte ist enorm anspruchsvoll! Sie sollten hier auf (gute) Lehrwerke zurückgreifen und immer wieder mögliche Kontexte kritisch (mithilfe der Definition \@ref(def:Kontext)) hinterfragen. -->
+Kernideen und Kernfragen verfolgen eine ***Vorschauperspektive***, die der Orientierung und Initiierung der Auseinandersetzung mit dem neuen Lerngegenstand dient, sowie eine ***Rückschauperspektive***, die es den Schülerinnen und Schülern ermöglicht, den Lerngegenstand einzuordnen.
+:::
+<!-- Eine **Kernidee** umfasst in ***Vorschauperspektive*** Fragen, die die Lernenden stellen können und berücksichtigt so die subjektbezogene Dimension der Sinnstiftung.  -->
+<!-- Die Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern:  -->
+<!-- * „Wie kann ich Dinge nach ihrer Größe vergleichen?“ oder  -->
+<!-- * „Wie viel bekommt jeder beim Aufteilen, wenn es nicht aufgeht?“ Die zu einer Kernidee gehörenden Fragen fokussieren in genetischer Perspektive konkrete zentrale Probleme, die letztlich zur Entwicklung der „Rückschauantworten“ der Kernidee führen. -->
 
 
-<!-- ## Horizontale Mathematisierung -->
+<!-- Eine **Kernidee** beschreibt in der ***Rückschauperspektive*** den ideenbezogenen Kern einer längeren Lernepisode, hier z.B. zum mathematischen Thema „Größen“:  -->
+<!-- * „Man kann Dinge der Größe nach vergleichen, indem man sich etwas Bekanntes vorstellt und damit vergleicht“ oder  -->
+<!-- * „Um Situationen in den Griff zu bekommen, in denen das Teilen ohne Rest nicht geht, beschreibt man die Ergebnisse der Teilung mit Brüchen.“  -->
+<!-- Zur Kernidee gehört also die „Rückschauantwort“, in der eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt werden. -->
+
+<!-- Damit wird deutlich, dass eine Kernidee die *Zwecke* der Mathematisierungsprozesse und damit den Sinn der mathematischen Konzepte miterfasst. -->
 
 
-<!-- ## Vertikale Mathematisierung -->
-
-<!-- ## Zum Nachbereiten {#kernideen-kernfragen-kontexte-nachbereitung} -->
+Bestandteil Ihrer stoffdidaktischen Analyse auf der `r concrete("konkreten Ebene")` wird es also sein, zum Lerngegenstand passende Kernideen zu identifizieren und in Form von Kernfragen zu formulieren. Hierzu kann Ihnen die Sinnkonstituierung der jeweiligen Grundvorstellungen dienlich sein (siehe Definition \@ref(def:Grundvorstellungen)).
 
 
-<!-- Daran anknüpfend werden **Kernideen** sichtbar gemacht, die in Form von **Kernfragen** formuliert und beantwortet werden (am Beispiel des [Ersten Intermezzos](#erstes-intermezzo-flaecheninhalt): *Wie kann ich die Größe von Flächen vergleichen?*, *Wie kann ich die Größe einer Fläche geschickt bestimmen?*). Deren Ziel ist es, sich aus Perspektive der Schülerinnen und Schüler dem Wesen des Begriffs nähern zu können. In der Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten erfolgt dies sowohl bei der Ausübung der **Lernhandlung am Ausgangskonkretum**, als auch in der Verallgemeinerung der Lernhandlungen beim **Entwickeln der Ausgangsabstraktion** sowie in vertiefter Art und Weise beim **Abarbeiten der Konkretisierungsreihen**. Diese beiderseitige Entwicklung wird auch bei @Leuders2011 [8, Hervorhebungen im Original fett oder fettkursiv, hier kursiv] sichtbar: -->
+## Begriffsklärung Kontext {#kontexte-begriffsklaerung}
 
-<!-- »Eine *Kernidee* umfasst in *Vorschauperspektive* Fragen, die die Lernenden stellen können und berücksichtigt so die subjektbezogene Dimension der Sinnstiftung. Die Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern[. …] -->
+**Kontexte** sollen geeignet sein, sich dem Lerngegenstand exemplarisch zu nähern. Sie weisen damit immer eine Spezialisierung bzw. Konkretisierung des zu betrachtenden Lerngegenstands auf (denn nur so können die Schülerinnen und Schüler einen Zugang dazu finden) -- sollen aber so gestaltet sein, dass an Ihnen das Allgemeine erfahrbar ist (denn nur so kann es zu einer Beschäftigung mit der dahinterliegenden Mathematik kommen). Angelehnt an die Sinnstiftung der obigen Kernideen und Kernfragen, kann auch von einem *sinnstiftenden Kontext* gesprochen werden.
+
+@Leuders2011 [4, Hervorhebungen im Original] formulieren hierzu:
+
+::: {.definition #Kontext name="Sinnstiftender Kontext"}
+Ein **sinnstiftender Kontext** ist ein Ausschnitt einer inner- oder außermathematischen Welt, der folgende Anforderungen möglichst gut erfüllt:
+
+* Er ist anschlussfähig an die Erfahrungen, Interessen und die Denk- und Handlungsmuster der Lernenden **(Lebensweltbezug)**.
+* Er ermöglicht es, authentische Fragen zu bearbeiten und dabei auch etwas über den Kontext zu lernen **(Kontextauthentizität)**.
+* Er ist problemhaltig und offen genug, um Lernende zum reichhaltigen Fragen und Erkunden anzuregen **(Reichhaltigkeit)**.
+:::
+
+Um einer eingeschränkten Sichtweise vorzubeugen, sei gesagt: Der *Lebensweltbezug* heißt nicht zwingend, dass es sich um einen *Realitätsbezug* (im Sinne einer Modellierung) handeln muss. Dies ist zwar in vielen Fällen angebracht, aber auch eine innermathematische Anschlussfähigkeit kann für die Schülerinnen und Schüler ansprechend sein (und damit Bezug zu deren -- schulischen -- Leben herstellen).
+
+Ein möglicher Kontext, über den die oben formulierte Kernfrage bei *linearen Funktionen* erarbeitet werden kann, wäre die Beschreibung des Abbrennverhaltens einer Kerze [vgl. @Boeer2014 {108 f}]. Dieser ist für die Schülerinnen und Schüler aus dem Alltag bekannt (wenn auch nicht alltäglich). Authentisch und reichhaltig ist der Kontext dahingehend, dass die meisten Kerzen zylinderförmig sind und daher tatsächlich ein lineares Abbrennverhalten haben. Auch ist es durchaus von Interesse, die Zeit bis zum vollständigen Abbrennen einer Kerze abschätzen zu können. Weiterhin können (späte) die Eigenschaften des Funktionsgraphen kontextgebundene interpretiert werden ($y$-Achsenabschnitt als Ursprungslänge der Kerze, Nullstelle als die Zeit bis zum vollständigen Abbrennen, Anstieg des Graphen als Abbrennverhalten, das direkt mit der Dicke der Kerze in Verbindung gebracht werden kann).  
+
+Das Finden derartiger stinnstiftender Kontexte ist enorm anspruchsvoll! Sie sollten hier auf (gute) Lehrwerke zurückgreifen und immer wieder mögliche Kontexte kritisch (mithilfe der Definition \@ref(def:Kontext)) hinterfragen.
+
+Kernideen/Kernfragen und der sinnstiftende Kontext bilden damit eine Einheit in der Zielbildung und Motivation zu Beginn der Auseinandersetzung mit einem Lerngegenstand -- beides muss gemeinsam gedacht werden. Es bietet sich an, hier Anforderungssituationen in der **Zone der nächsten Entwicklung** zu formulieren. Dabei handelt es sich um eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihrer bisherigen Kenntnisse, Fähigkeiten und Fertigkeiten verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht selbstständig in der Lage sind. Somit wird eine Motivation geschaffen, sich mit der Thematik tiefer auseinanderzusetzen. Es ist sinnvoll, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen -- daran ist dann besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« [@Lompscher1996 4].
 
 
-<!-- Eine *Kernidee* beschreibt in der *Rückschauperspektive* den ideenbezogenen Kern einer längeren Lernepisode[. …] -->
+## Mathematisierungstypen
 
-<!-- Zur Kernidee gehört also die ›Rückschauantwort‹, in der eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt werden. Damit wird deutlich, dass eine Kernidee die Zwecke der Mathematisierungsprozesse und damit den Sinn der mathematischen Konzepte miterfasst.« -->
+Währen Kernideen, Kernfragen und Kontexte in erster Linie der *Spezifizierung* des Lerngegenstandes in Hinblick auf den Lernpfad dienen, kann zur *Strukturierung* der Prozess der Mathematisierung stärker in den Blick genommen werden. Angelehnt an Treffers und Freudenthal  stellt @vandenHeuvel-Panhuizen2003 [12] hierzu dar, dass prinzipiell zwei Wege der Mathematisierung möglich sind:
 
-<!-- In der *Mathewerkstatt* werden über die Prozesse des *Erkundens* und *Ordnens* diese Vor- und Rückschauperspektive realisiert und in den *Vertiefungen* -- wie es das Wort schon sagt -- vertieft. -->
+* Bei der **horizontalen Mathematisierung** werden mithilfe mathematischer Objekte und Operationen reale Situationen und alltägliche Probleme beschrieben, geordnet und gelöst. Es wird also aus der Welt des Lebens in die Welt der Symbole übergegangen.^[im Original: »In the case of horizontal mathematizing, mathematical tools are brought forward and used to organize and solve a problem situated in daily life. [...] to mathematize horizontally means to go from the world of life to the world of symbols« [@vandenHeuvel-Panhuizen2003 12]]
 
-<!-- Abbildung \@ref(fig:AKMathewerkstatt) zeigt noch einmal die Phasen in der *Mathewerkstatt* [vgl. auch @Prediger2014] mit einer möglichen Anknüpfung an die Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten. -->
+* Bei der **vertikalen Mathematisierung** wird innerhalb des mathematischen Systems reorganisiert und operiert, es wird sich also in der Welt der Symbole bewegt.^[im Original: »Vertical mathematizing, on the contrary, stands for all kinds of re-organizations and operations done by the students within the mathematical system itself. [...] to mathematize vertically means to move within the world of symbols« [@vandenHeuvel-Panhuizen2003 12]]
 
-<!-- (ref:citeAKMathewerkstatt) Gegenüberstellung des Aufsteigens vom Abstrakten zum Konkreten mit dem Vorgehen in der *Mathewerkstatt* -->
+Beide Arten sind nicht als Konkurrenten aufzufassen, sondern haben ihre gleiche Berechtigung im Mathematikunterricht. Dies ist v. a. vor dem Hintergrund zu verstehen, dass Mathematik *vom Menschen betrieben* wird. Erst durch das Zusammenwirken von horizontaler und vertikaler Mathematisierung kann Mathematik unter dieser Annahme auf ehrliche Weise durchgeführt und damit auch verstanden werden. Dies heißt insbesondere, dass in jeder Klassenstufe beide Arten der Mathematisierung ihre Berechtigung haben und entsprechend realisiert werden müssen.^[im Original: »Freudenthal emphasized, however, that the differences between these two worlds are far from clear cut, and that, in his view, the worlds are not, in fact, separate. Moreover, he found the two forms of mathematizing to be of equal value, and stressed the fact that both activities could take place on all levels of mathematical activity.« [@vandenHeuvel-Panhuizen2003 12]]
 
-<!-- ```{r AKMathewerkstatt, echo=FALSE, fig.cap="(ref:citeAKMathewerkstatt)", fig.align='center', out.width='100%'} -->
-<!-- knitr::include_graphics("pictures/7-Vergleich.png") -->
-<!-- ``` -->
 
+Das oben dargestellte Kerzenbeispiel entstammt der horizontalen Mathematisierung. Eine vertikale Mathematisierung könnte bspw. im weiteren Lernverlauf -- etwa nachdem die Funktionsgleichung $y = m\cdot x + n$ eingeführt wurde -- die Untersuchung des Einflusses der Parameter $m$ und $n$ auf den Funktionsgraphen sein. Daran zeigt sich schon, wie hilfreich eine gleichermaßen Betrachtung horizontaler und vertikaler Prozesse ist, nämlich wenn etwa nach einer Veränderung von $m$ und $n$ rückgefragt wird, inwieweit dies noch mit den Abbrennen einer Kerze in Zusammenhang steht (was spätestens bei einem positiven $m$ an seine Grenzen stößt). Derartige *Grenzbetrachtungen* (die mathematisch greifbar, aber in der Realität eben an ihre Grenzen stoßen) bieten ein enormes Potenzial, sich dem abstrakten Wesen von Mathematik zu nähern. 
+
+
+## Zum Nachbereiten {#kernideen-kernfragen-kontexte-nachbereitung}
+
+1. Entwickeln Sie für den Begriff der *Exponentialfunktion* eine Kernfrage. 
+2. Untersuchen Sie, inwieweit folgende Kontexte für Exponentialfunktionen sinnstiftend sind:
+    * Bakterienwachstum
+    * Bierschaumzerfall
+3. Beschreiben und erklären Sie je eine geeignete Variante der horizontalen und vertikalen Mathematisierung am Lerngegenstand der Exponentialfunktion.  
+  

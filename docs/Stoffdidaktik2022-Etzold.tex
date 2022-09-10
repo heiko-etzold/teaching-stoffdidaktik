@@ -161,8 +161,25 @@
 
 \title{Stoffdidaktik Mathematik}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Wintersemester 2022/23; letzte Änderung: 06.09.2022}
+\date{Wintersemester 2022/23; letzte Änderung: 10.09.2022}
 
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{conjecture}{Conjecture}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{definition}
+\newtheorem{hypothesis}{Hypothesis}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -552,14 +569,904 @@ Wichtig ist v.~a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, da
 \hypertarget{fundamentale-ideen}{%
 \chapter{Fundamentale Ideen}\label{fundamentale-ideen}}
 
+\begin{quote}
+\textbf{Lernziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie können Fundamentale Ideen über ihre Kriterien definieren.
+\item
+  Sie kennen Beispiele für Fundamentale Ideen, auch über die in den Bildungsstandards beschriebenen Kompetenzen hinaus.
+\item
+  Sie können bei einzelnen Unterrichtsinhalten den Zusammenhang zu zugehörigen Fundamentalen Ideen herstellen.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zur Vorlesung zu Fundamentalen Ideen (\href{files/Stoffdidaktik-WiSe2223-Kap2.pdf}{pdf}, \href{files/Stoffdidaktik-WiSe2223-Kap2.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\hypertarget{fundamentale-ideen-begriffsklaerung}{%
+\section{Begriffsklärung}\label{fundamentale-ideen-begriffsklaerung}}
+
+Die Entwicklung Fundamentaler Ideen beruft sich auf Bruners Annahme, dass »jedes Kind {[}\ldots{]} auf jeder Entwicklungsstufe jeder Lehrgegenstand in einer intellektuell ehrlichen Form erfolgreich gelehrt werden« kann (vgl. \protect\hyperlink{ref-Bruner:1976}{Bruner, 1976, S. 77}). Voraussetzung dafür ist, dass die \emph{Struktur} eines Inhaltsbereichs in einer Art und Weise präsentiert wird, dass sie dem Kind zugänglich wird. Diese \emph{hinter den Dingen} liegende Struktur hebt sich vom konkreten Inhaltsbereichen ab, ist allgemeinerer Natur und kann daher über \emph{Fundamentale Ideen} beschrieben werden.
+
+Ziel der Orientierung des Unterrichtens an Fundamentalen Ideen besteht v.~a. darin, die (oftmals) isolierten Stoffelemente einzuordnen und in einem größeren Ganzen zu sehen. Im Umkehrschluss heißt dies aber auch, dass die Auswahl des konkreten Stoffes daran orientiert sein muss, wie dieser dazu beitragen kann, den dahinter liegenden mathematischen Kern und die zugehörigen Fundamentalen Ideen zu vertreten.
+
+Die dazu seit den 1960er Jahren in Gang gesetzte Forschung führte zu vielfältigen Vorschlägen Fundamentaler Ideen der Mathematik -- jedoch bisher nicht zu einem allgemeingültigen Katalog. Dieser Vielfalt in den Formulierungen und Kategorisierungen kann begegnet werden, indem Fundamentale Ideen über Eigenschaften charakterisiert werden. Im Rahmen dieser Veranstaltung wird folgende Definition genutzt, zitiert aus Schwill (\protect\hyperlink{ref-Schwill:1994}{1994}).
+
+\begin{definition}[Fundamentale Idee]
+\protect\hypertarget{def:FundamentaleIdee}{}\label{def:FundamentaleIdee}
+
+Eine \textbf{Fundamentale Idee} bzgl. eines Gegenstandsbereichs (Wissenschaft, Teilgebiet) ist ein \textbf{Denk-, Handlungs-, Beschreibungs- oder Erklärungsschema}, das
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  in verschiedenen Gebieten des Bereichs vielfältig anwendbar oder erkennbar ist (\textbf{Horizontalkriterium}),
+\item
+  auf jedem intellektuellen Niveau aufgezeigt und vermittelt werden kann (\textbf{Vertikalkriterium}),
+\item
+  in der historischen Entwicklung des Bereichs deutlich wahrnehmbar ist und längerfristig relevant bleibt (\textbf{Zeitkriterium}),
+\item
+  einen Bezug zu Sprache und Denken des Alltags und der Lebenswelt besitzt (\textbf{Sinnkriterium}).
+\end{enumerate}
+
+\end{definition}
+
+\begin{quote}
+\textbf{Überblick zur historischen Entwicklung Fundamentaler Ideen}
+
+\begin{itemize}
+\tightlist
+\item
+  von der Bank (\protect\hyperlink{ref-Bank:2016}{2016, S. 37~ff.}): \emph{Fundamentale Ideen der Mathematik: Weiterentwicklung einer Theorie zu deren unterrichtspraktischer Nutzung}
+\end{itemize}
+\end{quote}
+
+\hypertarget{auswahl-fundamentaler-ideen}{%
+\section{Auswahl fundamentaler Ideen}\label{auswahl-fundamentaler-ideen}}
+
+\hypertarget{kategorisierung}{%
+\subsection{Kategorisierung}\label{kategorisierung}}
+
+Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. Angelehnt an von der Bank (\protect\hyperlink{ref-vonderBank:2013}{2013, S. 103}) und Lambert (\protect\hyperlink{ref-Lambert:2012}{2012}), die unterschiedliche Kategorisierungen analysiert haben, sollen an dieser Stelle drei grobe Bereiche festgehalten werden.
+
+\hypertarget{inhaltsideen}{%
+\subsubsection{Inhaltsideen}\label{inhaltsideen}}
+
+Inhaltsideen beziehen sich auf konkrete Inhaltsbereiche der Mathematik, die die Kriterien Fundamentaler Ideen erfüllen können. Nicht ganz zufällig spiegeln diese sich in den Leitideen der Bildungsstandards wider (\protect\hyperlink{ref-KMK:2012}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2012}, \protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{2022a}, \protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a}{2022b}).
+
+Beispiele:
+
+\begin{itemize}
+\tightlist
+\item
+  Zahl
+\item
+  Algorithmus
+\item
+  Maß
+\item
+  Raum und Form
+\item
+  Funktion
+\item
+  Zufall
+\end{itemize}
+
+\hypertarget{schnittstellenideen}{%
+\subsubsection{Schnittstellenideen}\label{schnittstellenideen}}
+
+Schnittstellenideen haben die Eigenschaft, dass durch sie die »Mathe(matik) wirkt« und »auch für andere Fächer in ihrer je spezifischen Weise relevant sind« (\protect\hyperlink{ref-Lambert:2012}{Lambert, 2012}). Damit korrelieren sie mit den prozessbezogenen Kompetenzen der Bildungsstandards.
+
+Beispiele:
+
+\begin{itemize}
+\tightlist
+\item
+  Kommunizieren
+\item
+  Modellieren
+\item
+  Argumentieren
+\item
+  Problemlösen
+\item
+  Darstellen
+\item
+  Fragen
+\end{itemize}
+
+\hypertarget{taetigkeitsideen}{%
+\subsubsection{Tätigkeitsideen}\label{taetigkeitsideen}}
+
+Tätigkeitsideen beziehen sich insbesondere auf innermathematische Tätigkeiten, die sich über verschiedene Inhaltsbereiche hinweg zeigen. Lambert (\protect\hyperlink{ref-Lambert:2012}{2012}) betont, dass es diese (über die Bildungsstandards hinaus) ebenfalls zu beachten gilt, wenn man einen reichhaltigen Mathematikunterricht bewirken möchte.
+
+Beispiele:
+
+\begin{itemize}
+\tightlist
+\item
+  Approximierung
+\item
+  Optimierung
+\item
+  Linearität/Linearisierung
+\item
+  Symmetrie
+\item
+  Invarianz
+\item
+  Rekursion
+\item
+  Vernetzung
+\item
+  Ordnen
+\item
+  Strukturierung
+\item
+  Formalisierung
+\item
+  Exaktifizierung
+\item
+  Verallgemeinern
+\item
+  Idealisieren
+\end{itemize}
+
+Im Rahmen des Projektmoduls \emph{Erweitertes Fachwissen für den schulischen Kontext in Mathematik}\footnote{siehe Modulbeschreibung bei \href{https://puls.uni-potsdam.de/qisserver/rds?state=verpublish\&status=init\&vmfile=no\&moduleCall=modulansicht\&publishConfFile=modulverwaltung\&publishSubDir=up/modulbearbeiter\&\&modul.modul_id=3156\&menuid=\&topitem=Modulbeschreibung\&subitem=}{PULS}} werden Sie insbesondere Bezüge zwischen Schul- und Hochschulmathematik auf Basis Fundamentaler Ideen herstellen, wofür die Inhalts- und Tätigkeitsideen von hoher Relevanz sind.
+
+\begin{quote}
+\textbf{Diskussion Fundamentaler Ideen in den Stoffgebieten der Sekundarstufe II}
+
+\begin{itemize}
+\tightlist
+\item
+  Analysis: Tietze et al. (\protect\hyperlink{ref-Tietze:2000a}{2000a})
+\item
+  Lineare Algebra/Analytische Geometrie: Tietze et al. (\protect\hyperlink{ref-Tietze:2000}{2000b})
+\item
+  Stochastik: Tietze et al. (\protect\hyperlink{ref-Tietze:2002}{2002})
+\end{itemize}
+\end{quote}
+
+\hypertarget{beispiel-linearitaet}{%
+\subsection{Beispiel Linearität}\label{beispiel-linearitaet}}
+
+\hypertarget{horizontal--und-vertikalkriterium}{%
+\subsubsection{Horizontal- und Vertikalkriterium}\label{horizontal--und-vertikalkriterium}}
+
+Linearität ist ein wesentliches Konzept über die gesamte Schullaufbahn hinweg (und darüber hinaus). Dies spiegelt sich in vielfältigen Themenbereichen wider, die sowohl die Breite (\emph{Horizontalkriterium}) als auch Tiefe (\emph{Vertikalkriterium}) von Linearität und (später) auch Linearisierung zeigen. Dieser Abschnitt orientiert sich an den Darstellungen von Danckwerts (\protect\hyperlink{ref-Danckwerts:1988}{1988}).
+
+\begin{itemize}
+\tightlist
+\item
+  Linearität als Phänomen tritt schon im Geometrieunterricht der Grundschule mit \textbf{Geraden} als essentielle geometrische Objekte auf. In der euklidischen Geometrie sind Geraden neben Punkten die Basisobjekte eines axiomatischen Aufbaus.
+\item
+  Das \textbf{Distributivgesetz} \(a\cdot (b+c) = a\cdot b + a\cdot c\), ebenfalls bereits in der Grundschule behandelt, beschreibt einen linearen Vorgang und bietet die Grundlage für die halbschriftliche Multiplikation. Über die Schulmathematik hinaus dient es z.~B. als eines der Vektorraumaxione (Skalarmultiplikation).
+\item
+  Das Bestimmen eines \textbf{Rechteckflächeninhalts} ist ein linearer Vorgang: Ein Rechteck, das doppelt so breit ist, hat (bei gleicher Höhe) einen doppelt so großen Flächeninhalt. Betrachtet man diese Eigenschaft nicht als Phänomen, sondern als Forderung an eine Flächeninhaltsformel, so kann aus den Bedingungen \(A(a_1+a_2,b) = A(a_1,b) + A(a_2,b)\) und \(A(a,b_1+b_2) = A(a,b_1)+A(a,b_2)\) sowie der Stetigkeit in \(\mathbb{R}^+\) die Formel \(A(a,b) = a\cdot b\) abgeleitet werden.
+\item
+  Lineare Zuordnungen der Art \(f(x+y) = f(x)+f(y)\) werden zu Beginn der Sekundarstufe I als \textbf{proportionale Zuordnungen} behandelt. Dies wird fortgeführt bei \textbf{linearen Funktionen} der Art \(f(x) = mx+n\), in der Fachmathematik als affin-lineare Abbildungen bezeichnet.
+\item
+  \textbf{Lineare Gleichungen und Gleichungssysteme} sind ebenfalls bedeutsamer Bestandteil des Mathematikunterrichts. Überhaupt baut die gesamte \textbf{Lineare Algebra} auf lineare und affin-lineare Abbildungen auf.
+\item
+  Die \textbf{Strahlensätze} beschreiben ebenfalls ein lineares Verhalten: Geradenabschnitte in \(c\)-facher Entfernung sind \(c\) mal so lang.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/2-Strahlensatz} 
+
+}
+
+\caption{Strahlensatzfigur}\label{fig:Strahlensatz}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Beim \textbf{Ableitungsbegriff} ist eine wesentliche Vorstellung, dass die Funktion in der Umgebung der zu betrachtenden Stelle linearisiert wird. Insbesondere bei höherdimensionalen Funktionen wird der Linearisierungsansatz weiterverfolgt. Die ebenfalls vorherrschende Tangentenvorstellung ist auf mehr als drei Dimensionen nicht mehr anschaulich übertragbar -- der Linearisierungsansatz weist hier aufgrund seiner algebraischen Beschreibung die bessere Verallgemeinerbarkeit auf.
+\item
+  Eng an den Linearisierungsansatz angelehnt ist die \textbf{lineare Approximation} von Funktionen (z.~B. \(\sin(x)\approx x\) für \(x\approx 0\)). Die führt sich in der Hochschulmathematik fort, beispielsweise bei Taylor-Reihen.
+\item
+  Das Bedürfnis der Linearisierung, insbesondere aus der Physik heraus, zeigt sich auch bei der Nutzung \textbf{spezifisch skalierter Diagrammachsen}, z.~B. von Logarithmuspapier. Wegen der Äquivalenz von \(y = c\cdot a^x\) und \(\ln y = (\ln a )\cdot x + \ln c\) lassen sich beliebige Exponentialfunktionen auf Logarithmuspapier als lineare Funktionen darstellen.
+\item
+  Verschiedene Näherungsverfahren, wie das \textbf{Newton-Verfahren}, bedienen sich ebenfalls der Linearisierung.
+\end{itemize}
+
+An dieser Stelle sei darauf hingewiesen, dass Linearität derart fundamental ist, dass selbst nicht-lineare Zusammenhänge häufig fälschlicherweise als linear angenommen werden. Dies zeigt sich zum Beispiel an den Fehlannahmen \((x+y)^2 \overset{?!}{=} x^2+y^2\), \(\sqrt{x+y} \overset{?!}{=} \sqrt{x}+\sqrt{y}\) oder \(\sin(x+y) \overset{?!}{=} \sin(x)+\sin(y)\). Derartige Fehler können Sie als Lehrkraft besser einordnen (und korrigieren), wenn Sie sich der Fundamentalen Idee \emph{Linearität} (die hier eben \emph{nicht} gilt) bewusst sind. Insbesondere spricht dies auch für ein Explizitmachen der Fundamentalen Idee Ihren Schülerinnen und Schülern gegenüber, so dass Sie derartigen Fehlern nicht nur mit Gegenbeispielen entgegen treten können, sondern auch eine strukturelle Einordnung sichtbar machen können.
+
+Gerade wegen der genannten Fehlannahmen und der für die Schülerinnen und Schüler i.~d.~R. nicht in Zusammenhang gebrachten Dualität aus \emph{geradlinig} und \emph{additiv und homogen} sehen Tietze et al. (\protect\hyperlink{ref-Tietze:2002}{2002, S. 39}) die Linearität dagegen nicht als eine im Mathematikunterricht etablierte Fundamentale Idee, »die die Schüler erkennen und die ihr Denken ordnet und anregt«.
+
+\hypertarget{zeit--und-sinnkriterium}{%
+\subsubsection{Zeit- und Sinnkriterium}\label{zeit--und-sinnkriterium}}
+
+Linearität zeigt sich auch in der historischen Entwicklung der Mathematik als eine prägende Leitlinie, womit sie das \emph{Zeitkriterium} Fundamentaler Ideen erfüllt. In der Linearen Algebra sei beispielsweise das Lösen linearer Gleichungssysteme im 18. Jahrhundert bis hin zum Gauß-Algorithmus im 19. Jahrhundert oder die Darstellung linearer Vorgänge mit Matrizen im 17./18. Jahrhundert erwähnt (vgl. \protect\hyperlink{ref-Tietze:2000}{Tietze et al., 2000b, S. 73~ff.}). In der Analysis spiegelt sich die Linearität bzw. Linearisierung in der gesamten Differenzialrechnung wider, von der Interpolation nach der Jahrtausendwende über Taylors \emph{Linear perspective} von 1715 (vgl. \protect\hyperlink{ref-Bruckler:2018}{Brückler, 2018, S. 39, 119}) bis in die Gegenwart der linearen Modellierung nichtlinearer Zusammenhänge.
+
+\begin{quote}
+\textbf{Historische Originalausgabe}
+
+Taylor (\protect\hyperlink{ref-Taylor:1715}{1715}): \emph{Linear perspective}
+\end{quote}
+
+Auch Alltagssituationen bzw. die Alltagssprache ist von Linearität geprägt. Beispielsweise treten proportionale Zuordnungen unmittelbar beim Einkaufen auf, wenn Waren abgewogen und der Preis bestimmt wird. Auch reale Messvorgänge, wie z.~B. die Geschwindigkeitsmessung, beziehen sich in der Regel auf die Messung von (sehr kurzen) Zeitintervallen, in denen ein lineares Verhalten angenommen wird. Das \emph{Sinnkriterium} zeigt sich aber auch in Begriffen wie \emph{lineares Fernsehen} oder \emph{lineare Erzählungen}. Dies ist zwar keine mathematische Linearität im Sinne der Formel \(f(x+y) = f(x) +f(y)\), aber der Begriff findet in einer verwandten Bedeutung in der Alltagssprache Verwendung.
+
+\hypertarget{gegenbeispiele}{%
+\subsection{Gegenbeispiele}\label{gegenbeispiele}}
+
+Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale Ideen angebracht werden.
+
+\begin{itemize}
+\tightlist
+\item
+  Das bereits erwähnte \textbf{Distributivgesetz} an sich ist zwar elementar, aber ihm fehlt die Weite, womit es nicht das Horizontalkriterium erfüllt. Die \emph{Linearität} als dahinterliegende Idee ist dagegen weit genug (vgl. ähnliche Argumentation zum \textbf{Kommutativgesetz} und der dahinterliegenden Idee der \emph{Invarianz} bei \protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 63}).
+\item
+  Der \textbf{Umkehrfunktion} fehlt das Sinnkriterium, da dieser Begriff in der Lebenswelt außerhab der Mathematik kaum von Relevanz ist. Dahinter liegt vielmehr die Idee der \emph{Reversibilität} als »Umkehrbarkeit von Operationen mit Wiederherstellung des Ausgangszustandes« (\protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 63}).
+\end{itemize}
+
+\hypertarget{fund.-ideen-und-stoffdidaktik}{%
+\section{Fund. Ideen und Stoffdidaktik}\label{fund.-ideen-und-stoffdidaktik}}
+
+Fundamentale Ideen haben zwar ihren Ursprung in der Fachstruktur, aber sie »sind nicht Elemente der Wissenschaft an sich, sondern Produkte unseres Verstandes, die wir der Wissenschaft aufprägen. Folglich können sie nur relativ zum Menschen objektiviert werden« (\protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 62}). Hinsichtlich des \protect\hyperlink{tab:fragen-ebenen}{Vier-Ebenen-Ansatzes} liegen sie auf der \textcolor{semanticColor}{semantischen Ebene} mit starken Bezügen zur \textcolor{formalColor}{formalen Ebene}.
+
+Für Ihre stoffdidaktische Analyse können Fundamentale Ideen insbesondere hilfreich für die \textbf{Dekonstruktion} des Fachwissens und anschließende \textbf{Rekonstruktion} des Schulwissens sein.
+
+Wenn sie also beispielsweise eine stoffdidaktische Analyse zur Flächeninhaltsberechnung durchführen, setzen Sie sich mit der Fundamentalen Idee des \emph{Messens} auseinander. Dabei verstehen Sie Messvorgänge als Vergleiche zu einem Standardmaß (z.~B. Kästchen auszählen), erkennen Zerlegungs- und Ergänzungsgleichheit als notwendige Prinzipien zur präziseren Beschreibung, sehen Dreiecke als bedeutsame Basisfiguren für Flächeninhaltsberechnungen an und haben den Blick für die Integralrechnung als verallgemeinerbare Methode zur Flächeninhaltsbestimmung krummliniger Figuren (vgl. \protect\hyperlink{ref-Vohns:2000}{Vohns, 2000, S. 98~ff.}). Sie \emph{dekonstruieren} (zerlegen) damit Ihr eigenes mathematisches Fachwissen.
+
+Nun sind Sie in der Lage, das Wissen zur Flächeninhaltsberechnung für Schülerinnen und Schüler neu aufzubauen, also zu \emph{rekonstruieren} und (unter Hinzunahme der Betrachtung von Grundvorstellungen und den restlichen Ebenen des Vier-Ebenen-Ansatzes) einen Lernpfad zu entwickeln. Im Zusammenhang mit der Integralrechnung kann dies z.~B. heißen, dass Sie parallel zum Bilden von Ober- und Untersummen noch einmal eine krummlinig begrenzte Fläche durch Kästchen auszählen lassen -- ggf. mit unterschiedlicher Feinheit und einer Abschätzung nach oben und nach unten. Die Fundamentalen Ideen haben für Sie damit auch eine \emph{ordnende Funktion} des Unterrichtsstoffes.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/2-Flaeche} 
+
+}
+
+\caption{Flächeninhaltsbestimmung}\label{fig:Flaeche}
+\end{figure}
+
+\hypertarget{fundamentale-ideen-nachbereitung}{%
+\section{Zum Nachbereiten}\label{fundamentale-ideen-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Lesen Sie das Kapitel 3.2.2 \emph{Der Begriff der Fundamentalen Ideen in der Pädagogik} bei Schubert \& Schwill (\protect\hyperlink{ref-Schubert:2011}{2011, S. 59--65}).
+\item
+  Wählen Sie ein Unterrichtsthema aus und stellen Sie den Bezug zu Fundamentalen Ideen her, indem Sie die \protect\hyperlink{tab:fragen-ebenen}{zugehörigen Fragen der semantischen Ebene} beantworten.
+\end{enumerate}
+
 \hypertarget{grundvorstellungen}{%
 \chapter{Grundvorstellungen}\label{grundvorstellungen}}
+
+\begin{quote}
+\textbf{Lernziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie können die Grundvorstellungsidee beschreiben und wissen über deren Bedeutung für den Mathematikunterricht.
+\item
+  Sie kennen Grundvorstellungen zu einzelnen mathematischen Begriffen.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zur Vorlesung zu Grundvorstellungen (\href{files/Stoffdidaktik-WiSe2223-Kap3.pdf}{pdf}, \href{files/Stoffdidaktik-WiSe2223-Kap3.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\hypertarget{grundvorstellungen-begriffsklaerung}{%
+\section{Begriffsklärung}\label{grundvorstellungen-begriffsklaerung}}
+
+\hypertarget{grundvorstellungsidee}{%
+\subsection{Grundvorstellungsidee}\label{grundvorstellungsidee}}
+
+Als Sie zu Beginn Ihres Mathematikstudiums die Peano-Axiome zur Definition der Natürlichen Zahlen \(\mathbb{N}\) kennengelernt haben, konnten Sie dies wahrscheinlich -- trotz der Neuigkeit der formalen Beschreibung -- derart mit Ihrer Lebenswelterfahrung in Verbindung bringen, dass Natürliche Zahlen abgezählt werden können, also damit z.~B. die Platzierungen eines Wettrennens durchnummeriert werden können.
+
+\begin{quote}
+\textbf{Peano-Axiome} (\protect\hyperlink{ref-WikiPeano}{Wikipedia, 2021})
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(0\) ist eine natürliche Zahl.
+\item
+  Jede natürliche Zahl \(n\) hat eine natürliche Zahl \(n'\) als Nachfolger.
+\item
+  \(0\) ist kein Nachfolger einer natürlichen Zahl.
+\item
+  Natürliche Zahlen mit gleichem Nachfolger sind gleich.
+\item
+  Enthält die Menge \(X\) die \(0\) und mit jeder natürlichen Zahl \(n\) auch deren Nachfolger \(n'\), so bilden die natürlichen Zahlen eine Teilmenge von \(X\).
+\end{enumerate}
+\end{quote}
+
+Dieser \textbf{Bezug auf eine bekannte Handlung} ist wesentlich dafür, dass die Definition und damit der Begriff der Natürlichen Zahlen für Sie mit einem Sinn behaftet ist. Innerhalb dieser \emph{ordinalen Sichtweise} Natürlicher Zahlen helfen nun geeignete\footnote{\emph{Geeignet} heißt in diesem Fall, dass sich die Kernaussage des Begriffs in der Repräsentation wiederfindet. Im Ordinalzahlaspekt ist dies v.~a. die Reihung von Zahlen. Was dabei (noch) nicht relevant ist, ist zum Beispiel die exakte Messbarkeit, wie man sie etwa auf dem Zahlenstrahl repräsentiert.} \textbf{Repräsentationen} dabei, sich Rechenoperationen vorstellen und sie \textbf{operativ}\footnote{\emph{Operativ} heißt hier zum Beispiel, dass Sie zu einer Aufgabe wie \(2+7\) Nachbaraufgaben (\(2+8\)), Umkehraufgaben (\(7-2\)), Platzhalteraufgaben (\(2+\boxed{\phantom{5}}=7\)) usw. aufstellen und lösen können.} auszuführen zu können, also bspw. das Addieren als ein Weiterzählen aufzufassen (siehe Abbildung \ref{fig:Addition}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/3-Addition} 
+
+}
+
+\caption{Additionsaufgabe im ordinalen Zahlaspekt}\label{fig:Addition}
+\end{figure}
+
+Mit der Fähigkeit der Verknüpfung des mathematischen Begriffs und der Lebenswelt ist also eine \textbf{Anwendung des Begriffs auf die Wirklichkeit} möglich, insbesondere in Modellierungsprozessen. Dabei sind beide Richtungen relevant: Von der Realsituation zur Mathematik und von der Mathematik zur Realität.
+
+Ziel des Mathematikunterrichts sollte es nun sein, für alle relevanten mathematischen Begriffe ein derartiges Verständnis aufzubauen, was auch heißt, verschiedene Vorstellungen zu einem Begriff zu vermitteln. Nach vom Hofe (\protect\hyperlink{ref-Hofe:1995}{1995, S. 97~f.}, Hervorhebung durch H.E.) ergibt sich daraus eine Orientierung an Grundvorstellungen im Mathematikunterricht:
+
+\begin{definition}[Grundvorstellungen]
+\protect\hypertarget{def:Grundvorstellungen}{}\label{def:Grundvorstellungen}
+
+Die \textbf{Grundvorstellungsidee} beschreibt \textbf{Beziehungen zwischen mathematischen Inhalten und} dem Phänomen der \textbf{individuellen Begriffsbildung}. In ihren unterschiedlichen Ausprägungen charakterisiert sie mit jeweils unterschiedlichen Schwerpunkten insbesondere drei Aspekte dieses Phänomens:
+
+\begin{itemize}
+\tightlist
+\item
+  Sinnkonstituierung eines Begriffs durch \textbf{Anknüpfung an} bekannte \textbf{Sach- oder Handlungszusammenhänge} bzw. \textbf{Handlungsvorstellungen},
+\item
+  Aufbau entsprechender (visueller) \textbf{Repräsentationen bzw. »Verinnerlichungen«}, die \textbf{operatives Handeln} auf der Vorstellungsebene ermöglichen,
+\item
+  Fähigkeit zur Anwendung eines Begriffs auf die Wirklichkeit durch \textbf{Erkennen der} entsprechenden \textbf{Struktur in Sachzusammenhängen} oder durch \textbf{Modellieren} des Sachproblems \textbf{mit Hilfe der mathematischen Struktur}.
+\end{itemize}
+
+\end{definition}
+
+\hypertarget{ausdifferenzierung}{%
+\subsection{Ausdifferenzierung}\label{ausdifferenzierung}}
+
+vom Hofe (\protect\hyperlink{ref-vomHofe2014}{2014}) unterscheidet weiterhin zwischen \textbf{primären} und \textbf{sekundären} Grundvorstellungen, abhängig von der Erfahrungswelt der Handlungen. Während sich primäre Grundvorstellungen auf reale Handlungserfahrungen stützen (z.~B. mit Steckwürfeln in der Arithmetik), entstammen sekundäre Grundvorstellungen aus den Handlungen mit bereits im Mathematikunterricht aufgebauten Repräsentationen (z.~B. Operationen auf dem Zahlenstrahl).
+
+Ich als Autor dieses Dokuments vertrete die Ansicht, dass Grundvorstellungen zu \textbf{Aspekten} eines Begriffs und zu \textbf{Operationen} mit diesen Begriffsaspekten formuliert werden können. So wäre das oben angebrachte Beispiel der ordinalen Anordnung der Natürlichen Zahlen ein \emph{Begriffsaspekt} mit der damit verbunden Grundvorstellung, dass die Natürlichen Zahlen eine feste Reihenfolge darstellen, beginnend bei \(0\). Das \emph{Addieren} ist eine Operation in diesem Aspekt, verbunden mit der Grundvorstellung des Weiterzählens. Eine ähnliche Unterscheidung, jedoch mit inhaltlich anderer Ausrichtung, nehmen auch Greefrath et al. (\protect\hyperlink{ref-Greefrath2016}{2016, S. 17}) vor. Eine Diskussion dazu findet sich bei Etzold (\protect\hyperlink{ref-Etzold2021}{2021, S. 72~f.}). Die genannten Begriffs\emph{aspekte} sind jedoch nicht mit den \emph{Aspekten} der Grundvorstellungsidee in Definition \ref{def:Grundvorstellungen} zu verwechseln.
+Auch wenn Sie nicht unmittelbar und sofort jeweils alle Aspekte eine Begriffs im Unterricht ansprechen werden, hilft Ihnen das Wissen über den Aspektreichtum in der Unterrichtsplanung für die Ausbildung eines umfassenden Begriffsverständnisses.
+
+Die in Definition \ref{def:Grundvorstellungen} dargestellte Grundvorstellungsidee hat einen \textbf{normativen} Charakter, d.~h. es wird davon ausgegangen, dass (aus professioneller Sicht der Mathematikdidaktik) zu mathematischen Begriffen bestimmte Grundvorstellungen identifiziert werden können, die es im Unterricht zu vermitteln gilt. Oder anders gefragt: »Welche Grundvorstellungen sind zur Lösung des Problems aus der Sicht des Lehrenden adäquat?« (\protect\hyperlink{ref-Hofe:1995}{vom Hofe, 1995, S. 106}) Diese Sichtweise wird durch eine \textbf{deskriptive} Perspektive ergänzt: »Welche individuellen Vorstellungen lassen sich im Lösungsversuch des Schülers erkennen?« (\protect\hyperlink{ref-Hofe:1995}{vom Hofe, 1995, S. 107}) Diese über empirische Untersuchungen zu ermittelnden Vorstellungen sind das, was sich Schülerinnen und Schüler \emph{tatsächlich} unter einem Begriff vorstellen, wozu ggf. auch typische \emph{Fehlvorstellungen}\footnote{Mit \emph{Fehlvorstellungen} sind hier individuelle Vorstellungen der Schülerinnen und Schüler gemeint, die mathematisch nicht tragfähig und daher aus fachlicher Perspektive fehlerhaft sind. So ist etwa die Vorstellung, dass Multiplizieren vervielfacht, in den Natürlichen Zahlen tragfähig (und damit eine Grundvorstellung), in den Bruchzahlen jedoch nicht mehr tragfähig und wird dort dann zur Fehlvorstellung. Neben \emph{Fehlvorstellungen} können weitere individuelle Vorstellungen \emph{Alltagsvorstellungen}, \emph{Präkonzepte} o.~ä. sein (siehe auch \protect\hyperlink{ref-Schecker2018}{Schecker et al., 2018, S. 11~f.}).} gehören können. Ein Wissen darüber ist für Lehrkräfte ungemein wichtig, um Ergebnisse von Schülerinnen und Schülern interpretieren und einordnen zu können und dann ggf. entsprechende Hilfsangebote zu machen. Dies entspricht dann einer \textbf{konstruktiven} Perspektive auf Grundvorstellungen: »Worauf sind etwaige Divergenzen zurückzuführen, und wie lassen sich diese beheben?« (\protect\hyperlink{ref-Hofe:1995}{vom Hofe, 1995, S. 107}).
+
+\hypertarget{gv-und-stoffdidaktik}{%
+\section{GV und Stoffdidaktik}\label{gv-und-stoffdidaktik}}
+
+Im Rahmen dieser Veranstaltung, insbesondere den von Ihnen ausgearbeiteten Seminarthemen, wird der Schwerpunkt auf \emph{normative} Grundvorstellungen gelegt, was der \textcolor{semanticColor}{semantischen Ebene} des \protect\hyperlink{tab:fragen-ebenen}{Vier-Ebenen-Ansatzes} zugeordnet werden kann, weil die mathematischen Begriffe hier mit einem Sinn versehen werden. Die \emph{deskriptive} und \emph{konstruktive} Perspektive sind dagegen der \textcolor{empiricColor}{empirischen Ebene} zuzuordnen, da hier individuelle Vorstellungen der Schülerinnen und Schüler von Relevanz sind. Dies betrifft insbesondere auch das Potenzial, (ggf. mathematisch unvollständige) individuelle Vorstellungen aufzugreifen bei der Ausbildung von (normativ erwünschten) Grundvorstellungen.
+
+Das Identifizieren von Grundvorstellungen zu einem Begriff ist, genau wie bei den \protect\hyperlink{fundamentale-ideen}{Fundamentalen Ideen}, Aufgabe der mathematikdidaktischen Forschung (ein Modell dafür findet man bei \protect\hyperlink{ref-Salle2021}{Salle \& Clüver, 2021}). Als Lehrkraft profitieren Sie von diesen Ergebnissen und nutzen sie für Ihre stoffdidaktische Analyse.
+
+Im Gegensatz zu den Fundamentalen Ideen, die ihren Ursprung in der Sachstruktur des mathematischen Inhalts haben, entstammen die Grundvorstellungen stärker der \emph{Bedeutung} der fachlichen Begriffe \emph{für das Individuum}. Grundvorstellungen beziehen sich auf spezifische Begriffe und Operationen mit Begriffen, während Fundamentale Ideen größere, themenübergreifende Leitlinien für die Stoffauswahl und -strukturierung bilden.
+
+Für die Unterrichtsplanung und -durchführung ist neben der Frage, \emph{welche} Grundvorstellungen von Relevanz sind (Spezifizieren im Vier-Ebenen-Ansatz) vor allem interessant, \emph{wie} diese ausgebildet werden können (Strukturieren im Vier-Ebenen-Ansatz).
+
+vom Hofe (\protect\hyperlink{ref-Hofe:1995}{1995, S. 123~ff.}) schlägt hierzu vor, zunächst aus Lehrkräftesicht den Lerngegenstand von der Mathematik her zu analysieren, Grundvorstellungen zu identifizieren, geeignete Sachzusammenhänge zu finden und diese mit den Erfahrungsbereichen der Schülerinnen und Schüler zu verknüpfen (linke Seite in Abbildung \ref{fig:GVausbilden}), während die Schülerinnen und Schüler dann den umgekehrten Weg zum Begriffserwerb gehen (rechte Seite in Abbildung \ref{fig:GVausbilden}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/3-GVausbilden} 
+
+}
+
+\caption{Ausbilden von Grundvorstellungen (\protect\hyperlink{ref-Hofe:1995}{vom Hofe, 1995, S. 124})}\label{fig:GVausbilden}
+\end{figure}
+
+Konkreter wird es an dieser Stelle jedoch noch nicht. Im Rahmen dieser Veranstaltung wird die Gestaltung von Lernprozessen in den Kapiteln \ref{lernhandlungen} bis \ref{aufgabengestaltung} in den Blick genommen, wo dann Grundvorstellungen noch einmal hinsichtlich der \textcolor{concreteColor}{konkreten Ebene} des Vier-Ebenen-Ansatzes zur stoffdidaktischen Analyse aufgegriffen werden.
+
+\hypertarget{beispiele}{%
+\section{Beispiele}\label{beispiele}}
+
+\hypertarget{natuxfcrliche-zahlen}{%
+\subsection{Natürliche Zahlen}\label{natuxfcrliche-zahlen}}
+
+Betrachten Sie folgenden (fiktiven) Zeitungsartikel:
+
+\begin{quote}
+\textbf{\emph{Harlequin erneut auf dem 1. Platz}}
+
+\emph{Bei dem traditionellen Pferderennen am 15. Mai hat das Pferd Harlequin erneut gewonnen. Unter den 10 Pferden, die an den Start gingen, belegte es mit 21,3 Sekunden den 1. Platz. Damit war es fast 2 mal so schnell unterwegs wie das letzte Pferd, das ins Ziel kam. Karten für das nächste Rennen können unter 030 23125143 bestellt werden.}
+\end{quote}
+
+In dem Text tauchen Zahlen unter vielen Aspekten auf: Der \textbf{1.} Platz und \textbf{15.} Mai sind \textbf{Ordinalzahlen}, also Zahlen, die eine Ordnung beschreiben. Wie oben schon beschrieben, lassen diese sich fachmathematisch über die Peano-Axiome beschreiben und wenn mit ihnen gerechnet, entspricht z.~B. das Addieren dem \textbf{Weiterzählen}.
+
+Die \textbf{10} Pferde stellen eine \textbf{Kardinalzahl} dar, also die Anzahl der Elemente einer Menge. Addiert man Kardinalzahlen, so müssen \textbf{Mengen vereinigt} werden, z.~B. anschaulich, indem man sie zusammen legt.
+
+Die \textbf{21,3} Sekunden entsprechen einer \textbf{Maßzahl}, da diese Zahl die Funktion hat, etwas auszumessen (hier die Zeit). Das Addieren in diesem Aspekt entspräche dem \textbf{Aneinanderlegen}, z.~B. wenn zwei Längenangaben addiert werden.
+
+Dass es \textbf{2} mal so schnell wird, enspricht einem \textbf{Operatoraspekt}, mit dem die Vielfachheit eines Vorganges beschrieben wird. Das Addieren ist hierin eine \textbf{Hinereinanderausführung} eines Vorganges.
+
+Die Telefonnumer \textbf{030 23125143} wiederum erfüllt einen \textbf{Codierungsaspekt}. Sie hat im mathematischen Sinne keine Bedeutung, nur die Anordnung der Ziffern ist von Relevanz. Entsprechend kann innerhalb dieses Aspektes auch nicht addiert werden. Weitere Beispiele hierfür wären Postleitzahlen oder Identifikationsnummern.
+
+Hinzu kommt noch der Aspekt der \textbf{Rechenzahl}. Informationen dazu sowie eine genauere Erläuterung der Zahlaspekte und damit verbundenen Operationen findet man z.~B. bei Krauthausen (\protect\hyperlink{ref-Krauthausen:2018}{2018, S. 43~ff.}).
+
+\hypertarget{bruchzahlen}{%
+\subsection{Bruchzahlen}\label{bruchzahlen}}
+
+Nachdem die Schülerinnen und Schüler ihr gesamte Vorschul- und Primarstufenzeit mit Natürlichen Zahlen verbracht haben, treten mit der Einführung von Bruchzahlen Umbrüche in den subjektiven Vorstellungen auf. Zum Beispiel sind folgende (vermeintlichen) Gesetzmäßigkeiten plötzlich \emph{nicht mehr} gültig:
+
+\begin{itemize}
+\tightlist
+\item
+  Das Produkt zweier Zahlen ist größer als die jeweiligen Faktoren.
+\item
+  Die Multiplikation kann als wiederholte Addition aufgefasst werden.
+\item
+  Jede Zahl hat genau einen Repräsentanten.
+\item
+  Je mehr Stellen eine Zahl hat, desto größer ist sie.
+\end{itemize}
+
+Die Bruchzahlen selbst besitzen nach Padberg \& Wartha (\protect\hyperlink{ref-Padberg:2017}{2017, S. 19~ff.}) folgende Aspekte:
+
+\begin{itemize}
+\tightlist
+\item
+  Bruch als \textbf{Anteil eines Ganzen} oder \textbf{mehrerer Ganzer}
+  (z.~B. \(\frac{2}{3}\) als zwei Drittel einer Pizza oder je ein Drittel von zwei Pizzen)
+\item
+  Bruch als \textbf{Maßzahl}
+  (z.~B. \(\frac{1}{4}\) Liter)
+\item
+  Bruch als \textbf{Operator}
+  (z.~B. \(\frac{1}{5}\) von 250 €)
+\item
+  Bruch als \textbf{Verhältnis}
+  (z.~B. \(\frac{2}{3}\) mit der Bedeutung \emph{2 von 3 Schüler/-innen tragen eine Brille})
+\item
+  Bruch als \textbf{Quotient}
+  (z.~B. \(\frac{3}{5}\) als Ergebnis bzw. andere Schreibweise von \(3:5\))
+\item
+  Bruch als \textbf{Lösung einer linearen Gleichung}
+  (z.~B. \(\frac{3}{5}\) als Lösung von \(5x = 3\))
+\item
+  Bruch als \textbf{Skalenwert}
+  (z.~B. \(\frac{3}{2}\) als Mitte zwischen \(1\) und \(2\) auf dem Zahlenstrahl)
+\item
+  \textbf{Quasikardinale Auffassung} von Brüchen
+  (z.~B. \(\frac{3}{5}\) als 3 mal \(\frac{1}{5}\))
+\end{itemize}
+
+Neben den Grundrechenoperationen führt auch das Vergleichen von Brüchen zu Grundvorstellungsumbrüchen. Hinzu kommen noch besondere Operationen mit Bruchzahlen wie das Erweitern und Kürzen.
+
+Das Multiplizieren von Brüchen kann bspw. als Anteilsbildung (\(\frac{1}{5}\) mal \ldots{} heißt \(\frac{1}{5}\) \emph{von} \ldots) oder als Rechteckfläche aufgefasst werden (\protect\hyperlink{ref-Padberg:2017}{Padberg \& Wartha, 2017, S. 108~ff}), siehe Abbildung \ref{fig:Bruchmultiplikation}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/3-Bruchmulti} 
+
+}
+
+\caption{Vorstellung von $\frac{1}{5} \cdot \frac{2}{3}$ als Rechteckfläche}\label{fig:Bruchmultiplikation}
+\end{figure}
+
+All dies zeigt, dass Brüche behutsam unterrichtet werden sollten und von einer rein kalkülorientierten Behandlung unbedingt abgesehen werden muss, da diese den nachhaltigen Lernerfolg deutlich mindert.
+
+\hypertarget{grundvorstellungen-nachbereitung}{%
+\section{Zum Nachbereiten}\label{grundvorstellungen-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Lesen Sie (mindestens) die Kapitel 1.11.2, 1.11.4., 2.1, 2.2 und 2.4 des Buches \emph{Grundvorstellungen mathematischer Inhalte} (\protect\hyperlink{ref-Hofe:1995}{vom Hofe, 1995}).
+\item
+  Wählen Sie eine Grundvorstellung zu einem mathematischen Begriff aus und arbeiten Sie an dieser die Grundvorstellungsidee nach Definition \ref{def:Grundvorstellungen} durch, d.~h.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    stellen Sie die Sinnhaftigkeit des Begriffs durch mögliche Handlungserfahrungen dar,
+  \item
+    finden Sie geeignete Repräsentationen, anhand derer operatives Handeln ermöglicht wird und
+  \item
+    beschreiben Sie mögliche Modellierungsprozesse des Begriffs mithilfe der gewählten Grundvorstellung.
+  \end{itemize}
+\item
+  Wiederholen Sie Aufgabe 2 an weiteren Begriffen.
+\end{enumerate}
 
 \hypertarget{kernideen-kernfragen-kontexte}{%
 \chapter{Kernideen, Kernfragen, Kontexte}\label{kernideen-kernfragen-kontexte}}
 
-\hypertarget{erstes-intermezzo}{%
-\chapter{\texorpdfstring{Erstes Intermezzo }{Erstes Intermezzo }}\label{erstes-intermezzo}}
+\begin{quote}
+\textbf{Lernziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie können zu ausgewählten Lerngegenständen Kernideen und Kernfragen formulieren.
+\item
+  Sie können gegebene Kontexte zu Lerngegenständen hinsichtlich ihrer Sinnstiftung beurteilen.
+\item
+  Sie sind sich der Möglichkeiten und Bedeutung horizontaler und vertikaler Matheamtisierung bewusst.
+\end{itemize}
+\end{quote}
+
+\hypertarget{kernidee-begriffsklaerung}{%
+\section{Begriffsklärung Kernidee/-frage}\label{kernidee-begriffsklaerung}}
+
+\textbf{Kernideen} haben die Aufgabe, den Lernpfad zu leiten und dabei \emph{sinnstiftend} das \emph{Wesen} des neuen Lerngegenstands sichtbar zu machen. Sie müssen dabei sowohl aus objektiver (also mathematischer) Perspektive tragfähig sein, als auch aus subjektiver Perspektive für die Schülerinnen und Schüler greifbar werden können. Kernideen bieten damit im \emph{Vorfeld} des Lernpfades eine Orientierung und im \emph{Nachgang} des Lernpfades eine Reflexionsmöglichkeit über den Lerngegenstand.\footnote{Der Begriff der Kernidee ist geprägt worden über das Dialogische Lernen nach Gallin und Ruf, spricht dort jedoch vorwiegend die Vorschauperspektive an (vgl. \protect\hyperlink{ref-Leuders2011}{Leuders et al., 2011, S. 7}).} Um bei den Schülerinnen und Schülern Lernprozesse zu einem Lerngegenstand zu initiieren, werden die Kernideen ansprechend in Form von \textbf{Kernfragen} formuliert. Kernfragen sollten daher prinzipiell aus subjektiver Sicht formuliert sein und insbesondere adressieren, wie man selbst mit dem Lerngegenstand umgehen kann.
+
+Am Beispiel des \emph{Funktionsbegriffs} etwa besteht eine Kernidee darin, dass Funktionen den Zusammenhang zwischen zwei Größen beschreiben und damit auch vorhersagen können (vgl. auch Aspekte des Funktionsbegriffs in Kapitel \ref{leitidee-strukturen-und-funktionaler-zusammenhang}). Als Kernfrage formuliert: »Wie kann man die Beziehung zwischen zwei sich verändernden Größen beschreiben und wie kann man damit weitere Werte bestimmen?« (\protect\hyperlink{ref-Thiel-Schneider2018}{Thiel-Schneider, 2018, S. 49})
+
+In der \emph{Vorschauperspektive} heißt das, die »Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern« (\protect\hyperlink{ref-Leuders2011}{Leuders et al., 2011, S. 8}). In der \emph{Rückschauperspektive} dagegen können über die Kernidee (dann quasi als Antwort auf die Kernfrage) »eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt« werden (\protect\hyperlink{ref-Leuders2011}{Leuders et al., 2011, S. 8}).
+
+\begin{definition}[Kernidee und Kernfrage]
+\protect\hypertarget{def:Kernidee}{}\label{def:Kernidee}Eine \textbf{Kernidee} beschreibt unter sinnstiftender Perspektive das mathematische Wesen eines Lerngegenstand.
+
+Eine \textbf{Kernfrage} stellt die Kernidee in Frageform aus der Perspektive der Schülerinnen und Schüler dar.
+
+Kernideen und Kernfragen verfolgen eine \textbf{\emph{Vorschauperspektive}}, die der Orientierung und Initiierung der Auseinandersetzung mit dem neuen Lerngegenstand dient, sowie eine \textbf{\emph{Rückschauperspektive}}, die es den Schülerinnen und Schülern ermöglicht, den Lerngegenstand einzuordnen.
+\end{definition}
+
+Bestandteil Ihrer stoffdidaktischen Analyse auf der \textcolor{concreteColor}{konkreten Ebene} wird es also sein, zum Lerngegenstand passende Kernideen zu identifizieren und in Form von Kernfragen zu formulieren. Hierzu kann Ihnen die Sinnkonstituierung der jeweiligen Grundvorstellungen dienlich sein (siehe Definition \ref{def:Grundvorstellungen}).
+
+\hypertarget{kontexte-begriffsklaerung}{%
+\section{Begriffsklärung Kontext}\label{kontexte-begriffsklaerung}}
+
+\textbf{Kontexte} sollen geeignet sein, sich dem Lerngegenstand exemplarisch zu nähern. Sie weisen damit immer eine Spezialisierung bzw. Konkretisierung des zu betrachtenden Lerngegenstands auf (denn nur so können die Schülerinnen und Schüler einen Zugang dazu finden) -- sollen aber so gestaltet sein, dass an Ihnen das Allgemeine erfahrbar ist (denn nur so kann es zu einer Beschäftigung mit der dahinterliegenden Mathematik kommen). Angelehnt an die Sinnstiftung der obigen Kernideen und Kernfragen, kann auch von einem \emph{sinnstiftenden Kontext} gesprochen werden.
+
+Leuders et al. (\protect\hyperlink{ref-Leuders2011}{2011, S. 4}, Hervorhebungen im Original) formulieren hierzu:
+
+\begin{definition}[Sinnstiftender Kontext]
+\protect\hypertarget{def:Kontext}{}\label{def:Kontext}
+
+Ein \textbf{sinnstiftender Kontext} ist ein Ausschnitt einer inner- oder außermathematischen Welt, der folgende Anforderungen möglichst gut erfüllt:
+
+\begin{itemize}
+\tightlist
+\item
+  Er ist anschlussfähig an die Erfahrungen, Interessen und die Denk- und Handlungsmuster der Lernenden \textbf{(Lebensweltbezug)}.
+\item
+  Er ermöglicht es, authentische Fragen zu bearbeiten und dabei auch etwas über den Kontext zu lernen \textbf{(Kontextauthentizität)}.
+\item
+  Er ist problemhaltig und offen genug, um Lernende zum reichhaltigen Fragen und Erkunden anzuregen \textbf{(Reichhaltigkeit)}.
+\end{itemize}
+
+\end{definition}
+
+Um einer eingeschränkten Sichtweise vorzubeugen, sei gesagt: Der \emph{Lebensweltbezug} heißt nicht zwingend, dass es sich um einen \emph{Realitätsbezug} (im Sinne einer Modellierung) handeln muss. Dies ist zwar in vielen Fällen angebracht, aber auch eine innermathematische Anschlussfähigkeit kann für die Schülerinnen und Schüler ansprechend sein (und damit Bezug zu deren -- schulischen -- Leben herstellen).
+
+Ein möglicher Kontext, über den die oben formulierte Kernfrage bei \emph{linearen Funktionen} erarbeitet werden kann, wäre die Beschreibung des Abbrennverhaltens einer Kerze (vgl. \protect\hyperlink{ref-Boeer2014}{Böer et al., 2014, S. 108~f}). Dieser ist für die Schülerinnen und Schüler aus dem Alltag bekannt (wenn auch nicht alltäglich). Authentisch und reichhaltig ist der Kontext dahingehend, dass die meisten Kerzen zylinderförmig sind und daher tatsächlich ein lineares Abbrennverhalten haben. Auch ist es durchaus von Interesse, die Zeit bis zum vollständigen Abbrennen einer Kerze abschätzen zu können. Weiterhin können (späte) die Eigenschaften des Funktionsgraphen kontextgebundene interpretiert werden (\(y\)-Achsenabschnitt als Ursprungslänge der Kerze, Nullstelle als die Zeit bis zum vollständigen Abbrennen, Anstieg des Graphen als Abbrennverhalten, das direkt mit der Dicke der Kerze in Verbindung gebracht werden kann).
+
+Das Finden derartiger stinnstiftender Kontexte ist enorm anspruchsvoll! Sie sollten hier auf (gute) Lehrwerke zurückgreifen und immer wieder mögliche Kontexte kritisch (mithilfe der Definition \ref{def:Kontext}) hinterfragen.
+
+Kernideen/Kernfragen und der sinnstiftende Kontext bilden damit eine Einheit in der Zielbildung und Motivation zu Beginn der Auseinandersetzung mit einem Lerngegenstand -- beides muss gemeinsam gedacht werden. Es bietet sich an, hier Anforderungssituationen in der \textbf{Zone der nächsten Entwicklung} zu formulieren. Dabei handelt es sich um eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihrer bisherigen Kenntnisse, Fähigkeiten und Fertigkeiten verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht selbstständig in der Lage sind. Somit wird eine Motivation geschaffen, sich mit der Thematik tiefer auseinanderzusetzen. Es ist sinnvoll, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen -- daran ist dann besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« (\protect\hyperlink{ref-Lompscher1996}{Lompscher, 1996, S. 4}).
+
+\hypertarget{mathematisierungstypen}{%
+\section{Mathematisierungstypen}\label{mathematisierungstypen}}
+
+Währen Kernideen, Kernfragen und Kontexte in erster Linie der \emph{Spezifizierung} des Lerngegenstandes in Hinblick auf den Lernpfad dienen, kann zur \emph{Strukturierung} der Prozess der Mathematisierung stärker in den Blick genommen werden. Angelehnt an Treffers und Freudenthal stellt van den Heuvel-Panhuizen (\protect\hyperlink{ref-vandenHeuvel-Panhuizen2003}{2003, S. 12}) hierzu dar, dass prinzipiell zwei Wege der Mathematisierung möglich sind:
+
+\begin{itemize}
+\item
+  Bei der \textbf{horizontalen Mathematisierung} werden mithilfe mathematischer Objekte und Operationen reale Situationen und alltägliche Probleme beschrieben, geordnet und gelöst. Es wird also aus der Welt des Lebens in die Welt der Symbole übergegangen.\footnote{im Original: »In the case of horizontal mathematizing, mathematical tools are brought forward and used to organize and solve a problem situated in daily life. {[}\ldots{]} to mathematize horizontally means to go from the world of life to the world of symbols« (\protect\hyperlink{ref-vandenHeuvel-Panhuizen2003}{van den Heuvel-Panhuizen, 2003, S. 12})}
+\item
+  Bei der \textbf{vertikalen Mathematisierung} wird innerhalb des mathematischen Systems reorganisiert und operiert, es wird sich also in der Welt der Symbole bewegt.\footnote{im Original: »Vertical mathematizing, on the contrary, stands for all kinds of re-organizations and operations done by the students within the mathematical system itself. {[}\ldots{]} to mathematize vertically means to move within the world of symbols« (\protect\hyperlink{ref-vandenHeuvel-Panhuizen2003}{van den Heuvel-Panhuizen, 2003, S. 12})}
+\end{itemize}
+
+Beide Arten sind nicht als Konkurrenten aufzufassen, sondern haben ihre gleiche Berechtigung im Mathematikunterricht. Dies ist v.~a. vor dem Hintergrund zu verstehen, dass Mathematik \emph{vom Menschen betrieben} wird. Erst durch das Zusammenwirken von horizontaler und vertikaler Mathematisierung kann Mathematik unter dieser Annahme auf ehrliche Weise durchgeführt und damit auch verstanden werden. Dies heißt insbesondere, dass in jeder Klassenstufe beide Arten der Mathematisierung ihre Berechtigung haben und entsprechend realisiert werden müssen.\footnote{im Original: »Freudenthal emphasized, however, that the differences between these two worlds are far from clear cut, and that, in his view, the worlds are not, in fact, separate. Moreover, he found the two forms of mathematizing to be of equal value, and stressed the fact that both activities could take place on all levels of mathematical activity.« (\protect\hyperlink{ref-vandenHeuvel-Panhuizen2003}{van den Heuvel-Panhuizen, 2003, S. 12})}
+
+Das oben dargestellte Kerzenbeispiel entstammt der horizontalen Mathematisierung. Eine vertikale Mathematisierung könnte bspw. im weiteren Lernverlauf -- etwa nachdem die Funktionsgleichung \(y = m\cdot x + n\) eingeführt wurde -- die Untersuchung des Einflusses der Parameter \(m\) und \(n\) auf den Funktionsgraphen sein. Daran zeigt sich schon, wie hilfreich eine gleichermaßen Betrachtung horizontaler und vertikaler Prozesse ist, nämlich wenn etwa nach einer Veränderung von \(m\) und \(n\) rückgefragt wird, inwieweit dies noch mit den Abbrennen einer Kerze in Zusammenhang steht (was spätestens bei einem positiven \(m\) an seine Grenzen stößt). Derartige \emph{Grenzbetrachtungen} (die mathematisch greifbar, aber in der Realität eben an ihre Grenzen stoßen) bieten ein enormes Potenzial, sich dem abstrakten Wesen von Mathematik zu nähern.
+
+\hypertarget{kernideen-kernfragen-kontexte-nachbereitung}{%
+\section{Zum Nachbereiten}\label{kernideen-kernfragen-kontexte-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Entwickeln Sie für den Begriff der \emph{Exponentialfunktion} eine Kernfrage.
+\item
+  Untersuchen Sie, inwieweit folgende Kontexte für Exponentialfunktionen sinnstiftend sind:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Bakterienwachstum
+  \item
+    Bierschaumzerfall
+  \end{itemize}
+\item
+  Beschreiben und erklären Sie je eine geeignete Variante der horizontalen und vertikalen Mathematisierung am Lerngegenstand der Exponentialfunktion.
+\end{enumerate}
+
+\hypertarget{erstes-intermezzo-flaecheninhalt}{%
+\chapter{Erstes Intermezzo: Flächeninhalt}\label{erstes-intermezzo-flaecheninhalt}}
+
+\begin{quote}
+\textbf{Lernziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie vertiefen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere auf der formalen, semantischen und konkreten Ebene.
+\item
+  Sie verknüpfen Ihr Wissen über Fundamentale Ideen, Grundvorstellungen, Kontexte und Kernideen/Kernfragen am Beispiel des Flächeninhaltsbegriffs.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zur Vorlesung zum Ersten Intermezzo (\href{files/Stoffdidaktik-WiSe2223-Kap5.pdf}{pdf}, \href{files/Stoffdidaktik-WiSe2223-Kap5.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+In diesem Kapitel werden Fundamentale Ideen, Grundvorstellungen, Kernideen/Kernfragen und Kontexte im Zusammenhang mit dem Flächeninhaltsbegriff diskutiert. Ein Schulbuchkapitel zum Flächeninhaltsbegriff bietet die Motivation, die \textcolor{formalColor}{formale}, \textcolor{semanticColor}{semantische} und \textcolor{concreteColor}{konkrete} Ebene des \protect\hyperlink{tab:fragen-ebenen}{Vier-Ebenen-Ansatzes} zu diskutieren und einen ersten Ausblick auf die \textcolor{empiricColor}{empirische} Ebene zu geben.
+
+In dem Sinne wird also existierendes Material analysiert und hinsichtlich der mathematikdidaktischen Theorie reflektiert. Ein solches Vorgehen wäre auch für Ihren Seminarvortrag bzw. die Hausarbeit im Rahmen dieser Veranstaltung möglich -- dann natürlich etwas ausführlicher, als hier dargestellt.
+
+\hypertarget{darstellung-im-schulbuch}{%
+\section{Darstellung im Schulbuch}\label{darstellung-im-schulbuch}}
+
+In dem Schulbuch \emph{Mathewerkstatt} (\protect\hyperlink{ref-Barzel2012}{Barzel et al., 2012c}) wird der Flächeninhalt über den Kontext von Tiergehen eingeführt (siehe Abbildung \ref{fig:Tiergehege}). So haben in einem Zoo verschiedene Tiere unterschiedlich große Gehe zur Verfügung. Die Form der Gehege variiert dabei ebenfalls.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{pictures/5-Tiergehege} 
+
+}
+
+\caption{Einstiegsbild zum Thema Flächeninhalt (\protect\hyperlink{ref-Barzel2012}{Barzel et al., 2012c, S. 168~f.})}\label{fig:Tiergehege}
+\end{figure}
+
+Die Schülerinnen und Schüler werden nun in einer Erkundungsphase vor die Aufgabe gestellt, die Gehegegrößen miteinander zu vergleichen sowie möglichst geschickt die Größe eines Geheges messen zu können.
+
+Anschließend erfolgen Ordnungs- und Vertiefungsphasen, in denen das Wissen struktruiert und geübt wird. Das Schulbuch wird durch einen Materialblock begleitet (\protect\hyperlink{ref-Barzel2012b}{Barzel et al., 2012b}), was in diesem Fall insbesondere dem Auseinanderschneiden und Zusammenlegen bzw. dem Auslegen von Flächen dienen soll. Weiterhin gibt es für Lehrerinnen und Lehrer ein ausführliches Begleitmaterial (\protect\hyperlink{ref-Barzel2012a}{Barzel et al., 2012a}), in dem alle Seiten des Schulbuches sowie fachdidaktische Hintergründe zur Thematik erläutert sind.
+
+\hypertarget{formale-ebene-1}{%
+\section{Formale Ebene}\label{formale-ebene-1}}
+
+\begin{quote}
+Welche Begriffe und Sätze sollen erarbeitet werden?
+Welche Verfahren sollen erarbeitet werden und wie werden sie formal begründet?
+Wie lassen sich die Begriffe, Sätze, Begründungen und Verfahren logisch strukturieren?
+Welche Verbindungen zwischen den Fachinhalten sind entscheidend, welche weniger bedeutsam?
+Wie kann das Netzwerk aus Begriffen, Sätzen, Begründungen und Verfahren entwickelt werden?
+\end{quote}
+
+Fachmathematisch kann der Flächeninhalt einer Figur als ein \textbf{nichtnegatives Maß} aufgefasst werden, wobei zwei \textbf{zueinander kongruenten Figuren dasselbe Maß} zugeordnet wird und der Flächeninhalt einer Figur gleich der \textbf{Summe der Flächeninhalte ihrer Teilfiguren} ist, sofern zerlegbar. Hinzu wird das Flächeninhaltsmaß eines Quadrates der Seitenlänge 1~LE auf 1~LE2 festgelegt (vgl. \protect\hyperlink{ref-Kuntze2018}{Kuntze, 2018, S. 161}).
+
+Dies ist eine \textbf{axiomatische Herangehensweise}, die sich für Schülerinnen und Schüler in der Regel als herausfordernd darstellt (\protect\hyperlink{ref-Kuntze2018}{Kuntze, 2018, S. 162}). Häufig wird eine umschreibende Definition genutzt, wie: \emph{Der Flächeninhalt einer Fläche gibt an, wie groß diese ist.} Dabei ist jedoch die mögliche Mehrdeutigkeit dieser Formulierung zu beachten -- so könnte auch der Umfang einer Figur als Maß für ihre \emph{Größe} aufgefasst werden, da der Größenbegriff in dem Fall unspezifisch ist.
+
+Ob nun eine explizite Definition gewählt wird oder nicht -- dies ist auch abhängig von der persönlichen Einstellung der Lehrkraft und den Voraussetzungen der Lerngruppe -- in jedem Fall ist ein tragfähiges mathematisches Verständnis aufzubauen. Hierzu können die in den Axiomen enthaltenen Eigenschaften über sinnvolle \textbf{Lernhandlungen} aufgebaut werden (siehe auch \protect\hyperlink{ref-Worner2014}{Wörner, 2014, S. 1328~f.}):
+
+\begin{itemize}
+\tightlist
+\item
+  Vergleichen verschiedener Flächen durch Zerlegen, Ergänzen und Übereinanderlegen
+\item
+  Bestimmen des Maßes einer Fläche über Auszählen mittels eines Vergleichsmaßes
+\item
+  Nutzen eines quadratischen Vergleichsmaßes, in der Regel 1~cm2
+\end{itemize}
+
+All diese Überlegungen kommen zunächst \textbf{ohne Formeln} aus, weshalb diese im Unterricht auch erst im Anschluss an eine inhaltliche Erarbeitung des Flächeninhaltsbegriffs eingeführt und genutzt werden sollten.
+
+Fachsystematisch entscheidend ist, dass ein \textbf{Flächenvergleich zunächst ohne ein explizites Maß} möglich ist -- hierfür reichen die Kongruenzeigenschaft und das Zerlegen/Ergänzen von Flächen aus. Das Vergleichsmaß ist dann relevant, wenn man den \textbf{Flächeninhalt mithilfe einer Zahl objektivieren} bzw. ohne eine explizite Vergleichsfigur auskommen möchte.
+
+Interessant ist hier auch die \textbf{\emph{Willkürlichkeit} des Vergleichsmaßes}. Kulturell geprägt ist hier (in Kontinentaleuropa) zwar beispielsweise 1~cm2, aber auch andere Einheiten sind gleichberechtigt möglich. Auch muss das Vergleichsmaß nicht zwingend ein Quadrat sein. Nicht selten wird z.~B. von großen Flächen angegeben, wie viele Fußballfelder in sie hineinpassen würden. Für den Unterricht bedeutet das, dass im Sinne einer auf den mathematischen Kern orientierten Sichtweise zunächst möglichst allgemeine und vielfältige (auch \emph{unförmige}) Vergleichsflächen herangezogen werden können. Später ist dann natürlich ein Bezug zu den Standardeinheiten herzustellen (siehe Abbildung \ref{fig:FlaecheEinheiten}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/5-Einheiten} 
+
+}
+
+\caption{Standardeinheiten typischer Vergleichsflächen (\protect\hyperlink{ref-Lambacher2010}{\emph{Lambacher {Schweizer} {Mathematik} für {Gymnasien}. 5, {Schülerbuch}}, 2010, S. 193})}\label{fig:FlaecheEinheiten}
+\end{figure}
+
+\hypertarget{semantische-ebene-1}{%
+\section{Semantische Ebene}\label{semantische-ebene-1}}
+
+\begin{quote}
+Welche Fundamentalen Ideen liegen hinter den Begriffen, Sätzen und Verfahren?
+Welche Grundvorstellungen und Repräsentationen (graphisch, verbal, numerisch und algebraisch) sind für den Verständnisaufbau entscheidend?
+Wie verhalten sich Ideen und Vorstellungen zueinander und zu früheren und späteren Lerninhalten?
+Wie kann ein Lernpfad angeordnet werden, in dem das Verständnis, zusammen mit den Erkenntnissen der formalen Ebene, aufgebaut wird?
+\end{quote}
+
+\hypertarget{fundamentale-idee-messen}{%
+\subsection{Fundamentale Idee Messen}\label{fundamentale-idee-messen}}
+
+Dem Flächeninhaltsbegriff liegt zweifelsohne die Fundamentale Idee des \emph{Messens} zugrunde. Vohns (\protect\hyperlink{ref-Vohns:2000}{2000, S. 52~ff.}) stellt ausführlich dar, warum das Messen als Fundamentale Idee aufgefasst werden kann, worauf in diesem Abschnitt Bezug genommen wird. Besondere Betonung legt Vohns (\protect\hyperlink{ref-Vohns:2000}{2000, S. 49}) darauf, dass Messen »der indirekte Vergleich von Objekten in bezug {[}sic{]} auf eine bestimmte Eigenschaft« ist.
+
+\emph{Horizontal} zieht sich dies über viele Gebiete der Mathematik hinweg (z.~B. Messprozesse in der Geometrie, Maßzahlaspekt von Brüchen in der Arithmetik, Erwartungswert als Lagemaß in der Stochastik, Integral in der Analysis), aber auch darüber hinaus ist das Messen von hoher Relevanz (z.~B. Messprozesse in der Physik, quantitative Studien in den Sozialwissenschaften, Pulsmessung in der Medizin). Damit wird auch das \emph{Sinnkriterium} der Fundamentalen Idee offensichtlich.
+
+Das \emph{Vertikalkriterium} zeigt sich beispielsweise in der Längenbestimmung in der Grundschule, Flächeninhaltsbestimmung in der Orientierungsstufe, bei Verwandlungen von Flächen (z.~B. beim Beweis des Satzes des Pythagoras) bzw. der Approximation von Flächen (z.~B. Bestimmen des Kreisflächeninhalts) bis hin zum Integralbegriff als verallgemeinerter Flächeninhalt.
+
+\emph{Historisch} ist das Messen ebenfalls in vielen Epochen der Mathematik bedeutsam, worauf typische Wortwendungen wie \emph{Alles ist Zahl!} (bei den Pythagoräern), \emph{Die Vermessung der Welt} (mit der Methode der Triangulation) oder die \emph{Quadratur des Kreises} (als klassisches Problem der Geometrie) hindeuten. Auch die Vereinheitlichung von Maßeinheiten (z.~B. SI-Einheiten) zeigt die Bedeutsamkeit des Messens für die wissenschaftliche Entwicklung.
+
+\hypertarget{gv-zum-fluxe4cheninhalt}{%
+\subsection{GV zum Flächeninhalt}\label{gv-zum-fluxe4cheninhalt}}
+
+Die folgenden Überlegungen sind empirisch nicht abgesichert, sondern vorwiegend theoretischer Natur. Ansatzpunkt ist ein Beitrag von Wörner (\protect\hyperlink{ref-Worner2014}{2014}). Setzt man die dortigen Darstellungen genauer mit der Definition \ref{def:Grundvorstellungen} von Grundvorstellungen in Bezug, lassen sich (meiner Meinung nach) Grundvorstellungen zu drei Aspekten des Flächeninhaltsbegriffs formulieren:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Maßzahlaspekt}: Flächeninhalt einer Figur als nichtnegative Maßzahl, die mittels normierter Flächeninhaltsmaße bestimmt wird
+\item
+  \textbf{Vereinigungsaspekt}: Flächeninhalt einer Figur als Summe der Flächeninhalte der Teilfiguren, aus denen sich die Figur zusammensetzen lässt
+\item
+  \textbf{Kongruenzaspekt}: Flächeninhalt einer Figur als invariante Eigenschaft gegenüber Kongruenzabbildungen
+\end{itemize}
+
+Für jeden dieser Aspekte sollen nun Handlungserfahrungen, Repräsentationen und mögliche Anwendungen auf die Realität diskutiert werden. Weiterhin werden einige Operationen mit Flächeninhalten besprochen.
+
+\hypertarget{mauxdfzahlaspekt}{%
+\subsubsection{Maßzahlaspekt}\label{mauxdfzahlaspekt}}
+
+Eine Erfahrung, die die Grundvorstellung zu diesem Aspekt stützt, ist das Auslegen von Flächen mittels normierter Flächenstücke, wie z.~B. Quadrate. Hieraus kann die Erfahrung gewonnen werden, dass die Anzahl der Quadrate direkt den Flächeninhalt (mit der entsprechenden Einheit) angibt.
+
+Als Repräsentation kann hierfür einfaches Kästchenpapier dienen, auf das die auszumessende Fläche gemalt wird (siehe Abbildung \ref{fig:FlaecheMasszahl}). Daran kann man das Abzählen der normierten Flächenstücke durchführen bzw. sich vorstellen. Insbesondere können daran auch Verfeinerungen (und damit genaueres Messen) nachvollzogen werden.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.25\linewidth]{pictures/5-Masszahl} 
+
+}
+
+\caption{Repräsentation des Maßzahlaspektes}\label{fig:FlaecheMasszahl}
+\end{figure}
+
+Eine mögliche Anwendung in der Realität ist das Bestimmen der Größe eines Fußballfeldes. Hier kann man die Länge und Breite in Metern messen, um zu bestimmen, wie viele Quadratmeter in das Feld passen. Dies wird dann zwar nicht über tatsächliches Auslegen realisiert, aber es wird (bei Verwendung der Rechteckinhaltsformel) auf die entsprechende Vorstellung Bezug genommen.
+
+\hypertarget{vereinigungsaspekt}{%
+\subsubsection{Vereinigungsaspekt}\label{vereinigungsaspekt}}
+
+Zur Grundvorstellung des Vereinigungsaspektes gehört die Erfahrung, Flächen auseinanderzuschneiden und neu zusammenzulegen, um ihren Flächeninhalt bestimmen bzw. die Größe zweier Flächen miteinander vergleichen zu können.
+
+Die Schnittlinien können bspw. durch gestrichelte Linien repräsentiert werden, so dass die Handlungserfahrung hier in der Vorstellung nachvollzogen werden kann (siehe Abbildung \ref{fig:FlaecheVereinigung}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.25\linewidth]{pictures/5-abb-Vereinigung} 
+
+}
+
+\caption{Repräsentation des Vereinigungsaspektes}\label{fig:FlaecheVereinigung}
+\end{figure}
+
+Möchte man die Größe eines Landes bestimmen, so ist es in der Regel notwendig, dieses in geeignete Flächenstücke zu zerlegen, deren Flächeninhalte einfacher berechnet werden können. Dies ist also eine mögliche Anwendung in der Realität. Je nach Komplexität der Figur (und ggf. zusätzlichen geometrischen Überlegungen) können so auch Flächeninhaltsformeln gefunden werden (was schon eine innermathematische Anwendung ist).
+
+\hypertarget{kongruenzaspekt}{%
+\subsubsection{Kongruenzaspekt}\label{kongruenzaspekt}}
+
+Wer hat größere Hände? Um diese Frage zu beantworten, ist eine typische Erfahrung, die Hände aneinanderzulegen und ihre Größen zu vergleichen. Dabei wird die Vorstellung genutzt, dass zueinander kongruente Figuren den gleichen Flächeninhalt haben.
+
+Eine Repräsentation, die dabei unterstützt, im Kongruenzaspekt zu operieren, kann in der Teilung oder \emph{Ummantelung} von Figuren mittels zueinander kongruenter Figuren liegen (siehe Abbildung \ref{fig:FlaecheKongruenz}). Dies ist z.~B. bei der Herleitung der Flächeninhaltsformel für ein Dreieck sinnvoll, um zu erkennen, dass dieser der Hälfte des Flächeninhalts des umschriebenen Rechtecks entspricht\footnote{Um diesen Zusammenhang vollumfänglich zu verstehen, sind weiterhin der Vereinigungsapekt (Aufteilen in Teildreiecke) und der Maßzahlaspekt (um die Flächeninhaltsformel fürs Rechteck zu verstehen) nötig.}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.25\linewidth]{pictures/5-Kongruenz} 
+
+}
+
+\caption{Repräsentation des Kongruenzaspektes}\label{fig:FlaecheKongruenz}
+\end{figure}
+
+Eine (innermathematische) Anwendung dieser Vorstellung könnte zum Beispiel bei der Berechnung des Oberflächeninhalts eines Primas liegen, wo die Flächeninhalte von Grund- und Deckfläche i.~d.~R. nicht einzeln berechnet werden, sondern einer der Flächeninhalte wegen der Kongruenz einfach verdoppelt wird.
+
+\hypertarget{operieren-mit-fluxe4cheninhalten}{%
+\subsubsection{Operieren mit Flächeninhalten}\label{operieren-mit-fluxe4cheninhalten}}
+
+Für unterschiedliche Operationen, die mit Flächeninhalten durchgeführt werden, können nun in unterschiedlicher Weise die Grundvorstellungen zu den Aspekten aufgegriffen und genutzt werden:
+
+\begin{itemize}
+\tightlist
+\item
+  Um Flächeninhalte direkt miteinander zu \textbf{vergleichen}, sind der Vereinigungs- und Kongruenzaspekt relevant, da die Flächen ggf. neu aufgeteilt werden müssen und dann mittels Übereinanderlegen gegeneinander abgeschätzt werden können.
+\item
+  Um die \textbf{Flächeninhaltsformel eines Rechtecks} zu begründen, benötigt es den Maßzahlaspekt, da das Abzählen einbeschriebener Vergleichsquadrate wesentlich ist. Dies hängt auch eng mit der Grundvorstellung der Multiplikation als Rechteckflächeninhalt zusammen (siehe Abbildung \ref{fig:Bruchmultiplikation}).
+\item
+  Für die \textbf{Flächeninhaltsformel des Dreiecks} sind wieder Kongruenz- und Vereinigungsaspekt relevant, da das Dreieck geeignet zerlegt und mit dem umschriebenen Rechteck verglichen werden muss (siehe Abbildung \ref{fig:FlaecheKongruenz}). Da Bezug zur Rechteckformel genommen wird, ist natürlich auch der Maßzahlaspekt relevant.
+\item
+  Um \textbf{Flächeninhalte zu approximieren}, wie z.~B. den eines Kreises (siehe Abbildung \ref{fig:FlaecheKreis}), benötigt es wieder alle drei Vorstellungen. So kann der Kreis in zueinander kongruente Teilflächen zerlegt werden (Kongruenz- und Vereinigungsaspekt), deren Gesamtflächeninhalt dann über die Rechteckformel näherungsweise bestimmt wird (Maßzahlaspekt).
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/5-abb-Kreis} 
+
+}
+
+\caption{Approximation des Kreisflächeninhalts}\label{fig:FlaecheKreis}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Bei der \textbf{Bestimmung von Oberflächeninhalten} von Körpern, werden der Vereinigungsaspekt für die einzelnen Seitenflächen und ggf. der Kongruenzaspekt angesprochen, wenn es zueinander kongruente Seitenflächen gibt (wie z.~B. bei Prismen), deren Flächeninhalte dann mit der entsprechenden Anzahl multipliziert und nicht einzeln ausgerechnet werden.
+\end{itemize}
+
+\hypertarget{auswirkungen-auf-lernpfad}{%
+\subsection{Auswirkungen auf Lernpfad}\label{auswirkungen-auf-lernpfad}}
+
+Der Lernpfad des Schulbuches greift diese Fundamentale Idee und die Grundvorstellungen auf, indem zunächst Flächeninhalte (durch Ausseinanderschneiden und Zusammenfügen) miteinander verglichen werden, anschließend das Auslegen mit normierten Flächenstücken erfolgt und daraufhin geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsberechnung eines Rechtecks behandelt wird.
+
+Die formale und empirische Ebenen wurden hier getrennt dargestellt, was jedoch für eine stoffdidaktische Analyse gar nicht zwingend nötig ist. Entscheidend ist, dass Sie den ganzheitlichen Blick auf die aufgeworfenen Fragen haben und diese (zumindest in Teilen) beantworten können. Die getrennte Darstellung dient hier noch der Übersicht für Sie als \emph{Anfängerinnen und Anfänger} im Umgang mit stoffdidaktischen Analysen -- auch wenn darauf verzichtet wurde, die einzelnen Fragen schrittweise explizit zu beantworten.
+
+\hypertarget{konkrete-ebene-1}{%
+\section{Konkrete Ebene}\label{konkrete-ebene-1}}
+
+\begin{quote}
+Welche Kernfragen und Kernideen können die Entwicklung der Begriffe, Sätze und Verfahren leiten?
+Welche Kontexte und Probleme sind geeignet, um an ihnen die Kernfragen und -ideen exemplarisch zu behandeln und die Inhalte zu rekonstruieren?
+Wie kann das Verständnis sukzessive über konkrete Situationen in den beabsichtigten Lernpfaden konstruiert werden (horizontale Mathematisierung)?
+Wie können die Lernpfade in Bezug auf die Problemstruktur angeordnet werden (vertikale Mathematisierung)?
+\end{quote}
+
+Als \textbf{Kontext} wählt das Schulbuch den Platzbedarf bei \textbf{Tiergehegen im Zoo.} Dieser Kontext ist aus mehreren Gründen besonders gut geeignet:
+
+\begin{itemize}
+\tightlist
+\item
+  In der Regel interessiert tatsächlich nur der Flächeninhalt des Geheges. Inhaltliche Verwechslungen mit dem Umfang oder dem Volumen können damit reduziert werden.
+\item
+  Es ist aus dem Kontext heraus sinnstiftend, die Größe der Gehege miteinander zu vergleichen, da verschiedene Tiere einen unterschiedlichen Platzbedarf haben.\footnote{Verwiesen wird auch auf ein \emph{Gutachten über Mindestanforderungen an die Haltung von Säugetieren} vom Bundesministerium für Ernährung und Landwirtschaft (\protect\hyperlink{ref-BundesministeriumfurErnahrungundLandwirtschaft2014}{2014}).}
+\item
+  Verschiedene Formen der Tiergehege lassen sich nutzen, um verschiedene Vergleichsstrategien zu motivieren. So können z.~B. Flächen zerlegt und neu zusammengesetzt werden, runde Formen angenähert werden und durch das Ausschneiden der Figuren ist ein Übereinanderlegen möglich.
+\end{itemize}
+
+Dabei werden zwei \textbf{Kernideen} aufgegriffen (\protect\hyperlink{ref-Barzel2012a}{Barzel et al., 2012a, S. 359~f.}):
+
+\begin{itemize}
+\tightlist
+\item
+  Eine besteht im \textbf{Vergleich der Flächeninhalte} der verschiedenen Gehege. Dieses aus dem Kontext heraus begründbare Vorgehen führt im mathematischen Sinne zum Bedürfnis, Flächen zu vermessen, um sie miteiander vergleichen zu können. Als subjektive Kernfrage wird formuliert: »Wie kann ich die Größe von Flächen vergleichen?« (\protect\hyperlink{ref-Barzel2012}{Barzel et al., 2012c, S. 170})
+\item
+  Die zweite Kernidee ist das \textbf{geschickte Bestimmen eines Flächeninhalts}, wofür zunächst mittels Kästchenpapier das Auszählen von Flächen mit unterschiedlicher Genauigkeit diskutiert wird, anschließend geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsformel des Rechtsecks behandelt wird. Die Formulierung der zugehörigen Kernfrage lautet: »Wie kann ich die Größe von Flächen geschickt bestimmen?« (\protect\hyperlink{ref-Barzel2012}{Barzel et al., 2012c, S. 171})
+\end{itemize}
+
+Diese Ideen werden jeweils über die Prozesse des Erkunden, Ordnens und Vertiefens realisiert. Durch dieses Vorgehen\footnote{Prediger et al. (\protect\hyperlink{ref-Prediger2014}{2014}) bezeichnen diese Prozesse auch als \emph{Kernprozesse} des Unterrichtens.} wird das Verständnis sukzessive aufgebaut. Im Erkundungsprozess dient die Kernidee der Vorschauperspektive, während sie beim Ordnen und Vertiefen eher eine rückschauende Perspektive hat. Diese \emph{Objektivierung} wird auch dahingehend sichtbar, dass die Kernfragen im Ordnen-Kapitel nun nicht mehr aus der Ich-Perspektive formuliert werden: »Wie kann man die Größe von Flächen vergleichen?«, »Wie kann man die Größe von Flächen bestimmen?« (\protect\hyperlink{ref-Barzel2012}{Barzel et al., 2012c, S. 176~f.})
+
+\hypertarget{ausblick-auf-empirische-ebene}{%
+\section{Ausblick auf empirische Ebene}\label{ausblick-auf-empirische-ebene}}
+
+\begin{quote}
+Welche typischen individuellen Voraussetzungen (Vorstellungen, Kenntnisse, Kompetenzen, \ldots) sind zu erwarten und wie passen diese zum angestrebten Verständnis (Ressourcen vs.~Hindernisse)?
+Woher kommen typische Hindernisse oder unerwünschte Vorstellungen?
+Wie können typische Vorkenntnisse und Vorstellungen als fruchtbare Anknüpfungspunkte dienen?
+Welche Schlüsselstellen (Hindernisse, Wendepunkte, \ldots) gibt es im Lernweg der Schülerinnen und Schüler?
+Wie kann der angestrebte Lernpfad bezüglich der Anknüpfungspunkte und Schlüsselstellen neu angeordnet werden?
+\end{quote}
+
+Kuntze (\protect\hyperlink{ref-Kuntze2018}{2018, S. 159~f.}) verweist auf typische Schwierigkeiten von Schülerinnen und Schülern im Umgang mit dem Flächeninhaltsbegriff.
+
+So kommt es häufig zu einer Verwechslung zwischen Längenmaßen, Flächeninahlten und Volumina. Eine Ursache wird v.~a. in der frühzeitigen kalkülhaften Herangehensweise gesehen, Flächeninhalte über Formeln berechnen zu müssen. So fehlt ein tiefergehendes Begriffsverständnis und die Formeln können nicht sinnstiftend genutzt werden. Dem kann u.~a. dadurch begegnet werden, indem bewusst die Zusammenhänge hergestellt werden, z.~B. zwischen Umfang und Flächeninhalt.
+Letztlich zeigen empirische Erhebungen, dass Kinder mit einem vertieften Verständnis über Flächeninhalte auch besser in der Lage sind, entsprechende Formeln anzuwenden (\protect\hyperlink{ref-Worner2014}{Wörner, 2014, S. 1330}).
+
+Weiterhin besteht wegen der Wortverwandtschaft von \emph{Fläche} und \emph{Flächeninhalt} die Gefahr, dass entsprechende Vorstellungen nicht aufgebaut werden, insbesondere dann, wenn die Begriffe (zumindest von der Lehrkraft) nicht sauber getrennt verwendet werden. Die Fläche ist die Figur an sich und wird über ihre \emph{Form} bestimmt. Der Flächeninhalt ist ein \emph{Maß} für die Größe der Figur (vgl. \protect\hyperlink{ref-Barzel2012a}{Barzel et al., 2012a, S. 362}). Insbesondere für Schülerinnen und Schüler, deren Muttersprache nicht Deutsch ist, kann die fehlerhafte Verwendung dieser feinen Unterschiede hinderlich dabei sein, dem Unterricht zu folgen.
+
+Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z.~B. strikte sprachliche Trennung) oder explizit thematisiert (z.~B. verbindende und vergleichende Behandlung mit dem Umfang von Figuren), so dass auch dies wieder die Gestaltung des Lernpfades beeinflusst.
+
+\hypertarget{erstesintermezzo-nachbereitung}{%
+\section{Zum Nachbereiten}\label{erstesintermezzo-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Diskutieren Sie zu weiteren typischen Operationen mit Flächeninhalten, welche Grundvorstellungen dafür aufgegriffen und genutzt werden.
+\item
+  Finden Sie einen alternativen Kontext (statt den Zoogehegen), der geeignet ist, die Kernideen so aspektreich durchzuarbeiten.
+\end{enumerate}
 
 \hypertarget{part-lernprozesse-gestalten}{%
 \part*{Lernprozesse gestalten}\label{part-lernprozesse-gestalten}}
@@ -608,6 +1515,30 @@ Wichtig ist v.~a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, da
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Barzel2012a}{}}%
+Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012a). \emph{Mathewerkstatt. 5, {Handreichungen}} {[}DVD{]}. Cornelsen.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Barzel2012b}{}}%
+Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012b). \emph{Mathewerkstatt. 5, {Materialblock}} (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl). Cornelsen.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Barzel2012}{}}%
+Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012c). \emph{Mathewerkstatt. 5, {Schulbuch}} (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Boeer2014}{}}%
+Böer, H., Göckel, D., Kliemann, S., Koepsell, A., Puscher, R., Schmidt, W., \& Vernay, R. (2014). \emph{Mathe live. 8, {Schülerbuch}} (1. Aufl). Klett.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bruckler:2018}{}}%
+Brückler, F. M. (2018). \emph{Geschichte der {Mathematik} kompakt: {Das} {Wichtigste} aus {Analysis}, {Wahrscheinlichkeitstheorie}, angewandter {Mathematik}, {Topologie} und {Mengenlehre}}. Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-55574-3}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bruner:1976}{}}%
+Bruner, J. S. (1976). Die {Bedeutung} der {Struktur} im {Lernprozeß}. In A. Holtmann (Hrsg.), \emph{Das sozialwissenschaftliche {Curriculum} in der {Schule}: {Neue} {Formen} und {Inhalte}} (S. 77--90). VS Verlag für Sozialwissenschaften. \url{https://doi.org/10.1007/978-3-322-85275-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-BundesministeriumfurErnahrungundLandwirtschaft2014}{}}%
+Bundesministerium für Ernährung und Landwirtschaft. (2014). \emph{Gutachten über {Mindestanforderungen} an die {Haltung} von {Säugetieren}}. \url{https://www.bmel.de/SharedDocs/Downloads/DE/_Tiere/Tierschutz/HaltungSaeugetiere.pdf;jsessionid=6B0914AB410E7E118E6CC87C65735734.live832?__blob=publicationFile\&v=7}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Danckwerts:1988}{}}%
+Danckwerts, R. (1988). Linearität als organisierendes Element zentraler Inhalte der Schulmathematik. \emph{Didaktik der Mathematik}, \emph{16}(2), 149--160.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Etzold:2019}{}}%
 Etzold, H. (2019a). \emph{Winkel-{Farm}} (Version 2) {[}App{]}. \url{https://apps.apple.com/de/app/winkel-farm/id1369585218}
 
@@ -619,6 +1550,9 @@ Etzold, H. (2021). \emph{Neue Zugänge zum Winkelbegriff} {[}Dissertation, Unive
 
 \leavevmode\vadjust pre{\hypertarget{ref-Freudenthal:1973}{}}%
 Freudenthal, H. (1973). \emph{Mathematik als pädagogische {Aufgabe}} (Bd. 2). Klett.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Greefrath2016}{}}%
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., \& Weigand, H.-G. (2016). \emph{Didaktik der {Analysis}. {Aspekte} und {Grundvorstellungen} zentraler {Begriffe}} (F. Padberg \& A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-48877-5}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hefendehl-Hebeker:2016}{}}%
 Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {Early} historical developments. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 11--31. \url{https://doi.org/10.1007/s13138-016-0103-7}
@@ -635,20 +1569,104 @@ Jahnke, T. (2010). Vom mählichen {Verschwinden} des {Fachs} aus der {Mathematik
 \leavevmode\vadjust pre{\hypertarget{ref-Krainer:1989}{}}%
 Krainer, K. (1989). \emph{Lebendige {Geometrie}. Überlegungen zu einem integrativen {Verständnis} von {Geometrieunterricht} anhand des {Winkelbegriffs}} {[}Dissertation{]}. Alpen-Adria-Universität Klagenfurt.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Krauthausen:2018}{}}%
+Krauthausen, G. (2018). \emph{Einführung in die {Mathematikdidaktik}} (F. Padberg \& A. Büchter, Hrsg.; Mathematik Primarstufe und Sekundarstufe I + II). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-54692-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Kuntze2018}{}}%
+Kuntze, S. (2018). Flächeninhalt und {Volumen}. In \emph{Didaktik der {Geometrie} für die {Sekundarstufe} {I}} (S. 149--177). Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-56217-8_7}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Lambacher2010}{}}%
+\emph{Lambacher {Schweizer} {Mathematik} für {Gymnasien}. 5, {Schülerbuch}} (Sachsen, 1. Aufl). (2010). Klett.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Lambert:2012}{}}%
+Lambert, A. (2012). \emph{Gedanken zum aktuellen {Kompetenzbegriff} für den ({Mathematik}-)unterricht} {[}Vortrag{]}. Eingangsstatement zur Podiumsdiskussion im Rahmen des 3. Fachdidaktischen Kolloquiums an der Universität des Saarlandes, Saarbrücken. \url{https://www.uni-saarland.de/fileadmin/upload/einrichtung/zfl/PDF_Fachdidaktik/PDF_Kolloquium_FD/Kompetenzbegriff_für_den_Mathematikunterricht_Statement_mit_Folien.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Leuders2011}{}}%
+Leuders, T., Hußmann, S., Barzel, B., \& Prediger, S. (2011). Das macht {Sinn}! {Sinnstiftung} mit {Kontexten} und {Kernideen}. \emph{Praxis der Mathematik in der Schule}, \emph{53}(37), 2--9. \url{https://www.researchgate.net/publication/233978329}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Lompscher1996}{}}%
+Lompscher, J. (1996). \emph{Aufsteigen vom {Abstrakten} zum {Konkreten} - {Lernen} und {Lehren} in {Zonen} der nächsten {Entwicklung}}. \url{https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/444/file/AUFSTEIG.pdf}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Mitchelmore:1990}{}}%
 Mitchelmore, M. (1990). Psychologische und mathematische Schwierigkeiten beim Lernen des Winkelbegriffs. \emph{mathematica didactica}, \emph{13}, 19--37.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Mitchelmore:1998}{}}%
 Mitchelmore, M., \& White, P. (1998). Development of {Angle} {Concepts}: {A} {Framework} for {Research}. \emph{Mathematics Education Research Journal}, \emph{10}(3), 4--27.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Padberg:2017}{}}%
+Padberg, F., \& Wartha, S. (2017). \emph{Didaktik der {Bruchrechnung}} (5. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-52969-0}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Prediger2014}{}}%
+Prediger, S., Hußmann, S., Leuders, T., \& Barzel, B. (2014). Kernprozesse -- {Ein} {Modell} zur {Strukturierung} von {Unterrichtsdesign} und {Unterrichtshandeln}. In I. Bausch, G. Pinkernell, \& O. Schmitt (Hrsg.), \emph{Unterrichtsentwicklung und {Kompetenzorientierung}. {Festschrift} für {Regina} {Bruder}} (S. 81--92). WTM. \url{https://www.researchgate.net/publication/261402528_Fachspezifische_Differenzierungsansatze_fur_unterschiedliche_Unterrichtsphasen}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Salle2021}{}}%
+Salle, A., \& Clüver, T. (2021). Herleitung von {Grundvorstellungen} als normative {Leitlinien} -- {Beschreibung} eines theoriebasierten {Verfahrensrahmens}. \emph{Journal für Mathematik-Didaktik}. \url{https://doi.org/10.1007/s13138-021-00184-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Schecker2018}{}}%
+Schecker, H., Wilhelm, T., Hopf, M., \& Duit, R. (Hrsg.). (2018). \emph{Schülervorstellungen und {Physikunterricht}: {Ein} {Lehrbuch} für {Studium}, {Referendariat} und {Unterrichtspraxis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-57270-2}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Schubert:2011}{}}%
+Schubert, S., \& Schwill, A. (2011). \emph{Didaktik der {Informatik}} (2. Aufl). Spektrum, Akad. Verl. \url{https://doi.org/10.1007/978-3-8274-2653-6}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Schupp:2016}{}}%
 Schupp, H. (2016). Gedanken zum „{Stoff}`` und zur „{Stoffdidaktik}`` sowie zu ihrer {Bedeutung} für die {Qualität} des {Mathematikunterrichts}. \emph{Mathematische Semesterberichte}, \emph{63}(1), 69--92. \url{https://doi.org/10.1007/s00591-016-0159-y}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Schwill:1994}{}}%
+Schwill, A. (1994). \emph{Fundamentale {Ideen} in {Mathematik} und {Informatik}}. Herbsttagung des Arbeitskreises Mathematikunterricht und Informatik, Wolfenbüttel. \url{http://www.informatikdidaktik.de/didaktik/Forschung/Wolfenbuettel94.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-KMK:2012}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2012). \emph{Bildungsstandards im {Fach} {Mathematik} für die {Allgemeine} {Hochschulreife}. (Beschluss der Kultusministerkonferenz vom 18.10.2012)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2012/2012_10_18-Bildungsstandards-Mathe-Abi.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2022a). \emph{Bildungsstandards für das {Fach} {Mathematik} {Erster} {Schulabschluss} ({ESA}) und {Mittlerer} {Schulabschluss} ({MSA}). ({Beschluss} der {Kultusministerkonferenz} vom 15.10.2004 und vom 04.12.2003, i.d.{F}. vom 23.06.2022)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2022b). \emph{Bildungsstandards für das {Fach} {Mathematik} {Primarbereich}. ({Beschluss} der {Kultusministerkonferenz} vom 15.10.2004, i.d.{F}. vom 23.06.2022)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-Primarbereich-Mathe.pdf}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Strehl:1983}{}}%
 Strehl, R. (1983). Anschauliche {Vorstellung} und mathematische {Theorie} beim {Winkelbegriff}. \emph{mathematica didactica}, \emph{6}, 129--146.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Taylor:1715}{}}%
+Taylor, B. (1715). \emph{Linear perspective}. printed for R. Knaplock at the Bishop's-Head in St. Paul's Church-Yard. \url{https://nl.sub.uni-goettingen.de/id/0590700700}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Thiel-Schneider2018}{}}%
+Thiel-Schneider, A. (2018). \emph{Zum {Begriff} des exponentiellen {Wachstums}}. Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-21895-9}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2000a}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2000a). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 1: {Fachdidaktische} {Grundfragen}, {Didaktik} der {Analysis}} (2. Aufl.). Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-90568-0}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2000}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2000b). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 2: {Didaktik} der {Analytischen} {Geometrie} und {Linearen} {Algebra}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-86479-6}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2002}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2002). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 3: {Didaktik} der {Stochastik}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-83144-6}
+
+\leavevmode\vadjust pre{\hypertarget{ref-vandenHeuvel-Panhuizen2003}{}}%
+van den Heuvel-Panhuizen, M. (2003). The didactical use of models in realistic mathematics education: {An} example from a longitudinal trajectory on percentage. \emph{Educational Studies in Mathematics}, \emph{54}, 9--35. \url{https://doi.org/10.1023/B:EDUC.0000005212.03219.dc}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Vohns:2000}{}}%
+Vohns, A. (2000). \emph{Das {Messen} als fundamentale {Idee}} {[}1. Staatsexamensarbeit, Universität-Gesamthochschule Siegen{]}. \url{https://wwwu.aau.at/avohns/pdf/messen.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Hofe:1995}{}}%
+vom Hofe, R. (1995). \emph{Grundvorstellungen mathematischer {Inhalte}}. Spektrum Akademischer Verlag.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vomHofe2014}{}}%
+vom Hofe, R. (2014). Primäre und sekundäre {Grundvorstellungen}. In J. Roth \& J. Ames (Hrsg.), \emph{Beiträge zum {Mathematikunterricht} 2014, 48. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 10.03.2014 bis 14.03.2014 in {Koblenz}}. WTM. \url{https://doi.org/10.17877/DE290R-8808}
+
+\leavevmode\vadjust pre{\hypertarget{ref-vonderBank:2013}{}}%
+von der Bank, M.-C. (2013). Fundamentale {Ideen}, insbesondere {Optimierung}. In A. Filler \& M. Ludwig (Hrsg.), \emph{Wege zur {Begriffsbildung} für den {Geometrieunterricht}. {Ziele} und {Visionen} 2020. {Vorträge} auf der 29. {Herbsttagung} des {Arbeitskreises} {Geometrie} in der {Gesellschaft} für {Didaktik} der {Mathematik} vom 14. bis 16. {September} 2012 in {Saarbrücken}} (S. 83--124). Franzbecker. \url{https://www.math.uni-sb.de/service/lehramt/AKGeometrie/AKGeometrie2012.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bank:2016}{}}%
+von der Bank, M.-C. (2016). \emph{Fundamentale {Ideen} der {Mathematik}: {Weiterentwicklung} einer {Theorie} zu deren unterrichtspraktischer {Nutzung}} {[}Dissertation, Universität des Saarlandes{]}. \url{https://doi.org/10.22028/D291-26673}
+
+\leavevmode\vadjust pre{\hypertarget{ref-WikiPeano}{}}%
+Wikipedia. (2021). \emph{Peano-Axiome --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Peano-Axiome\&oldid=216675163}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Wittmann:2015}{}}%
 Wittmann, E. C. (2015). Strukturgenetische didaktische {Analysen} -- empirische {Forschung} „erster {Art}``. \emph{mathematica didactica}, 239--255. \url{http://www.mathematica-didactica.com/altejahrgaenge/md_2015/md_2015_Wittmann_Stoffdidaktik.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Worner2014}{}}%
+Wörner, D. (2014). Grundvorstellungen zum {Flächeninhaltsbegriff} ausbilden -- eine exemplarische {Studie}. In J. Roth \& J. Ames (Hrsg.), \emph{Beiträge zum {Mathematikunterricht} 2014, 48. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 10.03.2014 bis 14.03.2014 in {Koblenz}} (S. 1327--1330). \url{https://doi.org/10.17877/DE290R-1049}
 
 \end{CSLReferences}
 
