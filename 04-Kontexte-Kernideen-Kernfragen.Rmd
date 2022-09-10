@@ -17,9 +17,6 @@
 **Kernideen** haben die Aufgabe, den Lernpfad zu leiten und dabei *sinnstiftend* das *Wesen* des neuen Lerngegenstands sichtbar zu machen. Sie müssen dabei sowohl aus objektiver (also mathematischer) Perspektive tragfähig sein, als auch aus subjektiver Perspektive für die Schülerinnen und Schüler greifbar werden können. Kernideen bieten damit im *Vorfeld* des Lernpfades eine Orientierung und im *Nachgang* des Lernpfades eine Reflexionsmöglichkeit über den Lerngegenstand.^[Der Begriff der Kernidee ist geprägt worden über das Dialogische Lernen nach Gallin und Ruf, spricht dort jedoch vorwiegend die Vorschauperspektive an [vgl. @Leuders2011 7].] Um bei den Schülerinnen und Schülern Lernprozesse zu einem Lerngegenstand zu initiieren, werden die Kernideen ansprechend in Form von **Kernfragen** formuliert. Kernfragen sollten daher prinzipiell aus subjektiver Sicht formuliert sein und insbesondere adressieren, wie man selbst mit dem Lerngegenstand umgehen kann.
 
 Am Beispiel des *Funktionsbegriffs* etwa besteht eine Kernidee darin, dass Funktionen den Zusammenhang zwischen zwei Größen beschreiben und damit auch vorhersagen können (vgl. auch Aspekte des Funktionsbegriffs in Kapitel \@ref(leitidee-strukturen-und-funktionaler-zusammenhang)). Als Kernfrage formuliert: »Wie kann man die Beziehung zwischen zwei sich verändernden Größen beschreiben und wie kann man damit weitere Werte bestimmen?« [@Thiel-Schneider2018 49]
-<!-- Betrachtet man etwa »proportionale Zuordnungen«, so ist eine Kernidee hinter diesem Begriff, dass damit Prozesse beschrieben werden können, bei denen sich eine Größe um denselben Faktor vervielfacht wie eine andere ihr zugeordnete Größe. -->
-<!-- Am Beispiel der proportionalen Zuordnungen könnte zur oben beschriebenen Kernidee als Kernfrage formuliert werden: *???* -->
-
 
 In der *Vorschauperspektive* heißt das, die »Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern« [@Leuders2011, 8]. In der *Rückschauperspektive* dagegen können über die Kernidee (dann quasi als Antwort auf die Kernfrage) »eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt« werden [@Leuders2011, 8].
 
@@ -32,18 +29,6 @@ Eine **Kernfrage** stellt die Kernidee in Frageform aus der Perspektive der Sch�
 
 Kernideen und Kernfragen verfolgen eine ***Vorschauperspektive***, die der Orientierung und Initiierung der Auseinandersetzung mit dem neuen Lerngegenstand dient, sowie eine ***Rückschauperspektive***, die es den Schülerinnen und Schülern ermöglicht, den Lerngegenstand einzuordnen.
 :::
-<!-- Eine **Kernidee** umfasst in ***Vorschauperspektive*** Fragen, die die Lernenden stellen können und berücksichtigt so die subjektbezogene Dimension der Sinnstiftung.  -->
-<!-- Die Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern:  -->
-<!-- * „Wie kann ich Dinge nach ihrer Größe vergleichen?“ oder  -->
-<!-- * „Wie viel bekommt jeder beim Aufteilen, wenn es nicht aufgeht?“ Die zu einer Kernidee gehörenden Fragen fokussieren in genetischer Perspektive konkrete zentrale Probleme, die letztlich zur Entwicklung der „Rückschauantworten“ der Kernidee führen. -->
-
-
-<!-- Eine **Kernidee** beschreibt in der ***Rückschauperspektive*** den ideenbezogenen Kern einer längeren Lernepisode, hier z.B. zum mathematischen Thema „Größen“:  -->
-<!-- * „Man kann Dinge der Größe nach vergleichen, indem man sich etwas Bekanntes vorstellt und damit vergleicht“ oder  -->
-<!-- * „Um Situationen in den Griff zu bekommen, in denen das Teilen ohne Rest nicht geht, beschreibt man die Ergebnisse der Teilung mit Brüchen.“  -->
-<!-- Zur Kernidee gehört also die „Rückschauantwort“, in der eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt werden. -->
-
-<!-- Damit wird deutlich, dass eine Kernidee die *Zwecke* der Mathematisierungsprozesse und damit den Sinn der mathematischen Konzepte miterfasst. -->
 
 
 Bestandteil Ihrer stoffdidaktischen Analyse auf der `r concrete("konkreten Ebene")` wird es also sein, zum Lerngegenstand passende Kernideen zu identifizieren und in Form von Kernfragen zu formulieren. Hierzu kann Ihnen die Sinnkonstituierung der jeweiligen Grundvorstellungen dienlich sein (siehe Definition \@ref(def:Grundvorstellungen)).
