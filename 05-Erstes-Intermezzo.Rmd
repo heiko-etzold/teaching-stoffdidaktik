@@ -1,7 +1,7 @@
 # Erstes Intermezzo: Flächeninhalt {#erstes-intermezzo-flaecheninhalt}
 
 
-> **Lernziele**
+> **Ziele**
 >
 > + Sie vertiefen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere auf der formalen, semantischen und konkreten Ebene.
 > + Sie verknüpfen Ihr Wissen über Fundamentale Ideen, Grundvorstellungen, Kontexte und Kernideen/Kernfragen am Beispiel des Flächeninhaltsbegriffs.
@@ -195,16 +195,4 @@ Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z. B. stri
 ## Zum Nachbereiten {#erstesintermezzo-nachbereitung}
 1. Diskutieren Sie zu weiteren typischen Operationen mit Flächeninhalten, welche Grundvorstellungen dafür aufgegriffen und genutzt werden.
 2. Finden Sie einen alternativen Kontext (statt den Zoogehegen), der geeignet ist, die Kernideen so aspektreich durchzuarbeiten.
-
-
-
-
-<!-- Daran anknüpfend werden **Kernideen** sichtbar gemacht, die in Form von **Kernfragen** formuliert und beantwortet werden (am Beispiel des [Ersten Intermezzos](#erstes-intermezzo-flaecheninhalt): *Wie kann ich die Größe von Flächen vergleichen?*, *Wie kann ich die Größe einer Fläche geschickt bestimmen?*). Deren Ziel ist es, sich aus Perspektive der Schülerinnen und Schüler dem Wesen des Begriffs nähern zu können. In der Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten erfolgt dies sowohl bei der Ausübung der **Lernhandlung am Ausgangskonkretum**, als auch in der Verallgemeinerung der Lernhandlungen beim **Entwickeln der Ausgangsabstraktion** sowie in vertiefter Art und Weise beim **Abarbeiten der Konkretisierungsreihen**. Diese beiderseitige Entwicklung wird auch bei @Leuders2011 [8, Hervorhebungen im Original fett oder fettkursiv, hier kursiv] sichtbar: -->
-
-
-
-<!-- In der *Mathewerkstatt* werden über die Prozesse des *Erkundens* und *Ordnens* diese Vor- und Rückschauperspektive realisiert und in den *Vertiefungen* -- wie es das Wort schon sagt -- vertieft. -->
-
-
-
 

@@ -1,210 +1,153 @@
 
 # Arbeitsmittel
 
-<!-- auch Lernmodelle, und GV -->
-
-<!-- im Zusammenhang mit Begriffsbildung und A/K -->
-
-<!-- Weiterhin besteht die Annahme, dass Lernprozesse niemals direkt zwischen einem Individuum (dem **Subjekt**) und dem zu betrachtenden Lerngegenstand (dem **Objekt**) erfolgen, sondern dies stets über ein **vermittelndes Werkzeug** geschieht. Ein solches Werkzeug kann eine Geste sein, die Sprache (ein sogenanntes *psychisches Werkzeug*), Abbildungen und Skizzen, aber eben auch *echte* Werkzeuge wie Maschinen, Geräte und andere Hilfsmittel. -->
-
-<!-- ```{r SubjektObjekt, echo=FALSE, fig.cap="Werkzeuge als Vermittler in der Tätigkeitstheorie", fig.align='center', out.width='75%'} -->
-<!-- knitr::include_graphics("pictures/7-SubjektObjekt.png") -->
-<!-- ``` -->
-
-
-<!-- Durch die Nutzung eines geeigneten Werkzeugs ist das Subjekt damit also einerseits in der Lage, sein eigenes Wissen zu *externalisieren*, d. h. das Werkzeug zielgerichtet so einzusetzen, dass auf das Objekt eingewirkt werden kann. Andererseits kann das Werkzeug auch dabei helfen, Eigenschaften des Objekts zu *internalisieren*, indem die Werkzeugnutzung dazu führt, dass das Subjekt Wissen über das Objekt aufbaut. -->
-
-<!-- Für die Gestaltung von Mathematikunterricht ist nun von besonderem Interesse, welche Werkzeuge bei bestimmten Begriffen geeignet sind bzw. wie diese auszusehen haben, um den Begriffserwerb zu unterstützen. Die Tätigkeitstheorie ist noch deutlich komplexer als hier in wenigen Zeilen dargestellt. Eine übersichtliche Einführung bietet z. B. @Giest2016a, speziell für die Werkzeuggestaltung im Mathematikunterricht siehe auch @Etzold2021. -->
-
-
-<!-- Insbesondere für die Bildung von Begriffen bietet sich für den Aufbau von Lernhandlungen und ihre Verinnerlichung das im folgenden Abschnitt beschriebene Vorgehen an: -->
-
-<!-- ### Aufsteigen vom Abstrakten zum Konkreten -->
-
-<!-- Die sogenannte Lehrstrategie des **Aufsteigens vom Abstrakten zum Konkreten** (siehe Abbildung \@ref(fig:Aufsteigen)) kann als Abwandlung einer Mischung zwischen induktivem und deduktivem Vorgehen angesehen werden. -->
-
-<!-- (ref:citeAufsteigen) Aufsteigen vom Abstrakten zum Konkreten [vgl. @Etzold2021 83] -->
-
-<!-- ```{r Aufsteigen, echo=FALSE, fig.cap="(ref:citeAufsteigen)", fig.align='center', out.width='100%'} -->
-<!-- knitr::include_graphics("pictures/7-AK.png") -->
-<!-- ``` -->
-
-
-<!-- Für die Einführung eines mathematischen Begriffs wird ein konkretes Ausgangsbeispiel gewählt, an dem das Wesen des Begriffs besonders gut deutlich wird. An diesem **Ausgangskonkretum** werden Lernhandlungen erarbeitet, die sich zwar am Beispiel orientieren, aber verallgemeinern lassen, sodass sie dem Begriffsaufbau dienlich sind.  -->
-
-<!-- Im Anschluss wird, mit Unterstützung der Lehrkraft, das Wesen des Begriffs herausgearbeitet und in Form einer **Ausgangsabstraktion** formuliert. Dieses Vorgehen ist vergleichbar mit dem induktiven Begriffserwerb, allerdings wird nicht aus einer Vielzahl von Beispielen eine gemeinsame Eigenschaft eliminiert, sondern am charakteristischen Beispiel wird die Eigenschaft durch eine *wissende Person* (Lehrkraft) in Bezug auf die Handlungserfahrungen der Schülerinnen und Schüler dargestellt. Dieser Prozess wird unterstützt mithilfe von **Lernmodellen** -- als »sinnliche Stützen geistigen Handelns« [@Giest2006 225]. Dies können Zeichnungen, strukturierte Darstellungen, digitale Anwendungen usw. sein, die das Wesen des Begriffs beeinhalten und erlebbar machen, wie man zu diesem Wesen gelangen kann. -->
-
-<!-- Der dritte Schritt, das eigentliche *Aufsteigen vom Abstrakten zum Konkreten*, ist nun das Abarbeiten von **Konkretisierungsreihen**. Hierzu werden weitere Beispiele für den Begriff betrachtet, auf die das Ausgangsabstraktum angewandt wird. Das Lernmodell dient dabei als Mittler und die Lernhandlungen werden in verallgemeinerter und ggf. auch modifizierter Form angewandt. Erst auf diese Weise ist ein echtes *Durchdringen* des Begriffs möglich. Dieses Vorgehen ist mit dem deduktiven Vorgehen vergleichbar, allerdings nicht im dem Sinne, dass aus einer Definition heraus die Beispiele generiert werden. Vielmehr wird auf gegebene Beispiele die Definition angewandt, ausgeschärft und damit der Begriff immer besser verstanden. -->
-
-<!-- Bereits in Abschnitt \@ref(konkrete-ebene) wurde das Beispiel des Begriffs *Winkelfeld* kurz dargestellt. Das *Ausgangskonkretum* waren dort Sichtfelder von Tieren, da an diesen die Feld-Eigenschaft eines Winkelfeldes in besonderer Weise deutlich wird und auch die weiteren Bestandteile des Winkelfeldes (Scheitelpunkt, Schenkel) eine bedeutsame reale Entsprechung (Kopf des Tieres, Begrenzung des Sichtfeldes) haben. Eine mögliche *Lernhandlung* war es, das Schaf so zu bewegen, dass es die gesamte Zeit über von der Kuh *gerade noch so* gesehen wird (siehe Abbildung \@ref(fig:HandlungSchaf)).  -->
-
-<!-- (ref:citeHandlungSchaf) Lernhandlung in der App *Winkel-Farm* [@Etzold:2019] -->
-
-<!-- ```{r HandlungSchaf, echo=FALSE, fig.cap="(ref:citeHandlungSchaf)", fig.align='center', out.width='50%'} -->
-<!-- knitr::include_graphics("pictures/2-Winkelfarm.png") -->
-<!-- ``` -->
-
-<!-- Dabei erfolgt die Bewegung geradlinig, in Richtung des Kopfes der Kuh begrenzt und in die andere Richtung unbegrenzt. In verallgemeinerter Form wird damit die Strahl-Eigenschaft des Schenkels charakterisiert. Die App mit der Möglichkeit, die Bestandteile des Winkelfeldes ein- und ausblenden zu lassen sowie vom *Tiermodus* in den *Winkelfeldmodus* zu wechseln, stellt dabei das *Lernmodell* dar. *Konkretisierungreihen* sind an diesem Beispiel noch nicht erfolgt. -->
-
-
-
-
-<!-- ### Aufbau von Grundvorstellungen -->
-
-<!-- Gemäß der Grundvorstellungsidee (siehe Def. \@ref(def:Grundvorstellungen)) sollen Grundvorstellungen einen *Handlungsbezug* aufweisen, operationsfähige *Repräsentationen* beinhalten und eine *Anwendung in der Realität* ermöglichen.  -->
-
-<!-- Mit den **Lernhandlungen** am Ausgangskonkretumg und den Konkretisierungsreihen ist der **Handlungsbezug** herstellbar, außerdem kann darüber die **Anwendung in der Realität** sichtbar gemacht werden -- sowohl beschreibend (von der Mathematik zur Realität) als auch modellierend (von der Realität zur Mathematik). -->
-
-<!-- Das **Lernmodell** selbst kann als **Repräsentation** dienen, anhand dessen mit dem Begriff operiert wird. Dies ist ja auch eine Eigenschaft des Lernmodells: Sie sind eine »abstrakte Struktur des Gegenstands zusammen mit dem prinzipiellen Weg [..], der zur Aufdeckung der Struktur geführt hat« [@Lompscher1996 6]. -->
-
-<!-- Auch das **Verinnerlichen der Lernhandlungen** kann dem Aufbau von Grundvorstellungen dienen. So stellen bspw. @Wartha2011 [11] ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert.  -->
-
-<!-- (ref:citeGVVerinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11] -->
-
-<!-- ```{r GVVerinnerlichen, echo=FALSE, fig.cap="(ref:citeGVVerinnerlichen)", fig.align='center', out.width='90%'} -->
-<!-- knitr::include_graphics("pictures/7-GVverinnerlichen.png") -->
-<!-- ``` -->
-
-
-<!-- Für eine ausführlichere Darstellung zu den Zusammenhängen aus der Lehrstrategie des Aufsteigens vom Abstrakten zum Konkreten und der Grundvorstellungsidee siehe auch @Etzold2021 [{71 ff.}]. -->
-
-
-
-
-
-
-<!-- # Lernumgebungen {.unnumbered} -->
-
-<!-- Mit den Kapiteln \@ref(fundamentale-ideen) bis \@ref(zweites-intermezzo-wurzel) haben Sie Ansätze kennengelernt, die Fragen der `r formal("formalen")`, `r semantic("semantischen")` und `r concrete("konkreten")` Ebene des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) nach @Hussmann:2016 zu beantworten. Mit der deskriptiven Perspektive auf Grundvorstellungen kennen Sie auch schon erste Grundlagen, Fragen der `r empiric("empirischen")` Ebene zu untersuchen. Ziel bei all den Fragen war immer, **Lernpfade** für Lerngegenstände zu generieren, also den Stoff derart auszuwählen (*spezifizieren*) und anzuordnen (*strukturieren*), dass er sinnstiftend gelehrt und gelernt werden kann. Nach einer solchen **stoffdidaktischen Analyse** ist nun der nächste Schritt die Planung der Unterrichtsgestaltung an sich.  -->
-
-<!-- In der fachdidaktischen und bildungswissenschaftlichen Literatur hat sich hierfür der Begriff der **Lernumgebung** durchgesetzt -- dabei aber auch mit verschiedenen Sichtweisen wie eine »pädagogische« (z. B. angenehme Lernatmosphäre, respektvolles Miteinander), als ein »methodisch-organisatorisches Arrangement« (z. B. Gestaltung des Klassenraums) oder eben auch als »inhaltliches Verständnis«, das hier weiter verfolgt werden soll [vgl. @Krauthausen:2018 255].   -->
-
-<!-- Nach @Leuders2015 [448] beinhalten Lernumgebungen für den Mathematikunterricht **»i) ein nach bestimmten Prinzipien geordnetes System von Aufgaben, ii) methodische Organisationsformen und iii) Stützsysteme, wie z. B. Medien, Lehrerinterventionen und Kommunikationsformen.«**  -->
-
-<!-- Die Grundlagen für die entsprechenden Bestandteile lernten und lernen Sie v. a. in den weiteren Veranstaltungen der Fachdidaktiken und Bildungswissenschaften sowie in Ihrer schulpraktischen Ausbildung (und auch noch während Ihrer Tätigkeit als voll ausgebildete Lehrkraft). Aufgrund der inhaltlichen Nähe zur Stoffdidaktik-Veranstaltung sollen hier noch zwei Schwerpunkte herausgegriffen werden: -->
-
-<!-- * Von den *Medien* (zu denen ja beispielsweise auch die Tafel, Computer oder Zettel und Stift gehören -- der entsprechende Medienbegriff sollte Ihnen aus den Bildungswissenschaften bekannt sein) werden im Speziellen **Arbeitsmittel**^[In der englischsprachigen Literatur werden *Arbeitsmittel* oft als *manipulatives* bezeichnet. Dies soll nicht ausdrücken, dass diese Arbeitsmittel in irgendeiner Weise manipulierend auf die Schülerin oder den Schüler wirken, sondern dass die Schülerinnen und Schüler selbst das Arbeitsmittel verändern bzw. mit dessen Hilfe auf den Lerngegenstand einwirken [siehe auch @enwiki:1023437370].] herausgegriffen. Diese »repräsentieren mathematische Objekte und erlauben zudem Handlungen oder Operationen mit diesen Objekten« [@Schmidt-Thieme2015 {461 f.}] Im Sinne der Tätigkeitstheorie dienen sie damit als Mittler zwischen Lerngegenstand und Schülerin bzw. Schüler. Im Schulalltag wird es in der Regel Ihre Aufgabe sein, derartige Arbeitsmittel zu **analysieren**, um sie zielgerichtet auszuwählen und im Unterricht einzusetzen. Das Herstellen entsprechender Arbeitsmittel bleibt meist die Aufgabe der fachdidaktischen Forschung und Entwicklung. Vorschläge, um Arbeitsmittel zu analysieren, finden Sie in Kapitel \@ref(arbeitsmittel-analysieren). -->
-
-<!-- * Eng verbunden mit dem Einsatz von Arbeitsmitteln sind **Aufgaben**, die Sie den Schülerinnen und Schülern stellen. Aufgaben können dabei »als Aufforderung an Lernende zum mathematischen Handeln aufgefasst« werden [@Leuders2015 435]. Neben der Auswahl von Aufgaben werden Sie als Lehrkraft aber insbesondere Aufgaben **gestalten**, also selbst welche entwickeln und vorhandene Aufgaben variieren und an Ihre Lerngruppe anpassen. Maßnahmen, um Aufgaben zu gestalten, sind in Kapitel \@ref(aufgaben-gestalten) dargestellt. -->
-
-
-
-
-<!-- # Arbeitsmittel analysieren -->
-
-<!-- > **Lernziele** -->
-<!-- > -->
-<!-- > + Sie kennen ein Instrument zur Analyse von Arbeitsmitteln. -->
-<!-- > + Sie können das Analyseinstrument tätigkeitstheoretisch einordnen. -->
-<!-- > + Sie sind, ggf. mit Unterstützung, in der Lage, den Analyseprozess für Arbeitsmittel durchzuführen. -->
+> **Ziele**
+>
+> + Sie können den Begriff des Arbeitsmittels in den Vier-Ebene-Ansatz sowie tätigkeitstheoretisch einordnen.
+> + Sie kennen ein Instrument zur Analyse von Arbeitsmitteln.
+> + Sie sind, ggf. mit Unterstützung, in der Lage, Arbeitsmittel strukturiert zu analysieren.
 <!-- > -->
 <!-- > **Material** -->
 <!-- > -->
-<!-- > + Folien zur Vorlesung zur Analyse von Arbeitsmitteln ([pdf](files/Stoffdidaktik-WiSe2122-Kap9.pdf), [Keynote](files/Stoffdidaktik-WiSe2122-Kap9.key)) -->
+<!-- > + Folien zur Vorlesung zu Arbeitsmitteln ([pdf](files/Stoffdidaktik-WiSe2223-Kap8.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap8.key)) -->
 
 
-<!-- ## ACAT-Modell -->
+## Begriffsklärung und Einordnung
 
-<!-- Um Arbeitsmittel (fundiert) analysieren zu können, sollte sich diese Analyse auf eine zugrundliegende Theorie (über das Lernen und Lehren) stützen und strukturiert ablaufen. Ein Vorschlag hierfür bietet das auf die Tätigkeitstheorie aufbauende Modell **Artifact-Centric Activity Theory (ACAT)**^[übersetzt: Artefakt-zentrierte Tätigkeitstheorie] von @Ladel2013, siehe Abbildung \@ref(fig:ACAT). -->
+Ausgehend von den im letzten Kapitel dargestellten theoretischen Betrachtungen, kommt *Lernmitteln* (siehe Abschnitt \@ref(taetigkeitstheorie-und-lernen)) bzw. *Material* (siehe Abbildung \@ref(fig:GVVerinnerlichen)) eine bedeutsame Rolle in der Ausbildung und Verinnerlichung von Lernhandlungen zu. Die Begrifflichkeiten sind jedoch nicht gleichzusetzen, was in diesem Abschnitt genauer herausgearbeitet werden soll. 
 
-<!-- (ref:citeACAT) ACAT-Modell nach @Ladel2013 [4] -->
+*Lernmittel* haben eine allgemeineren Charakter und entstammen einer weiteren tätigkeitstheoretischen Annahme: Tätigkeiten erfolgen nach @Wygotski1985a niemals direkt zwischen einem Individuum (dem **Subjekt**) und dem zu betrachtenden Gegenstand (dem **Objekt**), sondern geschehen stets über ein **vermittelndes Werkzeug**. Ein solches Werkzeug kann eine Geste sein, die Sprache (als Beispiel für ein sogenanntes *psychisches Werkzeug*), Abbildungen und Skizzen, aber eben auch *echte* Werkzeuge wie Maschinen, Geräte und andere Hilfsmittel.
 
-<!-- ```{r ACAT, echo=FALSE, fig.cap="(ref:citeACAT)", fig.align='center', out.width='75%'} -->
-<!-- knitr::include_graphics("pictures/9-ACAT.png") -->
-<!-- ```   -->
+```{r SubjektObjekt, echo=FALSE, fig.cap="Werkzeuge als Vermittler in der Tätigkeitstheorie", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/7-SubjektObjekt.png")
+```
 
+Durch die Nutzung eines geeigneten Werkzeugs ist das Subjekt damit einerseits in der Lage, sein eigenes Wissen zu ***externalisieren***, d. h. das Werkzeug zielgerichtet so einzusetzen, dass auf das Objekt eingewirkt werden kann. Andererseits kann das Werkzeug auch dabei helfen, Eigenschaften des Objekts zu ***internalisieren***, indem die Werkzeugnutzung dazu führt, dass das Subjekt Kenntnisse über das Objekt gewinnt. 
 
-<!-- Zunächst einmal ist auf der Hauptachse das Beziehungsgefüge aus Subjekt, Objekt und Artefakt dargestellt, das eine Grundannahme der Tätigkeitstheorie darstellt (siehe Abschnitt \@ref(grundannahmen)). Es ist hier jedoch von einem *Artefakt* die Rede. Damit soll ausgedrückt werden, dass es sich um ein künstlich geschaffenes Medium handelt, das zum Zwecke des Wissenserwerbs von einer mit dem Lerngegenstand vertrauten Person (z. B. Lehrkraft oder Forscherin bzw. Forscher) entwickelt worden ist. Erst mit dem tatsächlichen und zielgerichteten Einsatz durch die Schülerinnen und Schüler wird es zum *Werkzeug*, weil erst dann Internalisierungs- und Externalisierungsprozesse stattfinden.^[Die Entwicklung vom Artefakt zum Werkzeug wird auch als *Instrumentelle Genese* bezeichnet [vgl. @Etzold2021 {101 f.}].] Diese *Internalisierung- und Externalisierungsprozesse* werden hier im Modell auf der Hauptachse dargestellt. -->
+Im Rahmen der Lerntätigkeit sind solche (ggf. psychischen) Werkzeuge dann *Lernmittel* und können vielfältigster Natur sein:
 
-<!-- Das obere rechte Dreieck beschreibt die spezifische Gestaltung des Artefakts über sogenannte *Regeln*. Die Regeln ergeben sich einerseits aus dem mathematischen Gegenstand selbst. Andererseits stammen sie aus weiteren Wissenschaftsbereichen wie der Psychologie, allgemeinen Didaktik, Multimedia-Design usw. und wirken wieder zurück auf das mathematische Objekt, indem die Regeln einen Einfluss darauf haben, welche Eigenschaften des Objektes repräsentiert werden. Wenn beispielsweise ein Spielwürfel aus Design-Gründen abgerundete Ecken und Kanten hat (damit sich die spielenden Kinder nicht verletzen), kann sich dies auf ein (falsches) mathematisches Verständnis des Würfel-Begriffs auswirken. Daher ist ein solcher Spielwürfel ungeeignet als Arbeitsmittel für den Erstkontakt mit dem entsprechenden Begriff. Aus den Regeln heraus wird das Artefakt gestaltet. -->
+* Mithilfe eines *Zirkels* können Kreise erzeugt werden, indem der Zirkel seiner Funktion entsprechend verwendet wird (Externalisierung der Kenntnisse über den Kreis). Die Gestaltung und Handhabe des Zirkels selbst vermittelt jedoch auch Wissen über den Kreisbegriff, so dass dieses in der Verwendung des Werkzeugs aufgebaut werden kann (Internalisierung des Wissens über den Kreis).
+* Die *digitale Stellenwerttafel* ermöglicht es, das Stellenwertverständnis zu Zahlen aufzubauen und Zahlen entsprechend darzustellen. Durch das Verhalten der Anwendung (dass z. B. ein Plättchen beim Verschieben von der Zehner- in die Einer-Spalte automatisch entbündelt wird) unterstützt diesen Aneignungsprozess [siehe @Kortenkamp2018a]. 
+* Auch *Aufgaben* haben die Funktion eines (bedeutsamen!) Lernmittels, wenn sie als Aufforderung zum Lernhandeln aufgefasst werden (siehe Abschnitt \@ref(funktionen-von-aufgaben)). An ihnen erarbeiten sich die Schülerinnen und Schüler bestimmte Elemente des Lerngegenstands und die Gestaltung der Aufgabe sowie die vorhandenen Kenntnisse der Schülerinnen und Schüler bestimmen den Verlauf und Erfolg der Lernhandlung.
 
-<!-- Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensituation* dargestellt. Hierbei spielen z. B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgereichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als *instrumental orchestration* bezeichnet [siehe z. B. @Drijvers2010 {214 f.}].    -->
+Der *Material*-Begriff dagegen ist enger als der Begriff des *Lernmittels* und stammt nicht aus der Tätigkeitstheorie. Verbreiteter und konkreter fassbar in der Mathematikdidaktik ist hierfür auch der Begriff des **Arbeitsmittels**. Nach @Krauthausen:2018 [310] sind Arbeitsmittel im Mathematikunterricht Veranschaulichungsmittel (zum Illustrieren oder Visualisieren mathematischer Konzepte) oder Anschauungsmittel (d. h. »Darstellungen mathematischer Ideen in der Hand der Lernenden […] zur (Re-)Konstruktion mathematischen Verstehens«). Entscheidend ist hierbei eine »aktivistische« Sichtweise, also dass die Schülerinnen und Schüler die Arbeitsmittel aktiv als »Denkwerkzeug« verwenden. Die Aufgabe der Lehrkraft ist es dabei, »in den sachgerechten Gebrauch ein[zu]führen und Hilfen (zur Selbsthilfe) im Umgang mit Anschauungsmitteln [zu] gewähren« [@Krauthausen:2018 310]. @Schmidt-Thieme2015 [{461 f.}] formulieren in inhaltlich ähnlicher Weise: »Arbeitsmittel repräsentieren mathematische Objekte und erlauben zudem Handlungen oder Operationen mit diesen Objekten«.^[Den Arbeitsmitteln werden hier *Anschauungsmittel* entgegengestellt, jedoch in einer eher demonstrierenden Bedeutung [@Schmidt-Thieme2015 {466 f.}], was eher dem Begriff der *Veranschaulichungsmittel* bei @Krauthausen:2018 [310] entspricht.] 
 
+In dieser Einordnung übernehmen Arbeitsmittel demnach die Aufgabe eines Lernmittels (auch wenn es weitere Lernmittel gibt, die keine Arbeitsmittel sind). In der obigen Aufzählung der Beispiele kann die *digitale Stellenwerttafel* als Arbeitsmittel aufgefasst werden.
 
+Um den Begriff des Arbeitsmittels anzureichern, soll ein weiteres aus der Tätigkeitstheorie stammendes Konzept aufgegriffen werden, nämlich das des ***Lernmodells***. Lernmodelle sind »sinnliche Stützen geistigen Handelns« [@Giest2006 225] und können bspw. Zeichnungen, strukturierte Darstellungen, digitale Anwendungen usw. sein. Sie haben als Modelle dabei den Vorteil, dass sie »nicht die konkreten Merkmale der einzelnen Erscheinungen oder Situationen, sondern nur konstitutive, im gegebenen Kontext wesentliche Merkmale und Relationen enthalten, also *abstrakt* sind« [@Lompscher1983a 64, Hervorhebung im Original]. Gleichzeitig sind sie aber auch »*anschauliche* Abbildungen und machen damit die grundlegenden Zusammenhänge und Wesensmerkmale der Wahrnehmung und Vorstellung zugänglich« [@Lompscher1983a 64, Hervorhebung im Original]. Lernmodelle können daher insbesondere für mathematische Lerngegenstände dienlich sein, da sie die »abstrakte Struktur des Gegenstands zusammen mit dem prinzipiellen Weg [..], der zur Aufdeckung der Struktur geführt hat«, beinhalten [@Lompscher1996 6]. Dass es sich dabei nicht ausschließlich um Abbildungen, sondern eben auch haptische Materialien oder digitale Anwendungen handeln kann, machen die obigen und noch folgenden Beispiele deutlich. 
 
+Bei der Entwicklung oder Auswahl eines Lernmodells ist es für Sie als Lehrkraft daher von besonderer Bedeutung, was der *Kern* des entsprechenden mathematischen Gegenstands ist. Im Sinne der `r concrete("konkreten Ebene")` des Vier-Ebene-Ansatzes muss also das **Lernmodell mit der Kernidee in Einklang** stehen. Bezugnehmend auf die Grundvorstellungsidee (siehe Definition \@ref(def:Grundvorstellungen)) auf der `r semantic("semantischen Ebene")` dienen damit **Lernmodelle als operationsfähige Repräsentationen** und erfüllen somit auch die Bedingungen an ein Arbeitsmittel.
 
+Als Definition für Arbeitsmittel, die sowohl mathematikdidaktische als auch tätigkeitstheoretische Bezüge aufgreift, wird im Folgenden gewählt:
 
+::: {.definition #Arbeitsmittel name="Arbeitsmittel"}
+Ein Arbeitsmittel ist eine **materielle oder materialisierte^[Damit sind auch Abbildungen, Strukturdiagramme oder Apps eingeschlossen.] sowie auch operierbare Repräsentation** eines Lerngegenstandes. Damit muss ein Arbeitsmittel folgende Bedingungen erfüllen:  
 
-
-<!-- ## Analyseschritte -->
-
-<!-- @Larkin2019 stellen dar, wie sich das ACAT-Modell als Analyseinstrument für Unterrichtsapps einsetzen lässt, eine Übersetzung des Beurteilungsleitfadens findet sich bei @Etzold2018 und eine für Lehrkräfte angepasste Variante bieten @Kortenkamp2019. Daran angelehnt bieten sich folgende Prozessschritte für die Analyse eines Arbeitsmittels an: -->
-
-<!-- 1. **Identifizieren des mathematischen Objekts** -->
-
-<!--     Zunächst muss klar sein, für welches mathematische Objekt – also für welchen Begriff, welchen Inhalt, welches Thema – das Arbeitsmittel eingesetzt werden soll. Sind mehrere mathematische Objekte möglich, muss die Analyse auch für jedes getrennt erfolgen, da das Arbeitsmittel ggf. unterschiedlich gut geeignet sein kann. Theoretischer Hintergrund ist, dass **ohne Objekt keine zielgerichtete Handlung eines Subjekts möglich** ist. Daher können Handlungen von Schülerinnen und Schülern mit einem Arbeitsmittel nur dann bewertet werden, wenn Klarheit bezüglich des (mathematischen) Objekts besteht. -->
-
-<!--     ***Mögliche Quellen*** hierfür sind die Bezeichnung des Arbeitsmittels bzw. eine offizielle Beschreibung, Zusatzmaterialien zum Arbeitsmittel (wie Arbeitsblätter, Handreichungen, …), externe Referenzen (z. B. Empfehlungen durch Dritte) oder auch das selbstständige Ausprobieren des Arbeitsmittels.   -->
-
-<!-- 2. **Herausstellen der Interaktionsmöglichkeiten mit dem mathematischen Objekt über das Arbeitsmittel** -->
-
-<!--     Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel eine *pinch-to-zoom*-Geste zum Vergrößern oder Verkleinern einer Landkarte auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von **Externalisierung**. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z. B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von **Internalisierung**. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten: -->
-
-<!--     **S → A:** Welche Handlungen sind mit dem Arbeitsmittel möglich?   -->
-<!--     **A → O:** Wie repräsentiert das Arbeitsmittel das mathematische Objekt?   -->
-<!--     **O → A:** Wie beeinflusst das Objekt das Verhalten des Arbeitsmittels?   -->
-<!--     **A → S:** Welche Erfahrungen können Schülerinnen und Schüler dadurch machen? -->
-
-<!--     Eine ***mögliche Quelle*** ist die eigene, systematische Nutzung des Arbeitsmittels. -->
-
-
-<!-- 3. **Analyse der Entwicklung der Interaktion** -->
-
-<!--     Nun werden die möglichen Interaktionen qualitativ strukturiert, um die mögliche Entwicklung des Lernens der Schülerinnen und Schüler besser zu beschreiben. Die Strukturierung bezieht sich auf die in der Tätigkeitstheorie übliche Unterscheidung in Tätigkeiten, Handlungen und Operationen: -->
-
-<!--     * **Tätigkeiten** sind übergeordnete, an *Motiven* orientierte Interaktionen (z. B. das Lesen einer Landkarte). -->
-<!--     * **Handlungen** sind *zielgerichtete*, individuelle Interaktionen, die die Tätigkeit realisieren (z. B. das Vergrößern eines Kartenausschnittes, um diesen detaillierter betrachten zu können). -->
-<!--     * **Operationen** sind zur Handlungsausführung notwendige Interaktionen, die jedoch kein weiteres Nachdenken erfordern und ggf. *instrumentellen Zwängen* unterworfen sind (z. B. das Ausführen der *pinch-to-zoom*-Geste oder das Verschieben der Karte mit dem Finger). -->
-
-<!--     In einem erfolgreichen Lernprozess verschieben sich (durch Verinnerlichungsprozesse) insbesondere Handlungen zu Operationen, um darauf neue, komplexere Handlungen aufbauen zu können. Es ist also darzustellen, wie eine dartige Entwicklung mithilfe des Arbeitsmittels unterstützt werden kann. -->
-
-<!--     ***Mögliche Quellen*** sind hypothetische Diskussionen potenzieller Entwicklungen, aber auch empirische Untersuchungen. -->
-
-
-<!-- 4. **Überprüfung der Eignung des Arbeitsmittels für die Vermittlung des mathematischen Objekts** -->
-
-<!--     In diesem Schritt wird die Realisierung des Arbeitsmittels für das spezielle mathematische Objekt mit den Erkenntnissen aus Fachdidaktik, Fachwissenschaft und Psychologie verglichen. Dabei wird geprüft, ob die in den Schritten 2 und 3 analysierten Interaktionen tatsächlich die aus Sicht der Mathematik(-didaktik) erwünschten oder benötigten Vorstellungen, Erfahrungen und Kompetenzen unterstützen. Im ACAT-Modell entspricht dies der regelgeleiteten Gestaltung des Artefakts, wobei diese Regeln wiederum aus mathematikdidaktischen Überlegungen, allgemeinem Multimediadesign, usw. stammen. -->
-
-<!--     ***Mögliche Quellen*** für diesen Schritt sind neben der Synthese der vorherigen Diskussionen v. a. auch wissenschaftliche Referenzen und Veröffentlichungen. -->
-
-<!-- 5. **Möglichkeiten zur Verwendung des Arbeitsmittels in der Klassensituation ** -->
-
-<!--     In einem letzten Schritt werden Möglichkeiten dargestellt, wie der Einsatz des Arbeitsmittels im Unterricht konkret aussehen kann. Folgende Fragen bieten eine Orientierung: -->
-<!--     * Ist das Arbeitsmittel für individuelle Arbeit, Partnerarbeit oder Kleingruppenarbeit geeignet? -->
-<!--     * Was sind mögliche Impulse und Aufgabenstellungen, die Sie als Lehrerin oder Lehrer geben können? -->
-<!--     * Welche Differenzierungsmaßnahmen und verschiedenen Schwierigkeitsgrade sind möglich? -->
-<!--     * Handelt es sich um Übungsmaterial oder dient es zur Einführung neuer Lerninhalte und dem Aufbau von Grundvorstellungen? -->
-<!--     * Welche Voraussetzungen/Kompetenzen werden an die Schülerinnen und Schüler für die Nutzung des Arbeitsmittels gestellt? -->
-<!--     * Wie können Diskussionen bzw. Interaktionen innerhalb der Klasse mithilfe des Arbeitsmittels direkt oder indirekt gefördert werden? -->
-
-<!--     Tätigkeitstheoretischer Hintergrund ist hierbei, dass Lernen niemals als eine rein individuelle Tätigkeit eines Schülers oder einer Schülerin angenommen wird, sondern immer im gesellschaftlichen und sozialen Kontext geschieht. Oder mit anderen Worten: »Im Unterricht agiert immer ein pädagogisches Gesamtsubjekt« [@Giest2004a 112]. -->
-
-<!--     ***Mögliche Quellen*** für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien bzw. Versuchsdurchführungen im Unterricht. -->
-
-<!-- Diese fünf Schritte sprechen damit jeweils verschiedene Elemente des ACAT-Modells an. Abbildung \@ref(fig:ACATAnalyse) fasst dies noch einmal zusammen. -->
-
-<!-- ```{r ACATAnalyse, echo=FALSE, fig.cap="ACAT-Analysemodell für Arbeitsmittel", fig.align='center', out.width='90%'} -->
-<!-- knitr::include_graphics("pictures/9-ACATAnalyse.png") -->
-<!-- ```   -->
-
-
-<!-- Am Beispiel der App *Klipp Klapp* [@Etzold2020a] stellt @Stein2018 eine entsprechende Analyse dar, die englischsprachige Übersetzung ist bei @Larkin2019 [{85 ff.}] zu finden. -->
-
-<!-- Im Übrigen kann ein auf diese Weise als erfolgreich beurteiltes Arbeitsmittel den Charakter eines *Lernmodells* annehmen, wie es im Abschnitts \@ref(aufsteigen-vom-abstrakten-zum-konkreten) charakterisiert wird.  -->
+* Es enthält kontextübergreifend die dem Wesen des Lerngegenstands entsprechenden Merkmale und Relationen **(Abstraktheit)**.
+* Es macht die dem Lerngegenstand zugrundeliegende Struktur der Wahrnehmung und Vorstellung zugänglich **(Anschaulichkeit)**.
+* Es ermöglicht, Lernhandlungen durchzuführen, die der Aneignung des Wesens des Lerngegenstands dienlich sind **(Operierbarkeit)**.
+:::
 
 
 
-<!-- ## Zum Nachbereiten {#begriffe-lerntheoretisch-nachbereitung} -->
+## Arbeitsmittel analysieren
 
-<!-- 1. Lesen Sie den Beitrag von @Lompscher1996 zum Aufsteigen vom Abstrakten zum Konkreten. -->
 
-<!-- 2. Wählen Sie einen mathematischen Begriff und überlegen Sie sich, wie ein geeignetes Lernmodell für diesen Begriff aussehen kann. Sie können dabei auch spekulieren, was dieses Lernmodell können müsste (z. B. wenn es digital umgesetzt werden könnte). -->
+### ACAT-Modell
+
+Als Lehrkraft werden Sie (wahrscheinlich) selten in der Situation sein, selbst Arbeitsmittel erstellen zu müssen. Bedeutsamer ist es, existierende Arbeitsmittel einschätzen und analysieren zu können --
+gerade bei einer immer größer werdenden Fülle als digitalen Apps, die durchaus den Charakter eines Arbeitsmittels einnehmen können. Um Arbeitsmittel fundiert und strukturiert zu analysieren, bietet sich als Stütze das auf die Tätigkeitstheorie aufbauende Modell **Artifact-Centric Activity Theory (ACAT)**^[übersetzt: Artefakt-zentrierte Tätigkeitstheorie] von @Ladel2013 an, siehe Abbildung \@ref(fig:ACAT).
+
+(ref:citeACAT) ACAT-Modell nach @Ladel2013 [4]
+
+```{r ACAT, echo=FALSE, fig.cap="(ref:citeACAT)", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/7-ACAT.png")
+```
+
+
+Zunächst einmal ist auf der Hauptachse das Beziehungsgefüge aus Subjekt (Schüler/-in), Objekt (Lerngegenstand) und Artefakt (Arbeitsmittel) dargestellt, das der oben dargestellten Grundannahme der Tätigkeitstheorie entspricht.
+Statt von einem Werkzeug ist hier von einem *Artefakt* die Rede. Damit soll ausgedrückt werden, dass es sich um ein künstlich geschaffenes Medium handelt, das zum Zwecke des Wissenserwerbs von einer mit dem Lerngegenstand vertrauten Person (z. B. Lehrkraft oder Forscherin bzw. Forscher) entwickelt worden ist. Erst mit dem tatsächlichen und zielgerichteten Einsatz durch die Schülerinnen und Schüler wird es zum *Werkzeug*, weil erst dann Internalisierungs- und Externalisierungsprozesse stattfinden.^[Die Entwicklung vom Artefakt zum Werkzeug wird auch als *Instrumentelle Genese* bezeichnet [vgl. @Etzold2021 {101 f.}].] Diese *Internalisierung- und Externalisierungsprozesse* werden hier im Modell auf der Hauptachse dargestellt.
+
+Das obere rechte Dreieck beschreibt die spezifische Gestaltung des Artefakts über sogenannte *Regeln*. Die Regeln ergeben sich einerseits aus dem mathematischen Gegenstand selbst. Andererseits stammen sie aus weiteren Wissenschaftsbereichen wie der Psychologie, allgemeinen Didaktik, Multimedia-Design usw. und wirken wieder zurück auf das mathematische Objekt, indem die Regeln einen Einfluss darauf haben, welche Eigenschaften des Objektes repräsentiert werden. Wenn beispielsweise ein Spielwürfel aus Design-Gründen abgerundete Ecken und Kanten hat (damit sich die spielenden Kinder nicht verletzen), kann sich dies auf ein (falsches) mathematisches Verständnis des Würfel-Begriffs auswirken. Daher ist ein solcher Spielwürfel ungeeignet als Arbeitsmittel für den Erstkontakt mit dem entsprechenden Begriff. Aus den Regeln heraus wird das Artefakt gestaltet.
+
+Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensituation* dargestellt. Hierbei spielen z. B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgereichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als *instrumental orchestration* bezeichnet [siehe z. B. @Drijvers2010 {214 f.}].
 
 
 
 
-<!-- ## Zum Nachbereiten {#arbeitsmittel-analysieren-nachbereitung} -->
 
-<!-- 1. Lesen Sie als Hintergrundtheorie zur Analyse von Unterrichtsapps den Artikel von @Larkin2019. -->
 
-<!-- 2. Führen Sie nach der hier vorgestellten Schrittfolge eine Analyse des Arbeitsmittels *Zahlenstrahl* durch [siehe z. B. auch @Schulz2018]. -->
+
+### Analyseschritte
+
+@Larkin2019 stellen dar, wie sich das ACAT-Modell als Analyseinstrument für Unterrichtsapps einsetzen lässt, eine Übersetzung des Beurteilungsleitfadens findet sich bei @Etzold2018 und eine für Lehrkräfte angepasste Variante bieten @Kortenkamp2019. Daran angelehnt bieten sich folgende Prozessschritte für die Analyse eines Arbeitsmittels an:
+
+1. **Identifizieren des mathematischen Objekts**
+
+    Zunächst muss klar sein, für welches mathematische Objekt – also für welchen Begriff, welchen Inhalt, welches Thema – das Arbeitsmittel eingesetzt werden soll. Sind mehrere mathematische Objekte möglich, muss die Analyse auch für jedes getrennt erfolgen, da das Arbeitsmittel ggf. unterschiedlich gut geeignet sein kann. Theoretischer Hintergrund ist, dass **ohne Objekt keine zielgerichtete Handlung eines Subjekts möglich** ist. Daher können Handlungen von Schülerinnen und Schülern mit einem Arbeitsmittel nur dann bewertet werden, wenn Klarheit bezüglich des (mathematischen) Objekts besteht.
+
+    ***Mögliche Quellen*** hierfür sind die Bezeichnung des Arbeitsmittels bzw. eine offizielle Beschreibung, Zusatzmaterialien zum Arbeitsmittel (wie Arbeitsblätter, Handreichungen, …), externe Referenzen (z. B. Empfehlungen durch Dritte) oder auch das selbstständige Ausprobieren des Arbeitsmittels.
+
+2. **Herausstellen der Interaktionsmöglichkeiten mit dem mathematischen Objekt über das Arbeitsmittel**
+
+    Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel eine *pinch-to-zoom*-Geste zum Vergrößern oder Verkleinern einer Landkarte auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von **Externalisierung**. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z. B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von **Internalisierung**. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten:
+
+    **S → A:** Welche Handlungen sind mit dem Arbeitsmittel möglich?  
+    **A → O:** Wie repräsentiert das Arbeitsmittel das mathematische Objekt?  
+    **O → A:** Wie beeinflusst das Objekt das Verhalten des Arbeitsmittels?  
+    **A → S:** Welche Erfahrungen können Schülerinnen und Schüler dadurch machen?
+
+    Eine ***mögliche Quelle*** ist die eigene, systematische Nutzung des Arbeitsmittels.
+
+
+3. **Analyse der Entwicklung der Interaktion**
+
+    Nun werden die möglichen Interaktionen qualitativ strukturiert, um die mögliche Entwicklung des Lernens der Schülerinnen und Schüler besser zu beschreiben. Die Strukturierung bezieht sich auf die in der Tätigkeitstheorie übliche Unterscheidung in Tätigkeiten, Handlungen und Operationen:
+
+    * **Tätigkeiten** sind übergeordnete, an *Motiven* orientierte Interaktionen (z. B. das Lesen einer Landkarte).
+    * **Handlungen** sind *zielgerichtete*, individuelle Interaktionen, die die Tätigkeit realisieren (z. B. das Vergrößern eines Kartenausschnittes, um diesen detaillierter betrachten zu können).
+    * **Operationen** sind zur Handlungsausführung notwendige Interaktionen, die jedoch kein weiteres Nachdenken erfordern und ggf. *instrumentellen Zwängen* unterworfen sind (z. B. das Ausführen der *pinch-to-zoom*-Geste oder das Verschieben der Karte mit dem Finger).
+
+    In einem erfolgreichen Lernprozess verschieben sich (durch Verinnerlichungsprozesse) insbesondere Handlungen zu Operationen, um darauf neue, komplexere Handlungen aufbauen zu können. Es ist also darzustellen, wie eine dartige Entwicklung mithilfe des Arbeitsmittels unterstützt werden kann.
+
+    ***Mögliche Quellen*** sind hypothetische Diskussionen potenzieller Entwicklungen, aber auch empirische Untersuchungen.
+
+
+4. **Überprüfung der Eignung des Arbeitsmittels für die Vermittlung des mathematischen Objekts**
+
+    In diesem Schritt wird die Realisierung des Arbeitsmittels für das spezielle mathematische Objekt mit den Erkenntnissen aus Fachdidaktik, Fachwissenschaft und Psychologie verglichen. Dabei wird geprüft, ob die in den Schritten 2 und 3 analysierten Interaktionen tatsächlich die aus Sicht der Mathematik(-didaktik) erwünschten oder benötigten Vorstellungen, Erfahrungen und Kompetenzen unterstützen. Im ACAT-Modell entspricht dies der regelgeleiteten Gestaltung des Artefakts, wobei diese Regeln wiederum aus mathematikdidaktischen Überlegungen, allgemeinem Multimediadesign, usw. stammen.
+
+    ***Mögliche Quellen*** für diesen Schritt sind neben der Synthese der vorherigen Diskussionen v. a. auch wissenschaftliche Referenzen und Veröffentlichungen.
+
+5. **Möglichkeiten zur Verwendung des Arbeitsmittels in der Klassensituation **
+
+    In einem letzten Schritt werden Möglichkeiten dargestellt, wie der Einsatz des Arbeitsmittels im Unterricht konkret aussehen kann. Folgende Fragen bieten eine Orientierung:
+    * Ist das Arbeitsmittel für individuelle Arbeit, Partnerarbeit oder Kleingruppenarbeit geeignet?
+    * Was sind mögliche Impulse und Aufgabenstellungen, die Sie als Lehrerin oder Lehrer geben können?
+    * Welche Differenzierungsmaßnahmen und verschiedenen Schwierigkeitsgrade sind möglich?
+    * Handelt es sich um Übungsmaterial oder dient es zur Einführung neuer Lerninhalte und dem Aufbau von Grundvorstellungen?
+    * Welche Voraussetzungen/Kompetenzen werden an die Schülerinnen und Schüler für die Nutzung des Arbeitsmittels gestellt?
+    * Wie können Diskussionen bzw. Interaktionen innerhalb der Klasse mithilfe des Arbeitsmittels direkt oder indirekt gefördert werden?
+
+    Tätigkeitstheoretischer Hintergrund ist hierbei, dass Lernen niemals als eine rein individuelle Tätigkeit eines Schülers oder einer Schülerin angenommen wird, sondern immer im gesellschaftlichen und sozialen Kontext geschieht. Oder mit anderen Worten: »Im Unterricht agiert immer ein pädagogisches Gesamtsubjekt« [@Giest2004a 112].
+
+    ***Mögliche Quellen*** für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien bzw. Versuchsdurchführungen im Unterricht.
+
+Diese fünf Schritte sprechen damit jeweils verschiedene Elemente des ACAT-Modells an. Abbildung \@ref(fig:ACATAnalyse) fasst dies noch einmal zusammen.
+
+```{r ACATAnalyse, echo=FALSE, fig.cap="ACAT-Analysemodell für Arbeitsmittel", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/7-ACATAnalyse.png")
+```
+
+
+Am Beispiel der App *Klipp Klapp* [@Etzold2020a] stellt @Stein2018 eine entsprechende Analyse dar, die englischsprachige Übersetzung ist bei @Larkin2019 [{85 ff.}] zu finden.
+
+
+
+## Zum Nachbereiten {#arbeitsmittel-nachbereitung}
+
+1. Lesen Sie als Hintergrundtheorie zur Analyse von Unterrichtsapps den Artikel von @Larkin2019.
+
+2. Führen Sie nach der hier vorgestellten Schrittfolge eine Analyse des Arbeitsmittels *Zahlenstrahl* durch [siehe z. B. auch @Schulz2018].
+
+3. Wählen Sie einen mathematischen Begriff und überlegen Sie sich, wie ein geeignetes Arbeitsmittel für diesen Begriff aussehen kann. Sie können dabei auch spekulieren, was dieses Arbeitsmittel können müsste (z. B. wenn es digital umgesetzt werden könnte).

@@ -26,9 +26,9 @@ Während Sie sich in der *Einführung in die Mathematikdidaktik* mit verschieden
 Im Anschluss an beide Veranstaltungen absolvieren Sie die **Schulpraktischen Studien**, in denen Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
 
 
-## Lernziele der Veranstaltung {-}
+## Kompetenzziele der Veranstaltung {-}
 
-Als Lernziele, die Sie nach Abschluss von Vorlesung und Seminar erreicht haben sollen, sind angedacht:
+Als Kompetenzen, die Sie nach Abschluss von Vorlesung und Seminar erreicht haben sollen, sind angedacht:
 
 - Sie **kennen Aspekte und Grundvorstellungen** zu zentralen mathematischen Begriffen.
 - Sie **beurteilen Unterrichtsmaterialien und Lernumgebungen** hinsichtlich ihrer stoffdidaktischen Eignung.

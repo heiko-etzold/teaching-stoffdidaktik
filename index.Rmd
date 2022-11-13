@@ -31,6 +31,7 @@ output:
     includes:
       in_header: "in_header.tex"
       before_body: "before_body.tex"
+      after_body: "after_body.tex"
     latex_engine: xelatex
 documentclass: scrbook
 lang: de-DE
@@ -59,7 +60,7 @@ Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter https://s
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.
 
-Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVausbilden), \@ref(fig:Tiergehege) und \@ref(fig:FlaecheEinheiten)<!--, \@ref(fig:DefSenkrecht), \@ref(fig:OperativeGenese), \@ref(fig:GVVerinnerlichen), \@ref(fig:ACAT), \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig), \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis), \@ref(fig:DefinitionZufallsexperiment) und \@ref(fig:Modelle)--> -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
+Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVausbilden), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:GVVerinnerlichen), \@ref(fig:Etappen), \@ref(fig:ACAT) und \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig)<!--, \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis), \@ref(fig:DefinitionZufallsexperiment) und \@ref(fig:Modelle)--> -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
 
 
 ```{r echo=FALSE}

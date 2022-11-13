@@ -2,7 +2,7 @@
 
 # Vier-Ebenen-Ansatz
 
-> **Lernziele**
+> **Ziele**
 >
 > + Sie kennen typische Fragestellungen, um sich einer stoffdidaktischen Analyse systematisch zu nähern.
 > + Sie erkennen den Vier-Ebenen-Ansatz als eine Möglichkeit, eine stoffdidaktische Analyse strukturiert vorzunehmen.
@@ -16,19 +16,19 @@
 
 ## Analyse von Lerngegenständen
 
-Die inhaltliche Basis der Veranstaltung bietet ein Beitrag von @Hussmann:2016 zur Spezifizierung und Strukturierung mathematischer Lerngegenstände. Nur einen Artikel als Basis einer kompletten 4 SWS starken Veranstaltung zu nutzen, scheint zunächst unüblich. In diesem Fall ist es jedoch hilfreich, da der Beitrag eine Kategorisierung stoffdidaktischer Analysen vorschlägt und vielfältige Fragen formuliert, woraus sich wieder ein ganzes Repertoir an Themen ergibt, die es im Rahmen von Vorlesung und Seminar zu untersuchen gilt.
+Die inhaltliche Basis der Veranstaltung bietet ein Beitrag von @Hussmann:2016 zur Spezifizierung und Strukturierung mathematischer Lerngegenstände\index{Lerngegenstand}. Nur einen Artikel als Basis einer kompletten 4 SWS starken Veranstaltung zu nutzen, scheint zunächst unüblich. In diesem Fall ist es jedoch hilfreich, da der Beitrag eine Kategorisierung stoffdidaktischer Analysen vorschlägt und vielfältige Fragen formuliert, woraus sich wieder ein ganzes Repertoir an Themen ergibt, die es im Rahmen von Vorlesung und Seminar zu untersuchen gilt.
 
-@Hussmann:2016 [{35 f.}] kategorisieren eine stoffdidaktische Analyse in eine **`r formal("formale")`**, **`r semantic("semantische")`**, **`r concrete("konkrete")`** und **`r empiric("empirische")`** Ebene, wobei diese nicht hierarchisch aufgebaut sind, sondern sich gegenseitig beeinflussen. Innerhalb der Ebenen wird jeweils noch einmal in die **Spezifizierung** und die **Strukturierung** eines Lerngegenstands unterschieden.
+@Hussmann:2016 [{35 f.}]\index{4-Ebenen-Ansatz|see{Vier-Ebenen-Ansatz}} kategorisieren eine stoffdidaktische Analyse in eine **`r formal("formale")`**, **`r semantic("semantische")`**, **`r concrete("konkrete")`** und **`r empiric("empirische")`** Ebene, wobei diese nicht hierarchisch aufgebaut sind, sondern sich gegenseitig beeinflussen. Innerhalb der Ebenen wird jeweils noch einmal in die **Spezifizierung** und die **Strukturierung** eines Lerngegenstands unterschieden.
 
-Auf der `r formal("formalen Ebene")` wird der Lerngegenstand aus seiner fachlich-logischen Struktur heraus betrachtet.
+Auf der `r formal("formalen Ebene")`\index{Vier-Ebenen-Ansatz!formale Ebene|textbf} wird der Lerngegenstand aus seiner fachlich-logischen Struktur heraus betrachtet.
 
-Die `r semantic("semantische Ebene")` adressiert Sinn und Bedeutung des mathematischen Gegenstands sowie erkenntnistheoretische Aspekte.
+Die `r semantic("semantische Ebene")`\index{Vier-Ebenen-Ansatz!semantische Ebene|textbf} adressiert Sinn und Bedeutung des mathematischen Gegenstands sowie erkenntnistheoretische Aspekte.
 
-Ziel der `r concrete("konkreten Ebene")` ist die Umsetzung des Lehr-Lern-Prozesses an konkreten Situationen, über die das mathematische Wissen konstruiert wird.
+Ziel der `r concrete("konkreten Ebene")`\index{Vier-Ebenen-Ansatz!konkrete Ebene|textbf} ist die Umsetzung des Lehr-Lern-Prozesses an konkreten Situationen, über die das mathematische Wissen konstruiert wird.
 
-Über die `r empiric("empirische Ebene")` werden die kognitiven und ggf. sozialen Aspekte der Schülerinnen und Schüler in die stoffdidaktische Analyse integriert.
+Über die `r empiric("empirische Ebene")`\index{Vier-Ebenen-Ansatz!empirische Ebene|textbf} werden die kognitiven und ggf. sozialen Aspekte der Schülerinnen und Schüler in die stoffdidaktische Analyse integriert.
 
-Über die **Spezifizierung** wird ermittelt, was genau Schülerinnen und Schüler bezüglich eines bestimmten mathematischen Themas lernen sollen, während die **Strukturierung** analysiert, wie diese Elemente miteinander in Verbindung stehen und wie sie im Lernpfad strukturiert werden können.
+Über die **Spezifizierung**\index{Lerngegenstand!Spezifizierung|textbf} wird ermittelt, was genau Schülerinnen und Schüler bezüglich eines bestimmten mathematischen Themas lernen sollen, während die **Strukturierung**\index{Lerngegenstand!Strukturierung|textbf} analysiert, wie diese Elemente miteinander in Verbindung stehen und wie sie im Lernpfad strukturiert werden können.
 
 Aus den vier Ebenen und der jeweiligen Unterscheidung in Spezifizierung und Strukturierung ergeben sich acht (nicht immer trennscharfe) Dimensionen, die den Analyseprozess zu einem Lerngegenstand kategorisieren können. Um dies für Forschungs- und Entwicklungsprozesse greifbar zu machen, haben @Hussmann:2016 [36] typische Fragestellungen formuliert, an die in Tabelle \@ref(tab:fragen-ebenen) angelehnt wird.
 
@@ -48,21 +48,21 @@ Diese Fragen können dabei helfen, einen Lerngegenstand aus professioneller Sich
 
 In dem Vier-Ebenen-Ansatz wird auf mehrere mathematikdidaktische Theorien Bezug gekommen, die es näher zu betrachten gilt, um eine stoffdidaktische Analyse in diesem Sinne durchführen zu können. Die zentralen Themen der Vorlesung werden demnach sein:
 
-* **Fundamentale Ideen**
-* **Grundvorstellungen**
-* **Kernideen, Kernfragen und Kontexte**
-* **Lernen mit Aufgaben und Arbeitsmitteln**
-* **Inhaltsbezogene Kompetenzen (Leitideen)**
+* **Fundamentale Ideen**,
+* **Grundvorstellungen**,
+* **Kernideen, Kernfragen und Kontexte**,
+* **Lernen mit Aufgaben und Arbeitsmitteln**,
+* **Inhaltsbezogene Kompetenzen (Leitideen)**.
 
 Diese zentralen Themen sind v. a. der `r semantic("semantischen")` und `r concrete("konkreten")` Ebene zuzuordnen. Die `r formal("formale")` Ebene wird insbesondere im Zusammenhang mit der semantischen betrachtet, indem Ihre Vorkenntnisse aus den Mathematik-Fachveranstaltungen (formale Ebene) rekapituliert und mit Grundvorstellungen und Fundamentalen Ideen (semantische Ebene) in Bezug gebracht werden. Die `r empiric("empirische")` Ebene wird nur angeschnitten und spielt dann in Ihren schulpraktischen Ausbildungselementen des Lehramtsstudium eine bedeutendere Rolle.
 
 ## Beispiel Winkelbegriff
 
-Um sich der Komplexität des Vier-Ebenen-Ansatzes bewusst zu werden, sollen mögliche Gedankengänge am Beispiel des Winkelbegriffs durchgeführt werden. Grundlage hierfür bietet die Dissertation *Neue Zugänge zum Winkelbegriff* [@Etzold2021]. In dieser wird zwar nicht der Vier-Ebenen-Ansatz für die stoffdidaktische Analyse verfolgt, aber dennoch lassen sich die einzelnen Elemente darin wiederfinden. Ziel ist hier keine vollumfängliche stoffdidaktische Analyse, sondern eher eine Darstellung der exemplarischen Herangehensweise, wie man sich einer Spezifizierung und Strukturierung des Lerngegenstands *Winkel* auf den vier Ebenen nähern kann.
+Um sich der Komplexität des Vier-Ebenen-Ansatzes bewusst zu werden, sollen mögliche Gedankengänge am Beispiel des Winkelbegriffs\index{Winkel|(} durchgeführt werden. Grundlage hierfür bietet die Dissertation *Neue Zugänge zum Winkelbegriff* [@Etzold2021]. In dieser wird zwar nicht der Vier-Ebenen-Ansatz für die stoffdidaktische Analyse verfolgt, aber dennoch lassen sich die einzelnen Elemente darin wiederfinden. Ziel ist hier keine vollumfängliche stoffdidaktische Analyse, sondern eher eine Darstellung der exemplarischen Herangehensweise, wie man sich einer Spezifizierung und Strukturierung des Lerngegenstands *Winkel* auf den vier Ebenen nähern kann.
 
 ### Formale Ebene
 
-Eine fachmathematische Analyse (bereits mit dem Blick auf eine schulische Nutzung) des Winkelbegriffs bieten u. a. @Freudenthal:1973, @Strehl:1983 oder @Mitchelmore:1990.
+Eine\index{Vier-Ebenen-Ansatz!formale Ebene|(} fachmathematische Analyse (bereits mit dem Blick auf eine schulische Nutzung) des Winkelbegriffs bieten u. a. @Freudenthal:1973, @Strehl:1983 oder @Mitchelmore:1990.
 
 @Freudenthal:1973 [441] unterscheidet einen Winkel bspw. dahingehend, ob er über Geraden oder Halbgeraden (bzw. Strahlen) beschrieben wird, ob diese geordnet oder ungeordnet sind und ob sie in der orientierten oder unorientierten Ebene vorliegen (siehe Abbildung \@ref(fig:FreudenthalWinkel)).
 
@@ -84,11 +84,11 @@ knitr::include_graphics("pictures/1-FreudenthalWinkelSpiegeln.jpg")
 
 Hierzu stellt @Freudenthal:1973 [{443 ff.}] weitere fachmathematische Ausführungen dar und schließt damit, dass der elementargeometrische, goniometrische und analytische Winkelbegriff aus fachlicher Sicht für den schulischen Lernpfad unentbehrlich sind [@Freudenthal:1973 449].
 
-Die *Spezifizierung* besteht also darin, den Begriff zu schärfen und Operationen mit ihm zu beschreiben. Die *Strukturierung* besteht u. a. in der vernetzenden Analyse der verschiedenen Winkelbegriffe und der Schlussfolgerung ihrer gleichermaßen Bedeutsamkeit für den Schulunterricht.
+Die *Spezifizierung* besteht also darin, den Begriff zu schärfen und Operationen mit ihm zu beschreiben. Die *Strukturierung* besteht u. a. in der vernetzenden Analyse der verschiedenen Winkelbegriffe und der Schlussfolgerung ihrer gleichermaßen Bedeutsamkeit für den Schulunterricht.\index{Vier-Ebenen-Ansatz!formale Ebene|)}
 
 ### Semantische Ebene
 
-Dazu, welche Vorstellungen Schülerinnen und Schüler zum Winkelbegriff entwickeln sollen, sei u. a. auf @Krainer:1989 und @Mitchelmore:1998 verwiesen. Eine grundsätzliche Schwierigkeit beim Unterrichten von Winkeln sind diverse und (scheinbar) nicht in Verbindung zu bringende Anwendungskontexte, die dennoch über denselben mathematischen Begriff beschrieben werden können. So ist das Sichtfeld eines Tieres ebenso wie die Umdrehung eines Wasserzählers über Winkel beschreibbar -- haben doch beide Situationen zunächst nichts miteinander zu tun.
+Dazu,\index{Vier-Ebenen-Ansatz!semantische Ebene|(} welche Vorstellungen Schülerinnen und Schüler zum Winkelbegriff entwickeln sollen, sei u. a. auf @Krainer:1989 und @Mitchelmore:1998 verwiesen. Eine grundsätzliche Schwierigkeit beim Unterrichten von Winkeln sind diverse und (scheinbar) nicht in Verbindung zu bringende Anwendungskontexte, die dennoch über denselben mathematischen Begriff beschrieben werden können. So ist das Sichtfeld eines Tieres ebenso wie die Umdrehung eines Wasserzählers über Winkel beschreibbar -- haben doch beide Situationen zunächst nichts miteinander zu tun.
 
 Aufbauend auf den Arbeiten von @Krainer:1989 und @Mitchelmore:1998 können über eine Verknüpfung zur formalen Ebene mithilfe einer *informationstheoretischen Winkeldefinition* [@Etzold2021, {39 f..}] vier Grundvorstellungen zum Winkelbegriff ausgearbeitet bzw. validiert werden:
 
@@ -99,12 +99,12 @@ Aufbauend auf den Arbeiten von @Krainer:1989 und @Mitchelmore:1998 können über
 
 Dabei erhalten die *Bestandteile* eines Winkels (Scheitelpunkt, Schenkel, ggf. Bereich zwischen den Schenkeln, Abweichungsmaß) eine besondere Bedeutung, über die sich auch eine sinnvolle Reihenfolge der Behandlung dieser Grundvorstellungen ableiten lässt. So »bietet es sich an, mit den Winkelfeldern zu beginnen. Bei diesen werden die meisten Bestandteile sichtbar (Scheitelpunkt, beide Schenkel als Begrenzungen sowie der zwischen den Schenkeln relevante Bereich) […]. Anschließend können Knicke oder Richtungsänderungen behandelt werden, woraufhin die Umdrehungen folgen.« [@Etzold2021, 60]
 
-Die *Spezifizierung* in diesem semantischen Teil ist demnach die Ausarbeitung der Grundvorstellungen. Die Begründung einer möglichen Reihenfolge kann der *Strukturierung* des Lerngegenstands zugeordnet werden.
+Die *Spezifizierung* in diesem semantischen Teil ist demnach die Ausarbeitung der Grundvorstellungen. Die Begründung einer möglichen Reihenfolge kann der *Strukturierung* des Lerngegenstands zugeordnet werden.\index{Vier-Ebenen-Ansatz!semantische Ebene|)}
 
 
 ### Konkrete Ebene
 
-Um die einzelnen Vorstellungen zu Winkeln aufzubauen, bedarf es charakteristischer Situationen, an denen der mathematische Kern der jeweiligen Vorstellung besonders gut sichtbar wird. Abbildung \@ref(fig:Winkelsituationen) zeigt derartige *Winkelsituationen* und die zugehörigen Grundvorstellungen (hier *Winkelkontexte*).
+Um\index{Vier-Ebenen-Ansatz!konkrete Ebene|(} die einzelnen Vorstellungen zu Winkeln aufzubauen, bedarf es charakteristischer Situationen, an denen der mathematische Kern der jeweiligen Vorstellung besonders gut sichtbar wird. Abbildung \@ref(fig:Winkelsituationen) zeigt derartige *Winkelsituationen* und die zugehörigen Grundvorstellungen (hier *Winkelkontexte*).
 
 
 (ref:citeWinkelsituationen) Winkelsituationen und -kontexte [@Etzold2021, 70]
@@ -131,12 +131,12 @@ An Aufgabe 5 kann z. B. erkundet werde, dass sich das Schaf geradlinig auf der 
 knitr::include_graphics("pictures/1-Winkelfarm.png")
 ```
 
-Als *Spezifizierung* kann das Finden der Sichtfeld-Situation als charakterisches Beispiel für ein Winkelfeld angesehen werden. Die *Strukturierung* führt zum dargestellten Lernpfad und den konkreten Aufgabenstellung, über die konkrete Handlungen verallgemeinert werden und damit das mathematische Verständnis aufgebaut wird.
+Als *Spezifizierung* kann das Finden der Sichtfeld-Situation als charakterisches Beispiel für ein Winkelfeld angesehen werden. Die *Strukturierung* führt zum dargestellten Lernpfad und den konkreten Aufgabenstellung, über die konkrete Handlungen verallgemeinert werden und damit das mathematische Verständnis aufgebaut wird.\index{Vier-Ebenen-Ansatz!konkrete Ebene|(}
 
 
 ### Empirische Ebene
 
-Die zuvor beschriebene Lernumgebung wurde in mehreren Zyklen erprobt und dabei die Qualität der Handlungen der Schülerinnen und Schüler beobachtet. Ein Ziel bestand darin, dass möglichst verallgemeinerbare Handlungen (wie oben am Beispiel des Schenkels beschrieben) durchgeführt werden.
+Die\index{Vier-Ebenen-Ansatz!empirische Ebene|(} zuvor beschriebene Lernumgebung wurde in mehreren Zyklen erprobt und dabei die Qualität der Handlungen der Schülerinnen und Schüler beobachtet. Ein Ziel bestand darin, dass möglichst verallgemeinerbare Handlungen (wie oben am Beispiel des Schenkels beschrieben) durchgeführt werden.
 
 Es wird erwartet, dass die Repräsentation eines Sichtfeldes von der Draufsicht über eine semintransparent ausgemalte Teilfläche der Ebene noch nicht bekannt ist. Um diese nachzuvollziehen und mit eigenen Erfahrungen in Bezug zu bringen, wird an den Beginn der Unterrichtsstunde ein Bild des Klassenraumes in der Draufsicht präsentiert (siehe Abbildung \@ref(fig:Klassenraum)). Dann soll eine Schülerin oder ein Schüler beschreiben, was sie/er alles sieht, ohne den Kopf zu drehen. Dieser Bereich wird auf dem Bild eingezeichnet, so dass die Repräsentation des Sichtfeldes im Folgenden zur Verfügung steht.
 
@@ -155,7 +155,7 @@ knitr::include_graphics("pictures/1-WinkelfarmStart.png")
 *»Das Pferd soll auf dem Steinpflaster stehen, die Frau soll auf dem Pferd sitzen/stehen. Das Pferd guckt in Richtung der grünen Büsche, die Frau hat die Augen zu. Gleichzeitig versteckt sich die Katze unter der Kuh.«*
 
 
-Die Einführungsphase über das Klassenraumfoto folgt aus der *Spezifizierung* innerhalb der empirischen Ebene. Das Hinzufügen der freien Erkundungsphase ist dagegen der *Strukturierung* der Analyse zuzuordnen.
+Die Einführungsphase über das Klassenraumfoto folgt aus der *Spezifizierung* innerhalb der empirischen Ebene. Das Hinzufügen der freien Erkundungsphase ist dagegen der *Strukturierung* der Analyse zuzuordnen.\index{Winkel|)}\index{Vier-Ebenen-Ansatz!empirische Ebene|)}
 
 
 

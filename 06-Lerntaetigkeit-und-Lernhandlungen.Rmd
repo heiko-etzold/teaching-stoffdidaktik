@@ -1,0 +1,189 @@
+#  (PART\*) Lernprozesse gestalten {-}
+
+# Lerntätigkeit und Lernhandlungen {#lerntaetigkeit-und-lernhandlungen}
+
+> **Ziele**
+>
+> + Sie kennen Grundideen der Tätigkeitstheorie, insbesondere bezüglich Lehr-Lern-Prozesse.
+> + Sie können geeignete Lernhandlungen für Lerngegenstände formulieren.
+> + Sie kennen Möglichkeiten, wie Lernhandlungen in verschiedenen Unterrichtsphasen ausgebildet werden können.
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zu Lerntätigkeit und Lernhandlungen ([pdf](files/Stoffdidaktik-WiSe2223-Kap6.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap6.key)) -->
+
+
+
+Mit den Kapiteln \@ref(fundamentale-ideen) bis \@ref(erstes-intermezzo-flaecheninhalt) haben Sie Ansätze kennengelernt, die Fragen der `r formal("formalen")`, `r semantic("semantischen")` und `r concrete("konkreten")` Ebene des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) nach @Hussmann:2016 zu beantworten. Mit der deskriptiven Perspektive auf Grundvorstellungen kennen Sie auch schon erste Grundlagen, Fragen der `r empiric("empirischen")` Ebene zu untersuchen. Ziel bei all den Fragen war immer, **Lernpfade** für Lerngegenstände zu generieren, also den Stoff derart auszuwählen (*spezifizieren*) und anzuordnen (*strukturieren*), dass er sinnstiftend gelehrt und gelernt werden kann. 
+
+Nach einer solchen stoffdidaktischen Analyse ist nun der nächste Schritt die Planung der Unterrichtsgestaltung an sich. In der fachdidaktischen und bildungswissenschaftlichen Literatur hat sich hierfür der Begriff der **Lernumgebung** durchgesetzt -- dabei aber auch mit verschiedenen Sichtweisen wie eine »pädagogische« (z. B. angenehme Lernatmosphäre, respektvolles Miteinander), als ein »methodisch-organisatorisches Arrangement« (z. B. Gestaltung des Klassenraums) oder eben auch als »inhaltliches Verständnis«, das hier weiter verfolgt werden soll [vgl. @Krauthausen:2018 255].
+
+Nach @Leuders2015 [448] beinhalten Lernumgebungen für den Mathematikunterricht **»i) ein nach bestimmten Prinzipien geordnetes System von Aufgaben, ii) methodische Organisationsformen und iii) Stützsysteme, wie z. B. Medien, Lehrerinterventionen und Kommunikationsformen«**. Die Grundlagen für die entsprechenden Bestandteile lernten und lernen Sie v. a. in den weiteren Veranstaltungen der Fachdidaktiken und Bildungswissenschaften sowie in Ihrer schulpraktischen Ausbildung (und auch noch während Ihrer Tätigkeit als voll ausgebildete Lehrkraft). Bezogen auf stoffdidaktische Überlegungen dienen die folgenden drei Kapitel dabei noch einmal einer Schwerpunktbildung:
+
+
+* In diesem Kapitel werden zunächst allgemein Erkenntnisse über *Lehr-Lern-Prozesse* diskutiert. Dabei wird auf **tätigkeitstheoretische Grundlagen** Bezug genommen. Diese theoretische Grundlage ist dabei *eine* von vielen Möglichkeiten, Lehren und Lernen zu beschreiben und zu erklären, und wird hier aufgrund ihrer Betonung stofflicher Inhalte sowie als Forschungsschwerpunkt und in der Tradition der Potsdamer Mathematiklehrkräftebildung verwendet [siehe z. B. @Etzold2021 13]. Sie sollten natürlich offen und neugierig genug sein, sich auch anderen Theorien zu widmen und diese für Ihre Unterrichtsplanung heranzuziehen.
+
+
+
+* Von den *Medien* (zu denen ja beispielsweise auch die Tafel, Computer oder Zettel und Stift gehören -- der entsprechende Medienbegriff sollte Ihnen aus den Bildungswissenschaften bekannt sein) werden im nächsten Kapitel v. a. **Arbeitsmittel**^[In der englischsprachigen Literatur werden *Arbeitsmittel* oft als *manipulatives* bezeichnet. Dies soll nicht ausdrücken, dass diese Arbeitsmittel in irgendeiner Weise manipulierend auf die Schülerin oder den Schüler wirken, sondern dass die Schülerinnen und Schüler selbst das Arbeitsmittel verändern bzw. mit dessen Hilfe auf den Lerngegenstand einwirken [siehe auch @enwiki:1023437370].] herausgegriffen. Diese »repräsentieren mathematische Objekte und erlauben zudem Handlungen oder Operationen mit diesen Objekten« [@Schmidt-Thieme2015 {461 f.}] Im Sinne der Tätigkeitstheorie dienen sie damit als Mittler zwischen Lerngegenstand und Schülerin bzw. Schüler. Im Schulalltag wird es in der Regel Ihre Aufgabe sein, derartige Arbeitsmittel zu **analysieren**, um sie zielgerichtet auszuwählen und im Unterricht einzusetzen. 
+
+
+* Eng verbunden mit dem Einsatz von Arbeitsmitteln sind **Aufgaben**, die Sie den Schülerinnen und Schülern stellen. Aufgaben können dabei »als Aufforderung an Lernende zum mathematischen Handeln aufgefasst« werden [@Leuders2015 435]. Neben der Auswahl von Aufgaben werden Sie als Lehrkraft aber insbesondere Aufgaben **gestalten**, also selbst welche entwickeln und vorhandene Aufgaben variieren und an Ihre Lerngruppe anpassen. Maßnahmen hierzu finden sich im übernächsten Kapitel.
+<!-- , um Aufgaben zu gestalten, sind in Kapitel \@ref(aufgaben-gestalten) dargestellt. -->
+
+
+
+
+
+
+
+
+
+
+## Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
+
+Eine Grundannahme der Tätigkeitstheorie, die auf Vygotskijs psychologische Arbeiten aus den 1920er Jahren in der Sowjetunion zurück geht, ist das Verständnis, dass sich **Individuen aktiv-handelnd mit ihrer Umwelt auseinandersetzen**, **die Umwelt** dabei in der Interaktion mit der Gesellschaft **verändern**, und beide Prozesse wiederum psychisch im Individuum abgebildet werden. Dies widerspricht bspw. der *behavioristischen* Annahme, dass man sich seiner Umwelt einfach nur anpasst, aber es ist auch nicht mit einer streng *konstruktivistischen* Annahme zu verwechseln, nach der Individuen ein Abbild der Umwelt kognitiv rekonstruieren. Die Tätigkeitstheorie kann eher als »(moderat) konstruktivistische[r][..] Ansatz« bezeichnet werden [@Giest2016a 47].
+
+Zu betonen ist dabei die **beiderseitige Wirkrichtung**: Sowohl das Individuum wirkt auf die Umwelt ein (und verändert sie, es kommt zur *gesellschaftlichen Weiterentwicklung*), als auch die Umwelt auf das Individuum (was zur *Persönlichkeitsentwicklung* führt). Beide Prozesse sind dabei nicht voneinander zu trennen. Eine solche Interaktion ist von (gesellschaftlich entwickelten) Motiven geprägt und wird als ***Tätigkeit*** bezeichnet. @Giest2006 [27] formulieren: »Er [der Mensch] erschafft damit seine Kultur und zugleich die psychischen Funktionen, die ihn dazu in die Lage versetzen.« Dieses Paradoxon, dass die Tätigkeit ihre eigene Voraussetzung ist, kann aufgelöst werden, indem man zunächst kultur-historisch die gemeinschaftliche und erst dann die individuelle Tätigkeit betrachtet: »Durch (gemeinsame) Tätigkeit erfolgte die (kulturelle) Meschwerdung und über ihre individuelle Aneignung verläuft die Persönlichkeitsentwicklung« [@Giest2006, 27].
+
+Für schulische Prozesse von besonderem Interesse ist die ***Lerntätigkeit***, in der Definition nach @Giest2006 [67]:
+
+::: {.definition #Lerntaetigkeit name="Lerntätigkeit"}
+Lerntätigkeit kann man definieren als die speziell auf die Aneignung gesellschaftlichen Wissens und Könnens (Lerngegenstände) gerichtete Tätigkeit, wozu spezifische Mittel (Lernmittel) unter speziell gestalteten Bedingungen eingesetzt werden müssen. 
+:::
+
+@Giest2006 [67] führen fort: »Da die Lerngegenstände und Lernmittel kultureller Natur sind, kann Lerntätigkeit auch nur im Rahmen der Kultur, der Kooperation und Kommunikation mit denen, die über diese Kultur verfügen, angeeignet werden.« Dies betont in der Unterrichtsrealität u. a. die besondere Bedeutung und Verantwortung der Lehrkraft als wissende Person, die den Lernprozess der Schülerinnen und Schüler steuert. Dies heißt nicht, dass Unterricht lehrerzentriert gestaltet werden soll, ganz im Gegenteil: Entscheidend ist, dass die Lehrperson die Schülerinnen und Schüler dazu befähigt, sich den Lerngegenstand anzueignen, etwa indem sie geeignete Lernmittel zur Verfügung stellt und den Umgang mit ihnen schult.
+
+
+Auch unabhänging vom Lernen sind Tätigkeiten stets auf einen **Gegenstand** bezogen, können also niemals inhaltsleer erfolgen. Tätigkeiten basieren dabei auf **Motiven**, d. h. »innere Antriebe« [@Giest2006 39]. Im Kontext des Lernens sind dies insbesondere die Motive *Interesse*, *Leistung*, *Affiliation* (soziale Nähe) und *Neugierde* [@Mienert2011 57]. In der Konfrontation mit einem Gegenstand bildet das Individuum, basierend auf die Motive, **Ziele** als »ideell vorweggenommene Resultate der Tätigkeit« aus [@Giest2006 39], was zu **Handlungen** im Zusammenhang mit dem Gegenstand führt. Handlungen dienen also der (zielgerichteten) Realisierung der Tätigkeit. 
+Im Rahmen der *Lerntätigkeit* führt dies dann zu ***Lernhandlungen***. @Lompscher1983 [46] definiert:
+ 
+::: {.definition #Lernhandlung name="Lernhandlung"}
+Lernhandlungen sind relativ geschlossene und abgrenzbare, zeitlich und logisch strukturierte Abschnitte im Verlauf der Lerntätigkeit, die ein konkretes Lernziel realisieren, durch bestimmte Lernmotive angetrieben werden und entsprechend den konkreten Lernbedingungen durch den Einsatz äußerer und verinnerlichter Lernmittel in einer jeweils spezifischen Folge von Teilhandlungen vollzogen werden.
+:::
+
+
+
+## Typische Lernhandlungen
+
+Unabhängig von konkreten Lerngegenständen haben @Bruder1989 typische Lernhandlungen für den Mathematikunterricht strukturiert beschrieben [Hervorhebungen im Original, auch dargestellt bei @Feldt-Caesar2017 {87 ff.}]:
+
+### Elementare Aneignungshandlungen
+  * **Identifizieren:** »Vergleichen der aufgenommenen Informationen zu Teilen oder Eigenschaften eines Objektes mit den Merkmalen bestimmter aktualisierter Abbilder (Stoffelemente, Handlungsvorschriften ...) und Feststellung von Übereinstimmung oder Nichtübereinstimmung auf der Grundlage eines den jeweiligen Abbildungsmerkmalen entsprechenden *Idealisierens* der gegebenen Objektsituation«
+  * **Realisieren:** »*Transferieren*, Konkretisieren oder Spezialisieren eines vorgegebenen (bzw. identifizierten) Handlungsgegenstandes (Stoffelemente, Vorgehensstrategien ...) auf eine gegebene Objektsituation und *Zusammenfügen* der so erzeugten Teile zu einem neuen Ganzen«
+
+### Grundhandlungen
+  * **Erkennen:** »Ausgliedern wahrgenommener Informationen aus der Aufgabenstellung und Inbeziehungsetzen mit ausgegliederten bekannten (gespeicherten) Abbildern bzw. der neu zusammengefügten Abbilder, bis eine Übereinstimmung festgestellt wird«
+  * **Beschreiben:** »Identifizieren und Realisieren einer dem gespeicherten (oder erzeugten) Abbild adäquaten umgangssprachlichen Formulierung oder Darstellung in mathematischer Terminologie und Symbolik und Entäußerung der Informationen auf sprachlicher oder materialisierter Ebene«
+  * **Verknüpfen:** »*Transferieren* und *Zusammensetzen* von Zusammenhängen (Sätzen, Verfahren) oder Vorgehensstrategien zu einem neuen Ganzen durch Ersetzungen in der Ausgangskonstellation von Zusammenhängen«
+  * **Anwenden:** »Feststellen der Übereinstimmung von den Bedingungen der Aufgabenstellung mit der Ausgangskonstellation der zu realisierenden gegebenen (oder erzeugten) Handlungsvorschrift (Identifizieren) und ggf. Herstellen einer solchen Übereinstimmung (Transferieren)« 
+  * **Begründen:** »a) Vergleichen eines vorgegebenen Sachverhalts mit gegebenen bzw. bekannten Normativen; b) Realisieren gegebener bzw. identifizierter elementarer Beweisverfahren«
+
+### Komplexe Handlungen
+  * **Suchen:** »Ergebnis von Suchhandlungen sind zieltaugliche Mittel (Stoffelemente, Zuordnungen, Vorgehensstrategien) zur Lösung der gestellten Aufgabe – gewonnen durch mehr oder weniger bewußte Anwendung von Suchstrategien«
+  * **Planen:** »Durch Anwenden von Vorgehensstrategien wird ein Arbeitsplan mit den erforderlichen Teilschritten zur Zielrealisierung entwickelt«
+  * **Ausführen:** »Abarbeiten eines Arbeitsplanes – Handlungsvollzug auf der Grundalge der ausgebildeten Orientierungsgrundlage u.a. als Berechnen, geometrisches Darstellen, Definieren, Darstellen eines Beweises«
+  * **Kontrollieren:** »Feststellen der Zweckmäßigkeit und Exaktheit von Teilschritten des Aufgabenlösens und des Resultats (Handlungsprodukt!)«
+
+Diese Handlungen müssen nun je nach Lerngegenstand noch konkretisiert werden. Am Beispiel des Winkelfeldes in Abschnitt \@ref(konkrete-ebene) lautete eine Aufgabe für die Schülerinnen und Schüler: »Wo muss das Schaf lang laufen, damit es die gesamte Zeit gerade so von der Kuh gesehen wird?« Hierfür bewegen die Schülerinnen und Schüler in der App das Schaf entlang der Sichtfeldgrenze der Kuh, geradlinig und in Richtung der Augen der Kuh begrenzt und in die andere Richtung unbegrenzt. Sie *identifizieren und realisieren* damit das mathematische Objekt *Strahl*, gebunden am Kontext der Sichtfelder. Im Anschluss wird diese Handlung (kontextunabhängig) verallgemeinert und die Strahl-Eigenschaft des Schenkels charakterisiert. Die App als Lernmittel unterstütz diesen Prozess, indem sich die Bestandteile des Winkelfeldes ein- und ausblenden lassen sowie vom *Tiermodus* in den *Winkelfeldmodus* gewechselt werden kann.
+
+(ref:citeHandlungSchaf) Lernhandlung in der App *Winkel-Farm* [@Etzold:2019]
+
+```{r HandlungSchaf, echo=FALSE, fig.cap="(ref:citeHandlungSchaf)", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/1-Winkelfarm.png")
+```
+
+## Lernhandlungen ausbilden
+
+Lernhandlungen sind zwar notwendig, um sich einem Lerngegenstand zu nähern, müssen selbst jedoch auch erst einmal (am Lerngegenstand) ausgebildet werden. Weiterhin sollen die Lernhandlungen verinnerlicht werden, um sie in Transfersituationen anwenden und komplexere Handlungen darauf aufbauen zu können. Die Qualität der Lernhandlungen verändert sich also im Lernprozess, was sich in verschiedenen Phasen des Unterrichtsgeschehens widerspiegelt.
+
+An dieser Stelle soll auf die von @Prediger2013 [770] fomulierten (und nicht originär auf die Tätigkeitstheorie basierenden^[@Prediger2014 [83] erwähnen hier einen Zusammenhang zu *typischen Unterrichtssituationen*, die @Bruder1991, basierend auf tätigkeitstheoretischen Grundlagen, formuliert.]) vier ***Kernprozesse*** einer Unterrichtssequenz zurückgegriffen werden, die auch den Aufbau der *Mathewerkstatt* [@Barzel2012] leiten:
+
+* Kernprozess des **Anknüpfens** an Vorerfahrungen und Interessen
+* Kernprozess des **Erkundens** neuer Zusammenhänge
+* Kernprozess des **Ordnens** als Systematisieren und Sichern
+* Kernprozess des **Vertiefens** durch Üben und Wiederholen.
+
+
+Im Folgenden wird dargestellt, wie einzelne aus der Tätigkeitstheorie stammenden Aspekte zur Ausbildung von Lernhandlungen helfen können, die Kernprozesse, auch unter der stoffdidaktischen Perspektive des Vier-Ebenen-Ansatzes, zu unterstützen. Während die Kernprozesse im Unterricht relativ klar voneinander getrennt werden sollten (weil sie unterschiedliche Funktionen verfolgen), wirken die Theorieelemente teils prozessübergreifend, was sich in den folgenden Überschriften widerspiegelt.
+
+
+
+### Anknüpfen {#anknuepfen}
+
+Die Schülerinnen und Schüler müssen zunächst in die Lage versetzt werden, sich mit dem Lerngegenstand auseinandersetzen zu *wollen*. Hierzu ist es hilfreich, die Anforderungssituation in der **Zone der nächsten Entwicklung** der Schülerinnen und Schüler zu präsentieren. Dabei handelt es sich um eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihrer bisherigen Kenntnisse, Fähigkeiten und Fertigkeiten verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht selbstständig in der Lage sind. Somit wird eine Motivation geschaffen, sich mit der Thematik tiefer auseinanderzusetzen. Es ist durchaus möglich, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen. Daran ist besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« [@Lompscher1996 4].
+
+Anschließend werden gemeinsam mit der Lehrkraft die **Lernziele** herausgearbeitet, die den weiteren Verlauf des Lernens strukturieren sollen. Wichtig ist hier eine Unterscheidung zu *Lehrzielen*, die die Sicht der Lehrkraft widerspiegeln. *Lernziele* dagegen sind die Ziele aus Sicht der Schülerinnen und Schüler, auf die sich im individuellen Lernprozess auch bezogen werden können muss. Es bietet sich daher auch eine explizite Formulierung der Lernziele an.
+
+In dieser ersten Phase der Ausbildung von Lernhandlungen sollte gemäß Kapitel \@ref(kernideen-kernfragen-kontexte) auf einen geeigneten **Kontext** zurückgegriffen werden, um den Lerngegenstand zu motivieren, und die **Kernideen bzw. Kernfragen** sollten leitend für die Fomulierung der Lernziele sein.
+
+Sowohl in der Anforderungssituation als auch in der Formulierung der Lernziele zeigt sich erneut die **Bedeutung der Lehrkaft**: Sie ist diejenige, die die Schülerinnen und Schüler in die Lage versetzen kann, sich dem Lerngegenstand zu nähern. Das heißt insbesondere auch, dass ein *Ostereiersuchen* vermieden werden muss (bei dem die Schülerinnen und Schüler z. B. so lange raten, um was es denn heute gehen könnte, bis sie die richtige Antwort gefunden haben), sondern die Lehrkraft *instruiert* (persönlich oder durch geeignete Aufgabenstellungen) unter Berücksichtigung der individuellen Voraussetzungen der Schülerinnen und Schüler einen ersten Zugang zum Lerngegenstand. Im Sinne der tätigkeitstheoretischen Grundlagen ist die Lehrkraft damit ein Vertreter des gesellschaftlichen Wissens und Könnens, das sich die Schülerinnen und Schüler als Kenntnisse, Fähigkeiten und Fertigkeiten aneignen werden.
+
+### Anknüpfen/Erkunden {#anknuepfen-erkunden}
+
+Mit der Anforderungssituation geht ad hoc eine Orientierung der Schülerinnen und Schüler bezüglich der Einwirkung auf den Lerngegenstand einher. Dies erfolgt noch, bevor überhaupt Lernhandlungen ausgeführt werden (also noch vor dem *Erkunden*), es handelt sich also um eine rein kognitive Dimension. Dabei wird in drei Qualitäten von Orientierungsgrundlagen unterschieden [als Zitate gekennzeichnete Formulierungen sind entnommen aus @Feldt-Caesar2017 {83 ff.}]:
+
+* **Probierorientierung:** Die Schülerinnen und Schüler verfügen noch nicht über für die Anforderung nötigen Kenntnisse, Fähigkeiten oder Fertigkeiten. Stattdessen gehen sie nach Versuch und Irrtum vor. Dabei fehlt ihnen »häufig die Einsicht, warum eine bestimmte Handlung zum Erfolg geführt hat, eine andere jedoch nicht. […] Aufgrund der mangelnden Einsicht in die wirklichen Bedingungen der Handlungen ist eine erfolgreiche Handlung nicht notwendigerweise reproduzierbar.« Dies führt dazu, dass erfolgreiche Handlungen kaum auf veränderte Situationen übertragen werden können. Eine derartige Orientierung ist also höchstens »in Aneignungsprozessen zu einem Explorieren des neuen Inhaltsbereichs« wünschenswert, darüber hinaus jedoch sollten höhere Orientierungsgrundlagen angestrebt werden.
+
+* **Musterorientierung:** Die Schülerinnen und Schüler gehen nun nicht mehr nach Versuch und Irrtum vor, sonderen orientieren sich an bereits erfolgreich durchgeführten Handlungen in ähnlichen Anforderungssituationen -- die sozusagen als Muster dienen. 
+»Dieser Orientierungstyp ist nur dann erfolgreich, wenn die gegebene Anforderungssituation dem erlernten Muster ähnlich genug ist, um eine Passung zu ermöglichen. Tragfähig ist ein Muster nur dann, wenn seine Handlungsbedingungen genau gekannt und stets geprüft werden.« 
+Es handelt sich also zwar um eine vollständige Orientierungsgrundlage, jedoch ist eine Transferierbarkeit nicht immer gegeben. Auch kann die »fälschliche Erkennung eines Musters in einer gegebenen Anforderungssituation« zu einer fehlerhaften Übertragung führen.
+
+* **Feldorientierung:** Die Schülerinnen und Schüler sind nun »nicht an eine konkrete Anforderungssituation gebunden, sondern beziehen sich vielmehr auf ganze Anforderungsklassen. Durch das Erkennen der Passung einer solchen Anforderungsklasse kann sich der Lernende für konkrete Situationen selbst eine Orientierung schaffen. Er verfügt über einen gewissen Überblick über die Situation und ist in der Lage zu differenzieren, welche Stoffelemente und welche seiner Kenntnisse, Fähigkeiten und Fertigkeiten ihm bei der Bewältigung der Anforderung weiterhelfen können und welche nicht.«
+<!-- Galperin spricht davon, dass bei diesem Typ von Orientierung nicht nur die Handlungen selbst einsichtig sind, sondern auch ihre Bedingungen (Galperin, 1973, S. 113). Aufgrund des hohen Maßes an Übertragbarkeit ist eine Feldorientierung insbesondere für Kenntnisse, Fähigkeiten und Fertigkeiten, die in den Bereich von Mindeststandards fallen, von Bedeutung: -->
+<!-- „Feldorientierung gilt als erstrebenswert für solche Lerninhalte, die für erfolgreiches Weiterlernen unabdingbar sind.“ (Richter & Bruder, 2016, S. 193, Hervorh. im Original) -->
+
+Insbesondere für bedeutsame Lerngegenstände im Mindeststandardbereich ist eine Feldorientierung wünschenswert. Unterstützt werden kann dies etwa durch **reichhaltige Kontexte** und die **Vorschauperspektive der Kernideen/Kernfrage**, so dass sich die Schülerinnen und Schüler darauf einlassen können, nun ein gesamtes Feld zu erschließen. Auch das **Explizitmachen fundamentaler Ideen**^[Dies ist eine Adaption eines bei @Reitz-Koncebovski2018 [182] dargestellten Gestaltprinzips fachwissenschaftlicher Lehrveranstaltungen in der Lehramtsausbildung.] hilft für eine derartige Einordnung. Die Orientierungsgrundlage bietet damit eine wichtige Basis für die auszubildenden Handlungen und die Organisation der Handlungsausführung.
+
+Vor allem bei der Gestaltung von Aufgabenstellungen ist es relevant, welche Orientierungsgrundlagen mit diesen angesprochen werden können, siehe dazu auch Kapitel \@ref(aufgabengestaltung).
+
+
+### Erkunden/Ordnen/Vertiefen {#erkunden-ordnen-vertiefen}
+
+Nach dem Orientierungsteil kommt es zum Ausführungsteil der Lernhandlungen. Hierfür schlägt Gal'perin eine »etappenweise Interiorisierung« von Lernhandlungen vor [vgl. @Lompscher1983a {66 f.}]:
+
+* **Etappe der materiellen bzw. materialisierten Handlung**: Die Handlungen werden mit konkretem Material bzw. (z. B. auch digitalen) Repräsentationen des Lerngegenstands durchgeführt. Hierfür sind geeignete Materialien notwendig, in Definition \@ref(def:Lernhandlung) als *Lernmittel* und in der Mathematikdidaktik i. d. R. als *Arbeitsmittel* bezeichnet (siehe Kapitel \@ref(arbeitsmittel)).
+
+* **Etappe der sprachlichen Handlung**: Die Handlungen werden nicht mehr direkt durchgeführt, aber durch äußeres (oder inneres) Sprechen beschrieben. Dabei wird i. d. R. Bezug auf die vorherigen Handlungen genommen.
+
+* **Etappe der geistigen Handlung**: Die Handlungen werden nun rein kognitiv durchgeführt und bedürfen weder des Materials noch der Sprache.
+
+Letztlich dienen diese Etappen dazu, die Lernhandlungen (und damit auch den Lerngegenstand, an dem diese Handlungen durchgeführt werden) psychisch abbilden zu können, was zu »Verallgemeinerung, Verkürzung und Beherrschung« der Handlungen führt [@Steinhofel1988 19]. Dieses Vorgehen unterstützt übrigens auch dabei, **Grundvorstellungen aufzubauen**. So stellen bspw. @Wartha2011 [11] ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert, siehe Abbildung \@ref(fig:GVVerinnerlichen).
+
+(ref:citeGVVerinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11]
+
+```{r GVVerinnerlichen, echo=FALSE, fig.cap="(ref:citeGVVerinnerlichen)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/6-GVverinnerlichen.png")
+```
+
+@Steinhofel1988 stellen  (für die zur Zeit der Publikation) typische Unterrichtssituationen dar und nennen hierzu einige Möglichkeiten zur etappenweise Verinnerlichungen von Lernhandlungen im Mathematikunterricht, siehe Abbildung \@ref(fig:Etappen).
+
+(ref:citeEtappen) Beispiele zur etappenweisen Verinnerlichung von Handlungen im Mathematikunterricht nach @Steinhofel1988 [19]
+
+```{r Etappen, echo=FALSE, fig.cap="(ref:citeEtappen)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/6-Etappen.png")
+```
+
+
+### Ordnen/Vertiefen
+
+Die Handlungsausführung sollte stets von einer **Handlungskontrolle** begleitet werden. Das bedeutet, dass die Schülerinnnen und Schüler eine bewusste Beziehung herstellen zwischen ihren (erreichten oder zu erreichenden) Handlungsergebnissen, den eingesetzten Lernmitteln sowie deren Bedingungen und der eigenen Handlungsausführung. 
+Die Handlungskontrolle ist dabei eine *Selbstkontrolle* und muss dementsprechend auch erst einmal ausgebildet werden. Folgende methodischen Maßnahmen scheinen hierfür hilfreich zu sein:
+
+* Ein Abgleich mit den zu erreichenden Handlungsergebnissen ist nur möglich, wenn im Vorfeld eine Zielklarheit besteht. Es ist daher zu empfehlen, die **Lernziele** (siehe \@ref(anknuepfen)) **explizit zu formulieren und auch festzuhalten**. 
+* Durch das **Anfertigen eines Lernprotokolls** [vgl. @Bruder2011] erhalten die Schülerinnen und Schüler eine Möglichkeit, ihre eigenen Lernhandlungen zu dokumentieren und nachzuvollziehen. Insbesondere kann in diesem auch ohne jeglichen Bewertungsdruck dargestellt werden, wo man selbst als Schülerin oder Schüler noch Lücken sieht bzw. was man noch nicht verstanden hat.  
+
+* Als weitere effektive Maßnahme in der Ausbildung der Handlungskontrolle hat sich die **gegenseitige Kontrolle der Schülerinnen und Schüler** als hilfreich herausgestellt. »Es läßt sich zunächst beim Partner leichter feststellen als bei sich selbst, inwieweit ein Handlungsergebnis bestimmten Zielkriterien entspricht, die Handlungsausführung anforderungs- und regelgerecht erfolgt, wo Abweichungen und Fehler liegen und worin die Ursachen dafür bestehen können« [Lompscher1983a 72]. Durch Verinnerlichung dieses Vorgehens kann dann schrittweise auch eine Selbstkontrolle erfolgen.
+
+Die dargestellten Beispiele greifen mit dem Abgleich zwischen Handlungsergebnissen und -zielen auch die **Rückschauperspektive der Kernideen/Kernfragen** auf. Die Handlungskontrolle befähigt damit die Schülerinnen und Schüler langfristig dazu, eine Feldorientierung über den Lerngegenstand zu erlangen. 
+
+
+## Zum Nachbereiten {#lerntaetigkeit-nachbereitung}
+
+1. Formulieren Sie eine Anforderungssituation in der Zone der nächsten Entwicklung am Beispiel der Vierecksarten und stellen Sie dar, inwieweit diese zwar verstanden und nachvollzogen, aber noch nicht selbstständig gelöst werden kann.
+
+2. Konkretisieren Sie einige der für den Mathematikunterricht typischen Lernhandlungen (siehe Abschnitt \@ref(typische-lernhandlungen)) am Lerngegenstand *Vierecksarten*.
+
+3. Beschreiben Sie Möglichkeiten zur etappenweisen Verinnerlichung der bei 2. dargestellten Lernhandlungen.
+
+
