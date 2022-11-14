@@ -41,7 +41,7 @@ Bei der Entwicklung oder Auswahl eines Lernmodells ist es für Sie als Lehrkraft
 Als Definition für Arbeitsmittel, die sowohl mathematikdidaktische als auch tätigkeitstheoretische Bezüge aufgreift, wird im Folgenden gewählt:
 
 ::: {.definition #Arbeitsmittel name="Arbeitsmittel"}
-Ein Arbeitsmittel ist eine **materielle oder materialisierte^[Damit sind auch Abbildungen, Strukturdiagramme oder Apps eingeschlossen.] sowie auch operierbare Repräsentation** eines Lerngegenstandes. Damit muss ein Arbeitsmittel folgende Bedingungen erfüllen:  
+Ein Arbeitsmittel ist eine **materielle oder materialisierte^[Damit sind auch Abbildungen, Strukturdiagramme oder Apps eingeschlossen.] sowie operierbare Repräsentation** eines Lerngegenstands für die Hand der Schülerinnen und Schüler. Damit muss ein Arbeitsmittel folgende Bedingungen erfüllen:  
 
 * Es enthält kontextübergreifend die dem Wesen des Lerngegenstands entsprechenden Merkmale und Relationen **(Abstraktheit)**.
 * Es macht die dem Lerngegenstand zugrundeliegende Struktur der Wahrnehmung und Vorstellung zugänglich **(Anschaulichkeit)**.
