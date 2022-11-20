@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  16 NOV 2022 21:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  20 NOV 2022 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2830,16 +2830,17 @@ chapter 6.
 File: pictures/1-Winkelfarm.png Graphic file (type bmp)
 <pictures/1-Winkelfarm.png>
 [61] [62] [63]
-Underfull \hbox (badness 1354) in paragraph at lines 1666--1667
+Underfull \hbox (badness 1354) in paragraph at lines 1674--1675
 \TU/LibertinusSerif(0)/m/n/10.95 Nach dem Orientierungsteil kommt es zum Ausfüh
 rungsteil der Lernhandlungen. Hier-
  []
 
 File: pictures/6-GVverinnerlichen.png Graphic file (type bmp)
 <pictures/6-GVverinnerlichen.png>
+[64]
 File: pictures/6-Etappen.png Graphic file (type bmp)
 <pictures/6-Etappen.png>
-[64] [65] [66]
+[65] [66]
 chapter 7.
 File: pictures/7-SubjektObjekt.png Graphic file (type bmp)
 <pictures/7-SubjektObjekt.png>
@@ -2848,7 +2849,7 @@ File: pictures/7-SubjektObjekt.png Graphic file (type bmp)
 
 ] [68]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 8.76pt on input line 1793.
+(Font)              scaled to size 8.76pt on input line 1801.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2856,7 +2857,7 @@ ibertinusSerif-Bold.otf
 File: pictures/7-ACAT.png Graphic file (type bmp)
 <pictures/7-ACAT.png>
 [69] [70] [71]
-Underfull \hbox (badness 2744) in paragraph at lines 1870--1871
+Underfull \hbox (badness 2744) in paragraph at lines 1878--1879
 []\TU/LibertinusSerif(0)/b/n/10.95 Operationen \TU/LibertinusSerif(0)/m/n/10.95
  sind zur Handlungsausführung notwendige Interaktionen, die
  []
@@ -2887,7 +2888,7 @@ File: pictures/8-ProzentSchulbuch.jpg Graphic file (type bmp)
 File: pictures/8-Schwierig.png Graphic file (type bmp)
 <pictures/8-Schwierig.png>
 
-LaTeX Warning: Float too large for page by 38.1753pt on input line 2168.
+LaTeX Warning: Float too large for page by 38.1753pt on input line 2176.
 
 [82] [83] [84]
 File: pictures/8-Aufgabenorientierung.png Graphic file (type bmp)
@@ -2936,7 +2937,7 @@ chapter A.
 ]
 chapter B.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 2310.
+(Font)              scaled to size 6.57pt on input line 2318.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L

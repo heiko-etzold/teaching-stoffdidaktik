@@ -7,10 +7,10 @@
 > + Sie kennen Grundideen der Tätigkeitstheorie, insbesondere bezüglich Lehr-Lern-Prozesse.
 > + Sie können geeignete Lernhandlungen für Lerngegenstände formulieren.
 > + Sie kennen Möglichkeiten, wie Lernhandlungen in verschiedenen Unterrichtsphasen ausgebildet werden können.
-<!-- > -->
-<!-- > **Material** -->
-<!-- > -->
-<!-- > + Folien zur Vorlesung zu Lerntätigkeit und Lernhandlungen ([pdf](files/Stoffdidaktik-WiSe2223-Kap6.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap6.key)) -->
+>
+> **Material**
+>
+> + Folien zur Vorlesung zu Lerntätigkeit und Lernhandlungen ([pdf](files/Stoffdidaktik-WiSe2223-Kap6.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap6.key))
 
 
 
@@ -125,7 +125,7 @@ Mit der Anforderungssituation geht ad hoc eine Orientierung der Schülerinnen un
 
 * **Probierorientierung:** Die Schülerinnen und Schüler verfügen noch nicht über für die Anforderung nötigen Kenntnisse, Fähigkeiten oder Fertigkeiten. Stattdessen gehen sie nach Versuch und Irrtum vor. Dabei fehlt ihnen »häufig die Einsicht, warum eine bestimmte Handlung zum Erfolg geführt hat, eine andere jedoch nicht. […] Aufgrund der mangelnden Einsicht in die wirklichen Bedingungen der Handlungen ist eine erfolgreiche Handlung nicht notwendigerweise reproduzierbar.« Dies führt dazu, dass erfolgreiche Handlungen kaum auf veränderte Situationen übertragen werden können. Eine derartige Orientierung ist also höchstens »in Aneignungsprozessen zu einem Explorieren des neuen Inhaltsbereichs« wünschenswert, darüber hinaus jedoch sollten höhere Orientierungsgrundlagen angestrebt werden.
 
-* **Musterorientierung:** Die Schülerinnen und Schüler gehen nun nicht mehr nach Versuch und Irrtum vor, sonderen orientieren sich an bereits erfolgreich durchgeführten Handlungen in ähnlichen Anforderungssituationen -- die sozusagen als Muster dienen. 
+* **Musterorientierung:** Die Schülerinnen und Schüler gehen nun nicht mehr nach Versuch und Irrtum vor, sondern orientieren sich an bereits erfolgreich durchgeführten Handlungen in ähnlichen Anforderungssituationen -- die sozusagen als Muster dienen. 
 »Dieser Orientierungstyp ist nur dann erfolgreich, wenn die gegebene Anforderungssituation dem erlernten Muster ähnlich genug ist, um eine Passung zu ermöglichen. Tragfähig ist ein Muster nur dann, wenn seine Handlungsbedingungen genau gekannt und stets geprüft werden.« 
 Es handelt sich also zwar um eine vollständige Orientierungsgrundlage, jedoch ist eine Transferierbarkeit nicht immer gegeben. Auch kann die »fälschliche Erkennung eines Musters in einer gegebenen Anforderungssituation« zu einer fehlerhaften Übertragung führen.
 
