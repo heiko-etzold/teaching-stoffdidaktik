@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  20 NOV 2022 10:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  28 NOV 2022 21:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2849,15 +2849,16 @@ File: pictures/7-SubjektObjekt.png Graphic file (type bmp)
 
 ] [68]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 8.76pt on input line 1801.
+(Font)              scaled to size 8.76pt on input line 1809.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
+[69]
 File: pictures/7-ACAT.png Graphic file (type bmp)
 <pictures/7-ACAT.png>
-[69] [70] [71]
-Underfull \hbox (badness 2744) in paragraph at lines 1878--1879
+[70] [71]
+Underfull \hbox (badness 2744) in paragraph at lines 1886--1887
 []\TU/LibertinusSerif(0)/b/n/10.95 Operationen \TU/LibertinusSerif(0)/m/n/10.95
  sind zur Handlungsausführung notwendige Interaktionen, die
  []
@@ -2865,14 +2866,14 @@ Underfull \hbox (badness 2744) in paragraph at lines 1878--1879
 [72]
 File: pictures/7-ACATAnalyse.png Graphic file (type bmp)
 <pictures/7-ACATAnalyse.png>
-[73] [74]
+[73] [74] [75] [76
+
+
+]
 chapter 8.
 File: pictures/8-ProzentErkunden.png Graphic file (type bmp)
 <pictures/8-ProzentErkunden.png>
-[75
-
-
-] [76]
+[77] [78]
 File: pictures/8-ProzentSammeln.png Graphic file (type bmp)
 <pictures/8-ProzentSammeln.png>
 File: pictures/8-ProzentUeben.png Graphic file (type bmp)
@@ -2881,68 +2882,68 @@ File: pictures/8-ProzentVertiefen.png Graphic file (type bmp)
 <pictures/8-ProzentVertiefen.png>
 File: pictures/8-ProzentLeisten.png Graphic file (type bmp)
 <pictures/8-ProzentLeisten.png>
-[77] [78] [79]
+[79] [80] [81]
 File: pictures/8-ProzentSchulbuch.jpg Graphic file (type bmp)
 <pictures/8-ProzentSchulbuch.jpg>
-[80] [81]
+[82] [83]
 File: pictures/8-Schwierig.png Graphic file (type bmp)
 <pictures/8-Schwierig.png>
 
-LaTeX Warning: Float too large for page by 38.1753pt on input line 2176.
+LaTeX Warning: Float too large for page by 38.1753pt on input line 2184.
 
-[82] [83] [84]
+[84] [85] [86]
 File: pictures/8-Aufgabenorientierung.png Graphic file (type bmp)
 <pictures/8-Aufgabenorientierung.png>
-[85] [86]
+[87] [88]
 chapter 9.
-[87
+[89
 
 
-] [88
+] [90
 
 
-] [89] [90]
+] [91] [92]
 chapter 10.
-[91
+[93
 
 
-] [92
+] [94
 
 
 ]
 chapter 11.
-[93] [94
-
-
-]
-chapter 12.
 [95] [96
 
 
 ]
-chapter 13.
+chapter 12.
 [97] [98
 
 
 ]
-chapter 14.
+chapter 13.
 [99] [100
 
 
 ]
-chapter A.
+chapter 14.
 [101] [102
+
+
+]
+chapter A.
+[103] [104
 
 
 ]
 chapter B.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 2318.
+(Font)              scaled to size 6.57pt on input line 2326.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
-[103] [104] [105] [106] [107] [108] [109] [110
+[105] [106] [107] [108] [109] [110] [111] [112
 
 
 ]
@@ -2954,7 +2955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 /10.95 siehe[] \TU/LibertinusSerif(0)/m/n/10.95 Vier-Ebenen-
  []
 
-[111
+[113
 
 
 
@@ -2970,7 +2971,7 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  111i,9n,137p,10647b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Stoffdidaktik2022-Etzold.pdf (111 pages).
+Output written on Stoffdidaktik2022-Etzold.pdf (113 pages).
 
 ! This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
 ! Scanning input file Stoffdidaktik2022-Etzold.idx....done (64 entries accepted, 0 rejected).
