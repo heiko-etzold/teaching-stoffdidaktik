@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  28 NOV 2022 21:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  3 DEC 2022 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2871,25 +2871,26 @@ File: pictures/7-ACATAnalyse.png Graphic file (type bmp)
 
 ]
 chapter 8.
+[77]
 File: pictures/8-ProzentErkunden.png Graphic file (type bmp)
 <pictures/8-ProzentErkunden.png>
-[77] [78]
 File: pictures/8-ProzentSammeln.png Graphic file (type bmp)
 <pictures/8-ProzentSammeln.png>
 File: pictures/8-ProzentUeben.png Graphic file (type bmp)
 <pictures/8-ProzentUeben.png>
+[78]
 File: pictures/8-ProzentVertiefen.png Graphic file (type bmp)
 <pictures/8-ProzentVertiefen.png>
 File: pictures/8-ProzentLeisten.png Graphic file (type bmp)
 <pictures/8-ProzentLeisten.png>
-[79] [80] [81]
+[79] [80]
 File: pictures/8-ProzentSchulbuch.jpg Graphic file (type bmp)
 <pictures/8-ProzentSchulbuch.jpg>
-[82] [83]
+[81] [82] [83]
 File: pictures/8-Schwierig.png Graphic file (type bmp)
 <pictures/8-Schwierig.png>
 
-LaTeX Warning: Float too large for page by 38.1753pt on input line 2184.
+LaTeX Warning: Float too large for page by 38.1753pt on input line 2192.
 
 [84] [85] [86]
 File: pictures/8-Aufgabenorientierung.png Graphic file (type bmp)
@@ -2938,7 +2939,7 @@ chapter A.
 ]
 chapter B.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 2326.
+(Font)              scaled to size 6.57pt on input line 2334.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
