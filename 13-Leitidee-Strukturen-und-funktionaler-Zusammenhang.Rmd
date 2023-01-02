@@ -1,40 +1,67 @@
 # Leitidee Strukturen und funktionaler Zusammenhang
 
-<!-- > **Bedeutsame Lerngegenstände** -->
-<!-- >  -->
-<!-- > - Zuordnungsbegriff -->
-<!-- > - Proportionalität -->
-<!-- > - Gleichungen und Ungleichungen -->
-<!-- > - Terme und Variablen -->
-<!-- > - Funktionsbegriff -->
-<!-- > - verschiedene Funktionsklassen (linear, quadratisch, trigonometrisch, …) -->
-<!-- > - Parametereinfluss -->
-<!-- > - Gleichungssysteme -->
-<!-- > - Folgen und Grenzwerte -->
-<!-- > - Ableitung -->
-<!-- > - Integral -->
-<!-- > - Zufallsgröße -->
-<!-- > - Wahrscheinlichkeitsverteilung -->
-<!-- >   -->
-<!-- > **Literaturempfehlungen**   -->
-<!-- >  -->
-<!-- > - @Greefrath2016: *Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe*  -->
-<!-- > - @Danckwerts2010: *Analysis verständlich unterrichten*   -->
-<!-- > - @Tietze:2000a: *Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis* -->
+
+> **Literaturempfehlungen**
+>
+> - @Greefrath2016: *Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe*
+> - @Danckwerts2010: *Analysis verständlich unterrichten*
+> - @Weigand2022: *Didaktik der Algebra: nach der Vorlage von Hans-Joachim Vollrath*
+> - @Tietze:2000a: *Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis*
 
 
-<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-funktionaler-zusammenhang} -->
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-funktionaler-zusammenhang}
+
+Dokument | Bezeichnung der Leitidee 
+:----|:----
+Bildungsstandards Primarbereich (2005) | Muster und Strukturen
+Bildungsstandards Primarbereich (2022) | Muster, Strukturen, funktionaler Zusammenhang^[Die Leitidee dient hier als Hintergrund-Leitidee hinter den anderen, vgl. @SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a [6].]
+Bildungsstandards Mittlerer Schulabschluss (2004) | Funktionaler Zusammenhang
+Bildungsstandards Erster und Mittlerer Schulabschluss (2022) | Strukturen und funktionaler Zusammenhang
+Rahmenlehrplan Brandenburg, Jahrgangsstufen 1 -- 10 | Gleichungen und Funktionen
+Bildungsstandards Allgemeine Hochschulreife (2012) | Funktionaler Zusammenhang
+Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Funktionaler Zusammenhang
+
+Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Strukturen und funktionaler Zusammenhang
 
 
-<!-- In den Bildungsstandards für die Primarstufe lautet diese Leitidee »Muster und Strukturen« [@KMK2005 {10 f.}], im Brandenburgischen Rahmenlehrplan wird sie als »Gleichungen und Funktionen« bezeichnet [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a 9]. -->
+Abbildung \@ref(fig:KonzeptFunktionen) zeigt das vom @LISUMd für die Jahrgangsstufen 1 -- 10 herausgegebene Konzeptbild zur Leitidee Strukturen und Funktionaler Zusammenhang, ergänzt durch einen didaktischen Kommentar von @Kortenkampa und Materialien zur Diagnose und Förderung [@LISUMc].
 
-<!-- Das @LISUMd hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptFunktionen)), ergänzt durch einen didaktischen Kommentar von @Kortenkampa und Materialien zur Diagnose und Förderung [@LISUMc]. -->
+(ref:citeKonzeptFunktionen) Konzeptbild zur Leitidee *Gleichungen und Funktionen* [@LISUMd]
 
-<!-- (ref:citeKonzeptFunktionen) Konzeptbild zur Leitidee *Gleichungen und Funktionen* [@LISUMd] -->
+```{r KonzeptFunktionen, echo=FALSE, fig.cap="(ref:citeKonzeptFunktionen)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/13-KonzeptFunktion.png")
+```
 
-<!-- ```{r KonzeptFunktionen, echo=FALSE, fig.cap="(ref:citeKonzeptFunktionen)", fig.align='center', out.width='90%'} -->
-<!-- knitr::include_graphics("pictures/D-KonzeptFunktion.png") -->
-<!-- ```   -->
+Daraus sowie mit den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022 {18 f.}; @KMK:2012 {20}] können folgende Lerngegenstände als bedeutsam angesehen werden:
+
+
+> **Bedeutsame Lerngegenstände**
+>
+> - Variablen
+> - Terme
+> - Wachstumsprozesse
+> - Maßstäbe
+> - Darstellungformen funktionaler Zusammenhänge  (sprachlich, tabellarisch, grafisch, algebraisch) 
+> - proportionalen und antiproportionalen Zuordnungen, Dreisatz
+> - lineare und quadratische Gleichungen
+> - lineare Gleichungssysteme
+> - Lösbarkeit und der Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen
+> - Merkmale von Funktionen aus Funktionsterm, Graph und Wertetabelle
+> - lineare Funktionen
+> - quadratische Funktionen
+> - Exponentialfunktionen
+> - Logarithmusfunktion
+> - Sinusfunktion
+> - Verknüpfungen und Verkettungen von Funktionen
+> - Ableitung und Ableitungsfunktion
+> - Ableitungsregeln
+> - Monotonie und Extrema
+> - Bestimmtes Integral
+> - Hauptsatz der Differenzial- und Integralrechnung
+> - Stammfunktionen 
+> - Zufallsgrößen und Wahrscheinlichkeitsverteilungen
+
+
 
 
 

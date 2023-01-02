@@ -1,0 +1,66 @@
+#  (APPENDIX) Anhang {-}
+
+# Seminar und Hausarbeit
+
+
+## Hausarbeit
+
+### Aufgabenstellung
+
+Erstellen Sie eine **ausführliche stoffdidaktische** Analyse zu einem bestimmten Lerngegenstand. Das heißt konkret:
+
+* Beantworten Sie inhaltlich die Fragen der **formalen, semantischen und konkreten Ebene** des Vier-Ebenen-Ansatzes. Es ist jedoch nicht notwendig, die Fragen einzeln »abzuarbeiten« – vielmehr geht es darum, dass Sie in Ihrer Darstellung deutlich machen, all die verschiedenen Punkte beachtet zu haben. Sie können natürlich auch Schwerpunkte legen und müssen nicht alle Fragen in gleicher Qualität bzw. Quantität beantworten. 
+* Nutzen Sie für Ihre Analyse **geeignete fachmathematische und fachdidaktische Literatur sowie ggf. auch Schulbücher**. Sie müssen die einzelnen Ebenen nicht zwingend getrennt betrachten, können dies aber, wenn es sich anbietet (z. B. ist es häufig sinnvoll, die konkrete Ebene im Anschluss an die formale und semantische zu betrachten).
+* Als Ergebnis der Analyse soll ein möglicher **Lernpfad** stehen, anhand dessen der Lerngegenstand im Unterricht behandelt werden kann. Es ist also insbesondere auch möglich, einen bereits existierenden Lernpfad (z. B. aus einem Schulbuch oder einer fachdidaktischen Literatur) zu nutzen und diesen mittels der stoffdidaktischen Analyse zu begründen (bzw. ggf. Änderungen vorzuschlagen).
+* Gehen Sie im Rahmen Ihrer Entwicklung des Lernpfades auf **einen der folgenden Punkte** besonders ein (wenden Sie also die in der Vorlesung vermittelte Theorie auf Ihren Lerngegenstand an):
+    * Analyse des Lerngegenstands auf der empirischen Ebene
+    * Psychologische Grundlagen zur Vermittlung des Lerngegenstands
+    * Nutzung von Arbeitsmitteln
+    * Gestaltung von Aufgaben
+    
+  Es ist auch möglich, einen anderen Schwerpunkt zu wählen (z. B. angelehnt an die Inhalte der Einführung in die Mathematikdidaktik). Sprechen Sie diesen aber bitte im Vorfeld mit der prüfenden Person ab.
+
+### Bewertungskriterien
+
+**Ausreichende Leistung (4,0):** Die Analyse der formalen, semantischen und konkreten Ebene ist erkennbar und fachlich im Wesentlichen korrekt. Es wird geeignete Literatur verwendet. Einer der Schwerpunkte wird aufgegriffen.
+
+**Befriedigende Leistung (3,0):** Zusätzlich: Die Analyse auf der formalen, semantischen und konkreten Ebene wird vollständig durchgeführt. Die Literatur wird korrekt und einheitlich zitiert. Der Schwerpunkt wird ausführlich am gewählten Lerngegenstand dargestellt.
+
+**Gute Leistung (2,0):** Zusätzlich: Die Analyse wird sprachlich überzeugend dargestellt und es wird sinnvoll logisch argumentiert. Inhaltlich werden geeignete Querbezüge hergestellt, z. B. zu anderen Lerngegenständen, fachmathematischen Inhalten bzw. zu weiteren (fach-)didaktischen, pädagogischen oder lernpsychologischen Theorien.
+
+**Sehr gute Leistung (1,0):** Die Arbeit übertrifft bei Weitem die vorherigen Anforderungen, z. B. wird auf mehrere Schwerpunkte eingegangen oder es wird anderweitig eine besonders kreative Leistung sichtbar.
+
+Entsprechende Abstufungen (+/-- 0,3) sind möglich.
+
+
+### Formale Hinweise
+
+* Die Hausarbeit soll **6 bis 8 Textseiten** beinhalten (ohne Deckblatt, Inhaltsverzeichnis, Literaturverzeichnis, Anhang, …), wobei natürlich geeignete Abbildungen in den 6 bis 8 Seiten enthalten sein können.
+* Es ist angedacht, die Hausarbeit **im Nachgang den anderen Studierenden zur Verfügung zu stellen** -- gern auch im Anschluss an eine freiwillige Überarbeitung nach erhaltenen Rückmeldungen. Für die weitere Verwendung Ihrer Arbeit beachten Sie bitte:
+    * Nummerieren Sie Ihre Seiten durch, so dass die auf dem Blatt stehende Seitenzahl auch der Seitenzahl der pdf-Datei entspricht.
+    * Verzichten Sie auf Leerseiten.
+    * Auf dem Deckblatt der Arbeit sollte Ihr Name, das Thema und Abgabedatum stehen, nicht jedoch Ihre Matrikelnummer, Adresse oder andere persönliche Daten (siehe Beispiel in Abbildung \@ref(fig:BeispielDeckblatt)).
+
+```{r BeispielDeckblatt, echo=FALSE, fig.cap="Beispielhaftes Deckblatt für Hausarbeit", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/A-BeispielDeckblatt.png")
+```
+
+
+## Themenauswahl
+
+
+Die möglichen Lerngegenstände ergeben sich aus den Beschreibungen der inhaltsbezogenen Komptenzen (Leitideen) in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022; @KMK:2012]. Sie könnnen die möglichen Lerngegenstände den Kapiteln \@ref(leitidee-zahl-und-operation) bis \@ref(leitidee-daten-und-zufall) entnehmen. 
+
+Die konkrete Themenwahl erfolgt in der letzten Vorlesungsveranstaltung. Individuelle Themen sind nach Rücksprache möglich.
+
+
+## Seminarvortrag
+
+Stellen Sie in einer **ansprechenden Seminarsitzung** einen **Lernpfad zu Ihrem gewählten Lerngegenstand** vor, den Sie später in Ihrer Hausarbeit bearbeiten.
+
+* Planen Sie etwa **30 bis 45 Minuten** ein – je nachdem, wie viele interaktive Elemente Sie mit Ihren Kommiliton/-innen einsetzen. Im Anschluss sollte auf jeden Fall noch Raum für Rückfragen bestehen. Pro Thema stehen insgesamt 60 Minuten zur Verfügung.
+* Ihre Seminarsitzung soll **Lust darauf machen**, das jeweilige Thema zu unterrichten. Dabei muss sichtbar werden, dass Sie den **Lernpfad fachlich und fachdidaktisch professionell begründen** können, also auf formaler, semantischer und konkreter Ebene einer stoffdidaktischen Analyse einordnen können.
+* Es ist nicht zwingend nötig, eine vollständige und strukturierte stoffdidaktische Analyse zu präsentieren (das machen Sie ja in der Hausarbeit), aber Sie sollten Klarheit über die einzelnen Bestandteile haben, um auch **souverän auf Rückfragen reagieren** zu können.
+* Der Seminarvortrag ist unbewertet. Er hat nicht die Aufgabe, Sie zu prüfen, sondern vielmehr zur gemeinsamen Diskussion anzuregen. Mithilfe der Diskussion erhalten Sie auch vielfältige Rückmeldungen, die Sie in Ihre Hausarbeit einarbeiten können.  
+
+

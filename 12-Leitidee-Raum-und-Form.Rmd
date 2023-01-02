@@ -1,23 +1,54 @@
 # Leitidee Raum und Form
 
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-raum-und-form}
 
-<!-- > **Bedeutsame Lerngegenstände** -->
-<!-- > -->
-<!-- > - Punkt, Strecke -->
-<!-- > - Dreieck, Viereck -->
-<!-- > - Winkel -->
-<!-- > - Geometrische Körper -->
-<!-- > - Vektor -->
-<!-- > - Skalarprodukt -->
-<!-- > - Gerade, Ebene -->
-<!-- > - Sätze am Kreis -->
-<!-- > - Satzgruppe des Pythagoras -->
-<!-- >   -->
-<!-- > **Literaturempfehlungen**   -->
-<!-- >  -->
-<!-- > - @Franke2016: *Didaktik der Geometrie. In der Grundschule* -->
-<!-- > - @Weigand2018: *Didaktik der Geometrie für die Sekundarstufe I* -->
-<!-- > - @Tietze:2000: *Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra* -->
+> **Literaturempfehlungen**
+>
+> - @Franke2016: *Didaktik der Geometrie. In der Grundschule*
+> - @Weigand2018: *Didaktik der Geometrie für die Sekundarstufe I*
+> - @Henn2015: *Didaktik der Analytischen Geometrie und Linearen Algebra: Algebraisch verstehen -- Geometrisch veranschaulichen und anwenden*
+> - @Tietze:2000: *Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra*
+
+
+Dokument | Bezeichnung der Leitidee 
+:----|:----
+Bildungsstandards Primarbereich (2005) | Raum und Form
+Bildungsstandards Primarbereich (2022) | Raum und Form
+Bildungsstandards Mittlerer Schulabschluss (2004) | Raum und Form
+Bildungsstandards Erster und Mittlerer Schulabschluss (2022) | Raum und Form
+Rahmenlehrplan Brandenburg, Jahrgangsstufen 1 -- 10 | Raum und Form
+Bildungsstandards Allgemeine Hochschulreife (2012) | Raum und Form
+Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Raum und Form
+
+Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Raum und Form
+
+Auch zur Leitidee Raum und Form hat das @LISUM2022 Materialien zur Diagnose und Förderung, einen didaktischen Kommentar sowie ein Konzeptbild für die Jahrgangsstufen 1 -- 10 herausgegeben (siehe Abbildung \@ref(fig:KonzeptRaumForm)).
+
+(ref:citeKonzeptRaumForm) Konzeptbild zur Leitidee *Raum und Form* [@LISUM2022 {23}]
+
+```{r KonzeptRaumForm, echo=FALSE, fig.cap="(ref:citeKonzeptRaumForm)", fig.align='center', out.width='100%'}
+knitr::include_graphics("pictures/12-KonzeptbildRaumForm.png")
+```
+
+Mit den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022 {20 f.}; @KMK:2012 {19}] ergeben sich folgende bedeutsame Lerngegenstände:
+
+> **Bedeutsame Lerngegenstände**
+>
+> - geometrische Objekte (Punkte, Winkel, Strecken, Geraden, Flächen, Körper) 
+> - Beziehungen geometrischer Objekte (z. B. Symmetrie, Idee der Kongruenz, Ähnlichkeit, Lagebeziehungen) 
+> - Operieren im zwei- und dreidimensionalen Raum (z. B. verschieben, drehen, spiegeln)
+> - Darstellen ebener geometrischer Figuren (z. B. Dreiecke, Vierecke) und elementarer geometrischer Abbildungen (z. B. Verschiebungen, Drehungen, Spiegelungen, zentrische Streckungen) im ebenen kartesischen Koordinatensystem
+> - Netze, Schrägbilder und Modelle ausgewählter Körper (z. B. Prisma, Pyramide)
+> - Analysieren und Klassifizieren geometrischer Objekte der Ebene (insbesondere Winkel, Dreiecke, Vierecke) und des Raumes (insbesondere Prismen, Pyramiden, Zylinder, Kegel, Kugel)
+> - Sätze der ebenen Geometrie (insbesondere Satz des Pythagoras, Satz des Thales, Ähnlichkeitsbeziehungen und trigonometrische Beziehungen) 
+> - Zeichnen und Konstruieren geometrischer Figuren 
+> - Untersuchung der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben
+> - Koordinatisieren geometrischer Sachverhalte in Ebene und Raum
+> - Vektoren
+> - Geometrische Deutung des Skalarprodukts
+> - Analytische Beschreibung von Geraden und Ebenen sowie deren Lagebeziehungen 
+
+
 
 
 <!-- ## Übersicht zur Geometrie -->

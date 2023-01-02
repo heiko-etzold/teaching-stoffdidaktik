@@ -1,31 +1,58 @@
 # Leitidee Daten und Zufall
 
-<!-- > **Bedeutsame Lerngegenstände** -->
-<!-- > -->
-<!-- > - Zufallsversuch -->
-<!-- > - Wahrscheinlichkeit -->
-<!-- > - Kombinatorik -->
-<!-- > - Lage- und Streumaße -->
-<!-- > - Bedingte Wahrscheinlichkeit -->
-<!-- > - Binomialverteilung -->
-<!-- > - Normalverteilung -->
-<!-- > - Hypothesentest -->
-<!-- >   -->
-<!-- > **Literaturempfehlungen**   -->
-<!-- >  -->
-<!-- > - @Kruger2015: *Didaktik der Stochastik in der Sekundarstufe I* -->
-<!-- > - @Tietze:2002: *Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik* -->
+
+> **Literaturempfehlungen**
+>
+> - @Sill2019: *Didaktik der Stochastik in der Primarstufe*
+> - @Kruger2015: *Didaktik der Stochastik in der Sekundarstufe I*
+> - @Tietze:2002: *Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik*
 
 
-<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-daten-und-zufall} -->
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-daten-und-zufall}
 
-<!-- Das @LISUMa hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptDatenZufall)), ergänzt durch einen didaktischen Kommentar von @Kortenkamp und Materialien zur Diagnose und Förderung [@LISUM]. -->
+Dokument | Bezeichnung der Leitidee 
+:----|:----
+Bildungsstandards Primarbereich (2005) | Daten, Häufigkeit und Wahrscheinlichkeit
+Bildungsstandards Primarbereich (2022) | Daten und Zufall
+Bildungsstandards Mittlerer Schulabschluss (2004) | Daten und Zufall
+Bildungsstandards Erster und Mittlerer Schulabschluss (2022) | Daten und Zufall
+Rahmenlehrplan Brandenburg, Jahrgangsstufen 1 -- 10 | Daten und Zufall
+Bildungsstandards Allgemeine Hochschulreife (2012) | Daten und Zufall
+Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Daten und Zufall
 
-<!-- (ref:citeKonzeptDatenZufall) Konzeptbild zur Leitidee *Daten und Zufall* [@LISUMa] -->
+Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Daten und Zufall
 
-<!-- ```{r KonzeptDatenZufall, echo=FALSE, fig.cap="(ref:citeKonzeptDatenZufall)", fig.align='center', out.width='90%'} -->
-<!-- knitr::include_graphics("pictures/E-KonzeptDatenZufall.png") -->
-<!-- ```   -->
+Auch für diese Leitidee hat das @LISUMa für die Jahrgangsstufen 1 -- 10 ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptDatenZufall)), ergänzt durch einen didaktischen Kommentar von @Kortenkamp und Materialien zur Diagnose und Förderung [@LISUM].
+
+(ref:citeKonzeptDatenZufall) Konzeptbild zur Leitidee *Daten und Zufall* [@LISUMa]
+
+```{r KonzeptDatenZufall, echo=FALSE, fig.cap="(ref:citeKonzeptDatenZufall)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/14-KonzeptDatenZufall.png")
+```
+
+Aus den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022 {22 f.}; @KMK:2012 {21}] lassen sich folgende bedeutsamen Lerngegenstände folgern:
+
+> **Bedeutsame Lerngegenstände**
+>
+> - statistische Erhebungen und deren Darstellungen
+> - Simulationen
+> - statistische Kenngrößen (z. B. Minimum, Maximum, arithmetisches Mittel, Median, Spannweite, Quartile),
+> - Diagramme (z. B. Säulen- oder Balkendiagramm, Histogramme, Kreisdiagramm, Liniendiagramm, Boxplot)
+> - Zufallserscheinungen und Wahrscheinlichkeitsaussagen
+> - Zufallsexperimente, relativen Häufigkeiten und Wahrscheinlichkeiten
+> - ein- oder mehrstufige Zufallsexperimente
+> - bedingte Wahrscheinlichkeiten
+> - Baumdiagramme und Vierfeldertafeln
+> - stochastische Unabhängigkeit
+> - diskrete und stetige Zufallsgrößen
+> - Binomialverteilung
+> - Normalverteilung
+> - Hypothesentests
+
+
+
+
+
 
 <!-- In Konzeptbild wird sichtbar, dass der Wahrscheinlichkeitsbegriff die verschiedenen Ideen miteinander in Bezug bringt, was die Bedeutsamkeit von **stochastischen Vorgängen** für die Leitidee hervorhebt.  -->
 

@@ -1,25 +1,54 @@
-# Leitidee Messen und Größen
+# Leitidee Größen und Messen
 
-<!-- > **Bedeutsame Lerngegenstände** -->
-<!-- > -->
-<!-- > - Größen -->
-<!-- > - Flächeninhalt -->
-<!-- > - Volumen -->
-<!-- > - Anstieg/Steigung -->
-<!-- > - Erwartungswert -->
-<!-- > - Standardabweichung -->
+> **Literaturempfehlungen**
+>
+> siehe [Leitidee Raum und Form](#leitidee-raum-und-form)
 
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-groessen-und-messen}
 
-<!-- ## Strukturierung der Leitidee {#strukturierung-der-leitidee-messen} -->
+Dokument | Bezeichnung der Leitidee 
+:----|:----
+Bildungsstandards Primarbereich (2005) | Größen und Messen
+Bildungsstandards Primarbereich (2022) | Größen und Messen
+Bildungsstandards Mittlerer Schulabschluss (2004) | Messen
+Bildungsstandards Erster und Mittlerer Schulabschluss (2022) | Größen und Messen
+Rahmenlehrplan Brandenburg, Jahrgangsstufen 1 -- 10 | Größen und Messen
+Bildungsstandards Allgemeine Hochschulreife (2012) | Messen
+Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Messen
+
+Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Größen und Messen
+
 
 <!-- In den Bildungsstandards für den Primarbereich lautet diese Leitidee »Größen und Messen« [@KMK2005 11]. -->
 
-<!-- Das @LISUMf hat für die Primarstufe und Sekundarstufe I ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptMessen)), ergänzt durch einen didaktischen Kommentar von @Kortenkampb und Materialien zur Diagnose und Förderung [@LISUMe]. -->
+Abbildung \@ref(fig:KonzeptMessen) zeigt das vom @LISUMf herausgegebene Konzeptbild zur Leitidee Größen und Messen die Jahrgangsstufen 1 -- 10, das ebenfalls durch einen didaktischen Kommentar von @Kortenkampb und Materialien zur Diagnose und Förderung [@LISUMe] ergänzt wurde.
 
-<!-- (ref:citeKonzeptMessen) Konzeptbild zur Leitidee *Größen und Messen* [@LISUMf] -->
+(ref:citeKonzeptMessen) Konzeptbild zur Leitidee *Größen und Messen* [@LISUMf]
 
-<!-- ```{r KonzeptMessen, echo=FALSE, fig.cap="(ref:citeKonzeptMessen)", fig.align='center', out.width='90%'} -->
-<!-- knitr::include_graphics("pictures/B-KonzeptMessen.png") -->
-<!-- ``` -->
+```{r KonzeptMessen, echo=FALSE, fig.cap="(ref:citeKonzeptMessen)", fig.align='center', out.width='100%'}
+knitr::include_graphics("pictures/11-KonzeptMessen.png")
+```
+
+Aus diesen Materialien sowie den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022 {17 f.}; @KMK:2012 {19}] lassen sich folgende bedeutsame Lerngegenstände ableiten:
+
+> **Bedeutsame Lerngegenstände**
+>
+> - Messens als Vergleichen mit (Standard-)Einheiten bei Längen, Flächeninhalten und Volumina
+> - Einheiten von Größen (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel)
+> - Schätzen von Größen
+> - Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren
+> - Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern
+> - Berechnen von Streckenlängen und Winkelgrößen mittels Satz des Pythagoras, trigonometrischer Beziehungen und Ähnlichkeitsbeziehungen
+> - Skalarprodukt
+> - Abstände zwischen Punkten, Geraden und Ebenen
+> - Sekanten- und Tangentensteigungen an Funktionsgraphen
+> - Änderungsraten
+> - Inhalte von Flächen, die durch Funktionsgraphen begrenzt sind
+> - Volumen von Rotationskörpern
+> - Bestände aus Änderungsraten und Anfangsbestand
+> - Lage- und Streumaße einer Stichprobe
+> - Erwartungswert und Standardabweichung diskreter Zufallsgrößen
+
+
 
 <!-- Grundlegende Überlegungen zu der Leitidee finden sich am Beispiel des Flächeninhalts im [Ersten Intermezzo](#erstes-intermezzo-flaecheninhalt). -->

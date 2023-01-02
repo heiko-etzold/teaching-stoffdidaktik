@@ -12,7 +12,7 @@
 > + Folien zur Vorlesung zu Arbeitsmitteln ([pdf](files/Stoffdidaktik-WiSe2223-Kap7.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap7.key))
 
 
-## Begriffsklärung und Einordnung
+## Begriffsklärung und Einordnung {#arbeitsmittel-begriffsklaerung}
 
 Ausgehend von den im letzten Kapitel dargestellten theoretischen Betrachtungen, kommt *Lernmitteln* (siehe Abschnitt \@ref(taetigkeitstheorie-und-lernen)) bzw. *Material* (siehe Abbildung \@ref(fig:GVVerinnerlichen)) eine bedeutsame Rolle in der Ausbildung und Verinnerlichung von Lernhandlungen zu. Die Begrifflichkeiten sind jedoch nicht gleichzusetzen, was in diesem Abschnitt genauer herausgearbeitet werden soll. 
 
