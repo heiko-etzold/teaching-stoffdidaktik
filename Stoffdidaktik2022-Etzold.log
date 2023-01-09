@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  3 JAN 2023 00:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  9 JAN 2023 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2920,7 +2920,7 @@ chapter 9.
 ] [91] [92]
 chapter 10.
 
-Underfull \hbox (badness 1024) in paragraph at lines 2288--2289
+Underfull \hbox (badness 1024) in paragraph at lines 2296--2297
 []\TU/LibertinusSerif(0)/m/n/10.95 Schulz & Wartha ([][]2021[][]): \TU/Libertin
 usSerif(0)/m/it/10.95 Zahlen und Operationen am Übergang Primar-
  []
@@ -2932,13 +2932,13 @@ usSerif(0)/m/it/10.95 Zahlen und Operationen am Übergang Primar-
 File: pictures/10-KonzeptZahl.png Graphic file (type bmp)
 <pictures/10-KonzeptZahl.png>
 [94] [95] [96]
-Underfull \hbox (badness 1048) in paragraph at lines 2432--2434
+Underfull \hbox (badness 1048) in paragraph at lines 2440--2442
 \TU/LibertinusSerif(0)/m/n/10.95 lässt sich die umsetzen, indem \TU/LibertinusS
 erif(0)/b/n/10.95 zu vorgegebenen Quadraten Seitenlängen
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 2432--2434
+Underfull \hbox (badness 1194) in paragraph at lines 2440--2442
 \TU/LibertinusSerif(0)/b/n/10.95 und Flächeninhalte bestimmt werden \TU/Liberti
 nusSerif(0)/m/n/10.95 müssen. Die Auswahl sollte derart
  []
@@ -2952,10 +2952,10 @@ File: pictures/10-WurzelIntervall.png Graphic file (type bmp)
 File: pictures/10-QuadratQuadrat.png Graphic file (type bmp)
 <pictures/10-QuadratQuadrat.png>
 
-Package hyperref Warning: Suppressing empty link on input line 2541.
+Package hyperref Warning: Suppressing empty link on input line 2549.
 
 
-Package hyperref Warning: Suppressing empty link on input line 2551.
+Package hyperref Warning: Suppressing empty link on input line 2559.
 
 [101]
 File: pictures/10-Reihenfolge.png Graphic file (type bmp)
@@ -2963,7 +2963,7 @@ File: pictures/10-Reihenfolge.png Graphic file (type bmp)
 File: pictures/10-Wiederholung.png Graphic file (type bmp)
 <pictures/10-Wiederholung.png>
 
-Underfull \hbox (badness 5022) in paragraph at lines 2587--2587
+Underfull \hbox (badness 5022) in paragraph at lines 2595--2595
 [][][]\TU/LibertinusSerif(0)/m/n/10.95 Repräsentation für Auswahl ohne (links) 
 und mit (rechts) Wiederho-
  []
@@ -2976,58 +2976,83 @@ File: pictures/10-Kombinatorik.png Graphic file (type bmp)
 
 ]
 chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2634--2636
+
+ []
+
+[105]
 File: pictures/11-KonzeptMessen.png Graphic file (type bmp)
 <pictures/11-KonzeptMessen.png>
-[105] [106]
+[106] [107]
+File: pictures/11-Winkelscheibe.png Graphic file (type bmp)
+<pictures/11-Winkelscheibe.png>
+[108]
+File: pictures/11-Winkelauslegen.png Graphic file (type bmp)
+<pictures/11-Winkelauslegen.png>
+File: pictures/11-Winkelkeile.png Graphic file (type bmp)
+<pictures/11-Winkelkeile.png>
+[109]
+File: pictures/11-Geodreieck.png Graphic file (type bmp)
+<pictures/11-Geodreieck.png>
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
+(Font)              scaled to size 6.57pt on input line 2801.
+Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
+m;+lnum;mapping=tex-text;" at 6.57pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Regular.otf
+[110]
+File: pictures/11-Winkelmesser.png Graphic file (type bmp)
+<pictures/11-Winkelmesser.png>
+File: pictures/11-Goniometer.png Graphic file (type bmp)
+<pictures/11-Goniometer.png>
+[111]
+File: pictures/11-ScreenshotLagemass.png Graphic file (type bmp)
+<pictures/11-ScreenshotLagemass.png>
+[112]
+File: pictures/11-ScreenshotBoxplot.png Graphic file (type bmp)
+<pictures/11-ScreenshotBoxplot.png>
+[113] [114
+
+
+]
 chapter 12.
 File: pictures/12-KonzeptbildRaumForm.png Graphic file (type bmp)
 <pictures/12-KonzeptbildRaumForm.png>
-[107
-
-
-] [108] [109] [110
+[115] [116] [117] [118
 
 
 ]
 chapter 13.
-[111]
+[119]
 File: pictures/13-KonzeptFunktion.png Graphic file (type bmp)
 <pictures/13-KonzeptFunktion.png>
-[112] [113] [114
+[120] [121] [122
 
 
 ]
 chapter 14.
 File: pictures/14-KonzeptDatenZufall.png Graphic file (type bmp)
 <pictures/14-KonzeptDatenZufall.png>
-[115] [116]
+[123] [124]
 chapter A.
-[117
+[125
 
 
 ]
-Underfull \hbox (badness 1694) in paragraph at lines 3069--3070
+Underfull \hbox (badness 1694) in paragraph at lines 3262--3263
 []\TU/LibertinusSerif(0)/b/n/10.95 Gute Leistung (2,0): \TU/LibertinusSerif(0)/
 m/n/10.95 Zusätzlich: Die Analyse wird sprachlich überzeugend dargestellt
  []
 
 File: pictures/A-BeispielDeckblatt.png Graphic file (type bmp)
 <pictures/A-BeispielDeckblatt.png>
-[118] [119] [120]
+[126] [127] [128]
 chapter B.
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 3171.
-Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
-m;+lnum;mapping=tex-text;" at 6.57pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
-ibertinusSerif-Regular.otf
-[121
+[129
 
 
-] [122] [123] [124] [125] [126] [127] [128] [129] [130
-
-
-]
+] [130] [131] [132] [133] [134] [135] [136] [137] [138]
 runsystem(makeindex Stoffdidaktik2022-Etzold.idx)...executed safely (allowed).
 
 (./Stoffdidaktik2022-Etzold.ind
@@ -3036,7 +3061,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 /10.95 siehe[] \TU/LibertinusSerif(0)/m/n/10.95 Vier-Ebenen-
  []
 
-[131
+[139
+
+
 
 
 
@@ -3048,15 +3075,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33361 strings out of 476919
- 675958 string characters out of 5821841
- 1277130 words of memory out of 5000000
- 52842 multiletter control sequences out of 15000+600000
+ 33463 strings out of 476919
+ 678727 string characters out of 5821841
+ 1279426 words of memory out of 5000000
+ 52936 multiletter control sequences out of 15000+600000
  413900 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,13n,137p,10647b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,13n,137p,10647b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Stoffdidaktik2022-Etzold.pdf (131 pages).
+Output written on Stoffdidaktik2022-Etzold.pdf (139 pages).
 
 ! This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
 ! Scanning input file Stoffdidaktik2022-Etzold.idx....done (64 entries accepted, 0 rejected).

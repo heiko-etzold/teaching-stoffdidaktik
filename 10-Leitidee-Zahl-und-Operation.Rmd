@@ -2,6 +2,10 @@
 
 # Leitidee Zahl und Operation
 
+> **Material**
+>
+> + Folien zur Vorlesung zur Leitidee Zahl und Operation ([pdf](files/Stoffdidaktik-WiSe2223-Kap10.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap10.key))
+>
 > **Literaturempfehlungen**
 >
 > - @Padberg2021: *Didaktik der Arithmetik: fundiert, vielseitig, praxisnah*

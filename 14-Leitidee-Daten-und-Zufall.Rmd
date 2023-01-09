@@ -87,17 +87,4 @@ Aus den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@Sekret
 
 
 
-<!-- ## Lagemaße -->
 
-<!-- Während der Vorlesungsveranstaltung wurde ein virtuelles Arbeitsmittel^[zum Begriff des Arbeitsmittels siehe Kapitel zu [Lernumgebungen](#lernumgebungen)] mit Cinderalla und CindyScript [vgl. @Richter-Gebert2012] zur Erkundung von **arithmetischem Mittel** und **Median** erstellt. Abbildung \@ref(fig:ScreenshotLagemass) zeigt einen Screenshot des [virtuellen Arbeitsmittels](files/Stoffdidaktik-WiSe2122-AnhangE-Lagemasse.html), das auch als [Cinderella-Datei](files/Stoffdidaktik-WiSe2122-AnhangE-Lagemasse.cdy) zur Verfügung steht. -->
-
-<!-- ```{r ScreenshotLagemass, echo=FALSE, fig.cap="Screenshot des virtuellen Arbeitsmittels zu Lagemaßen", fig.align='center', out.width='75%'} -->
-<!-- knitr::include_graphics("pictures/E-ScreenshotLagemass.png") -->
-<!-- ```   -->
-
-<!-- Anregungen für Aufgabenstellungen, die zu einer vertiefenden Beschäftigung mit den beiden Lagemaßen unter Zuhilfenahme des Arbeitsmittes führen können, sind zum Beispiel: -->
-
-<!-- * *Verändere die Punkte so, dass Median und arithmetisches Mittel gleich sind.* -->
-<!-- * *Kannst du Punkte verschieben, so dass Median oder arithmetisches Mittel unverändert bleiben? Bei welchen Punkten geht das (nicht) und warum (nicht)?* -->
-<!-- * *Wie verändert sich das beobachtete Verhalten von arithmetischem Mittel und Median bei ungerader Anzahl an Punkten?* -->
-<!-- * *Zeige mit dem Arbeitsmittel, dass der Median stabil gegenüber Ausreißern ist, das arithmetische Mittel jedoch nicht.* -->
