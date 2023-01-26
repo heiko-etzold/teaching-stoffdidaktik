@@ -94,7 +94,7 @@ Eine typische Schwierigkeiten für Schülerinnen und Schüler ist an dieser Stel
 
 **2. Auslegen mit einem Vergleichsmaß**
 
-Im nächsten Schritt werden Winkel mithilfe von Vergleichswinkeln ausgelegt. Hierzu bieten sich **gleich große Winkelkeile** an. Dies ermöglicht nun eine erste Quantifizierung, ähnlich wie bei Flächeninhalt mit bekannten Vergleichmaßen (z. B. Fußballfelder) argumentiert wird. Abbildung \@ref(fig:Winkelauslegen) zeigt ein derartiges Auslegen.
+Im nächsten Schritt werden Winkel mithilfe von Vergleichswinkeln ausgelegt.^[Hierzu noch einige Hinweise: Beim Auslegen ist relevant, dass dies *mathematisch korrekt* durchgeführt wird, also die Scheitelpunkte der Keile identisch sind und die Schenkel plan aneinander gelegt werden. Dieses Vorgehen ist zwar intuitiv richtig zu erwarten, aber dennoch nicht trivial (oder gar mathematisch selbstverständlich). Hierbei wird gleichzeitig über die Auslegehandlung ein Verständnis zum Winkelbegriff (in der Feld-Vorstellung) ausgebildet bzw. aufgerufen. Dieses Verständnis spielt dann auch eine Rolle beim Addieren von Winkelgrößen. Das (korrekte) Hintereinanderlegen der als *Lernmittel* aufzufassenden Winkelkeile ist eine *Lernhandlung*, deren Verallgemeinerung und Verinnerlichung eine Vorstellung zum Addieren von Winkelgrößen ausbildet.] Hierzu bieten sich **gleich große Winkelkeile** an. Dies ermöglicht nun eine erste Quantifizierung, ähnlich wie bei Flächeninhalt mit bekannten Vergleichmaßen (z. B. Fußballfelder) argumentiert wird. Abbildung \@ref(fig:Winkelauslegen) zeigt ein derartiges Auslegen.
 
 
 ```{r Winkelauslegen, echo=FALSE, fig.cap="Auslegen eines Winkels mit Winkelkeilen", fig.align='center', out.width='50%'}

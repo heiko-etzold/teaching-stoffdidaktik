@@ -52,6 +52,7 @@ Mit den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@Sekret
 > - Geometrische Deutung des Skalarprodukts
 > - Analytische Beschreibung von Geraden und Ebenen sowie deren Lagebeziehungen 
 
+Über Falthandlungen soll im Folgenden dargestellt werden, wie auf enaktive Weise Lagebeziehungen von Punkten, Gerade und Ebenen anschaulich im Mathmatikunterricht behandelt werden können. Weiterhin werden exemplarisch an einigen elementargeometrischen Sätzen Argumentations- und Beweisanlässe diskutiert, die sich im Geometrieunterricht der frühen Sekundarstufe anbieten.
 
 ## Lagebeziehungen
 

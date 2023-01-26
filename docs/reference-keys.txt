@@ -177,6 +177,11 @@ peripheriewinkelsatz
 satz-des-thales
 leitidee-strukturen-und-funktionaler-zusammenhang
 strukturierung-der-leitidee-funktionaler-zusammenhang
+variablenaspekte
+funktionsaspekte
+analysis-in-der-sek.-ii
+konflikt-zur-fachmathematik
+beispiel-ableitungsbegriff
 leitidee-daten-und-zufall
 strukturierung-der-leitidee-daten-und-zufall
 seminar-und-hausarbeit

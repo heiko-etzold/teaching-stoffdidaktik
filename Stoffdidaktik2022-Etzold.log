@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  13 JAN 2023 16:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  26 JAN 2023 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3001,25 +3001,24 @@ Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
-[110]
 File: pictures/11-Winkelmesser.png Graphic file (type bmp)
 <pictures/11-Winkelmesser.png>
+[110] [111]
 File: pictures/11-Goniometer.png Graphic file (type bmp)
 <pictures/11-Goniometer.png>
-[111]
 File: pictures/11-ScreenshotLagemass.png Graphic file (type bmp)
 <pictures/11-ScreenshotLagemass.png>
 [112]
 File: pictures/11-ScreenshotBoxplot.png Graphic file (type bmp)
 <pictures/11-ScreenshotBoxplot.png>
-[113] [114
-
-
-]
+[113] [114]
 chapter 12.
 File: pictures/12-KonzeptbildRaumForm.png Graphic file (type bmp)
 <pictures/12-KonzeptbildRaumForm.png>
-[115] [116]
+[115
+
+
+] [116]
 File: pictures/12-Mittelsenkrechte.png Graphic file (type bmp)
 <pictures/12-Mittelsenkrechte.png>
 [117]
@@ -3027,9 +3026,10 @@ File: pictures/12-3DKos1.png Graphic file (type bmp)
 <pictures/12-3DKos1.png>
 File: pictures/12-3DKos2.png Graphic file (type bmp)
 <pictures/12-3DKos2.png>
+[118]
 File: pictures/12-3DKos3.png Graphic file (type bmp)
 <pictures/12-3DKos3.png>
-[118] [119]
+[119]
 File: pictures/12-InnenwinkelReissen.png Graphic file (type bmp)
 <pictures/12-InnenwinkelReissen.png>
 File: pictures/12-InnenwinkelStift.png Graphic file (type bmp)
@@ -3044,42 +3044,56 @@ File: pictures/12-ZentriBeweis.png Graphic file (type bmp)
 [122] [123]
 File: pictures/12-Thales.png Graphic file (type bmp)
 <pictures/12-Thales.png>
+[124]
 File: pictures/12-ThalesBeweis.png Graphic file (type bmp)
 <pictures/12-ThalesBeweis.png>
-[124] [125] [126]
-chapter 13.
-[127
+[125] [126
 
 
 ]
+chapter 13.
+[127]
 File: pictures/13-KonzeptFunktion.png Graphic file (type bmp)
 <pictures/13-KonzeptFunktion.png>
-[128] [129] [130
+[128] [129] [130]
+Underfull \hbox (badness 3930) in paragraph at lines 3392--3393
+[]\TU/LibertinusSerif(0)/m/n/10.95 Grundvorstellung zum \TU/LibertinusSerif(0)/
+b/n/10.95 Kovariationsaspekt/Änderungsaspekt\TU/LibertinusSerif(0)/m/n/10.95 : 
+»Mit Funktionen
+ []
+
+[131]
+Underfull \hbox (badness 1062) in paragraph at lines 3420--3422
+[]\TU/LibertinusSerif(0)/m/n/10.95 Diese Sichtweise ermöglicht, den Ableitungbe
+griff konstruktiv über den Sekanten-
+ []
+
+[132] [133] [134
 
 
 ]
 chapter 14.
 File: pictures/14-KonzeptDatenZufall.png Graphic file (type bmp)
 <pictures/14-KonzeptDatenZufall.png>
-[131] [132]
+[135] [136]
 chapter A.
-[133
+[137
 
 
 ]
-Underfull \hbox (badness 1694) in paragraph at lines 3482--3483
+Underfull \hbox (badness 1694) in paragraph at lines 3576--3577
 []\TU/LibertinusSerif(0)/b/n/10.95 Gute Leistung (2,0): \TU/LibertinusSerif(0)/
 m/n/10.95 Zusätzlich: Die Analyse wird sprachlich überzeugend dargestellt
  []
 
 File: pictures/A-BeispielDeckblatt.png Graphic file (type bmp)
 <pictures/A-BeispielDeckblatt.png>
-[134] [135] [136] [137] [138
+[138] [139] [140] [141] [142
 
 
 ]
 chapter B.
-[139] [140] [141] [142] [143] [144] [145] [146] [147] [148]
+[143] [144] [145] [146] [147] [148] [149] [150] [151] [152]
 runsystem(makeindex Stoffdidaktik2022-Etzold.idx)...executed safely (allowed).
 
 (./Stoffdidaktik2022-Etzold.ind
@@ -3088,7 +3102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 /10.95 siehe[] \TU/LibertinusSerif(0)/m/n/10.95 Vier-Ebenen-
  []
 
-[149
+[153
 
 
 
@@ -3102,15 +3116,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33606 strings out of 476919
- 682435 string characters out of 5821841
- 1279679 words of memory out of 5000000
- 53068 multiletter control sequences out of 15000+600000
+ 33614 strings out of 476919
+ 682571 string characters out of 5821841
+ 1278986 words of memory out of 5000000
+ 53076 multiletter control sequences out of 15000+600000
  413900 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  111i,13n,137p,10647b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Stoffdidaktik2022-Etzold.pdf (149 pages).
+Output written on Stoffdidaktik2022-Etzold.pdf (153 pages).
 
 ! This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
 ! Scanning input file Stoffdidaktik2022-Etzold.idx....done (64 entries accepted, 0 rejected).
