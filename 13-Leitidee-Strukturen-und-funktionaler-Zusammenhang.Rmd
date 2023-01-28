@@ -69,7 +69,7 @@ Im Folgenden werden kurz Grundvorstellungen zum Variablen- und zum Funktionenbeg
 
 ## Variablenaspekte
 
-Gemäß der in Kapitel \@ref(grundvorstellungen) eingeführten Bezeichnungen können zu drei Grundvorstellungen des Variablenbegriffs Aspekte formuliert werden, hier wörtlich entnommen aus @Weigand2022 [{35 f.}]
+Gemäß der in Kapitel \@ref(grundvorstellungen) eingeführten Bezeichnungen können zu drei Grundvorstellungen des Variablenbegriffs Aspekte formuliert werden, hier entnommen aus @Weigand2022 [{35 f.}]
 
 
 - Grundvorstellung zum Aspekt als ***Unbekannte***: »Die Variable ist ein Platzhalter für eine Zahl, deren Wert nicht bekannt ist, aber prinzipiell bestimmt werden kann, etwa durch regelgeleitete Umformungen.«
@@ -96,7 +96,7 @@ Hinweise zum Formelsatz im Zusammenhang mit Variablen, was für Sie inbesondere 
 
 ## Funktionsaspekte
 
-Dreh- und Angelpunkt der Leitidee Funktionaler Zusammenhang und damit auch des Stoffgebiets Analysis ist der **Funktionsbegriff**. Die hier formulieren Funktionsaspekte sind wörtlich entnommen aus @Greefrath2016 [{47 ff.}]^[Es ist erneut zu beachten, dass dort die Bezeichnung *Aspekt* in einer anderen Bedeutung als hier im Dokument verwendet wird, siehe dazu eine Diskussion bei @Etzold2021 [{72 f.}].]:
+Dreh- und Angelpunkt der Leitidee Funktionaler Zusammenhang und damit auch des Stoffgebiets Analysis ist der **Funktionsbegriff**. Die hier formulieren Funktionsaspekte sind entnommen aus @Greefrath2016 [{47 ff.}]^[Es ist erneut zu beachten, dass dort die Bezeichnung *Aspekt* in einer anderen Bedeutung als hier im Dokument verwendet wird, siehe dazu eine Diskussion bei @Etzold2021 [{72 f.}].]:
 
 - Grundvorstellung zum **Zuordnungsaspekt**: »Eine Funktion ordnet jedem Wert einer Größe genau einen Wert einer zweiten Größe zu. Mit dem Mengenbegriff formuliert bedeutet dies: Eine Funktion ordnet jedem Element einer Definitionsmenge genau ein Element einer Zielmenge zu.«
 
