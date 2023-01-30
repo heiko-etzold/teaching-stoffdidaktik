@@ -57,11 +57,6 @@ Zitiere als:
 Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter https://stoffdidaktik.heiko-etzold.de/2021.
 
 
-<!-- ## Aufbau des Dokuments {.unnumbered .unlisted} -->
-
-<!-- In den Kapiteln \@ref(stoffdidaktik-mathematik-an-der-up) und \@ref(vier-ebenen-ansatz) werden die begrifflichen und inhaltlichen Grundlagen für den weiteren Verlauf des Skriptes gelegt. Angelehnt an die in Kapitel \@ref(vier-ebenen-ansatz) eingeführte theoretische Grundlage werden in den Kapiteln \@ref(fundamentale-ideen) bis \@ref(zweites-intermezzo-wurzel) einzelne Themen sowohl theoretisch als auch anhand von Praxisbeispielen näher beleuchtet. Die Kapitel \@ref(arbeitsmittel-analysieren) und \@ref(aufgaben-gestalten) legen noch einmal den Fokus auf die Gestaltung von Unterricht unter stoffdidaktischer Perspektive. Im Anhang \@ref(leitidee-zahl) bis \@ref(leitidee-daten-und-zufall) werden anhand der Leitideen bedeutsame Lerngegenstände aufgezählt und ausgewählte Begriffe und Zusammenhänge diskutiert. Anhang \@ref(seminar-und-hausarbeit) gibt Hinweise zum Seminar bzw. der Hausarbeit zur Veranstaltung. -->
-
-
 ## Lizenz {.unnumbered .unlisted}
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.

@@ -168,7 +168,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 28.01.2023}
+\date{Letzte Änderung: 30.01.2023}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -216,7 +216,7 @@ Die Veranstaltung \emph{Stoffdidaktik Mathematik} wird über dieses Dokument beg
 Zitiere als:
 
 \begin{quote}
-Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23} (Version vom 28.01.2023). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23} (Version vom 30.01.2023). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter \url{https://stoffdidaktik.heiko-etzold.de/2021}.
@@ -2263,10 +2263,248 @@ Erstellen Sie zum Lerngegenstand \emph{Rechnen mit negativen Zahlen}
   eine Blütenaufgabe.
 \end{enumerate}
 
-\hypertarget{zweites-intermezzo-negative-zahlen}{%
-\chapter{Zweites Intermezzo: Negative Zahlen}\label{zweites-intermezzo-negative-zahlen}}
+\hypertarget{zweites-intermezzo-ganze-zahlen}{%
+\chapter{Zweites Intermezzo: Ganze Zahlen}\label{zweites-intermezzo-ganze-zahlen}}
 
-\emph{Die Inhalte zu diesem Kapitel folgen mit Ende der Vorlesungszeit \ldots{}}
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie vertiefen am Beispiel ganzer Zahlen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere wie aus den Ebenen heraus Rückschlüsse zum Aufbau eines Lernpfades entwickelt werden können.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zur Vorlesung zum Zweiten Intermezzo (\href{files/Stoffdidaktik-WiSe2223-Kap9.pdf}{pdf}, \href{files/Stoffdidaktik-WiSe2223-Kap9.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\hypertarget{stoffdidaktische-analyse}{%
+\section{Stoffdidaktische Analyse}\label{stoffdidaktische-analyse}}
+
+\hypertarget{ganze-zahlen-formale-ebene}{%
+\subsection{Formale Ebene}\label{ganze-zahlen-formale-ebene}}
+
+\hypertarget{natuxfcrliche-zahlen-1}{%
+\subsubsection{Natürliche Zahlen}\label{natuxfcrliche-zahlen-1}}
+
+Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmatheamtisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die \textbf{Peano-Axiome} sowie die Betrachtung \textbf{gleichmächtiger Mengen}.
+
+Aus den Peano-Axiomen (\protect\hyperlink{ref-WikiPeano}{Wikipedia, 2021b}) folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der \(0\)), die dann mit \(1\), \(2\), \(3\) usw. bezeichnet werden können.\footnote{Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt -- das geht schon weiter als hier zulässig.} Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass \(3\) größer ist als \(1\). Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen\footnote{Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.}, bei dem auch nicht C größer als A ist.
+
+Für eine Ordnungsrelation bedarf es zunächst der Definition der Addition über \(n+0 := n\) und \(n+k' := (n+k)'\) für alle \(n,k\in\mathbb{N}\) mit der (aus den Peano-Axiomen existierenden) Nachfolgerbildung \('\). So gilt etwa mit \(1:=0'\): \({\color{blue} 1}+{\color{red} 1} = {\color{blue} 1}+{\color{red} {0'}} = ({\color{blue} 1}+{\color{red} 0}){\color{red} '} = 1{\color{red} '} =: 2\). So kann nun induktiv jede höhere Additionsaufgabe generiert werden. Darauf aufbauend kann die Ordnungsrelation \(n<m\) über die Existenz eines \(k\in\mathbb{N}\backslash\{0\}\) mit \(m = n+k\) definiert werden. Die Subtraktion \(m-n = k\) ist nun wiederum über die Umkehroperation \(n+k = m\) definierbar, sofern \(m\geq n\).
+
+Die Gleichmächtigkeit (z.~B. endlicher) Mengen \(M\) und \(N\) wird über die Existenz einer Bijektion zwischen diesen beiden Mengen definiert, siehe Abbildung \ref{fig:Bijektion}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/9-Bijektion} 
+
+}
+
+\caption{Gleichmächtigkeit von Mengen}\label{fig:Bijektion}
+\end{figure}
+
+Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und transitiv. Damit können Äquivalenzklassen gebildet werden, die die Mächtigkeit der Menge angeben. Statt \([4]\) als Bezeichner für die Äquivalenzklasse von vierelementigen Mengen kann dann auch kurz die Zahl \(4\) genutzt werden. Die Addition \(n+k\) entspricht dann der Mächtigkeit der Vereinigungsmenge von \([n]\) und \([k]\), vgl. Abbildung \ref{fig:Vereinigung}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/9-Vereinigung} 
+
+}
+
+\caption{Additionsergebnis als Äquivalenzklasse der Vereinigungsmenge}\label{fig:Vereinigung}
+\end{figure}
+
+\hypertarget{ganze-zahlen}{%
+\subsubsection{Ganze Zahlen}\label{ganze-zahlen}}
+
+Da innerhalb der natürlichen Zahlen noch nicht beliebig subtrahiert werden darf, stehen auch keine negativen Zahlen als Ergebnisse zur Verfügung. Um dennoch das Ergebnis bspw. der Aufgabe \(2-7\) »definieren« zu können, bietet sich erneut eine \textbf{Äquivalenzrelation} über die »Differenzengleichheit« an. Konkret lässt sich für \(k,l,m,n\in\mathbb{N}\) sagen:
+\((k,l)\sim (m,n):\Leftrightarrow k+n=l+m\)
+Das heißt z.~B., die Zahlenpaare \((2,7)\), \((0,5)\) und \((4,9)\) in Relation zueinander stehen, weil sie dieselbe »Differenz« haben (obwohl es die Differenz formal noch nicht gibt). Dies ermöglicht nun die Einführung des Bezeichners \(-5\) für die Äquivalenzklasse \([(0,5)]\).
+
+Das Vorgehen ist \emph{verträglich} mit den bisherigen Regeln in \(\mathbb{N}\), d.~h. es führt nicht zu Widersprüchen, wenn etwa das Zahlenpaar \((7,4)\) betrachtet wird mit dem Repräsentanten-Bezeichner \(3\). Die Menge aller Äquivalenzklassen (bzw. deren Kurzbezeichner) ist nun \(\mathbb{Z}\).
+
+Die Addition und Subtraktion zweier Zahlenpaar sind nun definierbar:
+
+\begin{align}
+(k, l) + (m, n) := (k + l, m + n)\\
+(k, l) − (m, n) := (k, l) + (n, m)
+\end{align}
+
+Als Alternative bietet sich ein \textbf{axiomatisches Vorgehen} an, also die ganzen Zahlen mit der Addition als abelsche Gruppe definiert werden -- bedeutsam ist hier insbesondere die Existenz eines Inversen zu jeder Zahl.
+
+Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den Unterricht zentrale Fachinhalte ableiten:
+
+\textcolor{formalColor}{Ganze Zahlen können über Zahlenpaare aus den natürlichen Zahlen oder als »Gegenzahlen« der natürlichen Zahlen entwickelt werden.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textcolor{formalColor}{Natürliche Zahlen sind als Teilmenge in ganze Zahlen eingebettet.}\\
+\item
+  \textcolor{formalColor}{Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.}\\
+\item
+  \textcolor{formalColor}{Rechenregeln werden erweitert, wobei die bekannten weiter gelten.}
+\end{itemize}
+
+\hypertarget{ganze-zahlen-semantische-ebene}{%
+\subsection{Semantische Ebene}\label{ganze-zahlen-semantische-ebene}}
+
+\hypertarget{ganze-zahlen-grundvorstellungen}{%
+\subsubsection{Grundvorstellungen}\label{ganze-zahlen-grundvorstellungen}}
+
+Die Einführung ganzer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden (\protect\hyperlink{ref-vomHofe2014a}{Hofe \& Hattermann, 2014}). Diese sind eigentlich auf der empirischen Ebene der stoffdidaktischen Analyse angesiedelt (mehr dazu siehe auch Abschnitt \ref{ganze-zahlen-empirische-ebene}), sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.
+
+\begin{itemize}
+\tightlist
+\item
+  So bestehen etwa für das \textbf{Minus-Zeichen vielfältige Interpretationsmöglichkeiten} als \textbf{Vorzeichen} (z.~B. in der Aufgabe \(-5+2\)), als \textbf{Rechenzeichen} (z.~B. in der Aufgabe \(7-2\)) oder als \textbf{Inversionszeichen} (z.~B. bei der Darstellung \(-a\) als Gegenzahl für \(a\)).
+\item
+  Der in den natürlichen Zahlen vorhandene \textbf{Kardinalzahlaspekt} (dass die Zahl die Mächtigkeit einer Menge angibt), ist in den negativen Zahlen \textbf{nicht mehr tragfähig} (es existiert keine \(-4\)-elementige Menge). Auch der \textbf{Ordinalzahlaspekt} (dass die Zahl eine Position angibt) ist nur \textbf{eingeschränkt tragfähig} (eine \(-4\)-te Position bedarf vielfältiger Zwischeninterpretationen). Der \textbf{Maßzahlaspekt} (z.~B. über die Angabe einer Zahl auf dem Zahlenstrahl) dagegen ist auf die ganzen Zahlen \textbf{erweiterbar}.
+\item
+  Die \textbf{Ordnungsrelation} wird häufig \textbf{fehlinterpretiert} über eine spiegelbildliche Interpretation (z.~B. kann fälschlicherweise \(-5>-3\) angenommen werden). Eine Ursache kann hier darin liegen, dass die Ordnungsrelation zuvor über die Mächtigkeit von Mengen hergestellt wurde, was nun nicht mehr möglich ist.
+\end{itemize}
+
+Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen Hofe \& Hattermann (\protect\hyperlink{ref-vomHofe2014a}{2014}) zusammen:
+
+\begin{itemize}
+\tightlist
+\item
+  Ganze Zahlen als \textbf{relative Zahlen bezüglich einer fest gewählten Vergleichsmarke}: Dies ist etwa bei Etagen-Angaben, Temperaturen oder der Position über/unter dem Wasserspiegel der Fall. Gerade bei Temperaturen kann die Beliebigkeit der Vergleichsmarke (0~°C) gut diskutiert werden, da etwa andere Temperaturskalen (°F, K) eine andere Vergleichsmarke gewählt haben.
+\item
+  Ganze Zahlen als \textbf{Gegensätze}: Diese Vorstellung wird z.~B. sichtbar, wenn über Guthaben und Schulden gesprochen wird. Hat man 5~€ Schulden, so ist dies der Gegensatz von 5~€ Guthaben. Die Vergleichsmarke (0~€) ist hier nicht beliebig gewählt, sondern natürlicherweise über »weder Guthaben noch Schulden« gegeben. Auch der Betrag einer Zahl kann in dieser Vorstellung besonders gut verstanden werden.
+\item
+  Ganze Zahlen als \textbf{Richtungen}: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z.~B. bei der Verwendung von Koordinatensystem der Fall, oder ganz allgemein bei der Zahlengeraden.
+\item
+  Ganze Zahlen als \textbf{Zustände und Zustandsänderungen}: In dieser Vorstellung bieten ganze Zahlen nicht nur die Möglichkeit, einen Zustand (wie Guthaben oder Schulden) zu beschreiben, sondern auch den Prozess der Änderung dieser Zustände (Erhalt von Guthaben, Erlass von Schulden, \ldots). Eine solche Vorstellung etwa ist nötig, um die verschiedenen Interpretationen des Minus-Zeichens nachvollziehen zu können.
+\end{itemize}
+
+Als bedeutsamste Repräsentation negativer Zahlen gilt die Zahlengerade. Diese stützt einerseits den Maßzahlaspekt und ermöglicht über die Darstellung von Punkten und Pfeilen (siehe Abbildung \ref{fig:Zahlengerade}) auch eine Interpretation in den verschiedenen Grundvorstellungen.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/9-Zahlengerade} 
+
+}
+
+\caption{Zahlengerade}\label{fig:Zahlengerade}
+\end{figure}
+
+Auch Operationen mit ganzen Zahlen sind hierzu nun verständlich behandelbar:
+- So kann das \textbf{Addieren/Subtrahieren} als Anlegen von Pfeilen, gerichtetes Weiter-/Zurückzählen oder als Subtraktion/Addition der Gegenzahl aufgefasst werden.
+- Das *Multiplizieren\textbf{ kann bei der Multiplikation mit einer positiven Zahl als Streckung/Stauchung aufgefasst werden, die Multiplikation mit \(-1\) entspricht der Spiegelung an der Null und die Multiplikation mit einer belibigen negativen Zahl ist eine Kombination aus beidem.
+- Der }Größenvergleich** ist nun über einen Lagevergleich auf der Zahlengeraden möglich, wobei weiter links liegende Zahlen immer kleiner sind als weiter rechts liegende.
+
+\hypertarget{ganze-zahlen-fundamentale-ideen}{%
+\subsubsection{Fundamentale Ideen}\label{ganze-zahlen-fundamentale-ideen}}
+
+Hinsichtlich des Katalogs an Tätigkeitsideen (siehe Abschnitt \ref{taetigkeitsideen}) besteht die Möglichkeit, ganze Zahlen als Verallgemeinerung oder Vernetzung aufzufassen. Sinnvoller erscheint mir jedoch, von einer \textbf{Erweiterung} zu sprechen -- nicht im Sinne des Erweiterns von Brüchen -- sondern der Zahlbereichserweiterung und in dem Zusammenhang auch eine Erweiterung der nötigen Rechenregeln. Auch Freudenthal (\protect\hyperlink{ref-Freudenthal1989}{1989, S. 27}) spricht von der »Idee der Erweiterung unter Aufrechterhaltung gewisser Gesetze«. Auf eine ausführliche Darstellung der Kriterien fundamentaler Ideen wird hier verzichtet -- als Ausblick auf das Vertikalkriterium sei nur auf andere Erweiterungssituationen des Mathematikunterrichts verwiesen wie die sonstigen Zahlbereichserweiterungen, die Übertragung der Potenzgesetze auf rationale Exponenten oder eine Herleitung, dass \(a^0 = 1\) und \(0^0\) nicht definiert ist.
+
+Ein typisches Erweiterungsbeispiel im Zusammenhang mit ganzen Zahlen ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpreation. Abhilfe schafft hier das \textbf{\emph{Permanenzprinzip}}, nach dem neue Theorien (z.~B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein muss mit bisherigen Theorien (z.~B. das Rechnen mit positiven Zahlen). Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewissen Rechenregeln über \textbf{\emph{Permanenzreihen}}. Abbildung \ref{fig:Permanenz} stellt dies am Beispiel der Aufgabe \((-3)\cdot (-5)\) dar.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/9-Permanenz} 
+
+}
+
+\caption{Permanenzreihe zur Multiplikation zweier negativer Zahlen}\label{fig:Permanenz}
+\end{figure}
+
+Zusammenfassend lassen sich auf der semantischen Ebene folgende für den Lernpfad relevanten Zusammenhänge ableiten:
+
+\begin{itemize}
+\tightlist
+\item
+  \textcolor{semanticColor}{Ganze Zahlen sollten als relative Zahlen bezüglich einer fest gewählten Vergleichsmarke, als Gegensätze, als Richtungen sowie als Zustände und Zustandsänderungen aufgefasst werden können}\\
+\item
+  \textcolor{semanticColor}{Die Zahlengerade ist eine wesentliche Repräsentation ganzer Zahlen, anhand dessen auch die Operationen mit ganzen Zahlen sichtbar gemacht werden können.}\\
+\item
+  \textcolor{semanticColor}{Die Einführung ganzer Zahlen soll über das Permanenzprinzip begleitet werden, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.}
+\end{itemize}
+
+\hypertarget{ganze-zahlen-konkrete-ebene}{%
+\subsection{Konkrete Ebene}\label{ganze-zahlen-konkrete-ebene}}
+
+Aus den Überlegungen auf der formalen und semantischen Ebene kann als mathematischer Kern der Betrachtung ganzer Zahlen herausgearbeitet werden, dass mit diesen nun stets subtrahiert werden kann (als Neuheit gegenüber den natürlichen Zahlen) und dass in ihnen spezifische Rechenregeln gelten, die so zuvor nicht bekannt waren. Als \textbf{Kernfragen} formuliert, kann dies heißen (vgl. \protect\hyperlink{ref-Barzel2015a}{Leuders et al., 2015, S. 80, 82}):
+
+\begin{itemize}
+\tightlist
+\item
+  »Wie kann man rechnen, wenn man mehr wegnimmt, als man hat?«
+\item
+  »Wie kann man mit negativen Zahlen wiederholt dasselbe rechnen?«
+\end{itemize}
+
+Bei der Wahl eines geeigneten \textbf{Kontextes} besteht die Herausforderung, dass die Zahlen und Rechnungen eine Relevanz im Kontext haben und nicht nur konstruiert sind. In der zunächst naheliegenden Temperaturbetrachtung bestehen einige physikalische Schwierigkeiten, nämlich dass auf der Celsius-Skala Temperaturen stets Zustände und keine Zustandsänderungen beschreiben (letztere werden in Kelvin angeben). Auch die Existenz eines absoluten Nullpunkts widerspricht der mathematischen Betrachtung beliebig kleiner negativer Zahlen. Hinzu kommt, dass die Gegensatz-Vorstellung keine praktische Bedeutung hat: \(-2\,°\mathrm{C}\) ist nicht das Gegenteil von \(2\,°\mathrm{C}\).
+
+Wie schon die Beispiele zu den Grundvorstellungen in Abschnitt \ref{ganze-zahlen-grundvorstellungen} gezeigt haben, bietet dagegen das \textbf{Guthaben-Schulden-Modell} vielfältige sinnstiftende (also lebensweltbezogene, kontextauthentische und reichhaltige) Anknüpfungspunkte. Eingeführt werden kann dieser Kontext z.~B. spielerisch über Guthaben- und Schuldenkarten, wobei Würfel dafür eingesetzt werden können, wie viele Guthaben- oder Schuldenkarten man abgeben muss bzw. erhält. Über die Dokumentation von »Kontoständen und -bewegungen« kann der Prozess festgehalten werden. Weitere Anregungen zu diesem Kontext findet man auch bei Hußmann \& Schindler (\protect\hyperlink{ref-Hussmann2014}{2014}).
+
+Während sich aus dem Kontext heraus Additions- und Subtraktionsaufgaben beschreiben lassen, bei denen der zweite Summend positiv ist (was einer \textbf{horizontalen Mathematisierung} entspricht), sind derartige Aufgaben mit negativem zweiten Summanden besser über Pfeile auf Zahlengeraden zu veranschaulichen. Dabei kann das Rechenzeichen als Blick- (\(+\) rechts, \(-\) links) und das Vorzeichen des zweiten Summanden als Bewegungsrichtung (\(+\) vorwärts, \(-\) rückwärts) aufgefasst werden. Dieses Vorgehen bietet jedoch keine innermathematische Erklärung, vielmehr ist dies eher eine Art Eselbrücke. Eine \textbf{vertikale Mathematisierung} wird dann insbesondere bei der innermathematischen Erklärung von Multiplikationsaufgaben relevant. Abbildung \ref{fig:Mathematisierungen} zeigt noch einmal die verschiedenen Mathematisierungsarten.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/9-Mathematisierungen} 
+
+}
+
+\caption{Horizontale (h) und vertikale (v) Mathematisierungsmöglichkeiten bei ganzen Zahlen}\label{fig:Mathematisierungen}
+\end{figure}
+
+Zusammenfassend lässt sich sagen:
+
+\begin{itemize}
+\tightlist
+\item
+  \textcolor{concreteColor}{Über den Kontext von Guthaben-Schulden-Situationen lässt sich das Wesen ganzer Zahlen erarbeiten.}
+\item
+  \textcolor{concreteColor}{Als Kernideen sollten deutlich werden, dass man mit ganzen Zahlen beschreiben kann, wie man mehr wegnehmen kann, als man hat, und dass mit ihnen die bekannten Rechengesetze erweitert werden.}\\
+\item
+  \textcolor{concreteColor}{Im Guthaben-Schulden-Kontext lassen sich einige der Rechengesetze veranschaulichen, andere wiederum können über Permanenzreihen erklärt werden.}
+\end{itemize}
+
+\hypertarget{ganze-zahlen-empirische-ebene}{%
+\subsection{Empirische Ebene}\label{ganze-zahlen-empirische-ebene}}
+
+Neben den bereits in Abschnitt \ref{ganze-zahlen-grundvorstellungen} erwähnten typischen Schwierigkeiten mit ganzen Zahln, sollen hier noch einige weitere aufgezählt und ihre Konsequenzen für die Entwicklung eines Lernpfades abgeleitet werden.
+
+\begin{itemize}
+\tightlist
+\item
+  Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit hohen \textbf{sprachlichen Hürden} verbunden (siehe z.~B. Fabian (\protect\hyperlink{ref-Fabian2022}{2022})). Dies betrifft einmal den \emph{negativ}-Begriff, der in der Alltagssprache i.~d.~R. mit etwas schlechtem verbunden ist (»negative Stimmung«), aber auch eine positive Bedeutung haben kann (»negativer Corona-Test«), im mathematischen Kontext jedoch bei der »negativen Zahl« eine gänzlich andere Bedeutung hat. \textcolor{empiricColor}{Diese Bedeutungsvielfalt sollte daher im Unterricht angesprochen und die mathematische Bedeutung entsprechend abgegrenzt werden.} Eine weitere Hürde ist ein \textbf{komplexer Wortschatzaufbau}, abhängig von den verwendeten Kontexten. So muss nicht nur der neue mathematische Inhalt erlernt, sondern es müssen in dem Zusammenhang auch noch die verwendeten Wörter wie »Meeresspiegel«, »Normal-Null«, »Gefrierpunkt«, »Frost« usw. mit ihrer mathematischen Bedeutung hinsichtlich der positiven und negativen Zahlen in Bezug gebracht werden. \textcolor{empiricColor}{Dieses Problem lässt sich umgehen, indem die Einführung möglichst nur in einem Kontext erfolgt und dieser nur geringe sprachliche Hürden aufweist.}
+\item
+  Aus den natürlichen Zahlen herrscht die Vorstellung vor, dass Hinzufügen, also (ggf. mehrfaches) Addieren, immer vermehre. Diese \textbf{»Hinzufügen vemehrt immer«-Vorstellung} ist jedoch \textbf{nicht mehr tragfähig}. Ihre Ursache hat die Vorstellung aus einer jahrelangen Betrachtung ausschließlich positiver Zahlen und wird teils auch sprachlich gestützt (z.~B. durch »noch mehr Schulden«). \textcolor{empiricColor}{Einer entsprechenden Übergeneralisierung muss also durch einen verständnisfördernden Aufbau entgegengewirkt werden, ggf. auch mit einer expliziten Besprechung der Fehlvorstellung.}
+\item
+  Ebenfalls sichtbar wird eine Häufige \textbf{Vermischung der Rechenregeln}, z.~B. die fehlerhafte Aussage »minus plus minus ist plus«, die aus einer Übertragung der Merkregel »minus mal minus ist plus« kommen könnte. Eine solche Vermischung kommt inbesondere dann zutage, wenn die Rechenregeln (falsch) auswendig gelernt und nicht mit einer geeigneten Vorstellung in Bezug gebracht werden können. \textcolor{empiricColor}{Für die Unterrichtsdurchführung bedeutet das, dass die entsprechenden Repräsentationen (wie Pfeile am Zahlenstrahl) behutsam eingeführt, ausführlich behandelt sowie durch operatives Durcharbeiten verinnerlicht werden sollten. Auch der Verzicht auf Merksätze kann hierbei tatsächlich hilfreich sein, um nicht so eine kalkülhaften Vorgehen (welches sich dann falsch eingeprägt wird) hinzuwirken.}
+\end{itemize}
+
+\hypertarget{lernpfad}{%
+\section{Lernpfad}\label{lernpfad}}
+
+Aus den Überlegungen der stoffdidaktischen Analyse lässt sich nun ein möglicher Lernpfad ableiten, nach dem ganze Zahlen unterrichtet werden können. Abbildung \ref{fig:Lernpfad} stellt diesen übersichtlich dar.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{pictures/9-Lernpfad} 
+
+}
+
+\caption{Möglicher Lernpfad zu ganzen Zahlen}\label{fig:Lernpfad}
+\end{figure}
+
+Dabei zeigt sich, dass in der oberen Zeile zunächst die Zahlen als Objekte betrachtet werden, wobei schon vielfältige Grundvorstellungen aufgebaut werden können. Die komplette Lernpfad lässt sich dabei am Guthaben-Schulden-Modell durcharbeiten, wobei natürlich in Anwendungsituationen und zur Verinnerlichung auch weitere Kontexte nötig werden.
+
+Die Einführung des Zahlbereichs \(\mathbb{Z}\) ist in der Darstellung gestrichelt dargestellt, da dieser nicht zwingend an der Stelle nötig ist, um anschließend mit ganzen Zahlen rechnen zu können. Hier kann auch die Leistungsfähigkeit der Klasse sowie die Schuform darüber entscheiden, ob und an welcher Stelle der Zahlbereich eingeführt werden muss.
+
+Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v.~a. an der Repräsentaion der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung.
+
+Dieser Lernpfad stellt \emph{eine} Möglichkeit darf, ganze Zahlen zu behandeln und baut auf die oben dargestellten Diskussionen zu formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst einmal, auf den Lernpfad aufbauen, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.
 
 \hypertarget{part-inhaltsbezogene-kompetenzen}{%
 \part*{Inhaltsbezogene Kompetenzen}\label{part-inhaltsbezogene-kompetenzen}}
@@ -2526,12 +2764,12 @@ Angelehnt an die \emph{Mathewerkstatt} für die Klassenstufe 9 (\protect\hyperli
 
   \begin{figure}
 
-    {\centering \includegraphics[width=0.5\linewidth]{pictures/10-QuadratQuadrat} 
+   {\centering \includegraphics[width=0.5\linewidth]{pictures/10-QuadratQuadrat} 
 
-    }
+   }
 
-    \caption{Nutzung des Lernmodells für Quadrate von Quadraten}\label{fig:QuadratQuadrat}
-    \end{figure}
+   \caption{Nutzung des Lernmodells für Quadrate von Quadraten}\label{fig:QuadratQuadrat}
+   \end{figure}
 \end{enumerate}
 
 \hypertarget{kombinatorik}{%
@@ -3915,6 +4153,9 @@ Etzold, H., Kortenkamp, U., \& Ladel, S. (2018). {ACAT}-{Review}-{Guide} -- {Ein
 \leavevmode\vadjust pre{\hypertarget{ref-Etzold2014a}{}}%
 Etzold, H., \& Petzschler, I. (2014). \emph{Mathe verstehen durch {Papierfalten}}. Verlag an der Ruhr.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Fabian2022}{}}%
+Fabian, M. (2022). Minusgrade, {Schulden}, {Tauchtiefen} -- {Speziﬁzierung} von {Sprachmitteln} zur {Einführung} negativer {Zahlen}. \emph{Journal für Mathematik-Didaktik}. \url{https://doi.org/10.1007/s13138-022-00208-8}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Feldt-Caesar2017}{}}%
 Feldt-Caesar, N. (2017). \emph{Konzeptualisierung und {Diagnose} von mathematischem {Grundwissen} und {Grundkönnen}}. Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-17373-9}
 
@@ -3929,6 +4170,9 @@ Franke, M., \& Reinhold, S. (2016). \emph{Didaktik der {Geometrie}. {In} der {Gr
 
 \leavevmode\vadjust pre{\hypertarget{ref-Freudenthal:1973}{}}%
 Freudenthal, H. (1973). \emph{Mathematik als pädagogische {Aufgabe}} (Bd. 2). Klett.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Freudenthal1989}{}}%
+Freudenthal, H. (1989). Einführung der negativen {Zahlen} nach dem geometrisch-algebraischen {Permanenzprinzip}. \emph{mathematik lehren}, \emph{35}, 27--37.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Giest2016a}{}}%
 Giest, H. (2016). Kulturhistorische {Didaktik} und {Bildungstheorie}. \emph{Tätigkeitstheorie. Journal für tätigkeitstheoretische Forschung in Deutschland}, \emph{14}, 24--48. \url{http://www.ich-sciences.de/media/journal/Ausgabe_14/heft_14.pdf}
@@ -3948,11 +4192,17 @@ Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {
 \leavevmode\vadjust pre{\hypertarget{ref-Henn2015}{}}%
 Henn, H.-W., \& Filler, A. (2015). \emph{Didaktik der {Analytischen} {Geometrie} und {Linearen} {Algebra}: {Algebraisch} verstehen -- {Geometrisch} veranschaulichen und anwenden}. Springer Spektrum.
 
+\leavevmode\vadjust pre{\hypertarget{ref-vomHofe2014a}{}}%
+Hofe, R. vom, \& Hattermann, M. (2014). Zugänge zu negativen {Zahlen}. \emph{mathematik lehren}, 2--7.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Hussmann:2016}{}}%
 Hußmann, S., \& Prediger, S. (2016). Specifying and Structuring Mathematical Topics: A Four-Level Approach for Combining Formal, Semantic, Concrete, and Empirical Levels Exemplified for Exponential Growth. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 33--67. \url{https://doi.org/10.1007/s13138-016-0102-8}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hussmann:2016a}{}}%
 Hußmann, S., Rezat, S., \& Sträßer, R. (2016). Subject {Matter} {Didactics} in {Mathematics} {Education}. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 1--9. \url{https://doi.org/10.1007/s13138-016-0105-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Hussmann2014}{}}%
+Hußmann, S., \& Schindler, M. (2014). En {Kontext} für negative {Zahlen} -- auch für die {Multiplikation}. \emph{mathematik lehren}, \emph{183}, 28--32.
 
 \leavevmode\vadjust pre{\hypertarget{ref-InstitutfurQualitatsentwicklungimBildungswesen2019}{}}%
 Institut für Qualitätsentwicklung im Bildungswesen. (2019). \emph{Gemeinsame {Aufgabenpools} der {Länder}. {Aufgaben} für das {Fach} {Mathematik}. {Grundstock} von {Operatoren}}. \url{https://www.iqb.hu-berlin.de/abitur/abitur/dokumente/mathematik/M_Grundstock_von.pdf}

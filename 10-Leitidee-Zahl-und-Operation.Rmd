@@ -208,7 +208,7 @@ knitr::include_graphics("pictures/10-WurzelIntervall.png")
 
     * Eine weitere charakteristische Anwendung der Lernhandlungen am Lernmodell ist bei der Betrachtung des Wurzelgesetzes $\sqrt{x\cdot y} = \sqrt{x}\cdot \sqrt{y}$ möglich. Wird die Wurzel als *Aufforderung* verstanden, zu einem Flächeninhalt die Seitenlänge des zugehörigen Quadrates zu finden, kann man den Term $\sqrt{9\cdot 5}$ auffassen als die Suche nach der Seitenlänge des Quadrates mit dem $9$-Fachen des Flächeninhalts von $5\,\mathrm{cm}^2$. Geometrisch interpretiert und angelehnt ans Lernmodell kann dies als ein Quadrat von Quadraten dargestellt werden (siehe Abbildung \@ref(fig:QuadratQuadrat)). Dann ist die gesuchte Seitenlänge gerade das $\sqrt{9}$-Fache der Seitenlänge des Quadrates mit $5\,\mathrm{cm}^2$ Flächeninhalt, also $\sqrt{9\cdot 5} = \sqrt{9}\cdot \sqrt{5}$. Dies ist natürlich nur eine Plausibilitätsbetrachtung. Eine Begründung ist dann aber ebenfalls mithilfe der Definition über die Umkehrung und Nutzung der Potenzgesetze möglich: $x^2\cdot y^2 = (x\cdot y)^2$.
 
-     ```{r QuadratQuadrat, echo=FALSE, fig.cap="Nutzung des Lernmodells für Quadrate von Quadraten", fig.align='center', out.width='50%'}
+    ```{r QuadratQuadrat, echo=FALSE, fig.cap="Nutzung des Lernmodells für Quadrate von Quadraten", fig.align='center', out.width='50%'}
 knitr::include_graphics("pictures/10-QuadratQuadrat.png")
     ```
 

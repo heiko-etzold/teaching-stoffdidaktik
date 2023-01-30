@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  28 JAN 2023 10:50
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  30 JAN 2023 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2537,8 +2537,10 @@ m;+lnum;mapping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
 [3]
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 115.
+(Font)              scaled to size 10.95pt on input line 116.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
 t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2914,212 +2916,264 @@ chapter 9.
 [89
 
 
-] [90
+]
+File: pictures/9-Bijektion.png Graphic file (type bmp)
+<pictures/9-Bijektion.png>
+File: pictures/9-Vereinigung.png Graphic file (type bmp)
+<pictures/9-Vereinigung.png>
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 2349--2351
+
+ []
 
 
-] [91] [92]
+Underfull \hbox (badness 10000) in paragraph at lines 2351--2353
+
+ []
+
+[91]
+File: pictures/9-Zahlengerade.png Graphic file (type bmp)
+<pictures/9-Zahlengerade.png>
+
+Underfull \vbox (badness 2103) has occurred while \output is active []
+
+[92]
+File: pictures/9-Permanenz.png Graphic file (type bmp)
+<pictures/9-Permanenz.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2425--2427
+
+ []
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 2427--2429
+
+ []
+
+File: pictures/9-Mathematisierungen.png Graphic file (type bmp)
+<pictures/9-Mathematisierungen.png>
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 2467--2469
+
+ []
+
+[95]
+Underfull \hbox (badness 1521) in paragraph at lines 2482--2484
+\TU/LibertinusSerif(0)/m/n/10.95 mehrfaches) Addieren, immer vermehre. Diese \T
+U/LibertinusSerif(0)/b/n/10.95 »Hinzufügen vemehrt immer«-
+ []
+
+File: pictures/9-Lernpfad.png Graphic file (type bmp)
+<pictures/9-Lernpfad.png>
+[96] [97] [98
+
+
+] [99] [100]
 chapter 10.
 
-Underfull \hbox (badness 1024) in paragraph at lines 2296--2297
+Underfull \hbox (badness 1024) in paragraph at lines 2534--2535
 []\TU/LibertinusSerif(0)/m/n/10.95 Schulz & Wartha ([][]2021[][]): \TU/Libertin
 usSerif(0)/m/it/10.95 Zahlen und Operationen am Übergang Primar-
  []
 
-[93
+[101
 
 
 ]
 File: pictures/10-KonzeptZahl.png Graphic file (type bmp)
 <pictures/10-KonzeptZahl.png>
-[94] [95] [96]
-Underfull \hbox (badness 1048) in paragraph at lines 2440--2442
+[102] [103] [104]
+Underfull \hbox (badness 1048) in paragraph at lines 2678--2680
 \TU/LibertinusSerif(0)/m/n/10.95 lässt sich die umsetzen, indem \TU/LibertinusS
 erif(0)/b/n/10.95 zu vorgegebenen Quadraten Seitenlängen
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 2440--2442
+Underfull \hbox (badness 1194) in paragraph at lines 2678--2680
 \TU/LibertinusSerif(0)/b/n/10.95 und Flächeninhalte bestimmt werden \TU/Liberti
 nusSerif(0)/m/n/10.95 müssen. Die Auswahl sollte derart
  []
 
-[97] [98]
+[105] [106]
 File: pictures/10-Wurzel.png Graphic file (type bmp)
 <pictures/10-Wurzel.png>
 File: pictures/10-WurzelIntervall.png Graphic file (type bmp)
 <pictures/10-WurzelIntervall.png>
-[99] [100]
+[107] [108]
 File: pictures/10-QuadratQuadrat.png Graphic file (type bmp)
 <pictures/10-QuadratQuadrat.png>
 
-Package hyperref Warning: Suppressing empty link on input line 2549.
+Package hyperref Warning: Suppressing empty link on input line 2787.
 
 
-Package hyperref Warning: Suppressing empty link on input line 2559.
+Package hyperref Warning: Suppressing empty link on input line 2797.
 
-[101]
+[109]
 File: pictures/10-Reihenfolge.png Graphic file (type bmp)
 <pictures/10-Reihenfolge.png>
 File: pictures/10-Wiederholung.png Graphic file (type bmp)
 <pictures/10-Wiederholung.png>
 
-Underfull \hbox (badness 5022) in paragraph at lines 2595--2595
+Underfull \hbox (badness 5022) in paragraph at lines 2833--2833
 [][][]\TU/LibertinusSerif(0)/m/n/10.95 Repräsentation für Auswahl ohne (links) 
 und mit (rechts) Wiederho-
  []
 
-[102]
+[110]
 File: pictures/10-Kombinatorik.png Graphic file (type bmp)
 <pictures/10-Kombinatorik.png>
-[103] [104
+[111] [112
 
 
 ]
 chapter 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2634--2636
+Underfull \hbox (badness 10000) in paragraph at lines 2872--2874
 
  []
 
-[105]
+[113]
 File: pictures/11-KonzeptMessen.png Graphic file (type bmp)
 <pictures/11-KonzeptMessen.png>
-[106] [107]
+[114] [115]
 File: pictures/11-Winkelscheibe.png Graphic file (type bmp)
 <pictures/11-Winkelscheibe.png>
-[108]
+[116]
 File: pictures/11-Winkelauslegen.png Graphic file (type bmp)
 <pictures/11-Winkelauslegen.png>
 File: pictures/11-Winkelkeile.png Graphic file (type bmp)
 <pictures/11-Winkelkeile.png>
-[109]
+[117]
 File: pictures/11-Geodreieck.png Graphic file (type bmp)
 <pictures/11-Geodreieck.png>
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 2801.
+(Font)              scaled to size 6.57pt on input line 3039.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
 File: pictures/11-Winkelmesser.png Graphic file (type bmp)
 <pictures/11-Winkelmesser.png>
-[110] [111]
+[118] [119]
 File: pictures/11-Goniometer.png Graphic file (type bmp)
 <pictures/11-Goniometer.png>
 File: pictures/11-ScreenshotLagemass.png Graphic file (type bmp)
 <pictures/11-ScreenshotLagemass.png>
-[112]
+[120]
 File: pictures/11-ScreenshotBoxplot.png Graphic file (type bmp)
 <pictures/11-ScreenshotBoxplot.png>
-[113] [114]
+[121] [122]
 chapter 12.
 File: pictures/12-KonzeptbildRaumForm.png Graphic file (type bmp)
 <pictures/12-KonzeptbildRaumForm.png>
-[115
+[123
 
 
-] [116]
+] [124]
 File: pictures/12-Mittelsenkrechte.png Graphic file (type bmp)
 <pictures/12-Mittelsenkrechte.png>
-[117]
+[125]
 File: pictures/12-3DKos1.png Graphic file (type bmp)
 <pictures/12-3DKos1.png>
 File: pictures/12-3DKos2.png Graphic file (type bmp)
 <pictures/12-3DKos2.png>
-[118]
+[126]
 File: pictures/12-3DKos3.png Graphic file (type bmp)
 <pictures/12-3DKos3.png>
-[119]
+[127]
 File: pictures/12-InnenwinkelReissen.png Graphic file (type bmp)
 <pictures/12-InnenwinkelReissen.png>
 File: pictures/12-InnenwinkelStift.png Graphic file (type bmp)
 <pictures/12-InnenwinkelStift.png>
 File: pictures/12-InnenwinkelBeweisfigur.png Graphic file (type bmp)
 <pictures/12-InnenwinkelBeweisfigur.png>
-[120] [121]
+[128] [129]
 File: pictures/12-Zentri.png Graphic file (type bmp)
 <pictures/12-Zentri.png>
 File: pictures/12-ZentriBeweis.png Graphic file (type bmp)
 <pictures/12-ZentriBeweis.png>
-[122] [123]
+[130] [131]
 File: pictures/12-Thales.png Graphic file (type bmp)
 <pictures/12-Thales.png>
-[124]
+[132]
 File: pictures/12-ThalesBeweis.png Graphic file (type bmp)
 <pictures/12-ThalesBeweis.png>
-[125] [126
+[133] [134
 
 
 ]
 chapter 13.
-[127]
+[135]
 File: pictures/13-KonzeptFunktion.png Graphic file (type bmp)
 <pictures/13-KonzeptFunktion.png>
-[128] [129] [130]
-Underfull \hbox (badness 3930) in paragraph at lines 3392--3393
+[136] [137] [138]
+Underfull \hbox (badness 3930) in paragraph at lines 3630--3631
 []\TU/LibertinusSerif(0)/m/n/10.95 Grundvorstellung zum \TU/LibertinusSerif(0)/
 b/n/10.95 Kovariationsaspekt/Änderungsaspekt\TU/LibertinusSerif(0)/m/n/10.95 : 
 »Mit Funktionen
  []
 
-[131]
-Underfull \hbox (badness 1062) in paragraph at lines 3420--3422
+[139]
+Underfull \hbox (badness 1062) in paragraph at lines 3658--3660
 []\TU/LibertinusSerif(0)/m/n/10.95 Diese Sichtweise ermöglicht, den Ableitungbe
 griff konstruktiv über den Sekanten-
  []
 
-[132] [133] [134
+[140] [141] [142
 
 
 ]
 chapter 14.
 File: pictures/14-KonzeptDatenZufall.png Graphic file (type bmp)
 <pictures/14-KonzeptDatenZufall.png>
-[135] [136]
+[143] [144]
 File: pictures/14-DefinitionZufallsexperiment.jpeg Graphic file (type bmp)
 <pictures/14-DefinitionZufallsexperiment.jpeg>
 File: pictures/14-Modelle.png Graphic file (type bmp)
 <pictures/14-Modelle.png>
-[137] [138]
+[145] [146]
 File: pictures/14-Prozessbetrachtung.png Graphic file (type bmp)
 <pictures/14-Prozessbetrachtung.png>
-[139]
+[147]
 File: pictures/14-Prozesse.png Graphic file (type bmp)
 <pictures/14-Prozesse.png>
 File: pictures/14-Vierfeld.png Graphic file (type bmp)
 <pictures/14-Vierfeld.png>
-[140]
+[148]
 File: pictures/14-VierfeldEinzeln.png Graphic file (type bmp)
 <pictures/14-VierfeldEinzeln.png>
 File: pictures/14-Doppelbaum.png Graphic file (type bmp)
 <pictures/14-Doppelbaum.png>
 File: pictures/14-Netz.png Graphic file (type bmp)
 <pictures/14-Netz.png>
-[141] [142] [143] [144]
+[149] [150] [151] [152]
 chapter A.
-[145
+[153
 
 
 ]
-Underfull \hbox (badness 1694) in paragraph at lines 3739--3740
+Underfull \hbox (badness 1694) in paragraph at lines 3977--3978
 []\TU/LibertinusSerif(0)/b/n/10.95 Gute Leistung (2,0): \TU/LibertinusSerif(0)/
 m/n/10.95 Zusätzlich: Die Analyse wird sprachlich überzeugend dargestellt
  []
 
 File: pictures/A-BeispielDeckblatt.png Graphic file (type bmp)
 <pictures/A-BeispielDeckblatt.png>
-[146] [147] [148] [149] [150
+[154] [155] [156] [157] [158
 
 
 ]
 chapter B.
 
-Underfull \hbox (badness 3701) in paragraph at lines 3822--3824
+Underfull \hbox (badness 3701) in paragraph at lines 4060--4062
 \TU/LibertinusSerif(0)/m/n/10.95 Adam, V., & Kleine, M. (2016). \TU/LibertinusS
 erif(0)/m/it/10.95 Mathe.delta: Mathematik für das Gymnasium 8, Ber-
  []
 
-[151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
+[159]
+Missing character: There is no ﬁ (U+FB01) in font [LibertinusSerif-Regular.otf]
+/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;!
+[160] [161] [162] [163] [164] [165] [166] [167] [168]
 runsystem(makeindex Stoffdidaktik2022-Etzold.idx)...executed safely (allowed).
 
 (./Stoffdidaktik2022-Etzold.ind
@@ -3128,7 +3182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 /10.95 siehe[] \TU/LibertinusSerif(0)/m/n/10.95 Vier-Ebenen-
  []
 
-[161
+[169
 
 
 
@@ -3142,15 +3196,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 33721 strings out of 476919
- 685482 string characters out of 5821841
- 1277761 words of memory out of 5000000
- 53175 multiletter control sequences out of 15000+600000
+ 33805 strings out of 476919
+ 687563 string characters out of 5821841
+ 1283055 words of memory out of 5000000
+ 53253 multiletter control sequences out of 15000+600000
  413900 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  111i,13n,137p,10647b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Stoffdidaktik2022-Etzold.pdf (161 pages).
+Output written on Stoffdidaktik2022-Etzold.pdf (169 pages).
 
 ! This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
 ! Scanning input file Stoffdidaktik2022-Etzold.idx....done (64 entries accepted, 0 rejected).
