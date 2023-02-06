@@ -144,7 +144,7 @@ Gegenüber dem Messen und Rechnen hat dieses Vorgehen, insbesondere das Aneinand
 
 
 ```{r InnenwinkelStift, echo=FALSE, fig.cap="Innenwinkelsumme mit Stiftbewegung erfahren", fig.align='center', out.width='50%'}
-knitr::include_graphics("pictures/12-InnenwinkelStift.gif")
+knitr::include_graphics("pictures/12-InnenwinkelStift.png")
 ```
 
 Für den eigentlichen Beweis kann man parallel zu einer Dreiecksseite einen Gerade durch den gegenüberliegenden Punkt zeichnen (siehe Abbildung \@ref(fig:InnenwinkelBeweisfigure)) und den gestreckten Winkel von $180°$ mithilfe des Wechselwinkelsatzes begründen.

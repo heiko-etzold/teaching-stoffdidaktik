@@ -66,10 +66,10 @@ Im Folgenden sollen einige Grundgedanken zur Stochastik, insbesondere im Zusamme
 
 Für die tatsächliche Unterrichtsausführung ist dies insofern problematisch, da der Begriff *Zufallsexperiment* i. d. R. Bestandtteil der Lehrpläne ist [siehe z. B. @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a {59, 61}] und damit unterrichtet werden muss. Sie als Lehrkraft sollten also stets die an der Verwendung des Begriffs vorgebrachte Kritik im Hinterkopf haben und dies sensibel bei Ihrer Unterrichtsgestaltung beachten. Dies kann etwa bedeuten, dass Sie dennoch eine *übliche* Definition des Begriffs Zufallsexperiment nutzen (siehe Abbildung \@ref(fig:DefinitionZufallsexperiment)), aber im Unterricht die Unterschiede zu *echten* Experimenten thematisieren und über geeignete Beispiele und Gegenbeispiele den Begriff ausschärfen.
 
-(ref:citeDefinitionZufallsexperiment) Schulbuchdefinition des Begriff *Zufallsexperiment* [@Adam2016 18]
+(ref:citeDefinitionZufallsexperiment) Schulbuchdefinition des Begriffs *Zufallsexperiment* [@Adam2016 18]
 
 ```{r DefinitionZufallsexperiment, echo=FALSE, fig.cap="(ref:citeDefinitionZufallsexperiment)", fig.align='center', out.width='95%'}
-knitr::include_graphics("pictures/14-DefinitionZufallsexperiment.jpeg")
+knitr::include_graphics("pictures/14-DefinitionZufallsexperiment.png")
 ```
 
 ### Modellierungsstruktur

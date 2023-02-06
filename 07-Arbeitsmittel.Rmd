@@ -26,7 +26,7 @@ Durch die Nutzung eines geeigneten Werkzeugs ist das Subjekt damit einerseits in
 
 Im Rahmen der Lerntätigkeit sind solche (ggf. psychischen) Werkzeuge dann *Lernmittel* und können vielfältigster Natur sein:
 
-* Mithilfe eines *Zirkels* können Kreise erzeugt werden, indem der Zirkel seiner Funktion entsprechend verwendet wird (Externalisierung der Kenntnisse über den Kreis). Die Gestaltung und Handhabe des Zirkels selbst vermittelt jedoch auch Wissen über den Kreisbegriff, so dass dieses in der Verwendung des Werkzeugs aufgebaut werden kann (Internalisierung des Wissens über den Kreis).
+* Mithilfe eines *Zirkels* können Kreise erzeugt werden, indem der Zirkel seiner Funktion entsprechend verwendet wird (Externalisierung der Kenntnisse über den Kreis). Die Gestaltung und Handhabung des Zirkels selbst vermittelt jedoch auch Wissen über den Kreisbegriff, so dass dieses in der Verwendung des Werkzeugs aufgebaut werden kann (Internalisierung des Wissens über den Kreis).
 * Die *digitale Stellenwerttafel* ermöglicht es, das Stellenwertverständnis zu Zahlen aufzubauen und Zahlen entsprechend darzustellen. Durch das Verhalten der Anwendung (dass z. B. ein Plättchen beim Verschieben von der Zehner- in die Einer-Spalte automatisch entbündelt wird) unterstützt diesen Aneignungsprozess [siehe @Kortenkamp2018a]. 
 * Auch *Aufgaben* haben die Funktion eines (bedeutsamen!) Lernmittels, wenn sie als Aufforderung zum Lernhandeln aufgefasst werden (siehe Abschnitt \@ref(funktionen-von-aufgaben)). An ihnen erarbeiten sich die Schülerinnen und Schüler bestimmte Elemente des Lerngegenstands und die Gestaltung der Aufgabe sowie die vorhandenen Kenntnisse der Schülerinnen und Schüler bestimmen den Verlauf und Erfolg der Lernhandlung.
 
@@ -56,7 +56,7 @@ Ein Arbeitsmittel ist eine **materielle oder materialisierte^[Damit sind auch Ab
 ### ACAT-Modell
 
 Als Lehrkraft werden Sie (wahrscheinlich) selten in der Situation sein, selbst Arbeitsmittel erstellen zu müssen. Bedeutsamer ist es, existierende Arbeitsmittel einschätzen und analysieren zu können --
-gerade bei einer immer größer werdenden Fülle als digitalen Apps, die durchaus den Charakter eines Arbeitsmittels einnehmen können. Um Arbeitsmittel fundiert und strukturiert zu analysieren, bietet sich als Stütze das auf die Tätigkeitstheorie aufbauende Modell **Artifact-Centric Activity Theory (ACAT)**^[übersetzt: Artefakt-zentrierte Tätigkeitstheorie] von @Ladel2013 an, siehe Abbildung \@ref(fig:ACAT).
+gerade bei einer immer größer werdenden Fülle an digitalen Apps, die durchaus den Charakter eines Arbeitsmittels einnehmen können. Um Arbeitsmittel fundiert und strukturiert zu analysieren, bietet sich als Stütze das auf die Tätigkeitstheorie aufbauende Modell **Artifact-Centric Activity Theory (ACAT)**^[übersetzt: Artefakt-zentrierte Tätigkeitstheorie] von @Ladel2013 an, siehe Abbildung \@ref(fig:ACAT).
 
 (ref:citeACAT) ACAT-Modell nach @Ladel2013 [4]
 
@@ -70,7 +70,7 @@ Statt von einem Werkzeug ist hier von einem *Artefakt* die Rede. Damit soll ausg
 
 Das obere rechte Dreieck beschreibt die spezifische Gestaltung des Artefakts über sogenannte *Regeln*. Die Regeln ergeben sich einerseits aus dem mathematischen Gegenstand selbst. Andererseits stammen sie aus weiteren Wissenschaftsbereichen wie der Psychologie, allgemeinen Didaktik, Multimedia-Design usw. und wirken wieder zurück auf das mathematische Objekt, indem die Regeln einen Einfluss darauf haben, welche Eigenschaften des Objektes repräsentiert werden. Wenn beispielsweise ein Spielwürfel aus Design-Gründen abgerundete Ecken und Kanten hat (damit sich die spielenden Kinder nicht verletzen), kann sich dies auf ein (falsches) mathematisches Verständnis des Würfel-Begriffs auswirken. Daher ist ein solcher Spielwürfel ungeeignet als Arbeitsmittel für den Erstkontakt mit dem entsprechenden Begriff. Aus den Regeln heraus wird das Artefakt gestaltet.
 
-Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensituation* dargestellt. Hierbei spielen z. B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgereichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als *instrumental orchestration* bezeichnet [siehe z. B. @Drijvers2010 {214 f.}].
+Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensituation* dargestellt. Hierbei spielen z. B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgerichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als *instrumental orchestration* bezeichnet [siehe z. B. @Drijvers2010 {214 f.}].
 
 
 
@@ -90,7 +90,7 @@ Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensitu
 
 2. **Herausstellen der Interaktionsmöglichkeiten mit dem mathematischen Objekt über das Arbeitsmittel**
 
-    Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel eine *pinch-to-zoom*-Geste zum Vergrößern oder Verkleinern einer Landkarte auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von **Externalisierung**. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z. B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von **Internalisierung**. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten:
+    Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel das Vergrößern oder Verkleinern eines Landkarten-Ausschnittes auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von **Externalisierung**. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z. B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von **Internalisierung**. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten:
 
     **S → A:** Welche Handlungen sind mit dem Arbeitsmittel möglich?  
     **A → O:** Wie repräsentiert das Arbeitsmittel das mathematische Objekt?  
@@ -131,7 +131,7 @@ Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der *Klassensitu
 
     Tätigkeitstheoretischer Hintergrund ist hierbei, dass Lernen niemals als eine rein individuelle Tätigkeit eines Schülers oder einer Schülerin angenommen wird, sondern immer im gesellschaftlichen und sozialen Kontext geschieht. Oder mit anderen Worten: »Im Unterricht agiert immer ein pädagogisches Gesamtsubjekt« [@Giest2004a 112].
 
-    ***Mögliche Quellen*** für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien bzw. Versuchsdurchführungen im Unterricht.
+    ***Mögliche Quellen*** für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien, bzw. Versuchsdurchführungen im Unterricht.
 
 Diese fünf Schritte sprechen damit jeweils verschiedene Elemente des ACAT-Modells an. Abbildung \@ref(fig:ACATAnalyse) fasst dies noch einmal zusammen.
 

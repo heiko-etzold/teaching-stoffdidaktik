@@ -101,8 +101,8 @@
 
 \usepackage[original]{imakeidx}
 % \usepackage{makeidx}
-\makeindex[title=Stichwortverzeichnis, intoc]
-\indexsetup{level=\chapter,toclevel=chapter,noclearpage,firstpagestyle=headings}
+% \makeindex[title=Stichwortverzeichnis, intoc]
+% \indexsetup{level=\chapter,toclevel=chapter,noclearpage,firstpagestyle=headings}
 
 
 
@@ -114,22 +114,22 @@
 \definecolor{linkColor}{HTML}{929292}
 \definecolor{quoteColor}{HTML}{666666}
 
-% \usepackage{framed}
-% \renewenvironment{quote}{
-%   \list{}{
-% 	\leftmargin0.2cm   % this is the adjusting screw
-%     \rightmargin\leftmargin
-%       	\def\FrameCommand
-%     {%
-%         {\color{quoteColor}\vrule width 3pt}%
-%         \hspace{0pt}%must no space.
-%         %
-%     }%
-%     \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
-%     }
-%   \item\relax
-% }
-% {\endlist\color{black}\endMakeFramed}
+\usepackage{framed}
+\renewenvironment{quote}{
+  \list{}{
+	\leftmargin0.2cm   % this is the adjusting screw
+    \rightmargin\leftmargin
+      	\def\FrameCommand
+    {%
+        {\color{quoteColor}\vrule width 2pt}%
+        \hspace{0pt}%must no space.
+        %
+    }%
+    \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
+    }
+  \item\relax
+}
+{\endlist\color{black}\endMakeFramed}
 
 
 \makeatletter
@@ -168,7 +168,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 30.01.2023}
+\date{Letzte Änderung: 06.02.2023}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -191,7 +191,7 @@
 \maketitle
 
 % \renewtheorem{definition}{Definition}[chapter]
-% 
+%
 % \newtheoremstyle{definition}% name of the style to be used
 % {}% measure of space to leave above the theorem. E.g.: 3pt
 % {}% measure of space to leave below the theorem. E.g.: 3pt
@@ -216,7 +216,7 @@ Die Veranstaltung \emph{Stoffdidaktik Mathematik} wird über dieses Dokument beg
 Zitiere als:
 
 \begin{quote}
-Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23} (Version vom 30.01.2023). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23} (Version vom 06.02.2023). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter \url{https://stoffdidaktik.heiko-etzold.de/2021}.
@@ -1289,7 +1289,7 @@ Interessant ist hier auch die \textbf{\emph{Willkürlichkeit} des Vergleichsmaß
 
 }
 
-\caption{Standardeinheiten typischer Vergleichsflächen (\protect\hyperlink{ref-Lambacher2010}{\emph{Lambacher {Schweizer} {Mathematik} für {Gymnasien}. 5, {Schülerbuch}}, 2010, S. 193})}\label{fig:FlaecheEinheiten}
+\caption{Standardeinheiten typischer Vergleichsflächen (\protect\hyperlink{ref-Lambacher2010}{\emph{Lambacher Schweizer Mathematik für Gymnasien. 5, Schülerbuch}, 2010, S. 193})}\label{fig:FlaecheEinheiten}
 \end{figure}
 
 \hypertarget{semantische-ebene-1}{%
@@ -1520,7 +1520,7 @@ Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z.~B. strik
 
 Mit den Kapiteln \ref{fundamentale-ideen} bis \ref{erstes-intermezzo-flaecheninhalt} haben Sie Ansätze kennengelernt, die Fragen der \textcolor{formalColor}{formalen}, \textcolor{semanticColor}{semantischen} und \textcolor{concreteColor}{konkreten} Ebene des \protect\hyperlink{tab:fragen-ebenen}{Vier-Ebenen-Ansatzes} nach Hußmann \& Prediger (\protect\hyperlink{ref-Hussmann:2016}{2016}) zu beantworten. Mit der deskriptiven Perspektive auf Grundvorstellungen kennen Sie auch schon erste Grundlagen, Fragen der \textcolor{empiricColor}{empirischen} Ebene zu untersuchen. Ziel bei all den Fragen war immer, \textbf{Lernpfade} für Lerngegenstände zu generieren, also den Stoff derart auszuwählen (\emph{spezifizieren}) und anzuordnen (\emph{strukturieren}), dass er sinnstiftend gelehrt und gelernt werden kann.
 
-Nach einer solchen stoffdidaktischen Analyse ist nun der nächste Schritt die Planung der Unterrichtsgestaltung an sich. In der fachdidaktischen und bildungswissenschaftlichen Literatur hat sich hierfür der Begriff der \textbf{Lernumgebung} durchgesetzt -- dabei aber auch mit verschiedenen Sichtweisen wie eine »pädagogische« (z.~B. angenehme Lernatmosphäre, respektvolles Miteinander), als ein »methodisch-organisatorisches Arrangement« (z.~B. Gestaltung des Klassenraums) oder eben auch als »inhaltliches Verständnis«, das hier weiter verfolgt werden soll (vgl. \protect\hyperlink{ref-Krauthausen:2018}{Krauthausen, 2018, S. 255}).
+Nach einer solchen stoffdidaktischen Analyse ist nun der nächste Schritt die Planung der Unterrichtsgestaltung an sich. In der fachdidaktischen und bildungswissenschaftlichen Literatur hat sich hierfür der Begriff der \textbf{Lernumgebung} durchgesetzt -- unter anderem als »pädagogische« Sichtweise (z.~B. angenehme Lernatmosphäre, respektvolles Miteinander), als ein »methodisch-organisatorisches Arrangement« (z.~B. Gestaltung des Klassenraums) oder eben auch als »inhaltliches Verständnis«, das hier weiter verfolgt werden soll (vgl. \protect\hyperlink{ref-Krauthausen:2018}{Krauthausen, 2018, S. 255}).
 
 Nach Leuders (\protect\hyperlink{ref-Leuders2015}{2015, S. 448}) beinhalten Lernumgebungen für den Mathematikunterricht \textbf{»i) ein nach bestimmten Prinzipien geordnetes System von Aufgaben, ii) methodische Organisationsformen und iii) Stützsysteme, wie z.~B. Medien, Lehrerinterventionen und Kommunikationsformen«}. Die Grundlagen für die entsprechenden Bestandteile lernten und lernen Sie v.~a. in den weiteren Veranstaltungen der Fachdidaktiken und Bildungswissenschaften sowie in Ihrer schulpraktischen Ausbildung (und auch noch während Ihrer Tätigkeit als voll ausgebildete Lehrkraft). Bezogen auf stoffdidaktische Überlegungen dienen die folgenden drei Kapitel dabei noch einmal einer Schwerpunktbildung:
 
@@ -1536,9 +1536,9 @@ Nach Leuders (\protect\hyperlink{ref-Leuders2015}{2015, S. 448}) beinhalten Lern
 \hypertarget{taetigkeitstheorie-und-lernen}{%
 \section{Tätigkeitstheorie und Lernen}\label{taetigkeitstheorie-und-lernen}}
 
-Eine Grundannahme der Tätigkeitstheorie, die auf Vygotskijs psychologische Arbeiten aus den 1920er Jahren in der Sowjetunion zurück geht, ist das Verständnis, dass sich \textbf{Individuen aktiv-handelnd mit ihrer Umwelt auseinandersetzen}, \textbf{die Umwelt} dabei in der Interaktion mit der Gesellschaft \textbf{verändern}, und beide Prozesse wiederum psychisch im Individuum abgebildet werden. Dies widerspricht bspw. der \emph{behavioristischen} Annahme, dass man sich seiner Umwelt einfach nur anpasst, aber es ist auch nicht mit einer streng \emph{konstruktivistischen} Annahme zu verwechseln, nach der Individuen ein Abbild der Umwelt kognitiv rekonstruieren. Die Tätigkeitstheorie kann eher als »(moderat) konstruktivistische{[}r{]}{[}..{]} Ansatz« bezeichnet werden (\protect\hyperlink{ref-Giest2016a}{Giest, 2016, S. 47}).
+Eine Grundannahme der Tätigkeitstheorie, die auf Vygotskijs psychologische Arbeiten aus den 1920er Jahren in der Sowjetunion zurück geht, ist das Verständnis, dass sich \textbf{Individuen aktiv-handelnd mit ihrer Umwelt auseinandersetzen}, \textbf{die Umwelt} dabei in der Interaktion mit der Gesellschaft \textbf{verändern}, und beide Prozesse wiederum psychisch im Individuum abgebildet werden. Dies widerspricht bspw. der \emph{behavioristischen} Annahme, dass man sich seiner Umwelt einfach nur anpasst, aber es ist auch nicht mit einer \emph{streng konstruktivistischen} Annahme zu verwechseln, nach der Individuen ein Abbild der Umwelt kognitiv rekonstruieren. Die Tätigkeitstheorie kann eher als »(moderat) konstruktivistische{[}r{]}{[}..{]} Ansatz« bezeichnet werden (\protect\hyperlink{ref-Giest2016a}{Giest, 2016, S. 47}).
 
-Zu betonen ist dabei die \textbf{beiderseitige Wirkrichtung}: Sowohl das Individuum wirkt auf die Umwelt ein (und verändert sie, es kommt zur \emph{gesellschaftlichen Weiterentwicklung}), als auch die Umwelt auf das Individuum (was zur \emph{Persönlichkeitsentwicklung} führt). Beide Prozesse sind dabei nicht voneinander zu trennen. Eine solche Interaktion ist von (gesellschaftlich entwickelten) Motiven geprägt und wird als \textbf{\emph{Tätigkeit}} bezeichnet. Giest \& Lompscher (\protect\hyperlink{ref-Giest2006}{2006, S. 27}) formulieren: »Er {[}der Mensch{]} erschafft damit seine Kultur und zugleich die psychischen Funktionen, die ihn dazu in die Lage versetzen.« Dieses Paradoxon, dass die Tätigkeit ihre eigene Voraussetzung ist, kann aufgelöst werden, indem man zunächst kultur-historisch die gemeinschaftliche und erst dann die individuelle Tätigkeit betrachtet: »Durch (gemeinsame) Tätigkeit erfolgte die (kulturelle) Meschwerdung und über ihre individuelle Aneignung verläuft die Persönlichkeitsentwicklung« (\protect\hyperlink{ref-Giest2006}{Giest \& Lompscher, 2006, S. 27}).
+Zu betonen ist dabei die \textbf{beiderseitige Wirkrichtung}: Sowohl das Individuum wirkt auf die Umwelt ein (und verändert sie, es kommt zur \emph{gesellschaftlichen Weiterentwicklung}), als auch die Umwelt auf das Individuum (was zur \emph{Persönlichkeitsentwicklung} führt). Beide Prozesse sind dabei nicht voneinander zu trennen. Eine solche Interaktion ist von (gesellschaftlich entwickelten) Motiven geprägt und wird als \textbf{\emph{Tätigkeit}} bezeichnet. Giest \& Lompscher (\protect\hyperlink{ref-Giest2006}{2006, S. 27}) formulieren: »Er {[}der Mensch{]} erschafft damit seine Kultur und zugleich die psychischen Funktionen, die ihn dazu in die Lage versetzen.« Dieses Paradoxon, dass die Tätigkeit ihre eigene Voraussetzung ist, kann aufgelöst werden, indem man zunächst kultur-historisch die gemeinschaftliche und erst dann die individuelle Tätigkeit betrachtet: »Durch (gemeinsame) Tätigkeit erfolgte die (kulturelle) Menschwerdung und über ihre individuelle Aneignung verläuft die Persönlichkeitsentwicklung« (\protect\hyperlink{ref-Giest2006}{Giest \& Lompscher, 2006, S. 27}).
 
 Für schulische Prozesse von besonderem Interesse ist die \textbf{\emph{Lerntätigkeit}}, in der Definition nach Giest \& Lompscher (\protect\hyperlink{ref-Giest2006}{2006, S. 67}):
 
@@ -1598,12 +1598,12 @@ Unabhängig von konkreten Lerngegenständen haben Bruder \& Brückner (\protect\
 \item
   \textbf{Planen:} »Durch Anwenden von Vorgehensstrategien wird ein Arbeitsplan mit den erforderlichen Teilschritten zur Zielrealisierung entwickelt«
 \item
-  \textbf{Ausführen:} »Abarbeiten eines Arbeitsplanes -- Handlungsvollzug auf der Grundalge der ausgebildeten Orientierungsgrundlage u.a. als Berechnen, geometrisches Darstellen, Definieren, Darstellen eines Beweises«
+  \textbf{Ausführen:} »Abarbeiten eines Arbeitsplanes -- Handlungsvollzug auf der Grundalge der ausgebildeten Orientierungsgrundlage u.~a. als Berechnen, geometrisches Darstellen, Definieren, Darstellen eines Beweises«
 \item
   \textbf{Kontrollieren:} »Feststellen der Zweckmäßigkeit und Exaktheit von Teilschritten des Aufgabenlösens und des Resultats (Handlungsprodukt!)«
 \end{itemize}
 
-Diese Handlungen müssen nun je nach Lerngegenstand noch konkretisiert werden. Am Beispiel des Winkelfeldes in Abschnitt \ref{konkrete-ebene} lautete eine Aufgabe für die Schülerinnen und Schüler: »Wo muss das Schaf lang laufen, damit es die gesamte Zeit gerade so von der Kuh gesehen wird?« Hierfür bewegen die Schülerinnen und Schüler in der App das Schaf entlang der Sichtfeldgrenze der Kuh, geradlinig und in Richtung der Augen der Kuh begrenzt und in die andere Richtung unbegrenzt. Sie \emph{identifizieren und realisieren} damit das mathematische Objekt \emph{Strahl}, gebunden am Kontext der Sichtfelder. Im Anschluss wird diese Handlung (kontextunabhängig) verallgemeinert und die Strahl-Eigenschaft des Schenkels charakterisiert. Die App als Lernmittel unterstütz diesen Prozess, indem sich die Bestandteile des Winkelfeldes ein- und ausblenden lassen sowie vom \emph{Tiermodus} in den \emph{Winkelfeldmodus} gewechselt werden kann.
+Diese Handlungen müssen nun je nach Lerngegenstand noch konkretisiert werden. Am Beispiel des Winkelfeldes in Abschnitt \ref{konkrete-ebene} lautete eine Aufgabe für die Schülerinnen und Schüler: »Wo muss das Schaf lang laufen, damit es die gesamte Zeit gerade so von der Kuh gesehen wird?« Hierfür bewegen die Schülerinnen und Schüler in der App das Schaf entlang der Sichtfeldgrenze der Kuh, geradlinig und in Richtung der Augen der Kuh begrenzt und in die andere Richtung unbegrenzt. Sie \emph{identifizieren und realisieren} damit das mathematische Objekt \emph{Strahl}, gebunden am Kontext der Sichtfelder. Im Anschluss wird diese Handlung (kontextunabhängig) verallgemeinert und die Strahl-Eigenschaft des Schenkels charakterisiert. Die App als Lernmittel unterstützt diesen Prozess, indem sich die Bestandteile des Winkelfeldes ein- und ausblenden lassen sowie vom \emph{Tiermodus} in den \emph{Winkelfeldmodus} gewechselt werden kann.
 
 
 
@@ -1640,7 +1640,7 @@ Im Folgenden wird dargestellt, wie einzelne aus der Tätigkeitstheorie stammende
 \hypertarget{anknuepfen}{%
 \subsection{Anknüpfen}\label{anknuepfen}}
 
-Die Schülerinnen und Schüler müssen zunächst in die Lage versetzt werden, sich mit dem Lerngegenstand auseinandersetzen zu \emph{wollen}. Hierzu ist es hilfreich, die Anforderungssituation in der \textbf{Zone der nächsten Entwicklung} der Schülerinnen und Schüler zu präsentieren. Dabei handelt es sich um eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihrer bisherigen Kenntnisse, Fähigkeiten und Fertigkeiten verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht selbstständig in der Lage sind. Somit wird eine Motivation geschaffen, sich mit der Thematik tiefer auseinanderzusetzen. Es ist durchaus möglich, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen. Daran ist besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« (\protect\hyperlink{ref-Lompscher1996}{Lompscher, 1996, S. 4}).
+Die Schülerinnen und Schüler müssen zunächst in die Lage versetzt werden, sich mit dem Lerngegenstand auseinandersetzen zu \emph{wollen}. Hierzu ist es hilfreich, die Anforderungssituation in der \textbf{Zone der nächsten Entwicklung} der Schülerinnen und Schüler zu präsentieren. Dabei handelt es sich um eine Problemsituation, Aufgabe oder Fragestellung, die die Schülerinnen und Schüler zwar mithilfe ihrer bisherigen Kenntnisse, Fähigkeiten und Fertigkeiten verstehen und nachvollziehen können, zu ihrer Lösung sie jedoch noch nicht \emph{selbstständig} in der Lage sind. Somit wird eine Motivation geschaffen, sich mit der Thematik tiefer auseinanderzusetzen. Es ist durchaus möglich, an dieser Stelle auch schon erste Lösungsversuche zu unternehmen. Daran ist besonders gut zu erkennen, »was wir nicht wissen bzw. können, um die Anforderung zu bewältigen« (\protect\hyperlink{ref-Lompscher1996}{Lompscher, 1996, S. 4}).
 
 Anschließend werden gemeinsam mit der Lehrkraft die \textbf{Lernziele} herausgearbeitet, die den weiteren Verlauf des Lernens strukturieren sollen. Wichtig ist hier eine Unterscheidung zu \emph{Lehrzielen}, die die Sicht der Lehrkraft widerspiegeln. \emph{Lernziele} dagegen sind die Ziele aus Sicht der Schülerinnen und Schüler, auf die sich im individuellen Lernprozess auch bezogen werden können muss. Es bietet sich daher auch eine explizite Formulierung der Lernziele an.
 
@@ -1655,7 +1655,7 @@ Mit der Anforderungssituation geht ad hoc eine Orientierung der Schülerinnen un
 
 \begin{itemize}
 \item
-  \textbf{Probierorientierung:} Die Schülerinnen und Schüler verfügen noch nicht über für die Anforderung nötigen Kenntnisse, Fähigkeiten oder Fertigkeiten. Stattdessen gehen sie nach Versuch und Irrtum vor. Dabei fehlt ihnen »häufig die Einsicht, warum eine bestimmte Handlung zum Erfolg geführt hat, eine andere jedoch nicht. {[}\ldots{]} Aufgrund der mangelnden Einsicht in die wirklichen Bedingungen der Handlungen ist eine erfolgreiche Handlung nicht notwendigerweise reproduzierbar.« Dies führt dazu, dass erfolgreiche Handlungen kaum auf veränderte Situationen übertragen werden können. Eine derartige Orientierung ist also höchstens »in Aneignungsprozessen zu einem Explorieren des neuen Inhaltsbereichs« wünschenswert, darüber hinaus jedoch sollten höhere Orientierungsgrundlagen angestrebt werden.
+  \textbf{Probierorientierung:} Die Schülerinnen und Schüler verfügen noch nicht über für die Anforderungsbewältigung nötigen Kenntnisse, Fähigkeiten oder Fertigkeiten. Stattdessen gehen sie nach Versuch und Irrtum vor. Dabei fehlt ihnen »häufig die Einsicht, warum eine bestimmte Handlung zum Erfolg geführt hat, eine andere jedoch nicht. {[}\ldots{]} Aufgrund der mangelnden Einsicht in die wirklichen Bedingungen der Handlungen ist eine erfolgreiche Handlung nicht notwendigerweise reproduzierbar.« Dies führt dazu, dass erfolgreiche Handlungen kaum auf veränderte Situationen übertragen werden können. Eine derartige Orientierung ist also höchstens »in Aneignungsprozessen zu einem Explorieren des neuen Inhaltsbereichs« wünschenswert, darüber hinaus jedoch sollten höhere Orientierungsgrundlagen angestrebt werden.
 \item
   \textbf{Musterorientierung:} Die Schülerinnen und Schüler gehen nun nicht mehr nach Versuch und Irrtum vor, sondern orientieren sich an bereits erfolgreich durchgeführten Handlungen in ähnlichen Anforderungssituationen -- die sozusagen als Muster dienen.
   »Dieser Orientierungstyp ist nur dann erfolgreich, wenn die gegebene Anforderungssituation dem erlernten Muster ähnlich genug ist, um eine Passung zu ermöglichen. Tragfähig ist ein Muster nur dann, wenn seine Handlungsbedingungen genau gekannt und stets geprüft werden.«
@@ -1666,7 +1666,7 @@ Mit der Anforderungssituation geht ad hoc eine Orientierung der Schülerinnen un
 
 Insbesondere für bedeutsame Lerngegenstände im Mindeststandardbereich ist eine Feldorientierung wünschenswert. Unterstützt werden kann dies etwa durch \textbf{reichhaltige Kontexte} und die \textbf{Vorschauperspektive der Kernideen/Kernfrage}, so dass sich die Schülerinnen und Schüler darauf einlassen können, nun ein gesamtes Feld zu erschließen. Auch das \textbf{Explizitmachen fundamentaler Ideen}\footnote{Dies ist eine Adaption eines bei Reitz-Koncebovski et al. (\protect\hyperlink{ref-Reitz-Koncebovski2018}{2018, S. 182}) dargestellten Gestaltprinzips fachwissenschaftlicher Lehrveranstaltungen in der Lehramtsausbildung.} hilft für eine derartige Einordnung. Die Orientierungsgrundlage bietet damit eine wichtige Basis für die auszubildenden Handlungen und die Organisation der Handlungsausführung.
 
-Vor allem bei der Gestaltung von Aufgabenstellungen ist es relevant, welche Orientierungsgrundlagen mit diesen angesprochen werden können, siehe dazu auch Kapitel \ref{aufgabengestaltung}.
+Vor allem bei der Gestaltung von Aufgabenstellungen ist es relevant, welche Orientierungsgrundlagen mit diesen angesprochen werden können, siehe dazu auch Abschnitt \ref{theoretischer-rueckblick}.
 
 \hypertarget{erkunden-ordnen-vertiefen}{%
 \subsection{Erkunden/Ordnen/Vertiefen}\label{erkunden-ordnen-vertiefen}}
@@ -1675,14 +1675,14 @@ Nach dem Orientierungsteil kommt es zum Ausführungsteil der Lernhandlungen. Hie
 
 \begin{itemize}
 \item
-  \textbf{Etappe der materiellen bzw. materialisierten Handlung}: Die Handlungen werden mit konkretem Material bzw. (z.~B. auch digitalen) Repräsentationen des Lerngegenstands durchgeführt. Hierfür sind geeignete Materialien notwendig, in Definition \ref{def:Lernhandlung} als \emph{Lernmittel} und in der Mathematikdidaktik i.~d.~R. als \emph{Arbeitsmittel} bezeichnet (siehe Kapitel \ref{arbeitsmittel}).
+  \textbf{Etappe der materiellen bzw. materialisierten Handlung}: Die Handlungen werden mit konkretem Material bzw. (z.~B. auch digitalen) Repräsentationen des Lerngegenstands durchgeführt. Hierfür sind geeignete Materialien notwendig, in Definition \ref{def:Lernhandlung} als \emph{äußere Lernmittel} und in der Mathematikdidaktik i.~d.~R. als \emph{Arbeitsmittel} bezeichnet (siehe Kapitel \ref{arbeitsmittel}).
 \item
   \textbf{Etappe der sprachlichen Handlung}: Die Handlungen werden nicht mehr direkt durchgeführt, aber durch äußeres (oder inneres) Sprechen beschrieben. Dabei wird i.~d.~R. Bezug auf die vorherigen Handlungen genommen.
 \item
   \textbf{Etappe der geistigen Handlung}: Die Handlungen werden nun rein kognitiv durchgeführt und bedürfen weder des Materials noch der Sprache.
 \end{itemize}
 
-Letztlich dienen diese Etappen dazu, die Lernhandlungen (und damit auch den Lerngegenstand, an dem diese Handlungen durchgeführt werden) psychisch abbilden zu können, was zu »Verallgemeinerung, Verkürzung und Beherrschung« der Handlungen führt (\protect\hyperlink{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 19}). Dieses Vorgehen unterstützt übrigens auch dabei, \textbf{Grundvorstellungen aufzubauen}. So stellen bspw. Wartha \& Schulz (\protect\hyperlink{ref-Wartha2011}{2011, S. 11}) ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert, siehe Abbildung \ref{fig:GVVerinnerlichen}.
+Letztlich dienen diese Etappen dazu, die Lernhandlungen (und damit auch den Lerngegenstand, an dem diese Handlungen durchgeführt werden) psychisch abbilden zu können, was zur »Verallgemeinerung, Verkürzung und Beherrschung« der Handlungen führt (\protect\hyperlink{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 19}). Dieses Vorgehen unterstützt übrigens auch dabei, \textbf{Grundvorstellungen aufzubauen}. So stellen bspw. Wartha \& Schulz (\protect\hyperlink{ref-Wartha2011}{2011, S. 11}) ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert, siehe Abbildung \ref{fig:GVVerinnerlichen}.
 
 
 
@@ -1716,11 +1716,11 @@ Die Handlungskontrolle ist dabei eine \emph{Selbstkontrolle} und muss dementspre
 
 \begin{itemize}
 \item
-  Ein Abgleich mit den zu erreichenden Handlungsergebnissen ist nur möglich, wenn im Vorfeld eine Zielklarheit besteht. Es ist daher zu empfehlen, die \textbf{Lernziele} (siehe \ref{anknuepfen}) \textbf{explizit zu formulieren und auch festzuhalten}.
+  Ein Abgleich mit den zu erreichenden Handlungsergebnissen ist nur möglich, wenn im Vorfeld eine Zielklarheit besteht. Es ist daher zu empfehlen, die \textbf{Lernziele} (siehe Abschnitt \ref{anknuepfen}) \textbf{explizit zu formulieren und auch festzuhalten}.
 \item
   Durch das \textbf{Anfertigen eines Lernprotokolls} (vgl. \protect\hyperlink{ref-Bruder2011}{Bruder, 2001}) erhalten die Schülerinnen und Schüler eine Möglichkeit, ihre eigenen Lernhandlungen zu dokumentieren und nachzuvollziehen. Insbesondere kann in diesem auch ohne jeglichen Bewertungsdruck dargestellt werden, wo man selbst als Schülerin oder Schüler noch Lücken sieht bzw. was man noch nicht verstanden hat.
 \item
-  Als weitere effektive Maßnahme in der Ausbildung der Handlungskontrolle hat sich die \textbf{gegenseitige Kontrolle der Schülerinnen und Schüler} als hilfreich herausgestellt. »Es läßt sich zunächst beim Partner leichter feststellen als bei sich selbst, inwieweit ein Handlungsergebnis bestimmten Zielkriterien entspricht, die Handlungsausführung anforderungs- und regelgerecht erfolgt, wo Abweichungen und Fehler liegen und worin die Ursachen dafür bestehen können« {[}Lompscher1983a 72{]}. Durch Verinnerlichung dieses Vorgehens kann dann schrittweise auch eine Selbstkontrolle erfolgen.
+  Als weitere effektive Maßnahme in der Ausbildung der Handlungskontrolle hat sich die \textbf{gegenseitige Kontrolle der Schülerinnen und Schüler} als hilfreich herausgestellt. »Es läßt sich zunächst beim Partner leichter feststellen als bei sich selbst, inwieweit ein Handlungsergebnis bestimmten Zielkriterien entspricht, die Handlungsausführung anforderungs- und regelgerecht erfolgt, wo Abweichungen und Fehler liegen und worin die Ursachen dafür bestehen können« (\protect\hyperlink{ref-Lompscher1983a}{Lompscher, 1983a, S. 72}). Durch Verinnerlichung dieses Vorgehens kann dann schrittweise auch eine Selbstkontrolle erfolgen.
 \end{itemize}
 
 Die dargestellten Beispiele greifen mit dem Abgleich zwischen Handlungsergebnissen und -zielen auch die \textbf{Rückschauperspektive der Kernideen/Kernfragen} auf. Die Handlungskontrolle befähigt damit die Schülerinnen und Schüler langfristig dazu, eine Feldorientierung über den Lerngegenstand zu erlangen.
@@ -1786,7 +1786,7 @@ Im Rahmen der Lerntätigkeit sind solche (ggf. psychischen) Werkzeuge dann \emph
 \begin{itemize}
 \tightlist
 \item
-  Mithilfe eines \emph{Zirkels} können Kreise erzeugt werden, indem der Zirkel seiner Funktion entsprechend verwendet wird (Externalisierung der Kenntnisse über den Kreis). Die Gestaltung und Handhabe des Zirkels selbst vermittelt jedoch auch Wissen über den Kreisbegriff, so dass dieses in der Verwendung des Werkzeugs aufgebaut werden kann (Internalisierung des Wissens über den Kreis).
+  Mithilfe eines \emph{Zirkels} können Kreise erzeugt werden, indem der Zirkel seiner Funktion entsprechend verwendet wird (Externalisierung der Kenntnisse über den Kreis). Die Gestaltung und Handhabung des Zirkels selbst vermittelt jedoch auch Wissen über den Kreisbegriff, so dass dieses in der Verwendung des Werkzeugs aufgebaut werden kann (Internalisierung des Wissens über den Kreis).
 \item
   Die \emph{digitale Stellenwerttafel} ermöglicht es, das Stellenwertverständnis zu Zahlen aufzubauen und Zahlen entsprechend darzustellen. Durch das Verhalten der Anwendung (dass z.~B. ein Plättchen beim Verschieben von der Zehner- in die Einer-Spalte automatisch entbündelt wird) unterstützt diesen Aneignungsprozess (siehe \protect\hyperlink{ref-Kortenkamp2018a}{Kortenkamp et al., 2018}).
 \item
@@ -1827,7 +1827,7 @@ Ein Arbeitsmittel ist eine \textbf{materielle oder materialisierte\footnote{Dami
 \subsection{ACAT-Modell}\label{acat-modell}}
 
 Als Lehrkraft werden Sie (wahrscheinlich) selten in der Situation sein, selbst Arbeitsmittel erstellen zu müssen. Bedeutsamer ist es, existierende Arbeitsmittel einschätzen und analysieren zu können --
-gerade bei einer immer größer werdenden Fülle als digitalen Apps, die durchaus den Charakter eines Arbeitsmittels einnehmen können. Um Arbeitsmittel fundiert und strukturiert zu analysieren, bietet sich als Stütze das auf die Tätigkeitstheorie aufbauende Modell \textbf{Artifact-Centric Activity Theory (ACAT)}\footnote{übersetzt: Artefakt-zentrierte Tätigkeitstheorie} von Ladel \& Kortenkamp (\protect\hyperlink{ref-Ladel2013}{2013}) an, siehe Abbildung \ref{fig:ACAT}.
+gerade bei einer immer größer werdenden Fülle an digitalen Apps, die durchaus den Charakter eines Arbeitsmittels einnehmen können. Um Arbeitsmittel fundiert und strukturiert zu analysieren, bietet sich als Stütze das auf die Tätigkeitstheorie aufbauende Modell \textbf{Artifact-Centric Activity Theory (ACAT)}\footnote{übersetzt: Artefakt-zentrierte Tätigkeitstheorie} von Ladel \& Kortenkamp (\protect\hyperlink{ref-Ladel2013}{2013}) an, siehe Abbildung \ref{fig:ACAT}.
 
 
 
@@ -1845,7 +1845,7 @@ Statt von einem Werkzeug ist hier von einem \emph{Artefakt} die Rede. Damit soll
 
 Das obere rechte Dreieck beschreibt die spezifische Gestaltung des Artefakts über sogenannte \emph{Regeln}. Die Regeln ergeben sich einerseits aus dem mathematischen Gegenstand selbst. Andererseits stammen sie aus weiteren Wissenschaftsbereichen wie der Psychologie, allgemeinen Didaktik, Multimedia-Design usw. und wirken wieder zurück auf das mathematische Objekt, indem die Regeln einen Einfluss darauf haben, welche Eigenschaften des Objektes repräsentiert werden. Wenn beispielsweise ein Spielwürfel aus Design-Gründen abgerundete Ecken und Kanten hat (damit sich die spielenden Kinder nicht verletzen), kann sich dies auf ein (falsches) mathematisches Verständnis des Würfel-Begriffs auswirken. Daher ist ein solcher Spielwürfel ungeeignet als Arbeitsmittel für den Erstkontakt mit dem entsprechenden Begriff. Aus den Regeln heraus wird das Artefakt gestaltet.
 
-Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der \emph{Klassensituation} dargestellt. Hierbei spielen z.~B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgereichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als \emph{instrumental orchestration} bezeichnet (siehe z.~B. \protect\hyperlink{ref-Drijvers2010}{Drijvers et al., 2010, S. 214~f.}).
+Im unteren linken Dreieck wird nun der Einsatz des Artefakts in der \emph{Klassensituation} dargestellt. Hierbei spielen z.~B. konkrete Aufgabenstellungen eine Rolle, die die Schülerinnen und Schüler zur zielgerichteten Arbeit mit dem Artefakt anregen. Auch ist die Rolle der Lehrkraft im Lehr-Lern-Prozess von Bedeutung, ebenso wie die methodische Ausgestaltung der Artefakt-Nutzung, ggf. auch im Zusammenspiel mit weiteren Artefakten. Dieses komplexe Beziehungsgefüge wird auch als \emph{instrumental orchestration} bezeichnet (siehe z.~B. \protect\hyperlink{ref-Drijvers2010}{Drijvers et al., 2010, S. 214~f.}).
 
 \hypertarget{analyseschritte}{%
 \subsection{Analyseschritte}\label{analyseschritte}}
@@ -1863,7 +1863,7 @@ Larkin et al. (\protect\hyperlink{ref-Larkin2019}{2019}) stellen dar, wie sich d
 \item
   \textbf{Herausstellen der Interaktionsmöglichkeiten mit dem mathematischen Objekt über das Arbeitsmittel}
 
-  Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel eine \emph{pinch-to-zoom}-Geste zum Vergrößern oder Verkleinern einer Landkarte auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von \textbf{Externalisierung}. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z.~B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von \textbf{Internalisierung}. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten:
+  Anschließend kann man sich Gedanken darüber machen, welche Interaktionsmöglichkeiten das Arbeitsmittel den Schülerinnen und Schülern mit dem mathematischen Objekt anbietet. Theoretischer Hintergrund hierfür ist, dass externe Handlungen des Subjekts (zum Beispiel das Vergrößern oder Verkleinern eines Landkarten-Ausschnittes auf einem Tablet-Bildschirm) interne Handlungen wiederspiegeln (hier: zentrische Streckungen), die das Verständnis repräsentieren -- man spricht von \textbf{Externalisierung}. Ebenso führen externe Handlungen aber auch zum Aufbau interner Repräsentationen (hier z.~B.: Veränderung der Fingerposition zu Beginn der Handlung ändert das Streckungszentrum) -- man spricht von \textbf{Internalisierung}. Um diese Nutzerinteraktion besser zu verstehen und in Bezug auf das mathematische Objekt zu sehen, ist es hilfreich, den Prozess zwischen Subjekt und Objekt am Artefakt (dem Arbeitsmittel) aufzutrennen und in Teilfragen zu beantworten:
 
   \textbf{S → A:} Welche Handlungen sind mit dem Arbeitsmittel möglich?\\
   \textbf{A → O:} Wie repräsentiert das Arbeitsmittel das mathematische Objekt?\\
@@ -1918,7 +1918,7 @@ Larkin et al. (\protect\hyperlink{ref-Larkin2019}{2019}) stellen dar, wie sich d
 
   Tätigkeitstheoretischer Hintergrund ist hierbei, dass Lernen niemals als eine rein individuelle Tätigkeit eines Schülers oder einer Schülerin angenommen wird, sondern immer im gesellschaftlichen und sozialen Kontext geschieht. Oder mit anderen Worten: »Im Unterricht agiert immer ein pädagogisches Gesamtsubjekt« (\protect\hyperlink{ref-Giest2004a}{Giest \& Lompscher, 2004, S. 112}).
 
-  \textbf{\emph{Mögliche Quellen}} für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien bzw. Versuchsdurchführungen im Unterricht.
+  \textbf{\emph{Mögliche Quellen}} für derarbeite Überlegungen sind Materialien für Lehrerinnen und Lehrer, wissenschaftliche Ergebnisse, bspw. aus experimentellen Studien, bzw. Versuchsdurchführungen im Unterricht.
 \end{enumerate}
 
 Diese fünf Schritte sprechen damit jeweils verschiedene Elemente des ACAT-Modells an. Abbildung \ref{fig:ACATAnalyse} fasst dies noch einmal zusammen.
@@ -2013,7 +2013,7 @@ In der Veranstaltung \emph{Einführung in die Mathematikdidaktik} lern(t)en Sie 
     \caption{Systematisierungsaufgabe zur Prozentrechnung (\protect\hyperlink{ref-Barzel2015a}{Leuders et al., 2015, S. 226})}\label{fig:ProzentSammeln}
     \end{figure}
 \item
-  \textbf{Üben}, \textbf{Festigen} und \textbf{Wiederholen} sind weitere wesentliche Funktionen von Aufgaben im Mathematikunterricht. Hier sollten Sie eine möglichst große Vielfalt an Fähigkeitsaspekten ansprechen (siehe Abschnitt \ref{Faehigkeitsaspekte}), um sowohl Automatisierungsprozesse als auch den Transfer anzuregen. Sowohl geschlossene als auf teilweise geöffnete Aufgaben bieten sich hier an -- auch sind die verschiedenen Anforderungsbereiche anzusprechen, was sich in einer gezielten Auswahl an Operatoren widerspiegeln sollte (siehe Abbildung \ref{fig:ProzentUeben}).
+  \textbf{Üben}, \textbf{Festigen} und \textbf{Wiederholen} sind weitere wesentliche Funktionen von Aufgaben im Mathematikunterricht. Hier sollten Sie eine möglichst große Vielfalt an Fähigkeitsaspekten ansprechen (siehe Abschnitt \ref{Faehigkeitsaspekte}), um sowohl Automatisierungsprozesse als auch den Transfer anzuregen. Sowohl geschlossene als auch teilweise geöffnete Aufgaben bieten sich hier an -- auch sind die verschiedenen Anforderungsbereiche anzusprechen, was sich in einer gezielten Auswahl an Operatoren widerspiegeln sollte (siehe Abbildung \ref{fig:ProzentUeben}).
 
   \begin{figure}
 
@@ -2109,7 +2109,7 @@ Die soll am Beispiel einer Schulbuchseite zur Prozentrechnung dargestellt werden
 
   \emph{Wähle eine leichte und eine schwere Teilaufgabe aus und löse sie.}
 \item
-  Aufgabe 3 ließe sich ergänzen durch:
+  Aufgabe 4 ließe sich ergänzen durch:
 
   \emph{Wie ändert sich Lisas Leistung, wenn du weitere Schüsse aufs Tor zielst, die sie alle hält?}
 
@@ -2188,7 +2188,7 @@ Abbildung \ref{fig:Schwierig} zeigt eine mögliche Realisierung zur Generierung 
 
 }
 
-\caption{Unterschiedlich schwere Aufgaben zum Prismenvolument (aus \protect\hyperlink{ref-Druke-Noe2018}{Drüke-Noe, 2018, S. 10})}\label{fig:Schwierig}
+\caption{Unterschiedlich schwere Aufgaben zum Prismenvolumen (aus \protect\hyperlink{ref-Druke-Noe2018}{Drüke-Noe, 2018, S. 10})}\label{fig:Schwierig}
 \end{figure}
 
 In der Unterrichtspraxis kann dies nun bedeuten, dass Sie auswählen, welche Schülerinnen und Schüler welche Aufgaben lösen (sogenannte \textbf{paralleldifferenzierende Aufgaben}, vgl. \protect\hyperlink{ref-Leuders2015}{Leuders, 2015, S. 441}), Sie können die Auswahl den Lernenden selbst überlassen oder auch eine Stufung im Schwierigkeitsgrad vornehmen, die dann durchlaufen werden soll (\textbf{gestuft differenzierende Aufgaben}).
@@ -2234,7 +2234,7 @@ Hat sich die Schülerin oder Schüler eine interne Aufgabe gestellt, bildet sich
 \item
   Wird etwa zur Abbildung \ref{fig:Aufgabenorientierung} die Aufgabe \emph{»Bestimme den Flächeninhalt des Dreiecks«} formuliert, spricht dies v.~a. eine Musterorientierung an, da der Aufgabentyp in dieser Form bereits mehrfach geübt wurde.
 \item
-  Die Aufgabe \emph{»Zeichne ein Dreieck mit einem Flächeninhalt von 13~cm².«} ermöglicht dagegen alle Orientierungstypen. Die Aufgabe ist sowohl über Versuch und Irrtum lösbar (z.~B. mit einem Dynamischen Geometriesystem, das den Flächeninhalt eine Dreicks unmittelbar darstellen kann, nachdem es gezeichnet wurde), als auch mit einer Musterorientierung (wenn man sich an ähnlich durchgeführten Beispielen orientiert) sowie einer Feldorientierung (wenn man sich über den Bezug zur Flächeninhaltsformel darüber im Klaren wird, dass ausschließlich die Grundseite und Höhe des Dreiecks relevant sind -- also bspw. auch eine ganze Klasse von Lösungen erzeugt werden kann).
+  Die Aufgabe \emph{»Zeichne ein Dreieck mit einem Flächeninhalt von 13~cm².«} ermöglicht dagegen alle Orientierungstypen. Die Aufgabe ist sowohl über Versuch und Irrtum lösbar (z.~B. mit einem Dynamischen Geometriesystem, das den Flächeninhalt eines Dreicks unmittelbar angeben kann, sobald es gezeichnet ist), als auch mit einer Musterorientierung (wenn man sich an ähnlich durchgeführten Beispielen orientiert) sowie einer Feldorientierung (wenn man sich über den Bezug zur Flächeninhaltsformel darüber im Klaren wird, dass ausschließlich die Grundseite und Höhe des Dreiecks relevant sind -- also bspw. auch eine ganze Klasse von Lösungen erzeugt werden kann).
 \end{itemize}
 
 \begin{figure}
@@ -2293,7 +2293,7 @@ Erstellen Sie zum Lerngegenstand \emph{Rechnen mit negativen Zahlen}
 \hypertarget{natuxfcrliche-zahlen-1}{%
 \subsubsection{Natürliche Zahlen}\label{natuxfcrliche-zahlen-1}}
 
-Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmatheamtisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die \textbf{Peano-Axiome} sowie die Betrachtung \textbf{gleichmächtiger Mengen}.
+Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmathematisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die \textbf{Peano-Axiome} sowie die Betrachtung \textbf{gleichmächtiger Mengen}.
 
 Aus den Peano-Axiomen (\protect\hyperlink{ref-WikiPeano}{Wikipedia, 2021b}) folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der \(0\)), die dann mit \(1\), \(2\), \(3\) usw. bezeichnet werden können.\footnote{Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt -- das geht schon weiter als hier zulässig.} Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass \(3\) größer ist als \(1\). Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen\footnote{Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.}, bei dem auch nicht C größer als A ist.
 
@@ -2326,18 +2326,18 @@ Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und tran
 
 Da innerhalb der natürlichen Zahlen noch nicht beliebig subtrahiert werden darf, stehen auch keine negativen Zahlen als Ergebnisse zur Verfügung. Um dennoch das Ergebnis bspw. der Aufgabe \(2-7\) »definieren« zu können, bietet sich erneut eine \textbf{Äquivalenzrelation} über die »Differenzengleichheit« an. Konkret lässt sich für \(k,l,m,n\in\mathbb{N}\) sagen:
 \((k,l)\sim (m,n):\Leftrightarrow k+n=l+m\)
-Das heißt z.~B., die Zahlenpaare \((2,7)\), \((0,5)\) und \((4,9)\) in Relation zueinander stehen, weil sie dieselbe »Differenz« haben (obwohl es die Differenz formal noch nicht gibt). Dies ermöglicht nun die Einführung des Bezeichners \(-5\) für die Äquivalenzklasse \([(0,5)]\).
+Das heißt z.~B., dass die Zahlenpaare \((2,7)\), \((0,5)\) und \((4,9)\) in Relation zueinander stehen, weil sie dieselbe »Differenz« haben (obwohl es die Differenz formal noch nicht gibt). Dies ermöglicht nun die Einführung des Bezeichners \(-5\) für die Äquivalenzklasse \([(0,5)]\).
 
 Das Vorgehen ist \emph{verträglich} mit den bisherigen Regeln in \(\mathbb{N}\), d.~h. es führt nicht zu Widersprüchen, wenn etwa das Zahlenpaar \((7,4)\) betrachtet wird mit dem Repräsentanten-Bezeichner \(3\). Die Menge aller Äquivalenzklassen (bzw. deren Kurzbezeichner) ist nun \(\mathbb{Z}\).
 
-Die Addition und Subtraktion zweier Zahlenpaar sind nun definierbar:
+Die Addition und Subtraktion zweier Zahlenpaare sind nun definierbar:
 
 \begin{align}
-(k, l) + (m, n) := (k + l, m + n)\\
+(k, l) + (m, n) := (k + m, l + n)\\
 (k, l) − (m, n) := (k, l) + (n, m)
 \end{align}
 
-Als Alternative bietet sich ein \textbf{axiomatisches Vorgehen} an, also die ganzen Zahlen mit der Addition als abelsche Gruppe definiert werden -- bedeutsam ist hier insbesondere die Existenz eines Inversen zu jeder Zahl.
+Als Alternative bietet sich ein \textbf{axiomatisches Vorgehen} an, also dass die ganzen Zahlen mit der Addition als abelsche Gruppe definiert werden -- bedeutsam ist hier insbesondere die Existenz eines Inversen zu jeder Zahl.
 
 Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den Unterricht zentrale Fachinhalte ableiten:
 
@@ -2346,11 +2346,11 @@ Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den
 \begin{itemize}
 \tightlist
 \item
-  \textcolor{formalColor}{Natürliche Zahlen sind als Teilmenge in ganze Zahlen eingebettet.}\\
+  \textcolor{formalColor}{Natürliche Zahlen sind als Teilmenge in die ganzen Zahlen eingebettet.}\\
 \item
-  \textcolor{formalColor}{Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.}\\
+  \textcolor{formalColor}{Die Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.}\\
 \item
-  \textcolor{formalColor}{Rechenregeln werden erweitert, wobei die bekannten weiter gelten.}
+  \textcolor{formalColor}{Die Rechenregeln werden erweitert, wobei die bekannten weiter gelten.}
 \end{itemize}
 
 \hypertarget{ganze-zahlen-semantische-ebene}{%
@@ -2359,19 +2359,19 @@ Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den
 \hypertarget{ganze-zahlen-grundvorstellungen}{%
 \subsubsection{Grundvorstellungen}\label{ganze-zahlen-grundvorstellungen}}
 
-Die Einführung ganzer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden (\protect\hyperlink{ref-vomHofe2014a}{Hofe \& Hattermann, 2014}). Diese sind eigentlich auf der empirischen Ebene der stoffdidaktischen Analyse angesiedelt (mehr dazu siehe auch Abschnitt \ref{ganze-zahlen-empirische-ebene}), sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.
+Die Einführung ganzer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden (\protect\hyperlink{ref-vomHofe2014a}{vom Hofe \& Hattermann, 2014}). Diese sind eigentlich auf der empirischen Ebene der stoffdidaktischen Analyse angesiedelt (mehr dazu siehe auch Abschnitt \ref{ganze-zahlen-empirische-ebene}), sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.
 
 \begin{itemize}
 \tightlist
 \item
-  So bestehen etwa für das \textbf{Minus-Zeichen vielfältige Interpretationsmöglichkeiten} als \textbf{Vorzeichen} (z.~B. in der Aufgabe \(-5+2\)), als \textbf{Rechenzeichen} (z.~B. in der Aufgabe \(7-2\)) oder als \textbf{Inversionszeichen} (z.~B. bei der Darstellung \(-a\) als Gegenzahl für \(a\)).
+  So bestehen etwa für das \textbf{Minus-Zeichen vielfältige Interpretationsmöglichkeiten} als \textbf{Vorzeichen} (z.~B. in der Rechnung \(-5+2\)), als \textbf{Rechenzeichen} (z.~B. in der Rechnung \(7-2\)) oder als \textbf{Inversionszeichen} (z.~B. bei der Darstellung \(-a\) als Gegenzahl für \(a\)).
 \item
   Der in den natürlichen Zahlen vorhandene \textbf{Kardinalzahlaspekt} (dass die Zahl die Mächtigkeit einer Menge angibt), ist in den negativen Zahlen \textbf{nicht mehr tragfähig} (es existiert keine \(-4\)-elementige Menge). Auch der \textbf{Ordinalzahlaspekt} (dass die Zahl eine Position angibt) ist nur \textbf{eingeschränkt tragfähig} (eine \(-4\)-te Position bedarf vielfältiger Zwischeninterpretationen). Der \textbf{Maßzahlaspekt} (z.~B. über die Angabe einer Zahl auf dem Zahlenstrahl) dagegen ist auf die ganzen Zahlen \textbf{erweiterbar}.
 \item
   Die \textbf{Ordnungsrelation} wird häufig \textbf{fehlinterpretiert} über eine spiegelbildliche Interpretation (z.~B. kann fälschlicherweise \(-5>-3\) angenommen werden). Eine Ursache kann hier darin liegen, dass die Ordnungsrelation zuvor über die Mächtigkeit von Mengen hergestellt wurde, was nun nicht mehr möglich ist.
 \end{itemize}
 
-Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen Hofe \& Hattermann (\protect\hyperlink{ref-vomHofe2014a}{2014}) zusammen:
+Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen vom Hofe \& Hattermann (\protect\hyperlink{ref-vomHofe2014a}{2014}) zusammen:
 
 \begin{itemize}
 \tightlist
@@ -2380,7 +2380,7 @@ Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Za
 \item
   Ganze Zahlen als \textbf{Gegensätze}: Diese Vorstellung wird z.~B. sichtbar, wenn über Guthaben und Schulden gesprochen wird. Hat man 5~€ Schulden, so ist dies der Gegensatz von 5~€ Guthaben. Die Vergleichsmarke (0~€) ist hier nicht beliebig gewählt, sondern natürlicherweise über »weder Guthaben noch Schulden« gegeben. Auch der Betrag einer Zahl kann in dieser Vorstellung besonders gut verstanden werden.
 \item
-  Ganze Zahlen als \textbf{Richtungen}: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z.~B. bei der Verwendung von Koordinatensystem der Fall, oder ganz allgemein bei der Zahlengeraden.
+  Ganze Zahlen als \textbf{Richtungen}: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z.~B. bei der Verwendung von Koordinatensystemen der Fall, oder ganz allgemein bei der Zahlengeraden.
 \item
   Ganze Zahlen als \textbf{Zustände und Zustandsänderungen}: In dieser Vorstellung bieten ganze Zahlen nicht nur die Möglichkeit, einen Zustand (wie Guthaben oder Schulden) zu beschreiben, sondern auch den Prozess der Änderung dieser Zustände (Erhalt von Guthaben, Erlass von Schulden, \ldots). Eine solche Vorstellung etwa ist nötig, um die verschiedenen Interpretationen des Minus-Zeichens nachvollziehen zu können.
 \end{itemize}
@@ -2397,16 +2397,23 @@ Als bedeutsamste Repräsentation negativer Zahlen gilt die Zahlengerade. Diese s
 \end{figure}
 
 Auch Operationen mit ganzen Zahlen sind hierzu nun verständlich behandelbar:
-- So kann das \textbf{Addieren/Subtrahieren} als Anlegen von Pfeilen, gerichtetes Weiter-/Zurückzählen oder als Subtraktion/Addition der Gegenzahl aufgefasst werden.
-- Das *Multiplizieren\textbf{ kann bei der Multiplikation mit einer positiven Zahl als Streckung/Stauchung aufgefasst werden, die Multiplikation mit \(-1\) entspricht der Spiegelung an der Null und die Multiplikation mit einer belibigen negativen Zahl ist eine Kombination aus beidem.
-- Der }Größenvergleich** ist nun über einen Lagevergleich auf der Zahlengeraden möglich, wobei weiter links liegende Zahlen immer kleiner sind als weiter rechts liegende.
+
+\begin{itemize}
+\tightlist
+\item
+  So kann das \textbf{Addieren/Subtrahieren} als Anlegen von Pfeilen, gerichtetes Weiter-/Zurückzählen oder als Subtraktion/Addition der Gegenzahl aufgefasst werden.\\
+\item
+  Das \textbf{Multiplizieren} kann bei der Multiplikation mit einer positiven Zahl als Streckung/Stauchung aufgefasst werden, die Multiplikation mit \(-1\) entspricht der Spiegelung an der Null und die Multiplikation mit einer beliebigen negativen Zahl ist eine Kombination aus beidem.\\
+\item
+  Der \textbf{Größenvergleich} ist nun über einen Lagevergleich auf der Zahlengeraden möglich, wobei weiter links liegende Zahlen immer kleiner sind als weiter rechts liegende.
+\end{itemize}
 
 \hypertarget{ganze-zahlen-fundamentale-ideen}{%
 \subsubsection{Fundamentale Ideen}\label{ganze-zahlen-fundamentale-ideen}}
 
-Hinsichtlich des Katalogs an Tätigkeitsideen (siehe Abschnitt \ref{taetigkeitsideen}) besteht die Möglichkeit, ganze Zahlen als Verallgemeinerung oder Vernetzung aufzufassen. Sinnvoller erscheint mir jedoch, von einer \textbf{Erweiterung} zu sprechen -- nicht im Sinne des Erweiterns von Brüchen -- sondern der Zahlbereichserweiterung und in dem Zusammenhang auch eine Erweiterung der nötigen Rechenregeln. Auch Freudenthal (\protect\hyperlink{ref-Freudenthal1989}{1989, S. 27}) spricht von der »Idee der Erweiterung unter Aufrechterhaltung gewisser Gesetze«. Auf eine ausführliche Darstellung der Kriterien fundamentaler Ideen wird hier verzichtet -- als Ausblick auf das Vertikalkriterium sei nur auf andere Erweiterungssituationen des Mathematikunterrichts verwiesen wie die sonstigen Zahlbereichserweiterungen, die Übertragung der Potenzgesetze auf rationale Exponenten oder eine Herleitung, dass \(a^0 = 1\) und \(0^0\) nicht definiert ist.
+Hinsichtlich des Katalogs an Tätigkeitsideen (siehe Abschnitt \ref{taetigkeitsideen}) besteht die Möglichkeit, ganze Zahlen als Verallgemeinerung oder Vernetzung aufzufassen. Sinnvoller erscheint mir jedoch, von einer \textbf{Erweiterung} zu sprechen -- nicht im Sinne des Erweiterns von Brüchen, sondern der Zahlbereichserweiterung und in dem Zusammenhang auch einer Erweiterung der nötigen Rechenregeln. Auch Freudenthal (\protect\hyperlink{ref-Freudenthal1989}{1989, S. 27}) spricht von der »Idee der Erweiterung unter Aufrechterhaltung gewisser Gesetze«. Auf eine ausführliche Darstellung der Kriterien fundamentaler Ideen wird hier verzichtet -- als Ausblick auf das Vertikalkriterium sei nur auf andere Erweiterungssituationen des Mathematikunterrichts verwiesen wie die sonstigen Zahlbereichserweiterungen, die Übertragung der Potenzgesetze auf rationale Exponenten oder eine Herleitung, dass \(a^0 = 1\) und \(0^0\) nicht definiert ist.
 
-Ein typisches Erweiterungsbeispiel im Zusammenhang mit ganzen Zahlen ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpreation. Abhilfe schafft hier das \textbf{\emph{Permanenzprinzip}}, nach dem neue Theorien (z.~B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein muss mit bisherigen Theorien (z.~B. das Rechnen mit positiven Zahlen). Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewissen Rechenregeln über \textbf{\emph{Permanenzreihen}}. Abbildung \ref{fig:Permanenz} stellt dies am Beispiel der Aufgabe \((-3)\cdot (-5)\) dar.
+Ein typisches Erweiterungsbeispiel im Zusammenhang mit ganzen Zahlen ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpretation. Abhilfe schafft hier das \textbf{\emph{Permanenzprinzip}}, nach dem neue Theorien (z.~B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein muss mit bisherigen Theorien (z.~B. das Rechnen mit positiven Zahlen). Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewisser Rechenregeln über \textbf{\emph{Permanenzreihen}}. Abbildung \ref{fig:Permanenz} stellt dies am Beispiel der Aufgabe \((-3)\cdot (-5)\) dar.
 
 \begin{figure}
 
@@ -2424,7 +2431,7 @@ Zusammenfassend lassen sich auf der semantischen Ebene folgende für den Lernpfa
 \item
   \textcolor{semanticColor}{Ganze Zahlen sollten als relative Zahlen bezüglich einer fest gewählten Vergleichsmarke, als Gegensätze, als Richtungen sowie als Zustände und Zustandsänderungen aufgefasst werden können}\\
 \item
-  \textcolor{semanticColor}{Die Zahlengerade ist eine wesentliche Repräsentation ganzer Zahlen, anhand dessen auch die Operationen mit ganzen Zahlen sichtbar gemacht werden können.}\\
+  \textcolor{semanticColor}{Die Zahlengerade ist eine wesentliche Repräsentation ganzer Zahlen, anhand derer auch die Operationen mit ganzen Zahlen sichtbar gemacht werden können.}\\
 \item
   \textcolor{semanticColor}{Die Einführung ganzer Zahlen soll über das Permanenzprinzip begleitet werden, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.}
 \end{itemize}
@@ -2442,11 +2449,11 @@ Aus den Überlegungen auf der formalen und semantischen Ebene kann als mathemati
   »Wie kann man mit negativen Zahlen wiederholt dasselbe rechnen?«
 \end{itemize}
 
-Bei der Wahl eines geeigneten \textbf{Kontextes} besteht die Herausforderung, dass die Zahlen und Rechnungen eine Relevanz im Kontext haben und nicht nur konstruiert sind. In der zunächst naheliegenden Temperaturbetrachtung bestehen einige physikalische Schwierigkeiten, nämlich dass auf der Celsius-Skala Temperaturen stets Zustände und keine Zustandsänderungen beschreiben (letztere werden in Kelvin angeben). Auch die Existenz eines absoluten Nullpunkts widerspricht der mathematischen Betrachtung beliebig kleiner negativer Zahlen. Hinzu kommt, dass die Gegensatz-Vorstellung keine praktische Bedeutung hat: \(-2\,°\mathrm{C}\) ist nicht das Gegenteil von \(2\,°\mathrm{C}\).
+Bei der Wahl eines geeigneten \textbf{Kontextes} besteht die Herausforderung, dass die Zahlen und Rechnungen eine Relevanz im Kontext haben und nicht nur konstruiert sind. In der zunächst naheliegenden Temperaturbetrachtung bestehen einige physikalische Schwierigkeiten, nämlich dass auf der Celsius-Skala Temperaturen stets Zustände und keine Zustandsänderungen beschreiben (letztere werden in Kelvin angeben). Auch die Existenz eines absoluten Nullpunkts (\(-273,\!15\,°\mathrm{C}\)) widerspricht der mathematischen Betrachtung beliebig kleiner negativer Zahlen. Hinzu kommt, dass die Gegensatz-Vorstellung keine praktische Bedeutung hat: \(-2\,°\mathrm{C}\) ist nicht das Gegenteil von \(2\,°\mathrm{C}\).
 
-Wie schon die Beispiele zu den Grundvorstellungen in Abschnitt \ref{ganze-zahlen-grundvorstellungen} gezeigt haben, bietet dagegen das \textbf{Guthaben-Schulden-Modell} vielfältige sinnstiftende (also lebensweltbezogene, kontextauthentische und reichhaltige) Anknüpfungspunkte. Eingeführt werden kann dieser Kontext z.~B. spielerisch über Guthaben- und Schuldenkarten, wobei Würfel dafür eingesetzt werden können, wie viele Guthaben- oder Schuldenkarten man abgeben muss bzw. erhält. Über die Dokumentation von »Kontoständen und -bewegungen« kann der Prozess festgehalten werden. Weitere Anregungen zu diesem Kontext findet man auch bei Hußmann \& Schindler (\protect\hyperlink{ref-Hussmann2014}{2014}).
+Wie schon die Beispiele zu den Grundvorstellungen in Abschnitt \ref{ganze-zahlen-grundvorstellungen} gezeigt haben, bietet dagegen das \textbf{Guthaben-Schulden-Modell} vielfältige sinnstiftende (also lebensweltbezogene, kontextauthentische und reichhaltige) Anknüpfungspunkte. Eingeführt werden kann dieser Kontext z.~B. spielerisch über Guthaben- und Schuldenkarten, wobei Würfel dafür eingesetzt werden können, wie viele Guthaben- oder Schuldenkarten man abgeben muss bzw. erhält. Über die Dokumentation von »Kontoständen und -bewegungen« kann der Prozess festgehalten werden. Weitere Anregungen zu diesem Kontext findet man auch bei Hattermann et al. (\protect\hyperlink{ref-Hattermann2014}{2014}) sowie Hußmann \& Schindler (\protect\hyperlink{ref-Hussmann2014}{2014}).
 
-Während sich aus dem Kontext heraus Additions- und Subtraktionsaufgaben beschreiben lassen, bei denen der zweite Summend positiv ist (was einer \textbf{horizontalen Mathematisierung} entspricht), sind derartige Aufgaben mit negativem zweiten Summanden besser über Pfeile auf Zahlengeraden zu veranschaulichen. Dabei kann das Rechenzeichen als Blick- (\(+\) rechts, \(-\) links) und das Vorzeichen des zweiten Summanden als Bewegungsrichtung (\(+\) vorwärts, \(-\) rückwärts) aufgefasst werden. Dieses Vorgehen bietet jedoch keine innermathematische Erklärung, vielmehr ist dies eher eine Art Eselbrücke. Eine \textbf{vertikale Mathematisierung} wird dann insbesondere bei der innermathematischen Erklärung von Multiplikationsaufgaben relevant. Abbildung \ref{fig:Mathematisierungen} zeigt noch einmal die verschiedenen Mathematisierungsarten.
+Während sich aus dem Kontext heraus Additions- und Subtraktionsaufgaben beschreiben lassen, bei denen die zweite Zahl positiv ist (was einer \textbf{horizontalen Mathematisierung} entspricht), sind derartige Aufgaben mit negativer zweiter Zahl besser über Pfeile auf Zahlengeraden zu veranschaulichen. Dabei kann das Rechenzeichen als Blick- (\(+\) rechts, \(-\) links) und das Vorzeichen der zweiten Zahl als Bewegungsrichtung (\(+\) vorwärts, \(-\) rückwärts) aufgefasst werden. Dieses Vorgehen bietet jedoch keine innermathematische Erklärung, vielmehr ist dies eher eine Art Eselbrücke. Eine \textbf{vertikale Mathematisierung} wird dann insbesondere bei der innermathematischen Erklärung von Multiplikationsaufgaben relevant. Abbildung \ref{fig:Mathematisierungen} zeigt noch einmal die verschiedenen Mathematisierungsarten.
 
 \begin{figure}
 
@@ -2477,11 +2484,11 @@ Neben den bereits in Abschnitt \ref{ganze-zahlen-grundvorstellungen} erwähnten 
 \begin{itemize}
 \tightlist
 \item
-  Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit hohen \textbf{sprachlichen Hürden} verbunden (siehe z.~B. Fabian (\protect\hyperlink{ref-Fabian2022}{2022})). Dies betrifft einmal den \emph{negativ}-Begriff, der in der Alltagssprache i.~d.~R. mit etwas schlechtem verbunden ist (»negative Stimmung«), aber auch eine positive Bedeutung haben kann (»negativer Corona-Test«), im mathematischen Kontext jedoch bei der »negativen Zahl« eine gänzlich andere Bedeutung hat. \textcolor{empiricColor}{Diese Bedeutungsvielfalt sollte daher im Unterricht angesprochen und die mathematische Bedeutung entsprechend abgegrenzt werden.} Eine weitere Hürde ist ein \textbf{komplexer Wortschatzaufbau}, abhängig von den verwendeten Kontexten. So muss nicht nur der neue mathematische Inhalt erlernt, sondern es müssen in dem Zusammenhang auch noch die verwendeten Wörter wie »Meeresspiegel«, »Normal-Null«, »Gefrierpunkt«, »Frost« usw. mit ihrer mathematischen Bedeutung hinsichtlich der positiven und negativen Zahlen in Bezug gebracht werden. \textcolor{empiricColor}{Dieses Problem lässt sich umgehen, indem die Einführung möglichst nur in einem Kontext erfolgt und dieser nur geringe sprachliche Hürden aufweist.}
+  Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit hohen \textbf{sprachlichen Hürden} verbunden (siehe z.~B. \protect\hyperlink{ref-Fabian2022}{Fabian, 2022}). Dies betrifft einmal den \emph{negativ}-Begriff, der in der Alltagssprache i.~d.~R. mit etwas schlechtem verbunden ist (»negative Stimmung«), aber auch eine positive Bedeutung haben kann (»negativer Corona-Test«), im mathematischen Kontext jedoch bei der »negativen Zahl« eine gänzlich andere Bedeutung hat. \textcolor{empiricColor}{Diese Bedeutungsvielfalt sollte daher im Unterricht angesprochen und die mathematische Bedeutung entsprechend abgegrenzt werden.} Eine weitere Hürde ist ein \textbf{komplexer Wortschatzaufbau}, abhängig von den verwendeten Kontexten. So muss nicht nur der neue mathematische Inhalt erlernt, sondern es müssen in dem Zusammenhang auch noch die verwendeten Wörter wie »Meeresspiegel«, »Normal-Null«, »Gefrierpunkt«, »Frost« usw. mit ihrer mathematischen Bedeutung hinsichtlich der positiven und negativen Zahlen in Bezug gebracht werden. \textcolor{empiricColor}{Dieses Problem lässt sich umgehen, indem die Einführung möglichst nur in einem Kontext erfolgt und dieser nur geringe sprachliche Hürden aufweist.}
 \item
   Aus den natürlichen Zahlen herrscht die Vorstellung vor, dass Hinzufügen, also (ggf. mehrfaches) Addieren, immer vermehre. Diese \textbf{»Hinzufügen vemehrt immer«-Vorstellung} ist jedoch \textbf{nicht mehr tragfähig}. Ihre Ursache hat die Vorstellung aus einer jahrelangen Betrachtung ausschließlich positiver Zahlen und wird teils auch sprachlich gestützt (z.~B. durch »noch mehr Schulden«). \textcolor{empiricColor}{Einer entsprechenden Übergeneralisierung muss also durch einen verständnisfördernden Aufbau entgegengewirkt werden, ggf. auch mit einer expliziten Besprechung der Fehlvorstellung.}
 \item
-  Ebenfalls sichtbar wird eine Häufige \textbf{Vermischung der Rechenregeln}, z.~B. die fehlerhafte Aussage »minus plus minus ist plus«, die aus einer Übertragung der Merkregel »minus mal minus ist plus« kommen könnte. Eine solche Vermischung kommt inbesondere dann zutage, wenn die Rechenregeln (falsch) auswendig gelernt und nicht mit einer geeigneten Vorstellung in Bezug gebracht werden können. \textcolor{empiricColor}{Für die Unterrichtsdurchführung bedeutet das, dass die entsprechenden Repräsentationen (wie Pfeile am Zahlenstrahl) behutsam eingeführt, ausführlich behandelt sowie durch operatives Durcharbeiten verinnerlicht werden sollten. Auch der Verzicht auf Merksätze kann hierbei tatsächlich hilfreich sein, um nicht so eine kalkülhaften Vorgehen (welches sich dann falsch eingeprägt wird) hinzuwirken.}
+  Ebenfalls sichtbar wird eine Häufige \textbf{Vermischung der Rechenregeln}, z.~B. die fehlerhafte Aussage »minus plus minus ist plus«, die aus einer Übertragung der Merkregel »minus mal minus ist plus« kommen könnte. Eine solche Vermischung kommt inbesondere dann zutage, wenn die Rechenregeln (falsch) auswendig gelernt und nicht mit einer geeigneten Vorstellung in Bezug gebracht werden können. \textcolor{empiricColor}{Für die Unterrichtsdurchführung bedeutet das, dass die entsprechenden Repräsentationen (wie Pfeile am Zahlenstrahl) behutsam eingeführt, ausführlich behandelt sowie durch operatives Durcharbeiten verinnerlicht werden sollten. Auch der Verzicht auf Merksätze kann hierbei tatsächlich hilfreich sein, um nicht auf solch ein kalkülhaftes Vorgehen (welches sich dann falsch eingeprägt wird) hinzuwirken.}
 \end{itemize}
 
 \hypertarget{lernpfad}{%
@@ -2498,13 +2505,13 @@ Aus den Überlegungen der stoffdidaktischen Analyse lässt sich nun ein möglich
 \caption{Möglicher Lernpfad zu ganzen Zahlen}\label{fig:Lernpfad}
 \end{figure}
 
-Dabei zeigt sich, dass in der oberen Zeile zunächst die Zahlen als Objekte betrachtet werden, wobei schon vielfältige Grundvorstellungen aufgebaut werden können. Die komplette Lernpfad lässt sich dabei am Guthaben-Schulden-Modell durcharbeiten, wobei natürlich in Anwendungsituationen und zur Verinnerlichung auch weitere Kontexte nötig werden.
+Dabei zeigt sich, dass in der oberen Zeile zunächst die Zahlen als Objekte betrachtet werden, wobei schon vielfältige Grundvorstellungen aufgebaut werden können. Der komplette Lernpfad lässt sich dabei am Guthaben-Schulden-Modell durcharbeiten, wobei natürlich in Anwendungsituationen und zur Verinnerlichung auch weitere Kontexte nötig werden.
 
-Die Einführung des Zahlbereichs \(\mathbb{Z}\) ist in der Darstellung gestrichelt dargestellt, da dieser nicht zwingend an der Stelle nötig ist, um anschließend mit ganzen Zahlen rechnen zu können. Hier kann auch die Leistungsfähigkeit der Klasse sowie die Schuform darüber entscheiden, ob und an welcher Stelle der Zahlbereich eingeführt werden muss.
+Die Einführung des Zahlbereichs \(\mathbb{Z}\) ist in der Darstellung gestrichelt dargestellt, da dieser nicht zwingend an der Stelle nötig ist, um anschließend mit ganzen Zahlen rechnen zu können. Hier kann auch die Leistungsfähigkeit der Klasse sowie die Schuform darüber entscheiden, ob und an welcher Stelle der Zahlbereich als Begriff eingeführt werden muss.
 
-Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v.~a. an der Repräsentaion der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung.
+Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v.~a. an der Repräsentation der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung.
 
-Dieser Lernpfad stellt \emph{eine} Möglichkeit darf, ganze Zahlen zu behandeln und baut auf die oben dargestellten Diskussionen zu formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst einmal, auf den Lernpfad aufbauen, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.
+Dieser Lernpfad stellt \emph{eine} Möglichkeit dar, ganze Zahlen zu behandeln und baut auf die obigen Diskussionen zur formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst, auf den Lernpfad aufbauend, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.
 
 \hypertarget{part-inhaltsbezogene-kompetenzen}{%
 \part*{Inhaltsbezogene Kompetenzen}\label{part-inhaltsbezogene-kompetenzen}}
@@ -3791,7 +3798,7 @@ Für die tatsächliche Unterrichtsausführung ist dies insofern problematisch, d
 
 }
 
-\caption{Schulbuchdefinition des Begriff \emph{Zufallsexperiment} (\protect\hyperlink{ref-Adam2016}{Adam \& Kleine, 2016, S. 18})}\label{fig:DefinitionZufallsexperiment}
+\caption{Schulbuchdefinition des Begriffs \emph{Zufallsexperiment} (\protect\hyperlink{ref-Adam2016}{Adam \& Kleine, 2016, S. 18})}\label{fig:DefinitionZufallsexperiment}
 \end{figure}
 
 \hypertarget{modellierungsstruktur}{%
@@ -4067,7 +4074,7 @@ Barzel, B., \& Holzäpfel, L. (2011). Gleichungen verstehen. \emph{mathematik le
 Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012a). \emph{Mathewerkstatt. 5, {Handreichungen}} {[}DVD{]}. Cornelsen.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Barzel2012b}{}}%
-Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012b). \emph{Mathewerkstatt. 5, {Materialblock}} (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl). Cornelsen.
+Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012b). \emph{Mathewerkstatt. 5, {Materialblock}} (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Barzel2012}{}}%
 Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2012c). \emph{Mathewerkstatt. 5, {Schulbuch}} (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
@@ -4079,7 +4086,7 @@ Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2016). \emph{Ma
 Binder, K., Krauss, S., \& Wiesner, P. (2020). A {New} {Visualization} for {Probabilistic} {Situations} {Containing} {Two} {Binary} {Events}: {The} {Frequency} {Net}. \emph{Frontiers in Psychology}, \emph{11}. \url{https://doi.org/10.3389/fpsyg.2020.00750}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Boeer2014}{}}%
-Böer, H., Göckel, D., Kliemann, S., Koepsell, A., Puscher, R., Schmidt, W., \& Vernay, R. (2014). \emph{Mathe live. 8, {Schülerbuch}} (1. Aufl). Klett.
+Böer, H., Göckel, D., Kliemann, S., Koepsell, A., Puscher, R., Schmidt, W., \& Vernay, R. (2014). \emph{Mathe live. 8, {Schülerbuch}} (1. Aufl.). Klett.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Bruckler:2018}{}}%
 Brückler, F. M. (2018). \emph{Geschichte der {Mathematik} kompakt: {Das} {Wichtigste} aus {Analysis}, {Wahrscheinlichkeitstheorie}, angewandter {Mathematik}, {Topologie} und {Mengenlehre}}. Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-55574-3}
@@ -4186,14 +4193,14 @@ Giest, H., \& Lompscher, J. (2006). \emph{Lerntätigkeit -- {Lernen} aus kultur-
 \leavevmode\vadjust pre{\hypertarget{ref-Greefrath2016}{}}%
 Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., \& Weigand, H.-G. (2016). \emph{Didaktik der {Analysis}. {Aspekte} und {Grundvorstellungen} zentraler {Begriffe}} (F. Padberg \& A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-48877-5}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Hattermann2014}{}}%
+Hattermann, M., Hofe, R. vom, \& Viehmeister, F. (2014). Rote {Karte}? {Ich} hab' grün! {Ein} {Spiel} zur {Addition} und {Subtraktion} ganzer {Zahlen}. \emph{mathematik lehren}, \emph{183}, 15--19.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Hefendehl-Hebeker:2016}{}}%
 Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {Early} historical developments. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 11--31. \url{https://doi.org/10.1007/s13138-016-0103-7}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Henn2015}{}}%
 Henn, H.-W., \& Filler, A. (2015). \emph{Didaktik der {Analytischen} {Geometrie} und {Linearen} {Algebra}: {Algebraisch} verstehen -- {Geometrisch} veranschaulichen und anwenden}. Springer Spektrum.
-
-\leavevmode\vadjust pre{\hypertarget{ref-vomHofe2014a}{}}%
-Hofe, R. vom, \& Hattermann, M. (2014). Zugänge zu negativen {Zahlen}. \emph{mathematik lehren}, 2--7.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hussmann:2016}{}}%
 Hußmann, S., \& Prediger, S. (2016). Specifying and Structuring Mathematical Topics: A Four-Level Approach for Combining Formal, Semantic, Concrete, and Empirical Levels Exemplified for Exponential Growth. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 33--67. \url{https://doi.org/10.1007/s13138-016-0102-8}
@@ -4211,7 +4218,7 @@ Institut für Qualitätsentwicklung im Bildungswesen. (2019). \emph{Gemeinsame {
 Jahnke, T. (2010). Vom mählichen {Verschwinden} des {Fachs} aus der {Mathematikdidaktik}. \emph{GDM-Mitteilungen 89}, 21--24. \url{https://ojs.didaktik-der-mathematik.de/index.php/mgdm/article/view/559/550}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Kleine2011a}{}}%
-Kleine, M., \& Ludwig, M. (Hrsg.). (2011). \emph{Mathe.{Logo}. 7, {Gymnasium} {Thüringen}, {Schülerband}} (1. Auflage). C.C.Buchner.
+Kleine, M., \& Ludwig, M. (Hrsg.). (2011). \emph{Mathe.{Logo}. 7, {Gymnasium} {Thüringen}, {Schülerband}} (1. Aufl.). C.C.Buchner.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Korn2023}{}}%
 Korn, M.-L. (2023). \emph{Kognitive Aktivierung mit digitalen Medien im Mathematikunterricht. Ein Beispiel einer digitalen Lernumgebung zum Thema Boxplots} {[}Unveröffentlichte Masterarbeit{]}. Universität Potsdam.
@@ -4253,7 +4260,7 @@ Kuzle, A. (o.~J.). \emph{Theoretischer {Hintergrund} zum {Problemlösen}}. Abger
 Ladel, S., \& Kortenkamp, U. (2013). An {Activity}-{Theoretic} {Approach} to {Multi}-{Touch} {Tools} in {Early} {Mathematics} {Learning}. \emph{The International Journal for Technology in Mathematics Education}, \emph{1}(20), 3--8. \url{https://www.researchgate.net/publication/261823263_An_activity-theoretic_approach_to_multi-touch_tools_in_early_maths_learning}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Lambacher2010}{}}%
-\emph{Lambacher {Schweizer} {Mathematik} für {Gymnasien}. 5, {Schülerbuch}} (Sachsen, 1. Aufl). (2010). {[}Computer software{]}. Klett.
+\emph{Lambacher Schweizer Mathematik für Gymnasien. 5, Schülerbuch} (Sachsen, 1. Aufl.). (2010). {[}Computer software{]}. Klett.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Lambert:2012}{}}%
 Lambert, A. (2012). \emph{Gedanken zum aktuellen {Kompetenzbegriff} für den ({Mathematik}-)unterricht} {[}Vortrag{]}. Eingangsstatement zur Podiumsdiskussion im Rahmen des 3. Fachdidaktischen Kolloquiums an der Universität des Saarlandes, Saarbrücken. \url{https://www.uni-saarland.de/fileadmin/upload/einrichtung/zfl/PDF_Fachdidaktik/PDF_Kolloquium_FD/Kompetenzbegriff_für_den_Mathematikunterricht_Statement_mit_Folien.pdf}
@@ -4328,7 +4335,7 @@ Mitchelmore, M. (1990). Psychologische und mathematische Schwierigkeiten beim Le
 Mitchelmore, M., \& White, P. (1998). Development of {Angle} {Concepts}: {A} {Framework} for {Research}. \emph{Mathematics Education Research Journal}, \emph{10}(3), 4--27.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Padberg2021}{}}%
-Padberg, F., \& Benz, C. (2021). \emph{Didaktik der {Arithmetik}: fundiert, vielseitig, praxisnah} (5., überarbeitete Auflage). Springer Spektrum.
+Padberg, F., \& Benz, C. (2021). \emph{Didaktik der {Arithmetik}: fundiert, vielseitig, praxisnah} (5., überarbeitete Aufl.). Springer Spektrum.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Padberg:2017}{}}%
 Padberg, F., \& Wartha, S. (2017). \emph{Didaktik der {Bruchrechnung}} (5. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-52969-0}
@@ -4432,6 +4439,9 @@ vom Hofe, R. (1995). \emph{Grundvorstellungen mathematischer {Inhalte}}. Spektru
 \leavevmode\vadjust pre{\hypertarget{ref-vomHofe2014}{}}%
 vom Hofe, R. (2014). Primäre und sekundäre {Grundvorstellungen}. In J. Roth \& J. Ames (Hrsg.), \emph{Beiträge zum {Mathematikunterricht} 2014, 48. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 10.03.2014 bis 14.03.2014 in {Koblenz}}. WTM. \url{https://doi.org/10.17877/DE290R-8808}
 
+\leavevmode\vadjust pre{\hypertarget{ref-vomHofe2014a}{}}%
+vom Hofe, R., \& Hattermann, M. (2014). Zugänge zu negativen {Zahlen}. \emph{mathematik lehren}, 2--7.
+
 \leavevmode\vadjust pre{\hypertarget{ref-vonderBank:2013}{}}%
 von der Bank, M.-C. (2013). Fundamentale {Ideen}, insbesondere {Optimierung}. In A. Filler \& M. Ludwig (Hrsg.), \emph{Wege zur {Begriffsbildung} für den {Geometrieunterricht}. {Ziele} und {Visionen} 2020. {Vorträge} auf der 29. {Herbsttagung} des {Arbeitskreises} {Geometrie} in der {Gesellschaft} für {Didaktik} der {Mathematik} vom 14. bis 16. {September} 2012 in {Saarbrücken}} (S. 83--124). Franzbecker. \url{https://www.math.uni-sb.de/service/lehramt/AKGeometrie/AKGeometrie2012.pdf}
 
@@ -4485,6 +4495,6 @@ Zech, F. (1998). \emph{Grundkurs {Mathematikdidaktik}} (9. Aufl.). Beltz Verlag.
 
 \end{CSLReferences}
 
-\printindex
+% \printindex
 
 \end{document}

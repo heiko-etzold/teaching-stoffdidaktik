@@ -27,7 +27,6 @@ output:
     css: "own.css"
   bookdown::pdf_book:
     keep_tex: true
-    toc: true
     includes:
       in_header: "in_header.tex"
       before_body: "before_body.tex"
@@ -46,7 +45,6 @@ url: "stoffdidaktik.heiko-etzold.de/"
 
 # Über dieses Dokument {-}
 
-  
 Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments.
 
 Zitiere als: 

@@ -6,8 +6,8 @@
 
 \usepackage[original]{imakeidx}
 % \usepackage{makeidx}
-\makeindex[title=Stichwortverzeichnis, intoc]
-\indexsetup{level=\chapter,toclevel=chapter,noclearpage,firstpagestyle=headings}
+% \makeindex[title=Stichwortverzeichnis, intoc]
+% \indexsetup{level=\chapter,toclevel=chapter,noclearpage,firstpagestyle=headings}
 
 
 
@@ -19,22 +19,22 @@
 \definecolor{linkColor}{HTML}{929292}
 \definecolor{quoteColor}{HTML}{666666}
 
-% \usepackage{framed}
-% \renewenvironment{quote}{
-%   \list{}{
-% 	\leftmargin0.2cm   % this is the adjusting screw
-%     \rightmargin\leftmargin
-%       	\def\FrameCommand
-%     {%
-%         {\color{quoteColor}\vrule width 3pt}%
-%         \hspace{0pt}%must no space.
-%         %
-%     }%
-%     \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
-%     }
-%   \item\relax
-% }
-% {\endlist\color{black}\endMakeFramed}
+\usepackage{framed}
+\renewenvironment{quote}{
+  \list{}{
+	\leftmargin0.2cm   % this is the adjusting screw
+    \rightmargin\leftmargin
+      	\def\FrameCommand
+    {%
+        {\color{quoteColor}\vrule width 2pt}%
+        \hspace{0pt}%must no space.
+        %
+    }%
+    \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
+    }
+  \item\relax
+}
+{\endlist\color{black}\endMakeFramed}
 
 
 \makeatletter

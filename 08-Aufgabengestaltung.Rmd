@@ -42,7 +42,7 @@ In der Veranstaltung *Einführung in die Mathematikdidaktik* lern(t)en Sie zentr
     knitr::include_graphics("pictures/8-ProzentSammeln.png")
     ```
 
-* **Üben**, **Festigen** und **Wiederholen** sind weitere wesentliche Funktionen von Aufgaben im Mathematikunterricht. Hier sollten Sie eine möglichst große Vielfalt an Fähigkeitsaspekten ansprechen (siehe Abschnitt \@ref(Faehigkeitsaspekte)), um sowohl Automatisierungsprozesse als auch den Transfer anzuregen. Sowohl geschlossene als auf teilweise geöffnete Aufgaben bieten sich hier an -- auch sind die verschiedenen Anforderungsbereiche anzusprechen, was sich in einer gezielten Auswahl an Operatoren widerspiegeln sollte (siehe Abbildung \@ref(fig:ProzentUeben)).
+* **Üben**, **Festigen** und **Wiederholen** sind weitere wesentliche Funktionen von Aufgaben im Mathematikunterricht. Hier sollten Sie eine möglichst große Vielfalt an Fähigkeitsaspekten ansprechen (siehe Abschnitt \@ref(Faehigkeitsaspekte)), um sowohl Automatisierungsprozesse als auch den Transfer anzuregen. Sowohl geschlossene als auch teilweise geöffnete Aufgaben bieten sich hier an -- auch sind die verschiedenen Anforderungsbereiche anzusprechen, was sich in einer gezielten Auswahl an Operatoren widerspiegeln sollte (siehe Abbildung \@ref(fig:ProzentUeben)).
 
     ```{r ProzentUeben, echo=FALSE, fig.cap="(ref:citeProzentUeben)", fig.align='center', out.width='75%'}
     knitr::include_graphics("pictures/8-ProzentUeben.png")
@@ -103,7 +103,7 @@ knitr::include_graphics("pictures/8-ProzentSchulbuch.jpg")
     *Wähle eine leichte und eine schwere Teilaufgabe aus und löse sie.*
 
 
-* Aufgabe 3 ließe sich ergänzen durch:
+* Aufgabe 4 ließe sich ergänzen durch:
 
     *Wie ändert sich Lisas Leistung, wenn du weitere Schüsse aufs Tor zielst, die sie alle hält?*
 
@@ -160,7 +160,7 @@ Ob eine Aufgabe leicht oder schwer ist, wird natürlich stets subjektiv beeinflu
 
 Abbildung \@ref(fig:Schwierig) zeigt eine mögliche Realisierung zur Generierung unterschiedlich schwerer Aufgaben.
 
-(ref:citeSchwierig) Unterschiedlich schwere Aufgaben zum Prismenvolument [aus @Druke-Noe2018 10]
+(ref:citeSchwierig) Unterschiedlich schwere Aufgaben zum Prismenvolumen [aus @Druke-Noe2018 10]
 
 ```{r Schwierig, echo=FALSE, fig.cap="(ref:citeSchwierig)", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/8-Schwierig.png")
@@ -201,7 +201,7 @@ Die Zielbildung erfolgt in diesem Fall über die *selbst gestellte Lernaufgabe* 
 Hat sich die Schülerin oder Schüler eine interne Aufgabe gestellt, bildet sich (ebenfalls noch vor dem Bearbeiten der Aufgabe) eine Orientierungsgrundlage heraus (vgl. Abschnitt \@ref(anknuepfen-erkunden)), je nach Qualität als *Probierorientierung*, *Musterorientierung* oder *Feldorientierung*. Diese »ist Voraussetzung für die Bewältigung von aufgabenbasierten Anforderungen, aber zugleich auch ein Ziel individueller Aneignungsprozesse« [@Bruderb]. Um hochwertige Orientierungsgrundlagen zu ermöglichen und auszubilden, bedarf es also entsprechender Aufgabenstellungen, die nicht ausschließlich eine Probier- oder Musterorientierung forcieren. Eine Maßnahme hierzu ist die Variation der Aufgabentypen und das Öffnen von Aufgaben. 
 
 * Wird etwa zur Abbildung \@ref(fig:Aufgabenorientierung) die Aufgabe *»Bestimme den Flächeninhalt des Dreiecks«* formuliert, spricht dies v. a. eine Musterorientierung an, da der Aufgabentyp in dieser Form bereits mehrfach geübt wurde.
-* Die Aufgabe *»Zeichne ein Dreieck mit einem Flächeninhalt von 13 cm².«* ermöglicht dagegen alle Orientierungstypen. Die Aufgabe ist sowohl über Versuch und Irrtum lösbar (z. B. mit einem Dynamischen Geometriesystem, das den Flächeninhalt eine Dreicks unmittelbar darstellen kann, nachdem es gezeichnet wurde), als auch mit einer Musterorientierung (wenn man sich an ähnlich durchgeführten Beispielen orientiert) sowie einer Feldorientierung (wenn man sich über den Bezug zur Flächeninhaltsformel darüber im Klaren wird, dass ausschließlich die Grundseite und Höhe des Dreiecks relevant sind -- also bspw. auch eine ganze Klasse von Lösungen erzeugt werden kann).   
+* Die Aufgabe *»Zeichne ein Dreieck mit einem Flächeninhalt von 13 cm².«* ermöglicht dagegen alle Orientierungstypen. Die Aufgabe ist sowohl über Versuch und Irrtum lösbar (z. B. mit einem Dynamischen Geometriesystem, das den Flächeninhalt eines Dreicks unmittelbar angeben kann, sobald es gezeichnet ist), als auch mit einer Musterorientierung (wenn man sich an ähnlich durchgeführten Beispielen orientiert) sowie einer Feldorientierung (wenn man sich über den Bezug zur Flächeninhaltsformel darüber im Klaren wird, dass ausschließlich die Grundseite und Höhe des Dreiecks relevant sind -- also bspw. auch eine ganze Klasse von Lösungen erzeugt werden kann).   
 
 ```{r Aufgabenorientierung, echo=FALSE, fig.cap="Flächeninhaltsbestimmung mit Musterorientierung", fig.align='center', out.width='50%'}
 knitr::include_graphics("pictures/8-Aufgabenorientierung.png")

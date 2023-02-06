@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>10 Zweites Intermezzo: Ganze Zahlen | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2022/23</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="10 Zweites Intermezzo: Ganze Zahlen | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2022/23" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="10 Zweites Intermezzo: Ganze Zahlen | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2022/23" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="9-aufgabengestaltung.html"/>
+<link rel="next" href="11-leitidee-zahl-und-operation.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2022/23</b></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i>Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i>Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i>Einordnung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#kompetenzziele-der-veranstaltung"><i class="fa fa-check"></i>Kompetenzziele der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i>Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="1-part-stoffdidaktische-analyse.html"><a href="1-part-stoffdidaktische-analyse.html"><i class="fa fa-check"></i><b>1</b> (PART*) Stoffdidaktische Analyse</a></li>
+<li class="chapter" data-level="2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>2</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#analyse-von-lerngegenständen"><i class="fa fa-check"></i><b>2.1</b> Analyse von Lerngegenständen</a></li>
+<li class="chapter" data-level="2.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#themen-der-vorlesung"><i class="fa fa-check"></i><b>2.2</b> Themen der Vorlesung</a></li>
+<li class="chapter" data-level="2.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>2.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>2.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>2.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>2.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>2.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="2.3.5" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#verknüpfung-der-ebenen"><i class="fa fa-check"></i><b>2.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-vier-ebenen-ansatz.html"><a href="2-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>2.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html"><i class="fa fa-check"></i><b>3</b> Fundamentale Ideen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-begriffsklaerung"><i class="fa fa-check"></i><b>3.1</b> Begriffsklärung</a></li>
+<li class="chapter" data-level="3.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#auswahl-fundamentaler-ideen"><i class="fa fa-check"></i><b>3.2</b> Auswahl fundamentaler Ideen</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#kategorisierung"><i class="fa fa-check"></i><b>3.2.1</b> Kategorisierung</a></li>
+<li class="chapter" data-level="3.2.2" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#beispiel-linearitaet"><i class="fa fa-check"></i><b>3.2.2</b> Beispiel Linearität</a></li>
+<li class="chapter" data-level="3.2.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#gegenbeispiele"><i class="fa fa-check"></i><b>3.2.3</b> Gegenbeispiele</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fund.-ideen-und-stoffdidaktik"><i class="fa fa-check"></i><b>3.3</b> Fund. Ideen und Stoffdidaktik</a></li>
+<li class="chapter" data-level="3.4" data-path="3-fundamentale-ideen.html"><a href="3-fundamentale-ideen.html#fundamentale-ideen-nachbereitung"><i class="fa fa-check"></i><b>3.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html"><i class="fa fa-check"></i><b>4</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>4.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="4.1.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>4.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>4.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="4.3" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>4.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#natürliche-zahlen"><i class="fa fa-check"></i><b>4.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="4.3.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>4.3.2</b> Bruchzahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-kernideen-kernfragen-kontexte.html"><a href="5-kernideen-kernfragen-kontexte.html"><i class="fa fa-check"></i><b>5</b> Kernideen, Kernfragen, Kontexte</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="5-kernideen-kernfragen-kontexte.html"><a href="5-kernideen-kernfragen-kontexte.html#kernidee-begriffsklaerung"><i class="fa fa-check"></i><b>5.1</b> Begriffsklärung Kernidee/-frage</a></li>
+<li class="chapter" data-level="5.2" data-path="5-kernideen-kernfragen-kontexte.html"><a href="5-kernideen-kernfragen-kontexte.html#kontexte-begriffsklaerung"><i class="fa fa-check"></i><b>5.2</b> Begriffsklärung Kontext</a></li>
+<li class="chapter" data-level="5.3" data-path="5-kernideen-kernfragen-kontexte.html"><a href="5-kernideen-kernfragen-kontexte.html#mathematisierungstypen"><i class="fa fa-check"></i><b>5.3</b> Mathematisierungstypen</a></li>
+<li class="chapter" data-level="5.4" data-path="5-kernideen-kernfragen-kontexte.html"><a href="5-kernideen-kernfragen-kontexte.html#kernideen-kernfragen-kontexte-nachbereitung"><i class="fa fa-check"></i><b>5.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html"><i class="fa fa-check"></i><b>6</b> Erstes Intermezzo: Flächeninhalt</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#darstellung-im-schulbuch"><i class="fa fa-check"></i><b>6.1</b> Darstellung im Schulbuch</a></li>
+<li class="chapter" data-level="6.2" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#formale-ebene-1"><i class="fa fa-check"></i><b>6.2</b> Formale Ebene</a></li>
+<li class="chapter" data-level="6.3" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#semantische-ebene-1"><i class="fa fa-check"></i><b>6.3</b> Semantische Ebene</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#fundamentale-idee-messen"><i class="fa fa-check"></i><b>6.3.1</b> Fundamentale Idee Messen</a></li>
+<li class="chapter" data-level="6.3.2" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#gv-zum-flächeninhalt"><i class="fa fa-check"></i><b>6.3.2</b> GV zum Flächeninhalt</a></li>
+<li class="chapter" data-level="6.3.3" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#auswirkungen-auf-lernpfad"><i class="fa fa-check"></i><b>6.3.3</b> Auswirkungen auf Lernpfad</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#konkrete-ebene-1"><i class="fa fa-check"></i><b>6.4</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="6.5" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#ausblick-auf-empirische-ebene"><i class="fa fa-check"></i><b>6.5</b> Ausblick auf empirische Ebene</a></li>
+<li class="chapter" data-level="6.6" data-path="6-erstes-intermezzo-flaecheninhalt.html"><a href="6-erstes-intermezzo-flaecheninhalt.html#erstesintermezzo-nachbereitung"><i class="fa fa-check"></i><b>6.6</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Lernprozesse gestalten</b></span></li>
+<li class="chapter" data-level="7" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html"><i class="fa fa-check"></i><b>7</b> Lerntätigkeit und Lernhandlungen</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#taetigkeitstheorie-und-lernen"><i class="fa fa-check"></i><b>7.1</b> Tätigkeitstheorie und Lernen</a></li>
+<li class="chapter" data-level="7.2" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#typische-lernhandlungen"><i class="fa fa-check"></i><b>7.2</b> Typische Lernhandlungen</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#elementare-aneignungshandlungen"><i class="fa fa-check"></i><b>7.2.1</b> Elementare Aneignungshandlungen</a></li>
+<li class="chapter" data-level="7.2.2" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#grundhandlungen"><i class="fa fa-check"></i><b>7.2.2</b> Grundhandlungen</a></li>
+<li class="chapter" data-level="7.2.3" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#komplexe-handlungen"><i class="fa fa-check"></i><b>7.2.3</b> Komplexe Handlungen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#lernhandlungen-ausbilden"><i class="fa fa-check"></i><b>7.3</b> Lernhandlungen ausbilden</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#anknuepfen"><i class="fa fa-check"></i><b>7.3.1</b> Anknüpfen</a></li>
+<li class="chapter" data-level="7.3.2" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#anknuepfen-erkunden"><i class="fa fa-check"></i><b>7.3.2</b> Anknüpfen/Erkunden</a></li>
+<li class="chapter" data-level="7.3.3" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#erkunden-ordnen-vertiefen"><i class="fa fa-check"></i><b>7.3.3</b> Erkunden/Ordnen/Vertiefen</a></li>
+<li class="chapter" data-level="7.3.4" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#ordnenvertiefen"><i class="fa fa-check"></i><b>7.3.4</b> Ordnen/Vertiefen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="7-lerntaetigkeit-und-lernhandlungen.html"><a href="7-lerntaetigkeit-und-lernhandlungen.html#lerntaetigkeit-nachbereitung"><i class="fa fa-check"></i><b>7.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html"><i class="fa fa-check"></i><b>8</b> Arbeitsmittel</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-begriffsklaerung"><i class="fa fa-check"></i><b>8.1</b> Begriffsklärung und Einordnung</a></li>
+<li class="chapter" data-level="8.2" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-analysieren"><i class="fa fa-check"></i><b>8.2</b> Arbeitsmittel analysieren</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#acat-modell"><i class="fa fa-check"></i><b>8.2.1</b> ACAT-Modell</a></li>
+<li class="chapter" data-level="8.2.2" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#analyseschritte"><i class="fa fa-check"></i><b>8.2.2</b> Analyseschritte</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-nachbereitung"><i class="fa fa-check"></i><b>8.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html"><i class="fa fa-check"></i><b>9</b> Aufgabengestaltung</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#funktionen-von-aufgaben"><i class="fa fa-check"></i><b>9.1</b> Funktionen von Aufgaben</a></li>
+<li class="chapter" data-level="9.2" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#produktives-üben"><i class="fa fa-check"></i><b>9.2</b> Produktives Üben</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#Faehigkeitsaspekte"><i class="fa fa-check"></i><b>9.2.1</b> Fähigkeitsaspekte</a></li>
+<li class="chapter" data-level="9.2.2" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#aufgaben-verändern"><i class="fa fa-check"></i><b>9.2.2</b> Aufgaben verändern</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#differenzieren"><i class="fa fa-check"></i><b>9.3</b> Differenzieren</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#gestufte-hilfen"><i class="fa fa-check"></i><b>9.3.1</b> Gestufte Hilfen</a></li>
+<li class="chapter" data-level="9.3.2" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#differenzierende-aufgaben"><i class="fa fa-check"></i><b>9.3.2</b> Differenzierende Aufgaben</a></li>
+<li class="chapter" data-level="9.3.3" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#natürliche-differenzierung"><i class="fa fa-check"></i><b>9.3.3</b> Natürliche Differenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#theoretischer-rueckblick"><i class="fa fa-check"></i><b>9.4</b> Theoretischer Rückblick</a></li>
+<li class="chapter" data-level="9.5" data-path="9-aufgabengestaltung.html"><a href="9-aufgabengestaltung.html#aufgaben-gestalten-nachbereitung"><i class="fa fa-check"></i><b>9.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html"><i class="fa fa-check"></i><b>10</b> Zweites Intermezzo: Ganze Zahlen</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#stoffdidaktische-analyse"><i class="fa fa-check"></i><b>10.1</b> Stoffdidaktische Analyse</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-formale-ebene"><i class="fa fa-check"></i><b>10.1.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="10.1.2" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-semantische-ebene"><i class="fa fa-check"></i><b>10.1.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="10.1.3" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-konkrete-ebene"><i class="fa fa-check"></i><b>10.1.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="10.1.4" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-empirische-ebene"><i class="fa fa-check"></i><b>10.1.4</b> Empirische Ebene</a></li>
+</ul></li>
+<li class="chapter" data-level="10.2" data-path="10-zweites-intermezzo-ganze-zahlen.html"><a href="10-zweites-intermezzo-ganze-zahlen.html#lernpfad"><i class="fa fa-check"></i><b>10.2</b> Lernpfad</a></li>
+</ul></li>
+<li class="part"><span><b>Inhaltsbezogene Kompetenzen</b></span></li>
+<li class="chapter" data-level="11" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html"><i class="fa fa-check"></i><b>11</b> Leitidee Zahl und Operation</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html#strukturierung-der-leitidee-zahl-und-operation"><i class="fa fa-check"></i><b>11.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="11.2" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html#wurzeln"><i class="fa fa-check"></i><b>11.2</b> Wurzeln</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html#wurzel-begriffsverstaendnis"><i class="fa fa-check"></i><b>11.2.1</b> Begriffsverständnis</a></li>
+<li class="chapter" data-level="11.2.2" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html#wurzel-begriffseinfuehrung"><i class="fa fa-check"></i><b>11.2.2</b> Begriffseinführung</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="11-leitidee-zahl-und-operation.html"><a href="11-leitidee-zahl-und-operation.html#kombinatorik"><i class="fa fa-check"></i><b>11.3</b> Kombinatorik</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="12-leitidee-größen-und-messen.html"><a href="12-leitidee-größen-und-messen.html"><i class="fa fa-check"></i><b>12</b> Leitidee Größen und Messen</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="12-leitidee-größen-und-messen.html"><a href="12-leitidee-größen-und-messen.html#strukturierung-der-leitidee-groessen-und-messen"><i class="fa fa-check"></i><b>12.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="12.2" data-path="12-leitidee-größen-und-messen.html"><a href="12-leitidee-größen-und-messen.html#winkelgrößen"><i class="fa fa-check"></i><b>12.2</b> Winkelgrößen</a></li>
+<li class="chapter" data-level="12.3" data-path="12-leitidee-größen-und-messen.html"><a href="12-leitidee-größen-und-messen.html#lage--und-streumaße"><i class="fa fa-check"></i><b>12.3</b> Lage- und Streumaße</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html"><i class="fa fa-check"></i><b>13</b> Leitidee Raum und Form</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#strukturierung-der-leitidee-raum-und-form"><i class="fa fa-check"></i><b>13.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="13.2" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#lagebeziehungen"><i class="fa fa-check"></i><b>13.2</b> Lagebeziehungen</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#lagebeziehungen-falten"><i class="fa fa-check"></i><b>13.2.1</b> Lagebeziehungen falten</a></li>
+<li class="chapter" data-level="13.2.2" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#d-koordinatensystem"><i class="fa fa-check"></i><b>13.2.2</b> 3D-Koordinatensystem</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#elementargeometrische-sätze"><i class="fa fa-check"></i><b>13.3</b> Elementargeometrische Sätze</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#innenwinkelsatz-für-dreiecke"><i class="fa fa-check"></i><b>13.3.1</b> Innenwinkelsatz für Dreiecke</a></li>
+<li class="chapter" data-level="13.3.2" data-path="13-leitidee-raum-und-form.html"><a href="13-leitidee-raum-und-form.html#sätze-am-kreis"><i class="fa fa-check"></i><b>13.3.2</b> Sätze am Kreis</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><i class="fa fa-check"></i><b>14</b> Leitidee Strukturen und funktionaler Zusammenhang</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#strukturierung-der-leitidee-funktionaler-zusammenhang"><i class="fa fa-check"></i><b>14.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="14.2" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#variablenaspekte"><i class="fa fa-check"></i><b>14.2</b> Variablenaspekte</a></li>
+<li class="chapter" data-level="14.3" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#funktionsaspekte"><i class="fa fa-check"></i><b>14.3</b> Funktionsaspekte</a></li>
+<li class="chapter" data-level="14.4" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>14.4</b> Analysis in der Sek. II</a>
+<ul>
+<li class="chapter" data-level="14.4.1" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#konflikt-zur-fachmathematik"><i class="fa fa-check"></i><b>14.4.1</b> Konflikt zur Fachmathematik</a></li>
+<li class="chapter" data-level="14.4.2" data-path="14-leitidee-strukturen-und-funktionaler-zusammenhang.html"><a href="14-leitidee-strukturen-und-funktionaler-zusammenhang.html#beispiel-ableitungsbegriff"><i class="fa fa-check"></i><b>14.4.2</b> Beispiel Ableitungsbegriff</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html"><i class="fa fa-check"></i><b>15</b> Leitidee Daten und Zufall</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#strukturierung-der-leitidee-daten-und-zufall"><i class="fa fa-check"></i><b>15.1</b> Strukturierung der Leitidee</a></li>
+<li class="chapter" data-level="15.2" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#stochastische-vorgänge"><i class="fa fa-check"></i><b>15.2</b> Stochastische Vorgänge</a>
+<ul>
+<li class="chapter" data-level="15.2.1" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#zufallsexperiment-kritik"><i class="fa fa-check"></i><b>15.2.1</b> »Zufallsexperiment«-Kritik</a></li>
+<li class="chapter" data-level="15.2.2" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#modellierungsstruktur"><i class="fa fa-check"></i><b>15.2.2</b> Modellierungsstruktur</a></li>
+<li class="chapter" data-level="15.2.3" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#prozessbetrachtung"><i class="fa fa-check"></i><b>15.2.3</b> Prozessbetrachtung</a></li>
+</ul></li>
+<li class="chapter" data-level="15.3" data-path="15-leitidee-daten-und-zufall.html"><a href="15-leitidee-daten-und-zufall.html#bedingte-wahrscheinlichkeiten"><i class="fa fa-check"></i><b>15.3</b> Bedingte Wahrscheinlichkeiten</a></li>
+</ul></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html"><i class="fa fa-check"></i><b>A</b> Seminar und Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#hausarbeit"><i class="fa fa-check"></i><b>A.1</b> Hausarbeit</a>
+<ul>
+<li class="chapter" data-level="A.1.1" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#aufgabenstellung"><i class="fa fa-check"></i><b>A.1.1</b> Aufgabenstellung</a></li>
+<li class="chapter" data-level="A.1.2" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#bewertungskriterien"><i class="fa fa-check"></i><b>A.1.2</b> Bewertungskriterien</a></li>
+<li class="chapter" data-level="A.1.3" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#formale-hinweise"><i class="fa fa-check"></i><b>A.1.3</b> Formale Hinweise</a></li>
+</ul></li>
+<li class="chapter" data-level="A.2" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#themenauswahl"><i class="fa fa-check"></i><b>A.2</b> Themenauswahl</a></li>
+<li class="chapter" data-level="A.3" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#seminarvortrag"><i class="fa fa-check"></i><b>A.3</b> Seminarvortrag</a></li>
+<li class="chapter" data-level="A.4" data-path="A-seminar-und-hausarbeit.html"><a href="A-seminar-und-hausarbeit.html#quellenarbeit"><i class="fa fa-check"></i><b>A.4</b> Quellenarbeit</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="B-vollständiges-literaturverzeichnis.html"><a href="B-vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i><b>B</b> Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2023</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2022/23</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="zweites-intermezzo-ganze-zahlen" class="section level1 hasAnchor" number="10">
+<h1><span class="header-section-number">10</span> Zweites Intermezzo: Ganze Zahlen<a href="10-zweites-intermezzo-ganze-zahlen.html#zweites-intermezzo-ganze-zahlen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<blockquote>
+<p><strong>Ziele</strong></p>
+<ul>
+<li>Sie vertiefen am Beispiel ganzer Zahlen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere wie aus den Ebenen heraus Rückschlüsse zum Aufbau eines Lernpfades entwickelt werden können.</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zur Vorlesung zum Zweiten Intermezzo (<a href="files/Stoffdidaktik-WiSe2223-Kap9.pdf">pdf</a>, <a href="files/Stoffdidaktik-WiSe2223-Kap9.key">Keynote</a>)</li>
+</ul>
+</blockquote>
+<div id="stoffdidaktische-analyse" class="section level2 hasAnchor" number="10.1">
+<h2><span class="header-section-number">10.1</span> Stoffdidaktische Analyse<a href="10-zweites-intermezzo-ganze-zahlen.html#stoffdidaktische-analyse" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="ganze-zahlen-formale-ebene" class="section level3 hasAnchor" number="10.1.1">
+<h3><span class="header-section-number">10.1.1</span> Formale Ebene<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-formale-ebene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="natürliche-zahlen-1" class="section level4 hasAnchor" number="10.1.1.1">
+<h4><span class="header-section-number">10.1.1.1</span> Natürliche Zahlen<a href="10-zweites-intermezzo-ganze-zahlen.html#natürliche-zahlen-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmatheamtisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die <strong>Peano-Axiome</strong> sowie die Betrachtung <strong>gleichmächtiger Mengen</strong>.</p>
+<p>Aus den Peano-Axiomen <span class="citation">(<a href="#ref-WikiPeano" role="doc-biblioref">Wikipedia, 2021b</a>)</span> folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der <span class="math inline">\(0\)</span>), die dann mit <span class="math inline">\(1\)</span>, <span class="math inline">\(2\)</span>, <span class="math inline">\(3\)</span> usw. bezeichnet werden können.<a href="#fn21" class="footnote-ref" id="fnref21"><sup>21</sup></a> Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass <span class="math inline">\(3\)</span> größer ist als <span class="math inline">\(1\)</span>. Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen<a href="#fn22" class="footnote-ref" id="fnref22"><sup>22</sup></a>, bei dem auch nicht C größer als A ist.</p>
+<p>Für eine Ordnungsrelation bedarf es zunächst der Definition der Addition über <span class="math inline">\(n+0 := n\)</span> und <span class="math inline">\(n+k&#39; := (n+k)&#39;\)</span> für alle <span class="math inline">\(n,k\in\mathbb{N}\)</span> mit der (aus den Peano-Axiomen existierenden) Nachfolgerbildung <span class="math inline">\(&#39;\)</span>. So gilt etwa mit <span class="math inline">\(1:=0&#39;\)</span>: <span class="math inline">\({\color{blue} 1}+{\color{red} 1} = {\color{blue} 1}+{\color{red} {0&#39;}} = ({\color{blue} 1}+{\color{red} 0}){\color{red} &#39;} = 1{\color{red} &#39;} =: 2\)</span>. So kann nun induktiv jede höhere Additionsaufgabe generiert werden. Darauf aufbauend kann die Ordnungsrelation <span class="math inline">\(n&lt;m\)</span> über die Existenz eines <span class="math inline">\(k\in\mathbb{N}\backslash\{0\}\)</span> mit <span class="math inline">\(m = n+k\)</span> definiert werden. Die Subtraktion <span class="math inline">\(m-n = k\)</span> ist nun wiederum über die Umkehroperation <span class="math inline">\(n+k = m\)</span> definierbar, sofern <span class="math inline">\(m\geq n\)</span>.</p>
+<p>Die Gleichmächtigkeit (z. B. endlicher) Mengen <span class="math inline">\(M\)</span> und <span class="math inline">\(N\)</span> wird über die Existenz einer Bijektion zwischen diesen beiden Mengen definiert, siehe Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Bijektion">10.1</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Bijektion"></span>
+<img src="pictures/9-Bijektion.png" alt="Gleichmächtigkeit von Mengen" width="75%" />
+<p class="caption">
+Abb. 10.1: Gleichmächtigkeit von Mengen
+</p>
+</div>
+<p>Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und transitiv. Damit können Äquivalenzklassen gebildet werden, die die Mächtigkeit der Menge angeben. Statt <span class="math inline">\([4]\)</span> als Bezeichner für die Äquivalenzklasse von vierelementigen Mengen kann dann auch kurz die Zahl <span class="math inline">\(4\)</span> genutzt werden. Die Addition <span class="math inline">\(n+k\)</span> entspricht dann der Mächtigkeit der Vereinigungsmenge von <span class="math inline">\([n]\)</span> und <span class="math inline">\([k]\)</span>, vgl. Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Vereinigung">10.2</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Vereinigung"></span>
+<img src="pictures/9-Vereinigung.png" alt="Additionsergebnis als Äquivalenzklasse der Vereinigungsmenge" width="90%" />
+<p class="caption">
+Abb. 10.2: Additionsergebnis als Äquivalenzklasse der Vereinigungsmenge
+</p>
+</div>
+</div>
+<div id="ganze-zahlen" class="section level4 hasAnchor" number="10.1.1.2">
+<h4><span class="header-section-number">10.1.1.2</span> Ganze Zahlen<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Da innerhalb der natürlichen Zahlen noch nicht beliebig subtrahiert werden darf, stehen auch keine negativen Zahlen als Ergebnisse zur Verfügung. Um dennoch das Ergebnis bspw. der Aufgabe <span class="math inline">\(2-7\)</span> »definieren« zu können, bietet sich erneut eine <strong>Äquivalenzrelation</strong> über die »Differenzengleichheit« an. Konkret lässt sich für <span class="math inline">\(k,l,m,n\in\mathbb{N}\)</span> sagen:
+<span class="math inline">\((k,l)\sim (m,n):\Leftrightarrow k+n=l+m\)</span>
+Das heißt z. B., die Zahlenpaare <span class="math inline">\((2,7)\)</span>, <span class="math inline">\((0,5)\)</span> und <span class="math inline">\((4,9)\)</span> in Relation zueinander stehen, weil sie dieselbe »Differenz« haben (obwohl es die Differenz formal noch nicht gibt). Dies ermöglicht nun die Einführung des Bezeichners <span class="math inline">\(-5\)</span> für die Äquivalenzklasse <span class="math inline">\([(0,5)]\)</span>.</p>
+<p>Das Vorgehen ist <em>verträglich</em> mit den bisherigen Regeln in <span class="math inline">\(\mathbb{N}\)</span>, d. h. es führt nicht zu Widersprüchen, wenn etwa das Zahlenpaar <span class="math inline">\((7,4)\)</span> betrachtet wird mit dem Repräsentanten-Bezeichner <span class="math inline">\(3\)</span>. Die Menge aller Äquivalenzklassen (bzw. deren Kurzbezeichner) ist nun <span class="math inline">\(\mathbb{Z}\)</span>.</p>
+<p>Die Addition und Subtraktion zweier Zahlenpaar sind nun definierbar:</p>
+<p><span class="math display">\[\begin{align}
+(k, l) + (m, n) := (k + l, m + n)\\
+(k, l) − (m, n) := (k, l) + (n, m)
+\end{align}\]</span></p>
+<p>Als Alternative bietet sich ein <strong>axiomatisches Vorgehen</strong> an, also die ganzen Zahlen mit der Addition als abelsche Gruppe definiert werden – bedeutsam ist hier insbesondere die Existenz eines Inversen zu jeder Zahl.</p>
+<p>Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den Unterricht zentrale Fachinhalte ableiten:</p>
+<p><span style="color: #00A2FF;">Ganze Zahlen können über Zahlenpaare aus den natürlichen Zahlen oder als »Gegenzahlen« der natürlichen Zahlen entwickelt werden.</span></p>
+<ul>
+<li><span style="color: #00A2FF;">Natürliche Zahlen sind als Teilmenge in ganze Zahlen eingebettet.</span><br />
+</li>
+<li><span style="color: #00A2FF;">Subtraktion natürlicher Zahlen <span class="math inline">\(m-n\)</span> mit <span class="math inline">\(n &gt; m\)</span> ist nun lösbar.</span><br />
+</li>
+<li><span style="color: #00A2FF;">Rechenregeln werden erweitert, wobei die bekannten weiter gelten.</span></li>
+</ul>
+</div>
+</div>
+<div id="ganze-zahlen-semantische-ebene" class="section level3 hasAnchor" number="10.1.2">
+<h3><span class="header-section-number">10.1.2</span> Semantische Ebene<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-semantische-ebene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="ganze-zahlen-grundvorstellungen" class="section level4 hasAnchor" number="10.1.2.1">
+<h4><span class="header-section-number">10.1.2.1</span> Grundvorstellungen<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-grundvorstellungen" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Die Einführung ganzer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden <span class="citation">(<a href="#ref-vomHofe2014a" role="doc-biblioref">vom Hofe &amp; Hattermann, 2014</a>)</span>. Diese sind eigentlich auf der empirischen Ebene der stoffdidaktischen Analyse angesiedelt (mehr dazu siehe auch Abschnitt <a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-empirische-ebene">10.1.4</a>), sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.</p>
+<ul>
+<li>So bestehen etwa für das <strong>Minus-Zeichen vielfältige Interpretationsmöglichkeiten</strong> als <strong>Vorzeichen</strong> (z. B. in der Aufgabe <span class="math inline">\(-5+2\)</span>), als <strong>Rechenzeichen</strong> (z. B. in der Aufgabe <span class="math inline">\(7-2\)</span>) oder als <strong>Inversionszeichen</strong> (z. B. bei der Darstellung <span class="math inline">\(-a\)</span> als Gegenzahl für <span class="math inline">\(a\)</span>).</li>
+<li>Der in den natürlichen Zahlen vorhandene <strong>Kardinalzahlaspekt</strong> (dass die Zahl die Mächtigkeit einer Menge angibt), ist in den negativen Zahlen <strong>nicht mehr tragfähig</strong> (es existiert keine <span class="math inline">\(-4\)</span>-elementige Menge). Auch der <strong>Ordinalzahlaspekt</strong> (dass die Zahl eine Position angibt) ist nur <strong>eingeschränkt tragfähig</strong> (eine <span class="math inline">\(-4\)</span>-te Position bedarf vielfältiger Zwischeninterpretationen). Der <strong>Maßzahlaspekt</strong> (z. B. über die Angabe einer Zahl auf dem Zahlenstrahl) dagegen ist auf die ganzen Zahlen <strong>erweiterbar</strong>.</li>
+<li>Die <strong>Ordnungsrelation</strong> wird häufig <strong>fehlinterpretiert</strong> über eine spiegelbildliche Interpretation (z. B. kann fälschlicherweise <span class="math inline">\(-5&gt;-3\)</span> angenommen werden). Eine Ursache kann hier darin liegen, dass die Ordnungsrelation zuvor über die Mächtigkeit von Mengen hergestellt wurde, was nun nicht mehr möglich ist.</li>
+</ul>
+<p>Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen <span class="citation">vom Hofe &amp; Hattermann (<a href="#ref-vomHofe2014a" role="doc-biblioref">2014</a>)</span> zusammen:</p>
+<ul>
+<li>Ganze Zahlen als <strong>relative Zahlen bezüglich einer fest gewählten Vergleichsmarke</strong>: Dies ist etwa bei Etagen-Angaben, Temperaturen oder der Position über/unter dem Wasserspiegel der Fall. Gerade bei Temperaturen kann die Beliebigkeit der Vergleichsmarke (0 °C) gut diskutiert werden, da etwa andere Temperaturskalen (°F, K) eine andere Vergleichsmarke gewählt haben.</li>
+<li>Ganze Zahlen als <strong>Gegensätze</strong>: Diese Vorstellung wird z. B. sichtbar, wenn über Guthaben und Schulden gesprochen wird. Hat man 5 € Schulden, so ist dies der Gegensatz von 5 € Guthaben. Die Vergleichsmarke (0 €) ist hier nicht beliebig gewählt, sondern natürlicherweise über »weder Guthaben noch Schulden« gegeben. Auch der Betrag einer Zahl kann in dieser Vorstellung besonders gut verstanden werden.</li>
+<li>Ganze Zahlen als <strong>Richtungen</strong>: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z. B. bei der Verwendung von Koordinatensystem der Fall, oder ganz allgemein bei der Zahlengeraden.</li>
+<li>Ganze Zahlen als <strong>Zustände und Zustandsänderungen</strong>: In dieser Vorstellung bieten ganze Zahlen nicht nur die Möglichkeit, einen Zustand (wie Guthaben oder Schulden) zu beschreiben, sondern auch den Prozess der Änderung dieser Zustände (Erhalt von Guthaben, Erlass von Schulden, …). Eine solche Vorstellung etwa ist nötig, um die verschiedenen Interpretationen des Minus-Zeichens nachvollziehen zu können.</li>
+</ul>
+<p>Als bedeutsamste Repräsentation negativer Zahlen gilt die Zahlengerade. Diese stützt einerseits den Maßzahlaspekt und ermöglicht über die Darstellung von Punkten und Pfeilen (siehe Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Zahlengerade">10.3</a>) auch eine Interpretation in den verschiedenen Grundvorstellungen.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Zahlengerade"></span>
+<img src="pictures/9-Zahlengerade.png" alt="Zahlengerade" width="75%" />
+<p class="caption">
+Abb. 10.3: Zahlengerade
+</p>
+</div>
+<p>Auch Operationen mit ganzen Zahlen sind hierzu nun verständlich behandelbar:
+- So kann das <strong>Addieren/Subtrahieren</strong> als Anlegen von Pfeilen, gerichtetes Weiter-/Zurückzählen oder als Subtraktion/Addition der Gegenzahl aufgefasst werden.
+- Das *Multiplizieren<strong> kann bei der Multiplikation mit einer positiven Zahl als Streckung/Stauchung aufgefasst werden, die Multiplikation mit <span class="math inline">\(-1\)</span> entspricht der Spiegelung an der Null und die Multiplikation mit einer belibigen negativen Zahl ist eine Kombination aus beidem.
+- Der </strong>Größenvergleich** ist nun über einen Lagevergleich auf der Zahlengeraden möglich, wobei weiter links liegende Zahlen immer kleiner sind als weiter rechts liegende.</p>
+</div>
+<div id="ganze-zahlen-fundamentale-ideen" class="section level4 hasAnchor" number="10.1.2.2">
+<h4><span class="header-section-number">10.1.2.2</span> Fundamentale Ideen<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-fundamentale-ideen" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Hinsichtlich des Katalogs an Tätigkeitsideen (siehe Abschnitt <a href="3-fundamentale-ideen.html#taetigkeitsideen">3.2.1.3</a>) besteht die Möglichkeit, ganze Zahlen als Verallgemeinerung oder Vernetzung aufzufassen. Sinnvoller erscheint mir jedoch, von einer <strong>Erweiterung</strong> zu sprechen – nicht im Sinne des Erweiterns von Brüchen – sondern der Zahlbereichserweiterung und in dem Zusammenhang auch eine Erweiterung der nötigen Rechenregeln. Auch <span class="citation">Freudenthal (<a href="#ref-Freudenthal1989" role="doc-biblioref">1989, S. 27</a>)</span> spricht von der »Idee der Erweiterung unter Aufrechterhaltung gewisser Gesetze«. Auf eine ausführliche Darstellung der Kriterien fundamentaler Ideen wird hier verzichtet – als Ausblick auf das Vertikalkriterium sei nur auf andere Erweiterungssituationen des Mathematikunterrichts verwiesen wie die sonstigen Zahlbereichserweiterungen, die Übertragung der Potenzgesetze auf rationale Exponenten oder eine Herleitung, dass <span class="math inline">\(a^0 = 1\)</span> und <span class="math inline">\(0^0\)</span> nicht definiert ist.</p>
+<p>Ein typisches Erweiterungsbeispiel im Zusammenhang mit ganzen Zahlen ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpreation. Abhilfe schafft hier das <strong><em>Permanenzprinzip</em></strong>, nach dem neue Theorien (z. B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein muss mit bisherigen Theorien (z. B. das Rechnen mit positiven Zahlen). Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewissen Rechenregeln über <strong><em>Permanenzreihen</em></strong>. Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Permanenz">10.4</a> stellt dies am Beispiel der Aufgabe <span class="math inline">\((-3)\cdot (-5)\)</span> dar.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Permanenz"></span>
+<img src="pictures/9-Permanenz.png" alt="Permanenzreihe zur Multiplikation zweier negativer Zahlen" width="50%" />
+<p class="caption">
+Abb. 10.4: Permanenzreihe zur Multiplikation zweier negativer Zahlen
+</p>
+</div>
+<p>Zusammenfassend lassen sich auf der semantischen Ebene folgende für den Lernpfad relevanten Zusammenhänge ableiten:</p>
+<ul>
+<li><span style="color: #1DB100;">Ganze Zahlen sollten als relative Zahlen bezüglich einer fest gewählten Vergleichsmarke, als Gegensätze, als Richtungen sowie als Zustände und Zustandsänderungen aufgefasst werden können</span><br />
+</li>
+<li><span style="color: #1DB100;">Die Zahlengerade ist eine wesentliche Repräsentation ganzer Zahlen, anhand dessen auch die Operationen mit ganzen Zahlen sichtbar gemacht werden können.</span><br />
+</li>
+<li><span style="color: #1DB100;">Die Einführung ganzer Zahlen soll über das Permanenzprinzip begleitet werden, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.</span></li>
+</ul>
+</div>
+</div>
+<div id="ganze-zahlen-konkrete-ebene" class="section level3 hasAnchor" number="10.1.3">
+<h3><span class="header-section-number">10.1.3</span> Konkrete Ebene<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-konkrete-ebene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Aus den Überlegungen auf der formalen und semantischen Ebene kann als mathematischer Kern der Betrachtung ganzer Zahlen herausgearbeitet werden, dass mit diesen nun stets subtrahiert werden kann (als Neuheit gegenüber den natürlichen Zahlen) und dass in ihnen spezifische Rechenregeln gelten, die so zuvor nicht bekannt waren. Als <strong>Kernfragen</strong> formuliert, kann dies heißen <span class="citation">(vgl. <a href="#ref-Barzel2015a" role="doc-biblioref">Leuders et al., 2015, S. 80, 82</a>)</span>:</p>
+<ul>
+<li>»Wie kann man rechnen, wenn man mehr wegnimmt, als man hat?«</li>
+<li>»Wie kann man mit negativen Zahlen wiederholt dasselbe rechnen?«</li>
+</ul>
+<p>Bei der Wahl eines geeigneten <strong>Kontextes</strong> besteht die Herausforderung, dass die Zahlen und Rechnungen eine Relevanz im Kontext haben und nicht nur konstruiert sind. In der zunächst naheliegenden Temperaturbetrachtung bestehen einige physikalische Schwierigkeiten, nämlich dass auf der Celsius-Skala Temperaturen stets Zustände und keine Zustandsänderungen beschreiben (letztere werden in Kelvin angeben). Auch die Existenz eines absoluten Nullpunkts widerspricht der mathematischen Betrachtung beliebig kleiner negativer Zahlen. Hinzu kommt, dass die Gegensatz-Vorstellung keine praktische Bedeutung hat: <span class="math inline">\(-2\,°\mathrm{C}\)</span> ist nicht das Gegenteil von <span class="math inline">\(2\,°\mathrm{C}\)</span>.</p>
+<p>Wie schon die Beispiele zu den Grundvorstellungen in Abschnitt <a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-grundvorstellungen">10.1.2.1</a> gezeigt haben, bietet dagegen das <strong>Guthaben-Schulden-Modell</strong> vielfältige sinnstiftende (also lebensweltbezogene, kontextauthentische und reichhaltige) Anknüpfungspunkte. Eingeführt werden kann dieser Kontext z. B. spielerisch über Guthaben- und Schuldenkarten, wobei Würfel dafür eingesetzt werden können, wie viele Guthaben- oder Schuldenkarten man abgeben muss bzw. erhält. Über die Dokumentation von »Kontoständen und -bewegungen« kann der Prozess festgehalten werden. Weitere Anregungen zu diesem Kontext findet man auch bei <span class="citation">Hattermann et al. (<a href="#ref-Hattermann2014" role="doc-biblioref">2014</a>)</span> sowie <span class="citation">Hußmann &amp; Schindler (<a href="#ref-Hussmann2014" role="doc-biblioref">2014</a>)</span>.</p>
+<p>Während sich aus dem Kontext heraus Additions- und Subtraktionsaufgaben beschreiben lassen, bei denen der zweite Summend positiv ist (was einer <strong>horizontalen Mathematisierung</strong> entspricht), sind derartige Aufgaben mit negativem zweiten Summanden besser über Pfeile auf Zahlengeraden zu veranschaulichen. Dabei kann das Rechenzeichen als Blick- (<span class="math inline">\(+\)</span> rechts, <span class="math inline">\(-\)</span> links) und das Vorzeichen des zweiten Summanden als Bewegungsrichtung (<span class="math inline">\(+\)</span> vorwärts, <span class="math inline">\(-\)</span> rückwärts) aufgefasst werden. Dieses Vorgehen bietet jedoch keine innermathematische Erklärung, vielmehr ist dies eher eine Art Eselbrücke. Eine <strong>vertikale Mathematisierung</strong> wird dann insbesondere bei der innermathematischen Erklärung von Multiplikationsaufgaben relevant. Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Mathematisierungen">10.5</a> zeigt noch einmal die verschiedenen Mathematisierungsarten.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Mathematisierungen"></span>
+<img src="pictures/9-Mathematisierungen.png" alt="Horizontale (h) und vertikale (v) Mathematisierungsmöglichkeiten bei ganzen Zahlen" width="75%" />
+<p class="caption">
+Abb. 10.5: Horizontale (h) und vertikale (v) Mathematisierungsmöglichkeiten bei ganzen Zahlen
+</p>
+</div>
+<p>Zusammenfassend lässt sich sagen:</p>
+<ul>
+<li><span style="color: #EE220C;">Über den Kontext von Guthaben-Schulden-Situationen lässt sich das Wesen ganzer Zahlen erarbeiten.</span></li>
+<li><span style="color: #EE220C;">Als Kernideen sollten deutlich werden, dass man mit ganzen Zahlen beschreiben kann, wie man mehr wegnehmen kann, als man hat, und dass mit ihnen die bekannten Rechengesetze erweitert werden.</span><br />
+</li>
+<li><span style="color: #EE220C;">Im Guthaben-Schulden-Kontext lassen sich einige der Rechengesetze veranschaulichen, andere wiederum können über Permanenzreihen erklärt werden.</span></li>
+</ul>
+</div>
+<div id="ganze-zahlen-empirische-ebene" class="section level3 hasAnchor" number="10.1.4">
+<h3><span class="header-section-number">10.1.4</span> Empirische Ebene<a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-empirische-ebene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Neben den bereits in Abschnitt <a href="10-zweites-intermezzo-ganze-zahlen.html#ganze-zahlen-grundvorstellungen">10.1.2.1</a> erwähnten typischen Schwierigkeiten mit ganzen Zahln, sollen hier noch einige weitere aufgezählt und ihre Konsequenzen für die Entwicklung eines Lernpfades abgeleitet werden.</p>
+<ul>
+<li>Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit hohen <strong>sprachlichen Hürden</strong> verbunden (siehe z. B. <span class="citation">Fabian (<a href="#ref-Fabian2022" role="doc-biblioref">2022</a>)</span>). Dies betrifft einmal den <em>negativ</em>-Begriff, der in der Alltagssprache i. d. R. mit etwas schlechtem verbunden ist (»negative Stimmung«), aber auch eine positive Bedeutung haben kann (»negativer Corona-Test«), im mathematischen Kontext jedoch bei der »negativen Zahl« eine gänzlich andere Bedeutung hat. <span style="color: #F8BA00;">Diese Bedeutungsvielfalt sollte daher im Unterricht angesprochen und die mathematische Bedeutung entsprechend abgegrenzt werden.</span> Eine weitere Hürde ist ein <strong>komplexer Wortschatzaufbau</strong>, abhängig von den verwendeten Kontexten. So muss nicht nur der neue mathematische Inhalt erlernt, sondern es müssen in dem Zusammenhang auch noch die verwendeten Wörter wie »Meeresspiegel«, »Normal-Null«, »Gefrierpunkt«, »Frost« usw. mit ihrer mathematischen Bedeutung hinsichtlich der positiven und negativen Zahlen in Bezug gebracht werden. <span style="color: #F8BA00;">Dieses Problem lässt sich umgehen, indem die Einführung möglichst nur in einem Kontext erfolgt und dieser nur geringe sprachliche Hürden aufweist.</span></li>
+<li>Aus den natürlichen Zahlen herrscht die Vorstellung vor, dass Hinzufügen, also (ggf. mehrfaches) Addieren, immer vermehre. Diese <strong>»Hinzufügen vemehrt immer«-Vorstellung</strong> ist jedoch <strong>nicht mehr tragfähig</strong>. Ihre Ursache hat die Vorstellung aus einer jahrelangen Betrachtung ausschließlich positiver Zahlen und wird teils auch sprachlich gestützt (z. B. durch »noch mehr Schulden«). <span style="color: #F8BA00;">Einer entsprechenden Übergeneralisierung muss also durch einen verständnisfördernden Aufbau entgegengewirkt werden, ggf. auch mit einer expliziten Besprechung der Fehlvorstellung.</span></li>
+<li>Ebenfalls sichtbar wird eine Häufige <strong>Vermischung der Rechenregeln</strong>, z. B. die fehlerhafte Aussage »minus plus minus ist plus«, die aus einer Übertragung der Merkregel »minus mal minus ist plus« kommen könnte. Eine solche Vermischung kommt inbesondere dann zutage, wenn die Rechenregeln (falsch) auswendig gelernt und nicht mit einer geeigneten Vorstellung in Bezug gebracht werden können. <span style="color: #F8BA00;">Für die Unterrichtsdurchführung bedeutet das, dass die entsprechenden Repräsentationen (wie Pfeile am Zahlenstrahl) behutsam eingeführt, ausführlich behandelt sowie durch operatives Durcharbeiten verinnerlicht werden sollten. Auch der Verzicht auf Merksätze kann hierbei tatsächlich hilfreich sein, um nicht so eine kalkülhaften Vorgehen (welches sich dann falsch eingeprägt wird) hinzuwirken.</span></li>
+</ul>
+</div>
+</div>
+<div id="lernpfad" class="section level2 hasAnchor" number="10.2">
+<h2><span class="header-section-number">10.2</span> Lernpfad<a href="10-zweites-intermezzo-ganze-zahlen.html#lernpfad" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Aus den Überlegungen der stoffdidaktischen Analyse lässt sich nun ein möglicher Lernpfad ableiten, nach dem ganze Zahlen unterrichtet werden können. Abbildung <a href="10-zweites-intermezzo-ganze-zahlen.html#fig:Lernpfad">10.6</a> stellt diesen übersichtlich dar.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Lernpfad"></span>
+<img src="pictures/9-Lernpfad.png" alt="Möglicher Lernpfad zu ganzen Zahlen" width="100%" />
+<p class="caption">
+Abb. 10.6: Möglicher Lernpfad zu ganzen Zahlen
+</p>
+</div>
+<p>Dabei zeigt sich, dass in der oberen Zeile zunächst die Zahlen als Objekte betrachtet werden, wobei schon vielfältige Grundvorstellungen aufgebaut werden können. Die komplette Lernpfad lässt sich dabei am Guthaben-Schulden-Modell durcharbeiten, wobei natürlich in Anwendungsituationen und zur Verinnerlichung auch weitere Kontexte nötig werden.</p>
+<p>Die Einführung des Zahlbereichs <span class="math inline">\(\mathbb{Z}\)</span> ist in der Darstellung gestrichelt dargestellt, da dieser nicht zwingend an der Stelle nötig ist, um anschließend mit ganzen Zahlen rechnen zu können. Hier kann auch die Leistungsfähigkeit der Klasse sowie die Schuform darüber entscheiden, ob und an welcher Stelle der Zahlbereich eingeführt werden muss.</p>
+<p>Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v. a. an der Repräsentaion der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung.</p>
+<p>Dieser Lernpfad stellt <em>eine</em> Möglichkeit darf, ganze Zahlen zu behandeln und baut auf die oben dargestellten Diskussionen zu formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst einmal, auf den Lernpfad aufbauen, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.</p>
+<!-- ## Zum Nachbereiten {#zweites-intermezzo-nachbereitung} -->
+
+</div>
+</div>
+
+
+
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Fabian2022" class="csl-entry">
+Fabian, M. (2022). Minusgrade, <span>Schulden</span>, <span>Tauchtiefen</span> – <span>Speziﬁzierung</span> von <span>Sprachmitteln</span> zur <span>Einführung</span> negativer <span>Zahlen</span>. <em>Journal für Mathematik-Didaktik</em>. <a href="https://doi.org/10.1007/s13138-022-00208-8">https://doi.org/10.1007/s13138-022-00208-8</a>
+</div>
+<div id="ref-Freudenthal1989" class="csl-entry">
+Freudenthal, H. (1989). Einführung der negativen <span>Zahlen</span> nach dem geometrisch-algebraischen <span>Permanenzprinzip</span>. <em>mathematik lehren</em>, <em>35</em>, 27–37.
+</div>
+<div id="ref-Hattermann2014" class="csl-entry">
+Hattermann, M., Hofe, R. vom, &amp; Viehmeister, F. (2014). Rote <span>Karte</span>? <span>Ich</span> hab’ grün! <span>Ein</span> <span>Spiel</span> zur <span>Addition</span> und <span>Subtraktion</span> ganzer <span>Zahlen</span>. <em>mathematik lehren</em>, <em>183</em>, 15–19.
+</div>
+<div id="ref-Hussmann2014" class="csl-entry">
+Hußmann, S., &amp; Schindler, M. (2014). En <span>Kontext</span> für negative <span>Zahlen</span> – auch für die <span>Multiplikation</span>. <em>mathematik lehren</em>, <em>183</em>, 28–32.
+</div>
+<div id="ref-Barzel2015a" class="csl-entry">
+Leuders, T., Prediger, S., Barzel, B., &amp; Hußmann, S. (Hrsg.). (2015). <em>Mathewerkstatt. 7, <span>Schulbuch</span></em> (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
+</div>
+<div id="ref-vomHofe2014a" class="csl-entry">
+vom Hofe, R., &amp; Hattermann, M. (2014). Zugänge zu negativen <span>Zahlen</span>. <em>mathematik lehren</em>, 2–7.
+</div>
+<div id="ref-WikiPeano" class="csl-entry">
+Wikipedia. (2021b). <em>Peano-Axiome — Wikipedia<span>,</span> die freie Enzyklopädie</em>. <a href="https://de.wikipedia.org/w/index.php?title=Peano-Axiome&amp;oldid=216675163">https://de.wikipedia.org/w/index.php?title=Peano-Axiome&amp;oldid=216675163</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="21">
+<li id="fn21"><p>Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt – das geht schon weiter als hier zulässig.<a href="10-zweites-intermezzo-ganze-zahlen.html#fnref21" class="footnote-back">↩︎</a></p></li>
+<li id="fn22"><p>Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.<a href="10-zweites-intermezzo-ganze-zahlen.html#fnref22" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="9-aufgabengestaltung.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="11-leitidee-zahl-und-operation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/09-Zweites-Intermezzo.Rmd",
+"text": null
+},
+"download": ["Stoffdidaktik2022-Etzold.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
