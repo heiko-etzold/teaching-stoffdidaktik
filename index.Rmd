@@ -49,7 +49,8 @@ Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleite
 
 Zitiere als: 
 
-> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de
+<!-- > Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de -->
+> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23*. https://stoffdidaktik.heiko-etzold.de/2022
 
 
 Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter https://stoffdidaktik.heiko-etzold.de/2021.

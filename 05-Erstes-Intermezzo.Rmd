@@ -18,7 +18,7 @@ In dem Sinne wird also existierendes Material analysiert und hinsichtlich der ma
 
 ## Darstellung im Schulbuch
 
-In dem Schulbuch *Mathewerkstatt* [@Barzel2012] wird der Flächeninhalt über den Kontext von Tiergehen eingeführt (siehe Abbildung \@ref(fig:Tiergehege)). So haben in einem Zoo verschiedene Tiere unterschiedlich große Gehe zur Verfügung. Die Form der Gehege variiert dabei ebenfalls.
+In dem Schulbuch *Mathewerkstatt* [@Barzel2012] wird der Flächeninhalt über den Kontext von Tiergehegen eingeführt (siehe Abbildung \@ref(fig:Tiergehege)). So haben in einem Zoo verschiedene Tiere unterschiedlich große Gehe zur Verfügung. Die Form der Gehege variiert dabei ebenfalls.
 
 (ref:citeTiergehege) Einstiegsbild zum Thema Flächeninhalt [@Barzel2012 {168 f.}]
 
@@ -145,10 +145,10 @@ knitr::include_graphics("pictures/5-abb-Kreis.png")
 
 ### Auswirkungen auf Lernpfad
 
-Der Lernpfad des Schulbuches greift diese Fundamentale Idee und die Grundvorstellungen auf, indem zunächst Flächeninhalte (durch Ausseinanderschneiden und Zusammenfügen) miteinander verglichen werden, anschließend das Auslegen mit normierten Flächenstücken erfolgt und daraufhin geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsberechnung eines Rechtecks behandelt wird.
+Der Lernpfad des Schulbuches greift diese Fundamentale Idee und die Grundvorstellungen auf, indem zunächst Flächeninhalte (durch Auseinanderschneiden und Zusammenfügen) miteinander verglichen werden, anschließend das Auslegen mit normierten Flächenstücken erfolgt und daraufhin geeignete Maßeinheiten eingeführt werden und die Flächeninhaltsberechnung eines Rechtecks behandelt wird.
 
 
-Die formale und empirische Ebenen wurden hier getrennt dargestellt, was jedoch für eine stoffdidaktische Analyse gar nicht zwingend nötig ist. Entscheidend ist, dass Sie den ganzheitlichen Blick auf die aufgeworfenen Fragen haben und diese (zumindest in Teilen) beantworten können. Die getrennte Darstellung dient hier noch der Übersicht für Sie als *Anfängerinnen und Anfänger* im Umgang mit stoffdidaktischen Analysen -- auch wenn darauf verzichtet wurde, die einzelnen Fragen schrittweise explizit zu beantworten.
+Die formale und empirische Ebene wurden hier getrennt dargestellt, was jedoch für eine stoffdidaktische Analyse gar nicht zwingend nötig ist. Entscheidend ist, dass Sie den ganzheitlichen Blick auf die aufgeworfenen Fragen haben und diese (zumindest in Teilen) beantworten können. Die getrennte Darstellung dient hier noch der Übersicht für Sie als *Anfängerinnen und Anfänger* im Umgang mit stoffdidaktischen Analysen -- auch wenn darauf verzichtet wurde, die einzelnen Fragen schrittweise explizit zu beantworten.
 
 ## Konkrete Ebene
 
