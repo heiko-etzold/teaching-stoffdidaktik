@@ -1,3 +1,4 @@
+<!--
 
 # Fundamentale Ideen
 
@@ -165,5 +166,5 @@ knitr::include_graphics("pictures/2-Flaeche.png")
 2. Wählen Sie ein Unterrichtsthema aus und stellen Sie den Bezug zu Fundamentalen Ideen her, indem Sie die [zugehörigen Fragen der semantischen Ebene](#tab:fragen-ebenen) beantworten.
 
 
-
+-->
 

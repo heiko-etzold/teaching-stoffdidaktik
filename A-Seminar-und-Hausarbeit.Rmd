@@ -1,6 +1,6 @@
-#  (APPENDIX) Anhang {-}
+<!--
 
-# Seminar und Hausarbeit
+ # Seminar und Hausarbeit
 
 
 ## Hausarbeit
@@ -78,7 +78,7 @@ Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, s
 
 * Inbesondere **digital zugängliche Publikationen** lassen sich über die Webseite https://www.base-search.net recherchieren. Eine ähnliche Funktionalität, aber eher international orientiert, bietet die Seite https://eric.ed.gov.
 
-
+-->
 
 
 

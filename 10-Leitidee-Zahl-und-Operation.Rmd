@@ -1,3 +1,4 @@
+<!-- 
 # (PART\*) Inhaltsbezogene Kompetenzen {.unnumbered}
 
 # Leitidee Zahl und Operation
@@ -70,6 +71,10 @@ Aus diesen Materialien sowie den Beschreibungen in den Bildungsstandards für di
 > - Tupel und Matrizen
 > - Grenzmatrizen und Fixvektoren
 
+
+
+-->
+
 <!-- ## Aufbau der Zahlbereiche -->
 
 <!-- Die Einführung der Zahlbereiche unterscheidet sich deutlich zwischen Schule und Universität. Dies beginnt schon bei der Reihenfolge: Während in der Schule nach den Natürlichen Zahlen i. d. R. die Bruchzahlen eingeführt werden, folgt in der Hochschulmathematik normalerweise erst die Einführung der negativen Zahlen. -->
@@ -122,6 +127,7 @@ Aus diesen Materialien sowie den Beschreibungen in den Bildungsstandards für di
 
 <!-- Termbegriff und Variablenaspekte -->
 
+<!--
 
 Ausführlich am Beispiel des Wurzelbegriffs und überblicksartig am Beispiel der Kombinatorik werden im Folgenden einige stoffdidaktische Überlegungen angestellt -- insbesondere hinsichtlich der Nutzung geeigneter Repräsentationen.
 
@@ -250,3 +256,4 @@ knitr::include_graphics("pictures/10-Kombinatorik.png")
 ```
 
 Diese Repräsentation kann nun unterstützen, Realsituationen zu abstrahieren und dann dem entsprechenden mathematischen Modell zuzuordnen.
+-->

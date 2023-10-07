@@ -1,3 +1,4 @@
+<!-- 
 # Leitidee Größen und Messen
 
 > **Material**
@@ -26,9 +27,10 @@ Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Messen
 
 Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Größen und Messen
 
-
+-->
 <!-- In den Bildungsstandards für den Primarbereich lautet diese Leitidee »Größen und Messen« [@KMK2005 11]. -->
 
+<!--
 Abbildung \@ref(fig:KonzeptMessen) zeigt das vom @LISUMf herausgegebene Konzeptbild zur Leitidee Größen und Messen die Jahrgangsstufen 1 -- 10, das ebenfalls durch einen didaktischen Kommentar von @Kortenkampb und Materialien zur Diagnose und Förderung [@LISUMe] ergänzt wurde.
 
 (ref:citeKonzeptMessen) Konzeptbild zur Leitidee *Größen und Messen* [@LISUMf]
@@ -140,11 +142,11 @@ Ein im deutschsprachigen Mathematikunterricht kaum verbreitetes Arbeitsmittel zu
 ```{r Goniometer, echo=FALSE, fig.cap="Goniometer", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/11-Goniometer.png")
 ```
-
+-->
 <!-- Sowohl für die [Winkelscheibe](files/Stoffdidaktik-WiSe2223-Kap11-Winkelscheibe.pdf) als auch für das Goniometer finden Sie oben bei den Materialien entsprechende Druckvorlagen. -->
 
 
-
+<!--
 
 ## Lage- und Streumaße
 
@@ -182,5 +184,5 @@ Auch bei diesem Arbeitsmittel wird der Boxplot abhängig von der Lage der variie
 * *Erstelle einen eigenen Datensatz, blende ihn aus und lass deinen Partner bzw. deine Partnerin einen passenden Datensatz mit mindestens neun Werten finden, der denselben Boxplot produziert.*
 
 
-
+-->
 

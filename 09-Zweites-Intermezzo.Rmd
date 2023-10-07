@@ -1,3 +1,4 @@
+<!--
 # Zweites Intermezzo: Ganze Zahlen
 
 > **Ziele**
@@ -172,5 +173,6 @@ Die Einführung des Zahlbereichs $\mathbb{Z}$ ist in der Darstellung gestrichelt
 Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v. a. an der Repräsentation der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung. 
 
 Dieser Lernpfad stellt *eine* Möglichkeit dar, ganze Zahlen zu behandeln und baut auf die obigen Diskussionen zur formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst, auf den Lernpfad aufbauend, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.   
-
+-->
 <!-- ## Zum Nachbereiten {#zweites-intermezzo-nachbereitung} -->
+

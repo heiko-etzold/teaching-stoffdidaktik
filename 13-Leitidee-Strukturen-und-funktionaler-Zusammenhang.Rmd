@@ -1,4 +1,4 @@
-# Leitidee Strukturen und funktionaler Zusammenhang
+<!-- # Leitidee Strukturen und funktionaler Zusammenhang
 
 > **Material**
 >
@@ -130,3 +130,5 @@ Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl hi
 * Grundvorstellung zum Aspekt der **lokalen Linearität**: Diese Vorstellung betont noch stärker die Differenzierbarkeit als Eigenschaft einer Funktion, nämlich die Möglichkeit, sie lokal durch eine lineare Funktion annähern zu können. Eine typische Repräsentation ist das Heranzoomen an die Funktion, sodass dabei die lokale Linearität besonders deutlich wird. Mathematisch greifbar wird diese Vorstellung darüber, dass sich die Funktion über $f(x) = f(x_0) + m\cdot x+ r(h)$ beschreiben lässt, wobei der *Fehler* $r(h)$ so schnell gegen $0$ geht, dass sogar $\lim\limits_{h\rightarrow 0}\cfrac{r(h)}{h}=0$ gilt. $m$ selbst ist dann die Ableitung und der Anstieg der *besten linearen Näherung* -- was natürlich wieder die Tangente an entsprechender Stelle ist.
 
   Dieses Vorgehen besticht v. a. durch seine mathematische Verallgemeinerbarkeit für die höherdimensionale Analysis. Auch entspricht es dem Bedürfnis, Prozesse linear zu approximieren (vgl. Abschnitt \@ref(beispiel-linearitaet)).
+  
+  -->

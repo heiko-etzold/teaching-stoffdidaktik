@@ -1,3 +1,5 @@
+<!--
+
 #  (PART\*) Lernprozesse gestalten {-}
 
 # Lerntätigkeit und Lernhandlungen {#lerntaetigkeit-und-lernhandlungen}
@@ -29,6 +31,9 @@ Nach @Leuders2015 [448] beinhalten Lernumgebungen für den Mathematikunterricht 
 
 
 * Eng verbunden mit dem Einsatz von Arbeitsmitteln sind **Aufgaben**, die Sie den Schülerinnen und Schülern stellen. Aufgaben können dabei »als Aufforderung an Lernende zum mathematischen Handeln aufgefasst« werden [@Leuders2015 435]. Neben der Auswahl von Aufgaben werden Sie als Lehrkraft aber insbesondere Aufgaben **gestalten**, also selbst welche entwickeln und vorhandene Aufgaben variieren und an Ihre Lerngruppe anpassen. Maßnahmen hierzu finden sich im übernächsten Kapitel.
+
+
+-->
 <!-- , um Aufgaben zu gestalten, sind in Kapitel \@ref(aufgaben-gestalten) dargestellt. -->
 
 
@@ -38,7 +43,7 @@ Nach @Leuders2015 [448] beinhalten Lernumgebungen für den Mathematikunterricht 
 
 
 
-
+<!--
 
 ## Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
 
@@ -130,9 +135,12 @@ Mit der Anforderungssituation geht ad hoc eine Orientierung der Schülerinnen un
 Es handelt sich also zwar um eine vollständige Orientierungsgrundlage, jedoch ist eine Transferierbarkeit nicht immer gegeben. Auch kann die »fälschliche Erkennung eines Musters in einer gegebenen Anforderungssituation« zu einer fehlerhaften Übertragung führen.
 
 * **Feldorientierung:** Die Schülerinnen und Schüler sind nun »nicht an eine konkrete Anforderungssituation gebunden, sondern beziehen sich vielmehr auf ganze Anforderungsklassen. Durch das Erkennen der Passung einer solchen Anforderungsklasse kann sich der Lernende für konkrete Situationen selbst eine Orientierung schaffen. Er verfügt über einen gewissen Überblick über die Situation und ist in der Lage zu differenzieren, welche Stoffelemente und welche seiner Kenntnisse, Fähigkeiten und Fertigkeiten ihm bei der Bewältigung der Anforderung weiterhelfen können und welche nicht.«
+-->
 <!-- Galperin spricht davon, dass bei diesem Typ von Orientierung nicht nur die Handlungen selbst einsichtig sind, sondern auch ihre Bedingungen (Galperin, 1973, S. 113). Aufgrund des hohen Maßes an Übertragbarkeit ist eine Feldorientierung insbesondere für Kenntnisse, Fähigkeiten und Fertigkeiten, die in den Bereich von Mindeststandards fallen, von Bedeutung: -->
 <!-- „Feldorientierung gilt als erstrebenswert für solche Lerninhalte, die für erfolgreiches Weiterlernen unabdingbar sind.“ (Richter & Bruder, 2016, S. 193, Hervorh. im Original) -->
 
+
+<!--
 Insbesondere für bedeutsame Lerngegenstände im Mindeststandardbereich ist eine Feldorientierung wünschenswert. Unterstützt werden kann dies etwa durch **reichhaltige Kontexte** und die **Vorschauperspektive der Kernideen/Kernfrage**, so dass sich die Schülerinnen und Schüler darauf einlassen können, nun ein gesamtes Feld zu erschließen. Auch das **Explizitmachen fundamentaler Ideen**^[Dies ist eine Adaption eines bei @Reitz-Koncebovski2018 [182] dargestellten Gestaltprinzips fachwissenschaftlicher Lehrveranstaltungen in der Lehramtsausbildung.] hilft für eine derartige Einordnung. Die Orientierungsgrundlage bietet damit eine wichtige Basis für die auszubildenden Handlungen und die Organisation der Handlungsausführung.
 
 Vor allem bei der Gestaltung von Aufgabenstellungen ist es relevant, welche Orientierungsgrundlagen mit diesen angesprochen werden können, siehe dazu auch Abschnitt \@ref(theoretischer-rueckblick).
@@ -187,3 +195,4 @@ Die dargestellten Beispiele greifen mit dem Abgleich zwischen Handlungsergebniss
 3. Beschreiben Sie Möglichkeiten zur etappenweisen Verinnerlichung der bei 2. dargestellten Lernhandlungen.
 
 
+-->

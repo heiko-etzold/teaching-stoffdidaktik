@@ -1,6 +1,6 @@
 ---
-title: "Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23"
-description: "Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2022/23 an der Universität Potsdam bei Dr. Heiko Etzold"
+title: "Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24"
+description: "Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2023/24 an der Universität Potsdam bei Dr. Heiko Etzold"
 author: "Dr. Heiko Etzold, Universität Potsdam"
 date: "Letzte Änderung: `r format(Sys.time(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
@@ -13,7 +13,7 @@ output:
         collapse: section 
         scroll_highlight: true
         before: 
-          <li><a href="index.html"><b>Stoffdidaktik Mathematik 2022/23</b></a></li>
+          <li><a href="index.html"><b>Stoffdidaktik Mathematik 2023/24</b></a></li>
         after:
           <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2023</li>
       sharing:
@@ -47,21 +47,22 @@ url: "stoffdidaktik.heiko-etzold.de/"
 
 Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments.
 
-Zitiere als: 
+Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen: 
 
-<!-- > Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de -->
-> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2022/23*. https://stoffdidaktik.heiko-etzold.de/2022
+> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de
 
+Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
 
-Das Vorlesungsskript zur letztjährigen Veranstaltung finden Sie unter https://stoffdidaktik.heiko-etzold.de/2021.
+- https://stoffdidaktik.heiko-etzold.de/2022
+- https://stoffdidaktik.heiko-etzold.de/2021
 
 
 ## Lizenz {.unnumbered .unlisted}
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.
 
-Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVausbilden), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:GVVerinnerlichen), \@ref(fig:Etappen), \@ref(fig:ACAT) und \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig), \@ref(fig:Mittelsenkrechte) bis \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis) und \@ref(fig:DefinitionZufallsexperiment) bis \@ref(fig:Prozessbetrachtung) -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
-
+<!-- Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVausbilden), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:GVVerinnerlichen), \@ref(fig:Etappen), \@ref(fig:ACAT) und \@ref(fig:ProzentErkunden) bis \@ref(fig:Schwierig), \@ref(fig:Mittelsenkrechte) bis \@ref(fig:InnenwinkelReissen), \@ref(fig:ThalesBeweis) und \@ref(fig:DefinitionZufallsexperiment) bis \@ref(fig:Prozessbetrachtung) -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
+-->
 
 ```{r echo=FALSE}
 formal <- function(x) {

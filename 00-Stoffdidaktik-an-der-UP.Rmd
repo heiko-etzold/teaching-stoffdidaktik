@@ -6,24 +6,24 @@
 
 Die Veranstaltung *Stoffdidaktik Mathematik*^[Die Modulbeschreibung finden Sie bei [PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3155&menuid=&topitem=Modulbeschreibung&subitem=).] besteht aus einer **Vorlesung (2 SWS)** und einem zugehörigen **Seminar (2 SWS)**.
 
-Im Wintersemester 2022/23 wird die **Vorlesung semesterbegleitend** stattfinden. Das **Seminar** können Sie entweder **als Block** am Ende des Wintersemesters oder **semesterbegleitend** im Sommersemester 2023 besuchen.
+Im Wintersemester 2023/24 wird die **Vorlesung semesterbegleitend** kompakt in der zweiten Semesterhälfte stattfinden. Das **Seminar** können Sie entweder **parallel zur Vorlesung** im Wintersemester oder **semesterbegleitend** im Sommersemester 2023 besuchen.
 
 In der Vorlesung erhalten Sie einen **Input zu stoffdidaktischen Grundlagen**, wobei der Schwerpunkt auf **stoffdidaktischen Theorien** liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig **auf verschiedene Lerngegenstände anzuwenden**.
 
-Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. Genauere Hinweise dazu finden Sie im Anhang \@ref(seminar-und-hausarbeit).
+Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. <!--Genauere Hinweise dazu finden Sie im Anhang \@ref(seminar-und-hausarbeit).-->
 
-Am Ende der Veranstaltung steht damit ein **Katalog an stoffdidaktischen Analysen**, der Ihnen im weiteren Studium und in Ihrer späteren Lehrtätigkeit an der Schule dienlich sein kann.
+<!--Am Ende der Veranstaltung steht damit ein **Katalog an stoffdidaktischen Analysen**, der Ihnen im weiteren Studium und in Ihrer späteren Lehrtätigkeit an der Schule dienlich sein kann.-->
 
 
 ## Einordnung {-}
 
-Die Veranstaltung *Stoffdidaktik Mathematik* findet nach empfohlenem Studienverlaufsplan im **5. Fachsemester parallel zur *Einführung in die Mathematikdidaktik*** statt.
+Die Veranstaltung *Stoffdidaktik Mathematik* findet nach empfohlenem Studienverlaufsplan im **5. Fachsemester parallel zur *Einführung in die Mathematikdidaktik*** statt. 
 
 Das heißt insbesondere, dass Sie bereits die **Grundlagen** zur Analysis, Linearen Algebra, Stochastik, Geometrie, Algebra und Numerik studiert haben sollten. Auf diese Grundlagen wird in der Stoffdidaktisch **fachlich aufgebaut**.
 
-Während Sie sich in der *Einführung in die Mathematikdidaktik* mit verschiedenen Lehr-Lern-Theorien, Unterrichtsprinzipien, prozessbezogenen Kompetenzen oder methodischen Grundlagen des Mathematikunterrichtens beschäftigen, liegt in der *Stoffdidaktik Mathematik* der Fokus auf der **Auswahl und Strukturierung der Unterrichtsinhalte**, basierend auf fachlichen und fachdidaktischen Erkenntnissen.
+Während Sie sich in der *Einführung in die Mathematikdidaktik* mit verschiedenen Lehr-Lern-Theorien, Unterrichtsprinzipien, prozessbezogenen Kompetenzen oder methodischen Grundlagen des Mathematikunterrichtens beschäftigen, liegt in der *Stoffdidaktik Mathematik* der Fokus auf der **Auswahl und Strukturierung der Unterrichtsinhalte**, basierend auf fachlichen und fachdidaktischen Erkenntnissen. Im Wintersemester 2023/24 wird durch eine kompakte Durchführung von Einführung (1. Semesterhälfte) und Stoffdidaktik (2. Semesterhälfte) die Einführungsvorlesung zeitlich vor der Stoffdidaktikvorlesung stattfinden. 
 
-Im Anschluss an beide Veranstaltungen absolvieren Sie die **Schulpraktischen Studien**, in denen Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
+Parallel oder im Anschluss an beide Veranstaltungen absolvieren Sie die **Schulpraktischen Studien**, in denen Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
 
 
 ## Kompetenzziele der Veranstaltung {-}

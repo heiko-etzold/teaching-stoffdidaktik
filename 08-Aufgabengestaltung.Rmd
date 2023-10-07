@@ -1,3 +1,4 @@
+<!--
 # Aufgabengestaltung
 
 
@@ -223,3 +224,4 @@ b) für die Vertiefungsaufgabe zwei bis drei gestufte Hilfen, sowie
 c) eine Blütenaufgabe.
 
 
+-->

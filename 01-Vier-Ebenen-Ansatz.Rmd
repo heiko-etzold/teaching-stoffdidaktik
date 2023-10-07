@@ -1,3 +1,4 @@
+<!--
 # (PART\*) Stoffdidaktische Analyse {.unnumbered}  
   
 # Vier-Ebenen-Ansatz
@@ -173,3 +174,5 @@ Wichtig ist v. a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, d
 
 1. Lesen Sie den Artikel von @Hussmann:2016 zum Vier-Ebenen-Ansatz.
 2. Reflektieren Sie Ihre bisherige Fach- und Fachdidaktikausbildung in Mathematik dahingehend, welche der aufgeworfenen Fragen Sie zu konkreten Themenbereichen (nicht) beantworten könnten.
+
+-->

@@ -1,4 +1,4 @@
-
+<!--
 # Arbeitsmittel
 
 > **Ziele**
@@ -151,3 +151,5 @@ Am Beispiel der App *Klipp Klapp* [@Etzold2020a] stellt @Stein2018 eine entsprec
 2. Führen Sie nach der hier vorgestellten Schrittfolge eine Analyse des Arbeitsmittels *Zahlenstrahl* durch [siehe z. B. auch @Schulz2018].
 
 3. Wählen Sie einen mathematischen Begriff und überlegen Sie sich, wie ein geeignetes Arbeitsmittel für diesen Begriff aussehen kann. Sie können dabei auch spekulieren, was dieses Arbeitsmittel können müsste (z. B. wenn es digital umgesetzt werden könnte).
+
+-->

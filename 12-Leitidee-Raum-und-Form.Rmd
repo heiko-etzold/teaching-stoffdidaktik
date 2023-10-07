@@ -1,4 +1,4 @@
-# Leitidee Raum und Form
+<!-- # Leitidee Raum und Form
 
 ## Strukturierung der Leitidee {#strukturierung-der-leitidee-raum-und-form}
 
@@ -214,4 +214,6 @@ Der Zusammenhang zwischen Satz des Thales und Zentri-Peripherwiewinkelsatz sollt
 ```{r ThalesBeweis, echo=FALSE, fig.cap="(ref:citeThalesBeweis)", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/12-ThalesBeweis.png")
 ```
+
+-->
 

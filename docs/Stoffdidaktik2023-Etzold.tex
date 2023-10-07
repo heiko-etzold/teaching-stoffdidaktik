@@ -1,0 +1,328 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{scrbook}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{ngerman}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\addtokomafont{disposition}{\rmfamily}
+\KOMAoptions{numbers=noenddot}
+
+\usepackage{libertine}
+\usepackage{libertinus-otf}
+
+\usepackage[original]{imakeidx}
+% \usepackage{makeidx}
+% \makeindex[title=Stichwortverzeichnis, intoc]
+% \indexsetup{level=\chapter,toclevel=chapter,noclearpage,firstpagestyle=headings}
+
+
+
+\usepackage{color}
+\definecolor{formalColor}{HTML}{00A2FF}
+\definecolor{semanticColor}{HTML}{1DB100}
+\definecolor{concreteColor}{HTML}{EE220C}
+\definecolor{empiricColor}{HTML}{F8BA00}
+\definecolor{linkColor}{HTML}{929292}
+\definecolor{quoteColor}{HTML}{666666}
+
+\usepackage{framed}
+\renewenvironment{quote}{
+  \list{}{
+	\leftmargin0.2cm   % this is the adjusting screw
+    \rightmargin\leftmargin
+      	\def\FrameCommand
+    {%
+        {\color{quoteColor}\vrule width 2pt}%
+        \hspace{0pt}%must no space.
+        %
+    }%
+    \MakeFramed{\advance \hsize -\width \FrameRestore}    \color{quoteColor}
+    }
+  \item\relax
+}
+{\endlist\color{black}\endMakeFramed}
+
+
+\makeatletter
+\def\renewtheorem#1{%
+  \expandafter\let\csname#1\endcsname\relax
+  \expandafter\let\csname c@#1\endcsname\relax
+  \gdef\renewtheorem@envname{#1}
+  \renewtheorem@secpar
+}
+\def\renewtheorem@secpar{\@ifnextchar[{\renewtheorem@numberedlike}{\renewtheorem@nonumberedlike}}
+\def\renewtheorem@numberedlike[#1]#2{\newtheorem{\renewtheorem@envname}[#1]{#2}}
+\def\renewtheorem@nonumberedlike#1{
+\def\renewtheorem@caption{#1}
+\edef\renewtheorem@nowithin{\noexpand\newtheorem{\renewtheorem@envname}{\renewtheorem@caption}}
+\renewtheorem@thirdpar
+}
+\def\renewtheorem@thirdpar{\@ifnextchar[{\renewtheorem@within}{\renewtheorem@nowithin}}
+\def\renewtheorem@within[#1]{\renewtheorem@nowithin[#1]}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24},
+  pdfauthor={Dr.~Heiko Etzold, Universität Potsdam},
+  pdflang={de-DE},
+  colorlinks=true,
+  linkcolor={linkColor},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={linkColor},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24}
+\author{Dr.~Heiko Etzold, Universität Potsdam}
+\date{Letzte Änderung: 07.10.2023}
+
+\begin{document}
+\maketitle
+
+% \renewtheorem{definition}{Definition}[chapter]
+%
+% \newtheoremstyle{definition}% name of the style to be used
+% {}% measure of space to leave above the theorem. E.g.: 3pt
+% {}% measure of space to leave below the theorem. E.g.: 3pt
+% {\em}% name of font to use in the body of the theorem
+% {}% measure of space to indent
+% {\bf}% name of head font
+% {.}% punctuation between head and body
+% { }% space after theorem head; " " = normal interword space
+% {\thmname{#1}\thmnumber{\addtocounter{thm}{-1} #2$^\prime$}\thmnote{\textnormal{ (#3)}}}
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{uxfcber-dieses-dokument}{%
+\chapter*{Über dieses Dokument}\label{uxfcber-dieses-dokument}}
+\addcontentsline{toc}{chapter}{Über dieses Dokument}
+
+Die Veranstaltung \emph{Stoffdidaktik Mathematik} wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments.
+
+Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
+
+\begin{quote}
+Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24} (Version vom 07.10.2023). \url{https://stoffdidaktik.heiko-etzold.de}
+\end{quote}
+
+Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://stoffdidaktik.heiko-etzold.de/2022}
+\item
+  \url{https://stoffdidaktik.heiko-etzold.de/2021}
+\end{itemize}
+
+\hypertarget{lizenz}{%
+\section*{Lizenz}\label{lizenz}}
+
+Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung -- Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
+Eine Beschreibung der Lizenz findet sich unter \url{https://creativecommons.org/licenses/by-sa/4.0/deed.de}.
+
+\hypertarget{stoffdidaktik-mathematik-an-der-up}{%
+\chapter*{Stoffdidaktik Mathematik an der UP}\label{stoffdidaktik-mathematik-an-der-up}}
+\addcontentsline{toc}{chapter}{Stoffdidaktik Mathematik an der UP}
+
+\hypertarget{struktur-der-veranstaltung}{%
+\section*{Struktur der Veranstaltung}\label{struktur-der-veranstaltung}}
+\addcontentsline{toc}{section}{Struktur der Veranstaltung}
+
+Die Veranstaltung \emph{Stoffdidaktik Mathematik}\footnote{Die Modulbeschreibung finden Sie bei \href{https://puls.uni-potsdam.de/qisserver/rds?state=verpublish\&status=init\&vmfile=no\&moduleCall=modulansicht\&publishConfFile=modulverwaltung\&publishSubDir=up/modulbearbeiter\&\&modul.modul_id=3155\&menuid=\&topitem=Modulbeschreibung\&subitem=}{PULS}.} besteht aus einer \textbf{Vorlesung (2~SWS)} und einem zugehörigen \textbf{Seminar (2~SWS)}.
+
+Im Wintersemester 2023/24 wird die \textbf{Vorlesung semesterbegleitend} kompakt in der zweiten Semesterhälfte stattfinden. Das \textbf{Seminar} können Sie entweder \textbf{parallel zur Vorlesung} im Wintersemester oder \textbf{semesterbegleitend} im Sommersemester 2023 besuchen.
+
+In der Vorlesung erhalten Sie einen \textbf{Input zu stoffdidaktischen Grundlagen}, wobei der Schwerpunkt auf \textbf{stoffdidaktischen Theorien} liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig \textbf{auf verschiedene Lerngegenstände anzuwenden}.
+
+Sie halten einen \textbf{Seminarvortrag} (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer \textbf{Hausarbeit} (6 bis 8 Seiten) zusammen, die als Modulprüfung dient.
+
+\hypertarget{einordnung}{%
+\section*{Einordnung}\label{einordnung}}
+\addcontentsline{toc}{section}{Einordnung}
+
+Die Veranstaltung \emph{Stoffdidaktik Mathematik} findet nach empfohlenem Studienverlaufsplan im \textbf{5. Fachsemester parallel zur \emph{Einführung in die Mathematikdidaktik}} statt.
+
+Das heißt insbesondere, dass Sie bereits die \textbf{Grundlagen} zur Analysis, Linearen Algebra, Stochastik, Geometrie, Algebra und Numerik studiert haben sollten. Auf diese Grundlagen wird in der Stoffdidaktisch \textbf{fachlich aufgebaut}.
+
+Während Sie sich in der \emph{Einführung in die Mathematikdidaktik} mit verschiedenen Lehr-Lern-Theorien, Unterrichtsprinzipien, prozessbezogenen Kompetenzen oder methodischen Grundlagen des Mathematikunterrichtens beschäftigen, liegt in der \emph{Stoffdidaktik Mathematik} der Fokus auf der \textbf{Auswahl und Strukturierung der Unterrichtsinhalte}, basierend auf fachlichen und fachdidaktischen Erkenntnissen. Im Wintersemester 2023/24 wird durch eine kompakte Durchführung von Einführung (1. Semesterhälfte) und Stoffdidaktik (2. Semesterhälfte) die Einführungsvorlesung zeitlich vor der Stoffdidaktikvorlesung stattfinden.
+
+Parallel oder im Anschluss an beide Veranstaltungen absolvieren Sie die \textbf{Schulpraktischen Studien}, in denen Sie die erworbenen Kenntnisse in die \textbf{Unterrichtspraxis} transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
+
+\hypertarget{kompetenzziele-der-veranstaltung}{%
+\section*{Kompetenzziele der Veranstaltung}\label{kompetenzziele-der-veranstaltung}}
+\addcontentsline{toc}{section}{Kompetenzziele der Veranstaltung}
+
+Als Kompetenzen, die Sie nach Abschluss von Vorlesung und Seminar erreicht haben sollen, sind angedacht:
+
+\begin{itemize}
+\tightlist
+\item
+  Sie \textbf{kennen Aspekte und Grundvorstellungen} zu zentralen mathematischen Begriffen.
+\item
+  Sie \textbf{beurteilen Unterrichtsmaterialien und Lernumgebungen} hinsichtlich ihrer stoffdidaktischen Eignung.
+\item
+  Sie \textbf{erstellen Aufgaben und erste Lernumgebungen} zu konkreten Stoffgebieten.
+\item
+  Sie \textbf{erkennen mathematikdidaktische Prinzipien und Ideen} als \textbf{Entscheidungs- und Strukturierungsgrundlage} zu stofflichen Inhalten der mathematischen Bildung.
+\item
+  Sie \textbf{wählen zielgerichtet} analoge und digitale \textbf{Medien} zur Unterstützung stofflich orientierter Lehr-Lern-Prozesse aus.
+\item
+  Sie \textbf{setzen sich} selbstständig \textbf{mit stoffdidaktischen Fragestellungen auseinander} und nutzen dafür geeignete mathematikdidaktische Literatur.
+\item
+  Sie \textbf{reflektieren die Inhalte der vorangegangenen Mathematik-Fachmodule} unter stoffdidaktischen Gesichtspunkten.
+\end{itemize}
+
+\hypertarget{was-ist-stoffdidaktik}{%
+\section*{Was ist Stoffdidaktik?}\label{was-ist-stoffdidaktik}}
+\addcontentsline{toc}{section}{Was ist Stoffdidaktik?}
+
+Für die Disziplin der \emph{Stoffdidaktik Mathematik} gibt es keine allgemeingültige Definition, auch haben sich die Schwerpunkte in der historischen Entwicklung stets verschoben.
+
+Grundsätzliches Ziel ist, stoffliche Inhaltsbereiche für den Mathematikunterricht auszuwählen (\textbf{\emph{Was?}}) und aufzubereiten (\textbf{\emph{Wie?}}). Im Sinne dieser Veranstaltung kann Stoffdidaktik grob als \textbf{Spezifierung und Strukturierung von Lerngegenständen} aufgefasst werden (zur begrifflichen Einordnung siehe auch \protect\hyperlink{ref-Hussmann:2016a}{Hußmann et al., 2016}).
+
+Während hierzu, historisch betrachtet, anfangs der Stoff ausschließlich aus fachmathematischer Perspektive aufbereitet wurde (z.~B. durch \emph{didaktisch-orientierte Sachanalysen}), nahmen in der Folgezeit mehr und mehr auch Lehr-Lern-Theorien Einzug -- gar ein Verschwinden der stofflichen Orientierung der Mathematikdidaktik wird befürchtet (vgl. \protect\hyperlink{ref-Jahnke:2010}{Jahnke, 2010}).
+
+Mit dem Begriff der \textbf{Strukturgenetischen Analyse} erweitert Wittmann (\protect\hyperlink{ref-Wittmann:2015}{2015}) die historische Sichtweise als eine »Mathematikdidaktik \emph{vom Fach aus}«, die sich »auf implizite Theorien des Lehrens und Lernens, die im Fach selbst liegen{[}, stützt{]}« (\protect\hyperlink{ref-Wittmann:2015}{Wittmann, 2015, S. 240}). »Anders als bei der Stoffdidaktik, die sich im Wesentlichen auf die logische Analyse des Stoffes und die Wissensvermittlung konzentriert hat, stehen jetzt aber die Genese des Wissens im Verlauf der Schulzeit und Lernprozesse unter Bezug auf unterschiedliche Lernvoraussetzungen im Vordergrund« (\protect\hyperlink{ref-Wittmann:2015}{Wittmann, 2015, S. 250}). Eine derartig ganzheitliche Sichtweise soll auch den Geist dieser Veranstaltung ausmachen.
+
+\begin{quote}
+\textbf{Überblicke zur historischen Entwicklung der Stoffdidaktik}
+
+\begin{itemize}
+\tightlist
+\item
+  Hefendehl-Hebeker (\protect\hyperlink{ref-Hefendehl-Hebeker:2016}{2016}): Subject-matter didactics in German traditions: Early historical developments
+\item
+  Schupp (\protect\hyperlink{ref-Schupp:2016}{2016, 79~ff.}): Gedanken zum „Stoff`` und zur „Stoffdidaktik`` sowie zu ihrer Bedeutung für die Qualität des Mathematikunterrichts
+\end{itemize}
+\end{quote}
+
+\hypertarget{appendix-anhang}{%
+\appendix}
+
+
+\hypertarget{vollstuxe4ndiges-literaturverzeichnis}{%
+\chapter{Vollständiges Literaturverzeichnis}\label{vollstuxe4ndiges-literaturverzeichnis}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Hefendehl-Hebeker:2016}{}}%
+Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {Early} historical developments. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 11--31. \url{https://doi.org/10.1007/s13138-016-0103-7}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Hussmann:2016a}{}}%
+Hußmann, S., Rezat, S., \& Sträßer, R. (2016). Subject {Matter} {Didactics} in {Mathematics} {Education}. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 1--9. \url{https://doi.org/10.1007/s13138-016-0105-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Jahnke:2010}{}}%
+Jahnke, T. (2010). Vom mählichen {Verschwinden} des {Fachs} aus der {Mathematikdidaktik}. \emph{GDM-Mitteilungen 89}, 21--24. \url{https://ojs.didaktik-der-mathematik.de/index.php/mgdm/article/view/559/550}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Schupp:2016}{}}%
+Schupp, H. (2016). Gedanken zum „{Stoff}`` und zur „{Stoffdidaktik}`` sowie zu ihrer {Bedeutung} für die {Qualität} des {Mathematikunterrichts}. \emph{Mathematische Semesterberichte}, \emph{63}(1), 69--92. \url{https://doi.org/10.1007/s00591-016-0159-y}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Wittmann:2015}{}}%
+Wittmann, E. C. (2015). Strukturgenetische didaktische {Analysen} -- empirische {Forschung} „erster {Art}``. \emph{mathematica didactica}, 239--255. \url{http://www.mathematica-didactica.com/altejahrgaenge/md_2015/md_2015_Wittmann_Stoffdidaktik.pdf}
+
+\end{CSLReferences}
+
+% \printindex
+
+\end{document}

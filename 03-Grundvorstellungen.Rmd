@@ -1,3 +1,4 @@
+<!--
 # Grundvorstellungen
 
 > **Ziele**
@@ -148,3 +149,4 @@ All dies zeigt, dass Brüche behutsam unterrichtet werden sollten und von einer 
    - beschreiben Sie mögliche Modellierungsprozesse des Begriffs mithilfe der gewählten Grundvorstellung.
 3. Wiederholen Sie Aufgabe 2 an weiteren Begriffen.
 
+-->

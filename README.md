@@ -1,5 +1,5 @@
 # Stoffdidaktik Mathematik
-Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2021/22 an der Universität Potsdam bei Dr. Heiko Etzold
+Vorlesungsskript zur Stoffdidaktik Mathematik an der Universität Potsdam bei Dr. Heiko Etzold
 
 Das Respository stellt die Rohdaten des o.g. Vorlesungsskriptes zur Verfügung, das mit RStudio erstellt worden ist. 
 Aufgrund der CC-BY-SA-4.0-Lizenz ist es möglich und gewünscht , die Materialien weiterzuverwenden, abzuändern und 
