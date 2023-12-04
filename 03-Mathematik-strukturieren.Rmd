@@ -1,0 +1,189 @@
+<!-- # Mathematik strukturieren -->
+
+
+<!-- > **Ziele** -->
+<!-- > -->
+<!-- > + Sie kennen verschiedene Möglichkeiten, Mathematik zu strukturieren. -->
+<!-- > + Sie können beschreiben, woher die verschiedenen Strukturierungsmöglichkeiten kommen. -->
+<!-- > + Sie kennen Beispiele für fundamentale Ideen der Mathematik. -->
+<!-- > + Sie können bei einzelnen Lerngegenständen den Zusammenhang zu zugehörigen fundamentalen Ideen herstellen. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zum Kapitel 3 ([pdf](files/Stoffdidaktik2023-03-MathematikStrukturieren.pdf), [Keynote](files/Stoffdidaktik2023-03-MathematikStrukturieren.key)) -->
+
+
+
+
+
+<!-- ## Sachgebiete -->
+
+<!-- Für die Fachwissenschaft Mathematik haben sich historisch verschiedene Unterdisziplinen entwickelt, die als Sachgebiete der Mathematik bezeichnet werden können. Schulrelevante Gebiete sind hierbei: -->
+
+<!-- * Arithemtik -->
+<!-- * Algebra -->
+<!-- * Geometrie -->
+<!-- * Analysis -->
+<!-- * Stochastik -->
+<!-- * Lineare Algebra / Analytische Geometrie -->
+
+<!-- Auch heute bilden sich diese und weitere Sachgebiete (z. B. Numerik) in den Strukturen von universitären Lehrveranstaltungen, Forschungsrichtungen und nicht zuletzt der Strukturierung einzelner Lehrpläne der Schulen ab. -->
+
+<!-- Für eine Vertiefung mit der Didaktik der Sachgebiete eignen sich u. a. die in Abschnitt \@ref(geeignete-quellen) dargestellten Quellen. Weiterhin werden Sie im Masterstudium im Modul *Ausgewählte Themen der Mathematikdidaktik*^[siehe Modulbeschreibung zum Modul [MAT-LS-D3 bei PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3186&menuid=&topitem=Modulbeschreibung&subitem=)] die Möglichkeit haben, sich mit der Didaktik einzelner Sachgebiete näher auseinanderzusetzen. -->
+
+<!-- ## Leitideen -->
+
+<!-- Die Strukturierung mathematischer Inhalte in Leitideen ist seit Anfang der 2000er Jahre im deutschen Bildungswesen etabliert, als die KMK^[Mehr zur Kultusministerkonferenz (KMK) und ihrer eigentlichen Bezeichnungen siehe @dewiki:228417777.] **Bildungsstandards** für den Mittleren Schulabschluss (2004), den Primarbereich (2005) und später auch die Allgemeine Hochschulreife (2012) herausgebracht hat. Darauf aufbauend wurden in den meisten Bundesländern die Lehrpläne angepasst. -->
+<!-- Zwischenzeitlich wurden die Bildungsstandards für den Primarbereich sowie den Ersten und Mittleren Schulabschluss überarbeitet, für die gymnasiale Oberstufe gelten während der gerade laufenden Überarbeitung noch die von 2012.  [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a; @SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022; @KMK:2012].  -->
+<!-- In Brandenburg spiegeln sich die Bildungsstandards in den **Rahmenlehrplänen** für die Jahrgangsstufen 1 -- 10 und die Gymnasiale Oberstufe wider [@MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023; @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022].  -->
+
+<!-- Im Laufe der letzten 20 Jahre haben sich für die Leitideen teils verschiedene Bezeichnungen ergeben. In den aktuellen Bildungsstandards des Ersten und Mittleren Schulabschlusses [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022] werden verwendet: -->
+
+<!-- * Leitidee Zahl und Operation -->
+<!-- * Leitidee Größen und Messen -->
+<!-- * Leitidee Strukturen und funktionaler Zusammenhang -->
+<!-- * Leitidee Raum und Form -->
+<!-- * Leitidee Daten und Zufall -->
+
+<!-- Die Leitidee Zahl und Operation beispielweise »umfasst sinntragende Vorstellungen und Darstellungen von Zahlen und Operationen sowie die Nutzung von Rechengesetzen und Kontrollverfahren. Dazu gehören die sachgerechte Nutzung von Prozent- und Zinsrechnung ebenso wie kombinatorische Überlegungen und Verfahren, denen Algorithmen zu Grunde liegen.« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 15]. Weiterhin werden diese Kompetenzen an spezifischen Fachinhalten konkretisiert, etwa: »Die Schülerinnen und Schüler […] • untersuchen Zahlen nach ihren Faktoren, in einfachen Fällen ohne digitale Mathematikwerkzeuge, • stellen Zahlen der Situation angemessen dar, z.B. unter anderem in Zehnerpotenzschreibweise, • rechnen mit natürlichen, ganzen und rationalen Zahlen, die im täglichen Leben vorkommen, sowohl zur Kontrolle als auch im Kopf und erklären die Bedeutung der Rechenoperationen […]« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 15] -->
+
+<!-- Die Leitideen werden in den Bildungsstandards als **inhaltsbezogene Kompetenzen** beschrieben, die mit Abschluss des ersten bzw. mittleren Schulabschlusses zu erreichen sind. Es handelt sich dabei um **Regelstandards**, also Kompetenzen, die »Schülerinnen und Schüler im Durchschnitt in einem Fach erreichen sollen« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 2]. Diese sind abzugrenzen gegenüber **Basiskompetenzen** als »mathematisch zentrale, instrumentell bedeutsame und geradezu grundlegende Konzepte und Verfahren, die für die mathematische Kompetenzentwicklung unverzichtbar sind« (vgl. https://pikas-mi.dzlm.de/node/92). Für Basiskompetenzen gibt es derzeit in Deutschland keine politischen Dokumente wie Rahmenlehrpläne oder Bildungsstandards  -->
+
+
+<!-- ## Arten mathematischen Wissens -->
+
+<!-- Eine weitere Strukturierung mathematischen Wissens kann darin bestehen, den Blick darauf zu lenken, wie dieses Wissen angeeignet wird. So können ähnliche Aneigungsprozesse Motivation bieten, das Wissen entsprechend zu strukturieren und dies dann für die Gestaltung von Lehr-Lern-Prozessen nutzbar zu machen. Etabliert hat sich hierfür eine Unterscheidung in drei Arten mathematischen Wissens [vgl. @Vollrath2012, 45 f.]: -->
+
+<!-- * **Begriffe.** Diese bilden das Grundgerüst der Mathematik und belegen Objekte gleicher Eigenschaft mit einem gemeinsamen Bezeichner. Neben der Begriffsfestlegung, i. d. R. über eine Definition, ist der Einsatz geeignter Beispiele und Gegenbeispiele essentiell beim Aufbau eines Begriffsverständnisses. -->
+
+<!-- * **Sachverhalte.** Diese beschreiben Eigenschaften von Begriffen und ihre Beziehungen zueinander. Klassischerweise gehören hierzu mathematische Sätze inkl. ihrer Beweise, aber auch präformale Begründungen. Je nach Akzentuierung sprechen andere Quellen statt von Sachverhalten auch von Sätzen oder von Zusammenhängen. -->
+
+<!-- * **Verfahren.** Diese bestimmen, wie bestimmte Aufgaben zu lösen sind, z. B. schriftliche Rechenverfahren, Lösungsverfahren von Gleichungen und Gleichungssystemen.  -->
+
+<!-- Einige Autoren zählen zu den Verfahren auch heuristische Strategien zum Problemlösen oder die Anwendung des Permanenzprinzips [vgl. @Steinhofel1988,23] @Vollrath2012 [46 ff.] ergänzen dagegen drei Wissensarten noch:  -->
+
+<!-- * **Metamathematisches Wissen.** Darunter ist zu verstehen, *wie* Mathematik betrieben wird, also bspw. welche Möglichkeiten es gibt, ein mathematisches Problem zu lösen oder eine Sachsituation mathematisch zu modellieren.  -->
+
+<!-- In Abschnitt \@ref(begriffe-sachverhalte-verfahren) wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Wissensarten gestaltet werden können.  -->
+
+
+<!-- ## Fundamentale Ideen -->
+
+<!-- ### Begriffsklärung {#fundamentale-ideen-begriffsklaerung} -->
+
+<!-- Die Entwicklung Fundamentaler Ideen beruft sich auf Bruners Annahme, dass »jedes Kind [...] auf jeder Entwicklungsstufe jeder Lehrgegenstand in einer intellektuell ehrlichen Form erfolgreich gelehrt werden« kann [vgl. @Bruner:1976 77]. Voraussetzung dafür ist, dass die *Struktur* eines Inhaltsbereichs in einer Art und Weise präsentiert wird, dass sie dem Kind zugänglich wird. Diese *hinter den Dingen* liegende Struktur hebt sich vom konkreten Inhaltsbereich ab, ist allgemeinerer Natur und kann daher über *Fundamentale Ideen* beschrieben werden. -->
+
+<!-- Ziel der Orientierung des Unterrichtens an Fundamentalen Ideen besteht v. a. darin, die (oftmals) isolierten Stoffelemente einzuordnen und in einem größeren Ganzen zu sehen. Im Umkehrschluss heißt dies aber auch, dass die Auswahl des konkreten Stoffes daran orientiert sein muss, wie dieser dazu beitragen kann, den dahinter liegenden mathematischen Kern und die zugehörigen Fundamentalen Ideen zu vertreten. -->
+
+<!-- Die dazu seit den 1960er Jahren in Gang gesetzte Forschung führte zu vielfältigen Vorschlägen Fundamentaler Ideen der Mathematik -- jedoch bisher nicht zu einem allgemeingültigen Katalog. Dieser Vielfalt in den Formulierungen und Kategorisierungen kann begegnet werden, indem Fundamentale Ideen über Eigenschaften charakterisiert werden. Im Rahmen dieser Veranstaltung wird folgende Definition genutzt, zitiert aus @Schwill:1994. -->
+
+<!-- ::: {.definition #FundamentaleIdee name="Fundamentale Idee"} -->
+<!-- Eine **Fundamentale Idee**\index{Fundamentale Idee|textbf} bzgl. eines Gegenstandsbereichs (Wissenschaft, Teilgebiet) ist ein **Denk-, Handlungs-, Beschreibungs- oder Erklärungsschema**, das -->
+
+<!--  1. in verschiedenen Gebieten des Bereichs vielfältig anwendbar oder erkennbar ist (**Horizontalkriterium**),\index{Fundamentale Idee!Horizontalkriterium|textbf} -->
+<!--  2. auf jedem intellektuellen Niveau aufgezeigt und vermittelt werden kann (**Vertikalkriterium**),\index{Fundamentale Idee!Vertikalkriterium|textbf} -->
+<!--  3. in der historischen Entwicklung des Bereichs deutlich wahrnehmbar ist und längerfristig relevant bleibt (**Zeitkriterium**),\index{Fundamentale Idee!Zeitkriterium|textbf} -->
+<!--  4. einen Bezug zu Sprache und Denken des Alltags und der Lebenswelt besitzt (**Sinnkriterium**).\index{Fundamentale Idee!Sinnkriterium|textbf} -->
+<!-- ::: -->
+
+
+
+
+<!-- > **Überblick zur historischen Entwicklung Fundamentaler Ideen** -->
+<!-- > -->
+<!-- > - @Bank:2016 [{37 ff.}]: *Fundamentale Ideen der Mathematik: Weiterentwicklung einer Theorie zu deren unterrichtspraktischer Nutzung* -->
+
+
+
+<!-- Fundamentale Ideen haben zwar ihren Ursprung in der Fachstruktur, aber sie »sind nicht Elemente der Wissenschaft an sich, sondern Produkte unseres Verstandes, die wir der Wissenschaft aufprägen. Folglich können sie nur relativ zum Menschen objektiviert werden« [@Schubert:2011 62].  -->
+
+<!-- Für Ihre stoffdidaktische Analyse können Fundamentale Ideen insbesondere hilfreich für die **Dekonstruktion** des Fachwissens und anschließende **Rekonstruktion** des Schulwissens sein. -->
+
+<!-- Wenn sie also beispielsweise eine stoffdidaktische Analyse zur Flächeninhaltsberechnung durchführen, setzen Sie sich mit der Fundamentalen Idee des *Messens*\index{Messen} auseinander. Dabei verstehen Sie Messvorgänge als Vergleiche zu einem Standardmaß (z. B. Kästchen auszählen), erkennen Zerlegungs- und Ergänzungsgleichheit als notwendige Prinzipien zur präziseren Beschreibung, sehen Dreiecke als bedeutsame Basisfiguren für Flächeninhaltsberechnungen an und haben den Blick für die Integralrechnung als verallgemeinerbare Methode zur Flächeninhaltsbestimmung krummliniger Figuren [vgl. @Vohns:2000 {98 ff.}]. Sie *dekonstruieren* (zerlegen) damit Ihr eigenes mathematisches Fachwissen. -->
+
+<!-- Nun sind Sie in der Lage, das Wissen zur Flächeninhaltsberechnung für Schülerinnen und Schüler neu aufzubauen, also zu *rekonstruieren* und (unter Hinzunahme der Betrachtung von Grundvorstellungen und den restlichen Ebenen des Vier-Ebenen-Ansatzes) einen Lernpfad zu entwickeln. Im Zusammenhang mit der Integralrechnung kann dies z. B. heißen, dass Sie parallel zum Bilden von Ober- und Untersummen noch einmal eine krummlinig begrenzte Fläche durch Kästchen auszählen lassen -- ggf. mit unterschiedlicher Feinheit und einer Abschätzung nach oben und nach unten. Die Fundamentalen Ideen haben für Sie damit auch eine *ordnende Funktion* des Unterrichtsstoffes. -->
+
+<!-- ```{r Flaeche, echo=FALSE, fig.cap="Flächeninhaltsbestimmung", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/3-Flaeche.png") -->
+<!-- ``` -->
+
+
+<!-- ### Auswahl fundamentaler Ideen -->
+
+<!-- Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. @vonderBank:2013 [103] und @Lambert:2012 diskutieren eine Kategorisierung fundamentaler Ideen in drei Bereiche: -->
+
+<!-- - **Inhaltsideen** beziehen sich auf konkrete Inhaltsbereiche der Mathematik, die die Kriterien Fundamentaler Ideen erfüllen können. Nicht ganz zufällig spiegeln diese sich in den Leitideen der Bildungsstandards wider (siehe Abschnitt \@ref(leitideen)). -->
+
+<!-- - **Schnittstellenideen** haben die Eigenschaft, dass durch sie die »Mathe(matik) wirkt« und »auch für andere Fächer in ihrer je spezifischen Weise relevant sind« [@Lambert:2012]. Damit korrelieren sie mit den prozessbezogenen Kompetenzen der Bildungsstandards. -->
+
+<!-- - **Tätigkeitsideen** beziehen sich insbesondere auf innermathematische Tätigkeiten, die sich über verschiedene Inhaltsbereiche hinweg zeigen. @Lambert:2012 betont, dass es diese (über die Bildungsstandards hinaus) ebenfalls zu beachten gilt, wenn man einen reichhaltigen Mathematikunterricht bewirken möchte. -->
+
+<!-- Beispiele derartiger Tätigkeitsideen sind: -->
+
+<!-- - Approximierung -->
+<!-- - Optimierung -->
+<!-- - Linearität/Linearisierung -->
+<!-- - Symmetrie -->
+<!-- - Invarianz -->
+<!-- - Rekursion -->
+<!-- - Vernetzung -->
+<!-- - Ordnen -->
+<!-- - Strukturierung -->
+<!-- - Formalisierung -->
+<!-- - Exaktifizierung -->
+<!-- - Verallgemeinern -->
+<!-- - Idealisieren -->
+
+<!-- Im Rahmen des Projektmoduls *Erweitertes Fachwissen für den schulischen Kontext in Mathematik*^[siehe Modulbeschreibung zum Mpdul [MAT-LS-7 bei PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3156&menuid=&topitem=Modulbeschreibung&subitem=)] werden Sie insbesondere Bezüge zwischen Schul- und Hochschulmathematik auf Basis Fundamentaler Ideen herstellen, wofür die Inhalts- und Tätigkeitsideen von hoher Relevanz sind. -->
+
+
+<!-- ### Beispiel Linearität {#beispiel-linearitaet} -->
+
+<!-- #### Horizontal- und Vertikalkriterium -->
+
+<!-- Linearität\index{Linearität|(}\index{Fundamentale Idee!Horizontalkriterium|(}\index{Fundamentale Idee!Vertikalkriterium|(} ist ein wesentliches Konzept über die gesamte Schullaufbahn hinweg (und darüber hinaus). Dies spiegelt sich in vielfältigen Themenbereichen wider, die sowohl die Breite (*Horizontalkriterium*) als auch Tiefe (*Vertikalkriterium*) von Linearität und (später) auch Linearisierung zeigen. Dieser Abschnitt orientiert sich an den Darstellungen von @Danckwerts:1988. -->
+
+<!-- - Linearität als Phänomen tritt schon im Geometrieunterricht der Grundschule mit **Geraden** als essentielle geometrische Objekte auf. In der euklidischen Geometrie sind Geraden neben Punkten die Basisobjekte eines axiomatischen Aufbaus. -->
+<!-- - Das **Distributivgesetz** $a\cdot (b+c) = a\cdot b + a\cdot c$, das ebenfalls bereits in der Grundschule behandelt wird, beschreibt einen linearen Vorgang und bietet die Grundlage für die halbschriftliche Multiplikation. Über die Schulmathematik hinaus dient es z. B. als eines der Vektorraumaxiome (Skalarmultiplikation). -->
+<!-- - Das Bestimmen eines **Rechteckflächeninhalts** ist ein linearer Vorgang: Ein Rechteck, das doppelt so breit ist, hat (bei gleicher Höhe) einen doppelt so großen Flächeninhalt. Betrachtet man diese Eigenschaft nicht als Phänomen, sondern als Forderung an eine Flächeninhaltsformel, so kann aus den Bedingungen $A(a_1+a_2,b) = A(a_1,b) + A(a_2,b)$ und $A(a,b_1+b_2) = A(a,b_1)+A(a,b_2)$ sowie der Stetigkeit in $\mathbb{R}^+$ die Formel $A(a,b) = a\cdot b$ abgeleitet werden. -->
+<!-- - Lineare Zuordnungen der Art $f(x+y) = f(x)+f(y)$ werden zu Beginn der Sekundarstufe I als **proportionale Zuordnungen** behandelt. Dies wird fortgeführt bei **linearen Funktionen** der Art $f(x) = mx+n$, in der Fachmathematik als affin-lineare Abbildungen bezeichnet. -->
+<!-- - **Lineare Gleichungen und Gleichungssysteme** sind ebenfalls bedeutsamer Bestandteil des Mathematikunterrichts. Überhaupt baut die gesamte **Lineare Algebra** auf lineare und affin-lineare Abbildungen auf. -->
+<!-- - Die **Strahlensätze** beschreiben ebenfalls ein lineares Verhalten: Geradenabschnitte in $c$-facher Entfernung sind $c$ mal so lang. -->
+
+<!-- ```{r Strahlensatz, echo=FALSE, fig.cap="Strahlensatzfigur", fig.align='center', out.width='50%'} -->
+<!-- knitr::include_graphics("pictures/3-Strahlensatz.png") -->
+<!-- ``` -->
+<!-- - Beim **Ableitungsbegriff** ist eine wesentliche Vorstellung, dass die Funktion in der Umgebung der zu betrachtenden Stelle linearisiert wird. Insbesondere bei höherdimensionalen Funktionen wird der Linearisierungsansatz weiterverfolgt. Die ebenfalls vorherrschende Tangentenvorstellung ist auf mehr als drei Dimensionen nicht mehr anschaulich übertragbar -- der Linearisierungsansatz weist hier aufgrund seiner algebraischen Beschreibung die bessere Verallgemeinerbarkeit auf. -->
+<!-- - Eng an den Linearisierungsansatz angelehnt ist die **lineare Approximation** von Funktionen (z. B. $\sin(x)\approx x$ für $x\approx 0$). Die führt sich in der Hochschulmathematik fort, beispielsweise bei Taylor-Reihen. -->
+<!-- - Das Bedürfnis der Linearisierung, insbesondere aus der Physik heraus, zeigt sich auch bei der Nutzung **spezifisch skalierter Diagrammachsen**, z. B. von Logarithmuspapier. Wegen der Äquivalenz von $y = c\cdot a^x$ und $\ln y = (\ln a )\cdot x + \ln c$ lassen sich beliebige Exponentialfunktionen auf Logarithmuspapier als lineare Funktionen darstellen. -->
+<!-- - Verschiedene Näherungsverfahren, wie das **Newton-Verfahren**, bedienen sich ebenfalls der Linearisierung. -->
+
+<!-- An dieser Stelle sei darauf hingewiesen, dass Linearität derart fundamental ist, dass selbst nicht-lineare Zusammenhänge häufig fälschlicherweise als linear angenommen werden. Dies zeigt sich zum Beispiel an den Fehlannahmen $(x+y)^2 \overset{?!}{=} x^2+y^2$, $\sqrt{x+y} \overset{?!}{=} \sqrt{x}+\sqrt{y}$ oder $\sin(x+y) \overset{?!}{=} \sin(x)+\sin(y)$. Derartige Fehler können Sie als Lehrkraft besser einordnen (und korrigieren), wenn Sie sich der Fundamentalen Idee *Linearität* (die hier eben *nicht* gilt) bewusst sind. Insbesondere spricht dies auch für ein Explizitmachen der Fundamentalen Idee Ihren Schülerinnen und Schülern gegenüber, so dass Sie derartigen Fehlern nicht nur mit Gegenbeispielen entgegen treten können, sondern auch eine strukturelle Einordnung sichtbar machen können. -->
+
+<!-- Gerade wegen der genannten Fehlannahmen und der für die Schülerinnen und Schüler i. d. R. nicht in Zusammenhang gebrachten Dualität aus *geradlinig* und *additiv und homogen* sehen @Tietze:2002 [39] die Linearität dagegen nicht als eine im Mathematikunterricht etablierte Fundamentale Idee, »die die Schüler erkennen und die ihr Denken ordnet und anregt«.\index{Fundamentale Idee!Horizontalkriterium|)}\index{Fundamentale Idee!Vertikalkriterium|)} -->
+
+<!-- #### Zeit- und Sinnkriterium -->
+
+<!-- Linearität\index{Fundamentale Idee!Zeitkriterium|(}\index{Fundamentale Idee!Sinnkriterium|(} zeigt sich auch in der historischen Entwicklung der Mathematik als eine prägende Leitlinie, womit sie das *Zeitkriterium* Fundamentaler Ideen erfüllt. In der Linearen Algebra sei beispielsweise das Lösen linearer Gleichungssysteme im 18. Jahrhundert bis hin zum Gauß-Algorithmus im 19. Jahrhundert oder die Darstellung linearer Vorgänge mit Matrizen im 17./18. Jahrhundert erwähnt [vgl. @Tietze:2000, {73 ff.}]. In der Analysis spiegelt sich die Linearität bzw. Linearisierung in der gesamten Differenzialrechnung wider, von der Interpolation nach der Jahrtausendwende über Taylors *Linear perspective* von 1715 [vgl. @Bruckler:2018 {39,119}] bis in die Gegenwart der linearen Modellierung nichtlinearer Zusammenhänge. -->
+
+<!-- > **Historische Originalausgabe** -->
+<!-- > -->
+<!-- > @Taylor:1715: *Linear perspective* -->
+
+<!-- Auch Alltagssituationen bzw. die Alltagssprache ist von Linearität geprägt. Beispielsweise treten proportionale Zuordnungen unmittelbar beim Einkaufen auf, wenn Waren abgewogen und der Preis bestimmt wird. Auch reale Messvorgänge, wie z. B. die Geschwindigkeitsmessung, beziehen sich in der Regel auf die Messung von (sehr kurzen) Zeitintervallen, in denen ein lineares Verhalten angenommen wird. Das *Sinnkriterium* zeigt sich aber auch in Begriffen wie *lineares Fernsehen* oder *lineare Erzählungen*. Dies ist zwar keine mathematische Linearität im Sinne der Formel $f(x+y) = f(x) +f(y)$, aber der Begriff findet in einer verwandten Bedeutung in der Alltagssprache Verwendung.\index{Linearität|)}\index{Fundamentale Idee!Zeitkriterium|)}\index{Fundamentale Idee!Sinnkriterium|)} -->
+
+<!-- ### Gegenbeispiele -->
+
+<!-- Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale Ideen angebracht werden. -->
+
+<!-- - Das bereits erwähnte **Distributivgesetz** an sich ist zwar elementar, aber ihm fehlt die Weite, womit es nicht das Horizontalkriterium erfüllt. Die *Linearität* als dahinterliegende Idee ist dagegen weit genug [vgl. ähnliche Argumentation zum **Kommutativgesetz** und der  dahinterliegenden Idee der *Invarianz* bei @Schubert:2011 63]. -->
+<!-- - Der **Umkehrfunktion** fehlt das Sinnkriterium, da dieser Begriff in der Lebenswelt außerhab der Mathematik kaum von Relevanz ist. Dahinter liegt vielmehr die Idee der *Reversibilität* als »Umkehrbarkeit von Operationen mit Wiederherstellung des Ausgangszustandes« [@Schubert:2011 63]. -->
+
+
+
+
+<!-- ## Zum Nachbereiten {#mathematik-strukturieren-nachbereitung} -->
+
+<!-- 1. Lesen Sie sich die Bildungsstandards für den ersten/mittleren Schulabschluss vollständig durch, notieren Sie Verständnisfragen und bringen Sie diese zum Seminar mit. -->
+<!-- 2. Wählen Sie eine Leitidee aus und nennen Sie innerhalb dieser Begriffe, Sachverhalte und Verfahren, die im Mathematikunterricht behandelt werden. -->
+<!-- 3. Wählen Sie einen Begriff, Sachverhalt oder Verfahren aus 2. aus und stellen Sie den Bezug zu fundamentalen Ideen her. -->

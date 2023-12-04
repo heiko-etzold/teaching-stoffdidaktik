@@ -6,7 +6,7 @@
 
 Die Veranstaltung *Stoffdidaktik Mathematik*^[Die Modulbeschreibung finden Sie bei [PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3155&menuid=&topitem=Modulbeschreibung&subitem=).] besteht aus einer **Vorlesung (2 SWS)** und einem zugehörigen **Seminar (2 SWS)**.
 
-Im Wintersemester 2023/24 wird die **Vorlesung semesterbegleitend** kompakt in der zweiten Semesterhälfte stattfinden. Das **Seminar** können Sie entweder **parallel zur Vorlesung** im Wintersemester oder **semesterbegleitend** im Sommersemester 2023 besuchen.
+Im Wintersemester 2023/24 wird die **Vorlesung semesterbegleitend** kompakt in der zweiten Semesterhälfte stattfinden. Das **Seminar** können Sie entweder **parallel zur Vorlesung** im Wintersemester oder **semesterbegleitend** im Sommersemester 2024 besuchen.
 
 In der Vorlesung erhalten Sie einen **Input zu stoffdidaktischen Grundlagen**, wobei der Schwerpunkt auf **stoffdidaktischen Theorien** liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig **auf verschiedene Lerngegenstände anzuwenden**.
 
@@ -23,7 +23,7 @@ Das heißt insbesondere, dass Sie bereits die **Grundlagen** zur Analysis, Linea
 
 Während Sie sich in der *Einführung in die Mathematikdidaktik* mit verschiedenen Lehr-Lern-Theorien, Unterrichtsprinzipien, prozessbezogenen Kompetenzen oder methodischen Grundlagen des Mathematikunterrichtens beschäftigen, liegt in der *Stoffdidaktik Mathematik* der Fokus auf der **Auswahl und Strukturierung der Unterrichtsinhalte**, basierend auf fachlichen und fachdidaktischen Erkenntnissen. Im Wintersemester 2023/24 wird durch eine kompakte Durchführung von Einführung (1. Semesterhälfte) und Stoffdidaktik (2. Semesterhälfte) die Einführungsvorlesung zeitlich vor der Stoffdidaktikvorlesung stattfinden. 
 
-Parallel oder im Anschluss an beide Veranstaltungen absolvieren Sie die **Schulpraktischen Studien**, in denen Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
+Parallel oder im Anschluss an beide Veranstaltungen absolvieren Sie das **fachdidaktische Tagespraktikum**, in dem Sie die erworbenen Kenntnisse in die **Unterrichtspraxis** transferieren und erste eigene Unterrichtsstunden im Fach Mathematik halten.
 
 
 ## Kompetenzziele der Veranstaltung {-}

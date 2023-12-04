@@ -1,4 +1,3 @@
-<!--
 # (PART\*) Stoffdidaktische Analyse {.unnumbered}  
   
 # Vier-Ebenen-Ansatz
@@ -12,7 +11,7 @@
 >
 > **Material**
 >
-> + Folien zur Vorlesung zum Vier-Ebenen-Ansatz ([pdf](files/Stoffdidaktik-WiSe2223-Kap1.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap1.key))
+> + Folien zum Kapitel 1 ([pdf](files/Stoffdidaktik2023-01-VierEbenenAnsatz.pdf), [Keynote](files/Stoffdidaktik2023-01-VierEbenenAnsatz.key))
 > + [App *Winkel-Farm*](https://apps.apple.com/de/app/winkel-farm/id1369585218) (nur für iOS)
 
 ## Analyse von Lerngegenständen
@@ -45,17 +44,9 @@ Table: (\#tab:fragen-ebenen) Typische Fragestellungen, angelehnt an @Hussmann:20
 
 Diese Fragen können dabei helfen, einen Lerngegenstand aus professioneller Sicht vollumfänglich zu analysieren und daraus die Gestaltung eines Lernpfades für Schülerinnen und Schüler abzuleiten. Noch *nicht* abgeleitet werden kann daraus jedoch die Gestaltung einer *konkreten Unterrichtsstunde* -- dies bedarf weiterer Überlegungen, z. B. zu Unterrichtsmethoden, Aufgaben, Klassenmanagement, ... [@Hussmann:2016, 37].
 
-## Themen der Vorlesung
 
-In dem Vier-Ebenen-Ansatz wird auf mehrere mathematikdidaktische Theorien Bezug gekommen, die es näher zu betrachten gilt, um eine stoffdidaktische Analyse in diesem Sinne durchführen zu können. Die zentralen Themen der Vorlesung werden demnach sein:
+Als **Lerngegenstände** werden für spezifische Ausbildungszwecke ausgewählte Ausschnitte des gesellschaftlichen Wissens und Könnens angesehen [vgl. @Lompscher1985b]. Diese Sichtweise entstammt tätigkeitstheoretischen Überlegungen, wobei zwischen gesellschaftlichem Wissen und Können und individuellen Kenntnissen, Fähigkeiten und Fertigkeiten unterschieden wird. Weitere Hintergrundinformationen dazu finden Sie in Abschnitt \@ref(aneignung-von-lerngegenstaenden) sowie in den Kapiteln \@ref(taetigkeitstheorie-und-lernen) und \@ref(lernhandlungen-ausbilden).
 
-* **Fundamentale Ideen**,
-* **Grundvorstellungen**,
-* **Kernideen, Kernfragen und Kontexte**,
-* **Lernen mit Aufgaben und Arbeitsmitteln**,
-* **Inhaltsbezogene Kompetenzen (Leitideen)**.
-
-Diese zentralen Themen sind v. a. der `r semantic("semantischen")` und `r concrete("konkreten")` Ebene zuzuordnen. Die `r formal("formale")` Ebene wird insbesondere im Zusammenhang mit der semantischen betrachtet, indem Ihre Vorkenntnisse aus den Mathematik-Fachveranstaltungen (formale Ebene) rekapituliert und mit Grundvorstellungen und Fundamentalen Ideen (semantische Ebene) in Bezug gebracht werden. Die `r empiric("empirische")` Ebene wird nur angeschnitten und spielt dann in Ihren schulpraktischen Ausbildungselementen des Lehramtsstudium eine bedeutendere Rolle.
 
 ## Beispiel Winkelbegriff
 
@@ -175,4 +166,4 @@ Wichtig ist v. a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, d
 1. Lesen Sie den Artikel von @Hussmann:2016 zum Vier-Ebenen-Ansatz.
 2. Reflektieren Sie Ihre bisherige Fach- und Fachdidaktikausbildung in Mathematik dahingehend, welche der aufgeworfenen Fragen Sie zu konkreten Themenbereichen (nicht) beantworten könnten.
 
--->
+
