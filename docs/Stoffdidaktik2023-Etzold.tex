@@ -171,8 +171,25 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 04.12.2023}
+\date{Letzte Änderung: 08.12.2023}
 
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{conjecture}{Conjecture}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{definition}
+\newtheorem{hypothesis}{Hypothesis}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -202,7 +219,7 @@ Die Veranstaltung \emph{Stoffdidaktik Mathematik} wird über dieses Dokument beg
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24} (Version vom 04.12.2023). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2023). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2023/24} (Version vom 08.12.2023). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -394,9 +411,9 @@ Um sich der Komplexität des Vier-Ebenen-Ansatzes bewusst zu werden, sollen mög
 \hypertarget{formale-ebene}{%
 \subsection{Formale Ebene}\label{formale-ebene}}
 
-Eine\index{Vier-Ebenen-Ansatz!formale Ebene|(} fachmathematische Analyse (bereits mit dem Blick auf eine schulische Nutzung) des Winkelbegriffs bieten u.~a. Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973}), Strehl (\protect\hyperlink{ref-Strehl:1983}{1983}) oder Mitchelmore (\protect\hyperlink{ref-Mitchelmore:1990}{1990}).
+Eine\index{Vier-Ebenen-Ansatz!formale Ebene|(} fachmathematische Analyse (bereits mit dem Blick auf eine schulische Nutzung) des Winkelbegriffs bieten u.~a. Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973b}), Strehl (\protect\hyperlink{ref-Strehl:1983}{1983}) oder Mitchelmore (\protect\hyperlink{ref-Mitchelmore:1990}{1990}).
 
-Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973, S. 441}) unterscheidet einen Winkel bspw. dahingehend, ob er über Geraden oder Halbgeraden (bzw. Strahlen) beschrieben wird, ob diese geordnet oder ungeordnet sind und ob sie in der orientierten oder unorientierten Ebene vorliegen (siehe Abbildung \ref{fig:FreudenthalWinkel}).
+Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973b, S. 441}) unterscheidet einen Winkel bspw. dahingehend, ob er über Geraden oder Halbgeraden (bzw. Strahlen) beschrieben wird, ob diese geordnet oder ungeordnet sind und ob sie in der orientierten oder unorientierten Ebene vorliegen (siehe Abbildung \ref{fig:FreudenthalWinkel}).
 
 
 
@@ -406,10 +423,10 @@ Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973, S. 441}) unterscheid
 
 }
 
-\caption{Winkelbegriffe nach Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973, S. 441})}\label{fig:FreudenthalWinkel}
+\caption{Winkelbegriffe nach Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973b, S. 441})}\label{fig:FreudenthalWinkel}
 \end{figure}
 
-Er diskutiert, welchen Einfluss die jeweilige Sichtweise auf dem Maßbereich hat, wie Winkel überhaupt gemessen werden können und wie mit Winkeln operiert werden kann. Was passiert denn, wenn man ein geordnetes Strahlenpaar in der orientierten Ebene spiegelt (vgl. \protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973, 443~ff.})?
+Er diskutiert, welchen Einfluss die jeweilige Sichtweise auf dem Maßbereich hat, wie Winkel überhaupt gemessen werden können und wie mit Winkeln operiert werden kann. Was passiert denn, wenn man ein geordnetes Strahlenpaar in der orientierten Ebene spiegelt (vgl. \protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973b, 443~ff.})?
 
 Wenn die Reihenfolge der Strahlen erhalten bleibt und die Winkelmessung aufgrund der Orientierung der Ebene vorgegeben ist, ändert sich damit ggf. auch das Maß des Winkels (siehe Abbildung \ref{fig:FreudenthalWinkelSpiegeln}).
 
@@ -421,10 +438,10 @@ Wenn die Reihenfolge der Strahlen erhalten bleibt und die Winkelmessung aufgrund
 
 }
 
-\caption{Spiegelung eines goniometrischen Winkels (\protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973, 443})}\label{fig:FreudenthalWinkelSpiegeln}
+\caption{Spiegelung eines goniometrischen Winkels (\protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973b, 443})}\label{fig:FreudenthalWinkelSpiegeln}
 \end{figure}
 
-Hierzu stellt Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973, 443~ff.}) weitere fachmathematische Ausführungen dar und schließt damit, dass der elementargeometrische, goniometrische und analytische Winkelbegriff aus fachlicher Sicht für den schulischen Lernpfad unentbehrlich sind (\protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973, S. 449}).
+Hierzu stellt Freudenthal (\protect\hyperlink{ref-Freudenthal:1973}{1973b, 443~ff.}) weitere fachmathematische Ausführungen dar und schließt damit, dass der elementargeometrische, goniometrische und analytische Winkelbegriff aus fachlicher Sicht für den schulischen Lernpfad unentbehrlich sind (\protect\hyperlink{ref-Freudenthal:1973}{Freudenthal, 1973b, S. 449}).
 
 Die \emph{Spezifizierung} besteht also darin, den Begriff zu schärfen und Operationen mit ihm zu beschreiben. Die \emph{Strukturierung} besteht u.~a. in der vernetzenden Analyse der verschiedenen Winkelbegriffe und der Schlussfolgerung ihrer gleichermaßen Bedeutsamkeit für den Schulunterricht.\index{Vier-Ebenen-Ansatz!formale Ebene|)}
 
@@ -553,6 +570,481 @@ Wichtig ist v.~a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, da
   Reflektieren Sie Ihre bisherige Fach- und Fachdidaktikausbildung in Mathematik dahingehend, welche der aufgeworfenen Fragen Sie zu konkreten Themenbereichen (nicht) beantworten könnten.
 \end{enumerate}
 
+\hypertarget{hoch-schulmathematik}{%
+\chapter{(Hoch-)Schulmathematik}\label{hoch-schulmathematik}}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie erkennen den Nutzen der Hochschulmathematik bei der Entscheidungsfindung zur Spezifizierung und Strukturierung der Schulmathematik auf der formalen Ebene des Vier-Ebenen-Ansatzes.
+\item
+  Sie kennen geeignete Quellen zur Beantwortung der Fragen auf der formalen Ebene des Vier-Ebenen-Ansatz
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 2 (\href{files/Stoffdidaktik2023-02-HochSchulmathematik.pdf}{pdf}, \href{files/Stoffdidaktik2023-02-HochSchulmathematik.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\hypertarget{doppelte-diskontinuituxe4t}{%
+\section{Doppelte Diskontinuität}\label{doppelte-diskontinuituxe4t}}
+
+Auf der \textcolor{formalColor}{formalen Ebene} des Vier-Ebenene-Ansatzes soll der zu betrachtende Lerngegenstand fachmathematisch untersucht werden, um eine erste Auswahl (\emph{Spezifizierung}) und Anordnung (\emph{Strukturierung}) der Lerninhalte zu ermöglichen. Dies ruft natürlich -- auch für Lerngegenstände der Grundschulmathematik -- danach, die im Studium erworbenen hochschulmathematischen Erkenntnisse zu nutzen. Dieser Ruf wird jedoch (scheinbar!) geschmälert durch eine offensichtliche Ungleichheit zwischen Schulmathematik und Hochschulmathematik. Felix Klein beschreibt dieses Phänomen, das sich insbesondere auf die Ausbildung von Lehrkräften auswirkt, bereits im Übergang vom 19. zum 20. Jahrhunderts als \textbf{\emph{doppelte Diskontinuität}}: »Der junge Student sieht sich am Beginn seines Studiums vor Probleme gestellt, die ihn in keinem Punkte mehr an die Dinge erinnern, mit denen er sich auf der Schule beschäftigt hat; natürlich vergißt er daher alle diese Sachen rasch und gründlich. Tritt er aber nach Absolvierung des Studiums ins Lehramt über, so soll er plötzlich eben diese herkömmliche Elementarmathematik schulmäßig unterrichten; da er diese Aufgabe kaum selbständig mit seiner Hochschulmathematik in Zusammenhang bringen kann, so wird er in den meisten Fällen recht bald die althergebrachte Unterrichtstradition aufnehmen, und das Hochschulstudium bleibt ihm nur eine mehr oder minder angenehme Erinnerung, die auf seinen Unterricht keinen Einfluß hat.« (\protect\hyperlink{ref-Klein1967}{Klein, 1967, S. 1})\footnote{Es handelt sich hier um den Nachdruck eines Werke, dessen erste Auflage 1908 erschien.}
+
+Einen Ausweg, dieser doppelten Diskontinität zu entgehen, sah Klein in einer \textbf{\emph{Elementarmathematik vom höheren Standpunkte aus}} (\protect\hyperlink{ref-Klein1925}{Klein, 1925}, \protect\hyperlink{ref-Klein1955}{1955}, \protect\hyperlink{ref-Klein1967}{1967}). Dabei verfolgt er »das Ziel, im Anschluss an umfassende hochschulmathematische Erfahrungen die Schulmathematik in den erworbenen Wissenskanon fachlich einzubetten« (\protect\hyperlink{ref-Danckwerts2013}{Danckwerts, 2013, S. 78}).
+
+Diesen Gedanken fortsetzend kann man auch »gleich am Anfang des Studiums direkt und explizit an die schulmathematischen Vorerfahrungen an{[}knüpfen{]}, bleibt inhaltlich bei diesen und arbeitet einen höheren Standpunkt heraus, der auf die vertiefte Auseinandersetzung mit der Oberstufenmathematik zielt und prinzipiell mit den bis dahin erworbenen (elementar-)mathematischen Mitteln auskommt.« (\protect\hyperlink{ref-Danckwerts2013}{Danckwerts, 2013, S. 78}) Eine solche Entwicklung hat das Projekt \emph{Mathematik Neu Denken} verfolgt, das gut 100 Jahre nach Kleins Publikationen die Lehramtsausbildung im Fach Mathematik weiterentwickeln wollte (\protect\hyperlink{ref-Beutelspacher2012}{Beutelspacher et al., 2012}). Entwickelt wird daraus eine \textbf{\emph{Schulmathematik vom höheren Standpunkt}}, die auf eine fachliche und verstehensorientierte Durchdringung der Schulmathematik zielt, »ohne im vollen Umfang auf das Instrumentarium der kanonischen {[}\ldots{]} {[}Hochschulmathematik{]} zurückgreifen zu müssen« (\protect\hyperlink{ref-Danckwerts2013}{Danckwerts, 2013, S. 87}).
+
+Im Rahmen der Stoffdidaktik-Veranstaltung sollen beide Ansätze aufgegriffen und an konkreten Beispielen versucht werden, die Fragen der \textcolor{formalColor}{formalen Ebene} zu beantworten. Als bedeutsames Bindeglied zwischen Schul- und Hochschulmathematik stellen sich dabeifundamentale Ideen heraus, die auch schon auf die \textcolor{semanticColor}{semantische Ebene} des Vier-Ebenen-Ansatzes zielen -- siehe dazu Abschnitt \ref{fundamentale-ideen}.
+
+\hypertarget{geeignete-quellen}{%
+\section{Geeignete Quellen}\label{geeignete-quellen}}
+
+\begin{itemize}
+\item
+  Neben den Werken von Felix Klein zu Beginn des 20. Jahrhunderts (\protect\hyperlink{ref-Klein1925}{Klein, 1925}, \protect\hyperlink{ref-Klein1955}{1955}, \protect\hyperlink{ref-Klein1967}{1967}) und aktuellen Ansätzen zum Umgang mit der doppelten Diskontinuität in der Lehramtsausbildung (\protect\hyperlink{ref-Ableitinger2013}{Ableitinger et al., 2013}; \protect\hyperlink{ref-Beutelspacher2012}{Beutelspacher et al., 2012}) liefern die in den 1970er Jahren von Hans Freudenthal verfassten Werke zur \emph{Mathematik als pädagogische Aufgabe} (\protect\hyperlink{ref-Freudenthal1973a}{Freudenthal, 1973c}, \protect\hyperlink{ref-Freudenthal:1973}{1973b}; englischsprachig auch digital verfügbar über \protect\hyperlink{ref-Freudenthal1973c}{Freudenthal, 1973a}) Ansätze, Schul- und Hochschulmathematik miteinander in Bezug zu bringen.
+\item
+  Ebenfalls hilfreich sind größere Nachschlagewerke zur Mathematik, bspw. die \emph{Kleine Enzyklopädie Mathematik} (\protect\hyperlink{ref-Gellert1986}{Gellert et al., 1986}).
+\item
+  Nicht zu unterschätzen für die fachmathematische Auseinandersetzung sind auch fachdidaktische Quellen, insbesondere zur \textbf{Didaktik der Sachgebiete}. Als digital verfügbare Quellen seien zu erwähnen:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Didaktik der Algebra: nach der Vorlage von Hans-Joachim Vollrath} (\protect\hyperlink{ref-Weigand2022}{Weigand et al., 2022})
+  \item
+    \emph{Didaktik der Geometrie für die Sekundarstufe I} (\protect\hyperlink{ref-Weigand2018}{Weigand et al., 2018})
+  \item
+    \emph{Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe} (\protect\hyperlink{ref-Greefrath2016}{Greefrath et al., 2016})
+  \item
+    \emph{Didaktik der Stochastik in der Sekundarstufe I} (\protect\hyperlink{ref-Kruger2015}{Krüger et al., 2015})
+  \item
+    \emph{Didaktik der Analytischen Geometrie und Linearen Algebra: Algebraisch verstehen -- Geometrisch veranschaulichen und anwenden} (\protect\hyperlink{ref-Henn2015}{Henn \& Filler, 2015})
+  \item
+    \emph{Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis} (\protect\hyperlink{ref-Tietze:2000a}{Tietze et al., 2000a})
+  \item
+    \emph{Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra} (\protect\hyperlink{ref-Tietze:2000}{Tietze et al., 2000b})
+  \item
+    \emph{Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik} (\protect\hyperlink{ref-Tietze:2002}{Tietze et al., 2002})
+  \end{itemize}
+\item
+  Ebenfalls hilfreich für die fachliche Spezifizierung und Strukturierung kann die Darstellung der Fachinhalte in \textbf{Schulbüchern} sein. Hier bietet sich eine vergleichende Analyse mehrerer Schulbücher, auch unterschiedlicher Bundesländer, an.
+\item
+  Nur gering geeignet für die Spezifizierung und Strukturierung sind die Bildungsstandstandards und Rahmenlehrpläne. Sie bieten -- entsprechend ihrer Funktion -- bereits eine Auswahl der zu unterrichtenden Inhalte und schränken damit die fachdidaktische Diskussion diesbezüglich ein.
+\end{itemize}
+
+\hypertarget{beispiel-negative-zahlen}{%
+\section{Beispiel Negative Zahlen}\label{beispiel-negative-zahlen}}
+
+Am Beispiel der negativen Zahlen soll dargestellt werden, wie eine Sichtweise vom höheren Standpunkt auf die in der Schule relevante Behandlung dieses Lerngegenstands zur Spezifizierung und Strukturierung helfen kann. Dabei beinhalten die negativen Zahlen sowohl die ganzen Zahlen als auch die rationalen Zahlen.
+
+\hypertarget{natuxfcrliche-zahlen}{%
+\subsection{Natürliche Zahlen}\label{natuxfcrliche-zahlen}}
+
+Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmathematisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die \textbf{Peano-Axiome} sowie die Betrachtung \textbf{gleichmächtiger Mengen}.
+
+Aus den Peano-Axiomen (\protect\hyperlink{ref-WikiPeano}{Wikipedia, 2021}) folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der \(0\)), die dann mit \(1\), \(2\), \(3\) usw. bezeichnet werden können.\footnote{Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt -- das geht schon weiter als hier zulässig.} Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass \(3\) größer ist als \(1\). Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen\footnote{Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.}, bei dem auch nicht C größer als A ist.
+
+Für eine Ordnungsrelation bedarf es zunächst der Definition der Addition über \(n+0 := n\) und \(n+k' := (n+k)'\) für alle \(n,k\in\mathbb{N}\) mit der (aus den Peano-Axiomen existierenden) Nachfolgerbildung \('\). So gilt etwa mit \(1:=0'\): \({\color{blue} 1}+{\color{red} 1} = {\color{blue} 1}+{\color{red} {0'}} = ({\color{blue} 1}+{\color{red} 0}){\color{red} '} = 1{\color{red} '} =: 2\). So kann nun induktiv jede höhere Additionsaufgabe generiert werden. Darauf aufbauend kann die Ordnungsrelation \(n<m\) über die Existenz eines \(k\in\mathbb{N}\backslash\{0\}\) mit \(m = n+k\) definiert werden. Die Subtraktion \(m-n = k\) ist nun wiederum über die Umkehroperation \(n+k = m\) definierbar, sofern \(m\geq n\).
+
+Die Gleichmächtigkeit (z.~B. endlicher) Mengen \(M\) und \(N\) wird über die Existenz einer Bijektion zwischen diesen beiden Mengen definiert, siehe Abbildung \ref{fig:Bijektion}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/2-Bijektion} 
+
+}
+
+\caption{Gleichmächtigkeit von Mengen}\label{fig:Bijektion}
+\end{figure}
+
+Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und transitiv. Damit können Äquivalenzklassen gebildet werden, die die Mächtigkeit der Menge angeben. Statt \([4]\) als Bezeichner für die Äquivalenzklasse von vierelementigen Mengen kann dann auch kurz die Zahl \(4\) genutzt werden. Die Addition \(n+k\) entspricht dann der Mächtigkeit der Vereinigungsmenge von \([n]\) und \([k]\), vgl. Abbildung \ref{fig:Vereinigung}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/2-Vereinigung} 
+
+}
+
+\caption{Additionsergebnis als Äquivalenzklasse der Vereinigungsmenge}\label{fig:Vereinigung}
+\end{figure}
+
+\hypertarget{ganze-zahlen}{%
+\subsection{Ganze Zahlen}\label{ganze-zahlen}}
+
+Da innerhalb der natürlichen Zahlen noch nicht beliebig subtrahiert werden darf, stehen auch keine negativen Zahlen als Ergebnisse zur Verfügung. Um dennoch das Ergebnis bspw. der Aufgabe \(2-7\) »definieren« zu können, bietet sich erneut eine \textbf{Äquivalenzrelation} über die »Differenzengleichheit« an. Konkret lässt sich für \(k,l,m,n\in\mathbb{N}\) sagen:
+\((k,l)\sim (m,n):\Leftrightarrow k+n=l+m\)
+Das heißt z.~B., dass die Zahlenpaare \((2,7)\), \((0,5)\) und \((4,9)\) in Relation zueinander stehen, weil sie dieselbe »Differenz« haben (obwohl es die Differenz formal noch nicht gibt). Dies ermöglicht nun die Einführung des Bezeichners \(-5\) für die Äquivalenzklasse \([(0,5)]\).
+
+Das Vorgehen ist \emph{verträglich} mit den bisherigen Regeln in \(\mathbb{N}\), d.~h. es führt nicht zu Widersprüchen, wenn etwa das Zahlenpaar \((7,4)\) betrachtet wird mit dem Repräsentanten-Bezeichner \(3\). Die Menge aller Äquivalenzklassen (bzw. deren Kurzbezeichner) ist nun \(\mathbb{Z}\).
+
+Die Addition und Subtraktion zweier Zahlenpaare sind nun definierbar:
+
+\begin{align}
+(k, l) + (m, n) := (k + m, l + n)\\
+(k, l) − (m, n) := (k, l) + (n, m)
+\end{align}
+
+Als Alternative bietet sich ein \textbf{axiomatisches Vorgehen} an, also dass die ganzen Zahlen mit der Addition als abelsche Gruppe definiert werden -- bedeutsam ist hier insbesondere die Existenz eines Inversen zu jeder Zahl.
+
+\hypertarget{permanenzprinzip-und-permanenzreihen}{%
+\subsubsection{Permanenzprinzip und Permanenzreihen}\label{permanenzprinzip-und-permanenzreihen}}
+
+Wie bereits erwähnt, führen die neu eingeführte Addition und Subtraktion in \(\mathbb{Z}\) nicht zu Konflikten mit den bisherigen analogen Operationen in \(\mathbb{N}\). Dies wird über das \textbf{\emph{Permanenzprinzip}} gefordert, nach dem neue Theorien (z.~B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein müssen mit bisherigen Theorien (z.~B. das Rechnen mit positiven Zahlen).
+
+Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewisser Rechenregeln über \textbf{\emph{Permanenzreihen}}. Dies ist insbesondere dann hilfreich, wenn für bestimmte Rechenoperationen keine geeigneten realen Veranschaulichungen existieren. Ein typisches Beispiel hierfür ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpretation. Abbildung \ref{fig:Permanenz} stellt eine Permanenzreihe dar, anhand derer die Rechnung \((-3)\cdot (-5)\) erklärt werden kann.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.3\linewidth]{pictures/2-Permanenz} 
+
+}
+
+\caption{Permanenzreihe zur Multiplikation zweier negativer Zahlen}\label{fig:Permanenz}
+\end{figure}
+
+\hypertarget{ableitungen-fuxfcr-den-lernpfad}{%
+\subsubsection{Ableitungen für den Lernpfad}\label{ableitungen-fuxfcr-den-lernpfad}}
+
+Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den Unterricht zentrale Fachinhalte ableiten:
+
+\textcolor{formalColor}{Ganze Zahlen können über Zahlenpaare aus den natürlichen Zahlen oder als »Gegenzahlen« der natürlichen Zahlen entwickelt werden.}
+
+\begin{itemize}
+\tightlist
+\item
+  \textcolor{formalColor}{Natürliche Zahlen sind als Teilmenge in die ganzen Zahlen eingebettet.}
+\item
+  \textcolor{formalColor}{Die Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.}
+\item
+  \textcolor{formalColor}{Die Rechenregeln werden erweitert, wobei die bekannten weiter gelten. Die wird über das Permanenzprinzip begleitet, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.}
+\end{itemize}
+
+\hypertarget{rationale-zahlen}{%
+\subsection{Rationale Zahlen}\label{rationale-zahlen}}
+
+In fachlich analoger Weise lassen sich auch die rationalen Zahlen über Äquivalenzrelationen einführen. Dann fordert die »Quotientengleichheit«, dass für \(k,l,m,n\in\mathbb{N}\) mit \(l,n\neq 0\) gilt: \((k,l)\sim (m,n):\Leftrightarrow k\cdot n=l\cdot m\). Die Äquivalenzklasse \([(1,2)]\) kann dann mit \(\frac{1}{2}\) bezeichnet werden. Im Gegensatz zu den ganzen Zahlen ist es bei den rationalen Zahlen durchaus üblich, für dieselbe Zahl unterschiedliche Bezeichner zu verwenden, wie \(\frac{1}{2}\) oder \(\frac{5}{10}\). Fachmathematisch ist dies jedoch nicht relevant, also auch keine Diskussion auf der formalen Ebene (jedoch auf späteren Ebenen).
+
+Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathematikunterricht nach den natürlichen Zahlen zunächst die rationalen Zahlen (wie z.~B. in Deutschland) oder erst die ganzen Zahlen (wie z.~B. in Australien) eingeführt werden sollten. Innerhalb eines Zahlbereichs bietet jedoch die fachlogische Struktur Ansatzpunkte zur Gestaltung des Lernpfads, wie bei den negativen Zahlen dargestellt.
+
+\hypertarget{hochschulmathematik-nachbereitung}{%
+\section{Zum Nachbereiten}\label{hochschulmathematik-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Nutzen Sie verschiedene fachmathematische und fachdidaktische Quellen sowie Schulbücher, um fachlich zu klären, was »Terme« und »Gleichungen« sind.
+\item
+  Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z.~B. dass \(a^0 = 1\) (\(a\neq 0\)) und \(0^0\) nicht definiert ist.
+\end{enumerate}
+
+\hypertarget{mathematik-strukturieren}{%
+\chapter{Mathematik strukturieren}\label{mathematik-strukturieren}}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie kennen verschiedene Möglichkeiten, Mathematik zu strukturieren.
+\item
+  Sie können beschreiben, woher die verschiedenen Strukturierungsmöglichkeiten kommen.
+\item
+  Sie kennen Beispiele für fundamentale Ideen der Mathematik.
+\item
+  Sie können bei einzelnen Lerngegenständen den Zusammenhang zu zugehörigen fundamentalen Ideen herstellen.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 3 (\href{files/Stoffdidaktik2023-03-MathematikStrukturieren.pdf}{pdf}, \href{files/Stoffdidaktik2023-03-MathematikStrukturieren.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\hypertarget{sachgebiete}{%
+\section{Sachgebiete}\label{sachgebiete}}
+
+Für die Fachwissenschaft Mathematik haben sich historisch verschiedene Unterdisziplinen entwickelt, die als Sachgebiete der Mathematik bezeichnet werden können. Schulrelevante Gebiete sind hierbei:
+
+\begin{itemize}
+\tightlist
+\item
+  Arithemtik
+\item
+  Algebra
+\item
+  Geometrie
+\item
+  Analysis
+\item
+  Stochastik
+\item
+  Lineare Algebra / Analytische Geometrie
+\end{itemize}
+
+Auch heute bilden sich diese und weitere Sachgebiete (z.~B. Numerik) in den Strukturen von universitären Lehrveranstaltungen, Forschungsrichtungen und nicht zuletzt der Strukturierung einzelner Lehrpläne der Schulen ab.
+
+Für eine Vertiefung mit der Didaktik der Sachgebiete eignen sich u.~a. die in Abschnitt \ref{geeignete-quellen} dargestellten Quellen. Weiterhin werden Sie im Masterstudium im Modul \emph{Ausgewählte Themen der Mathematikdidaktik}\footnote{siehe Modulbeschreibung zum Modul \href{https://puls.uni-potsdam.de/qisserver/rds?state=verpublish\&status=init\&vmfile=no\&moduleCall=modulansicht\&publishConfFile=modulverwaltung\&publishSubDir=up/modulbearbeiter\&\&modul.modul_id=3186\&menuid=\&topitem=Modulbeschreibung\&subitem=}{MAT-LS-D3 bei PULS}} die Möglichkeit haben, sich mit der Didaktik einzelner Sachgebiete näher auseinanderzusetzen.
+
+\hypertarget{leitideen}{%
+\section{Leitideen}\label{leitideen}}
+
+Die Strukturierung mathematischer Inhalte in Leitideen ist seit Anfang der 2000er Jahre im deutschen Bildungswesen etabliert, als die KMK\footnote{Mehr zur Kultusministerkonferenz (KMK) und ihrer eigentlichen Bezeichnungen siehe Wikipedia (\protect\hyperlink{ref-dewiki:228417777}{2022}).} \textbf{Bildungsstandards} für den Mittleren Schulabschluss (2004), den Primarbereich (2005) und später auch die Allgemeine Hochschulreife (2012) herausgebracht hat. Darauf aufbauend wurden in den meisten Bundesländern die Lehrpläne angepasst.
+Zwischenzeitlich wurden die Bildungsstandards für den Primarbereich sowie den Ersten und Mittleren Schulabschluss überarbeitet, für die gymnasiale Oberstufe gelten während der gerade laufenden Überarbeitung noch die von 2012. (\protect\hyperlink{ref-KMK:2012}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2012}, \protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a}{2022b}, \protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{2022a}).
+In Brandenburg spiegeln sich die Bildungsstandards in den \textbf{Rahmenlehrplänen} für die Jahrgangsstufen 1~--~10 und die Gymnasiale Oberstufe wider (\protect\hyperlink{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, 2022}, \protect\hyperlink{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{2023}).
+
+Im Laufe der letzten 20 Jahre haben sich für die Leitideen teils verschiedene Bezeichnungen ergeben. In den aktuellen Bildungsstandards des Ersten und Mittleren Schulabschlusses (\protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a}) werden verwendet:
+
+\begin{itemize}
+\tightlist
+\item
+  Leitidee Zahl und Operation
+\item
+  Leitidee Größen und Messen
+\item
+  Leitidee Strukturen und funktionaler Zusammenhang
+\item
+  Leitidee Raum und Form
+\item
+  Leitidee Daten und Zufall
+\end{itemize}
+
+Die Leitidee Zahl und Operation beispielweise »umfasst sinntragende Vorstellungen und Darstellungen von Zahlen und Operationen sowie die Nutzung von Rechengesetzen und Kontrollverfahren. Dazu gehören die sachgerechte Nutzung von Prozent- und Zinsrechnung ebenso wie kombinatorische Überlegungen und Verfahren, denen Algorithmen zu Grunde liegen.« (\protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a, S. 15}). Weiterhin werden diese Kompetenzen an spezifischen Fachinhalten konkretisiert, etwa: »Die Schülerinnen und Schüler {[}\ldots{]} • untersuchen Zahlen nach ihren Faktoren, in einfachen Fällen ohne digitale Mathematikwerkzeuge, • stellen Zahlen der Situation angemessen dar, z.B. unter anderem in Zehnerpotenzschreibweise, • rechnen mit natürlichen, ganzen und rationalen Zahlen, die im täglichen Leben vorkommen, sowohl zur Kontrolle als auch im Kopf und erklären die Bedeutung der Rechenoperationen {[}\ldots{]}« (\protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a, S. 15})
+
+Die Leitideen werden in den Bildungsstandards als \textbf{inhaltsbezogene Kompetenzen} beschrieben, die mit Abschluss des ersten bzw. mittleren Schulabschlusses zu erreichen sind. Es handelt sich dabei um \textbf{Regelstandards}, also Kompetenzen, die »Schülerinnen und Schüler im Durchschnitt in einem Fach erreichen sollen« (\protect\hyperlink{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a, S. 2}). Diese sind abzugrenzen gegenüber \textbf{Basiskompetenzen} als »mathematisch zentrale, instrumentell bedeutsame und geradezu grundlegende Konzepte und Verfahren, die für die mathematische Kompetenzentwicklung unverzichtbar sind« (vgl. \url{https://pikas-mi.dzlm.de/node/92}). Für Basiskompetenzen gibt es derzeit in Deutschland keine politischen Dokumente wie Rahmenlehrpläne oder Bildungsstandards
+
+\hypertarget{arten-mathematischen-wissens}{%
+\section{Arten mathematischen Wissens}\label{arten-mathematischen-wissens}}
+
+Eine weitere Strukturierung mathematischen Wissens kann darin bestehen, den Blick darauf zu lenken, wie dieses Wissen angeeignet wird. So können ähnliche Aneigungsprozesse Motivation bieten, das Wissen entsprechend zu strukturieren und dies dann für die Gestaltung von Lehr-Lern-Prozessen nutzbar zu machen. Etabliert hat sich hierfür eine Unterscheidung in drei Arten mathematischen Wissens (vgl. \protect\hyperlink{ref-Vollrath2012}{Vollrath \& Roth, 2012, S. 45}~f.):
+
+\begin{itemize}
+\item
+  \textbf{Begriffe.} Diese bilden das Grundgerüst der Mathematik und belegen Objekte gleicher Eigenschaft mit einem gemeinsamen Bezeichner. Neben der Begriffsfestlegung, i.~d.~R. über eine Definition, ist der Einsatz geeignter Beispiele und Gegenbeispiele essentiell beim Aufbau eines Begriffsverständnisses.
+\item
+  \textbf{Sachverhalte.} Diese beschreiben Eigenschaften von Begriffen und ihre Beziehungen zueinander. Klassischerweise gehören hierzu mathematische Sätze inkl. ihrer Beweise, aber auch präformale Begründungen. Je nach Akzentuierung sprechen andere Quellen statt von Sachverhalten auch von Sätzen oder von Zusammenhängen.
+\item
+  \textbf{Verfahren.} Diese bestimmen, wie bestimmte Aufgaben zu lösen sind, z. B. schriftliche Rechenverfahren, Lösungsverfahren von Gleichungen und Gleichungssystemen.
+\end{itemize}
+
+Einige Autoren zählen zu den Verfahren auch heuristische Strategien zum Problemlösen oder die Anwendung des Permanenzprinzips (vgl. \protect\hyperlink{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 23}) Vollrath \& Roth (\protect\hyperlink{ref-Vollrath2012}{2012, S. 46}~ff.) ergänzen dagegen drei Wissensarten noch:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Metamathematisches Wissen.} Darunter ist zu verstehen, \emph{wie} Mathematik betrieben wird, also bspw. welche Möglichkeiten es gibt, ein mathematisches Problem zu lösen oder eine Sachsituation mathematisch zu modellieren.
+\end{itemize}
+
+In Abschnitt \ref{begriffe-sachverhalte-verfahren} wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Wissensarten gestaltet werden können.
+
+\hypertarget{fundamentale-ideen}{%
+\section{Fundamentale Ideen}\label{fundamentale-ideen}}
+
+\hypertarget{fundamentale-ideen-begriffsklaerung}{%
+\subsection{Begriffsklärung}\label{fundamentale-ideen-begriffsklaerung}}
+
+Die Entwicklung Fundamentaler Ideen beruft sich auf Bruners Annahme, dass »jedes Kind {[}\ldots{]} auf jeder Entwicklungsstufe jeder Lehrgegenstand in einer intellektuell ehrlichen Form erfolgreich gelehrt werden« kann (vgl. \protect\hyperlink{ref-Bruner:1976}{Bruner, 1976, S. 77}). Voraussetzung dafür ist, dass die \emph{Struktur} eines Inhaltsbereichs in einer Art und Weise präsentiert wird, dass sie dem Kind zugänglich wird. Diese \emph{hinter den Dingen} liegende Struktur hebt sich vom konkreten Inhaltsbereich ab, ist allgemeinerer Natur und kann daher über \emph{Fundamentale Ideen} beschrieben werden.
+
+Ziel der Orientierung des Unterrichtens an Fundamentalen Ideen besteht v.~a. darin, die (oftmals) isolierten Stoffelemente einzuordnen und in einem größeren Ganzen zu sehen. Im Umkehrschluss heißt dies aber auch, dass die Auswahl des konkreten Stoffes daran orientiert sein muss, wie dieser dazu beitragen kann, den dahinter liegenden mathematischen Kern und die zugehörigen Fundamentalen Ideen zu vertreten.
+
+Die dazu seit den 1960er Jahren in Gang gesetzte Forschung führte zu vielfältigen Vorschlägen Fundamentaler Ideen der Mathematik -- jedoch bisher nicht zu einem allgemeingültigen Katalog. Dieser Vielfalt in den Formulierungen und Kategorisierungen kann begegnet werden, indem Fundamentale Ideen über Eigenschaften charakterisiert werden. Im Rahmen dieser Veranstaltung wird folgende Definition genutzt, zitiert aus Schwill (\protect\hyperlink{ref-Schwill:1994}{1994}).
+
+\begin{definition}[Fundamentale Idee]
+\protect\hypertarget{def:FundamentaleIdee}{}\label{def:FundamentaleIdee}
+
+Eine \textbf{Fundamentale Idee}\index{Fundamentale Idee|textbf} bzgl. eines Gegenstandsbereichs (Wissenschaft, Teilgebiet) ist ein \textbf{Denk-, Handlungs-, Beschreibungs- oder Erklärungsschema}, das
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  in verschiedenen Gebieten des Bereichs vielfältig anwendbar oder erkennbar ist (\textbf{Horizontalkriterium}),\index{Fundamentale Idee!Horizontalkriterium|textbf}
+\item
+  auf jedem intellektuellen Niveau aufgezeigt und vermittelt werden kann (\textbf{Vertikalkriterium}),\index{Fundamentale Idee!Vertikalkriterium|textbf}
+\item
+  in der historischen Entwicklung des Bereichs deutlich wahrnehmbar ist und längerfristig relevant bleibt (\textbf{Zeitkriterium}),\index{Fundamentale Idee!Zeitkriterium|textbf}
+\item
+  einen Bezug zu Sprache und Denken des Alltags und der Lebenswelt besitzt (\textbf{Sinnkriterium}).\index{Fundamentale Idee!Sinnkriterium|textbf}
+\end{enumerate}
+
+\end{definition}
+
+\begin{quote}
+\textbf{Überblick zur historischen Entwicklung Fundamentaler Ideen}
+
+\begin{itemize}
+\tightlist
+\item
+  von der Bank (\protect\hyperlink{ref-Bank:2016}{2016, 37~ff.}): \emph{Fundamentale Ideen der Mathematik: Weiterentwicklung einer Theorie zu deren unterrichtspraktischer Nutzung}
+\end{itemize}
+\end{quote}
+
+Fundamentale Ideen haben zwar ihren Ursprung in der Fachstruktur, aber sie »sind nicht Elemente der Wissenschaft an sich, sondern Produkte unseres Verstandes, die wir der Wissenschaft aufprägen. Folglich können sie nur relativ zum Menschen objektiviert werden« (\protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 62}).
+
+Für Ihre stoffdidaktische Analyse können Fundamentale Ideen insbesondere hilfreich für die \textbf{Dekonstruktion} des Fachwissens und anschließende \textbf{Rekonstruktion} des Schulwissens sein.
+
+Wenn sie also beispielsweise eine stoffdidaktische Analyse zur Flächeninhaltsberechnung durchführen, setzen Sie sich mit der Fundamentalen Idee des \emph{Messens}\index{Messen} auseinander. Dabei verstehen Sie Messvorgänge als Vergleiche zu einem Standardmaß (z.~B. Kästchen auszählen), erkennen Zerlegungs- und Ergänzungsgleichheit als notwendige Prinzipien zur präziseren Beschreibung, sehen Dreiecke als bedeutsame Basisfiguren für Flächeninhaltsberechnungen an und haben den Blick für die Integralrechnung als verallgemeinerbare Methode zur Flächeninhaltsbestimmung krummliniger Figuren (vgl. \protect\hyperlink{ref-Vohns:2000}{Vohns, 2000, 98~ff.}). Sie \emph{dekonstruieren} (zerlegen) damit Ihr eigenes mathematisches Fachwissen.
+
+Nun sind Sie in der Lage, das Wissen zur Flächeninhaltsberechnung für Schülerinnen und Schüler neu aufzubauen, also zu \emph{rekonstruieren} und (unter Hinzunahme der Betrachtung von Grundvorstellungen und den restlichen Ebenen des Vier-Ebenen-Ansatzes) einen Lernpfad zu entwickeln. Im Zusammenhang mit der Integralrechnung kann dies z.~B. heißen, dass Sie parallel zum Bilden von Ober- und Untersummen noch einmal eine krummlinig begrenzte Fläche durch Kästchen auszählen lassen -- ggf. mit unterschiedlicher Feinheit und einer Abschätzung nach oben und nach unten. Die Fundamentalen Ideen haben für Sie damit auch eine \emph{ordnende Funktion} des Unterrichtsstoffes.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/3-Flaeche} 
+
+}
+
+\caption{Flächeninhaltsbestimmung}\label{fig:Flaeche}
+\end{figure}
+
+\hypertarget{auswahl-fundamentaler-ideen}{%
+\subsection{Auswahl fundamentaler Ideen}\label{auswahl-fundamentaler-ideen}}
+
+Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. von der Bank (\protect\hyperlink{ref-vonderBank:2013}{2013, S. 103}) und Lambert (\protect\hyperlink{ref-Lambert:2012}{2012}) diskutieren eine Kategorisierung fundamentaler Ideen in drei Bereiche:
+
+\begin{itemize}
+\item
+  \textbf{Inhaltsideen} beziehen sich auf konkrete Inhaltsbereiche der Mathematik, die die Kriterien Fundamentaler Ideen erfüllen können. Nicht ganz zufällig spiegeln diese sich in den Leitideen der Bildungsstandards wider (siehe Abschnitt \ref{leitideen}).
+\item
+  \textbf{Schnittstellenideen} haben die Eigenschaft, dass durch sie die »Mathe(matik) wirkt« und »auch für andere Fächer in ihrer je spezifischen Weise relevant sind« (\protect\hyperlink{ref-Lambert:2012}{Lambert, 2012}). Damit korrelieren sie mit den prozessbezogenen Kompetenzen der Bildungsstandards.
+\item
+  \textbf{Tätigkeitsideen} beziehen sich insbesondere auf innermathematische Tätigkeiten, die sich über verschiedene Inhaltsbereiche hinweg zeigen. Lambert (\protect\hyperlink{ref-Lambert:2012}{2012}) betont, dass es diese (über die Bildungsstandards hinaus) ebenfalls zu beachten gilt, wenn man einen reichhaltigen Mathematikunterricht bewirken möchte.
+\end{itemize}
+
+Beispiele derartiger Tätigkeitsideen sind:
+
+\begin{itemize}
+\tightlist
+\item
+  Approximierung
+\item
+  Optimierung
+\item
+  Linearität/Linearisierung
+\item
+  Symmetrie
+\item
+  Invarianz
+\item
+  Rekursion
+\item
+  Vernetzung
+\item
+  Ordnen
+\item
+  Strukturierung
+\item
+  Formalisierung
+\item
+  Exaktifizierung
+\item
+  Verallgemeinern
+\item
+  Idealisieren
+\end{itemize}
+
+Im Rahmen des Projektmoduls \emph{Erweitertes Fachwissen für den schulischen Kontext in Mathematik}\footnote{siehe Modulbeschreibung zum Modul \href{https://puls.uni-potsdam.de/qisserver/rds?state=verpublish\&status=init\&vmfile=no\&moduleCall=modulansicht\&publishConfFile=modulverwaltung\&publishSubDir=up/modulbearbeiter\&\&modul.modul_id=3156\&menuid=\&topitem=Modulbeschreibung\&subitem=}{MAT-LS-7 bei PULS}} werden Sie insbesondere Bezüge zwischen Schul- und Hochschulmathematik auf Basis Fundamentaler Ideen herstellen, wofür die Inhalts- und Tätigkeitsideen von hoher Relevanz sind.
+
+\hypertarget{beispiel-linearitaet}{%
+\subsection{Beispiel Linearität}\label{beispiel-linearitaet}}
+
+\hypertarget{horizontal--und-vertikalkriterium}{%
+\subsubsection{Horizontal- und Vertikalkriterium}\label{horizontal--und-vertikalkriterium}}
+
+Linearität\index{Linearität|(}\index{Fundamentale Idee!Horizontalkriterium|(}\index{Fundamentale Idee!Vertikalkriterium|(} ist ein wesentliches Konzept über die gesamte Schullaufbahn hinweg (und darüber hinaus). Dies spiegelt sich in vielfältigen Themenbereichen wider, die sowohl die Breite (\emph{Horizontalkriterium}) als auch Tiefe (\emph{Vertikalkriterium}) von Linearität und (später) auch Linearisierung zeigen. Dieser Abschnitt orientiert sich an den Darstellungen von Danckwerts (\protect\hyperlink{ref-Danckwerts:1988}{1988}).
+
+\begin{itemize}
+\tightlist
+\item
+  Linearität als Phänomen tritt schon im Geometrieunterricht der Grundschule mit \textbf{Geraden} als essentielle geometrische Objekte auf. In der euklidischen Geometrie sind Geraden neben Punkten die Basisobjekte eines axiomatischen Aufbaus.
+\item
+  Das \textbf{Distributivgesetz} \(a\cdot (b+c) = a\cdot b + a\cdot c\), das ebenfalls bereits in der Grundschule behandelt wird, beschreibt einen linearen Vorgang und bietet die Grundlage für die halbschriftliche Multiplikation. Über die Schulmathematik hinaus dient es z.~B. als eines der Vektorraumaxiome (Skalarmultiplikation).
+\item
+  Das Bestimmen eines \textbf{Rechteckflächeninhalts} ist ein linearer Vorgang: Ein Rechteck, das doppelt so breit ist, hat (bei gleicher Höhe) einen doppelt so großen Flächeninhalt. Betrachtet man diese Eigenschaft nicht als Phänomen, sondern als Forderung an eine Flächeninhaltsformel, so kann aus den Bedingungen \(A(a_1+a_2,b) = A(a_1,b) + A(a_2,b)\) und \(A(a,b_1+b_2) = A(a,b_1)+A(a,b_2)\) sowie der Stetigkeit in \(\mathbb{R}^+\) die Formel \(A(a,b) = a\cdot b\) abgeleitet werden.
+\item
+  Lineare Zuordnungen der Art \(f(x+y) = f(x)+f(y)\) werden zu Beginn der Sekundarstufe I als \textbf{proportionale Zuordnungen} behandelt. Dies wird fortgeführt bei \textbf{linearen Funktionen} der Art \(f(x) = mx+n\), in der Fachmathematik als affin-lineare Abbildungen bezeichnet.
+\item
+  \textbf{Lineare Gleichungen und Gleichungssysteme} sind ebenfalls bedeutsamer Bestandteil des Mathematikunterrichts. Überhaupt baut die gesamte \textbf{Lineare Algebra} auf lineare und affin-lineare Abbildungen auf.
+\item
+  Die \textbf{Strahlensätze} beschreiben ebenfalls ein lineares Verhalten: Geradenabschnitte in \(c\)-facher Entfernung sind \(c\) mal so lang.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/3-Strahlensatz} 
+
+}
+
+\caption{Strahlensatzfigur}\label{fig:Strahlensatz}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Beim \textbf{Ableitungsbegriff} ist eine wesentliche Vorstellung, dass die Funktion in der Umgebung der zu betrachtenden Stelle linearisiert wird. Insbesondere bei höherdimensionalen Funktionen wird der Linearisierungsansatz weiterverfolgt. Die ebenfalls vorherrschende Tangentenvorstellung ist auf mehr als drei Dimensionen nicht mehr anschaulich übertragbar -- der Linearisierungsansatz weist hier aufgrund seiner algebraischen Beschreibung die bessere Verallgemeinerbarkeit auf.
+\item
+  Eng an den Linearisierungsansatz angelehnt ist die \textbf{lineare Approximation} von Funktionen (z.~B. \(\sin(x)\approx x\) für \(x\approx 0\)). Die führt sich in der Hochschulmathematik fort, beispielsweise bei Taylor-Reihen.
+\item
+  Das Bedürfnis der Linearisierung, insbesondere aus der Physik heraus, zeigt sich auch bei der Nutzung \textbf{spezifisch skalierter Diagrammachsen}, z.~B. von Logarithmuspapier. Wegen der Äquivalenz von \(y = c\cdot a^x\) und \(\ln y = (\ln a )\cdot x + \ln c\) lassen sich beliebige Exponentialfunktionen auf Logarithmuspapier als lineare Funktionen darstellen.
+\item
+  Verschiedene Näherungsverfahren, wie das \textbf{Newton-Verfahren}, bedienen sich ebenfalls der Linearisierung.
+\end{itemize}
+
+An dieser Stelle sei darauf hingewiesen, dass Linearität derart fundamental ist, dass selbst nicht-lineare Zusammenhänge häufig fälschlicherweise als linear angenommen werden. Dies zeigt sich zum Beispiel an den Fehlannahmen \((x+y)^2 \overset{?!}{=} x^2+y^2\), \(\sqrt{x+y} \overset{?!}{=} \sqrt{x}+\sqrt{y}\) oder \(\sin(x+y) \overset{?!}{=} \sin(x)+\sin(y)\). Derartige Fehler können Sie als Lehrkraft besser einordnen (und korrigieren), wenn Sie sich der Fundamentalen Idee \emph{Linearität} (die hier eben \emph{nicht} gilt) bewusst sind. Insbesondere spricht dies auch für ein Explizitmachen der Fundamentalen Idee Ihren Schülerinnen und Schülern gegenüber, so dass Sie derartigen Fehlern nicht nur mit Gegenbeispielen entgegen treten können, sondern auch eine strukturelle Einordnung sichtbar machen können.
+
+Gerade wegen der genannten Fehlannahmen und der für die Schülerinnen und Schüler i.~d.~R. nicht in Zusammenhang gebrachten Dualität aus \emph{geradlinig} und \emph{additiv und homogen} sehen Tietze et al. (\protect\hyperlink{ref-Tietze:2002}{2002, S. 39}) die Linearität dagegen nicht als eine im Mathematikunterricht etablierte Fundamentale Idee, »die die Schüler erkennen und die ihr Denken ordnet und anregt«.\index{Fundamentale Idee!Horizontalkriterium|)}\index{Fundamentale Idee!Vertikalkriterium|)}
+
+\hypertarget{zeit--und-sinnkriterium}{%
+\subsubsection{Zeit- und Sinnkriterium}\label{zeit--und-sinnkriterium}}
+
+Linearität\index{Fundamentale Idee!Zeitkriterium|(}\index{Fundamentale Idee!Sinnkriterium|(} zeigt sich auch in der historischen Entwicklung der Mathematik als eine prägende Leitlinie, womit sie das \emph{Zeitkriterium} Fundamentaler Ideen erfüllt. In der Linearen Algebra sei beispielsweise das Lösen linearer Gleichungssysteme im 18. Jahrhundert bis hin zum Gauß-Algorithmus im 19. Jahrhundert oder die Darstellung linearer Vorgänge mit Matrizen im 17./18. Jahrhundert erwähnt (vgl. \protect\hyperlink{ref-Tietze:2000}{Tietze et al., 2000b, 73~ff.}). In der Analysis spiegelt sich die Linearität bzw. Linearisierung in der gesamten Differenzialrechnung wider, von der Interpolation nach der Jahrtausendwende über Taylors \emph{Linear perspective} von 1715 (vgl. \protect\hyperlink{ref-Bruckler:2018}{Brückler, 2018, 39,119}) bis in die Gegenwart der linearen Modellierung nichtlinearer Zusammenhänge.
+
+\begin{quote}
+\textbf{Historische Originalausgabe}
+
+Taylor (\protect\hyperlink{ref-Taylor:1715}{1715}): \emph{Linear perspective}
+\end{quote}
+
+Auch Alltagssituationen bzw. die Alltagssprache ist von Linearität geprägt. Beispielsweise treten proportionale Zuordnungen unmittelbar beim Einkaufen auf, wenn Waren abgewogen und der Preis bestimmt wird. Auch reale Messvorgänge, wie z.~B. die Geschwindigkeitsmessung, beziehen sich in der Regel auf die Messung von (sehr kurzen) Zeitintervallen, in denen ein lineares Verhalten angenommen wird. Das \emph{Sinnkriterium} zeigt sich aber auch in Begriffen wie \emph{lineares Fernsehen} oder \emph{lineare Erzählungen}. Dies ist zwar keine mathematische Linearität im Sinne der Formel \(f(x+y) = f(x) +f(y)\), aber der Begriff findet in einer verwandten Bedeutung in der Alltagssprache Verwendung.\index{Linearität|)}\index{Fundamentale Idee!Zeitkriterium|)}\index{Fundamentale Idee!Sinnkriterium|)}
+
+\hypertarget{gegenbeispiele}{%
+\subsection{Gegenbeispiele}\label{gegenbeispiele}}
+
+Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale Ideen angebracht werden.
+
+\begin{itemize}
+\tightlist
+\item
+  Das bereits erwähnte \textbf{Distributivgesetz} an sich ist zwar elementar, aber ihm fehlt die Weite, womit es nicht das Horizontalkriterium erfüllt. Die \emph{Linearität} als dahinterliegende Idee ist dagegen weit genug (vgl. ähnliche Argumentation zum \textbf{Kommutativgesetz} und der dahinterliegenden Idee der \emph{Invarianz} bei \protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 63}).
+\item
+  Der \textbf{Umkehrfunktion} fehlt das Sinnkriterium, da dieser Begriff in der Lebenswelt außerhab der Mathematik kaum von Relevanz ist. Dahinter liegt vielmehr die Idee der \emph{Reversibilität} als »Umkehrbarkeit von Operationen mit Wiederherstellung des Ausgangszustandes« (\protect\hyperlink{ref-Schubert:2011}{Schubert \& Schwill, 2011, S. 63}).
+\end{itemize}
+
+\hypertarget{mathematik-strukturieren-nachbereitung}{%
+\section{Zum Nachbereiten}\label{mathematik-strukturieren-nachbereitung}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Lesen Sie sich die Bildungsstandards für den ersten/mittleren Schulabschluss vollständig durch, notieren Sie Verständnisfragen und bringen Sie diese zum Seminar mit.
+\item
+  Wählen Sie eine Leitidee aus und nennen Sie innerhalb dieser Begriffe, Sachverhalte und Verfahren, die im Mathematikunterricht behandelt werden.
+\item
+  Wählen Sie einen Begriff, Sachverhalt oder Verfahren aus 2. aus und stellen Sie den Bezug zu fundamentalen Ideen her.
+\end{enumerate}
+
 \hypertarget{appendix-anhang}{%
 \appendix}
 
@@ -562,6 +1054,24 @@ Wichtig ist v.~a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, da
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Ableitinger2013}{}}%
+Ableitinger, C., Kramer, J., \& Prediger, S. (Hrsg.). (2013). \emph{Zur doppelten {Diskontinuität} in der {Gymnasiallehrerbildung}: {Ansätze} zu {Verknüpfungen} der fachinhaltlichen {Ausbildung} mit schulischen {Vorerfahrungen} und {Erfordernissen}}. Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-01360-8}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Beutelspacher2012}{}}%
+Beutelspacher, A., Danckwerts, R., Nickel, G., Spies, S., \& Wickel, G. (2012). \emph{Mathematik {Neu} {Denken}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-8348-8250-9}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bruckler:2018}{}}%
+Brückler, F. M. (2018). \emph{Geschichte der {Mathematik} kompakt: {Das} {Wichtigste} aus {Analysis}, {Wahrscheinlichkeitstheorie}, angewandter {Mathematik}, {Topologie} und {Mengenlehre}}. Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-55574-3}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bruner:1976}{}}%
+Bruner, J. S. (1976). Die {Bedeutung} der {Struktur} im {Lernprozeß}. In A. Holtmann (Hrsg.), \emph{Das sozialwissenschaftliche {Curriculum} in der {Schule}: {Neue} {Formen} und {Inhalte}} (S. 77--90). VS Verlag für Sozialwissenschaften. \url{https://doi.org/10.1007/978-3-322-85275-5}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Danckwerts:1988}{}}%
+Danckwerts, R. (1988). Linearität als organisierendes Element zentraler Inhalte der Schulmathematik. \emph{Didaktik der Mathematik}, \emph{16}(2), 149--160.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Danckwerts2013}{}}%
+Danckwerts, R. (2013). Angehende {Gymnasiallehrer}(innen) brauchen eine „{Schulmathematik} vom höheren {Standpunkt}``! In C. Ableitinger, J. Kramer, \& S. Prediger (Hrsg.), \emph{Zur doppelten {Diskontinuität} in der {Gymnasiallehrerbildung}} (S. 77--94). Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-01360-8_5}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Etzold:2019}{}}%
 Etzold, H. (2019a). \emph{Winkel-{Farm}} (Version 2) {[}App{]}. \url{https://apps.apple.com/de/app/winkel-farm/id1369585218}
 
@@ -571,11 +1081,26 @@ Etzold, H. (2019b). \emph{Winkel-{Farm} -- {Leitfaden} für {Lehrerinnen} und {L
 \leavevmode\vadjust pre{\hypertarget{ref-Etzold2021}{}}%
 Etzold, H. (2021). \emph{Neue Zugänge zum Winkelbegriff} {[}Dissertation, Universität Potsdam{]}. \url{https://doi.org/10.25932/publishup-50418}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Freudenthal1973c}{}}%
+Freudenthal, H. (1973a). \emph{Mathematics as an {Educational} {Task}}. Springer Netherlands. \url{https://doi.org/10.1007/978-94-010-2903-2}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Freudenthal1973a}{}}%
+Freudenthal, H. (1973c). \emph{Mathematik als pädagogische {Aufgabe}} (Bd. 1). Klett.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Freudenthal:1973}{}}%
-Freudenthal, H. (1973). \emph{Mathematik als pädagogische {Aufgabe}} (Bd. 2). Klett.
+Freudenthal, H. (1973b). \emph{Mathematik als pädagogische {Aufgabe}} (Bd. 2). Klett.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Gellert1986}{}}%
+Gellert, W., Küstner, H., Hellwich, M., Kästner, H., \& Reichardt, H. (Hrsg.). (1986). \emph{Kleine {Enzyklopädie} {Mathematik}} (13. Aufl.). VEB Bibliographisches Institut.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Greefrath2016}{}}%
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., \& Weigand, H.-G. (2016). \emph{Didaktik der {Analysis}. {Aspekte} und {Grundvorstellungen} zentraler {Begriffe}} (F. Padberg \& A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-48877-5}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hefendehl-Hebeker:2016}{}}%
 Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {Early} historical developments. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 11--31. \url{https://doi.org/10.1007/s13138-016-0103-7}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Henn2015}{}}%
+Henn, H.-W., \& Filler, A. (2015). \emph{Didaktik der {Analytischen} {Geometrie} und {Linearen} {Algebra}: {Algebraisch} verstehen -- {Geometrisch} veranschaulichen und anwenden}. Springer Spektrum.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Hussmann:2016}{}}%
 Hußmann, S., \& Prediger, S. (2016). Specifying and Structuring Mathematical Topics: A Four-Level Approach for Combining Formal, Semantic, Concrete, and Empirical Levels Exemplified for Exponential Growth. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 33--67. \url{https://doi.org/10.1007/s13138-016-0102-8}
@@ -586,11 +1111,32 @@ Hußmann, S., Rezat, S., \& Sträßer, R. (2016). Subject {Matter} {Didactics} i
 \leavevmode\vadjust pre{\hypertarget{ref-Jahnke:2010}{}}%
 Jahnke, T. (2010). Vom mählichen {Verschwinden} des {Fachs} aus der {Mathematikdidaktik}. \emph{GDM-Mitteilungen 89}, 21--24. \url{https://ojs.didaktik-der-mathematik.de/index.php/mgdm/article/view/559/550}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Klein1925}{}}%
+Klein, F. (1925). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {II}. {Geometrie}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-642-90852-1}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Klein1955}{}}%
+Klein, F. (1955). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {III}. {Präzisions}- und {Approximationsmathematik}} (C. H. Müller, Hrsg.). Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-00246-9}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Klein1967}{}}%
+Klein, F. (1967). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {I}. {Arithmetik}, {Algebra}, {Analysis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-11652-4}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Krainer:1989}{}}%
 Krainer, K. (1989). \emph{Lebendige {Geometrie}. Überlegungen zu einem integrativen {Verständnis} von {Geometrieunterricht} anhand des {Winkelbegriffs}} {[}Dissertation{]}. Alpen-Adria-Universität Klagenfurt.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Kruger2015}{}}%
+Krüger, K., Sill, H.-D., \& Sikora, C. (2015). \emph{Didaktik der {Stochastik} in der {Sekundarstufe} {I}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-43355-3}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Lambert:2012}{}}%
+Lambert, A. (2012). \emph{Gedanken zum aktuellen {Kompetenzbegriff} für den ({Mathematik}-)unterricht} {[}Vortrag{]}. Eingangsstatement zur Podiumsdiskussion im Rahmen des 3. Fachdidaktischen Kolloquiums an der Universität des Saarlandes, Saarbrücken. \url{https://www.uni-saarland.de/fileadmin/upload/einrichtung/zfl/PDF_Fachdidaktik/PDF_Kolloquium_FD/Kompetenzbegriff_für_den_Mathematikunterricht_Statement_mit_Folien.pdf}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Lompscher1985b}{}}%
 Lompscher, J. (1985). Die {Lerntätigkeit} als dominierende {Tätigkeit} des jüngeren {Schülers}. In J. Lompscher (Hrsg.), \emph{Persönlichkeitsentwicklung in der {Lerntätigkeit}} (S. 23--52). Volk und Wissen.
+
+\leavevmode\vadjust pre{\hypertarget{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{}}%
+Ministerium für Bildung, J. und S. des L. B. (Hrsg.). (2022). \emph{Rahmenlehrplan für die gymnasiale {Oberstufe}. {Teil} {C}. {Mathematik}}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{}}%
+Ministerium für Bildung, J. und S. des L. B. (Hrsg.). (2023). \emph{Rahmenlehrplan {Brandenburg}. {Teil} {C}, {Mathematik}, {Jahrgangsstufen} 1~--~10}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/Rahmenlehrplanprojekt/amtliche_Fassung/getrennt_2023/BB_RLP_2023_Teil_C_Ma_GenF_1.pdf}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Mitchelmore:1990}{}}%
 Mitchelmore, M. (1990). Psychologische und mathematische Schwierigkeiten beim Lernen des Winkelbegriffs. \emph{mathematica didactica}, \emph{13}, 19--37.
@@ -598,11 +1144,65 @@ Mitchelmore, M. (1990). Psychologische und mathematische Schwierigkeiten beim Le
 \leavevmode\vadjust pre{\hypertarget{ref-Mitchelmore:1998}{}}%
 Mitchelmore, M., \& White, P. (1998). Development of {Angle} {Concepts}: {A} {Framework} for {Research}. \emph{Mathematics Education Research Journal}, \emph{10}(3), 4--27.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Schubert:2011}{}}%
+Schubert, S., \& Schwill, A. (2011). \emph{Didaktik der {Informatik}} (2. Aufl). Spektrum, Akad. Verl. \url{https://doi.org/10.1007/978-3-8274-2653-6}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Schupp:2016}{}}%
 Schupp, H. (2016). Gedanken zum „{Stoff}`` und zur „{Stoffdidaktik}`` sowie zu ihrer {Bedeutung} für die {Qualität} des {Mathematikunterrichts}. \emph{Mathematische Semesterberichte}, \emph{63}(1), 69--92. \url{https://doi.org/10.1007/s00591-016-0159-y}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Schwill:1994}{}}%
+Schwill, A. (1994). \emph{Fundamentale {Ideen} in {Mathematik} und {Informatik}}. Herbsttagung des Arbeitskreises Mathematikunterricht und Informatik, Wolfenbüttel. \url{http://www.informatikdidaktik.de/didaktik/Forschung/Wolfenbuettel94.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-KMK:2012}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2012). \emph{Bildungsstandards im {Fach} {Mathematik} für die {Allgemeine} {Hochschulreife}. (Beschluss der Kultusministerkonferenz vom 18.10.2012)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2012/2012_10_18-Bildungsstandards-Mathe-Abi.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2022a). \emph{Bildungsstandards für das {Fach} {Mathematik} {Erster} {Schulabschluss} ({ESA}) und {Mittlerer} {Schulabschluss} ({MSA}). ({Beschluss} der {Kultusministerkonferenz} vom 15.10.2004 und vom 04.12.2003, i.d.{F}. vom 23.06.2022)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a}{}}%
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2022b). \emph{Bildungsstandards für das {Fach} {Mathematik} {Primarbereich}. ({Beschluss} der {Kultusministerkonferenz} vom 15.10.2004, i.d.{F}. vom 23.06.2022)}. \url{https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-Primarbereich-Mathe.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Steinhofel1988}{}}%
+Steinhöfel, W., Reichold, K., \& Frenzel, L. (1988). \emph{Zur {Gestaltung} typischer {Unterrichtssituationen} im {Mathematikunterricht}}. Ministerium für Volksbildung.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Strehl:1983}{}}%
 Strehl, R. (1983). Anschauliche {Vorstellung} und mathematische {Theorie} beim {Winkelbegriff}. \emph{mathematica didactica}, \emph{6}, 129--146.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Taylor:1715}{}}%
+Taylor, B. (1715). \emph{Linear perspective}. printed for R. Knaplock at the Bishop's-Head in St. Paul's Church-Yard. \url{https://nl.sub.uni-goettingen.de/id/0590700700}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2000a}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2000a). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 1: {Fachdidaktische} {Grundfragen}, {Didaktik} der {Analysis}} (2. Aufl.). Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-90568-0}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2000}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2000b). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 2: {Didaktik} der {Analytischen} {Geometrie} und {Linearen} {Algebra}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-86479-6}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Tietze:2002}{}}%
+Tietze, U.-P., Klika, M., \& Wolpers, H. (Hrsg.). (2002). \emph{Mathematikunterricht in der {Sekundarstufe} {II}. {Band} 3: {Didaktik} der {Stochastik}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-322-83144-6}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Vohns:2000}{}}%
+Vohns, A. (2000). \emph{Das {Messen} als fundamentale {Idee}} {[}1. Staatsexamensarbeit, Universität-Gesamthochschule Siegen{]}. \url{https://wwwu.aau.at/avohns/pdf/messen.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Vollrath2012}{}}%
+Vollrath, H.-J., \& Roth, J. (2012). \emph{Grundlagen des {Mathematikunterrichts} in der {Sekundarstufe}} (F. Padberg, Hrsg.; 2. Aufl.). Spektrum Akademischer Verlag. \url{https://doi.org/10.1007/978-3-8274-2855-4}
+
+\leavevmode\vadjust pre{\hypertarget{ref-vonderBank:2013}{}}%
+von der Bank, M.-C. (2013). Fundamentale {Ideen}, insbesondere {Optimierung}. In A. Filler \& M. Ludwig (Hrsg.), \emph{Wege zur {Begriffsbildung} für den {Geometrieunterricht}. {Ziele} und {Visionen} 2020. {Vorträge} auf der 29. {Herbsttagung} des {Arbeitskreises} {Geometrie} in der {Gesellschaft} für {Didaktik} der {Mathematik} vom 14. bis 16. {September} 2012 in {Saarbrücken}} (S. 83--124). Franzbecker. \url{https://www.math.uni-sb.de/service/lehramt/AKGeometrie/AKGeometrie2012.pdf}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Bank:2016}{}}%
+von der Bank, M.-C. (2016). \emph{Fundamentale {Ideen} der {Mathematik}: {Weiterentwicklung} einer {Theorie} zu deren unterrichtspraktischer {Nutzung}} {[}Dissertation, Universität des Saarlandes{]}. \url{https://doi.org/10.22028/D291-26673}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Weigand2018}{}}%
+Weigand, H.-G., Filler, A., Hölzl, R., Kuntze, S., Ludwig, M., Roth, J., Schmidt-Thieme, B., \& Wittmann, G. (2018). \emph{Didaktik der {Geometrie} für die {Sekundarstufe} {I}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-56217-8}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Weigand2022}{}}%
+Weigand, H.-G., Schüler-Meyer, A., \& Pinkernell, G. (2022). \emph{Didaktik der {Algebra}: nach der {Vorlage} von {Hans}-{Joachim} {Vollrath}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-64660-1}
+
+\leavevmode\vadjust pre{\hypertarget{ref-WikiPeano}{}}%
+Wikipedia. (2021). \emph{Peano-Axiome --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Peano-Axiome\&oldid=216675163}
+
+\leavevmode\vadjust pre{\hypertarget{ref-dewiki:228417777}{}}%
+Wikipedia. (2022). \emph{Kultusministerkonferenz --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Kultusministerkonferenz\&oldid=228417777}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Wittmann:2015}{}}%
 Wittmann, E. C. (2015). Strukturgenetische didaktische {Analysen} -- empirische {Forschung} „erster {Art}``. \emph{mathematica didactica}, 239--255. \url{http://www.mathematica-didactica.com/altejahrgaenge/md_2015/md_2015_Wittmann_Stoffdidaktik.pdf}
