@@ -122,7 +122,7 @@ Auch die nach Definition \@ref(def:Arbeitsmittel) eingeführten Arbeitsmittel k�
 
 
 
-### Ausführen und Verinnerlichen
+### Ausführen und Verinnerlichen {#ausfuehren-und-verinnerlichen}
 
 Am neu zu erlernenden Lerngegenstand werden die Schülerinnen und Schüler nun **an die Ausführung geeigneter Lernhandlungen herangeführt**, was bspw. über ein Vorführen und Erklären durch die Lehrkraft erfolgen kann. Die Ausführung durch die Schülerinnen und Schüler darf jedoch nicht mit einem *Nachahmen* verwechselt werden. Vielmehr erfolgen die Handlungen **einsichtig** und das **Lernziel verfolgend**, ggf. unter **Verwendung der Orientierungshilfen**. Je nach Vorkenntnissen können die Schülerinnen und Schüler auch, angeregt durch entsprechende Aufgabenstellungen, selbstständig die neuen Lernhandlungen durchführen, wobei nicht davon auszugehen ist, dass sie bereits über alle Voraussetzungen verfügen, die Lernhandlungen vollumfänglich zu nutzen (denn sonst wäre die zugehörige Anforderungssituation nicht in der Zone der nächsten Entwicklung gewesen).
 
@@ -169,7 +169,7 @@ Im Folgenden wird dargestellt, wie die in diesem Kapitel dargestellten Prozesssc
 (ref:citeGVVerinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11]
 
 ```{r GVVerinnerlichen, echo=FALSE, fig.cap="(ref:citeGVVerinnerlichen)", fig.align='center', out.width='90%'}
-knitr::include_graphics("pictures/8-GVverinnerlichen.png")
+knitr::include_graphics("pictures/5-GVverinnerlichen.png")
 ```
 
 * In der **Handlungskontrolle** wird über den Abgleich zwischen Handlungszielen, -durchführung und -ergebnissen die `r concrete("**Kernidee in der Rückschauperspektive**")` aufgegriffen.

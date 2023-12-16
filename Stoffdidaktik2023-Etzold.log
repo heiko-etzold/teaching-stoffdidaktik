@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  8 DEC 2023 10:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.5)  16 DEC 2023 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2525,14 +2525,17 @@ Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 12.0pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
-)
+[3])
 \tf@toc=\write3
 \openout3 = `Stoffdidaktik2023-Etzold.toc'.
 
-[3] [4
-
-
-]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
+(Font)              scaled to size 10.95pt on input line 214.
+Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
+t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Regular.otf
+[4]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 217.
 Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
@@ -2545,7 +2548,10 @@ Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
-[5] [6
+[5
+
+
+] [6
 
 
 ]
@@ -2663,14 +2669,7 @@ Requested font "[LibertinusSerif-BoldItalic.otf]/OT:script=latn;language=dflt;+
 tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-BoldItalic.otf
-[7]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 306.
-Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
-t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
- -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
-ibertinusSerif-Regular.otf
-[8] [9] [10
+[7] [8] [9] [10
 
 
 ]
@@ -2686,10 +2685,6 @@ chapter 1.
 
 
 ] [14]
-
-LaTeX Warning: Reference `aneignung-von-lerngegenstaenden' on page 15 undefined
- on input line 404.
-
 
 LaTeX Warning: Reference `taetigkeitstheorie-und-lernen' on page 15 undefined o
 n input line 404.
@@ -2749,78 +2744,175 @@ File: pictures/2-Vereinigung.png Graphic file (type bmp)
 [26]
 File: pictures/2-Permanenz.png Graphic file (type bmp)
 <pictures/2-Permanenz.png>
-[27] [28]
+[27] [28] [29] [30
+
+
+]
 chapter 3.
-[29
+[31] [32]
 
+LaTeX Warning: Reference `begriffe-sachverhalte-verfahren' on page 33 undefined
+ on input line 852.
 
-] [30]
-
-LaTeX Warning: Reference `begriffe-sachverhalte-verfahren' on page 31 undefined
- on input line 850.
-
-[31]
-Underfull \hbox (badness 2150) in paragraph at lines 873--875
+[33]
+Underfull \hbox (badness 2150) in paragraph at lines 875--877
 []\TU/LibertinusSerif(0)/m/n/10.95 in verschiedenen Gebieten des Bereichs vielf
 ältig anwendbar oder erkennbar ist
  []
 
 
-Overfull \hbox (22.73376pt too wide) in paragraph at lines 875--877
+Overfull \hbox (22.73376pt too wide) in paragraph at lines 877--879
 []\TU/LibertinusSerif(0)/m/n/10.95 auf jedem intellektuellen Niveau aufgezeigt 
 und vermittelt werden kann (\TU/LibertinusSerif(0)/b/n/10.95 Vertikalkriterium\
 TU/LibertinusSerif(0)/m/n/10.95 ), 
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 879--880
+Underfull \hbox (badness 4279) in paragraph at lines 881--882
 []\TU/LibertinusSerif(0)/m/n/10.95 einen Bezug zu Sprache und Denken des Alltag
 s und der Lebenswelt besitzt
  []
 
-[32]
+[34]
 File: pictures/3-Flaeche.png Graphic file (type bmp)
 <pictures/3-Flaeche.png>
-[33] [34]
+[35] [36]
 File: pictures/3-Strahlensatz.png Graphic file (type bmp)
 <pictures/3-Strahlensatz.png>
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 997.
+(Font)              scaled to size 10.95pt on input line 999.
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 8.76pt on input line 997.
+(Font)              scaled to size 8.76pt on input line 999.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 997.
+(Font)              scaled to size 6.57pt on input line 999.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
-[35] [36] [37] [38
+[37] [38] [39] [40
+
+
+]
+chapter 4.
+LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 1102.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
+apping=tex-text;" at 9.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 1102.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
+apping=tex-text;" at 6.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 1102.
+Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
+apping=tex-text;" at 5.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLiber
+tine_R.otf
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 1102.
+Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
+;+lnum;mapping=tex-text;" at 9.0pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Italic.otf
+[41]
+File: pictures/4-Addition.png Graphic file (type bmp)
+<pictures/4-Addition.png>
+[42] [43] [44] [45]
+File: pictures/4-Bruchmulti.png Graphic file (type bmp)
+<pictures/4-Bruchmulti.png>
+[46]
+File: pictures/4-Zahlengerade.png Graphic file (type bmp)
+<pictures/4-Zahlengerade.png>
+[47] [48]
+chapter 5.
+
+LaTeX Warning: Reference `taetigkeitstheorie-und-lernen' on page 49 undefined o
+n input line 1360.
+
+
+LaTeX Warning: Reference `lernhandlungen-ausbilden' on page 49 undefined on inp
+ut line 1360.
+
+[49
+
+
+]
+File: pictures/5-Aneignung.png Graphic file (type bmp)
+<pictures/5-Aneignung.png>
+
+Underfull \hbox (badness 3158) in paragraph at lines 1384--1385
+\TU/LibertinusSerif(0)/m/n/10.95 Eine wichtige Rolle beim Aneignen spielt das \
+TU/LibertinusSerif(0)/b/n/10.95 Sprechen über die durchgeführten
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1384--1385
+\TU/LibertinusSerif(0)/m/n/10.95 gegenständlicher Handlung, da es sowohl den Ex
+ternalisierungsprozess unterstützt (das
+ []
+
+File: pictures/5-GVverinnerlichen.png Graphic file (type bmp)
+<pictures/5-GVverinnerlichen.png>
+
+LaTeX Warning: Reference `ausfuehren-und-verinnerlichen' on page 50 undefined o
+n input line 1397.
+
+
+LaTeX Warning: Reference `begriffe-sachverhalte-und-verfahren' on page 50 undef
+ined on input line 1397.
+
+[50]
+File: pictures/5-Lernmodell.png Graphic file (type bmp)
+<pictures/5-Lernmodell.png>
+[51] [52]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
+(Font)              scaled to size 8.76pt on input line 1439.
+Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
+lnum;mapping=tex-text;" at 8.76pt
+ -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Bold.otf
+[53] [54]
+File: pictures/5-Waage.png Graphic file (type bmp)
+<pictures/5-Waage.png>
+[55] [56]
+File: pictures/5-Streichholz.png Graphic file (type bmp)
+<pictures/5-Streichholz.png>
+File: pictures/5-Pfeile.png Graphic file (type bmp)
+<pictures/5-Pfeile.png>
+[57]
+File: pictures/5-negativePfeile.png Graphic file (type bmp)
+<pictures/5-negativePfeile.png>
+[58] [59] [60
 
 
 ]
 chapter A.
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 1073.
+(Font)              scaled to size 6.57pt on input line 1628.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2021/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
-[39] [40] [41] [42] (./Stoffdidaktik2023-Etzold.aux)
+[61] [62] [63] [64] [65] (./Stoffdidaktik2023-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32874 strings out of 476919
- 663195 string characters out of 5821841
- 1254260 words of memory out of 5000000
- 52393 multiletter control sequences out of 15000+600000
- 413689 words of font info for 162 fonts, out of 8000000 for 9000
+ 33045 strings out of 476919
+ 667516 string characters out of 5821841
+ 1258260 words of memory out of 5000000
+ 52549 multiletter control sequences out of 15000+600000
+ 413900 words of font info for 167 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,9n,137p,10647b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,9n,137p,10647b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Stoffdidaktik2023-Etzold.pdf (42 pages).
+Output written on Stoffdidaktik2023-Etzold.pdf (65 pages).

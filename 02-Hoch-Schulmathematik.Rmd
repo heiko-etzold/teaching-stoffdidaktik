@@ -93,13 +93,13 @@ Als Alternative bietet sich ein **axiomatisches Vorgehen** an, also dass die gan
 
 Wie bereits erwähnt, führen die neu eingeführte Addition und Subtraktion in $\mathbb{Z}$ nicht zu Konflikten mit den bisherigen analogen Operationen in $\mathbb{N}$. Dies wird über das ***Permanenzprinzip*** gefordert, nach dem neue Theorien (z. B. das Rechnen mit negativen Zahlen) soweit wie möglich verträglich sein müssen mit bisherigen Theorien (z. B. das Rechnen mit positiven Zahlen).
 
-Sichtbar gemacht werden kann dieses Prinzip und die Herleitung gewisser Rechenregeln über ***Permanenzreihen***. Dies ist insbesondere dann hilfreich, wenn für bestimmte Rechenoperationen keine geeigneten realen Veranschaulichungen existieren. Ein typisches Beispiel hierfür ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpretation. Abbildung \@ref(fig:Permanenz) stellt eine Permanenzreihe dar, anhand derer die Rechnung $(-3)\cdot (-5)$ erklärt werden kann.
+Sichtbar gemacht werden kann dieses Prinzip über ***Permanenzreihen***. Dies ist insbesondere dann hilfreich, wenn für bestimmte Rechenoperationen keine geeigneten realen Veranschaulichungen existieren. Ein typisches Beispiel hierfür ist die Multiplikation zweier negativer Zahlen. Kann die Multiplikation einer natürlichen Zahl (erster Summand) mit einer negativen Zahl (zweiter Summand) außermathematisch noch als mehrfache Verschuldung aufgefasst und die Vertauschung von erstem und zweitem Summanden über das Kommutativgesetz innermathematisch erklärt werden, bietet die Multiplikation zweier negativer Zahlen keine so naheliegende Interpretation. Abbildung \@ref(fig:Permanenz) stellt eine Permanenzreihe dar, anhand derer die Rechnung $(-3)\cdot (-5)$ erklärt werden kann.
 
 ```{r Permanenz, echo=FALSE, fig.cap="Permanenzreihe zur Multiplikation zweier negativer Zahlen", fig.align='center', out.width='30%'}
 knitr::include_graphics("pictures/2-Permanenz.png")
 ```
 
-
+Entscheidend ist beim Aufstellen von Permanenzreihen jedoch, dass der Übergang von einer Zeile zur nächsten auf einem entsprechenden Rechengesetz beruht. Im Abbildung \@ref(fig:Permanenz) ist dies das Distributivgesetzt $(a-1) \cdot b = a \cdot b - b$. Varnachlässigt man die Existenz einer Übergangsregel, lassen sich plausibel erscheinende Muster fortsetzen (wie $0^3 = 0$, $0^2 = 0$, $0^1 = 0$), die dann allerdings zu falschen Schlussfolgerungen ($0^0 = 0$) führen. Im dargestellten Beispiel kann die Übergangsregel $a^{m-1} = a^m : a$ wegen $a = 0$ nicht angewandt werden.
 
 #### Ableitungen für den Lernpfad
 
@@ -124,7 +124,7 @@ Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathem
 ## Zum Nachbereiten {#hochschulmathematik-nachbereitung}
 
 1. Nutzen Sie verschiedene fachmathematische und fachdidaktische Quellen sowie Schulbücher, um fachlich zu klären, was »Terme« und »Gleichungen« sind.
-2. Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z. B. dass $a^0 = 1$ ($a\neq 0$) und $0^0$ nicht definiert ist.
+2. Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z. B. dass $a^0 = 1$ ($a\neq 0$) und $a^\frac{1}{2} = \sqrt{a}$ ($a \geq 0$) ist.
 
 
 
