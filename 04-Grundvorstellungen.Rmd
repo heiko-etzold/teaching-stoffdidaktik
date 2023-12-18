@@ -132,22 +132,22 @@ knitr::include_graphics("pictures/4-Bruchmulti.png")
 All dies zeigt, dass Brüche behutsam unterrichtet werden sollten und von einer rein kalkülorientierten Behandlung unbedingt abgesehen werden muss, da diese den nachhaltigen Lernerfolg deutlich mindert.\index{Brüche|)}
 
 
-### Ganze Zahlen
+### Negative Zahlen
 
-Aufbauend auf die in Abschnitt \@ref(beispiel-negative-zahlen) erfolgte Diskussion zur `r formal("formalen Ebene")` von ganzen Zahlen, soll zu diesen nun die Grundvorstellungsidee auf der `r semantic("semantischen Ebene")` diskutiert werden.
+Aufbauend auf die in Abschnitt \@ref(beispiel-negative-zahlen) erfolgte Diskussion zur `r formal("formalen Ebene")` von negativen Zahlen, soll zu diesen nun die Grundvorstellungsidee auf der `r semantic("semantischen Ebene")` diskutiert werden.
 
-Die Einführung ganzer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden [@vomHofe2014a]. Diese sind eigentlich auf der `r empiric("empirischen Ebene")` der stoffdidaktischen Analyse angesiedelt, sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.
+Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit zahlreichen Schwierigkeiten verbunden [@vomHofe2014a]. Diese sind eigentlich auf der `r empiric("empirischen Ebene")` der stoffdidaktischen Analyse angesiedelt, sollen aber hier wegen ihrer Nähe zu den Grundvorstellungen schon einmal erwähnt werden.
 
 - So bestehen etwa für das **Minus-Zeichen vielfältige Interpretationsmöglichkeiten** als **Vorzeichen** (z. B. in der Rechnung $-5+2$), als **Rechenzeichen** (z. B. in der Rechnung $7-2$) oder als **Inversionszeichen** (z. B. bei der Darstellung $-a$ als Gegenzahl für $a$).
-- Der in den natürlichen Zahlen vorhandene **Kardinalzahlaspekt** (dass die Zahl die Mächtigkeit einer Menge angibt), ist in den negativen Zahlen **nicht mehr tragfähig** (es existiert keine $-4$-elementige Menge). Auch der **Ordinalzahlaspekt** (dass die Zahl eine Position angibt) ist nur **eingeschränkt tragfähig** (eine $-4$-te Position bedarf vielfältiger Zwischeninterpretationen). Der **Maßzahlaspekt** (z. B. über die Angabe einer Zahl auf dem Zahlenstrahl) dagegen ist auf die ganzen Zahlen **erweiterbar**.
+- Der in den natürlichen Zahlen vorhandene **Kardinalzahlaspekt** (dass die Zahl die Mächtigkeit einer Menge angibt), ist in den negativen Zahlen **nicht mehr tragfähig** (es existiert keine $-4$-elementige Menge). Auch der **Ordinalzahlaspekt** (dass die Zahl eine Position angibt) ist nur **eingeschränkt tragfähig** (eine $-4$-te Position bedarf vielfältiger Zwischeninterpretationen). Der **Maßzahlaspekt** (z. B. über die Angabe einer Zahl auf dem Zahlenstrahl) dagegen ist auf die negativen Zahlen **erweiterbar**.
 - Die **Ordnungsrelation** wird häufig **fehlinterpretiert** über eine spiegelbildliche Interpretation (z. B. kann fälschlicherweise $-5>-3$ angenommen werden). Eine Ursache kann hier darin liegen, dass die Ordnungsrelation zuvor über die Mächtigkeit von Mengen hergestellt wurde, was nun nicht mehr möglich ist.
 
-Gegenüber den natürlichen Zahlen sind also im Umgang mit (negativen) ganzen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen @vomHofe2014a zusammen:
+Gegenüber den natürlichen Zahlen sind also im Umgang mit negativen Zahlen einige Grundvorstellungsumbrüche zu absolvieren. Als normativ auszubildende Grundvorstellungen fassen @vomHofe2014a für rationale Zahlen (als Obermenge positiver und negativer Zahlen) zusammen:
 
-- Ganze Zahlen als **relative Zahlen bezüglich einer fest gewählten Vergleichsmarke**: Dies ist etwa bei Etagen-Angaben, Temperaturen oder der Position über/unter dem Wasserspiegel der Fall. Gerade bei Temperaturen kann die Beliebigkeit der Vergleichsmarke (0 °C) gut diskutiert werden, da etwa andere Temperaturskalen (°F, K) eine andere Vergleichsmarke gewählt haben.
-- Ganze Zahlen als **Gegensätze**: Diese Vorstellung wird z. B. sichtbar, wenn über Guthaben und Schulden gesprochen wird. Hat man 5 € Schulden, so ist dies der Gegensatz von 5 € Guthaben. Die Vergleichsmarke (0 €) ist hier nicht beliebig gewählt, sondern natürlicherweise über »weder Guthaben noch Schulden« gegeben. Auch der Betrag einer Zahl kann in dieser Vorstellung besonders gut verstanden werden.
-- Ganze Zahlen als **Richtungen**: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z. B. bei der Verwendung von Koordinatensystemen der Fall, oder ganz allgemein bei der Zahlengeraden.
-- Ganze Zahlen als **Zustände und Zustandsänderungen**: In dieser Vorstellung bieten ganze Zahlen nicht nur die Möglichkeit, einen Zustand (wie Guthaben oder Schulden) zu beschreiben, sondern auch den Prozess der Änderung dieser Zustände (Erhalt von Guthaben, Erlass von Schulden, …). Eine solche Vorstellung etwa ist nötig, um die verschiedenen Interpretationen des Minus-Zeichens nachvollziehen zu können.
+- Rationale Zahlen als **relative Zahlen bezüglich einer fest gewählten Vergleichsmarke**: Dies ist etwa bei Etagen-Angaben, Temperaturen oder der Position über/unter dem Wasserspiegel der Fall. Gerade bei Temperaturen kann die Beliebigkeit der Vergleichsmarke (0 °C) gut diskutiert werden, da etwa andere Temperaturskalen (°F, K) eine andere Vergleichsmarke gewählt haben.
+- Rationale Zahlen als **Gegensätze**: Diese Vorstellung wird z. B. sichtbar, wenn über Guthaben und Schulden gesprochen wird. Hat man 5 € Schulden, so ist dies der Gegensatz von 5 € Guthaben. Die Vergleichsmarke (0 €) ist hier nicht beliebig gewählt, sondern natürlicherweise über »weder Guthaben noch Schulden« gegeben. Auch der Betrag einer Zahl kann in dieser Vorstellung besonders gut verstanden werden.
+- Rationale Zahlen als **Richtungen**: Negative Zahlen beschreiben in dieser Vorstellung die entgegengesetzte Richtung der positiven Zahlen. Dies ist z. B. bei der Verwendung von Koordinatensystemen der Fall, oder ganz allgemein bei der Zahlengeraden.
+- Rationale Zahlen als **Zustände und Zustandsänderungen**: In dieser Vorstellung bieten rationale Zahlen nicht nur die Möglichkeit, einen Zustand (wie Guthaben oder Schulden) zu beschreiben, sondern auch den Prozess der Änderung dieser Zustände (Erhalt von Guthaben, Erlass von Schulden, …). Eine solche Vorstellung etwa ist nötig, um die verschiedenen Interpretationen des Minus-Zeichens nachvollziehen zu können.
 
 Als bedeutsamste Repräsentation negativer Zahlen gilt die Zahlengerade. Diese stützt einerseits den Maßzahlaspekt und ermöglicht über die Darstellung von Punkten und Pfeilen (siehe Abbildung \@ref(fig:Zahlengerade)) auch eine Interpretation in den verschiedenen Grundvorstellungen.
 
@@ -156,7 +156,7 @@ knitr::include_graphics("pictures/4-Zahlengerade.png")
 ```
 
 
-Auch Operationen mit ganzen Zahlen sind hierzu nun verständlich behandelbar:
+Auch Operationen mit negativen Zahlen sind hierzu nun verständlich behandelbar:
 
 - So kann das **Addieren/Subtrahieren** als Anlegen von Pfeilen, gerichtetes Weiter-/Zurückzählen oder als Subtraktion/Addition der Gegenzahl aufgefasst werden.
 - Das **Multiplizieren** kann bei der Multiplikation mit einer positiven Zahl als Streckung/Stauchung aufgefasst werden, die Multiplikation mit $-1$ entspricht der Spiegelung an der Null und die Multiplikation mit einer beliebigen negativen Zahl ist eine Kombination aus beidem.
@@ -166,8 +166,8 @@ Auch Operationen mit ganzen Zahlen sind hierzu nun verständlich behandelbar:
 Zusammenfassend lassen sich auf der semantischen Ebene folgende für den Lernpfad relevanten Zusammenhänge ableiten:
 
 
-- `r semantic("Ganze Zahlen sollten als relative Zahlen bezüglich einer fest gewählten Vergleichsmarke, als Gegensätze, als Richtungen sowie als Zustände und Zustandsänderungen aufgefasst werden können.")`
-- `r semantic("Die Zahlengerade ist eine wesentliche Repräsentation ganzer Zahlen, anhand derer auch die Operationen mit ganzen Zahlen sichtbar gemacht werden können.")`
+- `r semantic("Rationale Zahlen sollten als relative Zahlen bezüglich einer fest gewählten Vergleichsmarke, als Gegensätze, als Richtungen sowie als Zustände und Zustandsänderungen aufgefasst werden können.")`
+- `r semantic("Die Zahlengerade ist eine wesentliche Repräsentation rationaler Zahlen, anhand derer auch die Operationen mit rationalen Zahlen sichtbar gemacht werden können.")`
 
 
 

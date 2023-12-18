@@ -164,6 +164,7 @@ knitr::include_graphics("pictures/5-negativePfeile.png")
 * Das Modell bietet weiterhin die Möglichkeit, die Gleichheit der beiden Terme abhängig vom Wert für $x$ nachvollziehbar zu machen. Je nachdem, wie groß $x$ ist, kann also die Gleichung $2x+1 = 7$ wahr sein (beide Strecken gleich lang) oder eben nicht. Unterstützt werden kann dies, indem $x$ dynamisch variiert wird, etwa in einem digitalen Arbeitsmittel.
 
 
+
 ```{r dynamischePfeile, echo=FALSE, fig.cap="Gleichheit/Ungleichheit der Terme $2x+1$ und $7$ im Pfeil-Modell", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/5-dynamischePfeile.gif")
 ```
