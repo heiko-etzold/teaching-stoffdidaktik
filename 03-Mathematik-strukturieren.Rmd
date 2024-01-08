@@ -108,9 +108,9 @@ knitr::include_graphics("pictures/3-Flaeche.png")
 ```
 
 
-### Auswahl fundamentaler Ideen
+### Auswahl Fundamentaler Ideen
 
-Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. @vonderBank:2013 [103] und @Lambert:2012 diskutieren eine Kategorisierung fundamentaler Ideen in drei Bereiche:
+Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. @vonderBank:2013 [103] und @Lambert:2012 diskutieren eine Kategorisierung Fundamentaler Ideen in drei Bereiche:
 
 - **Inhaltsideen** beziehen sich auf konkrete Inhaltsbereiche der Mathematik, die die Kriterien Fundamentaler Ideen erfüllen können. Nicht ganz zufällig spiegeln diese sich in den Leitideen der Bildungsstandards wider (siehe Abschnitt \@ref(leitideen)).
 
@@ -186,4 +186,4 @@ Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale
 
 1. Lesen Sie sich die Bildungsstandards für den ersten/mittleren Schulabschluss vollständig durch, notieren Sie Verständnisfragen und bringen Sie diese zum Seminar mit.
 2. Wählen Sie eine Leitidee aus und nennen Sie innerhalb dieser Begriffe, Sachverhalte und Verfahren, die im Mathematikunterricht behandelt werden.
-3. Wählen Sie einen Begriff, Sachverhalt oder Verfahren aus 2. aus und stellen Sie den Bezug zu fundamentalen Ideen her.
+3. Wählen Sie einen Begriff, Sachverhalt oder Verfahren aus 2. aus und stellen Sie den Bezug zu Fundamentalen Ideen her.

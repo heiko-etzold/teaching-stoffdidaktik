@@ -62,19 +62,21 @@
 <!-- * Der Seminarvortrag ist eine **Prüfungsnebenleistung**, das heißt, er ist zwar unbenotet, aber muss eine entsprechende Qualität aufweisen, um als *bestanden* zu gelten. Er hat nicht die Aufgabe, Sie final zu prüfen, sondern soll vielmehr zur gemeinsamen Diskussion anzuregen. Mithilfe der Diskussion erhalten Sie auch vielfältige Rückmeldungen, die Sie in Ihre Hausarbeit einarbeiten können.   -->
 
 
-<!-- ## Quellenarbeit -->
 
-<!-- Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, sollen an dieser Stelle noch einige Hinweise zur Quellenarbeit gegeben werden. -->
 
-<!-- * Auf der Webseite https://juergen-roth.de/zeitschriften/ finden Sie eine Übersicht über **mathematikdidaktische Zeitschriften**. Als besonders geeignet für unterrichtspraktische und zugleich theoretisch fundierte Ideen soll die Zeitschrift ***mathematik lehren*** empfohlen werden. Einen Themenüberblick bietet die Seite https://juergen-roth.de/zeitschriften/mathematik-lehren/, die Universitätsbibliothek Potsdam (https://opac.ub.uni-potsdam.de) verfügt über nahezu alle Ausgaben.^[Bei der Suche nach dem Standort der Zeitschrift sollten Sie in der Recherche nach Zeitschriften filtern.] -->
+# Quellenarbeit
 
-<!-- * Über die Webseite https://eldorado.tu-dortmund.de gelangen Sie an die ***Beiträge zum Mathematikunterricht*** (BzMU). Dies sind Sammelbände, die jährlich zur Tagung der Gesellschaft für Didaktik der Mathematik (GDM) herausgegeben werden, bei der sich nahezu die komplette mathematikdidaktische Community im deutschsprachigen Raum trifft. Die Beiträge haben i. d. R. nur eine Länge von vier Seiten und geben einen kurzen Überblick über aktuelle Forschungsthemen. Am sinnvollsten erscheint eine Stichwortsuche über die Webseite. Die Beiträge selbst durchlaufen jedoch keinen *Review-Prozess*, es kann also nicht per se eine Aussage über deren Qualität getroffen werden. -->
+Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, sollen an dieser Stelle einige Hinweise zur Quellenarbeit gegeben werden.
 
-<!-- * Aus dem universitätsinternen Netz bietet https://link.springer.com eine große Auswahl an **Monographien und Zeitschriften**. Einige der bei https://juergen-roth.de/zeitschriften/ dargestellten Zeitschriften werden über Springer vertrieben. -->
+* Auf der Webseite https://juergen-roth.de/zeitschriften/ finden Sie eine Übersicht über **mathematikdidaktische Zeitschriften**. Als besonders geeignet für unterrichtspraktische und zugleich theoretisch fundierte Ideen soll die Zeitschrift ***mathematik lehren*** empfohlen werden. Einen Themenüberblick bietet die Seite https://juergen-roth.de/zeitschriften/mathematik-lehren/, die Universitätsbibliothek Potsdam (https://opac.ub.uni-potsdam.de) verfügt über nahezu alle Ausgaben.^[Bei der Suche nach dem Standort der Zeitschrift sollten Sie in der Recherche nach Zeitschriften filtern.] Auf der Webseite des Zeitschriftenverlags (https://www.friedrich-verlag.de) können Sie eine Stichwortsuche durchführen, so dass sie auch erfahren, in welchen Ausgaben einzelne Artikel enthalten sind.
 
-<!-- * Über die Seite https://www.fachportal-paedagogik.de können Sie zu den von Ihnen präferierten Stichworten Beiträge finden, die dort auch kurz zusammengefasst werden. Dies ist inbesondere für kurze **Überblicksrecherchen** sinnvoll. Die Verfügbarkeit der entsprechenden Beiträge wird dann über das Fachportal dargestellt.  -->
+* Über die Webseite https://eldorado.tu-dortmund.de gelangen Sie an die ***Beiträge zum Mathematikunterricht*** (BzMU). Dies sind Sammelbände, die jährlich zur Tagung der Gesellschaft für Didaktik der Mathematik (GDM) herausgegeben werden, bei der sich nahezu die komplette mathematikdidaktische Community im deutschsprachigen Raum trifft. Die Beiträge haben i. d. R. nur eine Länge von vier Seiten und geben einen kurzen Überblick über aktuelle Forschungsthemen. Am sinnvollsten erscheint eine Stichwortsuche über die Webseite. Die Beiträge selbst durchlaufen jedoch keinen *Review-Prozess*, es kann also nicht per se eine Aussage über deren Qualität getroffen werden.
 
-<!-- * Inbesondere **digital zugängliche Publikationen** lassen sich über die Webseite https://www.base-search.net recherchieren. Eine ähnliche Funktionalität, aber eher international orientiert, bietet die Seite https://eric.ed.gov. -->
+* Aus dem universitätsinternen Netz bietet https://link.springer.com eine große Auswahl an **Monographien und Zeitschriften**. Einige der bei https://juergen-roth.de/zeitschriften/ dargestellten Zeitschriften werden über Springer vertrieben.
+
+* Über die Seite https://www.fachportal-paedagogik.de können Sie zu den von Ihnen präferierten Stichworten Beiträge finden, die dort auch kurz zusammengefasst werden. Dies ist inbesondere für kurze **Überblicksrecherchen** sinnvoll. Die Verfügbarkeit der entsprechenden Beiträge wird dann über das Fachportal dargestellt.
+
+* Inbesondere **digital zugängliche Publikationen** lassen sich über die Webseite https://www.base-search.net recherchieren. Eine ähnliche Funktionalität, aber eher international orientiert, bietet die Seite https://eric.ed.gov.
 
 
 

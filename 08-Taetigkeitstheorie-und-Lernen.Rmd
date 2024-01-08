@@ -1,5 +1,4 @@
 <!--
-
 # (PART\*) Lernprozesse gestalten {.unnumbered}
 
 # Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
@@ -26,7 +25,7 @@ Im Rahmen der *Lerntätigkeit* führt dies dann zu ***Lernhandlungen***. @Lompsc
 Lernhandlungen sind relativ geschlossene und abgrenzbare, zeitlich und logisch strukturierte Abschnitte im Verlauf der Lerntätigkeit, die ein konkretes Lernziel realisieren, durch bestimmte Lernmotive angetrieben werden und entsprechend den konkreten Lernbedingungen durch den Einsatz äußerer und verinnerlichter Lernmittel in einer jeweils spezifischen Folge von Teilhandlungen vollzogen werden.
 :::
 
--->
+
 
 <!-- ### Typische Lernhandlungen
 
@@ -34,7 +33,7 @@ Lernhandlungen sind dabei an den Lerngegenstand gebunden, wobei sich übergeordn
 -->
 
 
-<!--
+<!-- 
  Aufbauend auf Lernziele können nun Lernhandlungen ausgebildet (also ausgeführt und verinnerlicht) werden. Welche Schritte dafür notwendig sind, wird in Kapitel \@ref(lernhandlungen-ausbilden) dargestellt. An dieser Stelle sollten zunächst typische Lernhandlungen für den Mathematikunterricht dargestellt werden. Diese sind unabhängig von konkreten Lerngegenständen, wurden von  dargestellt.
 
 So können etwa als *Elementare Aneignungshandlungen* das **Identifizieren** und **Realisieren** genannt werden. Idenzifizieren ist die Prüfung der Passung eines gegebenen Objekt zur einer vorgegebenen Objektklasse und Realisieren das Erzeugen eines entsprechenden Repräsentanten. Identifizierungs- und Realisierungshandlungen sind v. a. bei der Erstbegegnung mit einem neuen Lerngegenstand -- insbesondere bei Begriffen -- von hoher Relevanz. Sie sind, in verinnerlichter Form, Voraussetzung für die noch folgenden Handlungsarten (und damit letztlich auch Bestandteile von ihnen).
@@ -134,12 +133,12 @@ Um die Lernhandlungen zu *verinnerlichen* (genauer: um sie *anzueignen*, was ste
 
 * **Etappe der geistigen Handlung**: Die Handlungen werden nun rein kognitiv durchgeführt und bedürfen weder des Materials noch der Sprache.
 
-Diese Etappen führen letztlich dazu, die Lernhandlungen (und damit auch den Lerngegenstand, an dem diese Handlungen durchgeführt werden) psychisch abbilden zu können, was zur »Verallgemeinerung, Verkürzung und Beherrschung« der Handlungen führt [@Steinhofel1988 19]. Abbildung \@ref(fig:Etappen) zeigt hierzu einige Möglichkeiten für den Mathematikunterricht.
+Diese Etappen führen letztlich dazu, die Lernhandlungen (und damit auch den Lerngegenstand, an dem diese Handlungen durchgeführt werden) psychisch abbilden zu können, was zur »Verallgemeinerung, Verkürzung und Beherrschung« der Handlungen führt [@Steinhofel1988 19]. Abbildung \@ref(fig:Etappen) zeigt hierzu einige Realisierungsmöglichkeiten für den Mathematikunterricht.
 
 (ref:citeEtappen) Beispiele zur etappenweisen Verinnerlichung von Handlungen im Mathematikunterricht nach @Steinhofel1988 [19]
 
 ```{r Etappen, echo=FALSE, fig.cap="(ref:citeEtappen)", fig.align='center', out.width='90%'}
-knitr::include_graphics("pictures/6-Etappen.png")
+knitr::include_graphics("pictures/8-Etappen.png")
 ```
 
 ### Handlungskontrolle
@@ -164,13 +163,7 @@ Im Folgenden wird dargestellt, wie die in diesem Kapitel dargestellten Prozesssc
 
 * Für die **Motivierung und Zielbildung** sollte ein `r concrete("**sinnstiftender Kontext**")` herangezogen werden, der in besonderer Weise charakteristisch für den zu erlernenden Lerngegenstand ist. Die `r concrete("**Kernidee in der Vorschauperspektive**")` unterstützt bei der Zielbildung, um das Wesen des neuen Lerngegenstands im Vorfeld deutlich machen zu können und die erwünschten Handlungsergebnisse im Blick zu haben. Es ist durchaus möglich, dass die explizite Lernzielformulierung in Form der `r concrete("**Kernfragen**")` erfolgt. Auch das `r semantic("**Explizitmachen fundamentaler Ideen**")` kann die Einordnung des neuen Lerngegenstands unterstützen.^[Dies ist eine Adaption eines bei @Reitz-Koncebovski2018 [182] dargestellten Gestaltprinzips fachwissenschaftlicher Lehrveranstaltungen in der Lehramtsausbildung.]
 
-* Die **etappenweise Verinnerlichung von Handlungen** kann dabei unterstützen, `r semantic("**Grundvorstellungen aufzubauen**")`. So stellen bspw. @Wartha2011 [11] ein Vier-Phasen-Modell vor, dass stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin erinnert, siehe Abbildung \@ref(fig:GVVerinnerlichen) (wobei die dort verwendeten Farben nichts mit den hier im Skript genutzten Farben für die vier Ebenen zu tun haben). Dabei verwendete `r semantic("**Arbeitsmittel**")` dienen als **Orientierungshilfe** und unterstützen die Aneignung.
-
-(ref:citeGVVerinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11]
-
-```{r GVVerinnerlichen, echo=FALSE, fig.cap="(ref:citeGVVerinnerlichen)", fig.align='center', out.width='90%'}
-knitr::include_graphics("pictures/5-GVverinnerlichen.png")
-```
+* Die **etappenweise Verinnerlichung von Handlungen** kann dabei unterstützen, `r semantic("**Grundvorstellungen aufzubauen**")`. Das in Abb. \@ref(fig:GVverinnerlichen) dargestellte Phasenmodell von @Wartha2011 [11] erinnert stark an die etappenweise Verinnerlichung von Lernhandlungen nach Gal'perin. Dabei verwendete `r semantic("**Arbeitsmittel**")` und `r semantic("**Repräsentationen**")` können als **Orientierungshilfe** dienen und unterstützen die Aneignung.
 
 * In der **Handlungskontrolle** wird über den Abgleich zwischen Handlungszielen, -durchführung und -ergebnissen die `r concrete("**Kernidee in der Rückschauperspektive**")` aufgegriffen.
 
