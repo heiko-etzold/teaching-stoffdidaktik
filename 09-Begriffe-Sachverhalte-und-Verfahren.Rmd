@@ -1,7 +1,8 @@
 <!--
+
 # Begriffe, Sachverhalte und Verfahren
 
-Aufbauend auf die tätigkeitstheoretischen Grundlagen soll in diesem Kapitel dargestellt werden, wie damit das Unterrichten von Begriffen, Sachverhalten und Verfahren gestaltet werden kann.
+Aufbauend auf den tätigkeitstheoretischen Grundlagen soll in diesem Kapitel dargestellt werden, wie damit das Unterrichten von Begriffen, Sachverhalten und Verfahren gestaltet werden kann.
 
 
 ## Begriffe
@@ -38,7 +39,20 @@ Table: (\#tab:begriffsschritte) Teilprozesse zur Begriffsbildung und -aneignung,
 Vertiefende Übungen ergeben sich v. a. durch die Einordnung des neu erlernten Begriffs in ein **Begriffssystem**. Hinzu kommt die Verwendung **alternativer Definitionen** sowie die **Variablität in der Verwendung von Bezeichnungen** (z. B. Variablen). Auch können **Grenz- und Sonderfälle** des Begriffs diskutiert werden, um ein vertieftes Verständnis zu gewinnen. Eine systematische Übersicht, auch für ein ähnliches Vorgehen bei Sachverhalten und Verfahren, bietet Tabelle \@ref(tab:festigen).
 
 
-Eine Vorgehensweise, die die Begriffsbildung, -aneignung und -festigung in eine unterrichtseffektive Struktur bringt, ist das Vorgehen nach dem ***Aufsteigen vom Abstrakten zum Konkreten***. Sie finden dieses im Anhang \@ref(aufsteigen-vom-abstrakten-zum-konkreten) dieses Skritps.
+Nach @Vollrath2012 [48] ist ein Begriff verstanden, wenn Schülerinnen und Schüler
+
+* die Bezeichnung des Begriffs kennen,
+* Beispiele angeben und jeweils begründen können, weshalb es sich um ein Beispiel handelt, 
+* begründen können, weshalb etwas nicht unter den Begriff fällt,
+* charakteristische Eigenschaften des Begriffs kennen, 
+* Oberbegriffe, Unterbegriffe und Nachbarbegriffe kennen, 
+* mit dem Begriff beim Argumentieren und Problemlösen arbeiten können.
+
+
+Eine Vorgehensweise, die die Begriffsbildung, -aneignung und -festigung in eine unterrichtseffektive Struktur bringt, ist das Vorgehen nach dem ***Aufsteigen vom Abstrakten zum Konkreten***, siehe Kapitel \@ref(aufsteigen-vom-abstrakten-zum-konkreten).
+
+
+
 
 ## Sachverhalte
 
@@ -139,10 +153,6 @@ In den letzten Abschnitten hat sich gezeigt, dass die Behandlung von Begriffen, 
 Table: (\#tab:festigen) Möglichkeiten zur Festigung von Begriffen, Sachverhalten und Verfahren, nach @Steinhofel1988 [34]
 
 
-Für die Unterrichtgestaltung wurde bisher verschwiegen, dass die Lernhandlungen selbstverständlich auf Vorkenntnisse und -fertigkeiten aufbauen und dieser bedürfen. Es ist daher unerlässlich, das für die neu zu erwerbenden Lernhandlungen benötigte **Ausgangsniveau zu sichern** (was dann die *Zone der aktuellen Leistung* charakterisiert). Dies kann in **Wiederholungsphasen** zum aktuell benötigten Stoff erfolgen, dauerhaft und langfristig auch in (unbenoteten) **täglichen Übungen / vermischten Kopfübungen** zum »Wachhalten von Basiswissen« [siehe auch @Bruder2008b].
+Weiterführende Möglichkeiten zur Erarbeitung von Begriffen, Sachverhalten und Verfahren stellen @Vollrath2012 [{227 ff.}] dar.
 
-All diese Überlegungen sind jedoch nicht als starres Unterrichtsvorgehen aufzufassen, sondern sollen vielmehr Ihnen als Lehrkraft eine *Orientierung* bieten, Ihren Unterricht zu strukturieren und entsprechende Lernumgebungen zu gestalten.
 -->
-<!-- Unterrichtsphasen nach Bruder 1991 -->
-
-

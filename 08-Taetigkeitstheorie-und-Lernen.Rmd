@@ -1,7 +1,19 @@
-<!--
 # (PART\*) Lernprozesse gestalten {.unnumbered}
 
 # Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
+
+> **Ziele**
+>
+> + Sie kennen Grundideen der Tätigkeitstheorie, insbesondere bezüglich Lehr-Lern-Prozesse.  
+> + Sie könnten den Zusammenhang zwischen lernpsychologischen Hintergründen und der Phasenstruktur von Unterricht nachvollziehen.  
+> + Sie können die Notwendigkeit von Orientierungshilfen begründen und die etappenweise Ausbildung geistiger Handlungen beschreiben.
+>
+> **Material**
+>
+> + Folien zum Kapitel 8 ([pdf](files/Stoffdidaktik2023-08-TaetigkeitstheorieUndLernen.pdf), [Keynote](files/Stoffdidaktik2023-08-TaetigkeitstheorieUndLernen.key))
+
+
+
 
 ## Lerntätigkeit und Lernhandlung {#lerntaetigkeit-und-lernhandlung}
 
@@ -33,11 +45,8 @@ Lernhandlungen sind dabei an den Lerngegenstand gebunden, wobei sich übergeordn
 -->
 
 
-<!-- 
- Aufbauend auf Lernziele können nun Lernhandlungen ausgebildet (also ausgeführt und verinnerlicht) werden. Welche Schritte dafür notwendig sind, wird in Kapitel \@ref(lernhandlungen-ausbilden) dargestellt. An dieser Stelle sollten zunächst typische Lernhandlungen für den Mathematikunterricht dargestellt werden. Diese sind unabhängig von konkreten Lerngegenständen, wurden von  dargestellt.
-
-So können etwa als *Elementare Aneignungshandlungen* das **Identifizieren** und **Realisieren** genannt werden. Idenzifizieren ist die Prüfung der Passung eines gegebenen Objekt zur einer vorgegebenen Objektklasse und Realisieren das Erzeugen eines entsprechenden Repräsentanten. Identifizierungs- und Realisierungshandlungen sind v. a. bei der Erstbegegnung mit einem neuen Lerngegenstand -- insbesondere bei Begriffen -- von hoher Relevanz. Sie sind, in verinnerlichter Form, Voraussetzung für die noch folgenden Handlungsarten (und damit letztlich auch Bestandteile von ihnen).
-
+Aufbauend auf Lernziele können nun Lernhandlungen ausgebildet (also ausgeführt und verinnerlicht) werden. So können etwa als *Elementare Aneignungshandlungen* das **Identifizieren** und **Realisieren** genannt werden. Idenzifizieren ist die Prüfung der Passung eines gegebenen Objekt zur einer vorgegebenen Objektklasse und Realisieren das Erzeugen eines entsprechenden Repräsentanten. Identifizierungs- und Realisierungshandlungen sind v. a. bei der Erstbegegnung mit einem neuen Lerngegenstand -- insbesondere bei Begriffen -- von hoher Relevanz. Sie sind, in verinnerlichter Form, Voraussetzung für die noch folgenden Handlungsarten (und damit letztlich auch Bestandteile von ihnen). 
+Darauf aufbauend können *Grundhandlungen* (**Erkennen**, **Beschreiben**, **Verknüpfen**, **Anwenden**^[Um hier einer ggf. eingeschränkten Auffassung des Vorgehens bei Sach- oder Modellierungsaufgaben (»Anwenden auf die Realität«) vorzubeugen, sei auf die Beschreibung verwiesen: »Feststellen der Übereinstimmung von den Bedingungen der Aufgabenstellung mit der Ausgangskonstellation der zu realisierenden gegebenen (oder erzeugten) Handlungsvorschrift (Identifizieren) und ggf. Herstellen einer solchen Übereinstimmung (Transferieren)« [@Feldt-Caesar2017 93]] und **Begründen**) sowie *komplexe Handlungen* (**Suchen**, **Planen**, **Ausführen** und **Kontrollieren**) erfolgen. Diese Handlungen sind i. d. R. in Festigungs- und Vertiefungsphasen bzw. bei Modellierungs- und Problemlösesituationen von Relevanz. Diese Art der Handlungskategorisierung geht auf @Bruder1989 zurück und wird nahezu unverändert auch bei @Feldt-Caesar2017 [{87 ff.}] dargestellt.
 
 (ref:citeHandlungSchaf) Lernhandlung in der App *Winkel-Farm* [@Etzold:2019]
 
@@ -48,15 +57,13 @@ So können etwa als *Elementare Aneignungshandlungen* das **Identifizieren** und
 > ```
 
 
-
-Darauf aufbauend können *Grundhandlungen* (**Erkennen**, **Beschreiben**, **Verknüpfen**, **Anwenden**^[Um hier einer ggf. eingeschränkten Auffassung des Vorgehens bei Sach- oder Modellierungsaufgaben (»Anwenden auf die Realität«) vorzubeugen, sei auf die Beschreibung verwiesen: »Feststellen der Übereinstimmung von den Bedingungen der Aufgabenstellung mit der Ausgangskonstellation der zu realisierenden gegebenen (oder erzeugten) Handlungsvorschrift (Identifizieren) und ggf. Herstellen einer solchen Übereinstimmung (Transferieren)« [@Feldt-Caesar2017 93]] und **Begründen**) sowie *komplexe Handlungen* (**Suchen**, **Planen**, **Ausführen** und **Kontrollieren**) erfolgen. Diese Handlungen sind i. d. R. in Festigungs- und Vertiefungsphasen bzw. bei Modellierungs- und Problemlösesituationen von Relevanz. Diese Art der Handlungskategorisierung geht auf @Bruder1989 zurück und wird nahezu unverändert auch bei @Feldt-Caesar2017 [{87 ff.}] dargestellt.
-
+Welche Schritte für die Ausbildung von Lernhandlungen notwendig sind, , wird in Abschnitt \@ref(lernhandlungen-ausbilden) dargestellt.
 Zu betonen ist, dass die Lernhandlungen zwar einerseits notwendig sind, um sich einem Lerngegenstand zu nähern, also die **Handlungen als *Lernmittel*** aufgefasst werden können. Andererseits müssen die Lernhandlungen jedoch auch erst einmal ausgeprägt werden, also auch die **Handlungen als *Lerngegenstand*** selbst aufgefasst werden (was wiederum nur am konkreten mathematischen Unterrichtsthema realisiert werden kann). Diese Sichtweise sollte Sie als Lehrkraft dafür sensibilisieren, dass Sie nicht per se davon ausgehen können, dass Ihre Schülerinnen und Schüler über entsprechende Handlungen verfügen, um neue mathematische Themen zu erlernen, sondern an diesen Themen die Handlungen erarbeitet und mit den Handlungen die Mathematik erarbeitet wird. Auch hier kann wieder von der zunächst gemeinschaftlichen Handlungsausführung (in der Klassensituation und mit Unterstützung von Personen, die über das anzueignende Wissen verfügen) zur individuellen Handlungsausführung (und damit persönlichen Aneignung des Lerngegenstands) übergegangen werden.
 
 
 ## Motivierung und Zielbildung
 
-Die obigen Überlegungen zeigen, dass die **Motivierung und Zielbildung** bedeutsame Bestandteile eines Lernprozesses sind, sich also in der Gestaltung konkreter Unterrichtssituationen widerspiegeln müssen -- durch entsprechende Phasen innerhalb einer Unterrichtsstunde. Erst wenn Motive und Ziele ausgeprägt sind, kann es in weiteren Unterrichtsphasen zur **Ausbildung der Lernhandlungen** kommen (siehe Abschnitt \@ref(typische-lernhandlungen) und Kapitel \@ref(lernhandlungen-ausbilden)).
+Die obigen Überlegungen zeigen, dass die **Motivierung und Zielbildung** bedeutsame Bestandteile eines Lernprozesses sind, sich also in der Gestaltung konkreter Unterrichtssituationen widerspiegeln müssen -- durch entsprechende Phasen innerhalb einer Unterrichtsstunde. Erst wenn Motive und Ziele ausgeprägt sind, kann es in weiteren Unterrichtsphasen zur **Ausbildung der Lernhandlungen** kommen (siehe auch Abbildung \@ref(fig:Unterrichtsphasen)).
 
 ### Zone der nächsten Entwicklung
 
@@ -167,6 +174,19 @@ Im Folgenden wird dargestellt, wie die in diesem Kapitel dargestellten Prozesssc
 
 * In der **Handlungskontrolle** wird über den Abgleich zwischen Handlungszielen, -durchführung und -ergebnissen die `r concrete("**Kernidee in der Rückschauperspektive**")` aufgegriffen.
 
+Für die Unterrichtgestaltung wurde bisher verschwiegen, dass die Lernhandlungen selbstverständlich auf Vorkenntnisse und -fertigkeiten aufbauen und dieser bedürfen. Es ist daher unerlässlich, das für die neu zu erwerbenden Lernhandlungen benötigte **Ausgangsniveau zu sichern** (was dann die *Zone der aktuellen Leistung* charakterisiert). Dies kann in **Wiederholungsphasen** zum aktuell benötigten Stoff erfolgen, dauerhaft und langfristig auch in (unbenoteten) **täglichen Übungen / vermischten Kopfübungen** zum »Wachhalten von Basiswissen« [siehe auch @Bruder2008b].
+
+Insgesamt ergeben sich aus den Überlegungen **typische Phasen einer Unterrichtsstunde**. Abbildung \@ref(fig:Unterrichtsphasen) zeigt diese in Anlehnung an @Bruder1991 mit ihrem Zusammenhang zu den stoffdidaktichen Theoriebestandteilen.
+
+(ref:citeUnterrichtsphasen) Typische Unterrichtsphasen nach @Bruder1991
+
+```{r Unterrichtsphasen, echo=FALSE, fig.cap="(ref:citeUnterrichtsphasen)", fig.align='center', out.width='95%'}
+knitr::include_graphics("pictures/8-Unterrichtsphasen.png")
+```
+
+
+All diese Überlegungen sind jedoch nicht als starres Unterrichtsvorgehen aufzufassen, sondern sollen vielmehr Ihnen als Lehrkraft wiederum eine *Orientierung* bieten, Ihren Unterricht zu strukturieren und entsprechende Lernumgebungen zu gestalten.
+
 
 
 ## Zum Nachbereiten {#taetigkeitstheorie-nachbereitung}
@@ -177,6 +197,5 @@ Lösen sie folgende Aufgaben am Beispiel des Lerngegenstands *Vierecksarten*.
 
 2. Geben Sie mögliche Lernziele für den Lerngegenstand an.
 
-3. Konkretisieren Sie einige der für den Mathematikunterricht typischen Lernhandlungen am Lerngegenstand.
+3. Entwerfen Sie eine Orientierungshilfe zum Identifizieren von Vierecksarten.
 
--->
