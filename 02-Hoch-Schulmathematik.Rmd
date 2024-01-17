@@ -60,7 +60,7 @@ Die Gleichmächtigkeit (z. B. endlicher) Mengen $M$ und $N$ wird über die Exis
 knitr::include_graphics("pictures/2-Bijektion.png")
 ```
 
-Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und transitiv. Damit können Äquivalenzklassen gebildet werden, die die Mächtigkeit der Menge angeben. Statt $[4]$ als Bezeichner für die Äquivalenzklasse von vierelementigen Mengen kann dann auch kurz die Zahl $4$ genutzt werden. Die Addition $n+k$ entspricht dann der Mächtigkeit der Vereinigungsmenge von $[n]$ und $[k]$, vgl. Abbildung \@ref(fig:Vereinigung).
+Diese Relation ist eine Äquivalenzrelation, also symmetrisch, reflexiv und transitiv. Damit können Äquivalenzklassen gebildet werden, die die Mächtigkeit der Menge angeben. $4$ ist dann der Bezeichner für die Äquivalenzklasse von vierelementigen Mengen. Die Addition $n+k$ entspricht dann der Mächtigkeit der Vereinigungsmenge von Mengen mit den Mächtigkeiten $n$ und $k$, vgl. Abbildung \@ref(fig:Vereinigung).
 
 
 
