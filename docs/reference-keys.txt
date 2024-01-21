@@ -143,6 +143,7 @@ verfahren-gewinnen
 verfahren-aneignen
 verfahren-festigen
 zusammenfassung
+intermezzo-arithmetisches-mittel
 sammlung-von-lernbereichen
 quellenarbeit
 vollständiges-literaturverzeichnis

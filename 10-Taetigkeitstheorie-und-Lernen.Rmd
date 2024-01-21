@@ -1,11 +1,7 @@
-<!-- #  (APPENDIX) Anhang {-} -->
+# Intermezzo: Arithmetisches Mittel
 
-<!--
-# Aufsteigen vom Abstrakten zum Konkreten
+*Das Skript wird zu diesem Kapitel demnächst ergänzt.*
 
-blubb
-
--->
 
 <!-- <!-- # Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen} --> 
 
