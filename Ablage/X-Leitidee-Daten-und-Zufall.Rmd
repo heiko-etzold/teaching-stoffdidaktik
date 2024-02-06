@@ -1,0 +1,167 @@
+<!-- # Leitidee Daten und Zufall
+
+
+> **Material**
+>
+> + Folien zur Vorlesung zur Leitidee Daten und Zufall ([pdf](files/Stoffdidaktik-WiSe2223-Kap14.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap14.key))
+>
+> **Literaturempfehlungen**
+>
+> - @Sill2019: *Didaktik der Stochastik in der Primarstufe*
+> - @Kruger2015: *Didaktik der Stochastik in der Sekundarstufe I*
+> - @Tietze:2002: *Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik*
+
+
+## Strukturierung der Leitidee {#strukturierung-der-leitidee-daten-und-zufall}
+
+Dokument | Bezeichnung der Leitidee 
+:----|:----
+Bildungsstandards Primarbereich (2005) | Daten, Häufigkeit und Wahrscheinlichkeit
+Bildungsstandards Primarbereich (2022) | Daten und Zufall
+Bildungsstandards Mittlerer Schulabschluss (2004) | Daten und Zufall
+Bildungsstandards Erster und Mittlerer Schulabschluss (2022) | Daten und Zufall
+Rahmenlehrplan Brandenburg, Jahrgangsstufen 1 -- 10 | Daten und Zufall
+Bildungsstandards Allgemeine Hochschulreife (2012) | Daten und Zufall
+Rahmenlehrplan Brandenburg, Gymnasiale Oberstufe | Daten und Zufall
+
+Table: (\#tab:bezeichnung-zahl) Bezeichnungen der Leitidee Daten und Zufall
+
+Auch für diese Leitidee hat das @LISUMa für die Jahrgangsstufen 1 -- 10 ein Konzeptbild herausgegeben (siehe Abbildung \@ref(fig:KonzeptDatenZufall)), ergänzt durch einen didaktischen Kommentar von @Kortenkamp und Materialien zur Diagnose und Förderung [@LISUM].
+
+(ref:citeKonzeptDatenZufall) Konzeptbild zur Leitidee *Daten und Zufall* [@LISUMa]
+
+```{r KonzeptDatenZufall, echo=FALSE, fig.cap="(ref:citeKonzeptDatenZufall)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/14-KonzeptDatenZufall.png")
+```
+
+Aus den Beschreibungen in den Bildungsstandards für die Sekundarstufen [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022 {22 f.}; @KMK:2012 {21}] lassen sich folgende bedeutsamen Lerngegenstände folgern:
+
+> **Bedeutsame Lerngegenstände**
+>
+> - statistische Erhebungen und deren Darstellungen
+> - Simulationen
+> - statistische Kenngrößen (z. B. Minimum, Maximum, arithmetisches Mittel, Median, Spannweite, Quartile),
+> - Diagramme (z. B. Säulen- oder Balkendiagramm, Histogramme, Kreisdiagramm, Liniendiagramm, Boxplot)
+> - Zufallserscheinungen und Wahrscheinlichkeitsaussagen
+> - Zufallsexperimente, relativen Häufigkeiten und Wahrscheinlichkeiten
+> - ein- oder mehrstufige Zufallsexperimente
+> - bedingte Wahrscheinlichkeiten
+> - Baumdiagramme und Vierfeldertafeln
+> - stochastische Unabhängigkeit
+> - diskrete und stetige Zufallsgrößen
+> - Binomialverteilung
+> - Normalverteilung
+> - Hypothesentests
+
+
+
+Im Folgenden sollen einige Grundgedanken zur Stochastik, insbesondere im Zusammenhang mit dem Begriff des *stochastischen Vorgangs*, diskutiert werden. Anschließend erfolgen noch Darstellungen zum Umgang mit bedingten Wahrscheinlichkeiten. 
+
+
+## Stochastische Vorgänge
+
+### »Zufallsexperiment«-Kritik
+
+@Kruger2015 [{219 f.}] argumentieren, dass der häufig verbreitete Begriff des **Zufallsexperiments** aus fachlicher wie didaktischer Sicht ungeeignet für den Unterricht erscheint. Sie begründen dies u. a. mit der Nichtnotwendigkeit des Begriffs in der Fachmathematik und damit, dass es sich nicht um ein *Experiment* im naturwissenschaftlichen Sinne der Hypothesenüberprüfung unter kontrollierten Bedingungen handele -- die oftmals formulierte Regel der »beliebige[n] Wiederholbarkeit unter gleichen Bedingungen« sei letztlich schon ein Modell mit der Annahme der stochastischen Unabhängigkeit [@Kruger2015 219]. Spiele, in denen der Zufall eine Rolle spielt, sind für den Mathematikunterricht höchst relevant -- sollten aber nicht als Experimente aufgefasst werden. Stattdessen werden für die Grundschule der Begriff ***Vorgang mit mehreren möglichen Ergebnissen*** und für die weiterführenden Schulen der Begriff ***stochastischer Vorgang*** vorgeschlagen [@Kruger2015 220]
+
+Für die tatsächliche Unterrichtsausführung ist dies insofern problematisch, da der Begriff *Zufallsexperiment* i. d. R. Bestandtteil der Lehrpläne ist [siehe z. B. @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2015a {59, 61}] und damit unterrichtet werden muss. Sie als Lehrkraft sollten also stets die an der Verwendung des Begriffs vorgebrachte Kritik im Hinterkopf haben und dies sensibel bei Ihrer Unterrichtsgestaltung beachten. Dies kann etwa bedeuten, dass Sie dennoch eine *übliche* Definition des Begriffs Zufallsexperiment nutzen (siehe Abbildung \@ref(fig:DefinitionZufallsexperiment)), aber im Unterricht die Unterschiede zu *echten* Experimenten thematisieren und über geeignete Beispiele und Gegenbeispiele den Begriff ausschärfen.
+
+(ref:citeDefinitionZufallsexperiment) Schulbuchdefinition des Begriffs *Zufallsexperiment* [@Adam2016 18]
+
+```{r DefinitionZufallsexperiment, echo=FALSE, fig.cap="(ref:citeDefinitionZufallsexperiment)", fig.align='center', out.width='95%'}
+knitr::include_graphics("pictures/14-DefinitionZufallsexperiment.png")
+```
+
+### Modellierungsstruktur
+
+Grundsätzlich ist es Aufgabe der Stochastik, reale Prozesse zu modellieren, um diese mit mathematischen Mitteln, also einem ***theoretischen Modell***, greifbar (und bearbeitbar) zu machen. Dazu ist es normalerweise notwendig, die ***reale Situation*** erst einmal zu vereinfachen und in ein ***Realmodell*** zu überführen (siehe Abbildung \@ref(fig:Modelle)). Dieses Vorgehen ist nicht spezifisch für die Stochastik -- jedoch ist der Zwischenschritt des Realmodells hier aufgrund der vielfältigen Modellierungsmöglichkeiten von besonderer Bedeutung. Der Begriff *stochastischer Vorgang* ist dann »auf der Ebene der Realmodelle angesiedelt«, mit der Verwendung des Begriffs *Zufallsexperiment* dagegen »verwischt man die Grenzen zwischen Realität und Modellebene« [@Kruger2015 {219 f.}].
+
+(ref:citeModelle) Modellierungsstruktur in der Stochastik [@Kruger2015 13]
+
+```{r Modelle, echo=FALSE, fig.cap="(ref:citeModelle)", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/14-Modelle.png")
+```
+
+Aufbauend auf diese Struktur [die »nicht als expliziter Gegenstand des Stochastikunterrichts aufzufassen« ist, @Kruger2015 13] können Sie Ihre Diskussionen im Unterricht leiten und Schwierigkeiten der Schülerinnen und Schüler besser einordnen, z. B.:
+
+* Wenn ein Würfel geworfen wird (reale Situation) und man die Wahrscheinlichkeit für eine Augenzahl angibt (theoretisches Modell), geht man davon aus, dass der Würfel aus sechs identischen Seiten besteht und in sich homogen ist (Realmodell). Mögliche Fragen, die auf eine solche Denkweise hinarbeiten, könnten sein: *Welche Annahmen triffst du? Welche Eigenschaften muss der Würfel haben, damit du so rechnen darfst?*
+
+* Wenn erstmals *Zufallsgeräte* (übrigens auch ein Begriff auf der Ebene der Realmodelle) genutzt werden, muss eine Untergeneralisierung vermieden werden, es sollten also frühzeitig auch nicht-Laplace-Geräte eingesetzt werden, wie Reißzwecken, Quader, sogenannte Riemer-Würfel [@Riemer1988] oder auch *Würfel-Schweine* [@dewiki:214496187].
+
+* Wenn eine Schülerin oder ein Schüler nicht in der Lage ist, für das Ziehen einer Herz-Karte aus einem Skatblatt die Wahrscheinlichkeit anzugeben, sollten Sie als Lehrkraft herausfinden, auf welcher Ebene Schwierigkeiten bestehen. Wird die reale Situation nicht verstanden (weil z. B. die Spielkartenfarben oder der Begriff *Skatblatt* unbekannt sind)? Bestehen Schwierigkeiten im Aufstellen eines Realmodells (dass also das Ziehen jeder Karte mit derselben Wahrscheinlichkeit verbunden ist und dafür die Anzahl der relevanten Karten bestimmt werden muss)? Oder sind Defizite in der Theorie verortet (weil etwa nicht die Laplace-Formel für die Berechnung der Wahrscheinlichkeit angewandt werden kann oder gar Schwierigkeiten bei der Division bestehen)?
+
+
+
+### Prozessbetrachtung
+
+Zur Unterstützung der Schülerinnen und Schüler in der Beschreibung stochastischer Vorgänge schlagen @Kruger2015 [{14 f.}] die Nutzung einer **Prozessbetrachtung** vor (siehe Abbildung \@ref(fig:Prozessbetrachtung)). 
+
+(ref:citeProzessbetrachtung) Vorgangsbetrachtung nach @Kruger2015 [16]
+
+```{r Prozessbetrachtung, echo=FALSE, fig.cap="(ref:citeProzessbetrachtung)", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/14-Prozessbetrachtung.png")
+```
+
+
+
+Es handelt sich hierbei um eine schematische Darstellung, wobei vier wesentliche Fragen relevant sind [@Kruger2015 15]:
+
+1. »Welcher Vorgang läuft mit welchen Objekten oder Personen ab?« 
+2. »Welches Merkmal interessiert mich? Wie kann ich das Merkmal erfassen?« 
+3. »Welche Ergebnisse sind möglich?«
+4. »Welche Bedingungen beeinflussen den Vorgang?«
+
+
+Das Schema kann im tätigkeitstheoretischen Sinne als *Lernmodell* aufgefasst werden, da es die Struktur des stochastischen Vorgangs darstellt und den Weg zur Struktur sichtbar macht. Ein solches Vorgehen ist dabei sowohl für Fragen der Wahrscheinlichkeitsrechnung als auch für die Beschreibung von Statistiken möglich, womit auch beides als Teildisziplinen der Stochastik sichtbar werden kann. Abbildung \@ref(fig:Prozesse) zeigt exemplarisch zwei derartige Prozessbetrachtungen. 
+
+```{r Prozesse, echo=FALSE, fig.cap="Prozessbetrachtungen für zwei stochastische Vorgänge", fig.align='center', out.width='95%'}
+knitr::include_graphics("pictures/14-Prozesse.png")
+```
+
+## Bedingte Wahrscheinlichkeiten
+
+Bei der Betrachtung von Situationen, in denen bedingte Wahrscheinlichkeiten eine Rolle spielen, haben Schülerinnen und Schüler (und nicht nur die) oftmals die Schwierigkeit, die verschiedenen Bedingungen auseinanderzuhalten, weshalb fehlerhafte Schlüsse gezogen werden [vgl. @Binder2020]. 
+
+Ist beispielsweise bekannt, dass ein Corona-Test mit 90%-iger Wahrscheinlichkeit eine Person, die an Corona erkrankt ist, auch positiv testet und mit 95%-iger Wahrscheinlichkeit eine Person, die nicht an Corona erkrankt ist, auch negativ testet, so stellt sich die Frage, wie hoch die Wahrscheinlichkeit ist, dass man tatsächlich an Corona erkrankt ist, wenn der Test positiv ausfällt. Um diese Frage zu beantworten, ist es weiterhin noch nötig zu wissen (oder zu schätzen), wie hoch der Anteil tatsöchlich erkrankter Personen in der Gesamtbevölkerung ist. Geht man von einem Anteil von 1% aus, so stellt Abbildung \@ref(fig:Vierfeld) eine (nicht maßstäbliche) Vierfeldertafel dieser Situationen dar.
+
+```{r Vierfeld, echo=FALSE, fig.cap="Vierfeldertafel für bedingte Wahrscheinlichkeiten", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/14-Vierfeld.png")
+```
+
+
+Es sind demnach bekannt:
+
+\begin{align}
+P(C) &= 0,\!01 \ \mathrm{(Prävalenz)}\\
+P_C(T) &= 0,\!95 \ \mathrm{(Sensitivität)}\\
+P_{\neg C}(\neg T) &= 0,\!99 \ \mathrm{(Spezifität)}
+\end{align}
+
+Grundsätzlich gilt als Definition für bedingte Wahrscheinlichkeiten: $$P_B(A) = \frac{P(A\cap B)}{P(B)}$$
+
+Nach dem Satz von Bayes und dem Satz von der totalen Wahrscheinlichkeit gilt:
+$$P_B(A) = \frac{P(A)\cdot P_A(B)}{P(B)} = \frac{P(A)\cdot P_A(B)}{P(A)\cdot P_A(B)+P(\neg A)\cdot P_{\neg A}(B)}$$
+Hieran zeigt sich schon, dass Schülerinnen und Schüler Schwierigkeiten haben könnten, wenn sie nicht die hinter den Formeln liegenden Vorstellungen entwickeln, welche Wahrscheinlichkeiten jeweils aufeinander Bezug genommen werden. Geeignete Repräsentationen sollen nun helfen, die Zusammenhänge nachvollziehen zu können. Die **Vierfeldertafel** aus Abbildung \@ref(fig:Vierfeld) ist eine solche. Abbildung \@ref(fig:VierfeldEinzeln) zeigt, wie die Wahrscheinlichkeiten $P(C)$, $P_C(T)$ und $P_T(C)$ darin jeweils als Anteil einer Teilmengenbeziehung aufgefasst werden können.
+
+```{r VierfeldEinzeln, echo=FALSE, fig.cap="Vierfeldertafeln zur Visualisierung der Wahrscheinlichkeiten $P(C)$, $P_C(T)$ und $P_T(C)$", fig.align='center', out.width='95%'}
+knitr::include_graphics("pictures/14-VierfeldEinzeln.png")
+```
+
+
+Als Repräsentation ebenfalls verbreitet sind sogenannte **Doppelbäume**, siehe Abbildung \@ref(fig:Doppelbaum). Auch dort kann nachvollzogen werden, welche Beziehung jeweils betrachtet wird. 
+
+
+```{r Doppelbaum, echo=FALSE, fig.cap="Doppelbaum für bedingte Wahrscheinlichkeiten", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/14-Doppelbaum.png")
+```
+
+Nach @Binder2020 bietet sich ebenfalls ein **Häufigkeitsnetz** an, siehe Abbildung \@ref(fig:Netz). Gegenüber den bisherigen Darstellungen können in diesem auch direkt die Schnittwahrscheinlichkeiten abgelesen werden. 
+
+
+```{r Netz, echo=FALSE, fig.cap="Häufigkeitsnetz für bedingte Wahrscheinlichkeiten", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/14-Netz.png")
+```
+
+Als weitere Unterstützungsmöglichkeit, so hat es sich auch in empirischen Studien gezeigt [vgl. @Binder2020], bietet es sich an, mit **absoluten Häufigkeiten statt Wahrscheinlichkeiten** in den Repräsentationen zu arbeiten. Diese bieten Schülerinnen und Schülern eine bessere Zugänglichkeit zur Thematik und über Anteilsbetrachtungen können dann auch die Wahrscheinlichkeiten bestimmt werden.^[Mathematisch präzise müsste hier von *relativen Häufigkeiten* anstatt von *Wahrscheinlichkeiten* gesprochen werden.] Als (fiktive) Anzahl für die Grundgesamtheit bietet sich eine hohe Zehnerpotenz an, da so auch noch kleine Anteile mit sinnvollen (ggf. gerundeten) ganzen Zahlen bestimmt werden können.
+
+-->

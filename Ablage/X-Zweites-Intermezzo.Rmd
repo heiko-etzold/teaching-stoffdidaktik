@@ -1,0 +1,81 @@
+
+<!-- # Zweites Intermezzo: Ganze Zahlen -->
+
+<!-- > **Ziele** -->
+<!-- > -->
+<!-- > + Sie vertiefen am Beispiel ganzer Zahlen Ihr Verständnis über den Vier-Ebenen-Ansatz, insbesondere wie aus den Ebenen heraus Rückschlüsse zum Aufbau eines Lernpfades entwickelt werden können. -->
+<!-- > -->
+<!-- > **Material** -->
+<!-- > -->
+<!-- > + Folien zur Vorlesung zum Zweiten Intermezzo ([pdf](files/Stoffdidaktik-WiSe2223-Kap9.pdf), [Keynote](files/Stoffdidaktik-WiSe2223-Kap9.key)) -->
+
+
+
+
+<!-- ## Stoffdidaktische Analyse -->
+
+<!-- ### Formale Ebene {#ganze-zahlen-formale-ebene} -->
+
+
+
+
+
+<!-- ### Semantische Ebene {#ganze-zahlen-semantische-ebene} -->
+
+
+
+<!-- ### Konkrete Ebene {#ganze-zahlen-konkrete-ebene} -->
+
+<!-- Aus den Überlegungen auf der formalen und semantischen Ebene kann als mathematischer Kern der Betrachtung ganzer Zahlen herausgearbeitet werden, dass mit diesen nun stets subtrahiert werden kann (als Neuheit gegenüber den natürlichen Zahlen) und dass in ihnen spezifische Rechenregeln gelten, die so zuvor nicht bekannt waren. Als **Kernfragen** formuliert, kann dies heißen [vgl. @Barzel2015a 80, 82]: -->
+
+<!-- - »Wie kann man rechnen, wenn man mehr wegnimmt, als man hat?« -->
+<!-- - »Wie kann man mit negativen Zahlen wiederholt dasselbe rechnen?«  -->
+
+<!-- Bei der Wahl eines geeigneten **Kontextes** besteht die Herausforderung, dass die Zahlen und Rechnungen eine Relevanz im Kontext haben und nicht nur konstruiert sind. In der zunächst naheliegenden Temperaturbetrachtung bestehen einige physikalische Schwierigkeiten, nämlich dass auf der Celsius-Skala Temperaturen stets Zustände und keine Zustandsänderungen beschreiben (letztere werden in Kelvin angeben). Auch die Existenz eines absoluten Nullpunkts ($-273,\!15\,°\mathrm{C}$) widerspricht der mathematischen Betrachtung beliebig kleiner negativer Zahlen. Hinzu kommt, dass die Gegensatz-Vorstellung keine praktische Bedeutung hat: $-2\,°\mathrm{C}$ ist nicht das Gegenteil von $2\,°\mathrm{C}$.    -->
+
+<!-- Wie schon die Beispiele zu den Grundvorstellungen in Abschnitt \@ref(ganze-zahlen-grundvorstellungen) gezeigt haben, bietet dagegen das **Guthaben-Schulden-Modell** vielfältige sinnstiftende (also lebensweltbezogene, kontextauthentische und reichhaltige) Anknüpfungspunkte. Eingeführt werden kann dieser Kontext z. B. spielerisch über Guthaben- und Schuldenkarten, wobei Würfel dafür eingesetzt werden können, wie viele Guthaben- oder Schuldenkarten man abgeben muss bzw. erhält. Über die Dokumentation von »Kontoständen und -bewegungen« kann der Prozess festgehalten werden. Weitere Anregungen zu diesem Kontext findet man auch bei @Hattermann2014 sowie @Hussmann2014. -->
+
+<!-- Während sich aus dem Kontext heraus Additions- und Subtraktionsaufgaben beschreiben lassen, bei denen die zweite Zahl positiv ist (was einer **horizontalen Mathematisierung** entspricht), sind derartige Aufgaben mit negativer zweiter Zahl besser über Pfeile auf Zahlengeraden zu veranschaulichen. Dabei kann das Rechenzeichen als Blick- ($+$ rechts, $-$ links) und das Vorzeichen der zweiten Zahl als Bewegungsrichtung ($+$ vorwärts, $-$ rückwärts) aufgefasst werden. Dieses Vorgehen bietet jedoch keine innermathematische Erklärung, vielmehr ist dies eher eine Art Eselbrücke. Eine **vertikale Mathematisierung** wird dann insbesondere bei der innermathematischen Erklärung von Multiplikationsaufgaben relevant. Abbildung \@ref(fig:Mathematisierungen) zeigt noch einmal die verschiedenen Mathematisierungsarten. -->
+
+
+<!-- ```{r Mathematisierungen, echo=FALSE, fig.cap="Horizontale (h) und vertikale (v) Mathematisierungsmöglichkeiten bei ganzen Zahlen", fig.align='center', out.width='75%'} -->
+<!-- knitr::include_graphics("pictures/9-Mathematisierungen.png") -->
+<!-- ``` -->
+
+
+<!-- Zusammenfassend lässt sich sagen: -->
+
+<!-- - `r concrete("Über den Kontext von Guthaben-Schulden-Situationen lässt sich das Wesen ganzer Zahlen erarbeiten.")` -->
+<!-- - `r concrete("Als Kernideen sollten deutlich werden, dass man mit ganzen Zahlen beschreiben kann, wie man mehr wegnehmen kann, als man hat, und dass mit ihnen die bekannten Rechengesetze erweitert werden.")`     -->
+<!-- - `r concrete("Im Guthaben-Schulden-Kontext lassen sich einige der Rechengesetze veranschaulichen, andere wiederum können über Permanenzreihen erklärt werden.")` -->
+
+<!-- ### Empirische Ebene {#ganze-zahlen-empirische-ebene} -->
+
+<!-- Neben den bereits in Abschnitt \@ref(ganze-zahlen-grundvorstellungen) erwähnten typischen Schwierigkeiten mit ganzen Zahln, sollen hier noch einige weitere aufgezählt und ihre Konsequenzen für die Entwicklung eines Lernpfades abgeleitet werden. -->
+
+<!-- - Die Einführung negativer Zahlen ist für Schülerinnen und Schüler mit hohen **sprachlichen Hürden** verbunden [siehe z. B. @Fabian2022]. Dies betrifft einmal den *negativ*-Begriff, der in der Alltagssprache i. d. R. mit etwas schlechtem verbunden ist (»negative Stimmung«), aber auch eine positive Bedeutung haben kann (»negativer Corona-Test«), im mathematischen Kontext jedoch bei der »negativen Zahl« eine gänzlich andere Bedeutung hat. `r empiric("Diese Bedeutungsvielfalt sollte daher im Unterricht angesprochen und die mathematische Bedeutung entsprechend abgegrenzt werden.")` Eine weitere Hürde ist ein **komplexer Wortschatzaufbau**, abhängig von den verwendeten Kontexten. So muss nicht nur der neue mathematische Inhalt erlernt, sondern es müssen in dem Zusammenhang auch noch die verwendeten Wörter wie »Meeresspiegel«, »Normal-Null«, »Gefrierpunkt«, »Frost« usw. mit ihrer mathematischen Bedeutung hinsichtlich der positiven und negativen Zahlen in Bezug gebracht werden. `r empiric("Dieses Problem lässt sich umgehen, indem die Einführung möglichst nur in einem Kontext erfolgt und dieser nur geringe sprachliche Hürden aufweist.")` -->
+<!-- - Aus den natürlichen Zahlen herrscht die Vorstellung vor, dass Hinzufügen, also (ggf. mehrfaches) Addieren, immer vermehre. Diese **»Hinzufügen vemehrt immer«-Vorstellung** ist jedoch **nicht mehr tragfähig**. Ihre Ursache hat die Vorstellung aus einer jahrelangen Betrachtung ausschließlich positiver Zahlen und wird teils auch sprachlich gestützt (z. B. durch »noch mehr Schulden«). `r empiric("Einer entsprechenden Übergeneralisierung muss also durch einen verständnisfördernden Aufbau entgegengewirkt werden, ggf. auch mit einer expliziten Besprechung der Fehlvorstellung.")` -->
+<!-- - Ebenfalls sichtbar wird eine Häufige **Vermischung der Rechenregeln**, z. B. die fehlerhafte Aussage »minus plus minus ist plus«, die aus einer Übertragung der Merkregel »minus mal minus ist plus« kommen könnte. Eine solche Vermischung kommt inbesondere dann zutage, wenn die Rechenregeln (falsch) auswendig gelernt und nicht mit einer geeigneten Vorstellung in Bezug gebracht werden können. `r empiric("Für die Unterrichtsdurchführung bedeutet das, dass die entsprechenden Repräsentationen (wie Pfeile am Zahlenstrahl) behutsam eingeführt, ausführlich behandelt sowie durch operatives Durcharbeiten verinnerlicht werden sollten. Auch der Verzicht auf Merksätze kann hierbei tatsächlich hilfreich sein, um nicht auf solch ein kalkülhaftes Vorgehen (welches sich dann falsch eingeprägt wird) hinzuwirken.")`  -->
+
+
+
+
+<!-- ## Lernpfad -->
+
+<!-- Aus den Überlegungen der stoffdidaktischen Analyse lässt sich nun ein möglicher Lernpfad ableiten, nach dem ganze Zahlen unterrichtet werden können. Abbildung \@ref(fig:Lernpfad) stellt diesen übersichtlich dar.  -->
+
+
+<!-- ```{r Lernpfad, echo=FALSE, fig.cap="Möglicher Lernpfad zu ganzen Zahlen", fig.align='center', out.width='100%'} -->
+<!-- knitr::include_graphics("pictures/9-Lernpfad.png") -->
+<!-- ``` -->
+
+<!-- Dabei zeigt sich, dass in der oberen Zeile zunächst die Zahlen als Objekte betrachtet werden, wobei schon vielfältige Grundvorstellungen aufgebaut werden können. Der komplette Lernpfad lässt sich dabei am Guthaben-Schulden-Modell durcharbeiten, wobei natürlich in Anwendungsituationen und zur Verinnerlichung auch weitere Kontexte nötig werden. -->
+
+<!-- Die Einführung des Zahlbereichs $\mathbb{Z}$ ist in der Darstellung gestrichelt dargestellt, da dieser nicht zwingend an der Stelle nötig ist, um anschließend mit ganzen Zahlen rechnen zu können. Hier kann auch die Leistungsfähigkeit der Klasse sowie die Schuform darüber entscheiden, ob und an welcher Stelle der Zahlbereich als Begriff eingeführt werden muss. -->
+
+<!-- Die untere Zeile beschäftigt sich nun mit dem Operieren mit ganzen Zahlen, v. a. an der Repräsentation der Zahlengeraden. Dabei werden nun die Kernfragen (bzw. deren Beantwortung) besonders deutlich und die Richtungsvorstellung erhält eine größere Bedeutung.  -->
+
+<!-- Dieser Lernpfad stellt *eine* Möglichkeit dar, ganze Zahlen zu behandeln und baut auf die obigen Diskussionen zur formalen, semantischen, konkreten und empirischen Ebene auf. Damit allein jedoch ist noch kein Unterricht möglich! Eine konkrete Unterrichtsplanung kann nun erst, auf den Lernpfad aufbauend, begonnen werden. Abhängig von der Klasse und anderen äußeren Bedingungen (»Bedingungsanalyse«) sind nun geeignete Aufgabenstellungen und Arbeitsmittel auszuwählen, methodisch in Lernumgebungen zu integrieren und damit konkrete Stundenplanungen zu entwickeln.    -->
+
+<!-- <!-- ## Zum Nachbereiten {#zweites-intermezzo-nachbereitung} --> 
+

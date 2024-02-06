@@ -10,9 +10,7 @@ Im Wintersemester 2023/24 wird die **Vorlesung semesterbegleitend** kompakt in d
 
 In der Vorlesung erhalten Sie einen **Input zu stoffdidaktischen Grundlagen**, wobei der Schwerpunkt auf **stoffdidaktischen Theorien** liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig **auf verschiedene Lerngegenstände anzuwenden**.
 
-Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. <!--Genauere Hinweise dazu finden Sie im Anhang \@ref(seminar-und-hausarbeit).-->
-
-<!--Am Ende der Veranstaltung steht damit ein **Katalog an stoffdidaktischen Analysen**, der Ihnen im weiteren Studium und in Ihrer späteren Lehrtätigkeit an der Schule dienlich sein kann.-->
+Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. 
 
 
 ## Einordnung {-}
