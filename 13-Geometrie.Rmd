@@ -16,12 +16,9 @@
 > - @Henn2015: *Didaktik der Analytischen Geometrie und Linearen Algebra: Algebraisch verstehen -- Geometrisch veranschaulichen und anwenden*
 > - @Tietze:2000: *Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra*
 
+Der Geometrieunterricht der Sekundarstufe I ist geprägt von Begriffen, Sachverhalten und Verfahren der **Elementargeometrie**. So werden geometrische Objekte (wie Punkte, Geraden, Winkel) und ihre Relationen betrachtet sowie Messungen (Längen, Flächeninhalte, Volumina, …) vorgenommen. Außerdem werden elementargeometrische Sätze (z. B. Satz des Thales, Satz des Pythagoras, Sinus- und Kosinussatz) behandelt. In Hinblick auf die Sekundarstufe II kommt es zur **Koordinatisierung** der geometrischen Objekte, üblicherweise über die Beschreibung in einem kartesischen Koordinatensystem. Liegen die geometrischen Objekte nun koordinatisiert vor, kann mit ihne in der **Analytischen Geometrie** »gerechnet« werden. Für die dazu anwendbaren Gesetzmäßigkeiten bedient man sich der **Linearen Algebra**, in der die zugrundeliegenden Strukturen veroretet sind.
 
-* Elementargeometrie
-* Koordinatisierung analytische Geometrie
-* Lineare Algebra
-
-Bsp. Vektor.
+Am Beispiel des Vektorbegriffs kann man sagen: *Elementargeometrisch* beschreibt ein Vektor eine Verschiebung in eine bestimmte Richtung um einen bestimmten Vektor. Koordinatisiert lässt sich der Vektor in der *Analytischen Geometrie* über ein Tupel beschreiben. Mit solchen Tupeln kann dann gerechnet werden, wobei entsprechende Gesetzmäßigkeiten (Vektoraddition, Skalierung) der Linearen Algebra entstammen, wo Vektoren als Elemente eines Vektorraums aufgefasst werden. 
 
 
 

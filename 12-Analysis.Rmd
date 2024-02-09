@@ -1,7 +1,20 @@
 # Analysis 
 
-*Die Ziele und Materialien zu diesem Kapitel werden demnächst ergänzt.*
-
+> **Ziele**  
+>  
+> + Sie sind sich bewusst, dass Analysis in Universität und Schule unterschiedlich strukturiert sind und dies in der Schulrealität in einen propädeutischen Grenzwertbegriff mündet.  
+> + Sie kennen Grundvorstellungen zum Ableitungsbegriff.  
+> + Sie haben einen Einblick in das Unterrichten mit CAS als Werkzeug für die Schülerinnen und Schüler.  
+>  
+> **Material**
+>
+> + Folien zum Kapitel 12 ([pdf](files/Stoffdidaktik2023-12-Analysis.pdf), [Keynote](files/Stoffdidaktik2023-12-Analysis.key))
+>
+> **Literaturempfehlungen**
+>
+> - @Greefrath2016: *Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe*
+> - @Danckwerts2010: *Analysis verständlich unterrichten*
+> - @Tietze:2000a: *Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis*
 
 
 ## Analysis in der Sek. II
@@ -32,5 +45,54 @@ Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl hi
 
 ## Computer-Algebra-Systeme
 
-*Die Inhalte zu diesem Abschnitt werden demnächst ergänzt.*
+Insbesondere -- aber nicht ausschließlich -- im Analysis-Unterricht spielt die Verwendung von Computer-Algebra-System (CAS) eine bedeutsame Rolle. In ihrer eigentlich Bezeichnung ist ein CAS ein digitales Werkzeug, das **symbolische Rechnungen** erlaubt, also bspw. für die Gleichung $x^2 = 5$ die Lösungen $\sqrt{5}$ und $-\sqrt{5}$ ausgeben kann, während ein numerisch rechnendes System hier bspw. $2,23607$ ausgeben (und die zweite Lösung womöglich sogar unterschlagen) würde.^[Streng genommen ist dieses Beispiel hier im Kapitel falsch, da es eher ein algebraisches Problem ist. Es soll aber dennoch weiter verfolgt werden.] 
 
+Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbegriff für vielfältige Arten von Taschenrechnern und anderen digitalen Werkzeugen gewandelt. Darunter werden also auch verstanden:
+
+* Wissenschaftliche Taschenrechner (WTR) …
+* Graphikfähige Taschenrechner (GTR). … Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, … 
+* Tabellenkalkulation (TK) …
+* Dynamische Geometriesysteme (DGS) …
+
+
+### Software und Hardware
+
+Am weitesten sind an Schulen derzeit noch »echte« **Taschenrechner** mit CAS-Funktionalität verbreitet, i. d. R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können.
+
+Stärkere Verbreitung finden mittlerweile **Software-Lösungen**, die spezifisch für **schulische Zwecke** entwickelt worden sind, z. B. die CAS-Funktion von GeoGebra^[https://www.geogebra.org/cas]. Auch Apps wie Photomath^[https://photomath.com] können als CAS aufgefasst werden. In Schulen i. d. R. nicht verbreitet sind **professionelle kommerzielle Angebote** wie Maple oder Matheamtica. Es gibt jedoch auch **freie CAS-Software**, die zwar nicht explizit für schulische Zwecke entwickelt worden ist, aber dennoch für Schülerinnen und Schüler zugänglich ist und (aus fachmathematischer Sicht) »echte« CAS-Lösungen darstellt. Hierzu gehören etwa Yacas^[http://www.yacas.org] oder Sage^[https://sagecell.sagemath.org], die wie GeoGebra über Online-Editoren verfügen.
+
+### Bedienung schulen
+
+Das Lernen der **Bedienung** eines CAS erfolgt nicht »nebenbei« zum Lernen der mathematischen Zusammenhänge, sondern muss **explizter Lerngegenstand** werden. Hierzu ist es notwendig, die entsprechenden CAS-Befehle mit den dahinter liegenden mathematischen Handlungsfolgen in Bezug zu bringen, bspw. über eine Versprachlichung des Befehls und seiner Bestandteile. 
+
+```{r Befehl, echo=FALSE, fig.cap="CAS-Befehl zum Lösen einer Gleichung", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/12-Befehl.png")
+```
+
+Für den in Abbildung \@ref(fig:Befehl) dargestellten Befehl kann als Erläuterung dienen: »Der Befehl <span style='color: #CB297B;'>löst</span> die Gleichung <span style='color: #0076BA;'>$x^2 = 5$</span>, d. h. es werden diejenigen Werte <span style='color: #1DB100;'>für $x$</span> gesucht, für die die Gleichung eine wahre Aussage ergibt.«
+
+Derartige Bedienschulungen können dann wieder durch Identifizierungs- und Realisierungs- sowie Festigungsaufgaben angeeignet werden, das heißt u. a.:
+
+* Zu vorgegebenen Beschreibungen müssen entsprechende Befehle ins CAS eingegeben werden.
+* Zu gegebenen Befehle soll beschrieben werden, wofür diese dienlich sind.
+* Befehle oder die in ihnen enthaltenen Bestandteile müssen variiert werden und die Einflüsse der Variation untersucht bzw. beschrieben werden.
+
+Weiterhin ist es notwendig, die **hinter dem Befehl liegende Mathematik** nachvollziehen zu können. Es reicht also nicht aus, das CAS als **Black-Box** aufzufassen, dass aus der Eingabe `solve(x^2=5,x)` *irgendwie* die Ausgabe `√5,-√5` erzeugt, sondern es sollten stets die dahinterliegenden Prozesse hinterfragt werden. Dies kann auch über die Darstellung von (Pseudo-)Algorithmen erfolgen, wobei nicht jeder Schritt (oder nicht einmal der komplette Algorithmus) der tatsächlichen algorithmische Umsetzung im Hintergrund des CAS entsprechen muss, solange er mathematisch nachvollziehbar ist. Im genannten Beispiel könnte ein solcher Pseudoalgorithmus, der nach der Eingabe des Befehls `solve(x^2=5,x)` abläuft, lauten:
+
+1. Prüfe, ob es sich um eine quadratische Gleichung handelt.
+2. Bringe die Gleichung in die Form $0 = x^2+px+q$.
+3. Bestimmte $p$ und $q$.
+4. Gibt die Lösungen $-\frac{p}{2}+\sqrt{\left(\frac{p}{2}\right)^2-q}$ und $-\frac{p}{2}-\sqrt{\left(\frac{p}{2}\right)^2-q}$ aus.
+
+
+### Neue Aufgabenkultur
+
+In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkultur, da eine klassische Aufgabe der Art »Ermittle die Lösungsmenge der Gleichung $x^2 = 5$« mithilfe eines CAS, sofern der entsprechende Befehl bekannt ist, keine mathematisch-gedankliche Herausforderung mehr darstellt.
+
+* @Kortenkamp2007 schlägt beispielsweise vor, das **CAS als Überprüfungsinstrument** zu verwenden, um selbst erzeugte Aufgaben zu prüfen. Im oben genannten Beispiel könnte eine Aufgabenstellung lauten: »Stell eine quadratische Gleichung auf, die $\sqrt{5}$ als Lösung hat.« Solche Aufgaben können dann schrittweise variiert und komplexer gestaltet werden (»Stell eine quadratische Gleichung auf, die nur $\sqrt{5}$ als Lösung hat« usw.).
+
+* Die von einem CAS ausgegebene **Lösung** kann wiederum **als Anlass** genutzt werden, mathematische Fragen zu stellen. Im obigen Beispiel wäre möglich zu fragen: »Warum gibt das CAS zwei Lösungen aus?«, »Wie hängen die Lösungen miteinander zusammen?« o. ä. Derartige Fragen sollten auf die hinter der Aufgabe liegende Struktur hinzielen.
+
+* Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte **»oHiMi«-Aufgaben** etabliert haben, also Aufgaben, die **o**hne **Hi**lfs**mi**ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z. B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a].
+
+Eine etwas ausführlichere -- und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene -- Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei @Heinrich2007.

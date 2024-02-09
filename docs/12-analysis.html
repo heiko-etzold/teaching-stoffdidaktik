@@ -320,7 +320,12 @@ div.csl-indent {
 <li class="chapter" data-level="12.1" data-path="12-analysis.html"><a href="12-analysis.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>12.1</b> Analysis in der Sek. II</a></li>
 <li class="chapter" data-level="12.2" data-path="12-analysis.html"><a href="12-analysis.html#grenzwertbegriff"><i class="fa fa-check"></i><b>12.2</b> Grenzwertbegriff</a></li>
 <li class="chapter" data-level="12.3" data-path="12-analysis.html"><a href="12-analysis.html#ableitungsbegriff"><i class="fa fa-check"></i><b>12.3</b> Ableitungsbegriff</a></li>
-<li class="chapter" data-level="12.4" data-path="12-analysis.html"><a href="12-analysis.html#computer-algebra-systeme"><i class="fa fa-check"></i><b>12.4</b> Computer-Algebra-Systeme</a></li>
+<li class="chapter" data-level="12.4" data-path="12-analysis.html"><a href="12-analysis.html#computer-algebra-systeme"><i class="fa fa-check"></i><b>12.4</b> Computer-Algebra-Systeme</a>
+<ul>
+<li class="chapter" data-level="12.4.1" data-path="12-analysis.html"><a href="12-analysis.html#software-und-hardware"><i class="fa fa-check"></i><b>12.4.1</b> Software und Hardware</a></li>
+<li class="chapter" data-level="12.4.2" data-path="12-analysis.html"><a href="12-analysis.html#bedienung-schulen"><i class="fa fa-check"></i><b>12.4.2</b> Bedienung schulen</a></li>
+<li class="chapter" data-level="12.4.3" data-path="12-analysis.html"><a href="12-analysis.html#neue-aufgabenkultur"><i class="fa fa-check"></i><b>12.4.3</b> Neue Aufgabenkultur</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="13-geometrie.html"><a href="13-geometrie.html"><i class="fa fa-check"></i><b>13</b> Geometrie</a>
 <ul>
@@ -368,7 +373,26 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="analysis" class="section level1 hasAnchor" number="12">
 <h1><span class="header-section-number">12</span> Analysis<a href="12-analysis.html#analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p><em>Die Ziele und Materialien zu diesem Kapitel werden demnächst ergänzt.</em></p>
+<blockquote>
+<p><strong>Ziele</strong></p>
+<ul>
+<li>Sie sind sich bewusst, dass Analysis in Universität und Schule unterschiedlich strukturiert sind und dies in der Schulrealität in einen propädeutischen Grenzwertbegriff mündet.<br />
+</li>
+<li>Sie kennen Grundvorstellungen zum Ableitungsbegriff.<br />
+</li>
+<li>Sie haben einen Einblick in das Unterrichten mit CAS als Werkzeug für die Schülerinnen und Schüler.</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zum Kapitel 12 (<a href="files/Stoffdidaktik2023-12-Analysis.pdf">pdf</a>, <a href="files/Stoffdidaktik2023-12-Analysis.key">Keynote</a>)</li>
+</ul>
+<p><strong>Literaturempfehlungen</strong></p>
+<ul>
+<li><span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016</a>)</span>: <em>Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe</em></li>
+<li><span class="citation">Danckwerts &amp; Vogel (<a href="#ref-Danckwerts2010">2010</a>)</span>: <em>Analysis verständlich unterrichten</em></li>
+<li><span class="citation">Tietze et al. (<a href="#ref-Tietze:2000a">2000a</a>)</span>: <em>Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis</em></li>
+</ul>
+</blockquote>
 <div id="analysis-in-der-sek.-ii" class="section level2 hasAnchor" number="12.1">
 <h2><span class="header-section-number">12.1</span> Analysis in der Sek. II<a href="12-analysis.html#analysis-in-der-sek.-ii" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den <strong>Folgen-, Grenzwert- und Stetigkeitsbegriff</strong> <span class="citation">(<a href="#ref-Danckwerts2010">Danckwerts &amp; Vogel, 2010, 17 ff.</a>; <a href="#ref-Greefrath2016">Greefrath et al., 2016, 23 ff.</a>; <a href="#ref-Tietze:2000a">Tietze et al., 2000a, 252 ff.</a>)</span>. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion <span class="math inline">\(f\)</span> an einer Stelle <span class="math inline">\(a\)</span> existiert, wenn für alle Folgen <span class="math inline">\((x_n)_{n\in\mathbb{N}}\)</span> mit <span class="math inline">\(x_n\rightarrow a\)</span> auch die Folge der Funktionswerte konvergiert, also <span class="math inline">\(f(x_n)\rightarrow f(a)\)</span>. Für den Konvergenzbegriff einer Folge ist nun zum anderen die <strong>Vollständigkeit der reellen Zahlen</strong> von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird <span class="citation">(siehe z. B. <a href="#ref-Danckwerts2010">Danckwerts &amp; Vogel, 2010, 27 ff.</a>)</span>. Mathematisch relevant ist für die Konvergenz einer Folge <span class="math inline">\((x_n)_{n\in\mathbb{N}}\)</span> gegen <span class="math inline">\(a\)</span> eben nicht nur, dass die Folgenglieder dem <span class="math inline">\(a\)</span> beliebig nahe kommen, sondern dass <span class="math inline">\(a\)</span> im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heron-Verfahren zum Wurzelbestimmen (vgl. Abschnitt <a href="11-arithmetik-und-algebra.html#heron-verfahren">11.2.3</a>). So liefert die rekursive Folge<span class="math inline">\(x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)\)</span> mit bspw. <span class="math inline">\(x_0 = 1\)</span> ausschließlich Folgenglieder aus <span class="math inline">\(\mathbb{Q}\)</span>, die sich auch beliebig nahe kommen (eine sogenannte <em>Cauchy-Folge</em>), der Grenzwert selbst ist aber <span class="math inline">\(\sqrt{5}\)</span>, was nicht in <span class="math inline">\(\mathbb{Q}\)</span>, sondern nur in <span class="math inline">\(\mathbb{R}\)</span> liegt.</p>
@@ -390,8 +414,54 @@ div.csl-indent {
 </div>
 <div id="computer-algebra-systeme" class="section level2 hasAnchor" number="12.4">
 <h2><span class="header-section-number">12.4</span> Computer-Algebra-Systeme<a href="12-analysis.html#computer-algebra-systeme" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p><em>Die Inhalte zu diesem Abschnitt werden demnächst ergänzt.</em></p>
+<p>Insbesondere – aber nicht ausschließlich – im Analysis-Unterricht spielt die Verwendung von Computer-Algebra-System (CAS) eine bedeutsame Rolle. In ihrer eigentlich Bezeichnung ist ein CAS ein digitales Werkzeug, das <strong>symbolische Rechnungen</strong> erlaubt, also bspw. für die Gleichung <span class="math inline">\(x^2 = 5\)</span> die Lösungen <span class="math inline">\(\sqrt{5}\)</span> und <span class="math inline">\(-\sqrt{5}\)</span> ausgeben kann, während ein numerisch rechnendes System hier bspw. <span class="math inline">\(2,23607\)</span> ausgeben (und die zweite Lösung womöglich sogar unterschlagen) würde.<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a></p>
+<p>Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbegriff für vielfältige Arten von Taschenrechnern und anderen digitalen Werkzeugen gewandelt. Darunter werden also auch verstanden:</p>
+<ul>
+<li>Wissenschaftliche Taschenrechner (WTR) …</li>
+<li>Graphikfähige Taschenrechner (GTR). … Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, …</li>
+<li>Tabellenkalkulation (TK) …</li>
+<li>Dynamische Geometriesysteme (DGS) …</li>
+</ul>
+<div id="software-und-hardware" class="section level3 hasAnchor" number="12.4.1">
+<h3><span class="header-section-number">12.4.1</span> Software und Hardware<a href="12-analysis.html#software-und-hardware" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Am weitesten sind an Schulen derzeit noch »echte« <strong>Taschenrechner</strong> mit CAS-Funktionalität verbreitet, i. d. R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können.</p>
+<p>Stärkere Verbreitung finden mittlerweile <strong>Software-Lösungen</strong>, die spezifisch für <strong>schulische Zwecke</strong> entwickelt worden sind, z. B. die CAS-Funktion von GeoGebra<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a>. Auch Apps wie Photomath<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> können als CAS aufgefasst werden. In Schulen i. d. R. nicht verbreitet sind <strong>professionelle kommerzielle Angebote</strong> wie Maple oder Matheamtica. Es gibt jedoch auch <strong>freie CAS-Software</strong>, die zwar nicht explizit für schulische Zwecke entwickelt worden ist, aber dennoch für Schülerinnen und Schüler zugänglich ist und (aus fachmathematischer Sicht) »echte« CAS-Lösungen darstellt. Hierzu gehören etwa Yacas<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a> oder Sage<a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a>, die wie GeoGebra über Online-Editoren verfügen.</p>
+</div>
+<div id="bedienung-schulen" class="section level3 hasAnchor" number="12.4.2">
+<h3><span class="header-section-number">12.4.2</span> Bedienung schulen<a href="12-analysis.html#bedienung-schulen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Das Lernen der <strong>Bedienung</strong> eines CAS erfolgt nicht »nebenbei« zum Lernen der mathematischen Zusammenhänge, sondern muss <strong>explizter Lerngegenstand</strong> werden. Hierzu ist es notwendig, die entsprechenden CAS-Befehle mit den dahinter liegenden mathematischen Handlungsfolgen in Bezug zu bringen, bspw. über eine Versprachlichung des Befehls und seiner Bestandteile.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Befehl"></span>
+<img src="pictures/12-Befehl.png" alt="CAS-Befehl zum Lösen einer Gleichung" width="50%" />
+<p class="caption">
+Abb. 12.1: CAS-Befehl zum Lösen einer Gleichung
+</p>
+</div>
+<p>Für den in Abbildung <a href="12-analysis.html#fig:Befehl">12.1</a> dargestellten Befehl kann als Erläuterung dienen: »Der Befehl <span style="color: #CB297B;">löst</span> die Gleichung <span style="color: #0076BA;"><span class="math inline">\(x^2 = 5\)</span></span>, d. h. es werden diejenigen Werte <span style="color: #1DB100;">für <span class="math inline">\(x\)</span></span> gesucht, für die die Gleichung eine wahre Aussage ergibt.«</p>
+<p>Derartige Bedienschulungen können dann wieder durch Identifizierungs- und Realisierungs- sowie Festigungsaufgaben angeeignet werden, das heißt u. a.:</p>
+<ul>
+<li>Zu vorgegebenen Beschreibungen müssen entsprechende Befehle ins CAS eingegeben werden.</li>
+<li>Zu gegebenen Befehle soll beschrieben werden, wofür diese dienlich sind.</li>
+<li>Befehle oder die in ihnen enthaltenen Bestandteile müssen variiert werden und die Einflüsse der Variation untersucht bzw. beschrieben werden.</li>
+</ul>
+<p>Weiterhin ist es notwendig, die <strong>hinter dem Befehl liegende Mathematik</strong> nachvollziehen zu können. Es reicht also nicht aus, das CAS als <strong>Black-Box</strong> aufzufassen, dass aus der Eingabe <code>solve(x^2=5,x)</code> <em>irgendwie</em> die Ausgabe <code>√5,-√5</code> erzeugt, sondern es sollten stets die dahinterliegenden Prozesse hinterfragt werden. Dies kann auch über die Darstellung von (Pseudo-)Algorithmen erfolgen, wobei in diesen nicht in jedem Schritt die tatsächliche algorithmische Umsetzung von Relevant ist. Im genannten Beispiel könnte ein solcher Pseudoalgorithmus, der nach der Eingabe des Befehls <code>solve(x^2=5,x)</code> abläuft, lauten:</p>
+<ol style="list-style-type: decimal">
+<li>Prüfe, ob es sich um eine quadratische Gleichung handelt.</li>
+<li>Bringe die Gleichung in die Form <span class="math inline">\(0 = x^2+px+q\)</span>.</li>
+<li>Bestimmte <span class="math inline">\(p\)</span> und <span class="math inline">\(q\)</span>.</li>
+<li>Gibt die Lösungen <span class="math inline">\(-\frac{p}{2}+\sqrt{\left(\frac{p}{2}\right)^2-q}\)</span> und <span class="math inline">\(-\frac{p}{2}-\sqrt{\left(\frac{p}{2}\right)^2-q}\)</span> an.</li>
+</ol>
+</div>
+<div id="neue-aufgabenkultur" class="section level3 hasAnchor" number="12.4.3">
+<h3><span class="header-section-number">12.4.3</span> Neue Aufgabenkultur<a href="12-analysis.html#neue-aufgabenkultur" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkultur, da eine klassische Aufgabe der Art »Ermittle die Lösungsmenge der Gleichung <span class="math inline">\(x^2 = 5\)</span>« mithilfe eines CAS, sofern der entsprechende Befehl bekannt ist, keine mathematisch-gedankliche Herausforderung mehr darstellt.</p>
+<ul>
+<li><p><span class="citation">Kortenkamp (<a href="#ref-Kortenkamp2007">2007</a>)</span> schlägt beispielsweise vor, das <strong>CAS als Überprüfungsinstrument</strong> zu verwenden, um selbst erzeugte Aufgaben zu prüfen. Im oben genannten Beispiel könnte eine Aufgabenstellung lauten: »Stell eine quadratische Gleichung auf, die <span class="math inline">\(\sqrt{5}\)</span> als Lösung hat.« Solche Aufgaben können dann schrittweise variiert und komplexer gestaltet werden (»Stell eine quadratische Gleichung auf, die nur <span class="math inline">\(\sqrt{5}\)</span> als Lösung hat« usw.).</p></li>
+<li><p>Die von einem CAS ausgegebene <strong>Lösung</strong> kann wiederum <strong>als Anlass</strong> genutzt werden, mathematische Fragen zu stellen. Im obigen Beispiel wäre möglich zu fragen: »Warum gibt das CAS zwei Lösungen aus?«, »Wie hängen die Lösungen miteinander zusammen?« o. ä. Derartige Fragen sollten auf die hinter der Aufgabe liegende Struktur hinzielen.</p></li>
+<li><p>Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte <strong>»oHiMi«-Aufgaben</strong> etabliert haben, also Aufgaben, die <strong>o</strong>hne <strong>Hi</strong>lfs<strong>mi</strong>ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z. B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe <span class="citation">(<a href="#ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a">Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022a</a>)</span>.</p></li>
+</ul>
+<p>Eine etwas ausführlichere – und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene – Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei <span class="citation">Heinrich (<a href="#ref-Heinrich2007">2007</a>)</span>.</p>
 
+</div>
 </div>
 </div>
 <h3>References</h3>
@@ -402,6 +472,15 @@ Danckwerts, R., &amp; Vogel, D. (2010). <em>Analysis verständlich unterrichten<
 <div id="ref-Greefrath2016" class="csl-entry">
 Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., &amp; Weigand, H.-G. (2016). <em>Didaktik der <span>Analysis</span>. <span>Aspekte</span> und <span>Grundvorstellungen</span> zentraler <span>Begriffe</span></em> (F. Padberg &amp; A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. <a href="https://doi.org/10.1007/978-3-662-48877-5">https://doi.org/10.1007/978-3-662-48877-5</a>
 </div>
+<div id="ref-Heinrich2007" class="csl-entry">
+Heinrich, R. (2007). Grafikfähige <span>Taschencomputer</span> in zentralen <span>Prüfungen</span>. In <em>Beiträge zum <span>Mathematikunterricht</span> 2007, 41. <span>Jahrestagung</span> der <span>Gesellschaft</span> für <span>Didaktik</span> der <span>Mathematik</span> vom 25.3. bis 30.3.2007 in <span>Berlin</span></em>. <a href="https://doi.org/10.17877/DE290R-6165">https://doi.org/10.17877/DE290R-6165</a>
+</div>
+<div id="ref-Kortenkamp2007" class="csl-entry">
+Kortenkamp, U. (2007). <span>CAS</span> und <span>DGS</span> im <span>Dialog</span> – oder: <span>Wieviel</span> <span>CAS</span> braucht der <span>Mensch</span>? In <em>Beiträge zum <span>Mathematikunterricht</span> 2007, 41. <span>Jahrestagung</span> der <span>Gesellschaft</span> für <span>Didaktik</span> der <span>Mathematik</span> vom 25.3. bis 30.3.2007 in <span>Berlin</span></em>. <a href="https://doi.org/10.17877/DE290R-6158">https://doi.org/10.17877/DE290R-6158</a>
+</div>
+<div id="ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a" class="csl-entry">
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022a). <em>Anlage zum <span>Rahmenlehrplan</span> für die gymnasiale <span>Oberstufe</span>. <span>Teil</span> <span>C</span>. <span>Mathematik</span></em>. <a href="https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik_Anlage_OHiMi.pdf">https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik_Anlage_OHiMi.pdf</a>
+</div>
 <div id="ref-Tietze:2000a" class="csl-entry">
 Tietze, U.-P., Klika, M., &amp; Wolpers, H. (Hrsg.). (2000a). <em>Mathematikunterricht in der <span>Sekundarstufe</span> <span>II</span>. <span>Band</span> 1: <span>Fachdidaktische</span> <span>Grundfragen</span>, <span>Didaktik</span> der <span>Analysis</span></em> (2. Aufl.). Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-90568-0">https://doi.org/10.1007/978-3-322-90568-0</a>
 </div>
@@ -411,6 +490,11 @@ Tietze, U.-P., Klika, M., &amp; Wolpers, H. (Hrsg.). (2000a). <em>Mathematikunte
 <ol start="32">
 <li id="fn32"><p><span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016, 147 ff.</a>)</span> trennen die lokale Änderungsrate noch von der Vorstellung des Anstiegs der Tangente und beschreiben als vierte Grundvorstellung die Ableitung als Verstärkungsfaktor kleiner Änderungen.<a href="12-analysis.html#fnref32" class="footnote-back">↩︎</a></p></li>
 <li id="fn33"><p>Zur Diskussion der Vorstellung, was eine Tangente ist, siehe auch <span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016, S. 149</a>)</span><a href="12-analysis.html#fnref33" class="footnote-back">↩︎</a></p></li>
+<li id="fn34"><p>Streng genommen ist dieses Beispiel hier im Kapitel falsch, da es eher ein algebraisches Problem ist. Es soll aber dennoch weiter verfolgt werden.<a href="12-analysis.html#fnref34" class="footnote-back">↩︎</a></p></li>
+<li id="fn35"><p><a href="https://www.geogebra.org/cas" class="uri">https://www.geogebra.org/cas</a><a href="12-analysis.html#fnref35" class="footnote-back">↩︎</a></p></li>
+<li id="fn36"><p><a href="https://photomath.com" class="uri">https://photomath.com</a><a href="12-analysis.html#fnref36" class="footnote-back">↩︎</a></p></li>
+<li id="fn37"><p><a href="http://www.yacas.org" class="uri">http://www.yacas.org</a><a href="12-analysis.html#fnref37" class="footnote-back">↩︎</a></p></li>
+<li id="fn38"><p><a href="https://sagecell.sagemath.org" class="uri">https://sagecell.sagemath.org</a><a href="12-analysis.html#fnref38" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>

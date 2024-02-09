@@ -46,6 +46,7 @@ tab:intervallschachtelung
 fig:LernmodellWurzel
 fig:Heron
 fig:WurzelTabelle
+fig:Befehl
 fig:Mittelsenkrechte
 fig:Skalarprodukt
 fig:Dreieck
@@ -176,6 +177,9 @@ analysis-in-der-sek.-ii
 grenzwertbegriff
 ableitungsbegriff
 computer-algebra-systeme
+software-und-hardware
+bedienung-schulen
+neue-aufgabenkultur
 geometrie
 lagebeziehungen
 lagebeziehungen-falten
