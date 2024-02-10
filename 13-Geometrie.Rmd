@@ -18,7 +18,7 @@
 
 Der Geometrieunterricht der Sekundarstufe I ist geprägt von Begriffen, Sachverhalten und Verfahren der **Elementargeometrie**. So werden geometrische Objekte (wie Punkte, Geraden, Winkel) und ihre Relationen betrachtet sowie Messungen (Längen, Flächeninhalte, Volumina, …) vorgenommen. Außerdem werden elementargeometrische Sätze (z. B. Satz des Thales, Satz des Pythagoras, Sinus- und Kosinussatz) behandelt. In Hinblick auf die Sekundarstufe II kommt es zur **Koordinatisierung** der geometrischen Objekte, üblicherweise über die Beschreibung in einem kartesischen Koordinatensystem. Liegen die geometrischen Objekte nun koordinatisiert vor, kann mit ihne in der **Analytischen Geometrie** »gerechnet« werden. Für die dazu anwendbaren Gesetzmäßigkeiten bedient man sich der **Linearen Algebra**, in der die zugrundeliegenden Strukturen veroretet sind.
 
-Am Beispiel des Vektorbegriffs kann man sagen: *Elementargeometrisch* beschreibt ein Vektor eine Verschiebung in eine bestimmte Richtung um einen bestimmten Vektor. Koordinatisiert lässt sich der Vektor in der *Analytischen Geometrie* über ein Tupel beschreiben. Mit solchen Tupeln kann dann gerechnet werden, wobei entsprechende Gesetzmäßigkeiten (Vektoraddition, Skalierung) der Linearen Algebra entstammen, wo Vektoren als Elemente eines Vektorraums aufgefasst werden. 
+Am Beispiel des Vektorbegriffs kann man sagen: *Elementargeometrisch* beschreibt ein Vektor eine Verschiebung in eine bestimmte Richtung um einen bestimmten Betrag. Koordinatisiert lässt sich der Vektor in der *Analytischen Geometrie* über ein Tupel beschreiben. Mit solchen Tupeln kann dann gerechnet werden, wobei entsprechende Gesetzmäßigkeiten (Vektoraddition, Skalierung) der Linearen Algebra entstammen, wo Vektoren als Elemente eines Vektorraums aufgefasst werden. 
 
 
 
@@ -88,11 +88,40 @@ Hieraus lässt sich nun motivieren, den im Zähler stehenden Term als Skalarprod
 
 Neben der **Schreibweise** $\left <\vec u,\vec v\right>$ sind auch $\vec u\bullet \vec v$ oder $\vec u\circ \vec v$ üblich. Letztere beiden können jedoch suggerieren, dass aus dem »Produkt« zweier Vektoren wieder ein Vektor entsteht, da dies den Erfahrungen des bisherigen Umgangs mit Produkten entspricht. Die Schreibweise $\left <\vec u,\vec v\right>$ könnte hier stärker darauf hinweisen, dass es sich um eine »Funktion« handelt, die den beiden Vektoren $\vec u$ und $\vec v$ eine Zahl (also ein Skalar) zuordnet.
 
-## Kongruenz
 
-*Die Inhalte zu diesem Abschnitt werden demnächst ergänzt.*
 
 ## Dynamische Geometriesysteme
 
-*Die Inhalte zu diesem Abschnitt werden demnächst ergänzt.*
+In dynamischen Geometriesystemen (DGS) wie GeoGebra^[https://www.geogebra.org] oder Cinderella^[https://www.cinderella.de] lassen sich geometrische Konstruktionen darstellen und durch zusätzliche Funktionalitäten vielfältig untersuchen.
+
+Zunächst einmal bietet ein DGS die üblichen Grundkonstruktionen, die auch mit Zirkel und Lineal möglich sind, sowie darauf aufbauende Konstruktionen (wie das Einzeichnen einer Mittelsenkrechte zu zwei Punkten). Weiterhin ist es i. d. R. möglich, Objekte auszumessen und die Konstruktion durch weitere graphische Elemente (wie z. B. Texte) zu ergänzen.
+
+Zum Umgang mit DGS gibt es vielfältige Forschungs- und Entwicklungsergebnisse, die auch in den Didaktiken der einzelnen Sachgebiete referenziert werden [u. a. bei @Greefrath2016 {41 f., 65 f., 155 f.}; @Weigand2018 {62 ff.}].  
+
+In der Verwendung von dynamischer Geometriesoftware liegen einige Besonderheiten, auf die hier kurz eingegangen werden soll.
+
+* Die zu betrachtenden Objekte werden i. d. R. **zugstabil** konstruiert. Das heißt, wenn ein Parallelogramm konstruiert werden soll, muss dies so erfolgen, dass es sich weiterhin um ein Parallelogramm handelt, auch wenn einer seiner Eckpunkte bewegt wird. So wird auch der Unterschied zwischen *Konstruieren* und *Zeichnen* deutlich: Die Konstruktion schafft Relationen zwischen den Eckpunkten bzw. Seiten des Parallelogramms, so dass die Parallelogramm-Eigenschaft in das Objekt implementiert wurde, während eine Zeichnung nur statisch ein Parallelogramm darstellt. Der Begriffsbildung (insbesondere dem Begriffsinhalt) dienlich ist auch die Diskussion verschiedener Konstruktionswege bzw. deren Identifizierung anhand des »Bewegungsverhaltens« des konstruiereten Objekts. Einen unterrichtspraktischen Ansatz hierfür liefern @Kortenkamp2016. 
+
+```{r Parallelogramm, echo=FALSE, fig.cap="Zugstabil konstruiertes vs. gezeichnetes Parallelogramm", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/13-Parallelogramm.gif")
+```
+
+
+* Dynamische Geometriesysteme verhalten sich **entweder deterministisch oder kontinuierlich**. Damit ist gemeint, dass die durch eine Konstruktion abhängigen Objekte bei deterministischen Systemen stets dasselbe Verhalten aufweisen und bei dynamischen System, je nach Bewegung der unabhängigen Objekte, unterschiedlich dargestellt werden können. Abbildung \@ref(fig:Dynamik) visualisiert dieses Verhalten. Der fachliche Hintergrund liegt in der Programmierung eines DGS, was bei @Kortenkamp1999 [{84 ff.}] und @Labs2008 [{57 ff.}] ausführlicher dargestellt wird. Für den Schulalltag sollte Ihnen dies bewusst sein, damit Sie »merkwürdiges« DGS-Verhalten verstehen und ggf. erklären können.
+
+```{r DynamikCinderella, echo=FALSE, fig.cap="Kontinuierliches Verhalten in Cinderella", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/13-DynamikCinderella.gif")
+```
+
+
+```{r DynamikGeogebra, echo=FALSE, fig.cap="Deterministisches Verhalten in GeoGebra", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/13-DynamikGeogebra.gif")
+```
+
+
+
+* Über die Verwendung von **Spuren und Ortslinien** kann der DGS-Einsatz zu einer intensiveren geometrischen Auseinandersetzung führen als es mit statischen Zeichnungen auf Papier der Fall wäre. Die Spur zeichnen bei Bewegung die Lage eines Objektes nach. Dies ist insbesondere dann von Interesse, wenn ein Objekt von einem anderen abhängig ist und man die Abhängigkeit genauer untersuchen möchte. Die Ortslinie ergibt sich nun als Menge aller Punkte, auf der sich ein Punkt in Abhängigkeit anderer Objekte bewegt. Konstruiert man bzw. über zwei Kreise gleichen Radius einen Punkt $M$, der von den Punkten $A$ und $B$ denselben Abstand hat und varriert die Länge des Radius, so erhält man damit *alle* Punkte, die von $A$ und $B$ gleich weit entfernt sind. Die zugehörige Ortslinie ist dann die Mittelsenkrechte von $A$ und $B$.
+
+
+
 

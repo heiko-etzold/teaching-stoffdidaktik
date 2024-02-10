@@ -20,13 +20,54 @@
 ## Analysis in der Sek. II
 
 
-Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den **Folgen-, Grenzwert- und Stetigkeitsbegriff** [ @Tietze:2000a {252 ff.}; @Danckwerts2010 {17 ff.}; @Greefrath2016 {23 ff.}]. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion $f$ an einer Stelle $a$ existiert, wenn für alle Folgen $(x_n)_{n\in\mathbb{N}}$ mit $x_n\rightarrow a$ auch die Folge der Funktionswerte konvergiert, also $f(x_n)\rightarrow f(a)$. Für den Konvergenzbegriff einer Folge ist nun zum anderen die **Vollständigkeit der reellen Zahlen** von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird [siehe z. B. @Danckwerts2010 {27 ff.}]. Mathematisch relevant ist für die Konvergenz einer Folge $(x_n)_{n\in\mathbb{N}}$ gegen $a$ eben nicht nur, dass die Folgenglieder dem $a$ beliebig nahe kommen, sondern dass $a$ im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heron-Verfahren zum Wurzelbestimmen (vgl. Abschnitt \@ref(heron-verfahren)). So liefert die rekursive Folge$x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)$ mit bspw. $x_0 = 1$ ausschließlich Folgenglieder aus $\mathbb{Q}$, die sich auch beliebig nahe kommen (eine sogenannte *Cauchy-Folge*), der Grenzwert selbst ist aber $\sqrt{5}$, was nicht in $\mathbb{Q}$, sondern nur in $\mathbb{R}$ liegt.
+Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den **Folgen-, Grenzwert- und Stetigkeitsbegriff** [ @Tietze:2000a {252 ff.}; @Danckwerts2010 {17 ff.}; @Greefrath2016 {23 ff.}]. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion $f$ an einer Stelle $a$ existiert, wenn für alle Folgen $(x_n)_{n\in\mathbb{N}}$ mit $x_n\rightarrow a$ auch die Folge der Funktionswerte konvergiert, also $f(x_n)\rightarrow f(a)$. Für den Konvergenzbegriff einer Folge ist nun zum anderen die **Vollständigkeit der reellen Zahlen** von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird [siehe z. B. @Danckwerts2010 {27 ff.}]. Mathematisch relevant ist für die Konvergenz einer Folge $(x_n)_{n\in\mathbb{N}}$ gegen $a$ eben nicht nur, dass die Folgeglieder dem $a$ beliebig nahe kommen, sondern dass $a$ im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heron-Verfahren zum Wurzelbestimmen (vgl. Abschnitt \@ref(heron-verfahren)). So liefert die rekursive Folge$x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)$ mit bspw. $x_0 = 1$ ausschließlich Folgeglieder aus $\mathbb{Q}$, die sich auch beliebig nahe kommen (eine sogenannte *Cauchy-Folge*), der Grenzwert selbst ist aber $\sqrt{5}$, was nicht in $\mathbb{Q}$, sondern nur in $\mathbb{R}$ liegt.
 
 Ohne derartige zentrale (im fachmathematischen Sinne sauber ausgeprägte) Begriffe Analysisunterricht zu betreiben, bedarf also einer starken Orientierung an den hinter den Begriffen liegenden Grundvorstellungen, damit dennoch ein inhaltlich-anschauliches Verständnis aufgebaut werden kann und der Unterricht nicht zu einem kalkülhaften Vorgehen verkommt. Spezifische Anregungen für einzelne Lerngegenstände bieten die bereits zitierten Quellen.
 
 ## Grenzwertbegriff 
 
-*Die Inhalte zu diesem Abschnitt werden demnächst ergänzt.*
+### Fachliche Hinweise
+
+Da in der Schule i. d. R. keine systematische Behandlung von Folgen erfolgt, ist auch eine formale Definitions des Grenzwertbegriffes nicht möglich. Man bedient sich daher -- und so wird es auch im Brandenburgischen Rahmenlehrplan verlangt -- eines **propädeutischen Zugangs zum Grenzwertbegriff** [vgl. @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022 {25, 28}]. Damit ist gemeint, dass der Begriff *vorgebildet* wird, ohne auf eine formale Definition zurückzugreifen. Diese Propädeutik kann dann entweder dazu dienen, später formalisiert zu werden (was beim Grenzwertbegriff jedoch in der Schule normalerweise nicht geschieht, sondern dann erst in einem Mathematikstudium erfolgt) oder aufbauend auf die Propädeutik andere Begrifflichkeiten einzuführen (wie den Ableitungsbegriff). Dabei werden zwar fachliche Lücken hingenommen, aber dennoch versucht, ein Begriffsverständnis aufzubauen.
+
+Formal kann der Grenzwert bzw. die Konvergenz einer Folge definiert werden:
+
+*Eine Folge $a_n$ heißt konvergent gegen den Grenzwert $a$, wenn für jedes $\varepsilon > 0$ ein $n_0$ existiert, so dass für alle $n>n_0$ gilt: $|a_n-a| < \varepsilon$.*  
+    
+Dabei muss noch festgelegt werden, aus welchem Zahlbereich $a$ und die $a_n$ stammen. 
+
+
+```{r Grenzwert, echo=FALSE, fig.cap="Visualisierung zum Grenzwertbegriff (Grafik: Jörg Enders)", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/12-Grenzwert.png")
+```
+
+
+
+Aus der formalen Definition ergeben sich einige Schlussfolgerungen, die -- bei fehlender formaler Definition und einem rein intuitiven Zugang -- häufig mit fehlerhaften Vorstellungen zur Konvergenz und zum Grenzwert einhergehen. Formuliert werden im Folgenden die *mathematisch korrekten* Aussagen.
+
+* Es ist notwendig, dass der **Grenzwert** $a$ tatsächlich **im betrachteten Zahlbereich** auch **existiert** -- ansonsten kann nicht von Konvergenz gesprochen werden. Es reicht also nicht aus, dass die Folgeglieder einander immer näher kommen.^[Hierfür existiert der Begriff der **Cauchy-Folge**.] Ein typisches Gegenbeispiel hierfür ist die rekursive Folge $a_{n+1} = \frac{1}{2}\left(a_n+\frac{5}{a_n}\right)$, $a_0 = 1$, die das Heron-Verfahren beschreibt (siehe Abschnitt \@ref(heron-verfahren)). Betrachtet man diese Folge in $\mathbb{Q}$ (wobei wegen der Grundrechenarten alle Folgeglieder in $\mathbb{Q}$ bleiben), so ist diese dort nicht konvergent, weil es in $\mathbb{Q}$ keine Zahl gibt, der die Folgeglieder beliebig nah kommen. Erst in $\mathbb{R}$ ist diese Folge konvergent gegen den Grenzwert $\sqrt{5}$.^[Daher kann die Konvergenz von **Cauchy-Folgen** auch als Charakteristikum von $\mathbb{R}$ genutzt werden.]
+
+* Die **Reihenfolge** der Folgeglieder ist **irrelevant** für die Konvergenz. Da bei einer konvergenten Folge *fast alle* Folgeglieder (also alle bis auf endlich viele) in der $\varepsilon$-Umgebung des Grenzwertes liegen, kann bei einer umsortierten Folge das Folgeglied gesucht werden, welches geradso nicht mehr in der $\varepsilon$-Umgebung liegt und anschließend ab dessen Nachfolger das Konvergenzkriterium erfüllt werden.
+
+* Die Folgeglieder können zwar, aber **müssen dem Grenzwert nicht bei jedem Schritt immer näher kommen**. Bei der Folge $$0,33\quad 0,3\quad 0,3333 \quad 0,333 \quad0,333333 \quad  \ldots$$
+kommt bspw. nur jedes zweite Folgeglied dem Grenzwert $\frac{1}{3}$ näher, dennoch konvergiert die Folge, weil bei vorgegebener Genauigkeit ($\varepsilon$) ein Folgeglied gefunden werden kann ($a_{n_0}$), ab dem alle diese Genauigkeit erfüllen [vgl. @Ableitinger2013b 7].
+
+* Es ist **irrelevant, ob der Grenzwert erreicht wird oder nicht**. Bei den meisten Beispielen kommen die Folgeglieder dem Grenzwert immer näher, ohne ihn jemals zu erreichen. Dies ist jedoch für die Konvergenz nicht relevant. Es ist durchaus möglich, dass der Grenzwert ab einem bestimmten $n_0$ tatsächlich erreicht wird (oder auch zwischendurch immer mal wieder). Insofern sind auch konstante Folgen konvergente Folgen.
+
+
+### Unterrichtliche Zugänge
+
+Um trotz eines *nur* propädeutischen Zugangs zum Grenzwertbegriff Schul-Analysis betreiben zu können, bedarf es (auch schon in der Sekundarstufe I) vielfältiger Erfahrungen zu Grenzprozessen, bei denen die hinter dem Grenzwertbegriff stehenden Ideen sichtbar werden. @Greefrath2016 [{107 ff.}] und @Ableitinger2013b [3] führen hierzu vielfältige Vorschläge auf, aus denen hier einige vorgestellt werden sollen.
+
+* In **geometrischen Situationen** können Grenzprozesse betrachtet werden, etwas bei der näherungsweisen Bestimmung des Flächeninhalts eines Kreises über das Ein- und Umschreiben mittels regelmäßiger $n$-Ecke. 
+
+```{r Kreis, echo=FALSE, fig.cap="Näherungsweise Bestimmung des Kreisflächeninhalts", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/12-Kreis.png")
+```
+
+* In **numerischen Situationen** kann die Idee des Grenzprozesses verdeutlicht werden, etwa wenn die Zahl $\frac{1}{3}$ notiert wird als $\frac{1}{3} = 0,\bar{3} = 0,3 + 0,03 + 0,003 + \ldots$ oder die Gleichheit von $0,\bar{9} = 1$ diskutiert wird. Auch die Durchführung einer Intervallschachtelung (siehe Abschnitt \@ref(wurzelbehandlung)) fördert das Verständnis für Grenzprozesse. Auch zu Beginn der Sekundarstufe können Erfahrungen gesammelt werden, z. B. über eine Partneraufgabe, bei der eine Person eine (positive) Zahl nennen muss und die zweite Personen einen Stammbruch (also einen Bruch der Form $\frac{1}{n}$) finden muss, der kleiner als die genannte Zahl ist.
+
+* In der **Kombination geometrischer und numerischer Situationen** liegt ebenfalls Potenzial für die Erfahrung von Grenzprozessen. Die geometrische Interpretation des Heron-Verfahrens (vgl. Abbildung \@ref(fig:Heron)) wäre ein Beispiel hierfür. Auch kann die Summation $2 = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}+\ldots$ erfahren werden, in dem ein Papierstreifen der Länge $2$ fortlaufend halbiert wird. 
 
 ## Ableitungsbegriff
 
@@ -49,10 +90,10 @@ Insbesondere -- aber nicht ausschließlich -- im Analysis-Unterricht spielt die 
 
 Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbegriff für vielfältige Arten von Taschenrechnern und anderen digitalen Werkzeugen gewandelt. Darunter werden also auch verstanden:
 
-* Wissenschaftliche Taschenrechner (WTR) …
-* Graphikfähige Taschenrechner (GTR). … Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, … 
-* Tabellenkalkulation (TK) …
-* Dynamische Geometriesysteme (DGS) …
+* Wissenschaftliche Taschenrechner (WTR), also Taschenrechner, die wesentliche mathematische Funktionen enthalten (z. B. auch die Berechnung von Potenzen, dem Sinus usw.) und Punkt- vor Strichrechnung beherrschen.
+* Graphikfähige Taschenrechner (GTR), die neben der Funktionalität wissenschaftlicher Taschenrechner auch Funktionsgraphen darstellen können und diese numerisch untersuchen können (z. B. Schnittpunktbestimmung). Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, d. h. es können selbst Algorithmen implementiert werden, die dann als Funktion zur Verfügung stehen.
+* Tabellenkalkulationen (TK), in denen mit strukturiert notierten Daten gerechnet werden kann. 
+* Dynamische Geometriesysteme (DGS), die die Möglichkeit bieten, geometrische Konstruktionen darzustellen. Mehr dazu finden Sie in Abschnitt \@ref(dynamische-geometriesysteme).
 
 
 ### Software und Hardware

@@ -46,10 +46,15 @@ tab:intervallschachtelung
 fig:LernmodellWurzel
 fig:Heron
 fig:WurzelTabelle
+fig:Grenzwert
+fig:Kreis
 fig:Befehl
 fig:Mittelsenkrechte
 fig:Skalarprodukt
 fig:Dreieck
+fig:Parallelogramm
+fig:DynamikCinderella
+fig:DynamikGeogebra
 fig:Modelle
 fig:Prozessbetrachtung
 fig:Prozesse
@@ -166,6 +171,13 @@ verfahren-aneignen
 verfahren-festigen
 zusammenfassung
 intermezzo-arithmetisches-mittel
+stoffdidaktische-hintergründe
+unterrichtsplanung
+motivierung-und-zielbildung-1
+stoffvermittlung
+festigung
+handlungskontrolle-1
+aufsteigen-vom-abstrakten-zum-konkreten
 arithmetik-und-algebra
 übergang-arithmetik-algebra
 wurzeln
@@ -175,6 +187,8 @@ heron-verfahren
 analysis
 analysis-in-der-sek.-ii
 grenzwertbegriff
+fachliche-hinweise
+unterrichtliche-zugänge
 ableitungsbegriff
 computer-algebra-systeme
 software-und-hardware
@@ -184,7 +198,6 @@ geometrie
 lagebeziehungen
 lagebeziehungen-falten
 skalarprodukt
-kongruenz
 dynamische-geometriesysteme
 stochastik
 stochastische-vorgänge
