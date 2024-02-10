@@ -34,10 +34,12 @@ Formal kann der Grenzwert bzw. die Konvergenz einer Folge definiert werden:
 
 *Eine Folge $a_n$ heißt konvergent gegen den Grenzwert $a$, wenn für jedes $\varepsilon > 0$ ein $n_0$ existiert, so dass für alle $n>n_0$ gilt: $|a_n-a| < \varepsilon$.*  
     
-Dabei muss noch festgelegt werden, aus welchem Zahlbereich $a$ und die $a_n$ stammen. 
+Dabei muss noch festgelegt werden, aus welchem (gemeinsamen) Zahlbereich $a$ und die $a_n$ stammen. Die in Abbildung \@ref(fig:Grenzwert) dargestellte Visualisierung zum Grenzwertbegriff steht auch als virtuelles Arbeitsmittel über https://www.geogebra.org/m/fwzbx3xa zur Verfügung.
 
 
-```{r Grenzwert, echo=FALSE, fig.cap="Visualisierung zum Grenzwertbegriff (Grafik: Jörg Enders)", fig.align='center', out.width='90%'}
+(ref:citeGrenzwert) Visualisierung zum Grenzwertbegriff [@Enders2024 36]
+
+```{r Grenzwert, echo=FALSE, fig.cap="(ref:citeGrenzwert)", fig.align='center', out.width='90%'}
 knitr::include_graphics("pictures/12-Grenzwert.png")
 ```
 
