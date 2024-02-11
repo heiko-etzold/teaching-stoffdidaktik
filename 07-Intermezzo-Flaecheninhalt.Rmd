@@ -7,7 +7,7 @@
 >
 > **Material**
 >
-> + Folien zum Kapitel 7 ([pdf](files/Stoffdidaktik2023-07-Intermezzo.pdf), [Keynote](files/Stoffdidaktik2023-07-Intermezzo.key))
+> + Folien zum Kapitel 7 ([pdf](files/Stoffdidaktik2023-07-IntermezzoFlaecheninhalt.pdf), [Keynote](files/Stoffdidaktik2023-07-IntermezzoFlaecheninhalt.key))
 
 
 In diesem Kapitel werden fundamentale Ideen, Grundvorstellungen, Kernideen/Kernfragen und Kontexte im Zusammenhang mit dem Flächeninhaltsbegriff diskutiert. Ein Schulbuchkapitel zum Flächeninhaltsbegriff bietet die Motivation, die `r formal("formale")`, `r semantic("semantische")` und `r concrete("konkrete")` Ebene des [Vier-Ebenen-Ansatzes](#tab:fragen-ebenen) zu diskutieren und einen ersten Ausblick auf die `r empiric("empirische")` Ebene zu geben.
@@ -105,7 +105,7 @@ Zur Grundvorstellung des Vereinigungsaspektes gehört die Erfahrung, Flächen au
 Die Schnittlinien können bspw. durch gestrichelte Linien repräsentiert werden, so dass die Handlungserfahrung hier in der Vorstellung nachvollzogen werden kann (siehe Abbildung \@ref(fig:FlaecheVereinigung)).
 
 ```{r FlaecheVereinigung, echo=FALSE, fig.cap="Repräsentation des Vereinigungsaspektes", fig.align='center', out.width='25%'}
-knitr::include_graphics("pictures/7-abb-Vereinigung.png")
+knitr::include_graphics("pictures/7-Vereinigung.png")
 ```
 
 Möchte man die Größe eines Landes bestimmen, so ist es in der Regel notwendig, dieses in geeignete Flächenstücke zu zerlegen, deren Flächeninhalte einfacher berechnet werden können. Dies ist also eine mögliche Anwendung in der Realität. Je nach Komplexität der Figur (und ggf. zusätzlichen geometrischen Überlegungen) können so auch Flächeninhaltsformeln gefunden werden (was schon eine innermathematische Anwendung ist).
@@ -134,7 +134,7 @@ Für unterschiedliche Operationen, die mit Flächeninhalten durchgeführt werden
 - Um **Flächeninhalte zu approximieren**, wie z. B. den eines Kreises (siehe Abbildung \@ref(fig:FlaecheKreis)), benötigt es wieder alle drei Vorstellungen. So kann der Kreis in zueinander kongruente Teilflächen zerlegt werden (Kongruenz- und Vereinigungsaspekt), deren Gesamtflächeninhalt dann über die Rechteckformel näherungsweise bestimmt wird (Maßzahlaspekt).
 
 ```{r FlaecheKreis, echo=FALSE, fig.cap="Approximation des Kreisflächeninhalts", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/7-abb-Kreis.png")
+knitr::include_graphics("pictures/7-Kreis.png")
 ```
 
 - Bei der **Bestimmung von Oberflächeninhalten** von Körpern, werden der Vereinigungsaspekt für die einzelnen Seitenflächen und ggf. der Kongruenzaspekt angesprochen, wenn es zueinander kongruente Seitenflächen gibt (wie z. B. bei Prismen), deren Flächeninhalte dann  mit der entsprechenden Anzahl multipliziert und nicht einzeln ausgerechnet werden.
@@ -187,6 +187,7 @@ Weiterhin besteht wegen der Wortverwandtschaft von *Fläche* und *Flächeninhalt
 Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z. B. strikte sprachliche Trennung) oder explizit thematisiert (z. B. verbindende und vergleichende Behandlung mit dem Umfang von Figuren), so dass auch dies wieder die Gestaltung des Lernpfades beeinflusst.
 
 
-## Zum Nachbereiten {#intermezzo-nachbereitung}
+## Zum Nachbereiten {#intermezzo-flaecheninhalt-nachbereitung}
+
 1. Finden Sie einen alternativen Kontext (statt den Zoogehegen) für Flächeninhalte, der die Forderungen nach Sinnstiftung erfüllt (siehe Definition \@ref(def:Kontext)).
 2. Diskutieren Sie, inwieweit sich aus dem Wissen über Grundvorstellungen zum Flächeninhalt die Gestaltung eines Arbeitsmittels ableiten lässt, das eine dieser Grundvorstellungen zum Begriff oder zu bestimmten Operationen mit Flächeninhalten unterstützt.

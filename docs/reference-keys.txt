@@ -41,6 +41,11 @@ fig:Unterrichtsphasen
 tab:begriffsschritte
 tab:wissensspeicher
 tab:festigen
+fig:Skalen
+fig:Hefter
+fig:ScreenshotLagemass
+fig:Uebersicht
+fig:AK
 fig:Musterfolge
 tab:intervallschachtelung
 fig:LernmodellWurzel
@@ -68,7 +73,6 @@ fig:Vierfeld
 fig:VierfeldEinzeln
 fig:Doppelbaum
 fig:Netz
-fig:SammlungLernbereiche
 vier-ebenen-ansatz
 analyse-von-lernbereichen
 lernbereich-und-lerngegenstand
@@ -142,7 +146,7 @@ operieren-mit-flächeninhalten
 auswirkungen-auf-lernpfad
 konkrete-ebene-1
 ausblick-auf-empirische-ebene
-intermezzo-nachbereitung
+intermezzo-flaecheninhalt-nachbereitung
 taetigkeitstheorie-und-lernen
 lerntaetigkeit-und-lernhandlung
 motivierung-und-zielbildung
@@ -152,7 +156,7 @@ lernhandlungen-ausbilden
 orientierungsgrundlagen
 ausfuehren-und-verinnerlichen
 handlungskontrolle
-bezüge-zur-stoffdidaktik
+bezuege-zur-stoffdidaktik
 taetigkeitstheorie-nachbereitung
 begriffe-sachverhalte-und-verfahren
 begriffe
@@ -170,14 +174,17 @@ verfahren-gewinnen
 verfahren-aneignen
 verfahren-festigen
 zusammenfassung
+begriffe-sachverhalte-verfahren-nachbereitung
 intermezzo-arithmetisches-mittel
 stoffdidaktische-hintergründe
-unterrichtsplanung
+kompetenzziele
+unterrichtsphasen
 motivierung-und-zielbildung-1
 stoffvermittlung
 festigung
 handlungskontrolle-1
 aufsteigen-vom-abstrakten-zum-konkreten
+intermezzo-arithmetisches-mitttel-nachbereitung
 arithmetik-und-algebra
 übergang-arithmetik-algebra
 wurzeln

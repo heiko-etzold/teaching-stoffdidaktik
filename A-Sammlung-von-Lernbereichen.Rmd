@@ -6,8 +6,7 @@ Die folgende Sammlung von Lernbereichen ist im Rahmen des Seminars zur Stoffdida
 
 Die Darstellung nach Klassenstufen orientiert sich an den Niveaustufen für den gymnasialen Bildungsgang [vgl. @MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023 20].
 
-```{r SammlungLernbereiche, echo=FALSE, fig.cap="Übersicht zu Lernbereichen", fig.align='center', out.width='100%'}
-knitr::include_graphics("pictures/A-SammlungLernbereiche.png")
-```
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVNu_pkQs=/?moveToViewport=-4114,1291,7990,2504&embedId=146450436554" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
 
 Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2023-SammlungLernbereiche.pdf) heruntergeladen werden.
