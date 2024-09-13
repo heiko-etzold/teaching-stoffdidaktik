@@ -1,3 +1,5 @@
+<!--
+
 # Intermezzo: Flächeninhalt {#intermezzo-flaecheninhalt}
 
 > **Ziele**
@@ -191,3 +193,5 @@ Derartige Schwierigkeiten werden im Schulbuch implizit aufgegriffen (z. B. stri
 
 1. Finden Sie einen alternativen Kontext (statt den Zoogehegen) für Flächeninhalte, der die Forderungen nach Sinnstiftung erfüllt (siehe Definition \@ref(def:Kontext)).
 2. Diskutieren Sie, inwieweit sich aus dem Wissen über Grundvorstellungen zum Flächeninhalt die Gestaltung eines Arbeitsmittels ableiten lässt, das eine dieser Grundvorstellungen zum Begriff oder zu bestimmten Operationen mit Flächeninhalten unterstützt.
+
+-->

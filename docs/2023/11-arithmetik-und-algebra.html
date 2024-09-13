@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 Arithmetik und Algebra | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2023/24</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2023/24 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 Arithmetik und Algebra | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2023/24" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2023/24 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 Arithmetik und Algebra | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2023/24" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2023/24 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="10-intermezzo-arithmetisches-mittel.html"/>
+<link rel="next" href="12-analysis.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2023/24</b></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i>Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i>Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i>Einordnung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#kompetenzziele-der-veranstaltung"><i class="fa fa-check"></i>Kompetenzziele der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i>Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="part"><span><b>Stoffdidaktische Analyse</b></span></li>
+<li class="chapter" data-level="1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>1</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#analyse-von-lernbereichen"><i class="fa fa-check"></i><b>1.1</b> Analyse von Lernbereichen</a></li>
+<li class="chapter" data-level="1.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#lernbereich-und-lerngegenstand"><i class="fa fa-check"></i><b>1.2</b> Lernbereich und Lerngegenstand</a></li>
+<li class="chapter" data-level="1.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>1.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>1.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="1.3.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>1.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="1.3.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>1.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="1.3.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>1.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="1.3.5" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#verknüpfung-der-ebenen"><i class="fa fa-check"></i><b>1.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>1.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html"><i class="fa fa-check"></i><b>2</b> (Hoch-)Schulmathematik</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#doppelte-diskontinuität"><i class="fa fa-check"></i><b>2.1</b> Doppelte Diskontinuität</a></li>
+<li class="chapter" data-level="2.2" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#geeignete-quellen"><i class="fa fa-check"></i><b>2.2</b> Geeignete Quellen</a></li>
+<li class="chapter" data-level="2.3" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#beispiel-negative-zahlen"><i class="fa fa-check"></i><b>2.3</b> Beispiel Negative Zahlen</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#natürliche-zahlen"><i class="fa fa-check"></i><b>2.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#ganze-zahlen"><i class="fa fa-check"></i><b>2.3.2</b> Ganze Zahlen</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#rationale-zahlen"><i class="fa fa-check"></i><b>2.3.3</b> Rationale Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-hoch-schulmathematik.html"><a href="2-hoch-schulmathematik.html#hochschulmathematik-nachbereitung"><i class="fa fa-check"></i><b>2.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html"><i class="fa fa-check"></i><b>3</b> Mathematik strukturieren</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#sachgebiete"><i class="fa fa-check"></i><b>3.1</b> Sachgebiete</a></li>
+<li class="chapter" data-level="3.2" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#leitideen"><i class="fa fa-check"></i><b>3.2</b> Leitideen</a></li>
+<li class="chapter" data-level="3.3" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#arten-mathematischen-wissens"><i class="fa fa-check"></i><b>3.3</b> Arten mathematischen Wissens</a></li>
+<li class="chapter" data-level="3.4" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#fundamentale-ideen"><i class="fa fa-check"></i><b>3.4</b> Fundamentale Ideen</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#fundamentale-ideen-begriffsklaerung"><i class="fa fa-check"></i><b>3.4.1</b> Begriffsklärung</a></li>
+<li class="chapter" data-level="3.4.2" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#auswahl-fundamentaler-ideen"><i class="fa fa-check"></i><b>3.4.2</b> Auswahl Fundamentaler Ideen</a></li>
+<li class="chapter" data-level="3.4.3" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#beispiel-linearitaet"><i class="fa fa-check"></i><b>3.4.3</b> Beispiel Linearität</a></li>
+<li class="chapter" data-level="3.4.4" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#gegenbeispiele"><i class="fa fa-check"></i><b>3.4.4</b> Gegenbeispiele</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="3-mathematik-strukturieren.html"><a href="3-mathematik-strukturieren.html#mathematik-strukturieren-nachbereitung"><i class="fa fa-check"></i><b>3.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html"><i class="fa fa-check"></i><b>4</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>4.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="4.1.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>4.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>4.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="4.3" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>4.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#natürliche-zahlen-1"><i class="fa fa-check"></i><b>4.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="4.3.2" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>4.3.2</b> Bruchzahlen</a></li>
+<li class="chapter" data-level="4.3.3" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#negative-zahlen"><i class="fa fa-check"></i><b>4.3.3</b> Negative Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="4-grundvorstellungen.html"><a href="4-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html"><i class="fa fa-check"></i><b>5</b> Arbeitsmittel</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#aneignung-von-lerngegenstaenden"><i class="fa fa-check"></i><b>5.1</b> Aneignung von Lerngegenständen</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#vermittelnde-werkzeuge"><i class="fa fa-check"></i><b>5.1.1</b> Vermittelnde Werkzeuge</a></li>
+<li class="chapter" data-level="5.1.2" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#zur-rolle-des-sprechens"><i class="fa fa-check"></i><b>5.1.2</b> Zur Rolle des Sprechens</a></li>
+<li class="chapter" data-level="5.1.3" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#lernmittel-und-lernmodelle"><i class="fa fa-check"></i><b>5.1.3</b> Lernmittel und Lernmodelle</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#arbeitsmittel-begriffsklaerung"><i class="fa fa-check"></i><b>5.2</b> Begriffsklärung Arbeitsmittel</a></li>
+<li class="chapter" data-level="5.3" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#beispiel-äquivalenzumformungen"><i class="fa fa-check"></i><b>5.3</b> Beispiel Äquivalenzumformungen</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#der-gleichungsbegriff"><i class="fa fa-check"></i><b>5.3.1</b> Der Gleichungsbegriff</a></li>
+<li class="chapter" data-level="5.3.2" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#umformungen-verstehen"><i class="fa fa-check"></i><b>5.3.2</b> Umformungen verstehen</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="5-arbeitsmittel.html"><a href="5-arbeitsmittel.html#arbeitsmittel-nachbereitung"><i class="fa fa-check"></i><b>5.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-kernideen-und-kontexte.html"><a href="6-kernideen-und-kontexte.html"><i class="fa fa-check"></i><b>6</b> Kernideen und Kontexte</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="6-kernideen-und-kontexte.html"><a href="6-kernideen-und-kontexte.html#kernidee-begriffsklaerung"><i class="fa fa-check"></i><b>6.1</b> Begriffsklärung Kernidee/-frage</a></li>
+<li class="chapter" data-level="6.2" data-path="6-kernideen-und-kontexte.html"><a href="6-kernideen-und-kontexte.html#kontexte-begriffsklaerung"><i class="fa fa-check"></i><b>6.2</b> Begriffsklärung Kontext</a></li>
+<li class="chapter" data-level="6.3" data-path="6-kernideen-und-kontexte.html"><a href="6-kernideen-und-kontexte.html#mathematisierungstypen"><i class="fa fa-check"></i><b>6.3</b> Mathematisierungstypen</a></li>
+<li class="chapter" data-level="6.4" data-path="6-kernideen-und-kontexte.html"><a href="6-kernideen-und-kontexte.html#kernideen-kontexte-nachbereitung"><i class="fa fa-check"></i><b>6.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html"><i class="fa fa-check"></i><b>7</b> Intermezzo: Flächeninhalt</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#darstellung-im-schulbuch"><i class="fa fa-check"></i><b>7.1</b> Darstellung im Schulbuch</a></li>
+<li class="chapter" data-level="7.2" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#formale-ebene-1"><i class="fa fa-check"></i><b>7.2</b> Formale Ebene</a></li>
+<li class="chapter" data-level="7.3" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#semantische-ebene-1"><i class="fa fa-check"></i><b>7.3</b> Semantische Ebene</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#fundamentale-idee-messen"><i class="fa fa-check"></i><b>7.3.1</b> Fundamentale Idee Messen</a></li>
+<li class="chapter" data-level="7.3.2" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#gv-zum-flächeninhalt"><i class="fa fa-check"></i><b>7.3.2</b> GV zum Flächeninhalt</a></li>
+<li class="chapter" data-level="7.3.3" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#auswirkungen-auf-lernpfad"><i class="fa fa-check"></i><b>7.3.3</b> Auswirkungen auf Lernpfad</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#konkrete-ebene-1"><i class="fa fa-check"></i><b>7.4</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="7.5" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#ausblick-auf-empirische-ebene"><i class="fa fa-check"></i><b>7.5</b> Ausblick auf empirische Ebene</a></li>
+<li class="chapter" data-level="7.6" data-path="7-intermezzo-flaecheninhalt.html"><a href="7-intermezzo-flaecheninhalt.html#intermezzo-flaecheninhalt-nachbereitung"><i class="fa fa-check"></i><b>7.6</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Lernprozesse gestalten</b></span></li>
+<li class="chapter" data-level="8" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html"><i class="fa fa-check"></i><b>8</b> Tätigkeitstheorie und Lernen</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#lerntaetigkeit-und-lernhandlung"><i class="fa fa-check"></i><b>8.1</b> Lerntätigkeit und Lernhandlung</a></li>
+<li class="chapter" data-level="8.2" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#motivierung-und-zielbildung"><i class="fa fa-check"></i><b>8.2</b> Motivierung und Zielbildung</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#zone-der-nächsten-entwicklung"><i class="fa fa-check"></i><b>8.2.1</b> Zone der nächsten Entwicklung</a></li>
+<li class="chapter" data-level="8.2.2" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#lernzielbildung"><i class="fa fa-check"></i><b>8.2.2</b> Lernzielbildung</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#lernhandlungen-ausbilden"><i class="fa fa-check"></i><b>8.3</b> Lernhandlungen ausbilden</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#orientierungsgrundlagen"><i class="fa fa-check"></i><b>8.3.1</b> Orientierungsgrundlagen</a></li>
+<li class="chapter" data-level="8.3.2" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#ausfuehren-und-verinnerlichen"><i class="fa fa-check"></i><b>8.3.2</b> Ausführen und Verinnerlichen</a></li>
+<li class="chapter" data-level="8.3.3" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#handlungskontrolle"><i class="fa fa-check"></i><b>8.3.3</b> Handlungskontrolle</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#bezuege-zur-stoffdidaktik"><i class="fa fa-check"></i><b>8.4</b> Bezüge zur Stoffdidaktik</a></li>
+<li class="chapter" data-level="8.5" data-path="8-taetigkeitstheorie-und-lernen.html"><a href="8-taetigkeitstheorie-und-lernen.html#taetigkeitstheorie-nachbereitung"><i class="fa fa-check"></i><b>8.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html"><i class="fa fa-check"></i><b>9</b> Begriffe, Sachverhalte und Verfahren</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe"><i class="fa fa-check"></i><b>9.1</b> Begriffe</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe-bilden"><i class="fa fa-check"></i><b>9.1.1</b> Begriffe bilden</a></li>
+<li class="chapter" data-level="9.1.2" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe-aneignen"><i class="fa fa-check"></i><b>9.1.2</b> Begriffe aneignen</a></li>
+<li class="chapter" data-level="9.1.3" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe-festigen"><i class="fa fa-check"></i><b>9.1.3</b> Begriffe festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#sachverhalte"><i class="fa fa-check"></i><b>9.2</b> Sachverhalte</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#sachverhalte-erarbeiten"><i class="fa fa-check"></i><b>9.2.1</b> Sachverhalte erarbeiten</a></li>
+<li class="chapter" data-level="9.2.2" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#sachverhalte-aneignen"><i class="fa fa-check"></i><b>9.2.2</b> Sachverhalte aneignen</a></li>
+<li class="chapter" data-level="9.2.3" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#sachverhalte-festigen"><i class="fa fa-check"></i><b>9.2.3</b> Sachverhalte festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#verfahren"><i class="fa fa-check"></i><b>9.3</b> Verfahren</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#verfahren-gewinnen"><i class="fa fa-check"></i><b>9.3.1</b> Verfahren gewinnen</a></li>
+<li class="chapter" data-level="9.3.2" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#verfahren-aneignen"><i class="fa fa-check"></i><b>9.3.2</b> Verfahren aneignen</a></li>
+<li class="chapter" data-level="9.3.3" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#verfahren-festigen"><i class="fa fa-check"></i><b>9.3.3</b> Verfahren festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#zusammenfassung"><i class="fa fa-check"></i><b>9.4</b> Zusammenfassung</a></li>
+<li class="chapter" data-level="9.5" data-path="9-begriffe-sachverhalte-und-verfahren.html"><a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe-sachverhalte-verfahren-nachbereitung"><i class="fa fa-check"></i><b>9.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html"><i class="fa fa-check"></i><b>10</b> Intermezzo: Arithmetisches Mittel</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#stoffdidaktische-hintergründe"><i class="fa fa-check"></i><b>10.1</b> Stoffdidaktische Hintergründe</a></li>
+<li class="chapter" data-level="10.2" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#kompetenzziele"><i class="fa fa-check"></i><b>10.2</b> Kompetenzziele</a></li>
+<li class="chapter" data-level="10.3" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#unterrichtsphasen"><i class="fa fa-check"></i><b>10.3</b> Unterrichtsphasen</a>
+<ul>
+<li class="chapter" data-level="10.3.1" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#motivierung-und-zielbildung-1"><i class="fa fa-check"></i><b>10.3.1</b> Motivierung und Zielbildung</a></li>
+<li class="chapter" data-level="10.3.2" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#stoffvermittlung"><i class="fa fa-check"></i><b>10.3.2</b> Stoffvermittlung</a></li>
+<li class="chapter" data-level="10.3.3" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#festigung"><i class="fa fa-check"></i><b>10.3.3</b> Festigung</a></li>
+<li class="chapter" data-level="10.3.4" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#handlungskontrolle-1"><i class="fa fa-check"></i><b>10.3.4</b> Handlungskontrolle</a></li>
+</ul></li>
+<li class="chapter" data-level="10.4" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#aufsteigen-vom-abstrakten-zum-konkreten"><i class="fa fa-check"></i><b>10.4</b> Aufsteigen vom Abstrakten zum Konkreten</a></li>
+<li class="chapter" data-level="10.5" data-path="10-intermezzo-arithmetisches-mittel.html"><a href="10-intermezzo-arithmetisches-mittel.html#intermezzo-arithmetisches-mitttel-nachbereitung"><i class="fa fa-check"></i><b>10.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Didaktik der Sachgebiete</b></span></li>
+<li class="chapter" data-level="11" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html"><i class="fa fa-check"></i><b>11</b> Arithmetik und Algebra</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html#übergang-arithmetik-algebra"><i class="fa fa-check"></i><b>11.1</b> Übergang Arithmetik → Algebra</a></li>
+<li class="chapter" data-level="11.2" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html#wurzeln"><i class="fa fa-check"></i><b>11.2</b> Wurzeln</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html#wurzel-begriffsverstaendnis"><i class="fa fa-check"></i><b>11.2.1</b> Begriffsverständnis</a></li>
+<li class="chapter" data-level="11.2.2" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html#wurzelbehandlung"><i class="fa fa-check"></i><b>11.2.2</b> Wurzelbehandlung</a></li>
+<li class="chapter" data-level="11.2.3" data-path="11-arithmetik-und-algebra.html"><a href="11-arithmetik-und-algebra.html#heron-verfahren"><i class="fa fa-check"></i><b>11.2.3</b> Heron-Verfahren</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="12-analysis.html"><a href="12-analysis.html"><i class="fa fa-check"></i><b>12</b> Analysis</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="12-analysis.html"><a href="12-analysis.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>12.1</b> Analysis in der Sek. II</a></li>
+<li class="chapter" data-level="12.2" data-path="12-analysis.html"><a href="12-analysis.html#grenzwertbegriff"><i class="fa fa-check"></i><b>12.2</b> Grenzwertbegriff</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="12-analysis.html"><a href="12-analysis.html#fachliche-hinweise"><i class="fa fa-check"></i><b>12.2.1</b> Fachliche Hinweise</a></li>
+<li class="chapter" data-level="12.2.2" data-path="12-analysis.html"><a href="12-analysis.html#unterrichtliche-zugänge"><i class="fa fa-check"></i><b>12.2.2</b> Unterrichtliche Zugänge</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="12-analysis.html"><a href="12-analysis.html#ableitungsbegriff"><i class="fa fa-check"></i><b>12.3</b> Ableitungsbegriff</a></li>
+<li class="chapter" data-level="12.4" data-path="12-analysis.html"><a href="12-analysis.html#computer-algebra-systeme"><i class="fa fa-check"></i><b>12.4</b> Computer-Algebra-Systeme</a>
+<ul>
+<li class="chapter" data-level="12.4.1" data-path="12-analysis.html"><a href="12-analysis.html#software-und-hardware"><i class="fa fa-check"></i><b>12.4.1</b> Software und Hardware</a></li>
+<li class="chapter" data-level="12.4.2" data-path="12-analysis.html"><a href="12-analysis.html#bedienung-schulen"><i class="fa fa-check"></i><b>12.4.2</b> Bedienung schulen</a></li>
+<li class="chapter" data-level="12.4.3" data-path="12-analysis.html"><a href="12-analysis.html#neue-aufgabenkultur"><i class="fa fa-check"></i><b>12.4.3</b> Neue Aufgabenkultur</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="13-geometrie.html"><a href="13-geometrie.html"><i class="fa fa-check"></i><b>13</b> Geometrie</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="13-geometrie.html"><a href="13-geometrie.html#lagebeziehungen"><i class="fa fa-check"></i><b>13.1</b> Lagebeziehungen</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="13-geometrie.html"><a href="13-geometrie.html#lagebeziehungen-falten"><i class="fa fa-check"></i><b>13.1.1</b> Lagebeziehungen falten</a></li>
+<li class="chapter" data-level="13.1.2" data-path="13-geometrie.html"><a href="13-geometrie.html#skalarprodukt"><i class="fa fa-check"></i><b>13.1.2</b> Skalarprodukt</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="13-geometrie.html"><a href="13-geometrie.html#dynamische-geometriesysteme"><i class="fa fa-check"></i><b>13.2</b> Dynamische Geometriesysteme</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="14-stochastik.html"><a href="14-stochastik.html"><i class="fa fa-check"></i><b>14</b> Stochastik</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="14-stochastik.html"><a href="14-stochastik.html#stochastische-vorgänge"><i class="fa fa-check"></i><b>14.1</b> Stochastische Vorgänge</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="14-stochastik.html"><a href="14-stochastik.html#modellierungsstruktur"><i class="fa fa-check"></i><b>14.1.1</b> Modellierungsstruktur</a></li>
+<li class="chapter" data-level="14.1.2" data-path="14-stochastik.html"><a href="14-stochastik.html#prozessbetrachtung"><i class="fa fa-check"></i><b>14.1.2</b> Prozessbetrachtung</a></li>
+</ul></li>
+<li class="chapter" data-level="14.2" data-path="14-stochastik.html"><a href="14-stochastik.html#kombinatorik"><i class="fa fa-check"></i><b>14.2</b> Kombinatorik</a></li>
+<li class="chapter" data-level="14.3" data-path="14-stochastik.html"><a href="14-stochastik.html#boxplot"><i class="fa fa-check"></i><b>14.3</b> Boxplot</a></li>
+<li class="chapter" data-level="14.4" data-path="14-stochastik.html"><a href="14-stochastik.html#bedingte-wahrscheinlichkeiten"><i class="fa fa-check"></i><b>14.4</b> Bedingte Wahrscheinlichkeiten</a></li>
+</ul></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-sammlung-von-lernbereichen.html"><a href="A-sammlung-von-lernbereichen.html"><i class="fa fa-check"></i><b>A</b> Sammlung von Lernbereichen</a></li>
+<li class="chapter" data-level="B" data-path="B-quellenarbeit.html"><a href="B-quellenarbeit.html"><i class="fa fa-check"></i><b>B</b> Quellenarbeit</a></li>
+<li class="chapter" data-level="C" data-path="C-vollständiges-literaturverzeichnis.html"><a href="C-vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i><b>C</b> Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2024</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2023/24</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="arithmetik-und-algebra" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Arithmetik und Algebra<a href="11-arithmetik-und-algebra.html#arithmetik-und-algebra" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<blockquote>
+<p><strong>Ziele</strong></p>
+<ul>
+<li>Sie haben einen Überblick, was Arithmetik- und Algebra-Unterricht auszeichnet.<br />
+</li>
+<li>Sie können den Zusammenhang zwischen den Sachgebieten Arithmetik und Algebra und den zugehörigen Leitideen beschreiben.<br />
+</li>
+<li>Sie kennen Verfahren zum näherungsweisen Bestimmen von Quadratwurzeln sowie deren algorithmische Umsetzung.</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zum Kapitel 11 (<a href="files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.pdf">pdf</a>, <a href="files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.key">Keynote</a>)</li>
+</ul>
+<p><strong>Literaturempfehlungen</strong></p>
+<ul>
+<li><span class="citation">Padberg &amp; Benz (<a href="#ref-Padberg2021">2021</a>)</span>: <em>Didaktik der Arithmetik: fundiert, vielseitig, praxisnah</em></li>
+<li><span class="citation">Weigand et al. (<a href="#ref-Weigand2022">2022</a>)</span>: <em>Didaktik der Algebra: nach der Vorlage von Hans-Joachim Vollrath</em></li>
+</ul>
+</blockquote>
+<p>In diesem und den folgenden Kapiteln sollen für die einzelnen Sachgebiete der Mathematik teils einige allgemeine Kommentare zur Didaktik des jeweiligen Sachgebiets getroffen und stets an ausgewählten Lerngegenständen mathematikdidaktische Hintergründe illustriert werden. Die Auswahl der Lerngegenstände erfolgt dabei interessen- und zufallsgesteuert und stellt keine systmatische Betrachtung dar.</p>
+<div id="übergang-arithmetik-algebra" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Übergang Arithmetik → Algebra<a href="11-arithmetik-und-algebra.html#übergang-arithmetik-algebra" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>»In der Arithmetik sind Zahlen die Objekte des Handelns.« <span class="citation">Weigand et al. (<a href="#ref-Weigand2022">2022, S. 40</a>)</span> formuliert diesen Satz, um im Kontrast dazu zu beschreiben, dass sich in der Algebra »der Fokus vom Handeln mit Zahlen zum Handeln mit unbekannten Größen [verändert]. Dabei können Lernende die bekannten Regeln des Operierens mit Zahlen auf die neuartige Situation übertragen, in der Zahlen unbekannt sind.«
+Der Mathematikunterricht der Sekundarstufe I ist geprägt durch diesen gedanklichen Übergang von der Arithmetik zur Algebra, der aber durchaus auch schon in der Grundschule beginnen kann, etwa beim halbschriftlichen Rechnen <span class="citation">(siehe z. B. <a href="#ref-Padberg2021">Padberg &amp; Benz, 2021, 191 ff.</a>)</span>. »Aus der Perspektive des Lehrens und Lernens von Algebra beginnt die Auseinandersetzung mit Algebra dort, wo Lernende allgemeine arithmetische Strukturen erkennen oder erkunden« <span class="citation">(<a href="#ref-Weigand2022">Weigand et al., 2022, S. 39</a>)</span>. Die bedeutsamsten Lerngegenstände zur Algebra sind demnach <strong>Variablen</strong>, <strong>Terme</strong> und <strong>Gleichungen</strong>.</p>
+<p>Die Algebra erhält im Schulunterricht drei wesentliche Bedeutungen <span class="citation">(Zitate entnommen aus <a href="#ref-Weigand2022">Weigand et al., 2022, S. 1 ff.</a>)</span>:</p>
+<ul>
+<li><p><strong>Algebra als Formelsprache.</strong> »Mithilfe von Variablen, Termen und Gleichungen kann ein Sachverhalt in der Formelsprache dargestellt werden.« Dies wird beispielsweise bei der binomischen Formel <span class="math inline">\((a+b)^2 = a^2+2ab+b^2\)</span> sichtbar, die das Distributivgesetz für einen bestimmten Fall beschreibt.</p></li>
+<li><p><strong>Algebra als Werkzeug.</strong> Demnach ist die »Algebra ein Hilfsmittel und Werkzeug, um geometrische, physikalische oder Anwendungsprobleme durch Formelsprache auszudrücken und so zu lösen«. So könn etwa die Kosten in Euro für eine Taxifahrt über die Gleichung <span class="math inline">\(K = 4,4+2,1t\)</span> beschrieben werden, wenn <span class="math inline">\(t\)</span> die gefahrenen Minuten darstellt.</p></li>
+<li><p><strong>Algebra als Denkweise.</strong> »Algebraisches Denken zeigt sich somit im Umgang mit Denkobjekten beim Übergang von konkreten zu unbestimmten Objekten und beim Operieren auf der symbolischen Ebene.« Dies kann etwa bei der Betrachtung von Musterfolgen der Fall sein. Neben der Anzahl an Würfeln in den einzelnen Schritten in Abbildung ? könnte das Interesse darauf gelegt werden, wie sich die Anzahl von Schritt zu Schritt verändert und wie viele Würfel dann im <span class="math inline">\(n\)</span>-ten Schritt vorhanden sind.</p></li>
+</ul>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Musterfolge"></span>
+<img src="pictures/11-Musterfolge.png" alt="Musterfolge zum Übergang der Arithmetik zur Algebra (Weigand et al., 2022, S. 8)" width="75%" />
+<p class="caption">
+Abb. 11.1: Musterfolge zum Übergang der Arithmetik zur Algebra <span class="citation">(<a href="#ref-Weigand2022">Weigand et al., 2022, S. 8</a>)</span>
+</p>
+</div>
+</div>
+<div id="wurzeln" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Wurzeln<a href="11-arithmetik-und-algebra.html#wurzeln" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="wurzel-begriffsverstaendnis" class="section level3 hasAnchor" number="11.2.1">
+<h3><span class="header-section-number">11.2.1</span> Begriffsverständnis<a href="11-arithmetik-und-algebra.html#wurzel-begriffsverstaendnis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In diesem Abschnitt werden <strong>Begriffsinhalt</strong>, <strong>Begriffsumfang</strong> und <strong>Begriffsnetz</strong> sowie verschiedene <strong>Stufen des Begriffsverständnisses</strong> zum Wurzelbegriff diskutiert<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a>.</p>
+<p>Zunächst ist festzuhalten, dass die Wurzel bzw. das Wurzelziehen die Umkehrung des Quadrierens im Bereich der nichtnegativen Zahlen ist. Diese Nichtnegativität ist übrigens im Unterricht besonders herauszuarbeiten. Während <span class="math inline">\((-3)^2 = 9\)</span> und <span class="math inline">\(3^2= 9\)</span> ist, also die Gleichung <span class="math inline">\(x^2 = 9\)</span> zwei Lösungen in den reellen Zahlen hat, ist <span class="math inline">\(\sqrt{9} = 3\)</span> eindeutig festgelegt. Man kann also nicht pauschal von der Wurzel als die Umkehrung des Quadrates sprechen.<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> Weiterhin gehört zum Begriffsinhalt die Eigenschaft, dass Wurzeln nicht immer rational sein müssen, auch wenn die Zahl, aus der die Wurzel gezogen wird, rational ist (z. B. bei <span class="math inline">\(\sqrt{2}\)</span>). Der Wert einer Wurzel lässt sich jedoch mittels rationaler Zahlen annähern<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a>. Das Vorgehen zum Finden einer Annäherung kann durchaus auch als Bestandteil des Begriffsinhalts aufgefasst werden.</p>
+<p>Wurzeln können demnach alle nichtnegativen reellen Zahlen sein, da für jede (rationale oder reelle) Zahl <span class="math inline">\(a\geq 0\)</span> eine reelle Zahl <span class="math inline">\(x\geq 0\)</span> gefunden werden kann, für die <span class="math inline">\(x^2 = a\)</span> gilt. Dieser Begriffsumfang kann sich jedoch erst schrittweise entwickeln, da mit der Einführung des Wurzelbegriffs in der Regel noch nicht die reellen Zahlen bekannt sind. Die Menge aller Wurzeln rationaler Zahlen besteht zwar aus nichtnegativen reellen Zahlen – aber noch nicht aus allen (denn z. B. <span class="math inline">\(\sqrt{\pi}\)</span> existiert ja auch). Ein vollständiger Begriffsumfang des Wurzelbegriffs ist also erst dann ausgeprägt, wenn die reellen Zahlen eingeführt wurden.</p>
+<p>Eng verbunden ist der Wurzelbegriff mit dem des <em>Quadrates</em> (sowohl algebraisch als auch geometrisch) und den <em>reellen Zahlen</em> (als <em>Lückenfüller</em> der rationalen Achse). Auch das <em>Wurzelziehen</em> bzw. <em>Radizieren</em><a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a> als verwandte Arbeitsbegriffe gehören zum engen Begriffsnetz. Bei der Betrachtung der Gleichung <span class="math inline">\(x^2 = a\)</span> sind auch <em>Basis</em> und <em>Exponent</em> sowie der <em>Radikant</em>, v. a. in der Schreibweise <span class="math inline">\(\sqrt{a} = x\)</span>, Bestandteile des Begriffsnetzes. Der <em>Wurzelexponent</em> wird dann v. a. bei höheren Exponenten von Bedeutung, wenn er in der Schreibweise <span class="math inline">\(\sqrt[n]{a}\)</span> auftritt. Ob die <em>Intervallschachtelung</em> als Fachbegriff im Zusammenhang mit dem Wurzelziehen auftauchen muss, sollte abhängig von der Lerngruppe entschieden werden – bekommt damit aber eine besondere Bedeutung als Begriff eines Verfahrens.</p>
+<p>Hinsichtlich des Wurzelbegriffs liegt ein <em>intuitive Begriffsverständnis</em> vor, wenn die Schülerinnen und Schüler Wurzeln als Seitenlängen zu Quadraten mit vorgegebenen Flächeninhalten auffassen oder dies in einer algebraischen Sichtweise nachvollziehen. Zum <em>inhaltlichen Begriffsverständnis</em> gehört darauf aufbauend hinzu, dass es sich stets um nichtnegative Werte handeln muss. Ein <em>integriertes Begriffsverständnis</em> liegt vor, wenn die Monotonie und nicht-Linearität erkannt ist, also bspw. die näherungsweise Bestimmung einer Wurzel möglich ist. Auch der begriffliche Zusammenhang zu <em>Quadrat</em>, <em>Basis</em> und <em>Exponent</em> kann auf dieser Stufe von den Schülerinnen und Schülern hergestellt werden. Bestandteil der Stufe ist (später) ebenfalls die Verknüpfung zu höheren Potenzen und deren <span class="math inline">\(n\)</span>-te Wurzeln. Das <em>formale Begriffsverständnis</em> geht einher mit der Kenntnis und Anwendbarkeit der Definition der Wurzel, hier insbesondere auch die Fähigkeit zu begründen, warum es keine negativen Wurzeln bzw. keine Wurzeln aus negativen Zahlen gibt.</p>
+</div>
+<div id="wurzelbehandlung" class="section level3 hasAnchor" number="11.2.2">
+<h3><span class="header-section-number">11.2.2</span> Wurzelbehandlung<a href="11-arithmetik-und-algebra.html#wurzelbehandlung" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Angelehnt an die <em>Mathewerkstatt</em> für die Klassenstufe 9 <span class="citation">(<a href="#ref-Barzel2016">Barzel et al., 2016, 92 ff.</a>)</span> sowie die Überlegungen in den Kapiteln <a href="8-taetigkeitstheorie-und-lernen.html#taetigkeitstheorie-und-lernen">8</a> und <a href="9-begriffe-sachverhalte-und-verfahren.html#begriffe-sachverhalte-und-verfahren">9</a>, bietet sich folgende Behandlung des Wurzelbegriffs an:</p>
+<ol style="list-style-type: decimal">
+<li><p>Es kann prinzipiell davon ausgegangen werden, dass den Schülerinnen und Schülern Quadrate bekannt sind und sie aus diesen Seitenlängen abmessen und den Flächeninhalt berechnen können. In Hinblick auf die <em>Zone der nächsten Entwicklung</em> sind sie noch nicht in der Lage, aus gegebenen Flächeninhalten die Seitenlänge eines Quadrates zu berechnen bzw. halbquantitive Zusammenhänge zu erzeugen (z. B. <em>Wie ändert sich die Seitenlänge, wenn der Flächeninhalt halbiert wird?</em>). Jedoch können sie diese Anforderungssituation mit ihrem bisherigen Wissen verstehen.</p>
+<p>Der (innermathematische) <strong>Kontext</strong> ist also das Bestimmen einer Seitenlänge eines Quadrates bei gegebenem Flächeninhalt. Dies kann u. a. dadurch konkretisiert werden, dass zu einem Quadrat dasjenige mit dem halben Flächeninhalt gesucht wird. Dies erhöht die Konxtauthentizität dahingehend, das es sich um ein historisch relevantes Problem handelt <span class="citation">(vgl. <a href="#ref-Barzel2016">Barzel et al., 2016, S. 94</a>)</span>. Dabei ist es reichthaltig genug, auch von der Halbierung abzusehen und allgemeinere Zusammenhänge zu erkunden. Ein erster Lösungsversuch ist zum Beispiel über das Falten eines quadratischen Blatt Papiers möglich (indem alle vier Ecken auf den Mittelpunkt gefaltet werden). Durch einen Vergleich des ursprünglichen und des gefalteten Quadrates kann man erkennen, dass die Seitenlänge nicht einfach halbiert werden kann.</p></li>
+<li><p>Als <strong>Lernziel</strong> kann herausgearbeitet und formuliert werden: <em>Wir wollen für ein Quadrat mit einem bestimmten Flächeninhalt die Seitenlänge bestimmen können.</em> Dies ist allgemeiner formuliert als das Halbierungsproblem, aber eine solch allgemeine Formulierung ist durchaus sinnvoll, um das übergeordnete Ziel während des Lernprozesses stets vor Augen zu haben. Wichtig ist hierbei, dass auch das Ziel selbst von den Lernenden verstanden wird und sie jederzeit überprüfen können, inwieweit sie das Ziel schon erreicht haben.</p></li>
+<li><p>Bei der Überlegung, welche <strong>Lernhandlungen</strong> geeignet sind, sich dem Wurzelbegriff zu nähern, sollen diese aus den fachlich relevanten Zusammenhängen extrahiert und am gewählten Kontext konkretisiert werden:</p>
+<ul>
+<li><p>Ein wesentlicher Zusammenhang ist, dass sich <strong>Seitenlänge und Flächeninhalt eines Quadrates nicht proportional zueinander</strong> verhalten, also eine doppelte Seitenlänge nicht zu einem doppelten Flächeninhalt führt. Dieser nicht-Zusammenhang gilt aber dann natürlich auch umkehrt: Der doppelte Flächeninhalt wird nicht durch eine doppelte Seitenlänge verursacht. Diese Perspektive ist wichtig, um zu erkennen, dass sich Wurzeln unbekannter Zahlen nicht so einfach linear aus Wurzeln bekannter Zahlen konstruieren lassen. Als konkrete Lernhandlung lässt sich die umsetzen, indem <strong>zu vorgegebenen Quadraten Seitenlängen und Flächeninhalte bestimmt werden</strong> müssen. Die Auswahl sollte derart erfolgen, dass sowohl vielfache Seitenlängen als auch vielfache Flächeninhalte auftreten, damit bei den jeweils anderen Größen erkannt wird, dass diese keine entsprechenden Vielfachen darstellen.</p></li>
+<li><p>Trotz der nicht-Linearität ist die bestehende <strong>(strenge) Monotonie</strong> ein weiterer Zusammenhang <strong>zwischen Seitenlängen und Flächeninhalt.</strong> Dieser kann herausgearbeitet werden, indem (nach der vorherigen Erfahrung) <strong>Flächeninhalte und Seitenlängen von Quadraten</strong> gegeben werden und zwischen diesen eine <strong>Zuordnung</strong> erfolgen muss. Dies betont den qualitativen Zusammenhang – auch wenn ein konkretes Ausrechnen damit noch nicht möglich ist.</p></li>
+<li><p>Der nächste Handlungsschritt ist nun das <strong>näherungsweise Bestimmen von Seitenlängen</strong> über das Intervallschachtelungsprinzip. Dieses baut in fachlicher Hinsicht auf die Monotonie auf und es sind nun immer Zahlenpaare <span class="math inline">\(a_1\)</span> und <span class="math inline">\(a_2\)</span> gesucht, für die <span class="math inline">\(a_1^2 \leq A \leq a_2^2\)</span> für einen gegebenen Flächeninhalt <span class="math inline">\(A\)</span> gilt. Über eine vorstrukturierte (und ggf. auch schon über Beispiele vorausgefüllte) Tabelle kann dieses Vorgehen unterstützt werden. Begleitet werden kann dieses Vorgehen natürlich auch über ein zeichnerisches Nähern, indem den Quadraten weitere einbeschrieben werden, deren Seitenlängen gemessen und daraus der Flächeninhalt berechnet wird.</p></li>
+</ul>
+<table>
+<caption><span id="tab:intervallschachtelung">Tab. 11.1: </span> Intervallschachtelung zur Bestimmung von <span class="math inline">\(\sqrt{8}\)</span></caption>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><span class="math inline">\(a_1^2\)</span></th>
+<th align="center"><span class="math inline">\(a_1 \leq \sqrt{8\,\mathrm{cm}^2} \leq a_2\)</span></th>
+<th align="center"><span class="math inline">\(a_2^2\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><span class="math inline">\(4\,\mathrm{cm}^2\)</span></td>
+<td align="center"><span class="math inline">\(2\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 3\,\mathrm{cm}\)</span></td>
+<td align="center"><span class="math inline">\(9\,\mathrm{cm}^2\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(7{,}84\,\mathrm{cm}^2\)</span></td>
+<td align="center"><span class="math inline">\(2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 3\,\mathrm{cm}\)</span></td>
+<td align="center"><span class="math inline">\(9\,\mathrm{cm}^2\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"><span class="math inline">\(7{,}84\,\mathrm{cm}^2\)</span></td>
+<td align="center"><span class="math inline">\(2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 2{,}9\,\mathrm{cm}\)</span></td>
+<td align="center"><span class="math inline">\(8{,}41\,\mathrm{cm}^2\)</span></td>
+</tr>
+<tr class="even">
+<td align="center"><span class="math inline">\(7{,}84\,\mathrm{cm}^2\)</span></td>
+<td align="center"><span class="math inline">\(2{,}8\,\mathrm{cm} \leq \sqrt{8\,\mathrm{cm}^2}\leq 2{,}85\,\mathrm{cm}\)</span></td>
+<td align="center"><span class="math inline">\(8{,}1225\,\mathrm{cm}^2\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center"></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p>All die Handlungen haben gemeinsam, dass dabei zwar an konkreten Quadraten mit bestimmten Flächeninhalten und Seitenlängen agiert wird, allerdings sind sie verallgemeinerbar und in ihrer Ausführung nicht an die genutzen Größen- und Zahlenwerte gebunden. Die mit den Lernhandlungen verbunden Aufgabenstellungen sollten dabei über eine <strong>Kernfrage</strong> in ihrer Vorschauperspektive begleitet werden. Aus dem Lernziel heraus lässt sich beispielsweise formulieren <span class="citation">(siehe <a href="#ref-Barzel2016">Barzel et al., 2016, S. 94</a>)</span>: »Warum ist es so schwierig, das Quadrieren rückwärts zu rechnen?«</p></li>
+<li><p>Die <strong>etappenweise Verinnerlichung von Handlungen</strong> bietet sich insbesondere für die dritte Lernhandlung an (in der die Wurzeln näherungsweise bestimmt werden), da in dieser Handlung alle vorherigen Zusammenhänge integriert sind. Eine <em>materielle bzw. materialisierte Handlung</em> ist schwer zu identifizieren, ggf. noch das Ausmessen der Seitenlänge eines Quadrates. In der <em>sprachlichen Handlung</em> sollte das Vorgehen der Intervallschachtelung von den Schülerinnen und Schülern beschrieben werden. Die <em>geistige Handlung</em> ist dann das Ausführen der Intervallschachtelung selbst (wobei natürlich die errechneten Zahlen notiert werden).</p>
+<p>Die bei der Diskussion der Lernhandlungen dargestellten wesentlichen Begriffseigenschaften müssen nun den Schülerinnen und Schülern über die <strong>Verallgemeinerung der Lernhandlungen</strong> explizit gemacht werden. Dies kann bspw. im Unterrichtsgespräch erfolgen, indem das Vorgehen am konkreten Beispiel reflektiert und dabei das Allgemeine daran herausgearbeit wird. Es müssen natürlich nicht Begriffe wie <em>nicht-Linearität</em>, <em>Monotonie</em> und <em>Intervallschachtelung</em> genutzt werden, aber deren inhaltliche Aussagekraft muss sichtbar werden. Daraus abgeleitet bietet sich folgende Definition der Wurzel an:</p>
+<p><em>Die Wurzel einer nichtnegativen Zahl <span class="math inline">\(A\)</span> ist diejenige nichtnegative Zahl <span class="math inline">\(a\)</span>, für die <span class="math inline">\(a^2 = A\)</span> gilt.</em></p>
+<p><em>Man schreibt: <span class="math inline">\(a = \sqrt{A}\)</span>.</em></p>
+<p><em>Beispiel: <span class="math inline">\(\sqrt{9} = 3\)</span>, denn <span class="math inline">\(3^2 = 9\)</span>.</em></p>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:LernmodellWurzel"></span>
+<img src="pictures/11-Wurzel.png" alt="Veranschaulichung der Wurzel" width="50%" />
+<p class="caption">
+Abb. 11.2: Veranschaulichung der <em>Wurzel</em>
+</p>
+</div>
+<p><em>Achtung! Es ist zwar <span class="math inline">\((-3)^2 = 9\)</span>, aber <span class="math inline">\(\sqrt{9} \neq -3\)</span>, da <span class="math inline">\(-3\)</span> negativ ist. Außerdem ist <span class="math inline">\(\sqrt{-9}\)</span> nicht definiert, da <span class="math inline">\(-9\)</span> negativ ist.</em></p>
+<p>Die Auswahl des <strong>Beispiels</strong> <span class="math inline">\(\sqrt{9}=3\)</span> war dabei nicht zufällig. Als Einstiegsbeispiel sollte ein leicht nachvollziehbares gewählt werden, daher sollte es sich um (möglichst kleine) natürliche Zahlen handeln und nicht mit Einheiten agiert werden. <span class="math inline">\(\sqrt{0}\)</span> und <span class="math inline">\(\sqrt{1}\)</span> fallen weg, da dies Spezialfälle sind, in denen die Werte für Wurzel und Quadrat identisch sind. <span class="math inline">\(\sqrt{4}\)</span> ist ebenfalls ungünstig, weil dann bei der Erklärung der Umkehrung <span class="math inline">\(2^2 = 4\)</span> die Ziffer <span class="math inline">\(2\)</span> doppelt (und in verschiedenen Funktionen) auftaucht, nämlich als Basis und als Exponent. Um derartige <em>Anfangsverwirrungen</em> zu vermeiden, ist dann <span class="math inline">\(\sqrt{9}\)</span> das nächstliegende Einstiegsbeispiel. Entsprechend dem Kontrastprinzip müssen auch nahe <strong>Gegenbeispiele</strong> wie <span class="math inline">\(\sqrt{-9}\)</span> sowie <span class="math inline">\(\sqrt{9}\neq -3\)</span> gebracht werden. Das Variationsprinzip für die Auswahl von Beispielen kann über die verschiedenen Quadrate am Ausgangskonkretum erfüllt werden, in dem dort etwa nicht nur natürliche Zahlen auftreten.</p></li>
+<li><p>Anschließend erfolgen vertiefende Übungen und die Betrachtung weiterer Zusammenhänge, anhand derer das Begriffsverständnis vertieft wird.</p>
+<ul>
+<li><p>Beim Wurzelbegriff geht dies insbesondere mit der Zahlbereichserweiterung in die reellen Zahlen einher. Dabei werden Wurzeln als Zahlen (und nicht Seitenlängen) aufgefasst und bspw. auch auf dem Zahlenstrahl geordnet.</p></li>
+<li><p>Eine weitere Anwendung ist die Behandlung der Wurzelgesetze, bspw. <span class="math inline">\(\sqrt{x\cdot y} = \sqrt{x}\cdot \sqrt{y}\)</span>. Bezieht man sich beim Wurzelziehen auf das Umkehren des Quadrierens, so ist eine Begründung mithilfe des Potenzgesetzes <span class="math inline">\(x^2\cdot y^2 = (x\cdot y)^2\)</span> möglich.</p></li>
+</ul></li>
+</ol>
+</div>
+<div id="heron-verfahren" class="section level3 hasAnchor" number="11.2.3">
+<h3><span class="header-section-number">11.2.3</span> Heron-Verfahren<a href="11-arithmetik-und-algebra.html#heron-verfahren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Die Bildungsstandards erfordern die Implementation eines algorithmischen Verfahrens zur Bestimmung von Quadratwurzeln <span class="citation">(<a href="#ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022">Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a, S. 16</a>)</span>, wofür neben der Intervallschachtelung auch das Heron-Verfahren geeignet ist</p>
+<p>Die Idee hinter dem Heron-Verfahren besteht darin, dass ein Rechteck mit Flächeninhalt <span class="math inline">\(A\)</span> immer mehr zu einem Quadrat mit Flächeninhalt <span class="math inline">\(A\)</span> überführt wird, dessen Seitenlänge zu bestimmen ist.</p>
+<ul>
+<li>In einem ersten Schritt kann eine Seitenlänge <span class="math inline">\(x_1\)</span> festgelegt und daraus die zweite Seitenlänge <span class="math inline">\(y_1 = \cfrac{A}{x_1}\)</span> bestimmt werden.<br />
+</li>
+<li>Um die Seitenlängen <em>anzugleichen</em> wird in einem nächsten eine neue Seitenlänge <span class="math inline">\(x_2\)</span> als Durchschnitt der vorherigen Seitenlängen bestimmt: <span class="math inline">\(x_2 = \cfrac{x_1+y_1}{2}\)</span>. So wird sichergestellt, dass das neue Rechteck <em>quadratischer</em> als das alte ist. Für die zweite Rechtecksseite gilt entsprechend <span class="math inline">\(y_2 = \frac{A}{x_2}\)</span>.</li>
+<li>Dieses Vorgehen wird nun beliebig weitergeführt, sodass stets gilt: <span class="math inline">\(x_{n+1} = \cfrac{x_n+y_n}{2} = \cfrac{x_n+\frac{A}{x_n}}{2} = \cfrac{1}{2}\left(x_n + \cfrac{A}{x_n}\right)\)</span></li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Heron"></span>
+<img src="pictures/11-Heron.png" alt="Visualisierung des Heron-Verfahrens" width="90%" />
+<p class="caption">
+Abb. 11.3: Visualisierung des Heron-Verfahrens
+</p>
+</div>
+<p>Mit einem Startwert von bspw. <span class="math inline">\(x_1 = 1\)</span> ergibt sich als rekursive Bildungsvorschrift für das Heron-Verfahren:</p>
+<p><span class="math display">\[x_1 = 1; \quad x_n = \cfrac{1}{2}\left(x_n + \cfrac{A}{x_n}\right)\]</span></p>
+<p>Einen Beweis der Konvergenz dieser Folge sollten Sie aus Ihren Analysis-Veranstaltungen kennen. Eine schrittweise Betrachtung des Folgenverhaltens kann über eine Tabellenkalkulation erfolgen, siehe Abbildung <a href="11-arithmetik-und-algebra.html#fig:WurzelTabelle">11.4</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:WurzelTabelle"></span>
+<img src="pictures/11-WurzelTabelle.png" alt="Heron-Verfahren in einer Tabellenkalkulation" width="50%" />
+<p class="caption">
+Abb. 11.4: Heron-Verfahren in einer Tabellenkalkulation
+</p>
+</div>
+<p>Eine Implementation in einen Algorithmus bedarf weiterhin einer <em>Abbruchbedingung</em>. Dies ist bspw. darüber möglich, dass der Abstand aufeinander folgender Ergebnisse einen bestimmten Wert unterschreiten soll, also <span class="math inline">\(|x_{n+1}-x_n|&lt;\varepsilon\)</span> für ein vorher festgelegtes <span class="math inline">\(\varepsilon\)</span> gelten muss. Ein exemplarischer Code für <span class="math inline">\(\sqrt{5}\)</span> mit einer Genauigkeit von 4 Dezimalstellen sieht folgendermaßen aus:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="11-arithmetik-und-algebra.html#cb1-1" tabindex="-1"></a>A <span class="ot">=</span> <span class="dv">5</span></span>
+<span id="cb1-2"><a href="11-arithmetik-und-algebra.html#cb1-2" tabindex="-1"></a>x <span class="ot">=</span> <span class="dv">1</span></span>
+<span id="cb1-3"><a href="11-arithmetik-und-algebra.html#cb1-3" tabindex="-1"></a>eps <span class="ot">=</span> <span class="fl">0.0001</span></span>
+<span id="cb1-4"><a href="11-arithmetik-und-algebra.html#cb1-4" tabindex="-1"></a><span class="cf">while</span>(<span class="fu">abs</span>(x <span class="sc">-</span> (x<span class="sc">+</span>A<span class="sc">/</span>x)<span class="sc">/</span><span class="dv">2</span>) <span class="sc">&gt;</span> eps){</span>
+<span id="cb1-5"><a href="11-arithmetik-und-algebra.html#cb1-5" tabindex="-1"></a>  x <span class="ot">=</span> (x<span class="sc">+</span>A<span class="sc">/</span>x)<span class="sc">/</span><span class="dv">2</span></span>
+<span id="cb1-6"><a href="11-arithmetik-und-algebra.html#cb1-6" tabindex="-1"></a>}</span></code></pre></div>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0" line-spacing="2">
+<div id="ref-Barzel2016" class="csl-entry">
+Barzel, B., Hußmann, S., Leuders, T., &amp; Prediger, S. (Hrsg.). (2016). <em>Mathewerkstatt. 9, <span>Schulbuch</span></em> (Mittlerer Schulabschluss, allgemeine Ausg., 1. Aufl.). Cornelsen.
+</div>
+<div id="ref-Padberg2021" class="csl-entry">
+Padberg, F., &amp; Benz, C. (2021). <em>Didaktik der <span>Arithmetik</span>: fundiert, vielseitig, praxisnah</em> (5., überarbeitete Aufl.). Springer Spektrum.
+</div>
+<div id="ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022" class="csl-entry">
+Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland. (2022a). <em>Bildungsstandards für das <span>Fach</span> <span>Mathematik</span> <span>Erster</span> <span>Schulabschluss</span> (<span>ESA</span>) und <span>Mittlerer</span> <span>Schulabschluss</span> (<span>MSA</span>). (<span>Beschluss</span> der <span>Kultusministerkonferenz</span> vom 15.10.2004 und vom 04.12.2003, i.d.<span>F</span>. vom 23.06.2022)</em>. <a href="https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf">https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf</a>
+</div>
+<div id="ref-Weigand2022" class="csl-entry">
+Weigand, H.-G., Schüler-Meyer, A., &amp; Pinkernell, G. (2022). <em>Didaktik der <span>Algebra</span>: nach der <span>Vorlage</span> von <span>Hans</span>-<span>Joachim</span> <span>Vollrath</span></em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-64660-1">https://doi.org/10.1007/978-3-662-64660-1</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="31">
+<li id="fn31"><p>Mehr zu diesen Begriffen siehe im Kapitel <a href="https://stoffdidaktik.heiko-etzold.de/2021/6-begriffsbildung.html">6.1</a> des Skripts von 2021/22 zur Stoffdidaktik Mathematik<a href="11-arithmetik-und-algebra.html#fnref31" class="footnote-back">↩︎</a></p></li>
+<li id="fn32"><p>Dies wird bei höheren Exponenten sogar noch bedeutsamer: Dort ist <span class="math inline">\((-3)^3 = -27\)</span>. Die Gleichung <span class="math inline">\(x^3 = -27\)</span> ist im Reellen sogar eindeutig lösbar (im Komplexen dagegen hat sie drei Lösungen), aber <span class="math inline">\(\sqrt[3]{-27}\)</span> ist nicht definiert. Gerade, weil einige Taschenrechner fälschlicherweise die dritte Wurzel aus <span class="math inline">\(-27\)</span> mit <span class="math inline">\(-3\)</span> angeben, muss auf eine derartige Gefahr eingegangen werden, wenn Wurzeln höherer Exponenten behandelt werden. Dies zeigt einmal mehr, dass Sie als Lehrkraft über den aktuellen Unterrichtsstoff (z. B. Quadratwurzeln) hinausdenken müssen (z. B. Kubikwurzeln), um Rückschlüsse ziehen zu können, welche inhaltlichen Besonderheiten zu betonen sind.<a href="11-arithmetik-und-algebra.html#fnref32" class="footnote-back">↩︎</a></p></li>
+<li id="fn33"><p>Die fachmathematische Grundlage hierfür ist, dass Cauchy-Folgen in den reellen Zahlen immer konvergieren und sich die nichtnegative Lösung der Gleichung <span class="math inline">\(x^2 = a\)</span> mit <span class="math inline">\(a\geq 0\)</span> über eine rationale Cauchy-Folge nähern lässt – konkret mit dem <em>Heron-Verfahren</em>.<a href="11-arithmetik-und-algebra.html#fnref33" class="footnote-back">↩︎</a></p></li>
+<li id="fn34"><p>Hier lohnt es sich übrigens, auf die Wortherkunft einzugehen und zu begründen, warum Radieschen als solche bezeichnet werden.<a href="11-arithmetik-und-algebra.html#fnref34" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="10-intermezzo-arithmetisches-mittel.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="12-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/11-Arithmetik-Algebra.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

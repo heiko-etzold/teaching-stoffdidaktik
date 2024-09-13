@@ -1,3 +1,5 @@
+<!--
+
 # Analysis 
 
 > **Ziele**  
@@ -139,3 +141,5 @@ In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkult
 * Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte **»oHiMi«-Aufgaben** etabliert haben, also Aufgaben, die **o**hne **Hi**lfs**mi**ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z. B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a].
 
 Eine etwas ausführlichere -- und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene -- Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei @Heinrich2007.
+
+-->

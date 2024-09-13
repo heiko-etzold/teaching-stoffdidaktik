@@ -1,3 +1,5 @@
+<!--
+
 # Arbeitsmittel
 
 
@@ -181,3 +183,4 @@ In Kapitel \@ref(grundvorstellungen) sollten Sie sich in der Nachbereitung mit G
 
 2. Analysieren Sie eines dieser Materialien hinsichtlich der Eignung als Arbeitsmittel nach Definition  \@ref(def:Arbeitsmittel).
 
+-->

@@ -1,3 +1,5 @@
+<!--
+
 # Intermezzo: Arithmetisches Mittel
 
 > **Ziele**  
@@ -193,3 +195,5 @@ Dies Vorgehensweise hat den Vorteil, **relativ effektiv** ist, trotz des Verzich
 1. Stellen Sie eine Sammlung geeigneter Übungsaufgaben für die Festigungsphase zum arithmetischen Mittel zusammen. Begründen Sie die Auswahl der Aufgaben mithilfe mathematikdidaktischer Theorien.
 
 2. Diskutieren Sie, inwieweit die Theorie-Elemente der stoffdidaktischen Analyse (siehe auch Abschnitt \@ref(bezuege-zur-stoffdidaktik)) in den einzelenn Schritten des Aufsteigens vom Abstrakten zum Konkreten integriert werden können.
+
+-->

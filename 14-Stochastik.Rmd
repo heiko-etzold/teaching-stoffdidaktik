@@ -1,3 +1,4 @@
+<!--
 # Stochastik
 
 > **Ziele**  
@@ -178,4 +179,4 @@ knitr::include_graphics("pictures/14-Netz.png")
 ```
 
 Als weitere Unterstützungsmöglichkeit, so hat es sich auch in empirischen Studien gezeigt [vgl. @Binder2020], bietet es sich an, mit **absoluten Häufigkeiten statt Wahrscheinlichkeiten** in den Repräsentationen zu arbeiten. Diese bieten Schülerinnen und Schülern eine bessere Zugänglichkeit zur Thematik und über Anteilsbetrachtungen können dann auch die Wahrscheinlichkeiten bestimmt werden.^[Mathematisch präzise müsste hier von *relativen Häufigkeiten* anstatt von *Wahrscheinlichkeiten* gesprochen werden.] Als (fiktive) Anzahl für die Grundgesamtheit bietet sich eine hohe Zehnerpotenz an, da so auch noch kleine Anteile mit sinnvollen (ggf. gerundeten) ganzen Zahlen bestimmt werden können.
-
+-->

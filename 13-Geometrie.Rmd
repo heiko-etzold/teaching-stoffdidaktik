@@ -1,3 +1,5 @@
+<!--
+
 # Geometrie
 
 > **Ziele**  
@@ -124,4 +126,4 @@ knitr::include_graphics("pictures/13-DynamikGeogebra.gif")
 
 
 
-
+-->

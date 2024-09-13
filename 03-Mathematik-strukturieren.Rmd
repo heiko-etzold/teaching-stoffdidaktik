@@ -1,3 +1,5 @@
+<!-- 
+
 # Mathematik strukturieren
 
 
@@ -187,3 +189,5 @@ Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale
 1. Lesen Sie sich die Bildungsstandards für den ersten/mittleren Schulabschluss vollständig durch, notieren Sie Verständnisfragen und bringen Sie diese zum Seminar mit.
 2. Wählen Sie eine Leitidee aus und nennen Sie innerhalb dieser Begriffe, Sachverhalte und Verfahren, die im Mathematikunterricht behandelt werden.
 3. Wählen Sie einen Begriff, Sachverhalt oder Verfahren aus 2. aus und stellen Sie den Bezug zu Fundamentalen Ideen her.
+
+-->

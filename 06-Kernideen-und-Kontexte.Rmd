@@ -1,3 +1,4 @@
+<!--
 
 # Kernideen und Kontexte
 
@@ -83,3 +84,5 @@ Das oben dargestellte Kerzenbeispiel entstammt der horizontalen Mathematisierung
     * Bierschaumzerfall
 3. Beschreiben und erklären Sie je eine geeignete Variante der horizontalen und vertikalen Mathematisierung am Lerngegenstand der Exponentialfunktion.
 
+
+-->

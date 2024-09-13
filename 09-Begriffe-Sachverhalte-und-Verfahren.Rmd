@@ -1,3 +1,5 @@
+<!--
+
 # Begriffe, Sachverhalte und Verfahren
 
 > **Ziele**
@@ -237,3 +239,6 @@ Weiterführende Möglichkeiten zur Erarbeitung von Begriffen, Sachverhalten und 
 1. Beschreiben Sie für ein Verfahren aus der Sekundarstufe I unterrichtliche Möglichkeiten, dieses zu gewinnen.
 
 2. Entwickeln Sie, entsprechend der Zusammenfassung in Tabelle \@ref(tab:festigen), Festigungsaufgaben zum Begriff *Erwartungswert*, zum Sachverhalt *Satz des Pythagoras* oder zum Verfahren *Polynomdivision*.
+
+
+-->

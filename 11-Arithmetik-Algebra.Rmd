@@ -1,4 +1,7 @@
+<!--
+
 # (PART\*) Didaktik der Sachgebiete {-}
+
 
 # Arithmetik und Algebra
 
@@ -153,3 +156,6 @@ while(abs(x - (x+A/x)/2) > eps){
   x = (x+A/x)/2
 }
 ```
+
+
+-->

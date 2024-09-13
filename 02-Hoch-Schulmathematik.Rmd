@@ -1,3 +1,5 @@
+<!--
+
 # (Hoch-)Schulmathematik
 
 > **Ziele**
@@ -127,5 +129,5 @@ Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathem
 2. Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z. B. dass $a^0 = 1$ ($a\neq 0$) und $a^\frac{1}{2} = \sqrt{a}$ ($a \geq 0$) ist.
 
 
-
+-->
 

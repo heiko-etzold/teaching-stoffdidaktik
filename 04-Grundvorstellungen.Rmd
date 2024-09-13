@@ -1,3 +1,5 @@
+<!--
+
 # Grundvorstellungen
 
 > **Ziele**
@@ -184,3 +186,5 @@ Bearbeiten Sie folgende Aufgaben entweder am Begriff *Variable* oder am Begriff 
    - beschreiben Sie mögliche Modellierungsprozesse des Begriffs mithilfe der gewählten Grundvorstellung.
 3. Diskutieren Sie, ob es sich um primäre oder sekundäre Grundvorstellungen handelt.
 
+
+-->

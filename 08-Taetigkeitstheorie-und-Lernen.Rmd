@@ -1,3 +1,5 @@
+<!--
+
 # (PART\*) Lernprozesse gestalten {.unnumbered}
 
 # Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
@@ -37,7 +39,7 @@ Im Rahmen der *Lerntätigkeit* führt dies dann zu ***Lernhandlungen***. @Lompsc
 Lernhandlungen sind relativ geschlossene und abgrenzbare, zeitlich und logisch strukturierte Abschnitte im Verlauf der Lerntätigkeit, die ein konkretes Lernziel realisieren, durch bestimmte Lernmotive angetrieben werden und entsprechend den konkreten Lernbedingungen durch den Einsatz äußerer und verinnerlichter Lernmittel in einer jeweils spezifischen Folge von Teilhandlungen vollzogen werden.
 :::
 
-
+-->
 
 <!-- ### Typische Lernhandlungen
 
@@ -45,6 +47,8 @@ Lernhandlungen sind dabei an den Lerngegenstand gebunden, wobei sich übergeordn
 -->
 
 
+
+<!--
 Aufbauend auf Lernziele können nun Lernhandlungen ausgebildet (also ausgeführt und verinnerlicht) werden. So können etwa als *Elementare Aneignungshandlungen* das **Identifizieren** und **Realisieren** genannt werden. Idenzifizieren ist die Prüfung der Passung eines gegebenen Objekt zur einer vorgegebenen Objektklasse und Realisieren das Erzeugen eines entsprechenden Repräsentanten. Identifizierungs- und Realisierungshandlungen sind v. a. bei der Erstbegegnung mit einem neuen Lerngegenstand -- insbesondere bei Begriffen -- von hoher Relevanz. Sie sind, in verinnerlichter Form, Voraussetzung für die noch folgenden Handlungsarten (und damit letztlich auch Bestandteile von ihnen). 
 Darauf aufbauend können *Grundhandlungen* (**Erkennen**, **Beschreiben**, **Verknüpfen**, **Anwenden**^[Um hier einer ggf. eingeschränkten Auffassung des Vorgehens bei Sach- oder Modellierungsaufgaben (»Anwenden auf die Realität«) vorzubeugen, sei auf die Beschreibung verwiesen: »Feststellen der Übereinstimmung von den Bedingungen der Aufgabenstellung mit der Ausgangskonstellation der zu realisierenden gegebenen (oder erzeugten) Handlungsvorschrift (Identifizieren) und ggf. Herstellen einer solchen Übereinstimmung (Transferieren)« [@Feldt-Caesar2017 93]] und **Begründen**) sowie *komplexe Handlungen* (**Suchen**, **Planen**, **Ausführen** und **Kontrollieren**) erfolgen. Diese Handlungen sind i. d. R. in Festigungs- und Vertiefungsphasen bzw. bei Modellierungs- und Problemlösesituationen von Relevanz. Diese Art der Handlungskategorisierung geht auf @Bruder1989 zurück und wird nahezu unverändert auch bei @Feldt-Caesar2017 [{87 ff.}] dargestellt.
 
@@ -199,3 +203,4 @@ Lösen sie folgende Aufgaben am Beispiel des Lerngegenstands *Vierecksarten*.
 
 3. Entwerfen Sie eine Orientierungshilfe zum Identifizieren von Vierecksarten.
 
+-->
