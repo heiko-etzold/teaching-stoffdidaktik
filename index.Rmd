@@ -25,6 +25,13 @@ output:
     split_bib: true
     split_by: chapter+number
     css: "own.css"
+  bookdown::pdf_book:
+    keep_tex: true
+    includes:
+      in_header: "in_header.tex"
+      before_body: "before_body.tex"
+      after_body: "after_body.tex"
+    latex_engine: xelatex
 documentclass: scrbook
 lang: de-DE
 bibliography: "references.bib"
@@ -39,7 +46,7 @@ url: "stoffdidaktik.heiko-etzold.de/"
 # Über dieses Dokument {-}
 
 Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. 
-<!-- In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments. -->
+In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments. 
 
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen: 
 
