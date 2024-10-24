@@ -1,4 +1,3 @@
-<!--
 # Grundvorstellungen
 
 > **Ziele**
@@ -65,7 +64,7 @@ Das Identifizieren von Grundvorstellungen zu einem Begriff ist, genau wie bei de
 
 Im Gegensatz zu den fundamentalen Ideen, die ihren Ursprung in der *Sachstruktur des mathematischen Inhalts* haben, fokussieren die Grundvorstellungen stärker auf den Sinn des fachlichen Begriffs *für das Individuum*. Grundvorstellungen beziehen sich auf spezifische Begriffe und Operationen mit Begriffen, während fundamentale Ideen größere, themenübergreifende Leitlinien für die Stoffauswahl und -strukturierung bilden.
 
-Für die Unterrichtsplanung und -durchführung ist neben der Frage, *welche* Grundvorstellungen von Relevanz sind (Spezifizieren im Vier-Ebenen-Ansatz) vor allem interessant, *wie* diese ausgebildet werden können (Strukturieren im Vier-Ebenen-Ansatz). Letzteres wird u. a. in den nächsten Kapiteln<!-- \@ref(arbeitsmittel) im Umgang mit *Arbeitsmitteln*--> näher beleuchtet.
+Für die Unterrichtsplanung und -durchführung ist neben der Frage, *welche* Grundvorstellungen von Relevanz sind (Spezifizieren im Vier-Ebenen-Ansatz) vor allem interessant, *wie* diese ausgebildet werden können (Strukturieren im Vier-Ebenen-Ansatz). Letzteres wird u. a. in den nächsten Kapiteln näher beleuchtet.
 
 
 ## Beispiele
@@ -185,4 +184,3 @@ Bearbeiten Sie folgende Aufgaben entweder am Begriff *Variable* oder am Begriff 
    - beschreiben Sie mögliche Modellierungsprozesse des Begriffs mithilfe der gewählten Grundvorstellung.
 3. Diskutieren Sie, ob es sich um primäre oder sekundäre Grundvorstellungen handelt.
 
--->

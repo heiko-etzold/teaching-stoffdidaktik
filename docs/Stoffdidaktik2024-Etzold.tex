@@ -181,8 +181,25 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 22.10.2024}
+\date{Letzte Änderung: 24.10.2024}
 
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{conjecture}{Conjecture}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{definition}
+\newtheorem{hypothesis}{Hypothesis}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
 \begin{document}
 \maketitle
 
@@ -212,7 +229,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 22.10.2024). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 24.10.2024). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -976,7 +993,107 @@ Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathem
   Wählen Sie eine Leitidee aus den Bildungsstandards aus und nennen Sie innerhalb dieser Begriffe, Zusammenhänge und Verfahren, die im Mathematikunterricht behandelt werden.
 \end{enumerate}
 
-näher beleuchtet.
+\chapter{Grundvorstellungen}\label{grundvorstellungen}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie können die Grundvorstellungsidee beschreiben und wissen über deren Bedeutung für den Mathematikunterricht.
+\item
+  Ihnen ist bewusst, dass Grundvorstellungen i.~d.~R. zu Begriffen (Objekten und Operationen) existieren.
+\item
+  Sie kennen Grundvorstellungen zu einzelnen mathematischen Begriffen.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 3 (\href{files/Stoffdidaktik2024-03-Grundvorstellungen.pdf}{pdf}, \href{files/Stoffdidaktik2024-03-Grundvorstellungen.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+\section{Begriffsklärung}\label{grundvorstellungen-begriffsklaerung}
+
+\subsection{Grundvorstellungsidee}\label{grundvorstellungsidee}
+
+Als Sie zu Beginn Ihres Mathematikstudiums die Peano-Axiome zur Definition der natürlichen Zahlen \(\mathbb{N}\) kennengelernt haben, konnten Sie dies wahrscheinlich -- trotz der Neuigkeit der formalen Beschreibung -- derart mit Ihrer Lebenswelterfahrung in Verbindung bringen, dass natürliche Zahlen abgezählt werden können, also dass damit z.~B. die Platzierungen eines Wettrennens durchnummeriert werden können.
+
+\begin{quote}
+\textbf{Peano-Axiome} (\citeproc{ref-WikiPeano}{Wikipedia, 2021})
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(0\) ist eine natürliche Zahl.
+\item
+  Jede natürliche Zahl \(n\) hat eine natürliche Zahl \(n'\) als Nachfolger.
+\item
+  \(0\) ist kein Nachfolger einer natürlichen Zahl.
+\item
+  Natürliche Zahlen mit gleichem Nachfolger sind gleich.
+\item
+  Enthält die Menge \(X\) die \(0\) und mit jeder natürlichen Zahl \(n\) auch deren Nachfolger \(n'\), so bilden die natürlichen Zahlen eine Teilmenge von \(X\).
+\end{enumerate}
+\end{quote}
+
+Dieser \textbf{Bezug auf eine bekannte Handlung} ist wesentlich dafür, dass die Definition und damit der Begriff der natürlichen Zahlen für Sie mit einem Sinn behaftet ist. Innerhalb dieser \emph{ordinalen Sichtweise} natürlicher Zahlen helfen nun geeignete\footnote{\emph{Geeignet} heißt in diesem Fall, dass sich die Kernaussage des Begriffs in der Repräsentation wiederfindet. Im Ordinalzahlaspekt ist dies v.~a. die Reihung von Zahlen. Was dabei (noch) nicht relevant ist, ist zum Beispiel die exakte Messbarkeit, wie man sie etwa auf dem Zahlenstrahl repräsentiert.} \textbf{Repräsentationen} dabei, sich Rechenoperationen vorstellen und sie \textbf{operativ}\footnote{\emph{Operativ} heißt hier zum Beispiel, dass Sie zu einer Aufgabe wie \(2+7\) Nachbaraufgaben (\(2+8\)), Umkehraufgaben (\(7-2\)), Platzhalteraufgaben (\(2+\boxed{\phantom{5}}=7\)) usw. aufstellen und lösen können.} auszuführen zu können, also bspw. das Addieren als ein Weiterzählen aufzufassen (siehe Abbildung \ref{fig:Addition}).\index{Natürliche Zahlen|)}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/4-Addition} 
+
+}
+
+\caption{Additionsaufgabe im ordinalen Zahlaspekt}\label{fig:Addition}
+\end{figure}
+
+Mit der Fähigkeit der Verknüpfung des mathematischen Begriffs und der Lebenswelt ist also eine \textbf{Anwendung des Begriffs auf die Wirklichkeit} möglich, insbesondere in Modellierungsprozessen. Dabei sind beide Richtungen relevant: Von der Realsituation zur Mathematik und von der Mathematik zur Realität.
+
+Ziel des Mathematikunterrichts sollte es nun sein, für alle relevanten mathematischen Begriffe ein derartiges Verständnis aufzubauen, was auch heißt, verschiedene Vorstellungen zu einem Begriff zu vermitteln. Nach vom Hofe (\citeproc{ref-Hofe:1995}{1995, 97~f.}, Hervorhebung durch H.E.) ergibt sich daraus eine Orientierung an Grundvorstellungen im Mathematikunterricht:
+
+\begin{definition}[Grundvorstellungen]
+\protect\hypertarget{def:Grundvorstellungen}{}\label{def:Grundvorstellungen}
+
+Die \textbf{Grundvorstellungsidee}\index{Grundvorstellung|textbf}\index{Grundvorstellungsidee|see{Grundvorstellung}} beschreibt \textbf{Beziehungen zwischen mathematischen Inhalten und} dem Phänomen der \textbf{individuellen Begriffsbildung}. In ihren unterschiedlichen Ausprägungen charakterisiert sie mit jeweils unterschiedlichen Schwerpunkten insbesondere drei Aspekte dieses Phänomens:
+
+\begin{itemize}
+\tightlist
+\item
+  Sinnkonstituierung eines Begriffs durch \textbf{Anknüpfung an} bekannte \textbf{Sach- oder Handlungszusammenhänge} bzw. \textbf{Handlungsvorstellungen},\index{Grundvorstellung!Sinnkonstituierung|textbf}
+\item
+  Aufbau entsprechender (visueller) \textbf{Repräsentationen bzw. »Verinnerlichungen«}, die \textbf{operatives Handeln} auf der Vorstellungsebene ermöglichen,\index{Grundvorstellung!Repräsentation|textbf}
+\item
+  Fähigkeit zur Anwendung eines Begriffs auf die Wirklichkeit durch \textbf{Erkennen der} entsprechenden \textbf{Struktur in Sachzusammenhängen} oder durch \textbf{Modellieren} des Sachproblems \textbf{mit Hilfe der mathematischen Struktur}.\index{Grundvorstellung!Modellierung|textbf}
+\end{itemize}
+
+\end{definition}
+
+\subsection{Ausdifferenzierung}\label{ausdifferenzierung}
+
+Weiterhin unterscheidet vom Hofe (\citeproc{ref-vomHofe2014}{2014}) zwischen \textbf{primären}\index{Grundvorstellung!primäre Grundvorstellung} und \textbf{sekundären}\index{Grundvorstellung!sekundäre Grundvorstellung} Grundvorstellungen, abhängig von der Erfahrungswelt der Handlungen. Während sich primäre Grundvorstellungen auf reale Handlungserfahrungen stützen (z.~B. mit Steckwürfeln in der Arithmetik), entstammen sekundäre Grundvorstellungen aus den Handlungen mit bereits im Mathematikunterricht aufgebauten Repräsentationen (z.~B. Operationen auf dem Zahlenstrahl).
+
+Einige Quellen unterscheiden zwischen \textbf{Aspekten} und \textbf{Grundvorstellungen}. Nach Greefrath et al. (\citeproc{ref-Greefrath2016}{2016, S. 17}) ist ein »Aspekt eines mathematischen Begriffs {[}\ldots{]} ein Teilbereich des Begriffs, mit dem dieser fachlich
+charakterisiert werden kann«, während »eine Grundvorstellung zu einem mathematischen Begriff {[}\ldots{]} eine inhaltliche Deutung des Begriffs {[}ist{]}, die diesem Sinn gibt.« Im oben angebrachte Beispiel entspräche die Definition der natürlichen Zahlen über die Peano-Axiome dem \emph{Ordinalzahlaspekt}, der mit der Grundvorstellung verbunden ist, dass die natürlichen Zahlen mit \(0\) beginnend eine feste Reihenfolge beschreiben. Da jedoch nicht alle Quellen diese Unterscheidung so präzise vornehmen und es auch teils zu Vermischungen kommt, soll diese (auf theoretischer Ebene relevante) Diskussion hier in der Stoffdidaktik-Veranstaltung nicht weiter von Relevanz sein. Für Ihre Unterrichtsgestaltung ist insbesondere relevant, dass sie einen \textbf{aspektreichen bzw. an vielfältigen Grundvorstellungen} orientierten Umgang mit Begriffen anstreben. Auch wenn Sie nicht unmittelbar und sofort jeweils alle Aspekte eines Begriffs im Unterricht ansprechen werden, hilft Ihnen das Wissen über den Aspektreichtum in der Unterrichtsplanung für die Ausbildung eines umfassenden Begriffsverständnisses.
+
+Entsprechend ihrer Definition werden Grundvorstellungen für \textbf{Begriffe} erarbeitet -- hinsichtlich der Arten mathematischen Wissens (vgl. Abschnitt \ref{arten-mathematischen-wissens}) also anscheinend nicht für Zusammenhänge und Verfahren. Jedoch können Grundvorstellungen zu einem Begriff sowohl hinsichtlich des \emph{Objekts} an sich bestehen, als auch hinsichtlich der \emph{Operationen} mit diesem Begriff. Das Addieren ist beispielsweise im Ordinalzahlaspekt eine Operation, verbunden mit der Grundvorstellung des Weiterzählens. Insofern können auch Zusammenhänge und Verfahren durchaus mit Grundvorstellungen verknüpft werden, sofern der Fokus auf dem Operieren mit den in ihnen enthaltenen Begriffen liegt.
+
+Die in Definition \ref{def:Grundvorstellungen} dargestellte Grundvorstellungsidee hat einen \textbf{normativen}\index{Grundvorstellung!normativ|textbf} Charakter, d.~h. es wird davon ausgegangen, dass (aus professioneller Sicht der Mathematikdidaktik) zu mathematischen Begriffen bestimmte Grundvorstellungen identifiziert werden können, die es im Unterricht zu vermitteln gilt. Oder anders gefragt: »Welche Grundvorstellungen sind zur Lösung des Problems aus der Sicht des Lehrenden adäquat?« (\citeproc{ref-Hofe:1995}{vom Hofe, 1995, S. 106}). Diese Sichtweise wird durch eine \textbf{deskriptive}\index{Grundvorstellung!deskriptiv|textbf} Perspektive ergänzt: »Welche individuellen Vorstellungen lassen sich im Lösungsversuch des Schülers erkennen?« (\citeproc{ref-Hofe:1995}{vom Hofe, 1995, S. 107}). Diese über empirische Untersuchungen zu ermittelnden Vorstellungen sind das, was sich Schülerinnen und Schüler \emph{tatsächlich} unter einem Begriff vorstellen, wozu ggf. auch typische \emph{Fehlvorstellungen}\footnote{Mit \emph{Fehlvorstellungen} sind hier individuelle Vorstellungen der Schülerinnen und Schüler gemeint, die mathematisch nicht tragfähig und daher aus fachlicher Perspektive fehlerhaft sind. So ist etwa die Vorstellung, dass Multiplizieren immer vergrößert, in den Natürlichen Zahlen tragfähig (und damit eine Grundvorstellung), in den Bruchzahlen jedoch nicht mehr tragfähig und wird dort dann zur Fehlvorstellung. Neben \emph{Fehlvorstellungen} können weitere individuelle Vorstellungen \emph{Alltagsvorstellungen}, \emph{Präkonzepte} o.~ä. sein (siehe auch \citeproc{ref-Schecker2018}{Schecker et al., 2018, 11~f.}).} gehören können. Kenntnisse darüber sind für Lehrkräfte ungemein wichtig, um Ergebnisse von Schülerinnen und Schülern interpretieren und einordnen zu können und dann ggf. entsprechende Hilfsangebote zu machen. Dies entspricht dann einer \textbf{konstruktiven}\index{Grundvorstellung!konstruktiv|textbf} Perspektive auf Grundvorstellungen: »Worauf sind etwaige Divergenzen zurückzuführen, und wie lassen sich diese beheben?« (\citeproc{ref-Hofe:1995}{vom Hofe, 1995, S. 107}).
+
+\section{GV und Stoffdidaktik}\label{gv-und-stoffdidaktik}
+
+Im Rahmen dieser Veranstaltung, insbesondere den von Ihnen ausgearbeiteten Seminarthemen, wird der Schwerpunkt auf \emph{normative} Grundvorstellungen gelegt, was der \textcolor{semanticColor}{semantischen Ebene} des \hyperref[tab:fragen-ebenen]{Vier-Ebenen-Ansatzes} zugeordnet werden kann, weil die mathematischen Begriffe hier mit einem Sinn versehen werden. Die \emph{deskriptive} und \emph{konstruktive} Perspektive sind dagegen der \textcolor{empiricColor}{empirischen Ebene} zuzuordnen, da hier individuelle Vorstellungen der Schülerinnen und Schüler von Relevanz sind. Dies betrifft insbesondere auch das Potenzial, (ggf. mathematisch unvollständige) individuelle Vorstellungen aufzugreifen bei der Ausbildung von (normativ erwünschten) Grundvorstellungen.
+
+Das Identifizieren von Grundvorstellungen zu einem Begriff ist, genau wie bei den \hyperref[fundamentale-ideen]{Fundamentalen Ideen}, Aufgabe der mathematikdidaktischen Forschung (ein Modell dafür findet man bei \citeproc{ref-Salle2021}{Salle \& Clüver, 2021}). Als Lehrkraft profitieren Sie von diesen Ergebnissen und nutzen sie für Ihre stoffdidaktische Analyse.
+
+Im Gegensatz zu den fundamentalen Ideen, die ihren Ursprung in der \emph{Sachstruktur des mathematischen Inhalts} haben, fokussieren die Grundvorstellungen stärker auf den Sinn des fachlichen Begriffs \emph{für das Individuum}. Grundvorstellungen beziehen sich auf spezifische Begriffe und Operationen mit Begriffen, während fundamentale Ideen größere, themenübergreifende Leitlinien für die Stoffauswahl und -strukturierung bilden.
+
+Für die Unterrichtsplanung und -durchführung ist neben der Frage, \emph{welche} Grundvorstellungen von Relevanz sind (Spezifizieren im Vier-Ebenen-Ansatz) vor allem interessant, \emph{wie} diese ausgebildet werden können (Strukturieren im Vier-Ebenen-Ansatz). Letzteres wird u.~a. in den nächsten Kapiteln näher beleuchtet.
 
 \section{Beispiele}\label{beispiele}
 
@@ -1151,8 +1268,6 @@ Bearbeiten Sie folgende Aufgaben entweder am Begriff \emph{Variable} oder am Beg
   Diskutieren Sie, ob es sich um primäre oder sekundäre Grundvorstellungen handelt.
 \end{enumerate}
 
---\textgreater{}
-
 \appendix
 
 
@@ -1256,6 +1371,12 @@ Mitchelmore, M., \& White, P. (1998). Development of {Angle} {Concepts}: {A} {Fr
 \bibitem[\citeproctext]{ref-Padberg:2017}
 Padberg, F., \& Wartha, S. (2017). \emph{Didaktik der {Bruchrechnung}} (5. Aufl.). Springer Spektrum. \url{https://doi.org/10.1007/978-3-662-52969-0}
 
+\bibitem[\citeproctext]{ref-Salle2021}
+Salle, A., \& Clüver, T. (2021). Herleitung von {Grundvorstellungen} als normative {Leitlinien} -- {Beschreibung} eines theoriebasierten {Verfahrensrahmens}. \emph{Journal für Mathematik-Didaktik}. \url{https://doi.org/10.1007/s13138-021-00184-5}
+
+\bibitem[\citeproctext]{ref-Schecker2018}
+Schecker, H., Wilhelm, T., Hopf, M., \& Duit, R. (Hrsg.). (2018). \emph{Schülervorstellungen und {Physikunterricht}: {Ein} {Lehrbuch} für {Studium}, {Referendariat} und {Unterrichtspraxis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-57270-2}
+
 \bibitem[\citeproctext]{ref-Schubert:2011}
 Schubert, S., \& Schwill, A. (2011). \emph{Didaktik der {Informatik}} (2. Aufl). Spektrum, Akad. Verl. \url{https://doi.org/10.1007/978-3-8274-2653-6}
 
@@ -1297,6 +1418,12 @@ Vohns, A. (2000). \emph{Das {Messen} als fundamentale {Idee}} {[}1. Staatsexamen
 
 \bibitem[\citeproctext]{ref-Vollrath2012}
 Vollrath, H.-J., \& Roth, J. (2012). \emph{Grundlagen des {Mathematikunterrichts} in der {Sekundarstufe}} (F. Padberg, Hrsg.; 2. Aufl.). Spektrum Akademischer Verlag. \url{https://doi.org/10.1007/978-3-8274-2855-4}
+
+\bibitem[\citeproctext]{ref-Hofe:1995}
+vom Hofe, R. (1995). \emph{Grundvorstellungen mathematischer {Inhalte}}. Spektrum Akademischer Verlag.
+
+\bibitem[\citeproctext]{ref-vomHofe2014}
+vom Hofe, R. (2014). Primäre und sekundäre {Grundvorstellungen}. In J. Roth \& J. Ames (Hrsg.), \emph{Beiträge zum {Mathematikunterricht} 2014, 48. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 10.03.2014 bis 14.03.2014 in {Koblenz}}. WTM. \url{https://doi.org/10.17877/DE290R-8808}
 
 \bibitem[\citeproctext]{ref-vomHofe2014a}
 vom Hofe, R., \& Hattermann, M. (2014). Zugänge zu negativen {Zahlen}. \emph{mathematik lehren}, 2--7.

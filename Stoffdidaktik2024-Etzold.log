@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  22 OCT 2024 07:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  24 OCT 2024 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1990,35 +1990,59 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 180.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
+\dth@everypar=\toks35
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+)
+Class scrbook Info: amsthm's \deferred@thm@head patched.
+\c@theorem=\count319
+\c@lemma=\count320
+\c@corollary=\count321
+\c@proposition=\count322
+\c@conjecture=\count323
+\c@definition=\count324
+\c@example=\count325
+\c@exercise=\count326
+\c@hypothesis=\count327
 (./Stoffdidaktik2024-Etzold.aux)
 \openout1 = `Stoffdidaktik2024-Etzold.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Info: Redefining \microtypecontext on input line 186.
-Package microtype Info: Applying patch `item' on input line 186.
-Package microtype Info: Applying patch `toc' on input line 186.
-Package microtype Info: Applying patch `eqnum' on input line 186.
-Package microtype Info: Applying patch `footnote' on input line 186.
-Package microtype Info: Applying patch `verbatim' on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Info: Redefining \microtypecontext on input line 203.
+Package microtype Info: Applying patch `item' on input line 203.
+Package microtype Info: Applying patch `toc' on input line 203.
+Package microtype Info: Applying patch `eqnum' on input line 203.
+Package microtype Info: Applying patch `footnote' on input line 203.
+Package microtype Info: Applying patch `verbatim' on input line 203.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -2028,9 +2052,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSerif' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 186.
+Package hyperref Info: Link coloring ON on input line 203.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 188.
+(Font)              scaled to size 10.95pt on input line 205.
 Requested font "[LibertinusSans-Regular.otf]/OT:script=latn;language=dflt;+tnum
 ;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2040,25 +2064,25 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LibertinusSans(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 188.
+(Font)              scaled to size 10.95pt on input line 205.
 Requested font "[LibertinusSans-Bold.otf]/OT:script=latn;language=dflt;+tnum;+l
 num;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSans-Bold.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 188.
+(Font)              scaled to size 10.95pt on input line 205.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 188.
+(Font)              scaled to size 20.74pt on input line 205.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 20.74pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 188.
+(Font)              scaled to size 14.4pt on input line 205.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2081,8 +2105,8 @@ Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
 e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-88.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+05.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -2093,7 +2117,7 @@ Requested font "lmmi10" at 10.0pt
 Requested font "lmmi7" at 7.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 188.
+(Font)              scaled to size 14.40152pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;" at
  14.40152pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2101,7 +2125,7 @@ e=dflt;;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 188.
+(Font)              scaled to size 10.00107pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;" at
  10.00107pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2109,7 +2133,7 @@ e=dflt;;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 188.
+(Font)              scaled to size 7.00075pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 7.00075pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2117,7 +2141,7 @@ e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 188.
+(Font)              scaled to size 14.39845pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;" at
  14.39845pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2125,7 +2149,7 @@ e=dflt;;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 188.
+(Font)              scaled to size 9.99893pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;" at
  9.99893pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2133,14 +2157,14 @@ e=dflt;;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 188.
+(Font)              scaled to size 6.99925pt on input line 205.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 6.99925pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
 e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
-LaTeX Font Info:    Trying to load font information for U+msa on input line 188
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205
 .
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2157,7 +2181,7 @@ Requested font "msam10" at 10.0pt
 Requested font "msam7" at 7.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.
 tfm
-LaTeX Font Info:    Trying to load font information for U+msb on input line 188
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205
 .
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2182,8 +2206,8 @@ tfm
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 20
-4.
+Package tocbasic Info: character protrusion at toc deactivated on input line 22
+1.
 (./Stoffdidaktik2024-Etzold.toc
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=0;" at 8.76pt
@@ -2290,13 +2314,13 @@ ibertinusSerif-Regular.otf
 
 ]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 209.
+(Font)              scaled to size 10.95pt on input line 226.
 Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
 ;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Italic.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 230.
+(Font)              scaled to size 14.4pt on input line 247.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2306,13 +2330,13 @@ ibertinusSerif-Bold.otf
 
 ]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 8.76pt on input line 241.
+(Font)              scaled to size 8.76pt on input line 258.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 241.
+(Font)              scaled to size 9.0pt on input line 258.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2342,7 +2366,7 @@ Requested font "lmmi6" at 6.0pt
 Requested font "lmmi5" at 5.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 241.
+(Font)              scaled to size 9.00096pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=0;" at 9.00096pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2350,7 +2374,7 @@ e=dflt;;+ssty=0;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 241.
+(Font)              scaled to size 6.00064pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 6.00064pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2358,7 +2382,7 @@ e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 241.
+(Font)              scaled to size 5.00053pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 5.00053pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2366,7 +2390,7 @@ e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 241.
+(Font)              scaled to size 8.99904pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=0;" at 8.99904pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2374,7 +2398,7 @@ e=dflt;;+ssty=0;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 241.
+(Font)              scaled to size 5.99936pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 5.99936pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2382,7 +2406,7 @@ e=dflt;;+ssty=1;'.
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusMath-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 241.
+(Font)              scaled to size 4.99947pt on input line 258.
 Requested font "[LibertinusMath-Regular.otf]/OT:script=math;language=dflt;;+sst
 y=1;" at 4.99947pt
 Unknown feature `' in font `[LibertinusMath-Regular.otf]/OT:script=math;languag
@@ -2408,20 +2432,20 @@ Requested font "msbm5" at 5.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.
 tfm
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 241.
+(Font)              scaled to size 6.0pt on input line 258.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;+tnu
 m;+lnum;mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 252.
+(Font)              scaled to size 10.95pt on input line 269.
 Requested font "[LibertinusSerif-BoldItalic.otf]/OT:script=latn;language=dflt;+
 tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-BoldItalic.otf
 [7]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 304.
+(Font)              scaled to size 10.95pt on input line 321.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
 t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2431,7 +2455,7 @@ ibertinusSerif-Regular.otf
 
 ]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 306.
+(Font)              scaled to size 24.88pt on input line 323.
 Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2443,24 +2467,20 @@ chapter 1.
 
 ]
 
-LaTeX Warning: Hyper reference `grundvorstellungen' on page 14 undefined on inp
-ut line 381.
-
-
 LaTeX Warning: Hyper reference `kernidee-begriffsklaerung' on page 14 undefined
- on input line 382.
+ on input line 399.
 
 
 LaTeX Warning: Hyper reference `kontexte-begriffsklaerung' on page 14 undefined
- on input line 382.
+ on input line 399.
 
 
 LaTeX Warning: Hyper reference `mathematisierungstypen' on page 14 undefined on
- input line 382.
+ input line 399.
 
 
 LaTeX Warning: Hyper reference `mathematisierungstypen' on page 14 undefined on
- input line 382.
+ input line 399.
 
 [14] [15]
 File: pictures/1-FreudenthalWinkel.jpg Graphic file (type bmp)
@@ -2482,12 +2502,12 @@ File: pictures/1-WinkelfarmStart.png Graphic file (type bmp)
 [21] [22]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--568
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--570
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
 
  []
 
@@ -2495,38 +2515,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 568--570
 
 
 ] [24]
-Underfull \hbox (badness 1194) in paragraph at lines 624--625
+Underfull \hbox (badness 1194) in paragraph at lines 641--642
 []\TU/LibertinusSerif(0)/m/n/10.95 Nur gering geeignet für die Spezifizierung u
 nd Strukturierung sind die Bildungs-
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 624--625
+Underfull \hbox (badness 2980) in paragraph at lines 641--642
 \TU/LibertinusSerif(0)/m/n/10.95 standstandards und Rahmenlehrpläne. Sie bieten
  – entsprechend ihrer Funktion
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 624--625
+Underfull \hbox (badness 1436) in paragraph at lines 641--642
 \TU/LibertinusSerif(0)/m/n/10.95 – bereits eine Auswahl der zu unterrichtenden 
 Inhalte und schränken damit die
  []
 
 [25] [26] [27]
-Underfull \hbox (badness 2150) in paragraph at lines 720--722
+Underfull \hbox (badness 2150) in paragraph at lines 737--739
 []\TU/LibertinusSerif(0)/m/n/10.95 in verschiedenen Gebieten des Bereichs vielf
 ältig anwendbar oder erkennbar ist
  []
 
 
-Overfull \hbox (22.73376pt too wide) in paragraph at lines 722--724
+Overfull \hbox (22.73376pt too wide) in paragraph at lines 739--741
 []\TU/LibertinusSerif(0)/m/n/10.95 auf jedem intellektuellen Niveau aufgezeigt 
 und vermittelt werden kann (\TU/LibertinusSerif(0)/b/n/10.95 Vertikalkriterium\
 TU/LibertinusSerif(0)/m/n/10.95 ), 
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 726--727
+Underfull \hbox (badness 4279) in paragraph at lines 743--744
 []\TU/LibertinusSerif(0)/m/n/10.95 einen Bezug zu Sprache und Denken des Alltag
 s und der Lebenswelt besitzt
  []
@@ -2539,34 +2559,34 @@ File: pictures/3-Strahlensatz.png Graphic file (type bmp)
 <pictures/3-Strahlensatz.png>
 [31]
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 840.
+(Font)              scaled to size 10.95pt on input line 857.
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 8.76pt on input line 840.
+(Font)              scaled to size 8.76pt on input line 857.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 6.57pt on input line 840.
+(Font)              scaled to size 6.57pt on input line 857.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 [32]
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 884.
+(Font)              scaled to size 9.0pt on input line 901.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 9.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 884.
+(Font)              scaled to size 6.0pt on input line 901.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 884.
+(Font)              scaled to size 5.0pt on input line 901.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
@@ -2579,35 +2599,49 @@ File: pictures/2-Vereinigung.png Graphic file (type bmp)
 [34]
 File: pictures/2-Permanenz.png Graphic file (type bmp)
 <pictures/2-Permanenz.png>
-[35] [36] [37]
-File: pictures/4-Bruchmulti.png Graphic file (type bmp)
-<pictures/4-Bruchmulti.png>
-[38] [39]
-File: pictures/4-Zahlengerade.png Graphic file (type bmp)
-<pictures/4-Zahlengerade.png>
-[40] [41] [42
+[35] [36] [37] [38
 
 
 ]
+chapter 3.
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 1045.
+Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
+;+lnum;mapping=tex-text;" at 9.0pt
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Italic.otf
+[39]
+File: pictures/4-Addition.png Graphic file (type bmp)
+<pictures/4-Addition.png>
+[40] [41] [42] [43]
+File: pictures/4-Bruchmulti.png Graphic file (type bmp)
+<pictures/4-Bruchmulti.png>
+[44]
+File: pictures/4-Zahlengerade.png Graphic file (type bmp)
+<pictures/4-Zahlengerade.png>
+[45] [46]
 chapter A.
 
-Underfull \hbox (badness 2277) in paragraph at lines 1164--1165
+Underfull \hbox (badness 2277) in paragraph at lines 1279--1280
 \TU/LibertinusSerif(0)/m/it/10.95 mit schulischen Vorerfahrungen und Erforderni
 ssen\TU/LibertinusSerif(0)/m/n/10.95 . Springer Fachmedien Wiesbaden.
  []
 
-[43] [44] [45] [46] (./Stoffdidaktik2024-Etzold.aux)
+[47
+
+
+] [48] [49] [50] (./Stoffdidaktik2024-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 34193 strings out of 476683
- 703391 string characters out of 5804048
- 1881018 words of memory out of 5000000
- 53973 multiletter control sequences out of 15000+600000
- 522733 words of font info for 169 fonts, out of 8000000 for 9000
+ 34500 strings out of 476683
+ 708890 string characters out of 5804048
+ 1880018 words of memory out of 5000000
+ 54270 multiletter control sequences out of 15000+600000
+ 522741 words of font info for 170 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,9n,136p,10647b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Stoffdidaktik2024-Etzold.pdf (46 pages).
+Output written on Stoffdidaktik2024-Etzold.pdf (50 pages).
