@@ -1,0 +1,16 @@
+# Orientierungshilfen für Lehrhandlungen
+
+Dieser Anhang enthält verschiedene Orientierungshilfen für einzelne Planungs- und Durchführungshandlungen beim Lehren von Mathematik. Mehr Hinweise dazu, inwieweit Orientierungshilfen Unterstützung bieten können, finden sich in den vorherigen Kapiteln.
+
+
+## Formale Ebene
+
+Die Orientierungshilfe soll unterstützen, sich den Fragen der formalen Ebene einer stoffdidaktischen Analyse zu nähern.
+
+
+```{r OrientierungFormal, echo=FALSE, fig.cap="Orientierungshilfe zur formalen Ebene", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/B-OrientierungshilfeFormaleEbene.png")
+```
+
+
+Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeFormaleEbene.pdf) heruntergeladen werden.

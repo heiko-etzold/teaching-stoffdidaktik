@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  24 OCT 2024 15:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  1 NOV 2024 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2309,10 +2309,14 @@ ibertinusSerif-Regular.otf
 \tf@toc=\write3
 \openout3 = `Stoffdidaktik2024-Etzold.toc'.
 
-[3] [4
-
-
-]
+[3]
+LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
+(Font)              scaled to size 10.95pt on input line 223.
+Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
+t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
+ -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
+ibertinusSerif-Regular.otf
+[4]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 226.
 Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
@@ -2325,7 +2329,10 @@ Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
-[5] [6
+[5
+
+
+] [6
 
 
 ]
@@ -2443,14 +2450,7 @@ Requested font "[LibertinusSerif-BoldItalic.otf]/OT:script=latn;language=dflt;+
 tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-BoldItalic.otf
-[7]
-LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 321.
-Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
-t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
- -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
-ibertinusSerif-Regular.otf
-[8] [9] [10
+[7] [8] [9] [10
 
 
 ]
@@ -2469,18 +2469,6 @@ chapter 1.
 
 LaTeX Warning: Hyper reference `kernidee-begriffsklaerung' on page 14 undefined
  on input line 399.
-
-
-LaTeX Warning: Hyper reference `kontexte-begriffsklaerung' on page 14 undefined
- on input line 399.
-
-
-LaTeX Warning: Hyper reference `mathematisierungstypen' on page 14 undefined on
- input line 399.
-
-
-LaTeX Warning: Hyper reference `mathematisierungstypen' on page 14 undefined on
- input line 399.
 
 [14] [15]
 File: pictures/1-FreudenthalWinkel.jpg Graphic file (type bmp)
@@ -2619,29 +2607,41 @@ File: pictures/4-Bruchmulti.png Graphic file (type bmp)
 [44]
 File: pictures/4-Zahlengerade.png Graphic file (type bmp)
 <pictures/4-Zahlengerade.png>
-[45] [46]
-chapter A.
+[45] [46] [47] [48] [49] [50
 
-Underfull \hbox (badness 2277) in paragraph at lines 1279--1280
+
+]
+chapter A.
+[51] [52
+
+
+]
+chapter B.
+File: pictures/B-OrientierungshilfeFormaleEbene.png Graphic file (type bmp)
+<pictures/B-OrientierungshilfeFormaleEbene.png>
+[53] [54
+
+
+]
+chapter C.
+
+Underfull \hbox (badness 2277) in paragraph at lines 1389--1390
 \TU/LibertinusSerif(0)/m/it/10.95 mit schulischen Vorerfahrungen und Erforderni
 ssen\TU/LibertinusSerif(0)/m/n/10.95 . Springer Fachmedien Wiesbaden.
  []
 
-[47
-
-
-] [48] [49] [50] (./Stoffdidaktik2024-Etzold.aux)
+[55] [56] [57] [58] [59] (./Stoffdidaktik2024-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 34500 strings out of 476683
- 708890 string characters out of 5804048
- 1880018 words of memory out of 5000000
- 54270 multiletter control sequences out of 15000+600000
+ 34536 strings out of 476683
+ 710087 string characters out of 5804048
+ 1881018 words of memory out of 5000000
+ 54305 multiletter control sequences out of 15000+600000
  522741 words of font info for 170 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,9n,136p,10647b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Stoffdidaktik2024-Etzold.pdf (50 pages).
+Output written on Stoffdidaktik2024-Etzold.pdf (59 pages).
