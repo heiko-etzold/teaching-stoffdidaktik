@@ -1,4 +1,3 @@
-<!--
 # Kernideen und Kontexte
 
 
@@ -20,7 +19,7 @@
 
 **Kernideen** haben die Aufgabe, den Lernpfad zu leiten und dabei das *Wesen* des neuen Lerngegenstands sichtbar zu machen. Sie müssen dabei sowohl aus objektiver (also mathematischer) Perspektive tragfähig sein, als auch aus subjektiver Perspektive für die Schülerinnen und Schüler greifbar werden können. Kernideen bieten damit im *Vorfeld* des Lernpfades eine Orientierung und im *Nachgang* des Lernpfades eine Reflexionsmöglichkeit über den Lerngegenstand.^[Der Begriff der Kernidee ist geprägt worden über das Dialogische Lernen nach Gallin und Ruf, spricht dort jedoch vorwiegend die Vorschauperspektive an [vgl. @Leuders2011 7].] Um bei den Schülerinnen und Schülern Lernprozesse zu einem Lerngegenstand zu initiieren, werden die Kernideen ansprechend in Form von **Kernfragen** formuliert. Kernfragen sollten daher prinzipiell aus subjektiver Sicht formuliert sein und insbesondere adressieren, wie man selbst mit dem Lerngegenstand umgehen kann.
 
-Am Beispiel des *Funktionsbegriffs*\index{Funktionsbegriff} etwa besteht eine Kernidee darin, dass Funktionen den Zusammenhang zwischen zwei Größen beschreiben und damit auch vorhersagen können (vgl. auch Aspekte des Funktionsbegriffs in eine späteren Kapitel<!--Kapitel \@ref(analysis)--><!--). Als Kernfrage formuliert: »Wie kann man die Beziehung zwischen zwei sich verändernden Größen beschreiben und wie kann man damit weitere Werte bestimmen?« [@Thiel-Schneider2018 49].
+Am Beispiel des *Funktionsbegriffs*\index{Funktionsbegriff} etwa besteht eine Kernidee darin, dass Funktionen den Zusammenhang zwischen zwei Größen beschreiben und damit auch vorhersagen können (vgl. auch Aspekte des Funktionsbegriffs in einem späteren Kapitel<!--Kapitel \@ref(analysis)-->). Als Kernfrage formuliert: »Wie kann man die Beziehung zwischen zwei sich verändernden Größen beschreiben und wie kann man damit weitere Werte bestimmen?« [@Thiel-Schneider2018 49].
 
 In der *Vorschauperspektive* heißt das, die »Kernidee in Frageform schließt an individuelle Vorerfahrungen, Zielperspektiven, Denk- und Handlungsmuster der Lernenden an und initiiert die Auseinandersetzung mit dem mathematischen Gegenstand in den Worten von Schülerinnen und Schülern« [@Leuders2011, 8]. In der *Rückschauperspektive* dagegen können über die Kernidee (dann quasi als Antwort auf die Kernfrage) »eine allgemeine Problemstellung und die zu ihrer Bewältigung notwendigen mathematischen Konzepte benannt« werden [@Leuders2011, 8].
 
@@ -60,7 +59,7 @@ Das Finden derartiger stinnstiftender Kontexte ist enorm anspruchsvoll! Sie soll
 
 Kernideen/Kernfragen und der sinnstiftende Kontext bilden damit eine Einheit in der **Motivierung und Zielbildung** zu Beginn der Auseinandersetzung mit einem Lerngegenstand, siehe auch einen späteren Abschnitt hier im Skript<!-- \@ref(motivierung-und-zielbildung)-->.
 
-<!--
+
 ## Mathematisierungstypen
 
 Während Kernideen, Kernfragen und Kontexte in erster Linie der *Spezifizierung* des Lerngegenstandes in Hinblick auf den Lernpfad dienen, kann zur *Strukturierung* der Prozess der Mathematisierung stärker in den Blick genommen werden. Angelehnt an Treffers und Freudenthal  stellt @vandenHeuvel-Panhuizen2003 [12] hierzu dar, dass prinzipiell zwei Wege der Mathematisierung möglich sind:
@@ -83,4 +82,3 @@ Das oben dargestellte Kerzenbeispiel entstammt der horizontalen Mathematisierung
     * Bierschaumzerfall
 3. Beschreiben und erklären Sie je eine geeignete Variante der horizontalen und vertikalen Mathematisierung am Lerngegenstand der Exponentialfunktion.
 
--->
