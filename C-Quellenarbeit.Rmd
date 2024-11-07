@@ -1,4 +1,3 @@
-<!--
 # Quellenarbeit
 
 Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, sollen an dieser Stelle einige Hinweise zur Quellenarbeit gegeben werden.
@@ -12,9 +11,4 @@ Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, s
 * Über die Seite https://www.fachportal-paedagogik.de können Sie zu den von Ihnen präferierten Stichworten Beiträge finden, die dort auch kurz zusammengefasst werden. Dies ist inbesondere für kurze **Überblicksrecherchen** sinnvoll. Die Verfügbarkeit der entsprechenden Beiträge wird dann über das Fachportal dargestellt.
 
 * Inbesondere **digital zugängliche Publikationen** lassen sich über die Webseite https://www.base-search.net recherchieren. Eine ähnliche Funktionalität, aber eher international orientiert, bietet die Seite https://eric.ed.gov.
-
-
-
--->
-
 
