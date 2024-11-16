@@ -3,7 +3,7 @@
 Dieser Anhang enthält verschiedene Orientierungshilfen für einzelne Planungs- und Durchführungshandlungen beim Lehren von Mathematik. Mehr Hinweise dazu, inwieweit Orientierungshilfen Unterstützung bieten können, finden sich in den vorherigen Kapiteln.
 
 
-## Formale Ebene
+## Formale Ebene {#orientierungshilfe-formale-ebene}
 
 Die Orientierungshilfe soll unterstützen, sich den Fragen der formalen Ebene einer stoffdidaktischen Analyse zu nähern.
 
@@ -14,3 +14,19 @@ knitr::include_graphics("pictures/B-OrientierungshilfeFormaleEbene.png")
 
 
 Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeFormaleEbene.pdf) heruntergeladen werden.
+
+
+<!--## Kernideen finden {#orientierungshilfe-kernideen-finden}-->
+
+
+## Lernprozesse auslösen {#orientierungshilfe-lernprozesse-ausloesen}
+
+Die Orientierungshilfe beschreibt eine Möglichkeit, die Motivierung und Zielbildung im Mathematikunterricht zu gestalten, um Lernprozesse auszulösen. 
+
+```{r OrientierungAusloesen, echo=FALSE, fig.cap="Orientierungshilfe zum Auslösen von Lernprozessen", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/B-OrientierungshilfeLernprozesseAusloesen.png")
+```
+
+Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeLernprozesseAusloesen.pdf) heruntergeladen werden.
+
+
