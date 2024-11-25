@@ -63,7 +63,7 @@ Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.
 
-<!--Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVverinnerlichen), \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), \@ref(fig:Etappen), \@ref(fig:Musterfolge), \@ref(fig:Grenzwert), \@ref(fig:Mittelsenkrechte), \@ref(fig:Modelle) und \@ref(fig:Prozessbetrachtung) -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
+Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVverinnerlichen)<!--, \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten),--> und \@ref(fig:Etappen)<!--, \@ref(fig:Musterfolge), \@ref(fig:Grenzwert), \@ref(fig:Mittelsenkrechte), \@ref(fig:Modelle) und \@ref(fig:Prozessbetrachtung)--> -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
 -->
 
 ```{r echo=FALSE}

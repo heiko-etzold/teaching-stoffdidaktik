@@ -24,17 +24,12 @@ Nach @Wygotski1985a erfolgt eine Interaktion eines Individuums mit einem Lerngeg
 Durch die Nutzung eines geeigneten Werkzeugs ist das Individuum damit einerseits in der Lage, seine Kenntnisse, Fähigkeiten und Fertigkeiten zu ***externalisieren***, d. h. das Werkzeug zielgerichtet so einzusetzen, dass auf den Lerngegenstand eingewirkt werden kann. Andererseits kann das Werkzeug auch dabei helfen, Eigenschaften des Lerngegenstands zu ***internalisieren***, indem die Werkzeugnutzung dazu führt, dass das Individuum Kenntnisse, Fähigkeiten und Fertigkeiten über den Lerngegenstand gewinnt. Um sich also einen Lerngegenstand *anzueignen*, sind sowohl stets Externalisierungs- als auch Internalisierungsprozesse notwendig. Man kann auch sagen, dass **Aneignung als Einheit aus Externalisierung und Internalisierung** aufzufassen ist.
 
 ```{r SubjektObjekt, echo=FALSE, fig.cap="Werkzeuge als Vermittler in der Tätigkeitstheorie am Beispiel des Kreises", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/5-Aneignung.png")
+knitr::include_graphics("pictures/6-Aneignung.png")
 ```
 
 ### Zur Rolle des Sprechens
 Eine wichtige Rolle beim Aneignen spielt das **Sprechen über die durchgeführten Handlungen**. Dieses dient quasi als Bindeglied zwischen geistiger Handlung und praktisch-gegenständlicher Handlung, da es sowohl den Externalisierungsprozess unterstützt (das Geistige muss über das Sprechen externalisiert werden) als aus der Internalisierung dienlich ist (über das Sprechen wird das Praktisch-Gegenständliche psychisch verarbeitet). Damit unterstützt das Sprechen auch eine **schrittweise Abkehr vom externen Werkzeug** und damit eine geistige Durchdringung des betrachteten Lerngegenstands. Abbildung \@ref(fig:GVverinnerlichen) zeigt eine entsprechende Schrittfolge zum Aufbau von Grundvorstellungen, wie sie @Wartha2011 [11] vorschlagen  (wobei die dort verwendeten Farben nichts mit den hier im Skript genutzten Farben für die vier Ebenen zu tun haben).
 
-(ref:GVverinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11]
-
-```{r GVverinnerlichen, echo=FALSE, fig.cap="(ref:GVverinnerlichen)", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/5-GVverinnerlichen.png")
-```
 
 In Abschnitt \@ref(ausfuehren-und-verinnerlichen) wird diese Sichtweise noch einmal tätigkeitstheoretisch eingeordnet und in Kapitel \@ref(begriffe-sachverhalte-und-verfahren) hinsichtlich der verschiedenen Arten mathematischen Wissens (Begriffe, Sachverhalte und Verfahren) konkretisiert.
 

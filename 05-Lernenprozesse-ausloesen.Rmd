@@ -1,10 +1,6 @@
 # (PART\*) Lernprozesse gestalten {.unnumbered}
 
-
 # Lernprozesse auslösen
-
-<!--# Tätigkeitstheorie und Lernen {#taetigkeitstheorie-und-lernen}
--->
 
 > **Ziele**
 >
