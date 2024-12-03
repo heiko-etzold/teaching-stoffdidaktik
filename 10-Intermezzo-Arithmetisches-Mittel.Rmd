@@ -171,8 +171,8 @@ knitr::include_graphics("pictures/10-Uebersicht.png")
 
 Das in Abschnitt \@ref(Unterrichtsphasen) vorgestellt Vorgehen ist bezüglich der Begriffsbildung **weder induktiv, noch deduktiv oder ostensiv**. Es wird nicht von mehreren Beispiel heraus das Allgemeine generiert (induktiv) und auch nicht zunächst die Definition gegeben und daraufhin Beispiele generiert (deduktiv) und die Begriffseinführung erfolgt auch nicht nur rein erklärend anhand eines Beispiels (ostensiv). Vielmehr ist das Vorgehen aus einem Wechselspiel von einem Beispiel, der Definition und weiterer Beispiele gesprägt. In der dargestellten Form entspricht das Vorgehen dem sogenannten ***Aufsteigen vom Abstrakten zum Konkreten***, welches nach @Lompscher1996 aus drei Schritten besteht.
 
-```{r AK, echo=FALSE, fig.cap="Aufsteigen vom Abstrakten zum Konkreten", fig.align='center', out.width='90%'}
-knitr::include_graphics("pictures/10-AK.png")
+```{r AK2, echo=FALSE, fig.cap="Aufsteigen vom Abstrakten zum Konkreten", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/7-AK.png")
 ```
 
 

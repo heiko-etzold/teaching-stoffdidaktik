@@ -181,7 +181,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 25.11.2024}
+\date{Letzte Änderung: 03.12.2024}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -229,7 +229,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 25.11.2024). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 03.12.2024). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -901,7 +901,7 @@ Am Beispiel der negativen Zahlen soll dargestellt werden, wie eine Sichtweise vo
 
 Fachmathematisch können die ganzen Zahlen aus den natürlichen Zahlen generiert werden. Hierzu sollen zunächst die natürlichen Zahlen selbst fachmathematisch eingeordnet werden. Im Prinzip bestehen zwei Sichtweisen, nämlich die Einführung über die \textbf{Peano-Axiome} sowie die Betrachtung \textbf{gleichmächtiger Mengen}.
 
-Aus den Peano-Axiomen (\citeproc{ref-WikiPeano}{Wikipedia, 2021}) folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der \(0\)), die dann mit \(1\), \(2\), \(3\) usw. bezeichnet werden können.\footnote{Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt -- das geht schon weiter als hier zulässig.} Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass \(3\) größer ist als \(1\). Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen\footnote{Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.}, bei dem auch nicht C größer als A ist.
+Aus den Peano-Axiomen (\citeproc{ref-WikiPeano}{Wikipedia, 2021a}) folgt zunächst die Existenz einer Reihenfolge von Zahlen (also Nachfolger der \(0\)), die dann mit \(1\), \(2\), \(3\) usw. bezeichnet werden können.\footnote{Ab 10 wird bei der Bezeichnung jedoch das Stellenwertsystem genutzt -- das geht schon weiter als hier zulässig.} Diese Bezeichnung erlaubt jedoch noch keinerlei Berechnungen, nicht einmal eine Ordnungsrelation ist vorhanden. Es kann also (noch) nicht gesagt werden, dass \(3\) größer ist als \(1\). Vielmehr lässt sich die Situation eher mit einem Alphabet vergleichen\footnote{Ein wesentlicher Unterschied dieses Vergleiches ist, dass das Alphabet endlich ist, die Menge der natürlichen Zahlen jedoch nicht.}, bei dem auch nicht C größer als A ist.
 
 Für eine Ordnungsrelation bedarf es zunächst der Definition der Addition über \(n+0 := n\) und \(n+k' := (n+k)'\) für alle \(n,k\in\mathbb{N}\) mit der (aus den Peano-Axiomen existierenden) Nachfolgerbildung \('\). So gilt etwa mit \(1:=0'\): \({\color{blue} 1}+{\color{red} 1} = {\color{blue} 1}+{\color{red} {0'}} = ({\color{blue} 1}+{\color{red} 0}){\color{red} '} = 1{\color{red} '} =: 2\). So kann nun induktiv jede höhere Additionsaufgabe generiert werden. Darauf aufbauend kann die Ordnungsrelation \(n<m\) über die Existenz eines \(k\in\mathbb{N}\backslash\{0\}\) mit \(m = n+k\) definiert werden. Die Subtraktion \(m-n = k\) ist nun wiederum über die Umkehroperation \(n+k = m\) definierbar, sofern \(m\geq n\).
 
@@ -1027,7 +1027,7 @@ Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathem
 Als Sie zu Beginn Ihres Mathematikstudiums die Peano-Axiome zur Definition der natürlichen Zahlen \(\mathbb{N}\) kennengelernt haben, konnten Sie dies wahrscheinlich -- trotz der Neuigkeit der formalen Beschreibung -- derart mit Ihrer Lebenswelterfahrung in Verbindung bringen, dass natürliche Zahlen abgezählt werden können, also dass damit z.~B. die Platzierungen eines Wettrennens durchnummeriert werden können.
 
 \begin{quote}
-\textbf{Peano-Axiome} (\citeproc{ref-WikiPeano}{Wikipedia, 2021})
+\textbf{Peano-Axiome} (\citeproc{ref-WikiPeano}{Wikipedia, 2021a})
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1776,6 +1776,551 @@ Insgesamt ergeben sich aus den Überlegungen \textbf{typische Unterrichtssituati
 Im nächsten Kapitel wird -- aufgeschlüsselt nach Begriffen, Zusammenhängen und Verfahren -- insbesondere dargestellt, wie Stoffvermittlung und Festigung allgemein gestaltet werden können.
 All diese Überlegungen sind jedoch nicht als starres Unterrichtsvorgehen aufzufassen, sondern sollen vielmehr Ihnen als Lehrkraft wiederum eine \emph{Orientierung} bieten, Ihren Unterricht zu strukturieren und entsprechende Lernumgebungen zu gestalten.
 
+\chapter{Begriffe, Zusammenhänge, Verfahren}\label{begriffe-zusammenhuxe4nge-verfahren}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie kennen prinzipielle Möglichkeiten, Begriffe, Zusammenhänge und Verfahren einzuführen, Aneignungsprozesse mithilfe von Orientierungshilfen zu gestalten und die Inhalte zu festigen.\\
+\item
+  Sie erkennen Gemeinsamkeiten und Unterschiede in den typischen Vorgehensweisen für Begriffe, Zusammenhänge und Verfahren.\\
+\item
+  Sie können die Prozesse tätigkeitstheoretisch einordnen.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 7 (\href{files/Stoffdidaktik2024-07-BegriffeZusammenhaengeVerfahren.pdf}{pdf}, \href{files/Stoffdidaktik2024-07-BegriffeZusammenhaengeVerfahren.key}{Keynote})
+\end{itemize}
+\end{quote}
+
+Aufbauend auf den tätigkeitstheoretischen Grundlagen der letzten beiden Kapitel soll in diesem Kapitel dargestellt werden, wie damit das Unterrichten von Begriffen, Zusammenhängen und Verfahren gestaltet werden kann. Dabei wird immer von drei Schritten ausgegangen:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Begriff/Zusammenhang/Verfahren \textbf{erarbeiten}\\
+\item
+  Begriff/Zusammenhang/Verfahren \textbf{aneignen} über die Nutzung geeigneter Orientierungshilfen sowie der etappenweisen Ausbildung geistiger Handlungen\\
+\item
+  Begriff/Zusammenhang/Verfahren \textbf{festigen}
+\end{enumerate}
+
+Perspektivisch sollten Sie in der Lage sein, die hier beschriebenen Prozesse auf konkrete Lerngegenstände anzuwenden. Dabei ist jedoch zu beachten, dass es sich \emph{nicht} um eine \emph{feste Vorgehensweise} handelt, sondern vielmehr \emph{prinzipielle Gestaltungsmöglichkeiten} für die Stofferarbeitung und Festigung beschrieben werden.
+
+\section{Begriffe}\label{begriffe}
+
+»Man spricht allgemein von einem ›Begriff‹, wenn eine Anzahl von Objekten oder Ereignissen aufgrund gewisser übereinstimmender Merkmale mit einem gemeinsamen Namen belegt wird« (Weinert, 1974, S.~664, zitiert nach \citeproc{ref-Zech1998}{Zech, 1998, S. 165}).
+
+Damit werden zwei Dimensionen von Begriffen sichtbar, nämlich der \textbf{Bezeichner} und das \textbf{Bezeichnete}. Während der Bezeichner das \emph{Wort} bzw. der \emph{Name} ist, mit dem das zu betrachtende Objekt oder Ereignis belegt wird, ist das Bezeichnete die \emph{Idee} hinter dem Objekt, also das Gefüge an \emph{übereinstimmenden Merkmalen}. Weder \emph{Bezeichner} noch \emph{Bezeichnetes} sind jedoch das Objekt oder Ereignis selbst.
+Äquivalente, und auch in den Sprachwissenschaften bedeutsame Bezeichnungen sind \textbf{Signifikant} für den Bezeichner und \textbf{Signifikat} für das Bezeichnete (vgl. auch \citeproc{ref-Rembowski2015}{Rembowski, 2015, 13~ff.}; \citeproc{ref-dewiki:214582005}{Wikipedia, 2021c}, \citeproc{ref-dewiki:212433603}{2021b}).
+
+Wenn etwa ein Kind den Bezeichner \emph{Quader} verwendet, um ein Viereck mit vier gleich langen Seiten und vier rechten Winkeln zu beschreiben (also eigentlich das Bezeichnete eines \emph{Quadrates} meint), kann es sich hier durchaus um eine Wortverwechslung handeln, die nicht zwingend mit einem inhaltlichen Fehlverständnis einhergehen muss.
+
+\subsection{Begriffe bilden}\label{begriffe-bilden}
+
+Die Einführung von Begriffen kann stets als Wechselspiel zwischen \textbf{Beispielen/Gegenbeispielen} und der \textbf{Begriffsfestlegung} aufgefasst werden. Die Richtung und Qualität dieses Zusammenhangs ermöglicht verschiedene Wege zum Begriff (siehe Abbildung \ref{fig:Begriffseinfuehrung}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/7-Begriffe} 
+
+}
+
+\caption{Möglichkeiten der Begriffseinführung}\label{fig:Begriffseinfuehrung}
+\end{figure}
+
+\subsubsection{Ostensive Begriffseinführung}\label{ostensive-begriffseinfuxfchrung}
+
+Bei der ostensiven Begriffseinführung wird das Lernen eines Begriffs als \textbf{Erfassen der Gestalt} als einprägsames Ganzes angenommen. Das heißt, der Begriff wird gar nicht formal definiert, sondern nur über Beispiele dargestellt. Dies wird insbesondere bei Arbeitsbegriffen so gehandhabt (z.~B. \emph{Bruchstrich}) oder bei der Begriffseinführung in der Grundschule, wenn deren Gestalt leicht eingänglich ist (z.~B. \emph{Kreis}).
+
+Dabei muss jedoch die \textbf{wahrgenommene Gestalt dem Wesentlichen} des Begriffs entsprechen und der \textbf{Gestalteindruck ist häufig abhängig von der Lage}. Es ist also darauf zu achten, nicht ausschließlich Spezialfälle zu präsentieren, die dann zu einer Untergeneralisierung des Begriffs führen. Werden z.~B. zwei \emph{zueinenander senkrechte} Strecken präsentiert, sollten diese also nicht gleich lang sein, sich nicht in der Mitte schneiden und auch nicht parallel zu den Tafel-/Blatt-/Bildschirmrändern ausgerichtet sein (siehe Abbildung \ref{fig:SenkrechtOstensiv}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/7-senkrecht} 
+
+}
+
+\caption{Ungeeignete und geeignete ostensive Darstellung des Begriffs \emph{senkrecht zueinander}}\label{fig:SenkrechtOstensiv}
+\end{figure}
+
+\subsubsection{Induktive Begriffseinführung}\label{induktive-begriffseinfuxfchrung}
+
+Bei der induktiven Begriffseinführung wird zunächst eine \textbf{Vielzahl an Beispielen} präsentiert. Aus diesen heraus wird dann das \textbf{Wesentliche des Begriffs extrahiert}. Dafür werden die Objekte zunächst beschrieben und anschließend gemeinsame Eigenschaften entdeckt. Dies kann passieren, indem die ungeordneten Beispiele nach Merkmalen sortieren werden oder bereits in Teilmengen aufgeteilt präsentiert werden. Daran wird nun der Begriffsinhalt herausgearbeitet.
+
+Dieses Vorgehen ist relativ natürlich, da es auch der Begriffsbildung im Vorschulalter bzw. im Alltag entspricht. Allerdings benötigt es sehr viel Zeit. Hinzu kommt, dass das Erkennen der gemeinsamen Merkmale in der Unterrichtssituation nicht selten zu einem \emph{Ostereiersuchen} verfällt, indem die Lehrkraft so lange nachfragt, bis die gewünschte Eigenschaft gefunden wird. Oder noch kritischer formuliert: »Die Lernenden jedoch haben noch keine Ahnung von diesem Wesen und können sie auch nicht gewinnen, da sie keinerlei Mittel dafür besitzen« (\citeproc{ref-Giest2004a}{Giest \& Lompscher, 2004}).
+
+Beim Einsatz der induktiven Begriffseinführung müssen also insbesondere geeignete Impulsfragen im Vorhinein bedacht werden, um die Schülerinnen und Schüler durch gezielte Fragestellungen das Wesentliche des Begriffs entdecken lassen zu können.
+
+\subsubsection{Deduktive Begriffseinführung}\label{deduktive-begriffseinfuxfchrung}
+
+Die deduktive Begriffseinführung geht den Weg \textbf{von der Definition zu den Beispielen}. Dieses Vorgehen ist das übliche in der Hochschulmathematik und sollte -- um zum Beispiel wissenschaftspropädeutisch tätig zu sein -- auch im Schulunterricht schon vermittelt werden.
+
+Typische Impulsfragen für das anschließende Identifizieren udn Realisieren von Repräsentanten\footnote{Diese \emph{Repräsentanten} eines Begriffs sind nicht mit dessen \emph{Repräsentationen} im Sinne der Grundvorstellungsidee zu verwechseln! Die Repräsentanten sind konkrete (reale oder ideelle) Objekte, Repräsentationen dagegen Darstellungen, die ein operatives Arbeiten ermöglichen. Beides kann aber natürlich sehr ähnlich aussehen oder sogar zusammenfallen.} bei der deduktiven Begriffseinführung nach Gabe der Definition zu unterstützen, können sein:
+
+\begin{itemize}
+\tightlist
+\item
+  Ist das ein \ldots?
+\item
+  Stelle ein \ldots{} her.
+\item
+  Welche Teile der Definition sind nicht erfüllt?
+\item
+  Was muss an dem \ldots{} verändert werden, damit es ein \ldots{} ist?
+\item
+  Wie prüft man, ob das ein \ldots{} ist?
+\item
+  Warum entsteht ein \ldots, wenn man das so und so herstellt?
+\end{itemize}
+
+\subsubsection{Aufsteigen vom Abstrakten zum Konkreten}\label{aufsteigen-vom-abstrakten-zum-konkreten}
+
+Das Aufsteigen vom Abstakten zum Konkreten ist durch ein spezifisches \textbf{Wechselspiel von einem Beispiel, der Definition und weiterer Beispiele} geprägt. Nach Lompscher (\citeproc{ref-Lompscher1996}{1996}) sind drei Schritte relevant.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/7-AK} 
+
+}
+
+\caption{Aufsteigen vom Abstrakten zum Konkreten}\label{fig:AK}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Für die Einführung des Begriffs wird ein konkretes Ausgangsbeispiel gewählt, an dem das Wesen des Begriffs besonders gut deutlich wird. An diesem \textbf{Ausgangskonkretum} werden Lernhandlungen erarbeitet, die sich zwar am Beispiel orientieren, aber verallgemeinern lassen, sodass sie dem Begriffsaufbau dienlich sind.
+\item
+  Im Anschluss wird, mit Unterstützung der Lehrkraft, das Wesen des Begriffs herausgearbeitet und in Form einer \textbf{Ausgangsabstraktion} formuliert. Dieses Vorgehen ist vergleichbar mit dem induktiven Begriffserwerb, allerdings wird nicht aus einer Vielzahl von Beispielen eine gemeinsame Eigenschaft eliminiert, sondern am charakteristischen Beispiel wird die Eigenschaft durch eine wissende Person (Lehrkraft) in Bezug auf die Handlungserfahrungen der Schülerinnen und Schüler dargestellt. Dieser Prozess kann durch Orientierungshilfen oder Arbeitsmittel (siehe nächstes Kapitel) unterstützt werden.
+\item
+  Der dritte Schritt, das eigentliche Aufsteigen vom Abstrakten zum Konkreten, ist nun das Abarbeiten von \textbf{Konkretisierungsreihen}. Hierzu werden weitere Beispiele für den Begriff betrachtet, auf die das Ausgangsabstraktum angewandt wird. Orientierungshilfen/Arbeitsmittel dienen dabei als Mittler und die Lernhandlungen werden in verallgemeinerter und ggf. auch modifizierter Form angewandt. Erst auf diese Weise ist ein echtes Durchdringen des Begriffs möglich. Dieses Vorgehen ist mit dem deduktiven Vorgehen vergleichbar, allerdings nicht im dem Sinne, dass aus einer Definition heraus die Beispiele generiert werden. Vielmehr wird auf gegebene Beispiele die Definition angewandt, ausgeschärft und damit der Begriff immer besser verstanden.
+\end{enumerate}
+
+Diese Vorgehensweise hat den Vorteil, \textbf{relativ effektiv} zu sein und trotz des Verzichts auf ein deduktives Vorgehen recht schnell zu einer (ersten) Definition des Begriff zu kommen. Außerdem ist sie \textbf{ehrlich gegenüber den noch nicht vorhandenen Kenntnissen der Schülerinnen und Schüler}, da diese bei einem induktiven Vorgehen i.~d.~R. noch nicht wissen, nach welchem gemeinsamen Merkmal die Beispiele nun analysiert werden sollen, so dass es oft mit einem Raten (oder letztlich doch einer Vorgabe durch die Lehrkraft) verbunden ist, auf das zu interessierende Merkmal zu stoßen.
+
+\subsubsection{Beispiele und Gegenbeispiele}\label{beispiele-und-gegenbeispiele}
+
+Unabhängig davon, auf welche Art und Weise man Begriffe einführt, ist stets ein Zusammenspiel aus Beispielen, Gegenbeispielen und verbalen Erläuterungen notwendig -- und das in allen Altersklassen! Bei entsprechenden Verbalisierungen sind ggf. weniger Beispiele/Gegenbeispiele nötig, da damit das Wesen des Begriffs besser herausgearbeitet werden kann (\citeproc{ref-Zech1998}{Zech, 1998, S. 260}).
+
+Bei der Auswahl von Beispielen und Gegenbeispielen bieten sich das \textbf{Variationsprinzip} und das \textbf{Kontrastprinzip} an. Die folgenden Überlegungen stammen hauptsächlich von Zech (\citeproc{ref-Zech1998}{1998, 260~ff.}).
+
+\paragraph{Variationsprinzip}\label{variationsprinzip}
+
+Beispiele sollten breit variiert werden, es darf nicht zu einer Untergeneralisierung kommen. Im Alltag als Gegenbeispiele empfundene Beispiele müssen mit angebracht werden. Wichtig erscheinende \textbf{irrelevante Merkmale} sollten mindestens einmal \textbf{variiert} werden.
+
+Für den Rechtecktbegriff kann dies eine Variation in Größe, Seitenverhältnis, Ausrichtung und Farbe, aber auch die Präsentation von Spezialfällen (z.~B. eines Quadrates) bedeuten (siehe Abbildung \ref{fig:VariationRechteck}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/7-Variation} 
+
+}
+
+\caption{Variationsprinzip beim Begriff \emph{Rechteck}}\label{fig:VariationRechteck}
+\end{figure}
+
+Um dieses Prinzip für einen Begriff zu realisieren, muss man sich als Lehrkraft also Gedanken über die mathematisch relevanten und irrelevanten Eigenschaften machen. Auch eine explizite Diskussion mit den Schülerinnen und Schülern, warum diese Eigenschaften variiert werden durften (und andere nicht), kann hilfreich für das Begriffsverständnis sein.
+
+\paragraph{Kontrastprinzip}\label{kontrastprinzip}
+
+Gegenbeispiele dürfen nicht für Beispiele gehalten werden, es darf nicht zu einer Übergeneralisierung kommen. Im Alltag als Beispiele empfundene Gegenbeispiele (sogenannte \emph{Fastbeispiele}) müssen diskutiert werden. \textbf{Relevante Merkmale} müssen mindestens einmal \textbf{fehlen}.
+
+Für den Rechteckbegriff relevant sind etwa die rechten Winkel (was bei Beibehaltung der gleich langen, parallelen Seiten zu einem Parallelogramm führt). Auch die \emph{Ecken}-Eigenschaften und die Tatsache, dass es sich um eine Figur (und nicht um einen Körper) handelt, sind relevant (siehe Abbildung \ref{fig:KontrasRechteck}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/7-Kontrast} 
+
+}
+
+\caption{Kontrastprinzip beim Begriff \emph{Rechteck}}\label{fig:KontrasRechteck}
+\end{figure}
+
+\paragraph{Darbietung von Beispielen und Gegenbeispielen}\label{darbietung-von-beispielen-und-gegenbeispielen}
+
+Zech (\citeproc{ref-Zech1998}{1998, S. 261}) fasst zusammen: \textbf{»Beispiele und Gegenbeispiele sind dann am effektivsten, wenn sich die Beispiele möglichst stark in den irrelevanten Merkmalen unterscheiden und die Gegenbeispiele in möglichst wenigen relevanten Merkmalen unterscheiden.«}
+
+Eine simultane Darbietung zweier stark kontrastierender Beispiele (Abbildung \ref{fig:SimultanBeispiel}) oder eines Beispiels mit einem sehr ähnlichen Gegenbeispiel (Abbildung \ref{fig:SimultanGegenbeispiel}) kann weiterhin den Fokus auf die relevanten Merkmale des Begriffs lenken.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/7-Quadrat} 
+
+}
+
+\caption{Simultane Darbietung zweier Beispiele zum Begriff \emph{Quadrat}}\label{fig:SimultanBeispiel}
+\end{figure}
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.4\linewidth]{pictures/7-Achsensymmetrie} 
+
+}
+
+\caption{Simultane Darbietung von Beispiel und Gegenbeispiel zum Begriff \emph{Achsensymmetrie}}\label{fig:SimultanGegenbeispiel}
+\end{figure}
+
+\subsection{Begriffe aneignen}\label{begriffe-aneignen}
+
+Die relevanten Aneignungshandlungen beim Begriffserwerb sind das \textbf{Identifizieren} und \textbf{Realisieren}. Die Tabelle konkretisiert die Möglichkeit der Gestaltung von Orientierungshilfen und das etappenweise Ausbilden geistiger Handlungen an diesen beiden Aneignungshandlungen.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}@{}}
+\caption{\label{tab:begriffsschritte} Teilprozesse zur Begriffsbildung und -aneignung, nach Steinhöfel et al. (\citeproc{ref-Steinhofel1988}{1988, S. 46})}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Identifizieren
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Realisieren
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Identifizieren
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Realisieren
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Orientierungshilfen} & System der Merkmale des Begriffs; Schrittfolge zum Prüfen der Merkmale & Handlungsvorschrift zum Herstellen oder Vervollständigen des Objekts \\
+\textbf{Etappe der materiellen/materialisierten Handlung} & Überprüfung der Merkmale an gegebenen Objekten oder an Modellen (Zeichnungen, Diagramme); Orientierungshilfe liegt schriftlich vor & Beim Lösen entsprechender Aufgaben orientieren sich Schülerinnen und Schüler am Text der Handlungsvorschrift, die schriftlich vorliegt. \\
+\textbf{Etappe der sprachlichen Handlung} & sprachliches Begründen des Zutreffens oder Nichtzutreffens der einzelnen Merkmale (unter zunehmender Zurückdrängung der Orientierungshilfe) & Kommentieren des Lösungsweges beim Ausführen der Handlungsschritte (Handlungsvorschrift liegt nicht mehr vor) \\
+\textbf{Etappe der geistigen Handlung} & sofortiges Entscheiden, ob der Begriff zutrifft oder nicht (ohne Benutzung der Orientierungshilfe) & selbstständiges Lösen entsprechender Aufgaben (ohne Verwendung der Handlungsvorschrift) \\
+\end{longtable}
+
+\subsection{Begriffe festigen}\label{begriffe-festigen}
+
+Vertiefende Übungen ergeben sich v.~a. durch die Einordnung des neu erlernten Begriffs in ein \textbf{Begriffssystem}. Hinzu kommt die Verwendung \textbf{alternativer Definitionen} sowie die \textbf{Variablität in der Verwendung von Bezeichnungen} (z.~B. Variablen). Auch können \textbf{Grenz- und Sonderfälle} des Begriffs diskutiert werden, um ein vertieftes Verständnis zu gewinnen (vgl. \citeproc{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 34}). Eine systematische Übersicht, auch für ein ähnliches Vorgehen bei Sachverhalten und Verfahren, bietet Tabelle \ref{tab:festigen}.
+
+Nach Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, S. 48}) ist ein Begriff verstanden, wenn Schülerinnen und Schüler
+
+\begin{itemize}
+\tightlist
+\item
+  die Bezeichnung des Begriffs kennen,
+\item
+  Beispiele angeben und jeweils begründen können, weshalb es sich um ein Beispiel handelt,
+\item
+  begründen können, weshalb etwas nicht unter den Begriff fällt,
+\item
+  charakteristische Eigenschaften des Begriffs kennen,
+\item
+  Oberbegriffe, Unterbegriffe und Nachbarbegriffe kennen,
+\item
+  mit dem Begriff beim Argumentieren und Problemlösen arbeiten können.
+\end{itemize}
+
+\section{Zusammenhänge}\label{zusammenhuxe4nge}
+
+Bei Zusammenhängen (also Regeln, Gesetzen und Sätzen) bietet es sich an, in der Erarbeitung zwischen dem \textbf{Finden des Zusammenhangs}, dem \textbf{Finden einer Begründung} und der \textbf{Darstellung der Begründung} zu unterscheiden.\footnote{Spezifischer sprechen einige Quellen auch von der \emph{Satzfindung}, \emph{Beweisfindung} und \emph{Beweisdarstellung}, z.~B. Steinhöfel et al. (\citeproc{ref-Steinhofel1988}{1988, S. 59})}
+Im schulischen Kontext erfüllt eine Begründung i.~d.~R. nicht nur die Funktion, den Wahrheitsgehalt des Sachverhaltes zu sichern (diese Funktion hat ein Beweis v.~a. in der Fachmathematik), sondern über die Begründung den Sachverhalt besser zu verstehen, dessen innere Struktur nachzuvollziehen und mithilfe der Begründung über den Sachverhalt zu kommunizieren.
+Während die ersten beiden Teilprozesse v.~a. der \emph{Erarbeitung} des Sachverhalts dienen, sind alle drei Teilprozesse notwendige Bestandteile für die \emph{Aneignung} des Sachverhalts.
+
+\subsection{Zusammenhänge erarbeiten}\label{zusammenhuxe4nge-erarbeiten}
+
+\subsubsection{Zusammenhänge finden}\label{zusammenhuxe4nge-finden}
+
+Für das Finden neuer Zusammenhänge bestehen folgende Möglichkeiten (vgl. \citeproc{ref-Vollrath2012}{Vollrath \& Roth, 2012, 247~f.}):
+
+\begin{itemize}
+\item
+  Der neue Zusammenhang wird \textbf{induktiv} über das Entdecken von Merkmalen in gegebenen Situationen erarbeitet.
+
+  \begin{quote}
+  Werden bspw. Rechtecke und ihre Diagonalen gezeichnet, kann daraus entdeckt werden, dass sich die Diagonalen stets halbieren, dies also ein gültiger Zusammenhang zu sein scheint.
+  \end{quote}
+\item
+  Der neue Zusammenhang entsteht aus dem \textbf{Widerspruch zu einer angenommenen Hypothese}.
+
+  \begin{quote}
+  Aus dem Recheckbeispiel könnte angenommen werden, dass Vierecke mit sich halbierenden Diagonalen \emph{immer} Rechtecke sind. Über ein Gegenbeispiel kann aber gezeigt werden, dass dies auch bei Parallelogrammen der Fall ist. So wurde ein neuer Zusammenhang entdeckt.
+  \end{quote}
+\item
+  Der neue Zusammenhang wird \textbf{deduktiv} aus bisherigen Zusammenhängen gefolgert.
+
+  \begin{quote}
+  Der Kosinussatz kann über die Zerteilung eines allgemeinen Dreiecks in rechtwinklige Dreiecke und die mehrfache Anwendung des Satzes des Pythagoras gefolgert werden.
+  \end{quote}
+\end{itemize}
+
+Nicht immer ist es sinnvoll, einen Zusammenhang zu \emph{finden}. So kann etwa die Lösungsformel \(x_{1,2} = -\frac{p}{2}\pm \sqrt{\left(\frac{p}{2}\right)^2-q}\) schlecht \emph{vermutet} werden, um damit die Gleichung \(0 = x^2+px+q\) zu lösen. In dem Fall wird üblicherweise mithilfe einer \textbf{Herleitung} direkt zur Begründung des Zusammenhangs übergegangen. Ein solches Vorgehen ist i.~d.~R. deduktiv.
+
+\subsubsection{Begründungen finden}\label{begruxfcndungen-finden}
+
+Da das Finden von Begründungen als Problemlöseprozess aufgefasst werden kann, ist es notwendig, auf \textbf{Heurismen}\footnote{Eine Übersicht über Heurismen bietet bspw. die Webseite \url{https://proffi-m.de/theorie}.} Bezug zu nehmen, um Begründungen für Zusammenhänge zu finden (vgl. \citeproc{ref-Steinhofel1988}{Steinhöfel et al., 1988, 67~ff.}).
+
+\begin{itemize}
+\tightlist
+\item
+  Dazu gehören heuristische Strategien, wie das \textbf{Vorwärts- und Rückwärtsarbeiten}, \textbf{Rückführung von Unbekanntem auf Bekanntes} oder \textbf{Analogieschlüsse}, die einzelne Beweisschritte leiten könnten.
+\item
+  Heuristische Hilfsmittel wie \textbf{informative Figuren} können den Lösungsweg erleichtern. Gerade das Einzeichnen von Hilfslinien hat für geometrische Beweise eine hohe Bedeutung und sollte entsprechend erarbeitet werden.
+\item
+  Über eine \textbf{Zusammenstellung wichtiger Zusammenhänge und Definitionen} stehen notwendige Beweismittel zur Verfügung, die dann auch auch Orientierungshilfen dienen können.
+\end{itemize}
+
+\subsection{Zusammenhänge aneignen}\label{zusammenhuxe4nge-aneignen}
+
+Für die Aneignung eines neuen Zusammenhangs muss dieser an sich sowie seine Begründung angeeignet werden. Da beides eng miteinander zusammenhängt, sollte der Fokus daher auf der \emph{inneren Struktur} des Zusammenhangs liegen. Mögliche Lernhandlungen hierfür sind:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Prüfen der Voraussetzungen}, um die Anwendbarkeit und Gültigkeit der Behauptung zu schließen. Dies erfolgt i.~d.~R. anhand einer (in einer Aufgabe) gegebenen Situation. Es reicht nicht aus, den Zusammenhang nur anzuwenden, sondern das Prüfen der ihm zugrundeliegenden Voraussetzungen ist ein wesentlicher Schritt in dessen Aneignung. Im Endeffekt entspricht dieses Prüfen einer \emph{Identifizierungshandlung}.
+\item
+  \textbf{Angeben von Beispielen}, auf die der Zusammenhang anwendbar ist. Dies kann auch als \emph{Realisierungshandlung} aufgefasst werden.
+\item
+  \textbf{Herausarbeiten von Voraussetzung und Behauptung}, um die Aussage des Zusammenhangs zu verinnerlichen und dessen logische Struktur zu betonen. Dies kann auch über eine \emph{sprachliche Umformulierung} des Zusammenhangs (z.~B. als Wenn-dann-Aussage) erfolgen.
+\end{itemize}
+
+Als \textbf{Orientierungshilfen} innerhalb der genannten Lernhandlungen und zur Darstellung der Begründung sind geeignet:
+
+\begin{itemize}
+\item
+  In \textbf{strukturierten Wissensspeichern} kann ein Zusammenhang oder eine Gruppe von Zusammenhängen so dargestellt werden, dass dessen/deren innere Struktur hervorgehoben wird. Hierzu bietet sich eine tabellarische Übersicht an, die neben dem Namen des Zusammenhangs auch dessen \textbf{Voraussetzungen} und \textbf{Behauptungen} sowie ggf. eine verallgemeinerte (ikonische oder symbolische) \textbf{Darstellung des Zusammenhangs} enthält.
+
+  \begin{quote}
+  \begin{longtable}[]{@{}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+    >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3333}}
+    >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1667}}@{}}
+  \caption{\label{tab:wissensspeicher} Strukturierter Wissensspeicher zu Winkelsätzen, angelehnt an Steinhöfel et al. (\citeproc{ref-Steinhofel1988}{1988, S. 69})}\tabularnewline
+  \toprule\noalign{}
+  \begin{minipage}[b]{\linewidth}\raggedright
+  Name des Satzes
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Voraussetzung
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+  Skizze
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Behauptung
+  \end{minipage} \\
+  \midrule\noalign{}
+  \endfirsthead
+  \toprule\noalign{}
+  \begin{minipage}[b]{\linewidth}\raggedright
+  Name des Satzes
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Voraussetzung
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+  Skizze
+  \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+  Behauptung
+  \end{minipage} \\
+  \midrule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  Scheitelwinkelsatz & \(\alpha\) und \(\beta\) sind ein Scheitelwinkelpaar. & \includegraphics{pictures/7-Scheitelwinkel.png} & \(\alpha = \beta\) \\
+  Nebenwinkelsatz & \(\alpha\) und \(\beta\) sind ein Nebenwinkelpaar. & \includegraphics{pictures/7-Nebenwinkel.png} & \(\alpha + \beta = 180°\) \\
+  Stufenwinkelsatz & \(\alpha\) und \(\beta\) sind Stufenwinkel an geschnittenen Parallelen. & \includegraphics{pictures/7-Stufenwinkel.png} & \(\alpha = \beta\) \\
+  Wechselwinkelsatz & \(\alpha\) und \(\beta\) sind Wechselwinkel an geschnittenen Parallelen. & \includegraphics{pictures/7-Wechselwinkel.png} & \(\alpha = \beta\) \\
+  \end{longtable}
+  \end{quote}
+\item
+  Ebenfalls der Betonung der inneren Struktur dienlich sind \textbf{strukturbetonende Realisierungsmöglichkeiten}. In diesen wird ein Zusammenhang dargestellt und die Darstellung dient gleichzeitig als »Ausfüllhilfe«. Solche Darstellungen mit Platzhaltern bieten sich insbesondere bei algebraischen Zusammenhängen an.
+
+  \begin{quote}
+  Die erste binomische Formel lässt sich in der Form \(({\large\bigcirc} + \boxed{\phantom{X}})^2 = {\large\bigcirc}^2 + 2\cdot {\large\bigcirc}\cdot \boxed{\phantom{X}} + \boxed{\phantom{X}}^2\) darstellen, wobei die Kreise und Boxen mit entsprechenden Werten oder Variablen gefüllt werden können.
+  \end{quote}
+\item
+  Für das \emph{Finden einer Begründung} kann folgende \textbf{Handlungsvorschrift} als Orientierungshilfe dienen (angelehnt an \citeproc{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 72}):
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Formulieren des Zusammenhangs als \textbf{Wenn-dann-Aussage}
+  \item
+    Feststellen von \textbf{Voraussetzung und Behauptung}
+  \item
+    Erstellen einer \textbf{Überlegungsfigur}, Bezeichnung wichtiger Teile sowie der Voraussetzung und Behauptung
+  \item
+    \textbf{Überlegung, woraus die Behauptung folgen} kann. Dabei Verwendung der Überlegungsfigur sowie Orientierung an
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Definitionen vorkommender Begriffe
+    \item
+      Sätzen mit gleicher Behauptung
+    \item
+      Sätzen mit ähnlicher Behauptung
+    \end{itemize}
+  \item
+    Abwägung, \textbf{welcher Satz bzw. welche Definition geeignet} ist
+  \item
+    \textbf{Nachweis der Behauptung} aus den bei 5. gewählten Beweismitteln
+  \end{enumerate}
+\item
+  Für die \emph{Darstellung einer Begründung} kann ein \textbf{Beweisschema} Orientierung bieten. So können bspw. Beweise in einer Tabelle dargestellt werden, bestehend aus einer Spalte zum \textbf{Beweisschritt} und einer zur zugehörigen \textbf{Begründung}. Dies ist insbesondere für \emph{direkte} Beweise geeignet, bei denen von der Voraussetzung zur Behauptung geschlossen wird.
+\end{itemize}
+
+\subsection{Zusammenhänge festigen}\label{zusammenhuxe4nge-festigen}
+
+Zum Festigen von Zusammenhängen eignet sich nach Steinhöfel et al. (\citeproc{ref-Steinhofel1988}{1988, S. 34}) u.~a. die \textbf{Einschränkung einer oder mehrerer Voraussetzungen} oder das \textbf{Vertauschen von Voraussetzung und Behauptung}, um die weitere Gültigkeit zu prüfen. Wie auch schon bei Begriffen sollten weiterhin \textbf{Bezeichnungen variiert} und \textbf{alternative Formulierungen} betrachtet werden. Auch bietet es sich an, \textbf{Zusammenhänge mit gleicher oder ähnlicher Behauptung} zu betrachten. Auch hier sei an die systematische Übersicht in Tabelle \ref{tab:festigen} verwiesen.
+
+Nach Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, S. 49}) ist ein Zusammenhang verstanden, wenn Schülerinnen und Schüler
+
+\begin{itemize}
+\tightlist
+\item
+  den Zusammenhang angemessen formulieren können,\\
+\item
+  Beispiele für den Zusammenhang angeben können,\\
+\item
+  wissen, unter welchen Voraussetzungen der Zusammenhang gilt,\\
+\item
+  den Zusammenhang begründen können,\\
+\item
+  Konsequenzen des Zusammenhangs kennen,\\
+\item
+  Anwendungen des Zusammenhangs kennen.
+\end{itemize}
+
+\section{Verfahren}\label{verfahren}
+
+Verfahren dienen in der Mathematik der Verallgemeinerung einer \textbf{Lösung} von einem spezifischen Problem hin zu \textbf{einer ganzen Klasse von Problemen}. Für die ausführenden Schülerinnen und Schüler verschiebt sich damit der (idealerweise) \emph{kreative} Prozess bei der Behandlung von Begriffen und Zusammenhängen hin zu einem \emph{disziplinierten} Arbeiten (vgl. \citeproc{ref-Vollrath2012}{Vollrath \& Roth, 2012, 262~f.}). Dabei darf das Verfahren jedoch nicht als geistig leeres Abarbeiten eines Lösungschemas verstanden werden, sondern auch die »Herkunft des Verfahrens« (z.~B. Begründung einzelner Schritte) sind Bestandteil der Verfahrenskenntnisse.
+
+Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, S. 261}, Hervorhebungen im Original) zufolge beziehen sich Verfahren »in der \emph{Arithmetik} in erster Linie auf die Rechenoperationen in den verschiedenen Zahlbereichen, auf das Lösen von Sachaufgaben für Größen mit Hilfe von Funktionen sowie auf die Bestimmung von Funktionswerten; in der \emph{Algebra} betreffen sie das Lösen von Gleichungen, Gleichungssystemen und Ungleichungen; in der \emph{Geometrie} geht es um das Konstruieren, das Berechnen von Umfängen, Flächeninhalten und Rauminhalten, das Darstellen von Körpern und in der \emph{Trigonometrie} um die Dreiecksberechnungen.«
+
+Dabei \textbf{bauen Verfahren auf Begriffe und Zusammenhänge auf} -- benötigen i.~d.~R. sogar mehrere von ihnen. Diese müssen also sicher zur Verfügung stehen. Oftmals ist eine Hierarchie von Begriffen und Zusammenhängen bzw. vorheriger Verfahren nötig, um neue Verfahren aufzubauen (z.~B. baut die schriftliche Multiplikation u.~a. auf die schriftliche Addition und das kleine Einmaleins im Kopf auf, vgl. \citeproc{ref-Vollrath2012}{Vollrath \& Roth, 2012, S. 262}). Die Behandlung von Verfahren dient damit gleichzeitig auch der vertiefenden Aneignung von Begriffen und Zusammenhängen.
+
+\subsection{Verfahren gewinnen}\label{verfahren-gewinnen}
+
+Entsprechend ihrer Eigenschaft, dass Verfahren dem effektiven Lösen einer Klasse von Problemen dienlich sind, können Verfahren über eine \textbf{reflektierende Betrachtung der Lösung spezifischer Probleme derselben Problemklasse} erarbeitet werden. Geeignete Reflexionsfragen sind dabei:
+
+\begin{itemize}
+\tightlist
+\item
+  Was haben all die betrachteten Probleme gemeinsam?
+\item
+  Welche Schritte haben wir jeweils durchgeführt, um das Problem zu lösen?
+\item
+  Wozu haben wir die Schritte durchgeführt?
+\item
+  Warum war es möglich, die Schritte durchzuführen?
+\end{itemize}
+
+Die letzten beiden Fragen beziehen sich auf das \emph{Ziel} (»Wozu?«) und den \emph{Weg} (»Warum?«) der jeweiligen Verfahrensschritte.\footnote{Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, S. 264}) verweisen hier auf die umgangssprachliche Vermischung der beiden Fragen »Wozu?« und »Warum?«.} Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, S. 264}) stellen am Beispiel des Lösens der Gleichung \(5x = 10\) dar, dass eine Unterscheidung zwischen Ziel (»die \(5\) auf die andere Seite bekommen«) und Weg (durch \(5\) dividieren) bei der Verfahrensgewinnung hilfreich sein kann. Während das Ziel die \emph{Notwendigkeit} des Schrittes begründet, nimmt der Weg Bezüge auf die im Hintergrund wirkenden Begriffe und Sachverhalte und liefert damit eine \emph{kausale Begründung} für den Verfahrensschritt.
+
+\subsection{Verfahren aneignen}\label{verfahren-aneignen}
+
+Die Aneignung eines Verfahrens erfolgt i.~d.~R. über dessen Anwendung. Im Sinne der etappenweisen Ausbildung bedeutet dies (\citeproc{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 118}):
+
+\begin{itemize}
+\tightlist
+\item
+  Auf der \textbf{Etappe der materiellen/materialisierten Handlung} liegt der Verfahrensablauf in schriftlicher Form vor.
+\item
+  Auf der \textbf{Etappe der sprachlichen Handlung} liegt der Verfahrensablauf nicht mehr schriftlich vor. Die einzelnen Schritte werden von den Schülerinnen und Schülern während der Ausführung kommentiert.
+\item
+  Auf der \textbf{Etappe der geistigen Handlung} führen die Schülerinnen und Schüler das Verfahren selbstständig und ohne schriftlich vorliegenden Verfahrensablauf aus.
+\end{itemize}
+
+Als \textbf{Orientierungshilfe} dient die schriftliche Fixierung des Verfahrensablaufs selbst -- als Wortvorschrift, als Flussdiagramm bzw. als Graph o.~Ä.
+
+\subsection{Verfahren festigen}\label{verfahren-festigen}
+
+Verfahren können u.~a. gefestigt werden, indem einzelne im Verfahren auftretende \textbf{Operanden spezialisiert} werden (z.~B. die beiden Summanden bei der schriftlichen Addition) -- dies entspricht im Endeffekt einer Fallunterscheidung. Auch ist die Untersuchung \textbf{unterschiedlicher Reihenfolgen der Verfahrensoperationen} oder eine \textbf{Variabilität der Darstellung des Verfahrens} (z.~B. Blockschema, Wortvorschrift, Graph, \ldots) möglich. Weiterhin können \textbf{Unter- bzw. Oberalgorithmen} betrachtet, \textbf{Umkehroperationen gebildet} oder \textbf{unterschiedliche Variablengrundbereiche} untersucht werden (vgl. \citeproc{ref-Steinhofel1988}{Steinhöfel et al., 1988, S. 34}).
+
+Nach Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, 49~f.}) ist ein Verfahren verstanden, wenn Schülerinnen und Schüler
+
+\begin{itemize}
+\tightlist
+\item
+  wissen, was man damit erreicht,\\
+\item
+  wissen, wie es geht,\\
+\item
+  es auf Beispiele anwenden können,\\
+\item
+  wissen, unter welchen Voraussetzungen es funktioniert,\\
+\item
+  wissen, warum es funktioniert.
+\end{itemize}
+
+\section{Zusammenfassung}\label{zusammenfassung}
+
+In den letzten Abschnitten hat sich gezeigt, dass die Behandlung von Begriffen, Zusammenhängen und Verfahren grundsätzliche Ähnlichkeiten aufweisen. So konnten stets die Teilprozesse einer \textbf{Erarbeitung} (Begriffe bilden, Zusammenhänge und ihre Begründungen finden, Verfahren gewinnen), einer \textbf{Aneignung} (unter Zuhilfenahme von Orientierungshilfen mit dem Ziel der etappenweie Ausbildung geistiger Handlungen) und einer \textbf{Festigung} identifiziert werden. Für letztere zeigt Tabelle \ref{tab:festigen} noch einmal eine Gegenüberstellung von Möglichkeiten.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\caption{\label{tab:festigen} Möglichkeiten zur Festigung von Begriffen, Zusammenhängen und Verfahren, nach Steinhöfel et al. (\citeproc{ref-Steinhofel1988}{1988, S. 34})}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Begriffe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Zusammenhänge
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Verfahren
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Begriffe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Zusammenhänge
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Verfahren
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Verwendung von Spezial- und Extremfällen} & Unterbegriffe;Grenzfälle & Einschränkung einer oder mehrerer Voraussetzungen im Gültigkeitsbereich; Fallunterscheidungen & Spezialisierung von Operanden (Fallunterscheidungen) \\
+\textbf{Umformulieren} & verschiedene Definitionsarten;Definition in Merkmalssystem verwandeln & verschiedene logisch gleichwertige Formulierungen & evtl. unterschiedliche Reihenfolge der Operationen \\
+\textbf{Verwendung unterschiedlicher Bezeichnungen} & Merkmale nicht an feste Variablensymbole binden & Voraussetzungen und Behauptungen nicht an feste Symbole binden & unterschiedliche Formalisierungen (Blockschema, Wortvorschrift, Graph, \ldots) \\
+\textbf{Bekanntes Neuem gegenüberstellen und Zusammenhänge erkennen lassen} & Oberbegriffe; Einordnung in Begriffssystem & Sätze mit gleicher Behauptung; Sätze mit ähnlicher Behauptung & Unteralgorithmen; Oberalgorithmen \\
+\textbf{Umkehrungen bilden} & & Voraussetzungen und Behauptungen vertauschen & Umkehroperationen bilden \\
+\textbf{Bedingungen variieren} & Merkmalsvariation durch Weglassen bzw. Hinzufügen von Merkmalen, Ändern der log. Verknüpfung & Weglassen bzw. Hinzufügen von Voraussetzungen & unterschiedliche Variablengrundbereiche \\
+\end{longtable}
+
+Weiterführende Möglichkeiten zur Erarbeitung von Begriffen, Zusammenhängen und Verfahren stellen Vollrath \& Roth (\citeproc{ref-Vollrath2012}{2012, 227~ff.}) dar.
+
+\section{Zum Nachbereiten}\label{begriffe-Zusammenhaenge-verfahren-nachbereitung}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Beschreiben Sie für ein Verfahren aus der Sekundarstufe I unterrichtliche Möglichkeiten, dieses zu gewinnen.
+\item
+  Entwickeln Sie, entsprechend der Zusammenfassung in Tabelle \ref{tab:festigen}, Festigungsaufgaben zum Begriff \emph{Erwartungswert}, zum Zusammenhang \emph{Satz des Pythagoras} oder zum Verfahren \emph{Polynomdivision}.
+\end{enumerate}
+
 \appendix
 
 
@@ -1902,6 +2447,9 @@ Gellert, W., Küstner, H., Hellwich, M., Kästner, H., \& Reichardt, H. (Hrsg.).
 \bibitem[\citeproctext]{ref-Giest2016a}
 Giest, H. (2016). Kulturhistorische {Didaktik} und {Bildungstheorie}. \emph{Tätigkeitstheorie. Journal für tätigkeitstheoretische Forschung in Deutschland}, \emph{14}, 24--48. \url{http://www.ich-sciences.de/media/journal/Ausgabe_14/heft_14.pdf}
 
+\bibitem[\citeproctext]{ref-Giest2004a}
+Giest, H., \& Lompscher, J. (2004). Tätigkeitstheoretische Überlegungen zu einer neuen {Lernkultur}. \emph{Sitzungsberichte der Leibniz-Sozietät}, \emph{72}, 101--123. \url{https://leibnizsozietaet.de/wp-content/uploads/2012/11/07_giest.pdf}
+
 \bibitem[\citeproctext]{ref-Giest2006}
 Giest, H., \& Lompscher, J. (2006). \emph{Lerntätigkeit -- {Lernen} aus kultur-historischer {Perspektive}. {Ein} {Beitrag} zur {Entwicklung} einer neuen {Lernkultur} im {Unterricht}}. Lehmanns Media.
 
@@ -1976,6 +2524,9 @@ Padberg, F., \& Wartha, S. (2017). \emph{Didaktik der {Bruchrechnung}} (5. Aufl.
 
 \bibitem[\citeproctext]{ref-Reitz-Koncebovski2018}
 Reitz-Koncebovski, K., Kortenkamp, U., \& Goral, J. (2018). Gestaltungsprinzipien für fachwissenschaftliche {Einführungsveranstaltungen}. In A. Borowski, A. Ehlert, \& H. Prechtl (Hrsg.), \emph{{PSI}-{Potsdam}. {Ergebnisbericht} zu den {Aktivitäten} im {Rahmen} der {Qualitätsoffensive} {Lehrerbildung} (2015-2018)} (S. 175--188). Universitätsverlag Potsdam. \url{https://nbn-resolving.org/urn:nbn:de:kobv:517-opus4-420301}
+
+\bibitem[\citeproctext]{ref-Rembowski2015}
+Rembowski, V. (2015). \emph{Eine semiotische und philosophisch-psychologische {Perspektive} auf {Begriffsbildung} im {Geometrieunterricht}. {Begriffsfeld}, {Begriffsbild} und {Begriffskonvention} und ihre {Implikationen} auf {Grundvorstellungen}} {[}Dissertation, Universität des Saarlandes{]}. \url{https://doi.org/10.22028/D291-26661}
 
 \bibitem[\citeproctext]{ref-Richter2016}
 Richter, K., \& Bruder, R. (2016). Das {Tätigkeitskonzept} als {Analyseinstrument} für technologiegestützte {Lernprozesse} im {Fach} {Mathematik}. In G. Heintz, H.-J. Elschenbroich, G. Pinkernell, \& F. Schacht (Hrsg.), \emph{Digitale {Werkzeuge} für den {Mathematikunterricht}: {Festschrift} für {Hans}-{Jürgen} {Elschenbroich}} (1. Auflage, S. 188--214). Verlag Klaus Seeberger.
@@ -2059,7 +2610,13 @@ Weigand, H.-G., Filler, A., Hölzl, R., Kuntze, S., Ludwig, M., Roth, J., Schmid
 Weigand, H.-G., Schüler-Meyer, A., \& Pinkernell, G. (2022). \emph{Didaktik der {Algebra}: nach der {Vorlage} von {Hans}-{Joachim} {Vollrath}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-64660-1}
 
 \bibitem[\citeproctext]{ref-WikiPeano}
-Wikipedia. (2021). \emph{Peano-Axiome --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Peano-Axiome&oldid=216675163}
+Wikipedia. (2021a). \emph{Peano-Axiome --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Peano-Axiome&oldid=216675163}
+
+\bibitem[\citeproctext]{ref-dewiki:212433603}
+Wikipedia. (2021b). \emph{Signifikant --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Signifikant&oldid=212433603}
+
+\bibitem[\citeproctext]{ref-dewiki:214582005}
+Wikipedia. (2021c). \emph{Signifikat --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Signifikat&oldid=214582005}
 
 \bibitem[\citeproctext]{ref-WikiKerze}
 Wikipedia. (2022a). \emph{Kerzenuhr --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Kerzenuhr&oldid=227115991}
@@ -2072,6 +2629,9 @@ Wittmann, E. C. (2015). Strukturgenetische didaktische {Analysen} -- empirische 
 
 \bibitem[\citeproctext]{ref-Wygotski1985a}
 Wygotski, L. (1985). Die instrumentelle {Methode} in der {Psychologie}. In J. Lompscher (Hrsg.), \emph{Lew {Wygotski}. {Ausgewählte} {Schriften}. {Teil} 1: {Arbeiten} zu theoretischen und methodologischen {Problemen} der {Psychologie}} (S. 309--317). Volk und Wissen.
+
+\bibitem[\citeproctext]{ref-Zech1998}
+Zech, F. (1998). \emph{Grundkurs {Mathematikdidaktik}} (9. Aufl.). Beltz Verlag.
 
 \end{CSLReferences}
 
