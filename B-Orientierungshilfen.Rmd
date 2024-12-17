@@ -16,7 +16,19 @@ knitr::include_graphics("pictures/B-OrientierungshilfeFormaleEbene.png")
 Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeFormaleEbene.pdf) heruntergeladen werden.
 
 
-<!--## Kernideen finden {#orientierungshilfe-kernideen-finden}-->
+## Kernideen/Kernfragen finden {#orientierungshilfe-kernideen-finden}
+
+Die Orientierungshilfe dient einem möglichen Vorgehen, Kernideen als das Wesen eines Lerngegenstands zu finden und diese als Kernfragen zu formulieren.
+
+
+
+```{r OrientierungKernidee, echo=FALSE, fig.cap="Orientierungshilfe zum Finden von Kernideen und Kernfragen", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/B-OrientierungshilfeKernidee.png")
+```
+
+
+Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeKernidee.pdf) heruntergeladen werden.
+
 
 
 ## Lernprozesse auslösen {#orientierungshilfe-lernprozesse-ausloesen}

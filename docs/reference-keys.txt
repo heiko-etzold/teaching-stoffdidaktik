@@ -42,6 +42,7 @@ fig:Pfeile
 fig:negativePfeile
 fig:dynamischePfeile
 fig:OrientierungFormal
+fig:OrientierungKernidee
 fig:OrientierungAusloesen
 vier-ebenen-ansatz
 analyse-von-lerngegenständen
@@ -144,6 +145,7 @@ arbeitsmittel-nachbereitung
 sammlung-von-lernbereichen
 orientierungshilfen-für-lehrhandlungen
 orientierungshilfe-formale-ebene
+orientierungshilfe-kernideen-finden
 orientierungshilfe-lernprozesse-ausloesen
 quellenarbeit
 vollständiges-literaturverzeichnis
