@@ -181,7 +181,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 11.12.2024}
+\date{Letzte Änderung: 19.12.2024}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -229,7 +229,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 11.12.2024). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2024). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 19.12.2024). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -2538,6 +2538,274 @@ Die Darstellung nach Klassenstufen orientiert sich an den Niveaustufen für den 
 
 Die Übersicht kann als \href{files/Stoffdidaktik2024-SammlungLernbereiche.pdf}{pdf-Datei} heruntergeladen werden.
 
+\chapter{Beispiel: Arithmetisches Mittel}\label{beispiel-arithmetisches-mittel}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie können die Strukturierung einer Unterrichtsstunde zum arithmetischen Mittel nachvollziehen.\\
+\item
+  Sie erkennen den Nutzen stoffdidaktischer Analysen und tätigkeitstheoretischer Modelle für die strukturierte Planung von Mathematikunterricht.\\
+\item
+  Sie haben einen Einblick in die Gestaltung von Arbeitsmitteln am
+  Beispiel des arithmetischen Mittels.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Anhang (\href{files/Stoffdidaktik2024-B-ArithmetischesMittel.pdf}{pdf}, \href{files/Stoffdidaktik2024-B-ArithmetischesMittel.key}{Keynote})
+\item
+  Virtuelles Arbeitsmittel zum Medien und arithmetischen Mittel (\href{files/Stoffdidaktik2024-B-Lagemasse.html}{html}, \href{files/Stoffdidaktik2024-B-Lagemasse.cdy}{Cinderella})
+\end{itemize}
+\end{quote}
+
+In diesem Kapitel sollen die in den Kapiteln zur Sotffdidaktischen Analyse und zur Gestaltung von Lernprozessen dargestellten Theorien auf die Planung einer 45-minütigen Unterrichtsstunde zum arithmetischen Mittel angewandt werden. Es handelt sich dabei nicht um eine ausführliche Unterrichtsplanung -- für diese wäre mindestens noch eine Bedingungsanalyse der zu unterrichtenden Klasse und eine ausführlichere didaktisch-methodische Diskussion notwendig. Vielmehr soll \emph{im Groben} dargestellt werden, welche theoriebasierten Gedankengänge in die Strukturierung einer Unterrichtsstunde fließen können.
+
+\section{Stoffdidaktische Hintergründe}\label{stoffdidaktische-hintergruxfcnde}
+
+Das \textcolor{formalColor}{arithmetische Mittel} ist ein Lagemaß und ist daher in den Lernbereich der \textbf{Lage- und Streumaße} einzuordnen. Bedeutsame Begriffe sind demnach das \emph{arithmetische Mittel}, der \emph{Median} und der \emph{Modalwert}, die \emph{Spannweite}, \emph{Varianz} und \emph{Standardabweichung}, sowie ggf. noch das \emph{untere} und \emph{obere Quartil} bzw. \emph{Ausreißer}. Sachverhalte und Verfahren spielen in dem Lernbereich keine so große Rolle. Gegebenenfalls ist mit Blick auf die Oberstufe und die Anwendung im Zusammenhang mit Erwartungswerten noch der \emph{Steinersche Verschiebungssatz}\footnote{\(\sum\limits_{i=1}^n (x_i-\bar{x})^2 = \left(\sum\limits_{i=1}^nx_i^2\right)-n\bar{x}^2\)} von Relevanz.
+
+Als Lagemaß bedarf das arithmetische Mittel \textbf{metrisch skalierter Daten}, also Daten, mit denen aufgrund ihrer inneren Anordnung und Skalierung gerechnet werden darf.\footnote{Das ist auch der Grund, weshalb das arithmetische Mittel streng genommen nicht geeignet ist einen Notendurchschnitt zu bestimmen, da die Abstände zwischen den Notenstufen nicht gleich sind.} Dem gegenüber stehen \textbf{ordinal skalierte Daten}, die sich \emph{nur} in eine Reihenfolge bringen lassen oder \textbf{nominal skalierte Daten}, die mithilfe von Bezeichnungen beschrieben werden. Dabei kann jede metrische Skala auch als ordinale und jede ordinale Skala auch als nominale Skala aufgefasst werden. Diese Unterscheidung ist insbesondere dann relevant, wenn die verschiedenen Lagemaße miteinander verglichen werden, da für ordinal skalierte Daten auch der Median und für nominal skalierte Daten der Modalwert bestimmt werden können.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/B-Skalen} 
+
+}
+
+\caption{Beispiele für metrische, ordinale und nominale Skalen}\label{fig:Skalen}
+\end{figure}
+
+Hat man eine Messreihe mit den \(n\) Daten \(x_1,x_2,\ldots,x_n\) gegeben, lässt sich das arithmetische Mittel \(\bar{x}\) berechnen über
+
+\[\bar{x} = \frac{x_1+x_2+\ldots + x_n}{n} = \frac{\sum\limits_{i=1}^n x_i}{n} = \sum_{i=1}^n \frac{x_i}{n}\]
+
+In der Schule üblich ist die erste Schreibweise, in der keine Summenzeichen verwendet werden. Es gibt auch die Möglichkeit, die Berechnung nur über ihre Vorschrift einzuführen: »Bilde die Summe aller Werte und dividiere durch die Anzahl aller Werte.« (vgl. \citeproc{ref-Kruger2015}{Krüger et al., 2015, S. 56}).
+
+Diese Sichtweise wird in der Oberstufe für nicht-diskrete Daten mithilfe des Integrals erweitert über \(\bar{x} = \frac{\int\limits_a^b f(x)}{b-a}\).
+
+Nach Krüger et al. (\citeproc{ref-Kruger2015}{2015, 56~f.}) enthält das arithmetische Mittel folgende Aspekte:
+
+\begin{itemize}
+\tightlist
+\item
+  Es handelt sich um eine \textbf{fiktive Größe}, die von keinem der Messwerte erreicht werden muss bzw. im Kontext auch gar nicht realistisch erscheinen muss (wenn es sich zum beispiel um Messungen mit natürlischen Zahlen handelt, kann das arithmetische Mittel dennoch eine Bruchzahl sein).
+\item
+  Das arithmetische Mittel kann als \textbf{Vergleichswert} eines jeden Messwertes aufgefasst werden.
+\item
+  Damit ist das arithmetische Mittel auch ein \textbf{Prognosewert}, der eine Einschätzung darüber gibt, in welcher Größenordnung ein Messwert (vermutlich) liegen wird.
+\item
+  Außerdem kann das arithmetische Mittel als \textbf{repräsentativer Wert} einer kompletten Messreihe aufgefasst werden -- also die eigentliche Eigenschaft des Lagemaßes annehmen.
+\end{itemize}
+
+Als \textcolor{semanticColor}{Grundvorstellungen} werden von Krüger et al. (\citeproc{ref-Kruger2015}{2015, 57~ff.}) genannt, dass das arithmetische Mittel als \textbf{Ausgleichwert} sowie als \textbf{Wert einer gleichmäßigen Verteilung} aufgefasst werden kann. Letzere Vorstellung ermöglicht die Repräsentation, die \(n\) Werte als Strecken nebeneinander und im Vergleich dazu \(n\) gleich lange Strecken mit gleicher Gesamtlänge darzustellen (siehe Abbldung \ref{fig:Hefter}).
+
+Hinsichtlich der \textcolor{concreteColor}{Kernfragen} bietet es sich an, den Nuten von Lage- und Streumaßen zu hinterfragen:
+
+\begin{itemize}
+\tightlist
+\item
+  Allgemein dienen Lage- und Streumaße -- neben Diagrammen -- dem Vergleich statistischer Erhebungen, also könnte eine Kernfrage lauten: \textbf{Wie kann ich statistische Erhebungen rechnerisch miteinander vergleichen?}
+\item
+  Konkret auf Lagemaße bezogen, ließe sich die präzisieren: \textbf{Wie kann ich die vielen Ergebnisse einer Messreihe mit nur einem Wert beschreiben?}
+\item
+  Die Besonderheit des arithmetischen Mittel, dass dieses bei metrisch skalierten Daten tatsöchlich eine berechnet Zahl ergibt, könnte folgendertmaßen betont werden: \textbf{Wie kann ich das durchschnittel Ergbnis einer Messreihe \emph{berechnen}?}
+\end{itemize}
+
+Als sinnstifender Kontext bieten sich \textbf{Sportliche Leistungen} an, da diese den Schülerinnen und Schülern vertraut sind (\emph{Lebensweltbezug}), Lage- und Streumaße tatsächlich zu ihrem Vergleich herangezogen werden (\emph{Authentizität}) und über vielfältige Sportarten die weiteren Lage- und Streumaße am Kontext besprochen werden können (\emph{Reichhaltigkeit}). Außerdem bietet sich dieser Kontext für fächerübergreifende oder projektartige Herangehensweisen an.
+
+\section{Kompetenzziele}\label{kompetenzziele}
+
+Im Gegensatz zu den \textbf{Lernzielen}, die ein psychisches Konstrukt der Lernenden sind (vgl. Abschnitt \ref{lernzielbildung}), beschreiben die \textbf{Kompetenzziele}, über welche Kompetenzen die Schülerinnen und Schüler am Ende der Unterrichtsstunde neu verfügen sollen. Beim konkreten Lerngegenstand sind für eine 45-minütige Unterrichtsstudne realistisch:
+
+\begin{itemize}
+\tightlist
+\item
+  Die Schülerinnen und Schüler können das arithmetische Mittel einer Messreihe berechnen.\\
+\item
+  Die Schülerinnen und Schüler können erklären, wofür man des arithmetischen Mittel benötigt.
+\end{itemize}
+
+\section{Unterrichtsphasen}\label{unterrichtsphasen}
+
+Im folgenden wird davon ausgegangen, dass für diese Unterrichtsstunde keine explizite \textbf{Sicherung des Ausgangsniveaus} notwendig ist. Diese Entscheidung kann niemals pauschal, sondern muss immer abhängig von der konkreten Klasse und der Lehr-Lern-Situation getroffen werden. Hier wird von einer Klasse ausgegangen, die das Addieren und Dividieren (was für die Berechnung des arithmetischen Mittels notwendig ist) beherrscht und aufgrund des aktuellen Mathematikunterrichts Erfahrungen im Umgang mit Daten hat.
+
+\subsection{Motivierung und Zielbildung}\label{motivierung-und-zielbildung-1}
+
+Als auszuprägended \textbf{Lernziel} bietet sich einer Orientierung an der Kernfrage an (vgl. Abschnitt \ref{bezuege-zur-stoffdidaktik}), so dass am Ende dieser Unterrichtsphase formuliert werden sollte: \emph{Wir wollen lernen, wie man das durchschnittliche Ergebnis einer Messreihe berechnen kann.}
+
+Im Kontext des Vergleichs sportlicher Leistung kann nun eine \textbf{Anforderungssituation in der Zone der nächsten Entwicklung} gesucht werden. Hierbei sollte nicht offensichtlich sichtbar sein, welche Person die besseren durchschnittlichen Leistungen erbracht hat, um eine Motivation für die Beschäftigung mit dem Lerngegenstand zu schaffen. Das heißt, wenn bspw. die sportlichen Leistungen zweier Personen miteinander verglichen werden:
+
+\begin{itemize}
+\tightlist
+\item
+  Die beiden Personen dürfen nicht gleich viele Versuche durchgeführt haben, da sonst einfach die Summe der Ergebnisse miteinander verglichen werden kann.
+\item
+  Die Messreihe mit weniger Daten darf keine größere Summe aufweisen als die Messreihe mit mehr Daten, da sonst eine Berechnung zum Vergleich nicht notwendig ist.
+\end{itemize}
+
+Eine mögliche \textbf{Aufgabenstellung} könnte lauten:
+
+\emph{Mara und Lasse haben Weitsprung geübt. Wer von den beiden ist besser?}\\
+\emph{Maras Sprungweiten: 3,20 m; 1,90 m; 3,00 m; 2,90 m}\\
+\emph{Lasses Sprungweiten: 3,10 m; 2,90 m; 2,70 m; 2,60 m; 3,00 m}
+
+Alternativ wäre es auch möglich, mit den Schülerinnen und Schülern Messwerte aufzunehmen. Diese müssen dann jedoch die oben genannten Kriterien erfüllen. Eine Entscheidung, welcher Weg getroffen wird, ist auch von den konkreten Rahmenbedingungen abhängig.
+
+Eine mögliche \textbf{Abfolge} zur Gestaltung dieser Phase könnte sein:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Die in der Aufgabenstellung präsentierte Situation wird im Plenung oder im Rahmen einer Murmelphase analysiert und es werden Vorschläge zur Lösung eingeholt. Möglich Impulse könnten sein: \emph{Wie kann ich die beiden miteinander vergleichen?} \emph{Was heißt es, besser zu sein?}
+\item
+  Anschließend kann das Lernziel gemeinsam im Gespräch herausgearbeitet werden. Ergänzend zur obigen Formulierung bietet es sich an, zu betonen: \emph{Wir wollen nicht nur herausfinden,} \textbf{\emph{wer}} \emph{besser ist, sondern wollen lernen,} \textbf{\emph{wie}} \emph{wir das herausfinden.}
+\end{enumerate}
+
+\subsection{Stoffvermittlung}\label{stoffvermittlung}
+
+Da die Vorgehensweise zur Berechnung des arithmetischen Mittels nicht allzu kompliziert ist, bietet es sich an, dass diese von den Schülerinnen und Schülern selbstständig über einen \textbf{geführten Arbeitsauftrag} erarbeitet wird. Um damit die spätere Definition und eine geeignete Repräsentation vorzubereiten, kann diese im Arbeitsauftrag bereits enthalten sein.
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Begründe, warum es nicht ausreicht, die Gesamtweiten von Mara und Lasse miteinander zu vergleichen.}\\
+\item
+  \emph{Zeichne dir die Sprungweiten für Mara in einem geeigneten Maßstab nebeneinander. Stell dir vor, Mara wäre jedes mal gleich weit gesprungen. Wie weit wäre das bei der gleichen Gesamtweise jeweils gewesen?}
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{pictures/B-Einfuehrung} \end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Wiederhole das Vorgehen mit Lasses Sprungweiten vergleiche anschließend die durchschnittlichen Leistungen der beiden.}
+\end{itemize}
+
+Die Bearbeitung dieser Aufgabenfolge bietet sich in Parnerarbeit an. Anschließend kann im Plenum die systematische Stofferarbeitung erfolgen:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Es wird zunächst kurz die Begründung zum ersten Arbeitsauftrag besprochen.
+\item
+  Anschließend beschreiben einzelne Schülerinnen und Schüler ihr Vorgehen beim zweiten Arbeitsauftrag. Dies unterstützt auch den Übergang von der materialisierten zur sprachlichen Handlung zur Aneignung des Lerngegenstands (vgl. Abschnitt \ref{ausfuehren-und-verinnerlichen}).
+\item
+  Die Resultate zum dritten Arbeitsauftrag sollten selbstverständlich auch besprochen werden. An dieser Stelle muss jedoch darauf aufmerksam gemacht werden, dass das konkrete Ergebnis gar nicht so relevant ist wie der \emph{Weg}, auf dem zu den Ergebnis gekommen wurde. Hier bietet sich daher ein Bezug zum ursprünglich ausgearbeiteten Lernziel an.
+\item
+  Nun kann unabhängig vom Sport-Kontext das allgemeine Vorgehen herausgearbeitet werden, also dass zunächst alle Werte addiert und anschließend durch die Anzahl der Werte dividiert wird. Auch hier können entsprechende Impule genutzt werden: \emph{Was muss man also allgemein tun, wenn man eine Messreihe hat und den durchschnittlichen Wert bestimmen möchte?}
+\item
+  Erst nach dieser inhaltlichen Erarbeitung sollte der \emph{Bezeichner} »arithmetisches Mittel« eingeführt werden, da der neue Begriff nun mit einem inhaltlichen Verständnis verknüpft werden kann.
+\item
+  Anschließend kann eine Defition und Vorgehensweise zur Berechnung des arithmetischen Mittels notiert werden. Hier bietet es sich an, wieder auf die bereits verwendete Repräsentation einzugehen. Abbildung \ref{fig:Hefter} zeigt einen möglichen Hefteraufschrieb.
+\end{enumerate}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/B-Hefter} 
+
+}
+
+\caption{Hefteraufschrieb zum arithmetischen Mittel}\label{fig:Hefter}
+\end{figure}
+
+Dazu einige Kommentare:
+
+\begin{itemize}
+\tightlist
+\item
+  Es erfolgt zunächst eine Beschreibung, \emph{wofür} man das arithmetische Mittel verwendet und anschließend erst die formale Definition.\\
+\item
+  Die in der Definition enthaltene Vorgehensbeschreibung kann als \textbf{Orientierungshilfe} angesehen werden, um den Begriff des arithmetischen Mittels zu realisieren (vgl. Abschnitte @ref(orientierungsgrundöagen) und \ref{begriffe-aneignen}).\\
+\item
+  Das Beispiel und die Repräsentation sind Bestandteil des Aufschriebs der Definition in den Hefter, um den Schülerinnen und Schüler Anknüpfungspunkte zu bieten.
+\end{itemize}
+
+Um eine \textbf{Erstaneignung} zu ermöglichen, sollten nun einfache Identifizierungs- und Realisierungsaufgaben bearbeitet werden. Dies kann bspw. in Partnerarbeit geschehen, auch um die sprachlichen Handlungen zu unterstützen. Auch sollte die Besprechung typischer Fehler (zum Beispiel beim Eintippen in den Taschenrechner) Bestandteil der Erstaneignung sein.
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Berechne das arithmetisches Mittel. Beschreibe anschließend dein Vorgehen.}\\
+  \emph{Person A: a) 2; 4; 3; 7; 8; b) 2,5; 1,2; 5; 7,2}\\
+  \emph{Person B: a) 5; 2; 8; 3; 4; b) 3,1; 1,2; 7; 4,8}
+\item
+  *Erkläre, welcher Fehler, beim Berechnen des arithmetischen Mittels der Datenreihe \(10; 17; 12; 13; 20\) gemacht wurde und korrigiere ihn.
+  \[\bar{x} = 10+17+12+13+20:5 = 56\]
+\item
+  \emph{Beschreibe, wie du beim Berechnen des arithmetischen Mittels mit dem Taschenrechner vorgehen kannst.}
+\end{itemize}
+
+\subsection{Festigung}\label{festigung-1}
+
+Zur Festigung des arithmetischen Mittels bietet es sich an, \textbf{Aufgaben vielfältig zu variieren} (vgl. Abschnitt \ref{begriffe-festigen}) und nach dem operativen Prinzip durchzuarbeiten.\footnote{Es lohnt sich, an dieser Stelle noch einmal in die Vorlesungsunterlagen zur Einführung in die Mathematikdidaktik zu sehen.}
+
+Speziell zum arithmetischen Mittel bietet Leuders (\citeproc{ref-Leuders2009}{2009}) hierzu eine reichhaltige Auswahl an Übungsaufgaben. Von denen müssen nun für die konkrete Unterrichtsstunde gezielt einige ausgesucht werden, ggf. auch mit Wahl- und Wahlpflichtcharakter für den differenzierenden Einsatz. Konkrete methodische Entscheidungen sind dann abhängig von der Lerngruppe zu treffen.
+
+Sollte bereits andere Lagemaße behandelt worden sein, so bietet sich in einer Festigung auch immer ein Vergleich zwischen den Lagemaßen an. Das in Abbildung \ref{fig:ScreenshotLagemass} dargestellte \href{files/Stoffdidaktik-WiSe2223-Kap11-Lagemasse.html}{virtuelle Arbeitsmittel} ermöglicht bspw. einen \textbf{Vergleich zwischen Median und arithmetischem Mittel}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/B-ScreenshotLagemass} 
+
+}
+
+\caption{Screenshot des virtuellen Arbeitsmittels zu Lagemaßen}\label{fig:ScreenshotLagemass}
+\end{figure}
+
+Auf einer skalierten Achse sind dabei Punkte markiert und es wird das arithmetische Mittel (gelb) sowie der Median (blau) dargestellt. Die Punkte können verschoben werden und es ist möglich, neue Punkte hinzuzufügen bzw. existierende Punkte zu entfernen, wobei sich arithmetisches Mittel und Median automatisiert anpassen. Die folgenden Aufgabenstellungen zeigen exemplarisch, wie ein derartiges Arbeitsmittel genutzt werden kann, um Schülerinnen und Schüler zum operativen Durcharbeiten bezüglich dieser Lagemaße anzuregen:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Verändere die Punkte so, dass Median und arithmetisches Mittel gleich sind.}
+\item
+  \emph{Kannst du Punkte verschieben, so dass Median oder arithmetisches Mittel unverändert bleiben? Bei welchen Punkten geht das (nicht) und warum (nicht)?}
+\item
+  \emph{Wie verändert sich das beobachtete Verhalten von arithmetischem Mittel und Median bei ungerader Anzahl an Punkten?}
+\item
+  \emph{Zeige mit dem Arbeitsmittel, dass der Median stabil gegenüber Ausreißern ist, das arithmetische Mittel jedoch nicht.}
+\end{itemize}
+
+\subsection{Handlungskontrolle}\label{handlungskontrolle-1}
+
+Die Beurteilung der erzielten Lernergebnisse kann, bei diesem relativ übersichtlichen Lerngegenstand, durch eine kleine \textbf{Zusammenfassung am Ende der Unterrichtsstunde} erfolgen. Um hierbei auch zu prüfen, ob die gewünschten Kompetenzziele erreicht worden sind, bieten sich folgende Impulse für kurzes Plenumsgespräch an:
+
+\begin{itemize}
+\tightlist
+\item
+  Fasse zusammen, was wir heute neues gelernt haben.\\
+\item
+  Wofür benötigt man das arithmetische Mittel?
+\item
+  Erkläre, wie man das arithmetische Mittel berechnet.
+\end{itemize}
+
+Dabei sollte auch noch einmal ein Bezug zu den ursprünglich formulierten Lernzielen erfolgen.
+
+Abbildung \ref{fig:Uebersicht} fasst die grundsätzliche Struktur der Unterrichtsstunde inkl. der ungefähren Zeitangabe der einzelnen noch einmal zusammen.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/B-Uebersicht} 
+
+}
+
+\caption{Übersicht einer Unterrichtsstunde zum arithmetischen Mittel}\label{fig:Uebersicht}
+\end{figure}
+
+\section{Zum Nachbereiten}\label{beispiel-arithmetisches-mitttel-nachbereitung}
+
+Stellen Sie eine Sammlung geeigneter Übungsaufgaben für die Festigungsphase zum arithmetischen Mittel zusammen. Begründen Sie die Auswahl der Aufgaben mithilfe mathematikdidaktischer Theorien.
+
 \chapter{Orientierungshilfen für Lehrhandlungen}\label{orientierungshilfen-fuxfcr-lehrhandlungen}
 
 Dieser Anhang enthält verschiedene Orientierungshilfen für einzelne Planungs- und Durchführungshandlungen beim Lehren von Mathematik. Mehr Hinweise dazu, inwieweit Orientierungshilfen Unterstützung bieten können, finden sich in den vorherigen Kapiteln.
@@ -2548,7 +2816,7 @@ Die Orientierungshilfe soll unterstützen, sich den Fragen der formalen Ebene ei
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{pictures/B-OrientierungshilfeFormaleEbene} 
+{\centering \includegraphics[width=0.9\linewidth]{pictures/C-OrientierungshilfeFormaleEbene} 
 
 }
 
@@ -2557,13 +2825,28 @@ Die Orientierungshilfe soll unterstützen, sich den Fragen der formalen Ebene ei
 
 Die Übersicht kann als \href{files/Stoffdidaktik2024-OrientierungshilfeFormaleEbene.pdf}{pdf-Datei} heruntergeladen werden.
 
+\section{Kernideen/Kernfragen finden}\label{orientierungshilfe-kernideen-finden}
+
+Die Orientierungshilfe dient einem möglichen Vorgehen, Kernideen als das Wesen eines Lerngegenstands zu finden und diese als Kernfragen zu formulieren.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/C-OrientierungshilfeKernidee} 
+
+}
+
+\caption{Orientierungshilfe zum Finden von Kernideen und Kernfragen}\label{fig:OrientierungKernidee}
+\end{figure}
+
+Die Übersicht kann als \href{files/Stoffdidaktik2024-OrientierungshilfeKernidee.pdf}{pdf-Datei} heruntergeladen werden.
+
 \section{Lernprozesse auslösen}\label{orientierungshilfe-lernprozesse-ausloesen}
 
 Die Orientierungshilfe beschreibt eine Möglichkeit, die Motivierung und Zielbildung im Mathematikunterricht zu gestalten, um Lernprozesse auszulösen.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{pictures/B-OrientierungshilfeLernprozesseAusloesen} 
+{\centering \includegraphics[width=0.9\linewidth]{pictures/C-OrientierungshilfeLernprozesseAusloesen} 
 
 }
 
@@ -2700,6 +2983,9 @@ Krüger, K., Sill, H.-D., \& Sikora, C. (2015). \emph{Didaktik der {Stochastik} 
 
 \bibitem[\citeproctext]{ref-Lambert:2012}
 Lambert, A. (2012). \emph{Gedanken zum aktuellen {Kompetenzbegriff} für den ({Mathematik}-)unterricht} {[}Vortrag{]}. Eingangsstatement zur Podiumsdiskussion im Rahmen des 3. Fachdidaktischen Kolloquiums an der Universität des Saarlandes, Saarbrücken. \url{https://www.uni-saarland.de/fileadmin/upload/einrichtung/zfl/PDF_Fachdidaktik/PDF_Kolloquium_FD/Kompetenzbegriff_für_den_Mathematikunterricht_Statement_mit_Folien.pdf}
+
+\bibitem[\citeproctext]{ref-Leuders2009}
+Leuders, T. (2009). Intelligent üben und {Mathematik} erleben. In T. Leuders, L. Hefendehl-Hebeker, \& H.-G. Weigand (Hrsg.), \emph{Mathemagische {Momente}} (S. 130--143). Cornelsen. \url{https://home.ph-freiburg.de/leudersfr/preprint/2009_leuders_intelligent_ueben_mathemagische_momente.pdf}
 
 \bibitem[\citeproctext]{ref-Leuders2011}
 Leuders, T., Hußmann, S., Barzel, B., \& Prediger, S. (2011). Das macht {Sinn}! {Sinnstiftung} mit {Kontexten} und {Kernideen}. \emph{Praxis der Mathematik in der Schule}, \emph{53}(37), 2--9. \url{https://www.researchgate.net/publication/233978329}

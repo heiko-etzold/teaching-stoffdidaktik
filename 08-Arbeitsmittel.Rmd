@@ -141,6 +141,7 @@ knitr::include_graphics("pictures/8-negativePfeile.png")
 knitr::include_graphics("pictures/8-dynamischePfeile.gif")
 ```
 
+
 Insofern erfüllt eine Umsetzung dieses Modells über ein digitales Arbeitsmittel, in dem virtuell-enaktiv operiert werden kann, die Forderungen aus Definition \@ref(def:Arbeitsmittel).
 
 

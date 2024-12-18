@@ -41,6 +41,10 @@ fig:Streichholz
 fig:Pfeile
 fig:negativePfeile
 fig:dynamischePfeile
+fig:Skalen
+fig:Hefter
+fig:ScreenshotLagemass
+fig:Uebersicht
 fig:OrientierungFormal
 fig:OrientierungKernidee
 fig:OrientierungAusloesen
@@ -143,6 +147,15 @@ streichholzschachtel-modell
 strecken-pfeil-modell
 arbeitsmittel-nachbereitung
 sammlung-von-lernbereichen
+beispiel-arithmetisches-mittel
+stoffdidaktische-hintergründe
+kompetenzziele
+unterrichtsphasen
+motivierung-und-zielbildung-1
+stoffvermittlung
+festigung-1
+handlungskontrolle-1
+beispiel-arithmetisches-mitttel-nachbereitung
 orientierungshilfen-für-lehrhandlungen
 orientierungshilfe-formale-ebene
 orientierungshilfe-kernideen-finden
