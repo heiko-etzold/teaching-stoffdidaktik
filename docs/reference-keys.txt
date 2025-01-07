@@ -41,6 +41,11 @@ fig:Streichholz
 fig:Pfeile
 fig:negativePfeile
 fig:dynamischePfeile
+fig:Musterfolge
+tab:intervallschachtelung
+fig:LernmodellWurzel
+fig:Heron
+fig:WurzelTabelle
 fig:Skalen
 fig:Hefter
 fig:ScreenshotLagemass
@@ -146,6 +151,12 @@ waage-modell
 streichholzschachtel-modell
 strecken-pfeil-modell
 arbeitsmittel-nachbereitung
+arithmetik-und-algebra
+übergang-arithmetik-algebra
+wurzeln
+wurzel-begriffsverstaendnis
+wurzelbehandlung
+heron-verfahren
 sammlung-von-lernbereichen
 beispiel-arithmetisches-mittel
 stoffdidaktische-hintergründe
