@@ -221,7 +221,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 07.01.2025}
+\date{Letzte Änderung: 14.01.2025}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -269,7 +269,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 07.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 14.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -716,7 +716,7 @@ Für eine Vertiefung mit der Didaktik der Sachgebiete eignen sich u.~a. die in A
 
 Die Strukturierung mathematischer Inhalte in Leitideen ist seit Anfang der 2000er Jahre im deutschen Bildungswesen etabliert, als die KMK\footnote{Mehr zur Kultusministerkonferenz (KMK) und ihrer eigentlichen Bezeichnungen siehe Wikipedia (\citeproc{ref-dewiki:228417777}{2022b}).} \textbf{Bildungsstandards} für den Mittleren Schulabschluss (2004), den Primarbereich (2005) und später auch die Allgemeine Hochschulreife (2012) herausgebracht hat. Darauf aufbauend wurden in den meisten Bundesländern die Lehrpläne angepasst.
 Zwischenzeitlich wurden die Bildungsstandards für den Primarbereich sowie den Ersten und Mittleren Schulabschluss überarbeitet, für die gymnasiale Oberstufe gelten während der gerade laufenden Überarbeitung noch die von 2012. (\citeproc{ref-KMK:2012}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2012}, \citeproc{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a}{2022b}, \citeproc{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{2022a}).
-In Brandenburg spiegeln sich die Bildungsstandards in den \textbf{Rahmenlehrplänen} für die Jahrgangsstufen 1~--~10 und die Gymnasiale Oberstufe wider (\citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022}, \citeproc{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{2023}).
+In Brandenburg spiegeln sich die Bildungsstandards in den \textbf{Rahmenlehrplänen} für die Jahrgangsstufen 1~--~10 und die Gymnasiale Oberstufe wider (\citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022b}, \citeproc{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{2023}).
 
 Im Laufe der letzten 20 Jahre haben sich für die Leitideen teils verschiedene Bezeichnungen ergeben. In den aktuellen Bildungsstandards des Ersten und Mittleren Schulabschlusses (\citeproc{ref-SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022}{Sekretariat der Ständigen Konferenz der Kultusminister der Länder in der Bundesrepublik Deutschland, 2022a}) werden verwendet:
 
@@ -2381,7 +2381,7 @@ Weiterführende Möglichkeiten zur Erarbeitung von Begriffen, Zusammenhängen un
 \begin{itemize}
 \tightlist
 \item
-  Folien zum Kapitel 5 (\href{files/Stoffdidaktik2024-08-Arbeitsmittel.pdf}{pdf}, \href{files/Stoffdidaktik2024-08-Arbeitsmittel.key}{Keynote})
+  Folien zum Kapitel 8 (\href{files/Stoffdidaktik2024-08-Arbeitsmittel.pdf}{pdf}, \href{files/Stoffdidaktik2024-08-Arbeitsmittel.key}{Keynote})
 \end{itemize}
 \end{quote}
 
@@ -2590,7 +2590,7 @@ In Kapitel \ref{grundvorstellungen} sollten Sie sich in der Nachbereitung mit Gr
 \begin{itemize}
 \tightlist
 \item
-  Folien zum Kapitel 11 (\href{files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.pdf}{pdf}, \href{files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.key}{Keynote})
+  Folien zum Kapitel 9 (\href{files/Stoffdidaktik2024-09-ArithmetikUndAlgebra.pdf}{pdf}, \href{files/Stoffdidaktik2024-09-ArithmetikUndAlgebra.key}{Keynote})
 \end{itemize}
 
 \textbf{Literaturempfehlungen}
@@ -2795,12 +2795,213 @@ Eine Implementation in einen Algorithmus bedarf weiterhin einer \emph{Abbruchbed
 \end{Highlighting}
 \end{Shaded}
 
+\chapter{Analysis}\label{analysis}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie sind sich bewusst, dass Analysis in Universität und Schule unterschiedlich strukturiert sind und dies in der Schulrealität in einen propädeutischen Grenzwertbegriff mündet.\\
+\item
+  Sie kennen Grundvorstellungen zum Ableitungsbegriff.\\
+\item
+  Sie haben einen Einblick in das Unterrichten mit CAS als Werkzeug für die Schülerinnen und Schüler.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 10 (\href{files/Stoffdidaktik2024-10-Analysis.pdf}{pdf}, \href{files/Stoffdidaktik2024-10-Analysis.key}{Keynote})
+\end{itemize}
+
+\textbf{Literaturempfehlungen}
+
+\begin{itemize}
+\tightlist
+\item
+  Greefrath et al. (\citeproc{ref-Greefrath2016}{2016}): \emph{Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe}
+\item
+  Danckwerts \& Vogel (\citeproc{ref-Danckwerts2010}{2010}): \emph{Analysis verständlich unterrichten}
+\item
+  Tietze et al. (\citeproc{ref-Tietze:2000a}{2000a}): \emph{Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis}
+\end{itemize}
+\end{quote}
+
+\section{Analysis in der Sek. II}\label{analysis-in-der-sek.-ii}
+
+Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i.~d.~R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den \textbf{Folgen-, Grenzwert- und Stetigkeitsbegriff} (\citeproc{ref-Danckwerts2010}{Danckwerts \& Vogel, 2010, 17~ff.}; \citeproc{ref-Greefrath2016}{Greefrath et al., 2016, 23~ff.}; \citeproc{ref-Tietze:2000a}{Tietze et al., 2000a, 252~ff.}). Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion \(f\) an einer Stelle \(a\) existiert, wenn für alle Folgen \((x_n)_{n\in\mathbb{N}}\) mit \(x_n\rightarrow a\) auch die Folge der Funktionswerte konvergiert, also \(f(x_n)\rightarrow f(a)\). Für den Konvergenzbegriff einer Folge ist nun zum anderen die \textbf{Vollständigkeit der reellen Zahlen} von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird (siehe z.~B. \citeproc{ref-Danckwerts2010}{Danckwerts \& Vogel, 2010, 27~ff.}). Mathematisch relevant ist für die Konvergenz einer Folge \((x_n)_{n\in\mathbb{N}}\) gegen \(a\) eben nicht nur, dass die Folgeglieder dem \(a\) beliebig nahe kommen, sondern dass \(a\) im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heron-Verfahren zum Wurzelbestimmen (vgl. Abschnitt \ref{heron-verfahren}). So liefert die rekursive Folge\(x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)\) mit bspw. \(x_0 = 1\) ausschließlich Folgeglieder aus \(\mathbb{Q}\), die sich auch beliebig nahe kommen (eine sogenannte \emph{Cauchy-Folge}), der Grenzwert selbst ist aber \(\sqrt{5}\), was nicht in \(\mathbb{Q}\), sondern nur in \(\mathbb{R}\) liegt.
+
+Ohne derartige zentrale (im fachmathematischen Sinne sauber ausgeprägte) Begriffe Analysisunterricht zu betreiben, bedarf also einer starken Orientierung an den hinter den Begriffen liegenden Grundvorstellungen, damit dennoch ein inhaltlich-anschauliches Verständnis aufgebaut werden kann und der Unterricht nicht zu einem kalkülhaften Vorgehen verkommt. Spezifische Anregungen für einzelne Lerngegenstände bieten die bereits zitierten Quellen.
+
+\section{Grenzwertbegriff}\label{grenzwertbegriff}
+
+\subsection{Fachliche Hinweise}\label{fachliche-hinweise}
+
+Da in der Schule i.~d.~R. keine systematische Behandlung von Folgen erfolgt, ist auch eine formale Definition des Grenzwertbegriffes nicht möglich. Man bedient sich daher -- und so wird es auch im Brandenburgischen Rahmenlehrplan verlangt -- eines \textbf{propädeutischen Zugangs zum Grenzwertbegriff} (vgl. \citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022b, 25, 28}). Damit ist gemeint, dass der Begriff \emph{vorgebildet} wird, ohne auf eine formale Definition zurückzugreifen. Diese Propädeutik kann dann entweder dazu dienen, später formalisiert zu werden (was beim Grenzwertbegriff jedoch in der Schule normalerweise nicht geschieht, sondern dann erst in einem Mathematikstudium erfolgt) oder aufbauend auf die Propädeutik andere Begrifflichkeiten einzuführen (wie den Ableitungsbegriff). Dabei werden zwar fachliche Lücken hingenommen, aber dennoch versucht, ein Begriffsverständnis aufzubauen.
+
+Formal kann der Grenzwert bzw. die Konvergenz einer Folge definiert werden:
+
+\emph{Eine Folge \(a_n\) heißt konvergent gegen den Grenzwert \(a\), wenn für jedes \(\varepsilon > 0\) ein \(n_0\) existiert, so dass für alle \(n>n_0\) gilt: \(|a_n-a| < \varepsilon\).}
+
+Dabei muss noch festgelegt werden, aus welchem (gemeinsamen) Zahlbereich \(a\) und die \(a_n\) stammen. Die in Abbildung \ref{fig:Grenzwert} dargestellte Visualisierung zum Grenzwertbegriff steht auch als virtuelles Arbeitsmittel über \url{https://www.geogebra.org/m/fwzbx3xa} zur Verfügung.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{pictures/12-Grenzwert} 
+
+}
+
+\caption{Visualisierung zum Grenzwertbegriff (\citeproc{ref-Enders2024}{Enders, 2024, S. 36})}\label{fig:Grenzwert}
+\end{figure}
+
+Aus der formalen Definition ergeben sich einige Schlussfolgerungen, die -- bei fehlender formaler Definition und einem rein intuitiven Zugang -- häufig mit fehlerhaften Vorstellungen zur Konvergenz und zum Grenzwert einhergehen. Formuliert werden im Folgenden die \emph{mathematisch korrekten} Aussagen.
+
+\begin{itemize}
+\item
+  Es ist notwendig, dass der \textbf{Grenzwert} \(a\) tatsächlich \textbf{im betrachteten Zahlbereich} auch \textbf{existiert} -- ansonsten kann nicht von Konvergenz gesprochen werden. Es reicht also nicht aus, dass die Folgeglieder einander immer näher kommen.\footnote{Hierfür existiert der Begriff der \emph{Cauchy-Folge}.} Ein typisches Gegenbeispiel hierfür ist die rekursive Folge \(a_{n+1} = \frac{1}{2}\left(a_n+\frac{5}{a_n}\right)\), \(a_0 = 1\), die das Heron-Verfahren beschreibt (siehe Abschnitt \ref{heron-verfahren}). Betrachtet man diese Folge in \(\mathbb{Q}\) (wobei wegen der Grundrechenarten alle Folgeglieder in \(\mathbb{Q}\) bleiben), so ist diese dort nicht konvergent, weil es in \(\mathbb{Q}\) keine Zahl gibt, der die Folgeglieder beliebig nah kommen. Erst in \(\mathbb{R}\) ist diese Folge konvergent gegen den Grenzwert \(\sqrt{5}\).\footnote{Daher kann die Konvergenz von Cauchy-Folgen auch als Charakteristikum von \(\mathbb{R}\) genutzt werden.}
+\item
+  Die \textbf{Reihenfolge} der Folgeglieder ist \textbf{irrelevant} für die Konvergenz. Da bei einer konvergenten Folge \emph{fast alle} Folgeglieder (also alle bis auf endlich viele) in der \(\varepsilon\)-Umgebung des Grenzwertes liegen, kann bei einer umsortierten Folge das letzte Folgeglied gesucht werden, welches geradeso nicht mehr in der \(\varepsilon\)-Umgebung liegt und anschließend ab dessen Nachfolger das Konvergenzkriterium erfüllt werden.
+\item
+  Die Folgeglieder können zwar, aber \textbf{müssen dem Grenzwert nicht bei jedem Schritt immer näher kommen}. Bei der Folge \[0,33\quad 0,3\quad 0,3333 \quad 0,333 \quad0,333333 \quad  \ldots\]
+  kommt bspw. nur jedes zweite Folgeglied dem Grenzwert \(\frac{1}{3}\) näher, dennoch konvergiert die Folge, weil bei vorgegebener Genauigkeit (\(\varepsilon\)) ein Folgeglied gefunden werden kann (\(a_{n_0}\)), ab dem alle diese Genauigkeit erfüllen (vgl. \citeproc{ref-Ableitinger2013b}{Ableitinger \& Heitzer, 2013, S. 7}).
+\item
+  Es ist \textbf{irrelevant, ob der Grenzwert erreicht wird oder nicht}. Bei den meisten Beispielen kommen die Folgeglieder dem Grenzwert immer näher, ohne ihn jemals zu erreichen. Dies ist jedoch für die Konvergenz nicht relevant. Es ist durchaus möglich, dass der Grenzwert ab einem bestimmten \(n_0\) tatsächlich erreicht wird (oder auch zwischendurch immer mal wieder). Insofern sind auch konstante Folgen konvergente Folgen.
+\end{itemize}
+
+\subsection{Unterrichtliche Zugänge}\label{unterrichtliche-zuguxe4nge}
+
+Um trotz eines \emph{nur} propädeutischen Zugangs zum Grenzwertbegriff Schul-Analysis betreiben zu können, bedarf es (auch schon in der Sekundarstufe I) vielfältiger Erfahrungen zu Grenzprozessen, bei denen die hinter dem Grenzwertbegriff stehenden Ideen sichtbar werden. Greefrath et al. (\citeproc{ref-Greefrath2016}{2016, 107~ff.}) und Ableitinger \& Heitzer (\citeproc{ref-Ableitinger2013b}{2013, S. 3}) führen hierzu vielfältige Vorschläge auf, aus denen hier einige vorgestellt werden sollen.
+
+\begin{itemize}
+\tightlist
+\item
+  In \textbf{geometrischen Situationen} können Grenzprozesse betrachtet werden, etwas bei der näherungsweisen Bestimmung des Flächeninhalts eines Kreises über das Ein- und Umschreiben mittels regelmäßiger \(n\)-Ecke.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/12-Kreis} 
+
+}
+
+\caption{Näherungsweise Bestimmung des Kreisflächeninhalts}\label{fig:Kreis}
+\end{figure}
+
+\begin{itemize}
+\item
+  In \textbf{numerischen Situationen} kann die Idee des Grenzprozesses verdeutlicht werden, etwa wenn die Zahl \(\frac{1}{3}\) notiert wird als \(\frac{1}{3} = 0,\bar{3} = 0,3 + 0,03 + 0,003 + \ldots\) oder die Gleichheit von \(0,\bar{9} = 1\) diskutiert wird. Auch die Durchführung einer Intervallschachtelung (siehe Abschnitt \ref{wurzelbehandlung}) fördert das Verständnis für Grenzprozesse. Auch zu Beginn der Sekundarstufe können Erfahrungen gesammelt werden, z.~B. über eine Partneraufgabe, bei der eine Person eine (positive) Zahl nennen muss und die zweite Personen einen Stammbruch (also einen Bruch der Form \(\frac{1}{n}\)) finden muss, der kleiner als die genannte Zahl ist.
+\item
+  In der \textbf{Kombination geometrischer und numerischer Situationen} liegt ebenfalls Potenzial für die Erfahrung von Grenzprozessen. Die geometrische Interpretation des Heron-Verfahrens (vgl. Abbildung \ref{fig:Heron}) wäre ein Beispiel hierfür. Auch kann die Summation \(2 = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}+\ldots\) erfahren werden, in dem ein Papierstreifen der Länge \(2\) fortlaufend halbiert wird.
+\end{itemize}
+
+\section{Ableitungsbegriff}\label{ableitungsbegriff}
+
+Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl historisch als auch in der fachdidaktischen Literatur zwei wesentliche Vorstellungen herausgebildet (\citeproc{ref-Danckwerts2010}{Danckwerts \& Vogel, 2010, 45~ff.}; \citeproc{ref-Greefrath2016}{Greefrath et al., 2016, 147~ff.})\footnote{Greefrath et al. (\citeproc{ref-Greefrath2016}{2016, 147~ff.}) trennen die lokale Änderungsrate noch von der Vorstellung des Anstiegs der Tangente und beschreiben als vierte Grundvorstellung die Ableitung als Verstärkungsfaktor kleiner Änderungen.}:
+
+\begin{itemize}
+\item
+  Ableitung als \textbf{lokale Änderungsrate}: Die Ableitung einer Funktion an einer Stelle beschreibt, wie stark sich die Funktionswerte in der Umgebung dieser Stelle verändern. Wird sich dieser Änderungsrate graphisch genähert, erfolgt dies i.~d.~R. durch den Übergang des Anstiegs einer Sekante zu dem einer Tangente\footnote{Zur Diskussion der Vorstellung, was eine Tangente ist, siehe auch Greefrath et al. (\citeproc{ref-Greefrath2016}{2016, S. 149})}, womit die Ableitung über den \textbf{Grenzwert des Differenzenquotienten} \(\lim\limits_{h\rightarrow 0}\cfrac{f(x_0+h)-f(x_0)}{h}\) quantifiziert werden kann und dem \textbf{Anstieg der Tangente} entspricht.
+
+  Diese Sichtweise ermöglicht, den Ableitungbegriff konstruktiv über den Sekanten-Tangenten-Übergang einzuführen und unmittelbar numerisch zu beschreiben. Auch bedienen sich vielfältige Anwendungen (z.~B. Momentan- vs.~Durchschnittsgeschwindigkeit) dieser Vorstellung.
+\item
+  Ableitung als \textbf{lokale lineare Approximation}: Diese Vorstellung betont noch stärker die Differenzierbarkeit als Eigenschaft einer Funktion, nämlich die Möglichkeit, sie lokal durch eine lineare Funktion annähern zu können. Eine typische Repräsentation ist das Heranzoomen an den Funktionsgraphen, sodass dabei die lokale Linearität besonders deutlich wird. Mathematisch greifbar wird diese Vorstellung darüber, dass sich die Funktion über \(f(x) = f(x_0) + m\cdot x+ r(h)\) beschreiben lässt, wobei der \emph{Fehler} \(r(h)\) so schnell gegen \(0\) geht, dass sogar \(\lim\limits_{h\rightarrow 0}\cfrac{r(h)}{h}=0\) gilt. \(m\) selbst ist dann die Ableitung und der Anstieg der \emph{besten linearen Näherung} -- was natürlich wieder die Tangente an entsprechender Stelle ist.
+
+  Dieses Vorgehen besticht v.~a. durch seine mathematische Verallgemeinerbarkeit für die höherdimensionale Analysis. Auch entspricht es dem Bedürfnis, Prozesse linear zu approximieren (vgl. Abschnitt \ref{beispiel-linearitaet}).
+\end{itemize}
+
+\section{Computer-Algebra-Systeme}\label{computer-algebra-systeme}
+
+Insbesondere -- aber nicht ausschließlich -- im Analysis-Unterricht spielt die Verwendung von Computer-Algebra-System (CAS) eine bedeutsame Rolle. In ihrer eigentlich Bezeichnung ist ein CAS ein digitales Werkzeug, das \textbf{symbolische Rechnungen} erlaubt, also bspw. für die Gleichung \(x^2 = 5\) die Lösungen \(\sqrt{5}\) und \(-\sqrt{5}\) ausgeben kann, während ein numerisch rechnendes System hier bspw. \(2,23607\) ausgeben (und die zweite Lösung womöglich sogar unterschlagen) würde.\footnote{Streng genommen ist dieses Beispiel hier im Kapitel falsch, da es eher ein algebraisches Problem ist. Es soll aber dennoch weiter verfolgt werden.}
+
+Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbegriff für vielfältige Arten von Taschenrechnern und anderen digitalen Werkzeugen gewandelt. Darunter werden also auch verstanden:
+
+\begin{itemize}
+\tightlist
+\item
+  Wissenschaftliche Taschenrechner (WTR), also Taschenrechner, die wesentliche mathematische Funktionen enthalten (z.~B. auch die Berechnung von Potenzen, dem Sinus usw.) und Punkt- vor Strichrechnung beherrschen.
+\item
+  Graphikfähige Taschenrechner (GTR), die neben der Funktionalität wissenschaftlicher Taschenrechner auch Funktionsgraphen darstellen können und diese numerisch untersuchen können (z.~B. Schnittpunktbestimmung). Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, d.~h. es können selbst Algorithmen implementiert werden, die dann als Funktion zur Verfügung stehen.
+\item
+  Tabellenkalkulationen (TK), in denen mit strukturiert notierten Daten gerechnet werden kann.
+\item
+  Dynamische Geometriesysteme (DGS), die die Möglichkeit bieten, geometrische Konstruktionen darzustellen. Mehr dazu finden Sie in Abschnitt \ref{dynamische-geometriesysteme}.
+\end{itemize}
+
+\subsection{Software und Hardware}\label{software-und-hardware}
+
+Am weitesten sind an Schulen derzeit noch »echte« \textbf{Taschenrechner} mit CAS-Funktionalität verbreitet, i.~d.~R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können. Ab dem Prüfungsjahr 2030 soll es bundesweit einheitliche Voraussetzungen für sogenannte \textbf{modulare Mathematiksysteme (MMS)} geben, siehe \url{https://www.iqb.hu-berlin.de/abitur/dokumente/mathematik/}.
+
+Stärkere Verbreitung finden mittlerweile \textbf{Software-Lösungen}, die spezifisch für \textbf{schulische Zwecke} entwickelt worden sind, z.~B. die CAS-Funktion von GeoGebra\footnote{\url{https://www.geogebra.org/cas}}. Auch Apps wie Photomath\footnote{\url{https://photomath.com}} können als CAS aufgefasst werden. In Schulen i.~d.~R. nicht verbreitet sind \textbf{professionelle kommerzielle Angebote} wie Maple oder Matheamtica. Es gibt jedoch auch \textbf{freie CAS-Software}, die zwar nicht explizit für schulische Zwecke entwickelt worden ist, aber dennoch für Schülerinnen und Schüler zugänglich ist und (aus fachmathematischer Sicht) »echte« CAS-Lösungen darstellt. Hierzu gehören etwa Yacas\footnote{\url{http://www.yacas.org}} oder Sage\footnote{\url{https://sagecell.sagemath.org}}, die wie GeoGebra über Online-Editoren verfügen.
+
+\subsection{Bedienung schulen}\label{bedienung-schulen}
+
+Das Lernen der \textbf{Bedienung} eines CAS erfolgt nicht »nebenbei« zum Lernen der mathematischen Zusammenhänge, sondern muss \textbf{explizter Lerngegenstand} werden. Hierzu ist es notwendig, die entsprechenden CAS-Befehle mit den dahinter liegenden mathematischen Handlungsfolgen in Bezug zu bringen, bspw. über eine Versprachlichung des Befehls und seiner Bestandteile.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/12-Befehl} 
+
+}
+
+\caption{CAS-Befehl zum Lösen einer Gleichung}\label{fig:Befehl}
+\end{figure}
+
+Für den in Abbildung \ref{fig:Befehl} dargestellten Befehl kann als Erläuterung dienen: »Der Befehl {löst} die Gleichung {\(x^2 = 5\)}, d.~h. es werden diejenigen Werte {für \(x\)} gesucht, für die die Gleichung eine wahre Aussage ergibt.«
+
+Derartige Bedienschulungen können dann wieder durch Identifizierungs- und Realisierungs- sowie Festigungsaufgaben angeeignet werden, das heißt u.~a.:
+
+\begin{itemize}
+\tightlist
+\item
+  Zu vorgegebenen Beschreibungen müssen entsprechende Befehle ins CAS eingegeben werden.
+\item
+  Zu gegebenen Befehle soll beschrieben werden, wofür diese dienlich sind.
+\item
+  Befehle oder die in ihnen enthaltenen Bestandteile müssen variiert werden und die Einflüsse der Variation untersucht bzw. beschrieben werden.
+\end{itemize}
+
+Weiterhin ist es notwendig, die \textbf{hinter dem Befehl liegende Mathematik} nachvollziehen zu können. Es reicht also nicht aus, das CAS als \textbf{Black-Box} aufzufassen, dass aus der Eingabe \texttt{solve(x\^{}2=5,x)} \emph{irgendwie} die Ausgabe \texttt{√5,-√5} erzeugt, sondern es sollten stets die dahinterliegenden Prozesse hinterfragt werden. Dies kann auch über die Darstellung von (Pseudo-)Algorithmen erfolgen, wobei nicht jeder Schritt (oder nicht einmal der komplette Algorithmus) der tatsächlichen algorithmische Umsetzung im Hintergrund des CAS entsprechen muss, solange er mathematisch nachvollziehbar ist. Im genannten Beispiel könnte ein solcher Pseudoalgorithmus, der nach der Eingabe des Befehls \texttt{solve(x\^{}2=5,x)} abläuft, lauten:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Prüfe, ob es sich um eine quadratische Gleichung handelt.
+\item
+  Bringe die Gleichung in die Form \(0 = x^2+px+q\).
+\item
+  Bestimmte \(p\) und \(q\).
+\item
+  Gibt die Lösungen \(-\frac{p}{2}+\sqrt{\left(\frac{p}{2}\right)^2-q}\) und \(-\frac{p}{2}-\sqrt{\left(\frac{p}{2}\right)^2-q}\) aus.
+\end{enumerate}
+
+\subsection{Neue Aufgabenkultur}\label{neue-aufgabenkultur}
+
+In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkultur, da eine klassische Aufgabe der Art »Ermittle die Lösungsmenge der Gleichung \(x^2 = 5\)« mithilfe eines CAS, sofern der entsprechende Befehl bekannt ist, keine mathematisch-gedankliche Herausforderung mehr darstellt.
+
+\begin{itemize}
+\item
+  Kortenkamp (\citeproc{ref-Kortenkamp2007}{2007}) schlägt beispielsweise vor, das \textbf{CAS als Überprüfungsinstrument} zu verwenden, um selbst erzeugte Aufgaben zu prüfen. Im oben genannten Beispiel könnte eine Aufgabenstellung lauten: »Stell eine quadratische Gleichung auf, die \(\sqrt{5}\) als Lösung hat.« Solche Aufgaben können dann schrittweise variiert und komplexer gestaltet werden (»Stell eine quadratische Gleichung auf, die nur \(\sqrt{5}\) als Lösung hat« usw.).
+\item
+  Die von einem CAS ausgegebene \textbf{Lösung} kann wiederum \textbf{als Anlass} genutzt werden, mathematische Fragen zu stellen. Im obigen Beispiel wäre möglich zu fragen: »Warum gibt das CAS zwei Lösungen aus?«, »Wie hängen die Lösungen miteinander zusammen?« o.~ä. Derartige Fragen sollten auf die hinter der Aufgabe liegende Struktur hinzielen.
+\item
+  Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte \textbf{»oHiMi«-Aufgaben} etabliert haben, also Aufgaben, die \textbf{o}hne \textbf{Hi}lfs\textbf{mi}ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z.~B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe (\citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022a}).
+\end{itemize}
+
+Eine etwas ausführlichere -- und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene -- Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei Heinrich (\citeproc{ref-Heinrich2007}{2007}).
+
 \appendix
 
 
 \chapter{Sammlung von Lernbereichen}\label{sammlung-von-lernbereichen}
 
-Die folgende Sammlung von Lernbereichen ist im Rahmen des Seminars zur Stoffdidaktik-Veranstaltung entstanden und berücksichtigt die Brandenburger Rahmenlehrpläne für die Klassenstufen 1~--~10 bzw. die gymnasiale Oberstufe (\citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022}, \citeproc{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{2023}).
+Die folgende Sammlung von Lernbereichen ist im Rahmen des Seminars zur Stoffdidaktik-Veranstaltung entstanden und berücksichtigt die Brandenburger Rahmenlehrpläne für die Klassenstufen 1~--~10 bzw. die gymnasiale Oberstufe (\citeproc{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022b}, \citeproc{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{2023}).
 
 Die Darstellung nach Klassenstufen orientiert sich an den Niveaustufen für den gymnasialen Bildungsgang (vgl. \citeproc{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}{Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2023, S. 20}).
 
@@ -3144,6 +3345,9 @@ Um Ihre Recherche nach geeigneter fachdidaktischer Literatur zu unterstützen, s
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-Ableitinger2013b}
+Ableitinger, C., \& Heitzer, J. (2013). Grenzwerte unterrichten. {Propädeutische} {Erfahrungen} und {Präzisierungen}. \emph{mathematik lehren}, \emph{180}, 2--10.
+
 \bibitem[\citeproctext]{ref-Ableitinger2013}
 Ableitinger, C., Kramer, J., \& Prediger, S. (Hrsg.). (2013). \emph{Zur doppelten {Diskontinuität} in der {Gymnasiallehrerbildung}: {Ansätze} zu {Verknüpfungen} der fachinhaltlichen {Ausbildung} mit schulischen {Vorerfahrungen} und {Erfordernissen}}. Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-01360-8}
 
@@ -3182,6 +3386,12 @@ Danckwerts, R. (1988). Linearität als organisierendes Element zentraler Inhalte
 
 \bibitem[\citeproctext]{ref-Danckwerts2013}
 Danckwerts, R. (2013). Angehende {Gymnasiallehrer}(innen) brauchen eine „{Schulmathematik} vom höheren {Standpunkt}``! In C. Ableitinger, J. Kramer, \& S. Prediger (Hrsg.), \emph{Zur doppelten {Diskontinuität} in der {Gymnasiallehrerbildung}} (S. 77--94). Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-01360-8_5}
+
+\bibitem[\citeproctext]{ref-Danckwerts2010}
+Danckwerts, R., \& Vogel, D. (2010). \emph{Analysis verständlich unterrichten} (1. Aufl., 2. Nachdruck). Spektrum Akad. Verl.
+
+\bibitem[\citeproctext]{ref-Enders2024}
+Enders, J. (2024). \emph{Analysis {I} ({Lehramt}). {Skript} zur {Veranstaltung} im {WS} 2023/24} {[}Unveröffentlichtes Skript{]}.
 
 \bibitem[\citeproctext]{ref-Etzold:2019}
 Etzold, H. (2019a). \emph{Winkel-{Farm}} (Version 2) {[}App{]}. \url{https://apps.apple.com/de/app/winkel-farm/id1369585218}
@@ -3222,6 +3432,9 @@ Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., \& Weigand, H.-G. (2016). 
 \bibitem[\citeproctext]{ref-Hefendehl-Hebeker:2016}
 Hefendehl-Hebeker, L. (2016). Subject-matter didactics in {German} traditions: {Early} historical developments. \emph{Journal für Mathematik-Didaktik}, \emph{37}(S1), 11--31. \url{https://doi.org/10.1007/s13138-016-0103-7}
 
+\bibitem[\citeproctext]{ref-Heinrich2007}
+Heinrich, R. (2007). Grafikfähige {Taschencomputer} in zentralen {Prüfungen}. In \emph{Beiträge zum {Mathematikunterricht} 2007, 41. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 25.3. bis 30.3.2007 in {Berlin}}. \url{https://doi.org/10.17877/DE290R-6165}
+
 \bibitem[\citeproctext]{ref-Henn2015}
 Henn, H.-W., \& Filler, A. (2015). \emph{Didaktik der {Analytischen} {Geometrie} und {Linearen} {Algebra}: {Algebraisch} verstehen -- {Geometrisch} veranschaulichen und anwenden}. Springer Spektrum.
 
@@ -3242,6 +3455,9 @@ Klein, F. (1955). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {II
 
 \bibitem[\citeproctext]{ref-Klein1967}
 Klein, F. (1967). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {I}. {Arithmetik}, {Algebra}, {Analysis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-11652-4}
+
+\bibitem[\citeproctext]{ref-Kortenkamp2007}
+Kortenkamp, U. (2007). {CAS} und {DGS} im {Dialog} -- oder: {Wieviel} {CAS} braucht der {Mensch}? In \emph{Beiträge zum {Mathematikunterricht} 2007, 41. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 25.3. bis 30.3.2007 in {Berlin}}. \url{https://doi.org/10.17877/DE290R-6158}
 
 \bibitem[\citeproctext]{ref-Krainer:1989}
 Krainer, K. (1989). \emph{Lebendige {Geometrie}. Überlegungen zu einem integrativen {Verständnis} von {Geometrieunterricht} anhand des {Winkelbegriffs}} {[}Dissertation{]}. Alpen-Adria-Universität Klagenfurt.
@@ -3273,8 +3489,11 @@ Lompscher, J. (1996). \emph{Aufsteigen vom {Abstrakten} zum {Konkreten} - {Lerne
 \bibitem[\citeproctext]{ref-Mienert2011}
 Mienert, M., \& Pitcher, S. (2011). \emph{Pädagogische {Psychologie}}. VS Verlag für Sozialwissenschaften. \url{https://doi.org/10.1007/978-3-531-92095-5}
 
+\bibitem[\citeproctext]{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a}
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022a). \emph{Anlage zum {Rahmenlehrplan} für die gymnasiale {Oberstufe}. {Teil} {C}. {Mathematik}}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik_Anlage_OHiMi.pdf}
+
 \bibitem[\citeproctext]{ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022}
-Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022). \emph{Rahmenlehrplan für die gymnasiale {Oberstufe}. {Teil} {C}. {Mathematik}}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik.pdf}
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022b). \emph{Rahmenlehrplan für die gymnasiale {Oberstufe}. {Teil} {C}. {Mathematik}}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik.pdf}
 
 \bibitem[\citeproctext]{ref-MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023}
 Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2023). \emph{Rahmenlehrplan {Brandenburg}. {Teil} {C}, {Mathematik}, {Jahrgangsstufen} 1~--~10}. \url{https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/Rahmenlehrplanprojekt/amtliche_Fassung/getrennt_2023/BB_RLP_2023_Teil_C_Ma_GenF_1.pdf}

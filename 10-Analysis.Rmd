@@ -1,5 +1,3 @@
-<!--
-
 # Analysis 
 
 > **Ziele**  
@@ -10,7 +8,7 @@
 >  
 > **Material**
 >
-> + Folien zum Kapitel 12 ([pdf](files/Stoffdidaktik2023-12-Analysis.pdf), [Keynote](files/Stoffdidaktik2023-12-Analysis.key))
+> + Folien zum Kapitel 10 ([pdf](files/Stoffdidaktik2024-10-Analysis.pdf), [Keynote](files/Stoffdidaktik2024-10-Analysis.key))
 >
 > **Literaturempfehlungen**
 >
@@ -102,7 +100,7 @@ Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbeg
 
 ### Software und Hardware
 
-Am weitesten sind an Schulen derzeit noch »echte« **Taschenrechner** mit CAS-Funktionalität verbreitet, i. d. R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können.
+Am weitesten sind an Schulen derzeit noch »echte« **Taschenrechner** mit CAS-Funktionalität verbreitet, i. d. R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können. Ab dem Prüfungsjahr 2030 soll es bundesweit einheitliche Voraussetzungen für sogenannte **modulare Mathematiksysteme (MMS)** geben, siehe https://www.iqb.hu-berlin.de/abitur/dokumente/mathematik/.
 
 Stärkere Verbreitung finden mittlerweile **Software-Lösungen**, die spezifisch für **schulische Zwecke** entwickelt worden sind, z. B. die CAS-Funktion von GeoGebra^[https://www.geogebra.org/cas]. Auch Apps wie Photomath^[https://photomath.com] können als CAS aufgefasst werden. In Schulen i. d. R. nicht verbreitet sind **professionelle kommerzielle Angebote** wie Maple oder Matheamtica. Es gibt jedoch auch **freie CAS-Software**, die zwar nicht explizit für schulische Zwecke entwickelt worden ist, aber dennoch für Schülerinnen und Schüler zugänglich ist und (aus fachmathematischer Sicht) »echte« CAS-Lösungen darstellt. Hierzu gehören etwa Yacas^[http://www.yacas.org] oder Sage^[https://sagecell.sagemath.org], die wie GeoGebra über Online-Editoren verfügen.
 
@@ -141,5 +139,3 @@ In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkult
 * Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte **»oHiMi«-Aufgaben** etabliert haben, also Aufgaben, die **o**hne **Hi**lfs**mi**ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z. B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe [@MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a].
 
 Eine etwas ausführlichere -- und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene -- Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei @Heinrich2007.
-
--->

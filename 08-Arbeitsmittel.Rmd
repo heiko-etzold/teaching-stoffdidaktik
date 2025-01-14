@@ -9,7 +9,7 @@
 >
 > **Material**
 >
-> + Folien zum Kapitel 5 ([pdf](files/Stoffdidaktik2024-08-Arbeitsmittel.pdf), [Keynote](files/Stoffdidaktik2024-08-Arbeitsmittel.key))
+> + Folien zum Kapitel 8 ([pdf](files/Stoffdidaktik2024-08-Arbeitsmittel.pdf), [Keynote](files/Stoffdidaktik2024-08-Arbeitsmittel.key))
 
 Einer der Aspekte der Grundvorstellungsidee ist die Sinnkonstituierung durch Handlungsbezug (siehe Definition \@ref(def:Grundvorstellungen)). Sollen Grundvorstellungen bei Schülerinnen und Schülern ausgebildet werden, ist es notwendig, diese Handlungen zu *verinnerlichen* (vgl. Abschnitt \@ref(aneignung-von-lerngegenstaenden)). Besonders hilfreich hat sich hierfür der Einsatz von **Arbeitsmitteln** herausgestellt, anhand derer gehandelt wird. 
 

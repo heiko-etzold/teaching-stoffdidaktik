@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  7 JAN 2025 21:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  14 JAN 2025 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2322,7 +2322,7 @@ Overfull \hbox (1.53148pt too wide) detected at line 110
 Underfull \vbox (badness 1831) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 129.
+(Font)              scaled to size 10.95pt on input line 130.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
 t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -2964,38 +2964,73 @@ ibertinusMono-Regular.otf
 
 
 ]
+chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2806--2808
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2808--2810
+
+ []
+
+[113]
+File: pictures/12-Grenzwert.png Graphic file (type bmp)
+<pictures/12-Grenzwert.png>
+[114] [115]
+File: pictures/12-Kreis.png Graphic file (type bmp)
+<pictures/12-Kreis.png>
+[116]
+Underfull \hbox (badness 1062) in paragraph at lines 2911--2913
+[]\TU/LibertinusSerif(0)/m/n/10.95 Diese Sichtweise ermöglicht, den Ableitungbe
+griff konstruktiv über den Sekanten-
+ []
+
+[117]
+
+LaTeX Warning: Reference `dynamische-geometriesysteme' on page 118 undefined on
+ input line 2933.
+
+[118]
+File: pictures/12-Befehl.png Graphic file (type bmp)
+<pictures/12-Befehl.png>
+[119] [120]
 chapter A.
-[113] [114
+[121
+
+
+] [122
 
 
 ]
 chapter B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
+Underfull \hbox (badness 10000) in paragraph at lines 3018--3020
 
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 2819--2821
+Underfull \hbox (badness 1412) in paragraph at lines 3020--3022
 []\TU/LibertinusSerif(0)/m/n/10.95 Sie erkennen den Nutzen stoffdidaktischer An
 alysen und tätigkeitstheoretischer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2819--2821
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3022
 
  []
 
-[115]
+[123]
 File: pictures/B-Skalen.png Graphic file (type bmp)
 <pictures/B-Skalen.png>
-[116]
-Underfull \hbox (badness 10000) in paragraph at lines 2898--2900
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 3099--3101
 
  []
 
-[117] [118]
-Underfull \hbox (badness 10000) in paragraph at lines 2947--2949
+[125] [126]
+Underfull \hbox (badness 10000) in paragraph at lines 3148--3150
 
  []
 
@@ -3004,32 +3039,32 @@ File: pictures/B-Einfuehrung.png Graphic file (type bmp)
 File: pictures/B-Hefter.png Graphic file (type bmp)
 <pictures/B-Hefter.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2993--2995
+Underfull \hbox (badness 10000) in paragraph at lines 3194--3196
 
  []
 
-[119]
-Underfull \hbox (badness 1259) in paragraph at lines 2995--2997
+[127]
+Underfull \hbox (badness 1259) in paragraph at lines 3196--3198
 \TU/LibertinusSerif(0)/m/n/10.95 angesehen werden, um den Begriff des arithmeti
 schen Mittels zu realisieren (vgl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2995--2997
+Underfull \hbox (badness 10000) in paragraph at lines 3196--3198
 
  []
 
-[120]
+[128]
 File: pictures/B-ScreenshotLagemass.png Graphic file (type bmp)
 <pictures/B-ScreenshotLagemass.png>
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 3053--3055
+[129]
+Underfull \hbox (badness 10000) in paragraph at lines 3254--3256
 
  []
 
 File: pictures/B-Uebersicht.png Graphic file (type bmp)
 <pictures/B-Uebersicht.png>
-[122] [123] [124
+[130] [131] [132
 
 
 ]
@@ -3041,34 +3076,34 @@ File: pictures/C-OrientierungshilfeKernidee.png Graphic file (type bmp)
 File: pictures/C-OrientierungshilfeLernprozesseAusloesen.png Graphic file (type
  bmp)
 <pictures/C-OrientierungshilfeLernprozesseAusloesen.png>
-[125] [126]
+[133] [134]
 chapter D.
-[127
+[135
 
 
-] [128
+] [136
 
 
 ]
 chapter E.
 
-Underfull \hbox (badness 2277) in paragraph at lines 3148--3149
+Underfull \hbox (badness 2277) in paragraph at lines 3352--3353
 \TU/LibertinusSerif(0)/m/it/10.95 mit schulischen Vorerfahrungen und Erforderni
 ssen\TU/LibertinusSerif(0)/m/n/10.95 . Springer Fachmedien Wiesbaden.
  []
 
-[129] [130] [131] [132] [133] [134] (./Stoffdidaktik2024-Etzold.aux)
+[137] [138] [139] [140] [141] [142] (./Stoffdidaktik2024-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 35702 strings out of 476683
- 737294 string characters out of 5804048
+ 35781 strings out of 476683
+ 739208 string characters out of 5804048
  1884018 words of memory out of 5000000
- 55428 multiletter control sequences out of 15000+600000
+ 55504 multiletter control sequences out of 15000+600000
  522765 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,10n,136p,10647b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Stoffdidaktik2024-Etzold.pdf (134 pages).
+Output written on Stoffdidaktik2024-Etzold.pdf (142 pages).

@@ -11,7 +11,7 @@
 >
 > **Material**
 >
-> + Folien zum Kapitel 11 ([pdf](files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.pdf), [Keynote](files/Stoffdidaktik2023-11-ArithmetikUndAlgebra.key))
+> + Folien zum Kapitel 9 ([pdf](files/Stoffdidaktik2024-09-ArithmetikUndAlgebra.pdf), [Keynote](files/Stoffdidaktik2024-09-ArithmetikUndAlgebra.key))
 >
 > **Literaturempfehlungen**
 >

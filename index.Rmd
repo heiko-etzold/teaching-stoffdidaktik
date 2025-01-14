@@ -15,7 +15,7 @@ output:
         before: 
           <li><a href="index.html"><b>Stoffdidaktik Mathematik 2024/25</b></a></li>
         after:
-          <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2024</li>
+          <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2025</li>
       sharing:
         facebook: false
         twitter: false

@@ -46,6 +46,9 @@ tab:intervallschachtelung
 fig:LernmodellWurzel
 fig:Heron
 fig:WurzelTabelle
+fig:Grenzwert
+fig:Kreis
+fig:Befehl
 fig:Skalen
 fig:Hefter
 fig:ScreenshotLagemass
@@ -157,6 +160,16 @@ wurzeln
 wurzel-begriffsverstaendnis
 wurzelbehandlung
 heron-verfahren
+analysis
+analysis-in-der-sek.-ii
+grenzwertbegriff
+fachliche-hinweise
+unterrichtliche-zugänge
+ableitungsbegriff
+computer-algebra-systeme
+software-und-hardware
+bedienung-schulen
+neue-aufgabenkultur
 sammlung-von-lernbereichen
 beispiel-arithmetisches-mittel
 stoffdidaktische-hintergründe
