@@ -49,6 +49,12 @@ fig:WurzelTabelle
 fig:Grenzwert
 fig:Kreis
 fig:Befehl
+fig:Mittelsenkrechte
+fig:Skalarprodukt
+fig:Dreieck
+fig:Parallelogramm
+fig:DynamikCinderella
+fig:DynamikGeogebra
 fig:Skalen
 fig:Hefter
 fig:ScreenshotLagemass
@@ -170,6 +176,11 @@ computer-algebra-systeme
 software-und-hardware
 bedienung-schulen
 neue-aufgabenkultur
+geometrie
+lagebeziehungen
+lagebeziehungen-falten
+skalarprodukt
+dynamische-geometriesysteme
 sammlung-von-lernbereichen
 beispiel-arithmetisches-mittel
 stoffdidaktische-hintergründe

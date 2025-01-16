@@ -40,7 +40,7 @@ Dabei muss noch festgelegt werden, aus welchem (gemeinsamen) Zahlbereich $a$ und
 (ref:citeGrenzwert) Visualisierung zum Grenzwertbegriff [@Enders2024 36]
 
 ```{r Grenzwert, echo=FALSE, fig.cap="(ref:citeGrenzwert)", fig.align='center', out.width='90%'}
-knitr::include_graphics("pictures/12-Grenzwert.png")
+knitr::include_graphics("pictures/10-Grenzwert.png")
 ```
 
 
@@ -64,7 +64,7 @@ Um trotz eines *nur* propädeutischen Zugangs zum Grenzwertbegriff Schul-Analysi
 * In **geometrischen Situationen** können Grenzprozesse betrachtet werden, etwas bei der näherungsweisen Bestimmung des Flächeninhalts eines Kreises über das Ein- und Umschreiben mittels regelmäßiger $n$-Ecke. 
 
 ```{r Kreis, echo=FALSE, fig.cap="Näherungsweise Bestimmung des Kreisflächeninhalts", fig.align='center', out.width='50%'}
-knitr::include_graphics("pictures/12-Kreis.png")
+knitr::include_graphics("pictures/10-Kreis.png")
 ```
 
 * In **numerischen Situationen** kann die Idee des Grenzprozesses verdeutlicht werden, etwa wenn die Zahl $\frac{1}{3}$ notiert wird als $\frac{1}{3} = 0,\bar{3} = 0,3 + 0,03 + 0,003 + \ldots$ oder die Gleichheit von $0,\bar{9} = 1$ diskutiert wird. Auch die Durchführung einer Intervallschachtelung (siehe Abschnitt \@ref(wurzelbehandlung)) fördert das Verständnis für Grenzprozesse. Auch zu Beginn der Sekundarstufe können Erfahrungen gesammelt werden, z. B. über eine Partneraufgabe, bei der eine Person eine (positive) Zahl nennen muss und die zweite Personen einen Stammbruch (also einen Bruch der Form $\frac{1}{n}$) finden muss, der kleiner als die genannte Zahl ist.
@@ -109,7 +109,7 @@ Stärkere Verbreitung finden mittlerweile **Software-Lösungen**, die spezifisch
 Das Lernen der **Bedienung** eines CAS erfolgt nicht »nebenbei« zum Lernen der mathematischen Zusammenhänge, sondern muss **explizter Lerngegenstand** werden. Hierzu ist es notwendig, die entsprechenden CAS-Befehle mit den dahinter liegenden mathematischen Handlungsfolgen in Bezug zu bringen, bspw. über eine Versprachlichung des Befehls und seiner Bestandteile. 
 
 ```{r Befehl, echo=FALSE, fig.cap="CAS-Befehl zum Lösen einer Gleichung", fig.align='center', out.width='50%'}
-knitr::include_graphics("pictures/12-Befehl.png")
+knitr::include_graphics("pictures/10-Befehl.png")
 ```
 
 Für den in Abbildung \@ref(fig:Befehl) dargestellten Befehl kann als Erläuterung dienen: »Der Befehl <span style='color: #CB297B;'>löst</span> die Gleichung <span style='color: #0076BA;'>$x^2 = 5$</span>, d. h. es werden diejenigen Werte <span style='color: #1DB100;'>für $x$</span> gesucht, für die die Gleichung eine wahre Aussage ergibt.«

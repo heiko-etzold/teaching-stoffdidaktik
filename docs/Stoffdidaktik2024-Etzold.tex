@@ -221,7 +221,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 14.01.2025}
+\date{Letzte Änderung: 16.01.2025}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -269,7 +269,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 14.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 16.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -2853,7 +2853,7 @@ Dabei muss noch festgelegt werden, aus welchem (gemeinsamen) Zahlbereich \(a\) u
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.9\linewidth]{pictures/12-Grenzwert} 
+{\centering \includegraphics[width=0.9\linewidth]{pictures/10-Grenzwert} 
 
 }
 
@@ -2886,7 +2886,7 @@ Um trotz eines \emph{nur} propädeutischen Zugangs zum Grenzwertbegriff Schul-An
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{pictures/12-Kreis} 
+{\centering \includegraphics[width=0.5\linewidth]{pictures/10-Kreis} 
 
 }
 
@@ -2945,7 +2945,7 @@ Das Lernen der \textbf{Bedienung} eines CAS erfolgt nicht »nebenbei« zum Lerne
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{pictures/12-Befehl} 
+{\centering \includegraphics[width=0.5\linewidth]{pictures/10-Befehl} 
 
 }
 
@@ -2995,6 +2995,159 @@ In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkult
 \end{itemize}
 
 Eine etwas ausführlichere -- und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene -- Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei Heinrich (\citeproc{ref-Heinrich2007}{2007}).
+
+\chapter{Geometrie}\label{geometrie}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie sind sich der Verbindungen von Geometrie, Linearer Algebra und Analytischer Geometrie bewusst.\\
+\item
+  Sie kennen enaktive, ikonische und symbolische Herangehensweisen zur Behandlung von Lagebeziehungen.\\
+\item
+  Sie kennen Besonderheiten im Einsatz von DGS bei der Behandlung geometrischer Fragestellungen (wie Zugstabilität, Spuren und Ortslinien).
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 11 (\href{files/Stoffdidaktik2024-11-Geometrie.pdf}{pdf}, \href{files/Stoffdidaktik2024-11-Geometrie.key}{Keynote})
+\end{itemize}
+
+\textbf{Literaturempfehlungen}
+
+\begin{itemize}
+\tightlist
+\item
+  Weigand et al. (\citeproc{ref-Weigand2018}{2018}): \emph{Didaktik der Geometrie für die Sekundarstufe I}
+\item
+  Henn \& Filler (\citeproc{ref-Henn2015}{2015}): \emph{Didaktik der Analytischen Geometrie und Linearen Algebra: Algebraisch verstehen -- Geometrisch veranschaulichen und anwenden}
+\item
+  Tietze et al. (\citeproc{ref-Tietze:2000}{2000b}): \emph{Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra}
+\end{itemize}
+\end{quote}
+
+Der Geometrieunterricht der Sekundarstufe I ist geprägt von Begriffen, Zusammenhängen und Verfahren der \textbf{Elementargeometrie}. So werden geometrische Objekte (wie Punkte, Geraden, Winkel) und ihre Relationen betrachtet sowie Messungen (Längen, Flächeninhalte, Volumina, \ldots) vorgenommen. Außerdem werden elementargeometrische Sätze (z.~B. Satz des Thales, Satz des Pythagoras, Sinus- und Kosinussatz) behandelt. In Hinblick auf die Sekundarstufe II kommt es zur \textbf{Koordinatisierung} der geometrischen Objekte, üblicherweise über die Beschreibung in einem kartesischen Koordinatensystem. Liegen die geometrischen Objekte nun koordinatisiert vor, kann mit ihne in der \textbf{Analytischen Geometrie} »gerechnet« werden. Für die dazu anwendbaren Gesetzmäßigkeiten bedient man sich der \textbf{Linearen Algebra}, in der die zugrundeliegenden Strukturen veroretet sind.
+
+Am Beispiel des Vektorbegriffs kann man sagen: \emph{Elementargeometrisch} beschreibt ein Vektor eine Verschiebung in eine bestimmte Richtung um einen bestimmten Betrag. Koordinatisiert lässt sich der Vektor in der \emph{Analytischen Geometrie} über ein Tupel beschreiben. Mit solchen Tupeln kann dann gerechnet werden, wobei entsprechende Gesetzmäßigkeiten (Vektoraddition, Skalierung) der Linearen Algebra entstammen, wo Vektoren als Elemente eines Vektorraums aufgefasst werden.
+
+\section{Lagebeziehungen}\label{lagebeziehungen}
+
+Lagebeziehungen zwischen Punkten, Geraden und Ebenen spielen über die gesamte Schullaufbahn eine bedeutsame Rolle. Es beginnt in der Grundschule über die Lage von Punkten auf Geraden, zueinander senkrechte und parallele Geraden, den Winkelbegriff zu Beginn der Sekundarstufe, bis hin zur Analytischen Geometrie in der Sekundarstufe II, wenn die Lagebeziehungen algebraisch beschrieben werden.
+
+\subsection{Lagebeziehungen falten}\label{lagebeziehungen-falten}
+
+Werden auf einem Blatt Papier zwei Punkte markiert und diese aufeinandergefaltet, entsteht als Faltlinie die Mittelsenkrechte zwischen diesen beiden Punkten (siehe Abbildung \ref{fig:Mittelsenkrechte}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/11-Mittelsenkrechte} 
+
+}
+
+\caption{Mittelsenkrechte durch Faltung (\citeproc{ref-Etzold2014a}{Etzold \& Petzschler, 2014, S. 5})}\label{fig:Mittelsenkrechte}
+\end{figure}
+
+Um dies zu begründen, muss die Faltung analysiert und mit der geometrischen Konfiguration in Zusammenhang gebracht werden. Betrachtet man einen Punkt \(C\) auf der Faltlinie, so hat dieser zu \(A\) und \(B\) denselben Abstand, was aus dem Übereinanderlegen von \(A\) und \(B\) durch die Faltung bekommt. Die Faltlinie ist damit die Menge aller Punkte (in der Ebene des Papierstücks), die zu \(A\) und \(B\) denselben Abstand haben -- und dies ist gerade die \emph{Mittelsenkrechte}.
+
+Lerntheoretisch kann als \textbf{Lernhandlung} das \emph{Erkennen} (als mehrfaches \emph{Identifizieren} und \emph{Realisieren}) der geometrischen Konfiguration der Faltung aufgefasst werden (vgl. typische Lernhandlungen im Mathematikunterricht in Abschnitt \ref{lerntaetigkeit-und-lernhandlung}). Die \textbf{Analyse dieser Lernhandlungen} unterstützt nun die Aneignung geometrischen Wissens.
+
+Fachdidaktisch interessant ist hier die Betonung der \textbf{Ortslinieneigenschaft} der Mittelsenkrechten. Diese Abstandsbedingung zu zwei Punkten ist auch relevant, um die Konstruktion einer Mittelsenkrechten durchzuführen -- also das Zeichnen zweier Kreisbögen mit demselben Radius von den Punkten ausgehend, die Schnittpunkte liegen dann auf der Mittelsenkrechten. Auch wenn begründet werden soll, dass sich die Mittelsenkrechten der Seiten eines Dreiecks im Umkreismittelpunkt schneiden, bedarf es dieser Eigenschaft. Aus dem Bezeichner \emph{Mittelsenkrechte} ist die entsprechende Eigenschaft dagegen nicht direkt ablesbar -- handelt es sich demnach doch »nur« um eine Gerade, die senkrecht zur Strecke \(\overline{AB}\) und durch deren Mitte verläuft.\footnote{Im Übrigen sind beide Eigenschaften äquivalent zueinander -- es lohnt sich, den Beweis dafür einmal durchzuführen.}
+
+Der Faltprozess kann also eine Motivation bieten, über eine zunächst enaktive Handlung die geometrische Eigenschaft der Faltprodukte genauer zu betrachten und die Faltung selbst »auseinanderzunehmen«. Ein solcher Analyseprozess kann nochmal verstärkt gefordert werden, wenn bspw. das Faltergebnis in einer \textbf{Dynamischen Geometriesoftware} (DGS) realisiert wird. Dann nämlich ist es notwendig, die Faltlinie über die im DGS zur Verfügung stehenden Werkzeuge zu realisieren (vgl. \citeproc{ref-Etzold2014a}{Etzold \& Petzschler, 2014, S. 6}).
+
+In analoger Weise zur Faltung der Mittelsenkrechten durch Punkt-auf-Punkt-Faltung kann auch das Falten einer Winkelhalbierenden durch Kante-auf-Kante-Faltung realisiert werden. Darauf aufbauend wiederum können Senkrechten, Parallelen oder sogar Quadrate bzw. Kreismittelpunkte gefaltet werden (siehe \citeproc{ref-Etzold2014a}{Etzold \& Petzschler, 2014, 10, 82~f., 86~f.}).
+
+\subsection{Skalarprodukt}\label{skalarprodukt}
+
+Zur Beschreibung von Lagebeziehungen zweier Geraden, insbesondere der Bestimmung des Winkels dazwischen, wird in der Sekundarstufe II das Skalarprodukt behandelt. Nach Henn \& Filler (\citeproc{ref-Henn2015}{2015, S. 195}~ff.) bestehen hierfür prinzipiell drei Zugänge:
+
+\begin{itemize}
+\tightlist
+\item
+  Bei einem \textbf{geometrischen Zugang} dient, wie bereits motiviert, die Winkelbestimmung als Anlass, das Skalarprodukt zu behandeln. Mit der Definition \(\left<\vec u, \vec v\right> := |\vec u|\cdot |\vec v|\cdot \cos(\angle(\vec u,\vec v))\) kann das Skalarprodukt interpretiert werden, indem einer der beiden Vektoren auf die Richtung des anderen Vektors projiziert wird und anschließend das Produkt gebildet wird. Letzteres ist als (gerichteter) Flächeninhalt des entsprechenden Rechtecks interpretierbar, vgl. Abbildung \ref{fig:Skalarprodukt}.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.3\linewidth]{pictures/11-Skalarprodukt} 
+
+}
+
+\caption{Geometrische Interpretation des Skalarprodukts}\label{fig:Skalarprodukt}
+\end{figure}
+
+\begin{itemize}
+\item
+  Bei einem \textbf{arithmetischen Zugang} sind zwei Vektoren als Tupel gegeben, z.~B. \(\vec u = \left(\begin{array}{c} u_1 \\ u_2\\\vdots \\ u_n \end{array}\right)\) und \(\vec v = \left(\begin{array}{c} v_1 \\ v_2\\\vdots \\ v_n \end{array}\right)\), und das Skalarprodukt ist über die Produktsumme \(\left<\vec u, \vec v\right> := \sum\limits_{i=1}^n u_iv_i\) definiert. Dieser Zugang ermöglicht auch die Betrachtung außergeometrischer Probleme, etwa die Aufsummation von Stückpreisen bei entsprechend gegebenen Häufigkeiten.
+\item
+  Der \textbf{axiomatische Zugang} definiert das Skalarprodukt als \emph{positiv definitive, symmetrische Bilinearform}, d.~h. es muss folgende Eigenschaften erfüllen:
+\end{itemize}
+
+\begin{align*} \left<\vec u, \vec v \right> &\geq 0\\\left<\vec u,\vec u\right> = 0 &\Leftrightarrow \vec u = 0 \\ \left<\vec u,\vec v\right> &= \left<\vec v,\vec u\right>\\ \left<\vec u+\vec v,\vec w\right> &= \left<\vec u,\vec w\right> + \left<\vec v,\vec w\right>\\ \left<\lambda \vec  u,\vec v\right> &= \lambda \left<\vec u,\vec v\right> \end{align*}
+
+Der axiomatische Zugang spielt im Schulunterricht i.~d.~R. keine Rolle. Um einen Zusammenhang zwischen der geometrischen Sichtweise und der Formel über die Produktsumme herzustellen, bietet sich die Betrachtung des Kosinussatzes in einem Dreieck an, dessen Seiten über Vektoren beschrieben werden.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/11-Dreieck} 
+
+}
+
+\caption{Dreieck zur Herleitung des Skalarprodukts}\label{fig:Dreieck}
+\end{figure}
+
+Die folgenden Betrachtungen werden im \(\mathbb{R}^3\) dargestellt, sind aber auch im \(\mathbb{R}^2\) möglich oder sogar auf den \(\mathbb{R}^n\) übertragbar.
+
+Für die Länge eines Vektors gilt \(|\vec u| = \sqrt{u_1^2+u_2^2+u_3^2}\). Der Kosinussatz für das in Abbildung \ref{fig:Dreieck} dargestellt Dreieck lautet: \[|\vec u-\vec v|^2 = |\vec u|^2 + |\vec v|^2 - 2\cdot|\vec u|\cdot |\vec v|\cdot \cos(\angle(\vec u,\vec v))\]
+
+Mithilfe der Längenformel und der 2. binomischen Formel links vom Gleichheitszeichen erhält man:
+
+\[\sum_{i=1}^3 (u_i^2-2u_iv_i + v_i^2) = \sum_{i=1}^3 u_i^2 + \sum_{i=1}^2 v_i^2 - 2\cdot|\vec u|\cdot |\vec v|\cdot \cos(\varphi)\]
+
+Dabei heben sich einige Terme auf und es bleibt übrig:
+
+\begin{align*}\sum_{i=1}^3 u_iv_i &= |\vec u|\cdot |\vec v|\cdot \cos(\varphi)\\ \cos(\varphi) &= \frac{\sum\limits_{i=1}^3 u_iv_i}{|\vec u|\cdot |\vec v|}\end{align*}
+
+Hieraus lässt sich nun motivieren, den im Zähler stehenden Term als Skalarprodukt zu bezeichnen und die Definition \(\left<\vec u, \vec v\right> = \sum\limits_{i=1}^3 u_iv_i\) einzuführen.
+
+Neben der \textbf{Schreibweise} \(\left <\vec u,\vec v\right>\) sind auch \(\vec u\bullet \vec v\) oder \(\vec u\circ \vec v\) üblich. Letztere beiden können jedoch suggerieren, dass aus dem »Produkt« zweier Vektoren wieder ein Vektor entsteht, da dies den Erfahrungen des bisherigen Umgangs mit Produkten entspricht. Die Schreibweise \(\left <\vec u,\vec v\right>\) könnte hier stärker darauf hinweisen, dass es sich um eine »Funktion« handelt, die den beiden Vektoren \(\vec u\) und \(\vec v\) eine Zahl (also ein Skalar) zuordnet.
+
+\section{Dynamische Geometriesysteme}\label{dynamische-geometriesysteme}
+
+In dynamischen Geometriesystemen (DGS) wie GeoGebra\footnote{\url{https://www.geogebra.org}} oder Cinderella\footnote{\url{https://www.cinderella.de}} lassen sich geometrische Konstruktionen darstellen und durch zusätzliche Funktionalitäten vielfältig untersuchen.
+
+Zunächst einmal bietet ein DGS die üblichen Grundkonstruktionen, die auch mit Zirkel und Lineal möglich sind, sowie darauf aufbauende Konstruktionen (wie das Einzeichnen einer Mittelsenkrechte zu zwei Punkten). Weiterhin ist es i.~d.~R. möglich, Objekte auszumessen und die Konstruktion durch weitere graphische Elemente (wie z.~B. Texte) zu ergänzen.
+
+Zum Umgang mit DGS gibt es vielfältige Forschungs- und Entwicklungsergebnisse, die auch in den Didaktiken der einzelnen Sachgebiete referenziert werden (u.~a. bei \citeproc{ref-Greefrath2016}{Greefrath et al., 2016, 41~f., 65~f., 155~f.}; \citeproc{ref-Weigand2018}{Weigand et al., 2018, 62~ff.}).
+
+In der Verwendung von dynamischer Geometriesoftware liegen einige Besonderheiten, auf die hier kurz eingegangen werden soll.
+
+\begin{itemize}
+\tightlist
+\item
+  Die zu betrachtenden Objekte werden i.~d.~R. \textbf{zugstabil} konstruiert. Das heißt, wenn ein Parallelogramm konstruiert werden soll, muss dies so erfolgen, dass es sich weiterhin um ein Parallelogramm handelt, auch wenn einer seiner Eckpunkte bewegt wird. So wird auch der Unterschied zwischen \emph{Konstruieren} und \emph{Zeichnen} deutlich: Die Konstruktion schafft Relationen zwischen den Eckpunkten bzw. Seiten des Parallelogramms, so dass die Parallelogramm-Eigenschaft in das Objekt implementiert wurde, während eine Zeichnung nur statisch ein Parallelogramm darstellt. Der Begriffsbildung (insbesondere dem Begriffsinhalt) dienlich ist auch die Diskussion verschiedener Konstruktionswege bzw. deren Identifizierung anhand des »Bewegungsverhaltens« des konstruiereten Objekts. Einen unterrichtspraktischen Ansatz hierfür liefern Kortenkamp \& Dohrmann (\citeproc{ref-Kortenkamp2016}{2016}).
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  Dynamische Geometriesysteme verhalten sich \textbf{entweder deterministisch oder kontinuierlich}. Damit ist gemeint, dass die durch eine Konstruktion abhängigen Objekte bei deterministischen Systemen stets dasselbe Verhalten aufweisen und bei dynamischen System, je nach Bewegung der unabhängigen Objekte, unterschiedlich dargestellt werden können. Abbildung \ref{fig:Dynamik} visualisiert dieses Verhalten. Der fachliche Hintergrund liegt in der Programmierung eines DGS, was bei Kortenkamp (\citeproc{ref-Kortenkamp1999}{1999, 84~ff.}) und Labs (\citeproc{ref-Labs2008}{2008, 57~ff.}) ausführlicher dargestellt wird. Für den Schulalltag sollte Ihnen dies bewusst sein, damit Sie »merkwürdiges« DGS-Verhalten verstehen und ggf. erklären können.
+  --\textgreater{}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  Über die Verwendung von \textbf{Spuren und Ortslinien} kann der DGS-Einsatz zu einer intensiveren geometrischen Auseinandersetzung führen als es mit statischen Zeichnungen auf Papier der Fall wäre. Die Spur zeichnen bei Bewegung die Lage eines Objektes nach. Dies ist insbesondere dann von Interesse, wenn ein Objekt von einem anderen abhängig ist und man die Abhängigkeit genauer untersuchen möchte. Die Ortslinie ergibt sich nun als Menge aller Punkte, auf der sich ein Punkt in Abhängigkeit anderer Objekte bewegt. Konstruiert man bzw. über zwei Kreise gleichen Radius einen Punkt \(M\), der von den Punkten \(A\) und \(B\) denselben Abstand hat und varriert die Länge des Radius, so erhält man damit \emph{alle} Punkte, die von \(A\) und \(B\) gleich weit entfernt sind. Die zugehörige Ortslinie ist dann die Mittelsenkrechte von \(A\) und \(B\).
+\end{itemize}
 
 \appendix
 
@@ -3402,6 +3555,9 @@ Etzold, H. (2019b). \emph{Winkel-{Farm} -- {Leitfaden} für {Lehrerinnen} und {L
 \bibitem[\citeproctext]{ref-Etzold2021}
 Etzold, H. (2021). \emph{Neue Zugänge zum Winkelbegriff} {[}Dissertation, Universität Potsdam{]}. \url{https://doi.org/10.25932/publishup-50418}
 
+\bibitem[\citeproctext]{ref-Etzold2014a}
+Etzold, H., \& Petzschler, I. (2014). \emph{Mathe verstehen durch {Papierfalten}}. Verlag an der Ruhr.
+
 \bibitem[\citeproctext]{ref-Feldt-Caesar2017}
 Feldt-Caesar, N. (2017). \emph{Konzeptualisierung und {Diagnose} von mathematischem {Grundwissen} und {Grundkönnen}}. Springer Fachmedien Wiesbaden. \url{https://doi.org/10.1007/978-3-658-17373-9}
 
@@ -3456,8 +3612,14 @@ Klein, F. (1955). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {II
 \bibitem[\citeproctext]{ref-Klein1967}
 Klein, F. (1967). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {I}. {Arithmetik}, {Algebra}, {Analysis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-11652-4}
 
+\bibitem[\citeproctext]{ref-Kortenkamp1999}
+Kortenkamp, U. (1999). \emph{Foundations of {Dynamic} {Geometry}} {[}Dissertation, ETH Zurich{]}. \url{https://doi.org/10.3929/ETHZ-A-003876663}
+
 \bibitem[\citeproctext]{ref-Kortenkamp2007}
 Kortenkamp, U. (2007). {CAS} und {DGS} im {Dialog} -- oder: {Wieviel} {CAS} braucht der {Mensch}? In \emph{Beiträge zum {Mathematikunterricht} 2007, 41. {Jahrestagung} der {Gesellschaft} für {Didaktik} der {Mathematik} vom 25.3. bis 30.3.2007 in {Berlin}}. \url{https://doi.org/10.17877/DE290R-6158}
+
+\bibitem[\citeproctext]{ref-Kortenkamp2016}
+Kortenkamp, U., \& Dohrmann, C. (2016). Vorwärts-{Rückwärts} zum {Begriff}. {Konstruktion} und {Re}-{Konstruktion} von {Zugfiguren}. \emph{mathematik lehren}, \emph{196}, 18--21.
 
 \bibitem[\citeproctext]{ref-Krainer:1989}
 Krainer, K. (1989). \emph{Lebendige {Geometrie}. Überlegungen zu einem integrativen {Verständnis} von {Geometrieunterricht} anhand des {Winkelbegriffs}} {[}Dissertation{]}. Alpen-Adria-Universität Klagenfurt.
@@ -3467,6 +3629,9 @@ Krauthausen, G. (2018). \emph{Einführung in die {Mathematikdidaktik}} (F. Padbe
 
 \bibitem[\citeproctext]{ref-Kruger2015}
 Krüger, K., Sill, H.-D., \& Sikora, C. (2015). \emph{Didaktik der {Stochastik} in der {Sekundarstufe} {I}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-43355-3}
+
+\bibitem[\citeproctext]{ref-Labs2008}
+Labs, O. (2008). \emph{Dynamische {Geometrie}: {Grundlagen} und {Anwendungen}.} \url{https://oliverlabs.net/data/0708_DynGeo.pdf}
 
 \bibitem[\citeproctext]{ref-Lambert:2012}
 Lambert, A. (2012). \emph{Gedanken zum aktuellen {Kompetenzbegriff} für den ({Mathematik}-)unterricht} {[}Vortrag{]}. Eingangsstatement zur Podiumsdiskussion im Rahmen des 3. Fachdidaktischen Kolloquiums an der Universität des Saarlandes, Saarbrücken. \url{https://www.uni-saarland.de/fileadmin/upload/einrichtung/zfl/PDF_Fachdidaktik/PDF_Kolloquium_FD/Kompetenzbegriff_für_den_Mathematikunterricht_Statement_mit_Folien.pdf}
