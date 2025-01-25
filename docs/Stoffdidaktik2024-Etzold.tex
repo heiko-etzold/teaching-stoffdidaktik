@@ -221,7 +221,7 @@
 
 \title{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25}
 \author{Dr.~Heiko Etzold, Universität Potsdam}
-\date{Letzte Änderung: 16.01.2025}
+\date{Letzte Änderung: 25.01.2025}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -269,7 +269,7 @@ In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu d
 Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen:
 
 \begin{quote}
-Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 16.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
+Etzold, H. (2025). \emph{Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2024/25} (Version vom 25.01.2025). \url{https://stoffdidaktik.heiko-etzold.de}
 \end{quote}
 
 Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
@@ -3140,7 +3140,6 @@ In der Verwendung von dynamischer Geometriesoftware liegen einige Besonderheiten
 \tightlist
 \item
   Dynamische Geometriesysteme verhalten sich \textbf{entweder deterministisch oder kontinuierlich}. Damit ist gemeint, dass die durch eine Konstruktion abhängigen Objekte bei deterministischen Systemen stets dasselbe Verhalten aufweisen und bei dynamischen System, je nach Bewegung der unabhängigen Objekte, unterschiedlich dargestellt werden können. Abbildung \ref{fig:Dynamik} visualisiert dieses Verhalten. Der fachliche Hintergrund liegt in der Programmierung eines DGS, was bei Kortenkamp (\citeproc{ref-Kortenkamp1999}{1999, 84~ff.}) und Labs (\citeproc{ref-Labs2008}{2008, 57~ff.}) ausführlicher dargestellt wird. Für den Schulalltag sollte Ihnen dies bewusst sein, damit Sie »merkwürdiges« DGS-Verhalten verstehen und ggf. erklären können.
-  --\textgreater{}
 \end{itemize}
 
 \begin{itemize}
@@ -3148,6 +3147,293 @@ In der Verwendung von dynamischer Geometriesoftware liegen einige Besonderheiten
 \item
   Über die Verwendung von \textbf{Spuren und Ortslinien} kann der DGS-Einsatz zu einer intensiveren geometrischen Auseinandersetzung führen als es mit statischen Zeichnungen auf Papier der Fall wäre. Die Spur zeichnen bei Bewegung die Lage eines Objektes nach. Dies ist insbesondere dann von Interesse, wenn ein Objekt von einem anderen abhängig ist und man die Abhängigkeit genauer untersuchen möchte. Die Ortslinie ergibt sich nun als Menge aller Punkte, auf der sich ein Punkt in Abhängigkeit anderer Objekte bewegt. Konstruiert man bzw. über zwei Kreise gleichen Radius einen Punkt \(M\), der von den Punkten \(A\) und \(B\) denselben Abstand hat und varriert die Länge des Radius, so erhält man damit \emph{alle} Punkte, die von \(A\) und \(B\) gleich weit entfernt sind. Die zugehörige Ortslinie ist dann die Mittelsenkrechte von \(A\) und \(B\).
 \end{itemize}
+
+\chapter{Stochastik}\label{stochastik}
+
+\begin{quote}
+\textbf{Ziele}
+
+\begin{itemize}
+\tightlist
+\item
+  Sie wissen um die Bedeutung des Modellierens bei stochastischen Situationen.\\
+\item
+  Sie kennen verschiedene Möglichkeiten, stochastische Begriffe oder Verfahren zu visualisieren, insbesondere zu allgemeinen stochastischen Vorgängen (z. B. Zufallsexperimente), zur Kombinatorik und zu bedingten Wahrscheinlichkeiten.
+\end{itemize}
+
+\textbf{Material}
+
+\begin{itemize}
+\tightlist
+\item
+  Folien zum Kapitel 12 (\href{files/Stoffdidaktik2024-12-Stochastik.pdf}{pdf}, \href{files/Stoffdidaktik2024-12-Stochastik.key}{Keynote})
+\item
+  Virtuelles Arbeitsmittel zum Boxplot (\href{files/Stoffdidaktik2024-12-Boxplot.html}{html}, \href{files/Stoffdidaktik2024-12-Boxplot.cdy}{Cinderella})
+\end{itemize}
+
+\textbf{Literaturempfehlungen}
+
+\begin{itemize}
+\tightlist
+\item
+  Krüger et al. (\citeproc{ref-Kruger2015}{2015}): \emph{Didaktik der Stochastik in der Sekundarstufe I}
+\item
+  Tietze et al. (\citeproc{ref-Tietze:2002}{2002}): \emph{Mathematikunterricht in der Sekundarstufe II. Band 3: Didaktik der Stochastik}
+\end{itemize}
+\end{quote}
+
+\section{Stochastische Vorgänge}\label{stochastische-vorguxe4nge}
+
+\subsection{Modellierungsstruktur}\label{modellierungsstruktur}
+
+Grundsätzlich ist es Aufgabe der Stochastik, reale Prozesse zu modellieren, um diese mit mathematischen Mitteln, also einem \textbf{\emph{theoretischen Modell}}, greifbar (und bearbeitbar) zu machen. Dazu ist es normalerweise notwendig, die \textbf{\emph{reale Situation}} erst einmal zu vereinfachen und in ein \textbf{\emph{Realmodell}} zu überführen (siehe Abbildung \ref{fig:Modelle}). Dieses Vorgehen ist nicht spezifisch für die Stochastik -- jedoch ist der Zwischenschritt des Realmodells hier aufgrund der vielfältigen Modellierungsmöglichkeiten von besonderer Bedeutung.
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Modelle} 
+
+}
+
+\caption{Modellierungsstruktur in der Stochastik (\citeproc{ref-Kruger2015}{Krüger et al., 2015, S. 13})}\label{fig:Modelle}
+\end{figure}
+
+Aufbauend auf diese Struktur (die »nicht als expliziter Gegenstand des Stochastikunterrichts aufzufassen« ist, \citeproc{ref-Kruger2015}{Krüger et al., 2015, S. 13}) können Sie Ihre Diskussionen im Unterricht leiten und Schwierigkeiten der Schülerinnen und Schüler besser einordnen, z.~B.:
+
+\begin{itemize}
+\item
+  Wenn ein Würfel geworfen wird (reale Situation) und man die Wahrscheinlichkeit für eine Augenzahl angibt (theoretisches Modell), geht man davon aus, dass der Würfel aus sechs identischen Seiten besteht und in sich homogen ist (Realmodell). Mögliche Fragen, die auf eine solche Denkweise hinarbeiten, könnten sein: \emph{Welche Annahmen triffst du? Welche Eigenschaften muss der Würfel haben, damit du so rechnen darfst?}
+\item
+  Wenn erstmals \emph{Zufallsgeräte} (übrigens auch ein Begriff auf der Ebene der Realmodelle) genutzt werden, muss eine Untergeneralisierung vermieden werden, es sollten also frühzeitig auch nicht-Laplace-Geräte eingesetzt werden, wie Reißzwecken, Quader, sogenannte Riemer-Würfel (\citeproc{ref-Riemer1988}{Riemer, 1988}) oder auch \emph{Würfel-Schweine} (\citeproc{ref-dewiki:214496187}{Wikipedia, o.~J.}).
+\item
+  Wenn eine Schülerin oder ein Schüler nicht in der Lage ist, für das Ziehen einer Herz-Karte aus einem Skatblatt die Wahrscheinlichkeit anzugeben, sollten Sie als Lehrkraft herausfinden, auf welcher Ebene Schwierigkeiten bestehen. Wird die reale Situation nicht verstanden (weil z.~B. die Spielkartenfarben oder der Begriff \emph{Skatblatt} unbekannt sind)? Bestehen Schwierigkeiten im Aufstellen eines Realmodells (dass also das Ziehen jeder Karte mit derselben Wahrscheinlichkeit verbunden ist und dafür die Anzahl der relevanten Karten bestimmt werden muss)? Oder sind Defizite in der Theorie verortet (weil etwa nicht die Laplace-Formel für die Berechnung der Wahrscheinlichkeit angewandt werden kann oder gar Schwierigkeiten bei der Division bestehen)?
+\end{itemize}
+
+\subsection{Prozessbetrachtung}\label{prozessbetrachtung}
+
+Zur Unterstützung der Schülerinnen und Schüler in der Beschreibung stochastischer Vorgänge schlagen Krüger et al. (\citeproc{ref-Kruger2015}{2015, 14~f.}) die Nutzung einer \textbf{Prozessbetrachtung} vor (siehe Abbildung \ref{fig:Prozessbetrachtung}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Prozessbetrachtung} 
+
+}
+
+\caption{Vorgangsbetrachtung nach Krüger et al. (\citeproc{ref-Kruger2015}{2015, S. 16})}\label{fig:Prozessbetrachtung}
+\end{figure}
+
+Es handelt sich hierbei um eine schematische Darstellung, wobei vier wesentliche Fragen relevant sind (\citeproc{ref-Kruger2015}{Krüger et al., 2015, S. 15}):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  »Welcher Vorgang läuft mit welchen Objekten oder Personen ab?«
+\item
+  »Welches Merkmal interessiert mich? Wie kann ich das Merkmal erfassen?«
+\item
+  »Welche Ergebnisse sind möglich?«
+\item
+  »Welche Bedingungen beeinflussen den Vorgang?«
+\end{enumerate}
+
+Das Schema und die Leitfragen können im tätigkeitstheoretischen Sinne als \emph{Orientierungshilfe} aufgefasst werden. Ein solches Vorgehen ist dabei sowohl für Fragen der Wahrscheinlichkeitsrechnung als auch für die Beschreibung von Statistiken möglich, womit auch beides als Teildisziplinen der Stochastik sichtbar werden kann. Abbildung \ref{fig:Prozesse} zeigt exemplarisch zwei derartige Prozessbetrachtungen.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{pictures/12-Prozesse} 
+
+}
+
+\caption{Prozessbetrachtungen für zwei stochastische Vorgänge}\label{fig:Prozesse}
+\end{figure}
+
+\section{Kombinatorik}\label{kombinatorik}
+
+Eine Herausforderung kombinatorischer Fragestellungen besteht für Schülerinnen und Schüler oftmals in der korrekten Zuordnung zwischen kombinatorischer Situation und dem entsprechenden mathematischen Modell. Bei fehlendem Verständnis kann es daher in der Unterrichtsrealität schnell zum Raten kommen, welches der vier Modelle aus dem Tafelwerk gewählt wird (vgl. Tabelle \ref{tab:kombinatorik-tafelwerk}).
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2500}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3750}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3750}}@{}}
+\caption{\label{tab:kombinatorik-tafelwerk} Typische Darstellung von Kombinatorik-Modellen in Tafelwerken}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\href{}{}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+mit Wiederholung
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+ohne Wiederholung
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\href{}{}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+mit Wiederholung
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+ohne Wiederholung
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Variation} mit Beachtung der Reihenfolge & \(n^k\) & \(\frac{n!}{(n-k)!}\) \\
+\textbf{Kombination} ohne Beachtung der Reihenfolge & \(\binom{n+k-1}{k} = \frac{(n+k-1)!}{k!(n-1)!}\) & \(\binom{n}{k}=\frac{n!}{k!(n-k)!}\) \\
+\end{longtable}
+
+Es soll hier nicht diskutiert werden, wie die entsprechenden Formeln begründet werden können oder in welcher Reihenfolge sich welche Einführung anbietet. Vielmehr soll überlegt werden, welche Unterstützungsmöglichkeiten Schülerinnen und Schülern geboten werden können, um verständnisfördernd Situationen den entsprechenden mathematischen Modellen zuordnen zu können. Im Prinzip sind diese Unterstützungsmöglichkeiten selbst wieder Modelle als »Brücke zwischen einer stochastischen Realsituation und dem formalen Modell« (\citeproc{ref-Tietze:2002}{Tietze et al., 2002, S. 197}).
+
+Zunächst gilt in allen vier Fällen: Aus einer Gesamtheit von \(n\) Objekten werden (unter bestimmten Voraussetzungen) \(k\) Objekte ausgewählt und (unter bestimmten Voraussetzungen) auf Plätze verteilt. Die Voraussetzung der Auswahl bestimmt, ob es sich um einen Vorgang mit oder ohne Wiederholung handelt. Die Voraussetzung der Verteilung ist mit oder ohne Beachtung der Reihenfolge.
+
+Die Dichotomie \textbf{»mit Beachtung der Reihenfolge« -- »ohne Beachtung der Reihenfolge«} kann auch über die Frage \emph{»Ist es relevant, ob ich im Nachhein meine Objekte umsortiere oder nicht?«} betrachtet werden. Eine Repräsentation sollte diese Relevanz der Reihenfolge unterstützen. Abbildung \ref{fig:Reihenfolge} zeigt einen entsprechenden Vorschlag.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Reihenfolge} 
+
+}
+
+\caption{Repräsentation für Auswahl mit (links) und ohne (rechts) Beachtung der Reihenfolge}\label{fig:Reihenfolge}
+\end{figure}
+
+Die Dichotomie \textbf{»mit Zurücklegen« -- »ohne Zurücklegen«} kann alternativ auch als \textbf{»mit Wiederholung« -- »ohne Wiederholung«} aufgefasst werden. Darf nicht wiederholt werden, ergibt sich schnell, dass \(n\geq k\) gelten muss, da sonst nicht genügend Objekte vorhanden sind, aus denen gewählt wird. Die wählbaren Objekte können also als Ansammlung in einem großen Topf aufgefasst werden, aus dem sie jeweils einmalig gezogen werden können. Bei Wiederholung kann einerseits die Auffassung bestehen, dass die Objekte zurückgelegt werden dürfen (z.~B. beim Ziehen bestimmter farbiger Kugeln), andererseits dass das Objekt hinreichend oft verfügbar ist (wenn z.~B. Früchte für einen Obstsalat ausgewählt werden oder wenn bei einem Zahlenschloss jeweils die Ziffern 0 bis 9 zur Verfügung stehen). Abbildung \ref{fig:Wiederholung} macht einen Vorschlag, wie dies allgemein repräsentiert werden kann.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Wiederholung} 
+
+}
+
+\caption{Repräsentation für Auswahl ohne (links) und mit (rechts) Wiederholen/Zurücklegen}\label{fig:Wiederholung}
+\end{figure}
+
+Daraus ergeben sich nun die vier Optionen, dargestellt als Tabelle in Abbildung \ref{fig:Kombinatorik}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{pictures/12-Kombinatorik} 
+
+}
+
+\caption{Tabelle zur Variation/Kombination mit unterstützenden Repräsentationen}\label{fig:Kombinatorik}
+\end{figure}
+
+Diese Repräsentation kann nun unterstützen, Realsituationen zu abstrahieren und dann dem entsprechenden mathematischen Modell zuzuordnen.
+
+\section{Boxplot}\label{boxplot}
+
+Da beim Erstellen eines Boxplots nur mit absoluten Häufigkeiten einer geordneten Messreihe gearbeitet werden muss, bietet sich eine Behandlung auch schon in jüngeren Klassenstufen an. Hierbei treten die Begriffe \textbf{Median} und \textbf{Spannweite} sowie \textbf{oberes und unteres Quartil} auf.
+
+Krüger et al. (\citeproc{ref-Kruger2015}{2015, S. 123}) empfehlen in der Einführung von Boxplots, zunächst auf die Behandlung von Ausreißern zu verzichten und parallel zum Boxplot die Daten als Punktdiagramm darzustellen (siehe Abbildung \ref{fig:Boxplot}).
+
+
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Boxplot} 
+
+}
+
+\caption{Boxplot mit Punktdiagramm (\citeproc{ref-Kruger2015}{Krüger et al., 2015, S. 123})}\label{fig:Boxplot}
+\end{figure}
+
+Abbildung \ref{fig:ScreenshotBoxplot} zeigt den Screenshot eines \href{files/Stoffdidaktik2024-12-Boxplot.html}{virtuellen Arbeitsmittels} zur Erkundung von Zusammenhängen am Boxplot, das im Rahmen einer Masterarbeit an der Universität Potsdam entstanden ist (\citeproc{ref-Korn2023}{Korn, 2023}).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-ScreenshotBoxplot} 
+
+}
+
+\caption{Screenshot des virtuellen Arbeitsmittels zum Boxplot}\label{fig:ScreenshotBoxplot}
+\end{figure}
+
+Auch bei diesem Arbeitsmittel wird der Boxplot abhängig von der Lage der variierbaren Punkte automatisiert dargestellt. Über weitere Konfigurationen wie das Einblenden des Datensatzes oder das Ausblenden der Daten selbst können vielfältige Aufgaben bearbeitet werden (vgl. \citeproc{ref-Korn2023}{Korn, 2023}):
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Verändere den Datensatz so, dass}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{die Box kleiner wird,}
+  \item
+    \emph{die linke Antenne ganz lang und die rechte Antenne ganz kurz wird,}
+  \item
+    \emph{die rechte Hälfte der Box größer wird, aber der Median gleich bleibt.}
+  \end{itemize}
+\item
+  \emph{Erstelle einen eigenen Datensatz, blende ihn aus und lass deinen Partner bzw. deine Partnerin einen passenden Datensatz mit mindestens neun Werten finden, der denselben Boxplot produziert.}
+\end{itemize}
+
+\section{Bedingte Wahrscheinlichkeiten}\label{bedingte-wahrscheinlichkeiten}
+
+Bei der Betrachtung von Situationen, in denen bedingte Wahrscheinlichkeiten eine Rolle spielen, haben Schülerinnen und Schüler (und nicht nur die) oftmals die Schwierigkeit, die verschiedenen Bedingungen auseinanderzuhalten, weshalb fehlerhafte Schlüsse gezogen werden (vgl. \citeproc{ref-Binder2020}{Binder et al., 2020}).
+
+Ist beispielsweise bekannt, dass ein Corona-Test mit 90\%-iger Wahrscheinlichkeit eine Person, die an Corona erkrankt ist, auch positiv testet und mit 95\%-iger Wahrscheinlichkeit eine Person, die nicht an Corona erkrankt ist, auch negativ testet, so stellt sich die Frage, wie hoch die Wahrscheinlichkeit ist, dass man tatsächlich an Corona erkrankt ist, wenn der Test positiv ausfällt. Um diese Frage zu beantworten, ist es weiterhin noch nötig zu wissen (oder zu schätzen), wie hoch der Anteil tatsöchlich erkrankter Personen in der Gesamtbevölkerung ist. Geht man von einem Anteil von 1\% aus, so stellt Abbildung \ref{fig:Vierfeld} eine (nicht maßstäbliche) Vierfeldertafel dieser Situationen dar.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\linewidth]{pictures/12-Vierfeld} 
+
+}
+
+\caption{Vierfeldertafel für bedingte Wahrscheinlichkeiten}\label{fig:Vierfeld}
+\end{figure}
+
+Es sind demnach bekannt:
+
+\begin{align}
+P(C) &= 0,\!01 \ \mathrm{(Prävalenz)}\\
+P_C(T) &= 0,\!95 \ \mathrm{(Sensitivität)}\\
+P_{\neg C}(\neg T) &= 0,\!99 \ \mathrm{(Spezifität)}
+\end{align}
+
+Grundsätzlich gilt als Definition für bedingte Wahrscheinlichkeiten: \[P_B(A) = \frac{P(A\cap B)}{P(B)}\]
+
+Nach dem Satz von Bayes und dem Satz von der totalen Wahrscheinlichkeit gilt:
+\[P_B(A) = \frac{P(A)\cdot P_A(B)}{P(B)} = \frac{P(A)\cdot P_A(B)}{P(A)\cdot P_A(B)+P(\neg A)\cdot P_{\neg A}(B)}\]
+Hieran zeigt sich schon, dass Schülerinnen und Schüler Schwierigkeiten haben könnten, wenn sie nicht die hinter den Formeln liegenden Vorstellungen entwickeln, welche Wahrscheinlichkeiten jeweils aufeinander Bezug genommen werden. Geeignete Repräsentationen sollen nun helfen, die Zusammenhänge nachvollziehen zu können. Die \textbf{Vierfeldertafel} aus Abbildung \ref{fig:Vierfeld} ist eine solche. Abbildung \ref{fig:VierfeldEinzeln} zeigt, wie die Wahrscheinlichkeiten \(P(C)\), \(P_C(T)\) und \(P_T(C)\) darin jeweils als Anteil einer Teilmengenbeziehung aufgefasst werden können.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{pictures/12-VierfeldEinzeln} 
+
+}
+
+\caption{Vierfeldertafeln zur Visualisierung der Wahrscheinlichkeiten $P(C)$, $P_C(T)$ und $P_T(C)$}\label{fig:VierfeldEinzeln}
+\end{figure}
+
+Als Repräsentation ebenfalls verbreitet sind sogenannte \textbf{Doppelbäume}, siehe Abbildung \ref{fig:Doppelbaum}. Auch dort kann nachvollzogen werden, welche Beziehung jeweils betrachtet wird.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Doppelbaum} 
+
+}
+
+\caption{Doppelbaum für bedingte Wahrscheinlichkeiten}\label{fig:Doppelbaum}
+\end{figure}
+
+Nach Binder et al. (\citeproc{ref-Binder2020}{2020}) bietet sich ebenfalls ein \textbf{Häufigkeitsnetz} an, siehe Abbildung \ref{fig:Netz}. Gegenüber den bisherigen Darstellungen können in diesem auch direkt die Schnittwahrscheinlichkeiten abgelesen werden.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{pictures/12-Netz} 
+
+}
+
+\caption{Häufigkeitsnetz für bedingte Wahrscheinlichkeiten}\label{fig:Netz}
+\end{figure}
+
+Als weitere Unterstützungsmöglichkeit, so hat es sich auch in empirischen Studien gezeigt (vgl. \citeproc{ref-Binder2020}{Binder et al., 2020}), bietet es sich an, mit \textbf{absoluten Häufigkeiten statt Wahrscheinlichkeiten} in den Repräsentationen zu arbeiten. Diese bieten Schülerinnen und Schülern eine bessere Zugänglichkeit zur Thematik und über Anteilsbetrachtungen können dann auch die Wahrscheinlichkeiten bestimmt werden.\footnote{Mathematisch präzise müsste hier von \emph{relativen Häufigkeiten} anstatt von \emph{Wahrscheinlichkeiten} gesprochen werden.} Als (fiktive) Anzahl für die Grundgesamtheit bietet sich eine hohe Zehnerpotenz an, da so auch noch kleine Anteile mit sinnvollen (ggf. gerundeten) ganzen Zahlen bestimmt werden können.
 
 \appendix
 
@@ -3513,6 +3799,9 @@ Barzel, B., Hußmann, S., Leuders, T., \& Prediger, S. (Hrsg.). (2016). \emph{Ma
 \bibitem[\citeproctext]{ref-Beutelspacher2012}
 Beutelspacher, A., Danckwerts, R., Nickel, G., Spies, S., \& Wickel, G. (2012). \emph{Mathematik {Neu} {Denken}}. Vieweg+Teubner Verlag. \url{https://doi.org/10.1007/978-3-8348-8250-9}
 
+\bibitem[\citeproctext]{ref-Binder2020}
+Binder, K., Krauss, S., \& Wiesner, P. (2020). A {New} {Visualization} for {Probabilistic} {Situations} {Containing} {Two} {Binary} {Events}: {The} {Frequency} {Net}. \emph{Frontiers in Psychology}, \emph{11}. \url{https://doi.org/10.3389/fpsyg.2020.00750}
+
 \bibitem[\citeproctext]{ref-Boeer2014}
 Böer, H., Göckel, D., Kliemann, S., Koepsell, A., Puscher, R., Schmidt, W., \& Vernay, R. (2014). \emph{Mathe live. 8, {Schülerbuch}} (1. Aufl.). Klett.
 
@@ -3612,6 +3901,9 @@ Klein, F. (1955). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {II
 \bibitem[\citeproctext]{ref-Klein1967}
 Klein, F. (1967). \emph{Elementarmathematik vom {Höheren} {Standpunkte} aus {I}. {Arithmetik}, {Algebra}, {Analysis}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-11652-4}
 
+\bibitem[\citeproctext]{ref-Korn2023}
+Korn, M.-L. (2023). \emph{Kognitive Aktivierung mit digitalen Medien im Mathematikunterricht. Ein Beispiel einer digitalen Lernumgebung zum Thema Boxplots} {[}Unveröffentlichte Masterarbeit{]}. Universität Potsdam.
+
 \bibitem[\citeproctext]{ref-Kortenkamp1999}
 Kortenkamp, U. (1999). \emph{Foundations of {Dynamic} {Geometry}} {[}Dissertation, ETH Zurich{]}. \url{https://doi.org/10.3929/ETHZ-A-003876663}
 
@@ -3686,6 +3978,9 @@ Rembowski, V. (2015). \emph{Eine semiotische und philosophisch-psychologische {P
 
 \bibitem[\citeproctext]{ref-Richter2016}
 Richter, K., \& Bruder, R. (2016). Das {Tätigkeitskonzept} als {Analyseinstrument} für technologiegestützte {Lernprozesse} im {Fach} {Mathematik}. In G. Heintz, H.-J. Elschenbroich, G. Pinkernell, \& F. Schacht (Hrsg.), \emph{Digitale {Werkzeuge} für den {Mathematikunterricht}: {Festschrift} für {Hans}-{Jürgen} {Elschenbroich}} (1. Auflage, S. 188--214). Verlag Klaus Seeberger.
+
+\bibitem[\citeproctext]{ref-Riemer1988}
+Riemer, W. (1988). \emph{Riemer-{Würfel}}. Klett. \url{http://www.riemer-koeln.de/mathematik/quader/riemer-wuerfel-klett.pdf}
 
 \bibitem[\citeproctext]{ref-Salle2021}
 Salle, A., \& Clüver, T. (2021). Herleitung von {Grundvorstellungen} als normative {Leitlinien} -- {Beschreibung} eines theoriebasierten {Verfahrensrahmens}. \emph{Journal für Mathematik-Didaktik}. \url{https://doi.org/10.1007/s13138-021-00184-5}
@@ -3764,6 +4059,9 @@ Weigand, H.-G., Filler, A., Hölzl, R., Kuntze, S., Ludwig, M., Roth, J., Schmid
 
 \bibitem[\citeproctext]{ref-Weigand2022}
 Weigand, H.-G., Schüler-Meyer, A., \& Pinkernell, G. (2022). \emph{Didaktik der {Algebra}: nach der {Vorlage} von {Hans}-{Joachim} {Vollrath}}. Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-64660-1}
+
+\bibitem[\citeproctext]{ref-dewiki:214496187}
+Wikipedia. (o.~J.). \emph{Schweinerei (Spiel) --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Schweinerei_(Spiel)&oldid=214496187}
 
 \bibitem[\citeproctext]{ref-WikiPeano}
 Wikipedia. (2021a). \emph{Peano-Axiome --- Wikipedia{,} die freie Enzyklopädie}. \url{https://de.wikipedia.org/w/index.php?title=Peano-Axiome&oldid=216675163}

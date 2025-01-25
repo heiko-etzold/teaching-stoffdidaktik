@@ -114,7 +114,7 @@ knitr::include_graphics("pictures/11-Parallelogramm.gif")
 
 
 * Dynamische Geometriesysteme verhalten sich **entweder deterministisch oder kontinuierlich**. Damit ist gemeint, dass die durch eine Konstruktion abhängigen Objekte bei deterministischen Systemen stets dasselbe Verhalten aufweisen und bei dynamischen System, je nach Bewegung der unabhängigen Objekte, unterschiedlich dargestellt werden können. Abbildung \@ref(fig:Dynamik) visualisiert dieses Verhalten. Der fachliche Hintergrund liegt in der Programmierung eines DGS, was bei @Kortenkamp1999 [{84 ff.}] und @Labs2008 [{57 ff.}] ausführlicher dargestellt wird. Für den Schulalltag sollte Ihnen dies bewusst sein, damit Sie »merkwürdiges« DGS-Verhalten verstehen und ggf. erklären können.
--->
+
 
 
 

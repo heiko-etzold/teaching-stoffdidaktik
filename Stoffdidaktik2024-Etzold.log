@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  16 JAN 2025 16:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  25 JAN 2025 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2319,7 +2319,7 @@ Overfull \hbox (1.53148pt too wide) detected at line 110
  []
 
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/sl' will be
-(Font)              scaled to size 10.95pt on input line 133.
+(Font)              scaled to size 10.95pt on input line 136.
 Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
 t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
@@ -3029,41 +3029,97 @@ LaTeX Warning: Reference `fig:Dynamik' on page 126 undefined on input line 3142
 .
 
 [126]
-chapter A.
+chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3159--3161
+
+ []
+
+File: pictures/12-Modelle.png Graphic file (type bmp)
+<pictures/12-Modelle.png>
 [127
 
 
-] [128
+]
+File: pictures/12-Prozessbetrachtung.png Graphic file (type bmp)
+<pictures/12-Prozessbetrachtung.png>
+[128]
+File: pictures/12-Prozesse.png Graphic file (type bmp)
+<pictures/12-Prozesse.png>
+
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
+[129]
+
+Package hyperref Warning: Suppressing empty link on input line 3265.
+
+
+Package hyperref Warning: Suppressing empty link on input line 3275.
+
+File: pictures/12-Reihenfolge.png Graphic file (type bmp)
+<pictures/12-Reihenfolge.png>
+[130]
+File: pictures/12-Wiederholung.png Graphic file (type bmp)
+<pictures/12-Wiederholung.png>
+
+Underfull \hbox (badness 5022) in paragraph at lines 3312--3312
+[][][]\TU/LibertinusSerif(0)/m/n/10.95 Repräsentation für Auswahl ohne (links) 
+und mit (rechts) Wiederho-
+ []
+
+File: pictures/12-Kombinatorik.png Graphic file (type bmp)
+<pictures/12-Kombinatorik.png>
+File: pictures/12-Boxplot.png Graphic file (type bmp)
+<pictures/12-Boxplot.png>
+File: pictures/12-ScreenshotBoxplot.png Graphic file (type bmp)
+<pictures/12-ScreenshotBoxplot.png>
+[131] [132]
+File: pictures/12-Vierfeld.png Graphic file (type bmp)
+<pictures/12-Vierfeld.png>
+[133]
+File: pictures/12-VierfeldEinzeln.png Graphic file (type bmp)
+<pictures/12-VierfeldEinzeln.png>
+File: pictures/12-Doppelbaum.png Graphic file (type bmp)
+<pictures/12-Doppelbaum.png>
+[134] [135]
+File: pictures/12-Netz.png Graphic file (type bmp)
+<pictures/12-Netz.png>
+[136]
+chapter A.
+[137
+
+
+] [138
 
 
 ]
 chapter B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3171--3173
+Underfull \hbox (badness 10000) in paragraph at lines 3457--3459
 
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 3173--3175
+Underfull \hbox (badness 1412) in paragraph at lines 3459--3461
 []\TU/LibertinusSerif(0)/m/n/10.95 Sie erkennen den Nutzen stoffdidaktischer An
 alysen und tätigkeitstheoretischer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3173--3175
+Underfull \hbox (badness 10000) in paragraph at lines 3459--3461
 
  []
 
-[129]
+[139]
 File: pictures/B-Skalen.png Graphic file (type bmp)
 <pictures/B-Skalen.png>
-[130]
-Underfull \hbox (badness 10000) in paragraph at lines 3252--3254
+[140]
+Underfull \hbox (badness 10000) in paragraph at lines 3538--3540
 
  []
 
-[131] [132]
-Underfull \hbox (badness 10000) in paragraph at lines 3301--3303
+[141] [142]
+Underfull \hbox (badness 10000) in paragraph at lines 3587--3589
 
  []
 
@@ -3072,32 +3128,32 @@ File: pictures/B-Einfuehrung.png Graphic file (type bmp)
 File: pictures/B-Hefter.png Graphic file (type bmp)
 <pictures/B-Hefter.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3347--3349
+Underfull \hbox (badness 10000) in paragraph at lines 3633--3635
 
  []
 
-[133]
-Underfull \hbox (badness 1259) in paragraph at lines 3349--3351
+[143]
+Underfull \hbox (badness 1259) in paragraph at lines 3635--3637
 \TU/LibertinusSerif(0)/m/n/10.95 angesehen werden, um den Begriff des arithmeti
 schen Mittels zu realisieren (vgl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3349--3351
+Underfull \hbox (badness 10000) in paragraph at lines 3635--3637
 
  []
 
-[134]
+[144]
 File: pictures/B-ScreenshotLagemass.png Graphic file (type bmp)
 <pictures/B-ScreenshotLagemass.png>
-[135]
-Underfull \hbox (badness 10000) in paragraph at lines 3407--3409
+[145]
+Underfull \hbox (badness 10000) in paragraph at lines 3693--3695
 
  []
 
 File: pictures/B-Uebersicht.png Graphic file (type bmp)
 <pictures/B-Uebersicht.png>
-[136] [137] [138
+[146] [147] [148
 
 
 ]
@@ -3109,34 +3165,34 @@ File: pictures/C-OrientierungshilfeKernidee.png Graphic file (type bmp)
 File: pictures/C-OrientierungshilfeLernprozesseAusloesen.png Graphic file (type
  bmp)
 <pictures/C-OrientierungshilfeLernprozesseAusloesen.png>
-[139] [140]
+[149] [150]
 chapter D.
-[141
+[151
 
 
-] [142
+] [152
 
 
 ]
 chapter E.
 
-Underfull \hbox (badness 2277) in paragraph at lines 3505--3506
+Underfull \hbox (badness 2277) in paragraph at lines 3791--3792
 \TU/LibertinusSerif(0)/m/it/10.95 mit schulischen Vorerfahrungen und Erforderni
 ssen\TU/LibertinusSerif(0)/m/n/10.95 . Springer Fachmedien Wiesbaden.
  []
 
-[143] [144] [145] [146] [147] [148] [149] (./Stoffdidaktik2024-Etzold.aux)
+[153] [154] [155] [156] [157] [158] [159] (./Stoffdidaktik2024-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 35850 strings out of 476683
- 741165 string characters out of 5804048
+ 36096 strings out of 476683
+ 748299 string characters out of 5804048
  1884018 words of memory out of 5000000
- 55570 multiletter control sequences out of 15000+600000
+ 55804 multiletter control sequences out of 15000+600000
  522765 words of font info for 173 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 108i,10n,136p,10647b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,13n,136p,10647b,642s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Stoffdidaktik2024-Etzold.pdf (149 pages).
+Output written on Stoffdidaktik2024-Etzold.pdf (159 pages).
