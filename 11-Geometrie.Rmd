@@ -1,3 +1,4 @@
+<!--
 # Geometrie
 
 > **Ziele**  
@@ -131,4 +132,4 @@ knitr::include_graphics("pictures/11-DynamikGeogebra.gif")
 
 * Über die Verwendung von **Spuren und Ortslinien** kann der DGS-Einsatz zu einer intensiveren geometrischen Auseinandersetzung führen als es mit statischen Zeichnungen auf Papier der Fall wäre. Die Spur zeichnen bei Bewegung die Lage eines Objektes nach. Dies ist insbesondere dann von Interesse, wenn ein Objekt von einem anderen abhängig ist und man die Abhängigkeit genauer untersuchen möchte. Die Ortslinie ergibt sich nun als Menge aller Punkte, auf der sich ein Punkt in Abhängigkeit anderer Objekte bewegt. Konstruiert man bzw. über zwei Kreise gleichen Radius einen Punkt $M$, der von den Punkten $A$ und $B$ denselben Abstand hat und varriert die Länge des Radius, so erhält man damit *alle* Punkte, die von $A$ und $B$ gleich weit entfernt sind. Die zugehörige Ortslinie ist dann die Mittelsenkrechte von $A$ und $B$.
 
-
+-->

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 Geometrie | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 Geometrie | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 Geometrie | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="10-analysis.html"/>
+<link rel="next" href="12-stochastik.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2024/25</b></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i>Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i>Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i>Einordnung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#kompetenzziele-der-veranstaltung"><i class="fa fa-check"></i>Kompetenzziele der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i>Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="part"><span><b>Stoffdidaktische Analyse</b></span></li>
+<li class="chapter" data-level="1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>1</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="11-Geometrie.html"><a href="#analyse-von-lerngegenst%C3%A4nden"><i class="fa fa-check"></i><b>1.1</b> Analyse von Lerngegenständen</a></li>
+<li class="chapter" data-level="1.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#lernbereich-und-lerngegenstand"><i class="fa fa-check"></i><b>1.2</b> Lernbereich und Lerngegenstand</a></li>
+<li class="chapter" data-level="1.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>1.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>1.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="1.3.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>1.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="1.3.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>1.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="1.3.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>1.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="1.3.5" data-path="11-Geometrie.html"><a href="#verkn%C3%BCpfung-der-ebenen"><i class="fa fa-check"></i><b>1.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>1.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html"><i class="fa fa-check"></i><b>2</b> (Hoch-)Schulmathematik strukturieren</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="11-Geometrie.html"><a href="#doppelte-diskontinuit%C3%A4t"><i class="fa fa-check"></i><b>2.1</b> Doppelte Diskontinuität</a></li>
+<li class="chapter" data-level="2.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#geeignete-quellen"><i class="fa fa-check"></i><b>2.2</b> Geeignete Quellen</a></li>
+<li class="chapter" data-level="2.3" data-path="11-Geometrie.html"><a href="#strukturierungsm%C3%B6glichkeiten"><i class="fa fa-check"></i><b>2.3</b> Strukturierungsmöglichkeiten</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#sachgebiete"><i class="fa fa-check"></i><b>2.3.1</b> Sachgebiete</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#leitideen"><i class="fa fa-check"></i><b>2.3.2</b> Leitideen</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#arten-mathematischen-wissens"><i class="fa fa-check"></i><b>2.3.3</b> Arten mathematischen Wissens</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#fundamentale-ideen"><i class="fa fa-check"></i><b>2.3.4</b> Fundamentale Ideen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#beispiel-negative-zahlen"><i class="fa fa-check"></i><b>2.4</b> Beispiel Negative Zahlen</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="11-Geometrie.html"><a href="#nat%C3%BCrliche-zahlen"><i class="fa fa-check"></i><b>2.4.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="2.4.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#ganze-zahlen"><i class="fa fa-check"></i><b>2.4.2</b> Ganze Zahlen</a></li>
+<li class="chapter" data-level="2.4.3" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#rationale-zahlen"><i class="fa fa-check"></i><b>2.4.3</b> Rationale Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#mathematik-strukturieren-nachbereitung"><i class="fa fa-check"></i><b>2.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html"><i class="fa fa-check"></i><b>3</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>3.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>3.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="3.1.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>3.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>3.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="3.3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>3.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="11-Geometrie.html"><a href="#nat%C3%BCrliche-zahlen-1"><i class="fa fa-check"></i><b>3.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="3.3.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>3.3.2</b> Bruchzahlen</a></li>
+<li class="chapter" data-level="3.3.3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#negative-zahlen"><i class="fa fa-check"></i><b>3.3.3</b> Negative Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>3.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html"><i class="fa fa-check"></i><b>4</b> Kernideen und Kontexte</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kernidee-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung Kernidee/-frage</a></li>
+<li class="chapter" data-level="4.2" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kontexte-begriffsklaerung"><i class="fa fa-check"></i><b>4.2</b> Begriffsklärung Kontext</a></li>
+<li class="chapter" data-level="4.3" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#mathematisierungstypen"><i class="fa fa-check"></i><b>4.3</b> Mathematisierungstypen</a></li>
+<li class="chapter" data-level="4.4" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kernideen-kontexte-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Lernprozesse gestalten</b></span></li>
+<li class="chapter" data-level="5" data-path="11-Geometrie.html"><a href="5-lernprozesse-auslösen.html"><i class="fa fa-check"></i><b>5</b> Lernprozesse auslösen</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html"><i class="fa fa-check"></i><b>5.1</b> Lerntätigkeit und Lernhandlung</a></li>
+<li class="chapter" data-level="5.2" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#motivierung-und-zielbildung"><i class="fa fa-check"></i><b>5.2</b> Motivierung und Zielbildung</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="11-Geometrie.html"><a href="#zone-der-n%C3%A4chsten-entwicklung"><i class="fa fa-check"></i><b>5.2.1</b> Zone der nächsten Entwicklung</a></li>
+<li class="chapter" data-level="5.2.2" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#lernzielbildung"><i class="fa fa-check"></i><b>5.2.2</b> Lernzielbildung</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#orientierungsbildung"><i class="fa fa-check"></i><b>5.3</b> Orientierungsbildung</a></li>
+<li class="chapter" data-level="5.4" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#bezuege-zur-stoffdidaktik"><i class="fa fa-check"></i><b>5.4</b> Bezüge zur Stoffdidaktik</a></li>
+<li class="chapter" data-level="5.5" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#taetigkeitstheorie-nachbereitung"><i class="fa fa-check"></i><b>5.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html"><i class="fa fa-check"></i><b>6</b> Lernhandlungen ausbilden</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#aneignung-von-lerngegenstaenden"><i class="fa fa-check"></i><b>6.1</b> Aneignung von Lerngegenständen</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#vermittelnde-werkzeuge"><i class="fa fa-check"></i><b>6.1.1</b> Vermittelnde Werkzeuge</a></li>
+<li class="chapter" data-level="6.1.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#zur-rolle-des-sprechens"><i class="fa fa-check"></i><b>6.1.2</b> Zur Rolle des Sprechens</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#typische-lernhandlungen"><i class="fa fa-check"></i><b>6.2</b> Typische Lernhandlungen</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#elementare-aneignungshandlungen"><i class="fa fa-check"></i><b>6.2.1</b> Elementare Aneignungshandlungen</a></li>
+<li class="chapter" data-level="6.2.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#grundhandlungen"><i class="fa fa-check"></i><b>6.2.2</b> Grundhandlungen</a></li>
+<li class="chapter" data-level="6.2.3" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#komplexe-handlungen"><i class="fa fa-check"></i><b>6.2.3</b> Komplexe Handlungen</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#ausfuehren-und-verinnerlichen"><i class="fa fa-check"></i><b>6.3</b> Ausführen und Verinnerlichen</a></li>
+<li class="chapter" data-level="6.4" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#festigung"><i class="fa fa-check"></i><b>6.4</b> Festigung</a></li>
+<li class="chapter" data-level="6.5" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#handlungskontrolle"><i class="fa fa-check"></i><b>6.5</b> Handlungskontrolle</a></li>
+<li class="chapter" data-level="6.6" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#bezuege-zur-stoffdidaktik-lernhandlungen"><i class="fa fa-check"></i><b>6.6</b> Bezüge zur Stoffdidaktik</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="11-Geometrie.html"><a href="7-begriffe-zusammenhänge-verfahren.html"><i class="fa fa-check"></i><b>7</b> Begriffe, Zusammenhänge, Verfahren</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html"><i class="fa fa-check"></i><b>7.1</b> Begriffe</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-bilden"><i class="fa fa-check"></i><b>7.1.1</b> Begriffe bilden</a></li>
+<li class="chapter" data-level="7.1.2" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-aneignen"><i class="fa fa-check"></i><b>7.1.2</b> Begriffe aneignen</a></li>
+<li class="chapter" data-level="7.1.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-festigen"><i class="fa fa-check"></i><b>7.1.3</b> Begriffe festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="11-Geometrie.html"><a href="#zusammenh%C3%A4nge"><i class="fa fa-check"></i><b>7.2</b> Zusammenhänge</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="11-Geometrie.html"><a href="#zusammenh%C3%A4nge-erarbeiten"><i class="fa fa-check"></i><b>7.2.1</b> Zusammenhänge erarbeiten</a></li>
+<li class="chapter" data-level="7.2.2" data-path="11-Geometrie.html"><a href="#zusammenh%C3%A4nge-aneignen"><i class="fa fa-check"></i><b>7.2.2</b> Zusammenhänge aneignen</a></li>
+<li class="chapter" data-level="7.2.3" data-path="11-Geometrie.html"><a href="#zusammenh%C3%A4nge-festigen"><i class="fa fa-check"></i><b>7.2.3</b> Zusammenhänge festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren"><i class="fa fa-check"></i><b>7.3</b> Verfahren</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-gewinnen"><i class="fa fa-check"></i><b>7.3.1</b> Verfahren gewinnen</a></li>
+<li class="chapter" data-level="7.3.2" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-aneignen"><i class="fa fa-check"></i><b>7.3.2</b> Verfahren aneignen</a></li>
+<li class="chapter" data-level="7.3.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-festigen"><i class="fa fa-check"></i><b>7.3.3</b> Verfahren festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#zusammenfassung"><i class="fa fa-check"></i><b>7.4</b> Zusammenfassung</a></li>
+<li class="chapter" data-level="7.5" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-Zusammenhaenge-verfahren-nachbereitung"><i class="fa fa-check"></i><b>7.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html"><i class="fa fa-check"></i><b>8</b> Arbeitsmittel</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-begriffsklaerung"><i class="fa fa-check"></i><b>8.1</b> Begriffsklärung Arbeitsmittel</a></li>
+<li class="chapter" data-level="8.2" data-path="11-Geometrie.html"><a href="#beispiel-%C3%A4quivalenzumformungen"><i class="fa fa-check"></i><b>8.2</b> Beispiel Äquivalenzumformungen</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#der-gleichungsbegriff"><i class="fa fa-check"></i><b>8.2.1</b> Der Gleichungsbegriff</a></li>
+<li class="chapter" data-level="8.2.2" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#umformungen-verstehen"><i class="fa fa-check"></i><b>8.2.2</b> Umformungen verstehen</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-nachbereitung"><i class="fa fa-check"></i><b>8.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Didaktik der Sachgebiete</b></span></li>
+<li class="chapter" data-level="9" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html"><i class="fa fa-check"></i><b>9</b> Arithmetik und Algebra</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="11-Geometrie.html"><a href="#%C3%BCbergang-arithmetik-algebra"><i class="fa fa-check"></i><b>9.1</b> Übergang Arithmetik → Algebra</a></li>
+<li class="chapter" data-level="9.2" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzeln"><i class="fa fa-check"></i><b>9.2</b> Wurzeln</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzel-begriffsverstaendnis"><i class="fa fa-check"></i><b>9.2.1</b> Begriffsverständnis</a></li>
+<li class="chapter" data-level="9.2.2" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzelbehandlung"><i class="fa fa-check"></i><b>9.2.2</b> Wurzelbehandlung</a></li>
+<li class="chapter" data-level="9.2.3" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#heron-verfahren"><i class="fa fa-check"></i><b>9.2.3</b> Heron-Verfahren</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-analysis.html"><a href="10-analysis.html"><i class="fa fa-check"></i><b>10</b> Analysis</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="10-analysis.html"><a href="10-analysis.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>10.1</b> Analysis in der Sek. II</a></li>
+<li class="chapter" data-level="10.2" data-path="10-analysis.html"><a href="10-analysis.html#grenzwertbegriff"><i class="fa fa-check"></i><b>10.2</b> Grenzwertbegriff</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="10-analysis.html"><a href="10-analysis.html#fachliche-hinweise"><i class="fa fa-check"></i><b>10.2.1</b> Fachliche Hinweise</a></li>
+<li class="chapter" data-level="10.2.2" data-path="11-Geometrie.html"><a href="#unterrichtliche-zug%C3%A4nge"><i class="fa fa-check"></i><b>10.2.2</b> Unterrichtliche Zugänge</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="10-analysis.html"><a href="10-analysis.html#ableitungsbegriff"><i class="fa fa-check"></i><b>10.3</b> Ableitungsbegriff</a></li>
+<li class="chapter" data-level="10.4" data-path="10-analysis.html"><a href="10-analysis.html#computer-algebra-systeme"><i class="fa fa-check"></i><b>10.4</b> Computer-Algebra-Systeme</a>
+<ul>
+<li class="chapter" data-level="10.4.1" data-path="10-analysis.html"><a href="10-analysis.html#software-und-hardware"><i class="fa fa-check"></i><b>10.4.1</b> Software und Hardware</a></li>
+<li class="chapter" data-level="10.4.2" data-path="10-analysis.html"><a href="10-analysis.html#bedienung-schulen"><i class="fa fa-check"></i><b>10.4.2</b> Bedienung schulen</a></li>
+<li class="chapter" data-level="10.4.3" data-path="10-analysis.html"><a href="10-analysis.html#neue-aufgabenkultur"><i class="fa fa-check"></i><b>10.4.3</b> Neue Aufgabenkultur</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="11-geometrie.html"><a href="11-geometrie.html"><i class="fa fa-check"></i><b>11</b> Geometrie</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="11-geometrie.html"><a href="11-geometrie.html#lagebeziehungen"><i class="fa fa-check"></i><b>11.1</b> Lagebeziehungen</a>
+<ul>
+<li class="chapter" data-level="11.1.1" data-path="11-geometrie.html"><a href="11-geometrie.html#lagebeziehungen-falten"><i class="fa fa-check"></i><b>11.1.1</b> Lagebeziehungen falten</a></li>
+<li class="chapter" data-level="11.1.2" data-path="11-geometrie.html"><a href="11-geometrie.html#skalarprodukt"><i class="fa fa-check"></i><b>11.1.2</b> Skalarprodukt</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="11-geometrie.html"><a href="11-geometrie.html#dynamische-geometriesysteme"><i class="fa fa-check"></i><b>11.2</b> Dynamische Geometriesysteme</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="12-stochastik.html"><a href="12-stochastik.html"><i class="fa fa-check"></i><b>12</b> Stochastik</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="11-Geometrie.html"><a href="#stochastische-vorg%C3%A4nge"><i class="fa fa-check"></i><b>12.1</b> Stochastische Vorgänge</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="12-stochastik.html"><a href="12-stochastik.html#modellierungsstruktur"><i class="fa fa-check"></i><b>12.1.1</b> Modellierungsstruktur</a></li>
+<li class="chapter" data-level="12.1.2" data-path="12-stochastik.html"><a href="12-stochastik.html#prozessbetrachtung"><i class="fa fa-check"></i><b>12.1.2</b> Prozessbetrachtung</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="12-stochastik.html"><a href="12-stochastik.html#kombinatorik"><i class="fa fa-check"></i><b>12.2</b> Kombinatorik</a></li>
+<li class="chapter" data-level="12.3" data-path="12-stochastik.html"><a href="12-stochastik.html#boxplot"><i class="fa fa-check"></i><b>12.3</b> Boxplot</a></li>
+<li class="chapter" data-level="12.4" data-path="12-stochastik.html"><a href="12-stochastik.html#bedingte-wahrscheinlichkeiten"><i class="fa fa-check"></i><b>12.4</b> Bedingte Wahrscheinlichkeiten</a></li>
+</ul></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-sammlung-von-lernbereichen.html"><a href="A-sammlung-von-lernbereichen.html"><i class="fa fa-check"></i><b>A</b> Sammlung von Lernbereichen</a></li>
+<li class="chapter" data-level="B" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html"><i class="fa fa-check"></i><b>B</b> Beispiel: Arithmetisches Mittel</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="11-Geometrie.html"><a href="#stoffdidaktische-hintergr%C3%BCnde"><i class="fa fa-check"></i><b>B.1</b> Stoffdidaktische Hintergründe</a></li>
+<li class="chapter" data-level="B.2" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#kompetenzziele"><i class="fa fa-check"></i><b>B.2</b> Kompetenzziele</a></li>
+<li class="chapter" data-level="B.3" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#unterrichtsphasen"><i class="fa fa-check"></i><b>B.3</b> Unterrichtsphasen</a>
+<ul>
+<li class="chapter" data-level="B.3.1" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#motivierung-und-zielbildung-1"><i class="fa fa-check"></i><b>B.3.1</b> Motivierung und Zielbildung</a></li>
+<li class="chapter" data-level="B.3.2" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#stoffvermittlung"><i class="fa fa-check"></i><b>B.3.2</b> Stoffvermittlung</a></li>
+<li class="chapter" data-level="B.3.3" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#festigung-1"><i class="fa fa-check"></i><b>B.3.3</b> Festigung</a></li>
+<li class="chapter" data-level="B.3.4" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#handlungskontrolle-1"><i class="fa fa-check"></i><b>B.3.4</b> Handlungskontrolle</a></li>
+</ul></li>
+<li class="chapter" data-level="B.4" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#beispiel-arithmetisches-mitttel-nachbereitung"><i class="fa fa-check"></i><b>B.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="11-Geometrie.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html"><i class="fa fa-check"></i><b>C</b> Orientierungshilfen für Lehrhandlungen</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html"><i class="fa fa-check"></i><b>C.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="C.2" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html#orientierungshilfe-kernideen-finden"><i class="fa fa-check"></i><b>C.2</b> Kernideen/Kernfragen finden</a></li>
+<li class="chapter" data-level="C.3" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html#orientierungshilfe-lernprozesse-ausloesen"><i class="fa fa-check"></i><b>C.3</b> Lernprozesse auslösen</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="D-quellenarbeit.html"><a href="D-quellenarbeit.html"><i class="fa fa-check"></i><b>D</b> Quellenarbeit</a></li>
+<li class="chapter" data-level="E" data-path="11-Geometrie.html"><a href="E-vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i><b>E</b> Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2025</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="geometrie" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Geometrie<a href="11-geometrie.html#geometrie" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<blockquote>
+<p><strong>Ziele</strong></p>
+<ul>
+<li>Sie sind sich der Verbindungen von Geometrie, Linearer Algebra und Analytischer Geometrie bewusst.<br />
+</li>
+<li>Sie kennen enaktive, ikonische und symbolische Herangehensweisen zur Behandlung von Lagebeziehungen.<br />
+</li>
+<li>Sie kennen Besonderheiten im Einsatz von DGS bei der Behandlung geometrischer Fragestellungen (wie Zugstabilität, Spuren und Ortslinien).</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zum Kapitel 11 (<a href="files/Stoffdidaktik2024-11-Geometrie.pdf">pdf</a>, <a href="files/Stoffdidaktik2024-11-Geometrie.key">Keynote</a>)</li>
+</ul>
+<p><strong>Literaturempfehlungen</strong></p>
+<ul>
+<li><span class="citation">Weigand et al. (<a href="#ref-Weigand2018">2018</a>)</span>: <em>Didaktik der Geometrie für die Sekundarstufe I</em></li>
+<li><span class="citation">Henn &amp; Filler (<a href="#ref-Henn2015">2015</a>)</span>: <em>Didaktik der Analytischen Geometrie und Linearen Algebra: Algebraisch verstehen – Geometrisch veranschaulichen und anwenden</em></li>
+<li><span class="citation">Tietze et al. (<a href="#ref-Tietze:2000">2000b</a>)</span>: <em>Mathematikunterricht in der Sekundarstufe II. Band 2: Didaktik der Analytischen Geometrie und Linearen Algebra</em></li>
+</ul>
+</blockquote>
+<p>Der Geometrieunterricht der Sekundarstufe I ist geprägt von Begriffen, Zusammenhängen und Verfahren der <strong>Elementargeometrie</strong>. So werden geometrische Objekte (wie Punkte, Geraden, Winkel) und ihre Relationen betrachtet sowie Messungen (Längen, Flächeninhalte, Volumina, …) vorgenommen. Außerdem werden elementargeometrische Sätze (z. B. Satz des Thales, Satz des Pythagoras, Sinus- und Kosinussatz) behandelt. In Hinblick auf die Sekundarstufe II kommt es zur <strong>Koordinatisierung</strong> der geometrischen Objekte, üblicherweise über die Beschreibung in einem kartesischen Koordinatensystem. Liegen die geometrischen Objekte nun koordinatisiert vor, kann mit ihne in der <strong>Analytischen Geometrie</strong> »gerechnet« werden. Für die dazu anwendbaren Gesetzmäßigkeiten bedient man sich der <strong>Linearen Algebra</strong>, in der die zugrundeliegenden Strukturen veroretet sind.</p>
+<p>Am Beispiel des Vektorbegriffs kann man sagen: <em>Elementargeometrisch</em> beschreibt ein Vektor eine Verschiebung in eine bestimmte Richtung um einen bestimmten Betrag. Koordinatisiert lässt sich der Vektor in der <em>Analytischen Geometrie</em> über ein Tupel beschreiben. Mit solchen Tupeln kann dann gerechnet werden, wobei entsprechende Gesetzmäßigkeiten (Vektoraddition, Skalierung) der Linearen Algebra entstammen, wo Vektoren als Elemente eines Vektorraums aufgefasst werden.</p>
+<div id="lagebeziehungen" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Lagebeziehungen<a href="11-geometrie.html#lagebeziehungen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Lagebeziehungen zwischen Punkten, Geraden und Ebenen spielen über die gesamte Schullaufbahn eine bedeutsame Rolle. Es beginnt in der Grundschule über die Lage von Punkten auf Geraden, zueinander senkrechte und parallele Geraden, den Winkelbegriff zu Beginn der Sekundarstufe, bis hin zur Analytischen Geometrie in der Sekundarstufe II, wenn die Lagebeziehungen algebraisch beschrieben werden.</p>
+<div id="lagebeziehungen-falten" class="section level3 hasAnchor" number="11.1.1">
+<h3><span class="header-section-number">11.1.1</span> Lagebeziehungen falten<a href="11-geometrie.html#lagebeziehungen-falten" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Werden auf einem Blatt Papier zwei Punkte markiert und diese aufeinandergefaltet, entsteht als Faltlinie die Mittelsenkrechte zwischen diesen beiden Punkten (siehe Abbildung <a href="11-geometrie.html#fig:Mittelsenkrechte">11.1</a>).</p>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Mittelsenkrechte"></span>
+<img src="pictures/11-Mittelsenkrechte.png" alt="Mittelsenkrechte durch Faltung (Etzold &amp; Petzschler, 2014, S. 5)" width="75%" />
+<p class="caption">
+Abb. 11.1: Mittelsenkrechte durch Faltung <span class="citation">(<a href="#ref-Etzold2014a">Etzold &amp; Petzschler, 2014, S. 5</a>)</span>
+</p>
+</div>
+<p>Um dies zu begründen, muss die Faltung analysiert und mit der geometrischen Konfiguration in Zusammenhang gebracht werden. Betrachtet man einen Punkt <span class="math inline">\(C\)</span> auf der Faltlinie, so hat dieser zu <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> denselben Abstand, was aus dem Übereinanderlegen von <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> durch die Faltung bekommt. Die Faltlinie ist damit die Menge aller Punkte (in der Ebene des Papierstücks), die zu <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> denselben Abstand haben – und dies ist gerade die <em>Mittelsenkrechte</em>.</p>
+<p>Lerntheoretisch kann als <strong>Lernhandlung</strong> das <em>Erkennen</em> (als mehrfaches <em>Identifizieren</em> und <em>Realisieren</em>) der geometrischen Konfiguration der Faltung aufgefasst werden (vgl. typische Lernhandlungen im Mathematikunterricht in Abschnitt <a href="5-lernprozesse-auslösen.html#lerntaetigkeit-und-lernhandlung">5.1</a>). Die <strong>Analyse dieser Lernhandlungen</strong> unterstützt nun die Aneignung geometrischen Wissens.</p>
+<p>Fachdidaktisch interessant ist hier die Betonung der <strong>Ortslinieneigenschaft</strong> der Mittelsenkrechten. Diese Abstandsbedingung zu zwei Punkten ist auch relevant, um die Konstruktion einer Mittelsenkrechten durchzuführen – also das Zeichnen zweier Kreisbögen mit demselben Radius von den Punkten ausgehend, die Schnittpunkte liegen dann auf der Mittelsenkrechten. Auch wenn begründet werden soll, dass sich die Mittelsenkrechten der Seiten eines Dreiecks im Umkreismittelpunkt schneiden, bedarf es dieser Eigenschaft. Aus dem Bezeichner <em>Mittelsenkrechte</em> ist die entsprechende Eigenschaft dagegen nicht direkt ablesbar – handelt es sich demnach doch »nur« um eine Gerade, die senkrecht zur Strecke <span class="math inline">\(\overline{AB}\)</span> und durch deren Mitte verläuft.<a href="#fn39" class="footnote-ref" id="fnref39"><sup>39</sup></a></p>
+<p>Der Faltprozess kann also eine Motivation bieten, über eine zunächst enaktive Handlung die geometrische Eigenschaft der Faltprodukte genauer zu betrachten und die Faltung selbst »auseinanderzunehmen«. Ein solcher Analyseprozess kann nochmal verstärkt gefordert werden, wenn bspw. das Faltergebnis in einer <strong>Dynamischen Geometriesoftware</strong> (DGS) realisiert wird. Dann nämlich ist es notwendig, die Faltlinie über die im DGS zur Verfügung stehenden Werkzeuge zu realisieren <span class="citation">(vgl. <a href="#ref-Etzold2014a">Etzold &amp; Petzschler, 2014, S. 6</a>)</span>.</p>
+<p>In analoger Weise zur Faltung der Mittelsenkrechten durch Punkt-auf-Punkt-Faltung kann auch das Falten einer Winkelhalbierenden durch Kante-auf-Kante-Faltung realisiert werden. Darauf aufbauend wiederum können Senkrechten, Parallelen oder sogar Quadrate bzw. Kreismittelpunkte gefaltet werden <span class="citation">(siehe <a href="#ref-Etzold2014a">Etzold &amp; Petzschler, 2014, 10, 82 f., 86 f.</a>)</span>.</p>
+</div>
+<div id="skalarprodukt" class="section level3 hasAnchor" number="11.1.2">
+<h3><span class="header-section-number">11.1.2</span> Skalarprodukt<a href="11-geometrie.html#skalarprodukt" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Zur Beschreibung von Lagebeziehungen zweier Geraden, insbesondere der Bestimmung des Winkels dazwischen, wird in der Sekundarstufe II das Skalarprodukt behandelt. Nach <span class="citation">Henn &amp; Filler (<a href="#ref-Henn2015">2015, S. 195</a> ff.)</span> bestehen hierfür prinzipiell drei Zugänge:</p>
+<ul>
+<li>Bei einem <strong>geometrischen Zugang</strong> dient, wie bereits motiviert, die Winkelbestimmung als Anlass, das Skalarprodukt zu behandeln. Mit der Definition <span class="math inline">\(\left&lt;\vec u, \vec v\right&gt; := |\vec u|\cdot |\vec v|\cdot \cos(\angle(\vec u,\vec v))\)</span> kann das Skalarprodukt interpretiert werden, indem einer der beiden Vektoren auf die Richtung des anderen Vektors projiziert wird und anschließend das Produkt gebildet wird. Letzteres ist als (gerichteter) Flächeninhalt des entsprechenden Rechtecks interpretierbar, vgl. Abbildung <a href="11-geometrie.html#fig:Skalarprodukt">11.2</a>.</li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Skalarprodukt"></span>
+<img src="pictures/11-Skalarprodukt.png" alt="Geometrische Interpretation des Skalarprodukts" width="30%" />
+<p class="caption">
+Abb. 11.2: Geometrische Interpretation des Skalarprodukts
+</p>
+</div>
+<ul>
+<li><p>Bei einem <strong>arithmetischen Zugang</strong> sind zwei Vektoren als Tupel gegeben, z. B. <span class="math inline">\(\vec u = \left(\begin{array}{c} u_1 \\ u_2\\\vdots \\ u_n \end{array}\right)\)</span> und <span class="math inline">\(\vec v = \left(\begin{array}{c} v_1 \\ v_2\\\vdots \\ v_n \end{array}\right)\)</span>, und das Skalarprodukt ist über die Produktsumme <span class="math inline">\(\left&lt;\vec u, \vec v\right&gt; := \sum\limits_{i=1}^n u_iv_i\)</span> definiert. Dieser Zugang ermöglicht auch die Betrachtung außergeometrischer Probleme, etwa die Aufsummation von Stückpreisen bei entsprechend gegebenen Häufigkeiten.</p></li>
+<li><p>Der <strong>axiomatische Zugang</strong> definiert das Skalarprodukt als <em>positiv definitive, symmetrische Bilinearform</em>, d. h. es muss folgende Eigenschaften erfüllen:</p></li>
+</ul>
+<p><span class="math display">\[\begin{align*} \left&lt;\vec u, \vec v \right&gt; &amp;\geq 0\\\left&lt;\vec u,\vec u\right&gt; = 0 &amp;\Leftrightarrow \vec u = 0 \\ \left&lt;\vec u,\vec v\right&gt; &amp;= \left&lt;\vec v,\vec u\right&gt;\\ \left&lt;\vec u+\vec v,\vec w\right&gt; &amp;= \left&lt;\vec u,\vec w\right&gt; + \left&lt;\vec v,\vec w\right&gt;\\ \left&lt;\lambda \vec  u,\vec v\right&gt; &amp;= \lambda \left&lt;\vec u,\vec v\right&gt; \end{align*}\]</span></p>
+<p>Der axiomatische Zugang spielt im Schulunterricht i. d. R. keine Rolle. Um einen Zusammenhang zwischen der geometrischen Sichtweise und der Formel über die Produktsumme herzustellen, bietet sich die Betrachtung des Kosinussatzes in einem Dreieck an, dessen Seiten über Vektoren beschrieben werden.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Dreieck"></span>
+<img src="pictures/11-Dreieck.png" alt="Dreieck zur Herleitung des Skalarprodukts" width="50%" />
+<p class="caption">
+Abb. 11.3: Dreieck zur Herleitung des Skalarprodukts
+</p>
+</div>
+<p>Die folgenden Betrachtungen werden im <span class="math inline">\(\mathbb{R}^3\)</span> dargestellt, sind aber auch im <span class="math inline">\(\mathbb{R}^2\)</span> möglich oder sogar auf den <span class="math inline">\(\mathbb{R}^n\)</span> übertragbar.</p>
+<p>Für die Länge eines Vektors gilt <span class="math inline">\(|\vec u| = \sqrt{u_1^2+u_2^2+u_3^2}\)</span>. Der Kosinussatz für das in Abbildung <a href="11-geometrie.html#fig:Dreieck">11.3</a> dargestellt Dreieck lautet: <span class="math display">\[|\vec u-\vec v|^2 = |\vec u|^2 + |\vec v|^2 - 2\cdot|\vec u|\cdot |\vec v|\cdot \cos(\angle(\vec u,\vec v))\]</span></p>
+<p>Mithilfe der Längenformel und der 2. binomischen Formel links vom Gleichheitszeichen erhält man:</p>
+<p><span class="math display">\[\sum_{i=1}^3 (u_i^2-2u_iv_i + v_i^2) = \sum_{i=1}^3 u_i^2 + \sum_{i=1}^2 v_i^2 - 2\cdot|\vec u|\cdot |\vec v|\cdot \cos(\varphi)\]</span></p>
+<p>Dabei heben sich einige Terme auf und es bleibt übrig:</p>
+<p><span class="math display">\[\begin{align*}\sum_{i=1}^3 u_iv_i &amp;= |\vec u|\cdot |\vec v|\cdot \cos(\varphi)\\ \cos(\varphi) &amp;= \frac{\sum\limits_{i=1}^3 u_iv_i}{|\vec u|\cdot |\vec v|}\end{align*}\]</span></p>
+<p>Hieraus lässt sich nun motivieren, den im Zähler stehenden Term als Skalarprodukt zu bezeichnen und die Definition <span class="math inline">\(\left&lt;\vec u, \vec v\right&gt; = \sum\limits_{i=1}^3 u_iv_i\)</span> einzuführen.</p>
+<p>Neben der <strong>Schreibweise</strong> <span class="math inline">\(\left &lt;\vec u,\vec v\right&gt;\)</span> sind auch <span class="math inline">\(\vec u\bullet \vec v\)</span> oder <span class="math inline">\(\vec u\circ \vec v\)</span> üblich. Letztere beiden können jedoch suggerieren, dass aus dem »Produkt« zweier Vektoren wieder ein Vektor entsteht, da dies den Erfahrungen des bisherigen Umgangs mit Produkten entspricht. Die Schreibweise <span class="math inline">\(\left &lt;\vec u,\vec v\right&gt;\)</span> könnte hier stärker darauf hinweisen, dass es sich um eine »Funktion« handelt, die den beiden Vektoren <span class="math inline">\(\vec u\)</span> und <span class="math inline">\(\vec v\)</span> eine Zahl (also ein Skalar) zuordnet.</p>
+</div>
+</div>
+<div id="dynamische-geometriesysteme" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Dynamische Geometriesysteme<a href="11-geometrie.html#dynamische-geometriesysteme" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In dynamischen Geometriesystemen (DGS) wie GeoGebra<a href="#fn40" class="footnote-ref" id="fnref40"><sup>40</sup></a> oder Cinderella<a href="#fn41" class="footnote-ref" id="fnref41"><sup>41</sup></a> lassen sich geometrische Konstruktionen darstellen und durch zusätzliche Funktionalitäten vielfältig untersuchen.</p>
+<p>Zunächst einmal bietet ein DGS die üblichen Grundkonstruktionen, die auch mit Zirkel und Lineal möglich sind, sowie darauf aufbauende Konstruktionen (wie das Einzeichnen einer Mittelsenkrechte zu zwei Punkten). Weiterhin ist es i. d. R. möglich, Objekte auszumessen und die Konstruktion durch weitere graphische Elemente (wie z. B. Texte) zu ergänzen.</p>
+<p>Zum Umgang mit DGS gibt es vielfältige Forschungs- und Entwicklungsergebnisse, die auch in den Didaktiken der einzelnen Sachgebiete referenziert werden <span class="citation">(u. a. bei <a href="#ref-Greefrath2016">Greefrath et al., 2016, 41 f., 65 f., 155 f.</a>; <a href="#ref-Weigand2018">Weigand et al., 2018, 62 ff.</a>)</span>.</p>
+<p>In der Verwendung von dynamischer Geometriesoftware liegen einige Besonderheiten, auf die hier kurz eingegangen werden soll.</p>
+<ul>
+<li>Die zu betrachtenden Objekte werden i. d. R. <strong>zugstabil</strong> konstruiert. Das heißt, wenn ein Parallelogramm konstruiert werden soll, muss dies so erfolgen, dass es sich weiterhin um ein Parallelogramm handelt, auch wenn einer seiner Eckpunkte bewegt wird. So wird auch der Unterschied zwischen <em>Konstruieren</em> und <em>Zeichnen</em> deutlich: Die Konstruktion schafft Relationen zwischen den Eckpunkten bzw. Seiten des Parallelogramms, so dass die Parallelogramm-Eigenschaft in das Objekt implementiert wurde, während eine Zeichnung nur statisch ein Parallelogramm darstellt. Der Begriffsbildung (insbesondere dem Begriffsinhalt) dienlich ist auch die Diskussion verschiedener Konstruktionswege bzw. deren Identifizierung anhand des »Bewegungsverhaltens« des konstruiereten Objekts. Einen unterrichtspraktischen Ansatz hierfür liefern <span class="citation">Kortenkamp &amp; Dohrmann (<a href="#ref-Kortenkamp2016">2016</a>)</span>.</li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Parallelogramm"></span>
+<img src="pictures/11-Parallelogramm.gif" alt="Zugstabil konstruiertes vs. gezeichnetes Parallelogramm" width="90%" />
+<p class="caption">
+Abb. 11.4: Zugstabil konstruiertes vs. gezeichnetes Parallelogramm
+</p>
+</div>
+<ul>
+<li>Dynamische Geometriesysteme verhalten sich <strong>entweder deterministisch oder kontinuierlich</strong>. Damit ist gemeint, dass die durch eine Konstruktion abhängigen Objekte bei deterministischen Systemen stets dasselbe Verhalten aufweisen und bei dynamischen System, je nach Bewegung der unabhängigen Objekte, unterschiedlich dargestellt werden können. Abbildung <a href="#fig:Dynamik"><strong>??</strong></a> visualisiert dieses Verhalten. Der fachliche Hintergrund liegt in der Programmierung eines DGS, was bei <span class="citation">Kortenkamp (<a href="#ref-Kortenkamp1999">1999, 84 ff.</a>)</span> und <span class="citation">Labs (<a href="#ref-Labs2008">2008, 57 ff.</a>)</span> ausführlicher dargestellt wird. Für den Schulalltag sollte Ihnen dies bewusst sein, damit Sie »merkwürdiges« DGS-Verhalten verstehen und ggf. erklären können.</li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:DynamikCinderella"></span>
+<img src="pictures/11-DynamikCinderella.gif" alt="Kontinuierliches Verhalten in Cinderella" width="90%" />
+<p class="caption">
+Abb. 11.5: Kontinuierliches Verhalten in Cinderella
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:DynamikGeogebra"></span>
+<img src="pictures/11-DynamikGeogebra.gif" alt="Deterministisches Verhalten in GeoGebra" width="90%" />
+<p class="caption">
+Abb. 11.6: Deterministisches Verhalten in GeoGebra
+</p>
+</div>
+<ul>
+<li>Über die Verwendung von <strong>Spuren und Ortslinien</strong> kann der DGS-Einsatz zu einer intensiveren geometrischen Auseinandersetzung führen als es mit statischen Zeichnungen auf Papier der Fall wäre. Die Spur zeichnen bei Bewegung die Lage eines Objektes nach. Dies ist insbesondere dann von Interesse, wenn ein Objekt von einem anderen abhängig ist und man die Abhängigkeit genauer untersuchen möchte. Die Ortslinie ergibt sich nun als Menge aller Punkte, auf der sich ein Punkt in Abhängigkeit anderer Objekte bewegt. Konstruiert man bzw. über zwei Kreise gleichen Radius einen Punkt <span class="math inline">\(M\)</span>, der von den Punkten <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> denselben Abstand hat und varriert die Länge des Radius, so erhält man damit <em>alle</em> Punkte, die von <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span> gleich weit entfernt sind. Die zugehörige Ortslinie ist dann die Mittelsenkrechte von <span class="math inline">\(A\)</span> und <span class="math inline">\(B\)</span>.</li>
+</ul>
+
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0" line-spacing="2">
+<div id="ref-Etzold2014a" class="csl-entry">
+Etzold, H., &amp; Petzschler, I. (2014). <em>Mathe verstehen durch <span>Papierfalten</span></em>. Verlag an der Ruhr.
+</div>
+<div id="ref-Greefrath2016" class="csl-entry">
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., &amp; Weigand, H.-G. (2016). <em>Didaktik der <span>Analysis</span>. <span>Aspekte</span> und <span>Grundvorstellungen</span> zentraler <span>Begriffe</span></em> (F. Padberg &amp; A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. <a href="https://doi.org/10.1007/978-3-662-48877-5">https://doi.org/10.1007/978-3-662-48877-5</a>
+</div>
+<div id="ref-Henn2015" class="csl-entry">
+Henn, H.-W., &amp; Filler, A. (2015). <em>Didaktik der <span>Analytischen</span> <span>Geometrie</span> und <span>Linearen</span> <span>Algebra</span>: <span>Algebraisch</span> verstehen – <span>Geometrisch</span> veranschaulichen und anwenden</em>. Springer Spektrum.
+</div>
+<div id="ref-Kortenkamp1999" class="csl-entry">
+Kortenkamp, U. (1999). <em>Foundations of <span>Dynamic</span> <span>Geometry</span></em> [Dissertation, ETH Zurich]. <a href="https://doi.org/10.3929/ETHZ-A-003876663">https://doi.org/10.3929/ETHZ-A-003876663</a>
+</div>
+<div id="ref-Kortenkamp2016" class="csl-entry">
+Kortenkamp, U., &amp; Dohrmann, C. (2016). Vorwärts-<span>Rückwärts</span> zum <span>Begriff</span>. <span>Konstruktion</span> und <span>Re</span>-<span>Konstruktion</span> von <span>Zugfiguren</span>. <em>mathematik lehren</em>, <em>196</em>, 18–21.
+</div>
+<div id="ref-Labs2008" class="csl-entry">
+Labs, O. (2008). <em>Dynamische <span>Geometrie</span>: <span>Grundlagen</span> und <span>Anwendungen</span>.</em> <a href="https://oliverlabs.net/data/0708_DynGeo.pdf">https://oliverlabs.net/data/0708_DynGeo.pdf</a>
+</div>
+<div id="ref-Tietze:2000" class="csl-entry">
+Tietze, U.-P., Klika, M., &amp; Wolpers, H. (Hrsg.). (2000b). <em>Mathematikunterricht in der <span>Sekundarstufe</span> <span>II</span>. <span>Band</span> 2: <span>Didaktik</span> der <span>Analytischen</span> <span>Geometrie</span> und <span>Linearen</span> <span>Algebra</span></em>. Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-86479-6">https://doi.org/10.1007/978-3-322-86479-6</a>
+</div>
+<div id="ref-Weigand2018" class="csl-entry">
+Weigand, H.-G., Filler, A., Hölzl, R., Kuntze, S., Ludwig, M., Roth, J., Schmidt-Thieme, B., &amp; Wittmann, G. (2018). <em>Didaktik der <span>Geometrie</span> für die <span>Sekundarstufe</span> <span>I</span></em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-56217-8">https://doi.org/10.1007/978-3-662-56217-8</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="39">
+<li id="fn39"><p>Im Übrigen sind beide Eigenschaften äquivalent zueinander – es lohnt sich, den Beweis dafür einmal durchzuführen.<a href="11-geometrie.html#fnref39" class="footnote-back">↩︎</a></p></li>
+<li id="fn40"><p><a href="https://www.geogebra.org" class="uri">https://www.geogebra.org</a><a href="11-geometrie.html#fnref40" class="footnote-back">↩︎</a></p></li>
+<li id="fn41"><p><a href="https://www.cinderella.de" class="uri">https://www.cinderella.de</a><a href="11-geometrie.html#fnref41" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="10-analysis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="12-stochastik.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/11-Geometrie.Rmd",
+"text": null
+},
+"download": ["Stoffdidaktik2024-Etzold.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

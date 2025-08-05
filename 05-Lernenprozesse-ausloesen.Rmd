@@ -1,3 +1,5 @@
+<!--
+
 # (PART\*) Lernprozesse gestalten {.unnumbered}
 
 # Lernprozesse auslösen
@@ -50,13 +52,13 @@ Darauf aufbauend können *Grundhandlungen* (**Erkennen**, **Beschreiben**, **Ver
 ```
 
 
-Welche Schritte für die Ausbildung von Lernhandlungen notwendig sind, wird im nächsten Kapitel <!--einem Abschnitt \@ref(lernhandlungen-ausbilden)-->dargestellt.
+Welche Schritte für die Ausbildung von Lernhandlungen notwendig sind, wird im nächsten Kapitel <!--einem Abschnitt \@ref(lernhandlungen-ausbilden)--><!--dargestellt.
 Zu betonen ist, dass die Lernhandlungen zwar einerseits notwendig sind, um sich einem Lerngegenstand zu nähern, also die **Handlungen als *Lernmittel*** aufgefasst werden können. Andererseits müssen die Lernhandlungen jedoch auch erst einmal ausgeprägt werden, also auch die **Handlungen als *Lerngegenstand*** selbst aufgefasst werden (was wiederum nur am konkreten mathematischen Unterrichtsthema realisiert werden kann). Diese Sichtweise sollte Sie als Lehrkraft dafür sensibilisieren, dass Sie nicht per se davon ausgehen können, dass Ihre Schülerinnen und Schüler über entsprechende Handlungen verfügen, um neue mathematische Themen zu erlernen, sondern an diesen Themen die Handlungen erarbeitet und mit den Handlungen die Mathematik erarbeitet wird. Auch hier kann wieder von der zunächst gemeinschaftlichen Handlungsausführung (in der Klassensituation und mit Unterstützung von Personen, die über das anzueignende Wissen verfügen) zur individuellen Handlungsausführung (und damit persönlichen Aneignung des Lerngegenstands) übergegangen werden.
 
 
 ## Motivierung und Zielbildung
 
-Die obigen Überlegungen zeigen, dass die **Motivierung und Zielbildung** bedeutsame Bestandteile eines Lernprozesses sind, sich also in der Gestaltung konkreter Unterrichtssituationen widerspiegeln müssen -- durch entsprechende Phasen innerhalb einer Unterrichtsstunde. Erst wenn Motive und Ziele ausgeprägt sind, kann es in weiteren Unterrichtsphasen zur **Ausbildung der Lernhandlungen** kommen<!-- (siehe auch Abbildung \@ref(fig:Unterrichtsphasen))-->.
+Die obigen Überlegungen zeigen, dass die **Motivierung und Zielbildung** bedeutsame Bestandteile eines Lernprozesses sind, sich also in der Gestaltung konkreter Unterrichtssituationen widerspiegeln müssen -- durch entsprechende Phasen innerhalb einer Unterrichtsstunde. Erst wenn Motive und Ziele ausgeprägt sind, kann es in weiteren Unterrichtsphasen zur **Ausbildung der Lernhandlungen** kommen<!-- (siehe auch Abbildung \@ref(fig:Unterrichtsphasen))--><!--.
 
 ### Zone der nächsten Entwicklung
 
@@ -83,7 +85,7 @@ Aus dem Motiv heraus, sich mit einem konkreten Lerngegenstand zu beschäftigen, 
 
 Die Orientierung darauf, eines der *Ergebnisse* zu erzielen, entspricht demnach dem **Lernziel**. Hier ist zu beachten, dass das *Lernziel* nicht zu verwechseln ist mit dem von der Lehrkraft erwünschten *Lehrziel*.^[Erst recht nicht zu verwechseln ist der Begriff mit den »Lernzielen« außerhalb der Tätigkeitstheorie, die bspw. bei einer Unterrichtsplanung angegeben werden. Letztere entsprechen eher den Lehrzielen und können auch -- um Verwechslungen zu vermeiden -- als *Kompetenzziele* bezeichnet werden, da sie Kompetenzen beschreiben, die am Ende der entsprechenden Unterrichtsstunde ausgebildet worden sein sollen.] Lernziele werden individuell von den Schülerinnen und Schülern ausgeprägt. Sie haben jedoch als Lehrkraft die Aufgabe, eine solche Lernzielbildung zu unterstützen und idealerweise auch zu lenken, so dass die Schülerinnen und Schüler für den Lerngegenstand adäquate Lernziele bilden. Der Grad der **Bewusstheit, Allgemeinheit und Differenziertheit** des Lernziels bestimmt dabei letztlich auch, in welcher Qualität die darauf basierenden Lernhandlungen ausgeprägt werden [vgl. @Lompscher1985b 43]. Möchte ein Kind einfach nur die Lösung der Aufgabe $17+8$ ermitteln (Produktorientierung), so wird es nicht so qualitativ hochwertig und nachhaltig lernen können, als wenn es das Ziel verfolgt, grundsätzlich Additionsaufgaben mit Zehnerübergang lösen zu können (Ergebnisorientierung).
 
-Es bietet sich eine **explizite Verbalisierung und auch das Festhalten von Lernzielen** (z. B. an der Tafel) an, um während des Lernprozesses darauf zurückgreifen und seinen eigenen Handlungsfortschritt permanent mit den Zielen abgleichen zu können<!-- (vgl. *Handlungskontrolle* in Abschnitt \@ref(handlungskontrolle))-->.
+Es bietet sich eine **explizite Verbalisierung und auch das Festhalten von Lernzielen** (z. B. an der Tafel) an, um während des Lernprozesses darauf zurückgreifen und seinen eigenen Handlungsfortschritt permanent mit den Zielen abgleichen zu können<!-- (vgl. *Handlungskontrolle* in Abschnitt \@ref(handlungskontrolle))--><!--.
 
 
 > Anknüpfend an die Präsentation der Tierbilder zu Winkelfeldern wurde, von der Lehrkraft durch ein Lehrer-Schüler-Gespräch initiiert, als Lernziel formuliert: »Wir wollen Sichfelder von Tieren beschreiben und miteinander vergleichen« [vgl. @Etzold:2019Praxis4 6]. Diese Zielformulierung enthält bewusst keine mathematischen Fachbegriffe des neuen Lerngegenstandes, da diese zum entsprechenden Zeitpunkt ja noch gar nicht erarbeitet worden sind.
@@ -110,7 +112,7 @@ Es handelt sich also zwar um eine vollständige Orientierungsgrundlage, jedoch i
 Auch wenn eine Feldorientierung erstrebenswert ist, wird diese vermutlich nicht immer von allen Schülerinnen und Schülern erreicht werden können. Diesen Schülerinnen und Schülern sollten Sie jedoch dahingehend Unterstützung bieten, zumindest eine Musterorientierung zu erlangen. Hierzu gehört auch, das *Erfüllen eines Musters* explizit zu machen, also bei gegebenen Aufgabenstellungen zu untersuchen, inwieweit diese einem bereits bekannten Muster entsprechen und wie sie damit lösbar sind. Ebenfalls hilfreich, und auch den Übergang zur Feldorientierung stützend, sind **Orientierungshilfen**, also Verbalisierungen oder Repräsentationen zum Lerngegenstand, die beim Finden geeigneter Lernhandlungen unterstützen. Solche Orientierungshilfen sollten gemeinsam aus der ersten Beschäftigung mit dem Lerngegenstand herausgearbeitet und in den Umgang mit ihnen eingeführt werden, damit sie sinnvoll in den Lernprozess integriert werden können.
 
 Beispiele für Orientierungshilfen bei der Aneignung von Begriffen, Zusammenhängen und Verfahren finden sich in den nächsten Kapiteln<!-- \@ref(begriffe-sachverhalte-und-verfahren).
-Auch die nach Definition \@ref(def:Arbeitsmittel) eingeführten Arbeitsmittel können die Funktion einer Orientierungshilfe erfüllen, da sie nach Definition sogleich abstrakt wie anschaulich (in der dort verwendeten Charakterisierung) sind-->.
+Auch die nach Definition \@ref(def:Arbeitsmittel) eingeführten Arbeitsmittel können die Funktion einer Orientierungshilfe erfüllen, da sie nach Definition sogleich abstrakt wie anschaulich (in der dort verwendeten Charakterisierung) sind--><!--.
 
 > Die App Winkel-Farm unterstützt die Aneignung des Begriffs »Schenkel« eines Winkel mit dessen Strahl-Eigenschaft, indem sich die Bestandteile des Winkelfeldes ein- und ausblenden lassen sowie vom *Tiermodus* in den *Winkelfeldmodus* gewechselt werden kann und damit das Wesen des Begriffs hervorgehoben werden kann.
 
@@ -137,3 +139,4 @@ Lösen sie folgende Aufgaben am Beispiel des Lerngegenstands *Vierecksarten*.
 
 3. Entwerfen Sie eine Orientierungshilfe zum Identifizieren von Vierecksarten.
 
+-->

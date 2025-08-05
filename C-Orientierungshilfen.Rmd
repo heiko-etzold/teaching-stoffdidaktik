@@ -1,3 +1,5 @@
+<!--
+
 # Orientierungshilfen für Lehrhandlungen
 
 Dieser Anhang enthält verschiedene Orientierungshilfen für einzelne Planungs- und Durchführungshandlungen beim Lehren von Mathematik. Mehr Hinweise dazu, inwieweit Orientierungshilfen Unterstützung bieten können, finden sich in den vorherigen Kapiteln.
@@ -41,4 +43,4 @@ knitr::include_graphics("pictures/C-OrientierungshilfeLernprozesseAusloesen.png"
 
 Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-OrientierungshilfeLernprozesseAusloesen.pdf) heruntergeladen werden.
 
-
+-->

@@ -1,4 +1,4 @@
-
+<!--
 # (Hoch-)Schulmathematik strukturieren
 
 > **Ziele**
@@ -98,7 +98,7 @@ Einige Autoren zählen zu den Verfahren auch heuristische Strategien zum Problem
 
 * **Metamathematisches Wissen.** Darunter ist zu verstehen, *wie* Mathematik betrieben wird, also bspw. welche Möglichkeiten es gibt, ein mathematisches Problem zu lösen oder eine Sachsituation mathematisch zu modellieren.
 
-In den nächsten Kapiteln <!--Abschnitt \@ref(begriffe-sachverhalte-verfahren)--> wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Wissensarten gestaltet werden können.
+In den nächsten Kapiteln <!--Abschnitt \@ref(begriffe-sachverhalte-verfahren)--> <!--wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Wissensarten gestaltet werden können.
 
 
 ### Fundamentale Ideen
@@ -296,6 +296,6 @@ Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathem
 2. Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z. B. dass $a^0 = 1$ ($a\neq 0$) und $a^\frac{1}{2} = \sqrt{a}$ ($a \geq 0$) ist.
 3. Wählen Sie eine Leitidee aus den Bildungsstandards aus und nennen Sie innerhalb dieser Begriffe, Zusammenhänge und Verfahren, die im Mathematikunterricht behandelt werden.
 
-
+-->
 
 

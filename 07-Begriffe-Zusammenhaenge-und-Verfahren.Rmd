@@ -1,4 +1,4 @@
-
+<!--
 # Begriffe, Zusammenhänge, Verfahren
 
 
@@ -349,3 +349,4 @@ Weiterführende Möglichkeiten zur Erarbeitung von Begriffen, Zusammenhängen un
 
 2. Entwickeln Sie, entsprechend der Zusammenfassung in Tabelle \@ref(tab:festigen), Festigungsaufgaben zum Begriff *Erwartungswert*, zum Zusammenhang *Satz des Pythagoras* oder zum Verfahren *Polynomdivision*.
 
+-->

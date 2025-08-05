@@ -1,3 +1,4 @@
+<!--
 # (PART\*) Stoffdidaktische Analyse {.unnumbered}  
   
 # Vier-Ebenen-Ansatz
@@ -48,6 +49,7 @@ Diese Fragen können dabei helfen, einen Lerngegenstand aus professioneller Sich
 
 Als ***Lerngegenstände*** werden im Rahmen dieser Veranstaltung für spezifische Ausbildungszwecke ausgewählte Ausschnitte des gesellschaftlichen Wissens und Könnens angesehen [vgl. @Lompscher1985b]. Diese Sichtweise entstammt tätigkeitstheoretischen Überlegungen, wobei zwischen gesellschaftlichem Wissen und Können und individuellen Kenntnissen, Fähigkeiten und Fertigkeiten unterschieden wird. Weitere Hintergrundinformationen dazu finden Sie in späteren Kapiteln.<!--Abschnitt \@ref(aneignung-von-lerngegenstaenden) sowie in den Kapiteln \@ref(taetigkeitstheorie-und-lernen) und \@ref(lernhandlungen-ausbilden).-->
 
+<!--
 Zu Lerngegenständen gehören -- im Rahmen des Mathematikunterrichts -- sowohl **inhaltliche Themen** (wie der *Satz des Pythagoras*, *Rechnen mit negativen Zahlen*, …) als auch **typische Methoden und Vorgehensweisen** (wie das *Modellieren*, *Problemlösen*), aber auch **Werte und Normen**, die vermittelt werden sollen (z. B. dass in Rechnungen das *Gleichheitszeichen untereinander* geschrieben wird, handschriftliche Zeichnungen *mit einem gespitzen Bleistift anzufertigen* sind usw.). Auch innerhalb eines Themengebietes (z. B. dem Umgang mit Dezimalbrüchen) können Lerngegenstände beliebig kleinteilig beschreiben werden (etwa das Stellenwertverständnis, das Eintrag von Dezimalzahlen auf dem Zahlenstrahl usw.).
 
 Um einer solchen Kleinteiligkeit entgegenwirken und zielgerichtete Analysen vornehmen zu können, wird sich im Rahmen der Stoffdidaktik-Veranstaltung auf inhaltliche Themen konzentriert, die zu ***Lernbereichen*** zusammengeführt werden. Üblicherweise spiegeln sich Lernbereiche in einer **Unterrichtssequenz** (oder auch in der Kapitelstruktur von Schulbüchern) wider [vgl. auch @Vollrath2012 187] und benötigen einen einigermaßen vergleichbaren Aufwand für die stoffdidaktische Analyse.
@@ -170,3 +172,5 @@ Wichtig ist v. a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, d
 
 1. Lesen Sie den Artikel von @Hussmann:2016 zum Vier-Ebenen-Ansatz.
 2. Reflektieren Sie Ihre bisherige Fach- und Fachdidaktikausbildung in Mathematik dahingehend, welche der aufgeworfenen Fragen Sie zu konkreten Themenbereichen (nicht) beantworten könnten.
+
+-->

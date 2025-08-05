@@ -1,3 +1,5 @@
+<!--
+
 # Beispiel: Arithmetisches Mittel
 
 > **Ziele**  
@@ -171,5 +173,5 @@ knitr::include_graphics("pictures/B-Uebersicht.png")
 
 Stellen Sie eine Sammlung geeigneter Übungsaufgaben für die Festigungsphase zum arithmetischen Mittel zusammen. Begründen Sie die Auswahl der Aufgaben mithilfe mathematikdidaktischer Theorien.
 
-
+-->
 

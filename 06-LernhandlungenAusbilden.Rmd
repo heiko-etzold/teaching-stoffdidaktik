@@ -1,3 +1,5 @@
+<!--
+
 # Lernhandlungen ausbilden
 
 > **Ziele**
@@ -169,3 +171,4 @@ knitr::include_graphics("pictures/6-Unterrichtssituationen.png")
 Im nächsten Kapitel wird -- aufgeschlüsselt nach Begriffen, Zusammenhängen und Verfahren -- insbesondere dargestellt, wie Stoffvermittlung und Festigung allgemein gestaltet werden können. 
 All diese Überlegungen sind jedoch nicht als starres Unterrichtsvorgehen aufzufassen, sondern sollen vielmehr Ihnen als Lehrkraft wiederum eine *Orientierung* bieten, Ihren Unterricht zu strukturieren und entsprechende Lernumgebungen zu gestalten.
 
+-->

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="de-DE" xml:lang="de-DE">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>10 Analysis | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25</title>
+  <meta name="description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="10 Analysis | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  <meta name="github-repo" content="heiko-etzold/teaching-stoffdidaktik" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="10 Analysis | Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25" />
+  
+  <meta name="twitter:description" content="Vorlesungsskript zur Stoffdidaktik Mathematik im Wintersemester 2024/25 an der Universität Potsdam bei Dr. Heiko Etzold" />
+  
+
+<meta name="author" content="Dr. Heiko Etzold, Universität Potsdam" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="9-arithmetik-und-algebra.html"/>
+<link rel="next" href="11-geometrie.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script type="text/javascript">
+   $(document).ready(function(){
+     $("h3:contains(References)").text("Literatur");
+   });
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="own.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="index.html"><b>Stoffdidaktik Mathematik 2024/25</b></a></li>
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="index.html"><i class="fa fa-check"></i>Über dieses Dokument</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html"><i class="fa fa-check"></i>Stoffdidaktik Mathematik an der UP</a>
+<ul>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#struktur-der-veranstaltung"><i class="fa fa-check"></i>Struktur der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#einordnung"><i class="fa fa-check"></i>Einordnung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#kompetenzziele-der-veranstaltung"><i class="fa fa-check"></i>Kompetenzziele der Veranstaltung</a></li>
+<li class="chapter" data-level="" data-path="stoffdidaktik-mathematik-an-der-up.html"><a href="stoffdidaktik-mathematik-an-der-up.html#was-ist-stoffdidaktik"><i class="fa fa-check"></i>Was ist Stoffdidaktik?</a></li>
+</ul></li>
+<li class="part"><span><b>Stoffdidaktische Analyse</b></span></li>
+<li class="chapter" data-level="1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html"><i class="fa fa-check"></i><b>1</b> Vier-Ebenen-Ansatz</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="10-Analysis.html"><a href="#analyse-von-lerngegenst%C3%A4nden"><i class="fa fa-check"></i><b>1.1</b> Analyse von Lerngegenständen</a></li>
+<li class="chapter" data-level="1.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#lernbereich-und-lerngegenstand"><i class="fa fa-check"></i><b>1.2</b> Lernbereich und Lerngegenstand</a></li>
+<li class="chapter" data-level="1.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#beispiel-winkelbegriff"><i class="fa fa-check"></i><b>1.3</b> Beispiel Winkelbegriff</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#formale-ebene"><i class="fa fa-check"></i><b>1.3.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="1.3.2" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#semantische-ebene"><i class="fa fa-check"></i><b>1.3.2</b> Semantische Ebene</a></li>
+<li class="chapter" data-level="1.3.3" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#konkrete-ebene"><i class="fa fa-check"></i><b>1.3.3</b> Konkrete Ebene</a></li>
+<li class="chapter" data-level="1.3.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#empirische-ebene"><i class="fa fa-check"></i><b>1.3.4</b> Empirische Ebene</a></li>
+<li class="chapter" data-level="1.3.5" data-path="10-Analysis.html"><a href="#verkn%C3%BCpfung-der-ebenen"><i class="fa fa-check"></i><b>1.3.5</b> Verknüpfung der Ebenen</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="1-vier-ebenen-ansatz.html"><a href="1-vier-ebenen-ansatz.html#vier-ebenen-nachbereitung"><i class="fa fa-check"></i><b>1.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html"><i class="fa fa-check"></i><b>2</b> (Hoch-)Schulmathematik strukturieren</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="10-Analysis.html"><a href="#doppelte-diskontinuit%C3%A4t"><i class="fa fa-check"></i><b>2.1</b> Doppelte Diskontinuität</a></li>
+<li class="chapter" data-level="2.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#geeignete-quellen"><i class="fa fa-check"></i><b>2.2</b> Geeignete Quellen</a></li>
+<li class="chapter" data-level="2.3" data-path="10-Analysis.html"><a href="#strukturierungsm%C3%B6glichkeiten"><i class="fa fa-check"></i><b>2.3</b> Strukturierungsmöglichkeiten</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#sachgebiete"><i class="fa fa-check"></i><b>2.3.1</b> Sachgebiete</a></li>
+<li class="chapter" data-level="2.3.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#leitideen"><i class="fa fa-check"></i><b>2.3.2</b> Leitideen</a></li>
+<li class="chapter" data-level="2.3.3" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#arten-mathematischen-wissens"><i class="fa fa-check"></i><b>2.3.3</b> Arten mathematischen Wissens</a></li>
+<li class="chapter" data-level="2.3.4" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#fundamentale-ideen"><i class="fa fa-check"></i><b>2.3.4</b> Fundamentale Ideen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#beispiel-negative-zahlen"><i class="fa fa-check"></i><b>2.4</b> Beispiel Negative Zahlen</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="10-Analysis.html"><a href="#nat%C3%BCrliche-zahlen"><i class="fa fa-check"></i><b>2.4.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="2.4.2" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#ganze-zahlen"><i class="fa fa-check"></i><b>2.4.2</b> Ganze Zahlen</a></li>
+<li class="chapter" data-level="2.4.3" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#rationale-zahlen"><i class="fa fa-check"></i><b>2.4.3</b> Rationale Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="2-hoch-schulmathematik-strukturieren.html"><a href="2-hoch-schulmathematik-strukturieren.html#mathematik-strukturieren-nachbereitung"><i class="fa fa-check"></i><b>2.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html"><i class="fa fa-check"></i><b>3</b> Grundvorstellungen</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungen-begriffsklaerung"><i class="fa fa-check"></i><b>3.1</b> Begriffsklärung</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungsidee"><i class="fa fa-check"></i><b>3.1.1</b> Grundvorstellungsidee</a></li>
+<li class="chapter" data-level="3.1.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#ausdifferenzierung"><i class="fa fa-check"></i><b>3.1.2</b> Ausdifferenzierung</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#gv-und-stoffdidaktik"><i class="fa fa-check"></i><b>3.2</b> GV und Stoffdidaktik</a></li>
+<li class="chapter" data-level="3.3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#beispiele"><i class="fa fa-check"></i><b>3.3</b> Beispiele</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="10-Analysis.html"><a href="#nat%C3%BCrliche-zahlen-1"><i class="fa fa-check"></i><b>3.3.1</b> Natürliche Zahlen</a></li>
+<li class="chapter" data-level="3.3.2" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#bruchzahlen"><i class="fa fa-check"></i><b>3.3.2</b> Bruchzahlen</a></li>
+<li class="chapter" data-level="3.3.3" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#negative-zahlen"><i class="fa fa-check"></i><b>3.3.3</b> Negative Zahlen</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="3-grundvorstellungen.html"><a href="3-grundvorstellungen.html#grundvorstellungen-nachbereitung"><i class="fa fa-check"></i><b>3.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html"><i class="fa fa-check"></i><b>4</b> Kernideen und Kontexte</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kernidee-begriffsklaerung"><i class="fa fa-check"></i><b>4.1</b> Begriffsklärung Kernidee/-frage</a></li>
+<li class="chapter" data-level="4.2" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kontexte-begriffsklaerung"><i class="fa fa-check"></i><b>4.2</b> Begriffsklärung Kontext</a></li>
+<li class="chapter" data-level="4.3" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#mathematisierungstypen"><i class="fa fa-check"></i><b>4.3</b> Mathematisierungstypen</a></li>
+<li class="chapter" data-level="4.4" data-path="4-kernideen-und-kontexte.html"><a href="4-kernideen-und-kontexte.html#kernideen-kontexte-nachbereitung"><i class="fa fa-check"></i><b>4.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Lernprozesse gestalten</b></span></li>
+<li class="chapter" data-level="5" data-path="10-Analysis.html"><a href="5-lernprozesse-auslösen.html"><i class="fa fa-check"></i><b>5</b> Lernprozesse auslösen</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html"><i class="fa fa-check"></i><b>5.1</b> Lerntätigkeit und Lernhandlung</a></li>
+<li class="chapter" data-level="5.2" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#motivierung-und-zielbildung"><i class="fa fa-check"></i><b>5.2</b> Motivierung und Zielbildung</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="10-Analysis.html"><a href="#zone-der-n%C3%A4chsten-entwicklung"><i class="fa fa-check"></i><b>5.2.1</b> Zone der nächsten Entwicklung</a></li>
+<li class="chapter" data-level="5.2.2" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#lernzielbildung"><i class="fa fa-check"></i><b>5.2.2</b> Lernzielbildung</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#orientierungsbildung"><i class="fa fa-check"></i><b>5.3</b> Orientierungsbildung</a></li>
+<li class="chapter" data-level="5.4" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#bezuege-zur-stoffdidaktik"><i class="fa fa-check"></i><b>5.4</b> Bezüge zur Stoffdidaktik</a></li>
+<li class="chapter" data-level="5.5" data-path="5-lernprozesse-auslösen.html"><a href="5-lernprozesse-auslösen.html#taetigkeitstheorie-nachbereitung"><i class="fa fa-check"></i><b>5.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html"><i class="fa fa-check"></i><b>6</b> Lernhandlungen ausbilden</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#aneignung-von-lerngegenstaenden"><i class="fa fa-check"></i><b>6.1</b> Aneignung von Lerngegenständen</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#vermittelnde-werkzeuge"><i class="fa fa-check"></i><b>6.1.1</b> Vermittelnde Werkzeuge</a></li>
+<li class="chapter" data-level="6.1.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#zur-rolle-des-sprechens"><i class="fa fa-check"></i><b>6.1.2</b> Zur Rolle des Sprechens</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#typische-lernhandlungen"><i class="fa fa-check"></i><b>6.2</b> Typische Lernhandlungen</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#elementare-aneignungshandlungen"><i class="fa fa-check"></i><b>6.2.1</b> Elementare Aneignungshandlungen</a></li>
+<li class="chapter" data-level="6.2.2" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#grundhandlungen"><i class="fa fa-check"></i><b>6.2.2</b> Grundhandlungen</a></li>
+<li class="chapter" data-level="6.2.3" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#komplexe-handlungen"><i class="fa fa-check"></i><b>6.2.3</b> Komplexe Handlungen</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#ausfuehren-und-verinnerlichen"><i class="fa fa-check"></i><b>6.3</b> Ausführen und Verinnerlichen</a></li>
+<li class="chapter" data-level="6.4" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#festigung"><i class="fa fa-check"></i><b>6.4</b> Festigung</a></li>
+<li class="chapter" data-level="6.5" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#handlungskontrolle"><i class="fa fa-check"></i><b>6.5</b> Handlungskontrolle</a></li>
+<li class="chapter" data-level="6.6" data-path="6-lernhandlungen-ausbilden.html"><a href="6-lernhandlungen-ausbilden.html#bezuege-zur-stoffdidaktik-lernhandlungen"><i class="fa fa-check"></i><b>6.6</b> Bezüge zur Stoffdidaktik</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="10-Analysis.html"><a href="7-begriffe-zusammenhänge-verfahren.html"><i class="fa fa-check"></i><b>7</b> Begriffe, Zusammenhänge, Verfahren</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html"><i class="fa fa-check"></i><b>7.1</b> Begriffe</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-bilden"><i class="fa fa-check"></i><b>7.1.1</b> Begriffe bilden</a></li>
+<li class="chapter" data-level="7.1.2" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-aneignen"><i class="fa fa-check"></i><b>7.1.2</b> Begriffe aneignen</a></li>
+<li class="chapter" data-level="7.1.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-festigen"><i class="fa fa-check"></i><b>7.1.3</b> Begriffe festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.2" data-path="10-Analysis.html"><a href="#zusammenh%C3%A4nge"><i class="fa fa-check"></i><b>7.2</b> Zusammenhänge</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="10-Analysis.html"><a href="#zusammenh%C3%A4nge-erarbeiten"><i class="fa fa-check"></i><b>7.2.1</b> Zusammenhänge erarbeiten</a></li>
+<li class="chapter" data-level="7.2.2" data-path="10-Analysis.html"><a href="#zusammenh%C3%A4nge-aneignen"><i class="fa fa-check"></i><b>7.2.2</b> Zusammenhänge aneignen</a></li>
+<li class="chapter" data-level="7.2.3" data-path="10-Analysis.html"><a href="#zusammenh%C3%A4nge-festigen"><i class="fa fa-check"></i><b>7.2.3</b> Zusammenhänge festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren"><i class="fa fa-check"></i><b>7.3</b> Verfahren</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-gewinnen"><i class="fa fa-check"></i><b>7.3.1</b> Verfahren gewinnen</a></li>
+<li class="chapter" data-level="7.3.2" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-aneignen"><i class="fa fa-check"></i><b>7.3.2</b> Verfahren aneignen</a></li>
+<li class="chapter" data-level="7.3.3" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#verfahren-festigen"><i class="fa fa-check"></i><b>7.3.3</b> Verfahren festigen</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#zusammenfassung"><i class="fa fa-check"></i><b>7.4</b> Zusammenfassung</a></li>
+<li class="chapter" data-level="7.5" data-path="7-begriffe-zusammenhänge-verfahren.html"><a href="7-begriffe-zusammenhänge-verfahren.html#begriffe-Zusammenhaenge-verfahren-nachbereitung"><i class="fa fa-check"></i><b>7.5</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html"><i class="fa fa-check"></i><b>8</b> Arbeitsmittel</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-begriffsklaerung"><i class="fa fa-check"></i><b>8.1</b> Begriffsklärung Arbeitsmittel</a></li>
+<li class="chapter" data-level="8.2" data-path="10-Analysis.html"><a href="#beispiel-%C3%A4quivalenzumformungen"><i class="fa fa-check"></i><b>8.2</b> Beispiel Äquivalenzumformungen</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#der-gleichungsbegriff"><i class="fa fa-check"></i><b>8.2.1</b> Der Gleichungsbegriff</a></li>
+<li class="chapter" data-level="8.2.2" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#umformungen-verstehen"><i class="fa fa-check"></i><b>8.2.2</b> Umformungen verstehen</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="8-arbeitsmittel.html"><a href="8-arbeitsmittel.html#arbeitsmittel-nachbereitung"><i class="fa fa-check"></i><b>8.3</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="part"><span><b>Didaktik der Sachgebiete</b></span></li>
+<li class="chapter" data-level="9" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html"><i class="fa fa-check"></i><b>9</b> Arithmetik und Algebra</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="10-Analysis.html"><a href="#%C3%BCbergang-arithmetik-algebra"><i class="fa fa-check"></i><b>9.1</b> Übergang Arithmetik → Algebra</a></li>
+<li class="chapter" data-level="9.2" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzeln"><i class="fa fa-check"></i><b>9.2</b> Wurzeln</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzel-begriffsverstaendnis"><i class="fa fa-check"></i><b>9.2.1</b> Begriffsverständnis</a></li>
+<li class="chapter" data-level="9.2.2" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#wurzelbehandlung"><i class="fa fa-check"></i><b>9.2.2</b> Wurzelbehandlung</a></li>
+<li class="chapter" data-level="9.2.3" data-path="9-arithmetik-und-algebra.html"><a href="9-arithmetik-und-algebra.html#heron-verfahren"><i class="fa fa-check"></i><b>9.2.3</b> Heron-Verfahren</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-analysis.html"><a href="10-analysis.html"><i class="fa fa-check"></i><b>10</b> Analysis</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="10-analysis.html"><a href="10-analysis.html#analysis-in-der-sek.-ii"><i class="fa fa-check"></i><b>10.1</b> Analysis in der Sek. II</a></li>
+<li class="chapter" data-level="10.2" data-path="10-analysis.html"><a href="10-analysis.html#grenzwertbegriff"><i class="fa fa-check"></i><b>10.2</b> Grenzwertbegriff</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="10-analysis.html"><a href="10-analysis.html#fachliche-hinweise"><i class="fa fa-check"></i><b>10.2.1</b> Fachliche Hinweise</a></li>
+<li class="chapter" data-level="10.2.2" data-path="10-Analysis.html"><a href="#unterrichtliche-zug%C3%A4nge"><i class="fa fa-check"></i><b>10.2.2</b> Unterrichtliche Zugänge</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="10-analysis.html"><a href="10-analysis.html#ableitungsbegriff"><i class="fa fa-check"></i><b>10.3</b> Ableitungsbegriff</a></li>
+<li class="chapter" data-level="10.4" data-path="10-analysis.html"><a href="10-analysis.html#computer-algebra-systeme"><i class="fa fa-check"></i><b>10.4</b> Computer-Algebra-Systeme</a>
+<ul>
+<li class="chapter" data-level="10.4.1" data-path="10-analysis.html"><a href="10-analysis.html#software-und-hardware"><i class="fa fa-check"></i><b>10.4.1</b> Software und Hardware</a></li>
+<li class="chapter" data-level="10.4.2" data-path="10-analysis.html"><a href="10-analysis.html#bedienung-schulen"><i class="fa fa-check"></i><b>10.4.2</b> Bedienung schulen</a></li>
+<li class="chapter" data-level="10.4.3" data-path="10-analysis.html"><a href="10-analysis.html#neue-aufgabenkultur"><i class="fa fa-check"></i><b>10.4.3</b> Neue Aufgabenkultur</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="11-geometrie.html"><a href="11-geometrie.html"><i class="fa fa-check"></i><b>11</b> Geometrie</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="11-geometrie.html"><a href="11-geometrie.html#lagebeziehungen"><i class="fa fa-check"></i><b>11.1</b> Lagebeziehungen</a>
+<ul>
+<li class="chapter" data-level="11.1.1" data-path="11-geometrie.html"><a href="11-geometrie.html#lagebeziehungen-falten"><i class="fa fa-check"></i><b>11.1.1</b> Lagebeziehungen falten</a></li>
+<li class="chapter" data-level="11.1.2" data-path="11-geometrie.html"><a href="11-geometrie.html#skalarprodukt"><i class="fa fa-check"></i><b>11.1.2</b> Skalarprodukt</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="11-geometrie.html"><a href="11-geometrie.html#dynamische-geometriesysteme"><i class="fa fa-check"></i><b>11.2</b> Dynamische Geometriesysteme</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="12-stochastik.html"><a href="12-stochastik.html"><i class="fa fa-check"></i><b>12</b> Stochastik</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="10-Analysis.html"><a href="#stochastische-vorg%C3%A4nge"><i class="fa fa-check"></i><b>12.1</b> Stochastische Vorgänge</a>
+<ul>
+<li class="chapter" data-level="12.1.1" data-path="12-stochastik.html"><a href="12-stochastik.html#modellierungsstruktur"><i class="fa fa-check"></i><b>12.1.1</b> Modellierungsstruktur</a></li>
+<li class="chapter" data-level="12.1.2" data-path="12-stochastik.html"><a href="12-stochastik.html#prozessbetrachtung"><i class="fa fa-check"></i><b>12.1.2</b> Prozessbetrachtung</a></li>
+</ul></li>
+<li class="chapter" data-level="12.2" data-path="12-stochastik.html"><a href="12-stochastik.html#kombinatorik"><i class="fa fa-check"></i><b>12.2</b> Kombinatorik</a></li>
+<li class="chapter" data-level="12.3" data-path="12-stochastik.html"><a href="12-stochastik.html#boxplot"><i class="fa fa-check"></i><b>12.3</b> Boxplot</a></li>
+<li class="chapter" data-level="12.4" data-path="12-stochastik.html"><a href="12-stochastik.html#bedingte-wahrscheinlichkeiten"><i class="fa fa-check"></i><b>12.4</b> Bedingte Wahrscheinlichkeiten</a></li>
+</ul></li>
+<li class="appendix"><span><b>Anhang</b></span></li>
+<li class="chapter" data-level="A" data-path="A-sammlung-von-lernbereichen.html"><a href="A-sammlung-von-lernbereichen.html"><i class="fa fa-check"></i><b>A</b> Sammlung von Lernbereichen</a></li>
+<li class="chapter" data-level="B" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html"><i class="fa fa-check"></i><b>B</b> Beispiel: Arithmetisches Mittel</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="10-Analysis.html"><a href="#stoffdidaktische-hintergr%C3%BCnde"><i class="fa fa-check"></i><b>B.1</b> Stoffdidaktische Hintergründe</a></li>
+<li class="chapter" data-level="B.2" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#kompetenzziele"><i class="fa fa-check"></i><b>B.2</b> Kompetenzziele</a></li>
+<li class="chapter" data-level="B.3" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#unterrichtsphasen"><i class="fa fa-check"></i><b>B.3</b> Unterrichtsphasen</a>
+<ul>
+<li class="chapter" data-level="B.3.1" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#motivierung-und-zielbildung-1"><i class="fa fa-check"></i><b>B.3.1</b> Motivierung und Zielbildung</a></li>
+<li class="chapter" data-level="B.3.2" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#stoffvermittlung"><i class="fa fa-check"></i><b>B.3.2</b> Stoffvermittlung</a></li>
+<li class="chapter" data-level="B.3.3" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#festigung-1"><i class="fa fa-check"></i><b>B.3.3</b> Festigung</a></li>
+<li class="chapter" data-level="B.3.4" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#handlungskontrolle-1"><i class="fa fa-check"></i><b>B.3.4</b> Handlungskontrolle</a></li>
+</ul></li>
+<li class="chapter" data-level="B.4" data-path="B-beispiel-arithmetisches-mittel.html"><a href="B-beispiel-arithmetisches-mittel.html#beispiel-arithmetisches-mitttel-nachbereitung"><i class="fa fa-check"></i><b>B.4</b> Zum Nachbereiten</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="10-Analysis.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html"><i class="fa fa-check"></i><b>C</b> Orientierungshilfen für Lehrhandlungen</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html"><i class="fa fa-check"></i><b>C.1</b> Formale Ebene</a></li>
+<li class="chapter" data-level="C.2" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html#orientierungshilfe-kernideen-finden"><i class="fa fa-check"></i><b>C.2</b> Kernideen/Kernfragen finden</a></li>
+<li class="chapter" data-level="C.3" data-path="C-orientierungshilfen-für-lehrhandlungen.html"><a href="C-orientierungshilfen-für-lehrhandlungen.html#orientierungshilfe-lernprozesse-ausloesen"><i class="fa fa-check"></i><b>C.3</b> Lernprozesse auslösen</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="D-quellenarbeit.html"><a href="D-quellenarbeit.html"><i class="fa fa-check"></i><b>D</b> Quellenarbeit</a></li>
+<li class="chapter" data-level="E" data-path="10-Analysis.html"><a href="E-vollständiges-literaturverzeichnis.html"><i class="fa fa-check"></i><b>E</b> Vollständiges Literaturverzeichnis</a></li>
+<li class="divider"></li>
+<li><a href="https://creativecommons.org/licenses/by-sa/4.0/" style="display:inline;"><img style="vertical-align:middle;" src="pictures/by-sa.png" height="20px"/></a>Heiko Etzold, 2025</li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Stoffdidaktik Mathematik – Skript zur Vorlesung im Wintersemester 2024/25</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="analysis" class="section level1 hasAnchor" number="10">
+<h1><span class="header-section-number">10</span> Analysis<a href="10-analysis.html#analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<blockquote>
+<p><strong>Ziele</strong></p>
+<ul>
+<li>Sie sind sich bewusst, dass Analysis in Universität und Schule unterschiedlich strukturiert sind und dies in der Schulrealität in einen propädeutischen Grenzwertbegriff mündet.<br />
+</li>
+<li>Sie kennen Grundvorstellungen zum Ableitungsbegriff.<br />
+</li>
+<li>Sie haben einen Einblick in das Unterrichten mit CAS als Werkzeug für die Schülerinnen und Schüler.</li>
+</ul>
+<p><strong>Material</strong></p>
+<ul>
+<li>Folien zum Kapitel 10 (<a href="files/Stoffdidaktik2024-10-Analysis.pdf">pdf</a>, <a href="files/Stoffdidaktik2024-10-Analysis.key">Keynote</a>)</li>
+</ul>
+<p><strong>Literaturempfehlungen</strong></p>
+<ul>
+<li><span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016</a>)</span>: <em>Didaktik der Analysis. Aspekte und Grundvorstellungen zentraler Begriffe</em></li>
+<li><span class="citation">Danckwerts &amp; Vogel (<a href="#ref-Danckwerts2010">2010</a>)</span>: <em>Analysis verständlich unterrichten</em></li>
+<li><span class="citation">Tietze et al. (<a href="#ref-Tietze:2000a">2000a</a>)</span>: <em>Mathematikunterricht in der Sekundarstufe II. Band 1: Fachdidaktische Grundfragen, Didaktik der Analysis</em></li>
+</ul>
+</blockquote>
+<div id="analysis-in-der-sek.-ii" class="section level2 hasAnchor" number="10.1">
+<h2><span class="header-section-number">10.1</span> Analysis in der Sek. II<a href="10-analysis.html#analysis-in-der-sek.-ii" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Der Analysisunterricht in der Schule unterscheidet sich wesentlich von dem in der Hochschule, womit aus fachlicher wie fachdidaktischer Sicht einige Herausforderungen einhergehen. Neben der grundsätzlichen nicht streng deduktiven Herangehensweise werden i. d. R. zentrale Begriffe der Analysis im Schulunterricht kaum oder nur propädeutisch-anschaulich behandelt. Die betrifft zunächst einmal den <strong>Folgen-, Grenzwert- und Stetigkeitsbegriff</strong> <span class="citation">(<a href="#ref-Danckwerts2010">Danckwerts &amp; Vogel, 2010, 17 ff.</a>; <a href="#ref-Greefrath2016">Greefrath et al., 2016, 23 ff.</a>; <a href="#ref-Tietze:2000a">Tietze et al., 2000a, 252 ff.</a>)</span>. Der Ableitungsbegriff bedarf bspw. des Grenzwertes des Differenzenquotienten. Ein solcher Grenzwert einer Funktion <span class="math inline">\(f\)</span> an einer Stelle <span class="math inline">\(a\)</span> existiert, wenn für alle Folgen <span class="math inline">\((x_n)_{n\in\mathbb{N}}\)</span> mit <span class="math inline">\(x_n\rightarrow a\)</span> auch die Folge der Funktionswerte konvergiert, also <span class="math inline">\(f(x_n)\rightarrow f(a)\)</span>. Für den Konvergenzbegriff einer Folge ist nun zum anderen die <strong>Vollständigkeit der reellen Zahlen</strong> von enormer Bedeutung, was ebenfalls in der Schule nicht in einer derartigen Strenge behandelt wird <span class="citation">(siehe z. B. <a href="#ref-Danckwerts2010">Danckwerts &amp; Vogel, 2010, 27 ff.</a>)</span>. Mathematisch relevant ist für die Konvergenz einer Folge <span class="math inline">\((x_n)_{n\in\mathbb{N}}\)</span> gegen <span class="math inline">\(a\)</span> eben nicht nur, dass die Folgeglieder dem <span class="math inline">\(a\)</span> beliebig nahe kommen, sondern dass <span class="math inline">\(a\)</span> im betrachteten Zahlbereich tatsächlich existiert. Ein klassisches Beispiel hierfür ist das Heron-Verfahren zum Wurzelbestimmen (vgl. Abschnitt <a href="9-arithmetik-und-algebra.html#heron-verfahren">9.2.3</a>). So liefert die rekursive Folge<span class="math inline">\(x_{n+1} = \frac{1}{2}\left(x_n + \frac{5}{x_n}\right)\)</span> mit bspw. <span class="math inline">\(x_0 = 1\)</span> ausschließlich Folgeglieder aus <span class="math inline">\(\mathbb{Q}\)</span>, die sich auch beliebig nahe kommen (eine sogenannte <em>Cauchy-Folge</em>), der Grenzwert selbst ist aber <span class="math inline">\(\sqrt{5}\)</span>, was nicht in <span class="math inline">\(\mathbb{Q}\)</span>, sondern nur in <span class="math inline">\(\mathbb{R}\)</span> liegt.</p>
+<p>Ohne derartige zentrale (im fachmathematischen Sinne sauber ausgeprägte) Begriffe Analysisunterricht zu betreiben, bedarf also einer starken Orientierung an den hinter den Begriffen liegenden Grundvorstellungen, damit dennoch ein inhaltlich-anschauliches Verständnis aufgebaut werden kann und der Unterricht nicht zu einem kalkülhaften Vorgehen verkommt. Spezifische Anregungen für einzelne Lerngegenstände bieten die bereits zitierten Quellen.</p>
+</div>
+<div id="grenzwertbegriff" class="section level2 hasAnchor" number="10.2">
+<h2><span class="header-section-number">10.2</span> Grenzwertbegriff<a href="10-analysis.html#grenzwertbegriff" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="fachliche-hinweise" class="section level3 hasAnchor" number="10.2.1">
+<h3><span class="header-section-number">10.2.1</span> Fachliche Hinweise<a href="10-analysis.html#fachliche-hinweise" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Da in der Schule i. d. R. keine systematische Behandlung von Folgen erfolgt, ist auch eine formale Definition des Grenzwertbegriffes nicht möglich. Man bedient sich daher – und so wird es auch im Brandenburgischen Rahmenlehrplan verlangt – eines <strong>propädeutischen Zugangs zum Grenzwertbegriff</strong> <span class="citation">(vgl. <a href="#ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022">Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022b, 25, 28</a>)</span>. Damit ist gemeint, dass der Begriff <em>vorgebildet</em> wird, ohne auf eine formale Definition zurückzugreifen. Diese Propädeutik kann dann entweder dazu dienen, später formalisiert zu werden (was beim Grenzwertbegriff jedoch in der Schule normalerweise nicht geschieht, sondern dann erst in einem Mathematikstudium erfolgt) oder aufbauend auf die Propädeutik andere Begrifflichkeiten einzuführen (wie den Ableitungsbegriff). Dabei werden zwar fachliche Lücken hingenommen, aber dennoch versucht, ein Begriffsverständnis aufzubauen.</p>
+<p>Formal kann der Grenzwert bzw. die Konvergenz einer Folge definiert werden:</p>
+<p><em>Eine Folge <span class="math inline">\(a_n\)</span> heißt konvergent gegen den Grenzwert <span class="math inline">\(a\)</span>, wenn für jedes <span class="math inline">\(\varepsilon &gt; 0\)</span> ein <span class="math inline">\(n_0\)</span> existiert, so dass für alle <span class="math inline">\(n&gt;n_0\)</span> gilt: <span class="math inline">\(|a_n-a| &lt; \varepsilon\)</span>.</em></p>
+<p>Dabei muss noch festgelegt werden, aus welchem (gemeinsamen) Zahlbereich <span class="math inline">\(a\)</span> und die <span class="math inline">\(a_n\)</span> stammen. Die in Abbildung <a href="10-analysis.html#fig:Grenzwert">10.1</a> dargestellte Visualisierung zum Grenzwertbegriff steht auch als virtuelles Arbeitsmittel über <a href="https://www.geogebra.org/m/fwzbx3xa" class="uri">https://www.geogebra.org/m/fwzbx3xa</a> zur Verfügung.</p>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Grenzwert"></span>
+<img src="pictures/10-Grenzwert.png" alt="Visualisierung zum Grenzwertbegriff (Enders, 2024, S. 36)" width="90%" />
+<p class="caption">
+Abb. 10.1: Visualisierung zum Grenzwertbegriff <span class="citation">(<a href="#ref-Enders2024">Enders, 2024, S. 36</a>)</span>
+</p>
+</div>
+<p>Aus der formalen Definition ergeben sich einige Schlussfolgerungen, die – bei fehlender formaler Definition und einem rein intuitiven Zugang – häufig mit fehlerhaften Vorstellungen zur Konvergenz und zum Grenzwert einhergehen. Formuliert werden im Folgenden die <em>mathematisch korrekten</em> Aussagen.</p>
+<ul>
+<li><p>Es ist notwendig, dass der <strong>Grenzwert</strong> <span class="math inline">\(a\)</span> tatsächlich <strong>im betrachteten Zahlbereich</strong> auch <strong>existiert</strong> – ansonsten kann nicht von Konvergenz gesprochen werden. Es reicht also nicht aus, dass die Folgeglieder einander immer näher kommen.<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a> Ein typisches Gegenbeispiel hierfür ist die rekursive Folge <span class="math inline">\(a_{n+1} = \frac{1}{2}\left(a_n+\frac{5}{a_n}\right)\)</span>, <span class="math inline">\(a_0 = 1\)</span>, die das Heron-Verfahren beschreibt (siehe Abschnitt <a href="9-arithmetik-und-algebra.html#heron-verfahren">9.2.3</a>). Betrachtet man diese Folge in <span class="math inline">\(\mathbb{Q}\)</span> (wobei wegen der Grundrechenarten alle Folgeglieder in <span class="math inline">\(\mathbb{Q}\)</span> bleiben), so ist diese dort nicht konvergent, weil es in <span class="math inline">\(\mathbb{Q}\)</span> keine Zahl gibt, der die Folgeglieder beliebig nah kommen. Erst in <span class="math inline">\(\mathbb{R}\)</span> ist diese Folge konvergent gegen den Grenzwert <span class="math inline">\(\sqrt{5}\)</span>.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a></p></li>
+<li><p>Die <strong>Reihenfolge</strong> der Folgeglieder ist <strong>irrelevant</strong> für die Konvergenz. Da bei einer konvergenten Folge <em>fast alle</em> Folgeglieder (also alle bis auf endlich viele) in der <span class="math inline">\(\varepsilon\)</span>-Umgebung des Grenzwertes liegen, kann bei einer umsortierten Folge das letzte Folgeglied gesucht werden, welches geradeso nicht mehr in der <span class="math inline">\(\varepsilon\)</span>-Umgebung liegt und anschließend ab dessen Nachfolger das Konvergenzkriterium erfüllt werden.</p></li>
+<li><p>Die Folgeglieder können zwar, aber <strong>müssen dem Grenzwert nicht bei jedem Schritt immer näher kommen</strong>. Bei der Folge <span class="math display">\[0,33\quad 0,3\quad 0,3333 \quad 0,333 \quad0,333333 \quad  \ldots\]</span>
+kommt bspw. nur jedes zweite Folgeglied dem Grenzwert <span class="math inline">\(\frac{1}{3}\)</span> näher, dennoch konvergiert die Folge, weil bei vorgegebener Genauigkeit (<span class="math inline">\(\varepsilon\)</span>) ein Folgeglied gefunden werden kann (<span class="math inline">\(a_{n_0}\)</span>), ab dem alle diese Genauigkeit erfüllen <span class="citation">(vgl. <a href="#ref-Ableitinger2013b">Ableitinger &amp; Heitzer, 2013, S. 7</a>)</span>.</p></li>
+<li><p>Es ist <strong>irrelevant, ob der Grenzwert erreicht wird oder nicht</strong>. Bei den meisten Beispielen kommen die Folgeglieder dem Grenzwert immer näher, ohne ihn jemals zu erreichen. Dies ist jedoch für die Konvergenz nicht relevant. Es ist durchaus möglich, dass der Grenzwert ab einem bestimmten <span class="math inline">\(n_0\)</span> tatsächlich erreicht wird (oder auch zwischendurch immer mal wieder). Insofern sind auch konstante Folgen konvergente Folgen.</p></li>
+</ul>
+</div>
+<div id="unterrichtliche-zugänge" class="section level3 hasAnchor" number="10.2.2">
+<h3><span class="header-section-number">10.2.2</span> Unterrichtliche Zugänge<a href="#unterrichtliche-zug%C3%A4nge" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Um trotz eines <em>nur</em> propädeutischen Zugangs zum Grenzwertbegriff Schul-Analysis betreiben zu können, bedarf es (auch schon in der Sekundarstufe I) vielfältiger Erfahrungen zu Grenzprozessen, bei denen die hinter dem Grenzwertbegriff stehenden Ideen sichtbar werden. <span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016, 107 ff.</a>)</span> und <span class="citation">Ableitinger &amp; Heitzer (<a href="#ref-Ableitinger2013b">2013, S. 3</a>)</span> führen hierzu vielfältige Vorschläge auf, aus denen hier einige vorgestellt werden sollen.</p>
+<ul>
+<li>In <strong>geometrischen Situationen</strong> können Grenzprozesse betrachtet werden, etwas bei der näherungsweisen Bestimmung des Flächeninhalts eines Kreises über das Ein- und Umschreiben mittels regelmäßiger <span class="math inline">\(n\)</span>-Ecke.</li>
+</ul>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Kreis"></span>
+<img src="pictures/10-Kreis.png" alt="Näherungsweise Bestimmung des Kreisflächeninhalts" width="50%" />
+<p class="caption">
+Abb. 10.2: Näherungsweise Bestimmung des Kreisflächeninhalts
+</p>
+</div>
+<ul>
+<li><p>In <strong>numerischen Situationen</strong> kann die Idee des Grenzprozesses verdeutlicht werden, etwa wenn die Zahl <span class="math inline">\(\frac{1}{3}\)</span> notiert wird als <span class="math inline">\(\frac{1}{3} = 0,\bar{3} = 0,3 + 0,03 + 0,003 + \ldots\)</span> oder die Gleichheit von <span class="math inline">\(0,\bar{9} = 1\)</span> diskutiert wird. Auch die Durchführung einer Intervallschachtelung (siehe Abschnitt <a href="9-arithmetik-und-algebra.html#wurzelbehandlung">9.2.2</a>) fördert das Verständnis für Grenzprozesse. Auch zu Beginn der Sekundarstufe können Erfahrungen gesammelt werden, z. B. über eine Partneraufgabe, bei der eine Person eine (positive) Zahl nennen muss und die zweite Personen einen Stammbruch (also einen Bruch der Form <span class="math inline">\(\frac{1}{n}\)</span>) finden muss, der kleiner als die genannte Zahl ist.</p></li>
+<li><p>In der <strong>Kombination geometrischer und numerischer Situationen</strong> liegt ebenfalls Potenzial für die Erfahrung von Grenzprozessen. Die geometrische Interpretation des Heron-Verfahrens (vgl. Abbildung <a href="9-arithmetik-und-algebra.html#fig:Heron">9.3</a>) wäre ein Beispiel hierfür. Auch kann die Summation <span class="math inline">\(2 = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}+\ldots\)</span> erfahren werden, in dem ein Papierstreifen der Länge <span class="math inline">\(2\)</span> fortlaufend halbiert wird.</p></li>
+</ul>
+</div>
+</div>
+<div id="ableitungsbegriff" class="section level2 hasAnchor" number="10.3">
+<h2><span class="header-section-number">10.3</span> Ableitungsbegriff<a href="10-analysis.html#ableitungsbegriff" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Für den Ableitungsbegriff (einer Funktion an einer Stelle) haben sich sowohl historisch als auch in der fachdidaktischen Literatur zwei wesentliche Vorstellungen herausgebildet <span class="citation">(<a href="#ref-Danckwerts2010">Danckwerts &amp; Vogel, 2010, 45 ff.</a>; <a href="#ref-Greefrath2016">Greefrath et al., 2016, 147 ff.</a>)</span><a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a>:</p>
+<ul>
+<li><p>Ableitung als <strong>lokale Änderungsrate</strong>: Die Ableitung einer Funktion an einer Stelle beschreibt, wie stark sich die Funktionswerte in der Umgebung dieser Stelle verändern. Wird sich dieser Änderungsrate graphisch genähert, erfolgt dies i. d. R. durch den Übergang des Anstiegs einer Sekante zu dem einer Tangente<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a>, womit die Ableitung über den <strong>Grenzwert des Differenzenquotienten</strong> <span class="math inline">\(\lim\limits_{h\rightarrow 0}\cfrac{f(x_0+h)-f(x_0)}{h}\)</span> quantifiziert werden kann und dem <strong>Anstieg der Tangente</strong> entspricht.</p>
+<p>Diese Sichtweise ermöglicht, den Ableitungbegriff konstruktiv über den Sekanten-Tangenten-Übergang einzuführen und unmittelbar numerisch zu beschreiben. Auch bedienen sich vielfältige Anwendungen (z. B. Momentan- vs. Durchschnittsgeschwindigkeit) dieser Vorstellung.</p></li>
+<li><p>Ableitung als <strong>lokale lineare Approximation</strong>: Diese Vorstellung betont noch stärker die Differenzierbarkeit als Eigenschaft einer Funktion, nämlich die Möglichkeit, sie lokal durch eine lineare Funktion annähern zu können. Eine typische Repräsentation ist das Heranzoomen an den Funktionsgraphen, sodass dabei die lokale Linearität besonders deutlich wird. Mathematisch greifbar wird diese Vorstellung darüber, dass sich die Funktion über <span class="math inline">\(f(x) = f(x_0) + m\cdot x+ r(h)\)</span> beschreiben lässt, wobei der <em>Fehler</em> <span class="math inline">\(r(h)\)</span> so schnell gegen <span class="math inline">\(0\)</span> geht, dass sogar <span class="math inline">\(\lim\limits_{h\rightarrow 0}\cfrac{r(h)}{h}=0\)</span> gilt. <span class="math inline">\(m\)</span> selbst ist dann die Ableitung und der Anstieg der <em>besten linearen Näherung</em> – was natürlich wieder die Tangente an entsprechender Stelle ist.</p>
+<p>Dieses Vorgehen besticht v. a. durch seine mathematische Verallgemeinerbarkeit für die höherdimensionale Analysis. Auch entspricht es dem Bedürfnis, Prozesse linear zu approximieren (vgl. Abschnitt <a href="2-hoch-schulmathematik-strukturieren.html#beispiel-linearitaet">2.3.4.3</a>).</p></li>
+</ul>
+</div>
+<div id="computer-algebra-systeme" class="section level2 hasAnchor" number="10.4">
+<h2><span class="header-section-number">10.4</span> Computer-Algebra-Systeme<a href="10-analysis.html#computer-algebra-systeme" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Insbesondere – aber nicht ausschließlich – im Analysis-Unterricht spielt die Verwendung von Computer-Algebra-System (CAS) eine bedeutsame Rolle. In ihrer eigentlich Bezeichnung ist ein CAS ein digitales Werkzeug, das <strong>symbolische Rechnungen</strong> erlaubt, also bspw. für die Gleichung <span class="math inline">\(x^2 = 5\)</span> die Lösungen <span class="math inline">\(\sqrt{5}\)</span> und <span class="math inline">\(-\sqrt{5}\)</span> ausgeben kann, während ein numerisch rechnendes System hier bspw. <span class="math inline">\(2,23607\)</span> ausgeben (und die zweite Lösung womöglich sogar unterschlagen) würde.<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a></p>
+<p>Insbesondere im schulischen Alltag hat sich »CAS« mittlerweile zum Gattungsbegriff für vielfältige Arten von Taschenrechnern und anderen digitalen Werkzeugen gewandelt. Darunter werden also auch verstanden:</p>
+<ul>
+<li>Wissenschaftliche Taschenrechner (WTR), also Taschenrechner, die wesentliche mathematische Funktionen enthalten (z. B. auch die Berechnung von Potenzen, dem Sinus usw.) und Punkt- vor Strichrechnung beherrschen.</li>
+<li>Graphikfähige Taschenrechner (GTR), die neben der Funktionalität wissenschaftlicher Taschenrechner auch Funktionsgraphen darstellen können und diese numerisch untersuchen können (z. B. Schnittpunktbestimmung). Sowohl beim GTR als auch bei CAS handelt es sich in der Regel um programmierbare Taschenrechner, d. h. es können selbst Algorithmen implementiert werden, die dann als Funktion zur Verfügung stehen.</li>
+<li>Tabellenkalkulationen (TK), in denen mit strukturiert notierten Daten gerechnet werden kann.</li>
+<li>Dynamische Geometriesysteme (DGS), die die Möglichkeit bieten, geometrische Konstruktionen darzustellen. Mehr dazu finden Sie in Abschnitt <a href="11-geometrie.html#dynamische-geometriesysteme">11.2</a>.</li>
+</ul>
+<div id="software-und-hardware" class="section level3 hasAnchor" number="10.4.1">
+<h3><span class="header-section-number">10.4.1</span> Software und Hardware<a href="10-analysis.html#software-und-hardware" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Am weitesten sind an Schulen derzeit noch »echte« <strong>Taschenrechner</strong> mit CAS-Funktionalität verbreitet, i. d. R. von den Firmen Casio, TI, HP oder Sharp. Einige Bundesländer formulieren Voraussetzungen, über welche Funktionalitäten derartige Systeme verfügen müssen (und nicht verfügen dürfen), so dass sie auch in Prüfungssituationen verwendet werden können. Ab dem Prüfungsjahr 2030 soll es bundesweit einheitliche Voraussetzungen für sogenannte <strong>modulare Mathematiksysteme (MMS)</strong> geben, siehe <a href="https://www.iqb.hu-berlin.de/abitur/dokumente/mathematik/" class="uri">https://www.iqb.hu-berlin.de/abitur/dokumente/mathematik/</a>.</p>
+<p>Stärkere Verbreitung finden mittlerweile <strong>Software-Lösungen</strong>, die spezifisch für <strong>schulische Zwecke</strong> entwickelt worden sind, z. B. die CAS-Funktion von GeoGebra<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a>. Auch Apps wie Photomath<a href="#fn36" class="footnote-ref" id="fnref36"><sup>36</sup></a> können als CAS aufgefasst werden. In Schulen i. d. R. nicht verbreitet sind <strong>professionelle kommerzielle Angebote</strong> wie Maple oder Matheamtica. Es gibt jedoch auch <strong>freie CAS-Software</strong>, die zwar nicht explizit für schulische Zwecke entwickelt worden ist, aber dennoch für Schülerinnen und Schüler zugänglich ist und (aus fachmathematischer Sicht) »echte« CAS-Lösungen darstellt. Hierzu gehören etwa Yacas<a href="#fn37" class="footnote-ref" id="fnref37"><sup>37</sup></a> oder Sage<a href="#fn38" class="footnote-ref" id="fnref38"><sup>38</sup></a>, die wie GeoGebra über Online-Editoren verfügen.</p>
+</div>
+<div id="bedienung-schulen" class="section level3 hasAnchor" number="10.4.2">
+<h3><span class="header-section-number">10.4.2</span> Bedienung schulen<a href="10-analysis.html#bedienung-schulen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Das Lernen der <strong>Bedienung</strong> eines CAS erfolgt nicht »nebenbei« zum Lernen der mathematischen Zusammenhänge, sondern muss <strong>explizter Lerngegenstand</strong> werden. Hierzu ist es notwendig, die entsprechenden CAS-Befehle mit den dahinter liegenden mathematischen Handlungsfolgen in Bezug zu bringen, bspw. über eine Versprachlichung des Befehls und seiner Bestandteile.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Befehl"></span>
+<img src="pictures/10-Befehl.png" alt="CAS-Befehl zum Lösen einer Gleichung" width="50%" />
+<p class="caption">
+Abb. 10.3: CAS-Befehl zum Lösen einer Gleichung
+</p>
+</div>
+<p>Für den in Abbildung <a href="10-analysis.html#fig:Befehl">10.3</a> dargestellten Befehl kann als Erläuterung dienen: »Der Befehl <span style="color: #CB297B;">löst</span> die Gleichung <span style="color: #0076BA;"><span class="math inline">\(x^2 = 5\)</span></span>, d. h. es werden diejenigen Werte <span style="color: #1DB100;">für <span class="math inline">\(x\)</span></span> gesucht, für die die Gleichung eine wahre Aussage ergibt.«</p>
+<p>Derartige Bedienschulungen können dann wieder durch Identifizierungs- und Realisierungs- sowie Festigungsaufgaben angeeignet werden, das heißt u. a.:</p>
+<ul>
+<li>Zu vorgegebenen Beschreibungen müssen entsprechende Befehle ins CAS eingegeben werden.</li>
+<li>Zu gegebenen Befehle soll beschrieben werden, wofür diese dienlich sind.</li>
+<li>Befehle oder die in ihnen enthaltenen Bestandteile müssen variiert werden und die Einflüsse der Variation untersucht bzw. beschrieben werden.</li>
+</ul>
+<p>Weiterhin ist es notwendig, die <strong>hinter dem Befehl liegende Mathematik</strong> nachvollziehen zu können. Es reicht also nicht aus, das CAS als <strong>Black-Box</strong> aufzufassen, dass aus der Eingabe <code>solve(x^2=5,x)</code> <em>irgendwie</em> die Ausgabe <code>√5,-√5</code> erzeugt, sondern es sollten stets die dahinterliegenden Prozesse hinterfragt werden. Dies kann auch über die Darstellung von (Pseudo-)Algorithmen erfolgen, wobei nicht jeder Schritt (oder nicht einmal der komplette Algorithmus) der tatsächlichen algorithmische Umsetzung im Hintergrund des CAS entsprechen muss, solange er mathematisch nachvollziehbar ist. Im genannten Beispiel könnte ein solcher Pseudoalgorithmus, der nach der Eingabe des Befehls <code>solve(x^2=5,x)</code> abläuft, lauten:</p>
+<ol style="list-style-type: decimal">
+<li>Prüfe, ob es sich um eine quadratische Gleichung handelt.</li>
+<li>Bringe die Gleichung in die Form <span class="math inline">\(0 = x^2+px+q\)</span>.</li>
+<li>Bestimmte <span class="math inline">\(p\)</span> und <span class="math inline">\(q\)</span>.</li>
+<li>Gibt die Lösungen <span class="math inline">\(-\frac{p}{2}+\sqrt{\left(\frac{p}{2}\right)^2-q}\)</span> und <span class="math inline">\(-\frac{p}{2}-\sqrt{\left(\frac{p}{2}\right)^2-q}\)</span> aus.</li>
+</ol>
+</div>
+<div id="neue-aufgabenkultur" class="section level3 hasAnchor" number="10.4.3">
+<h3><span class="header-section-number">10.4.3</span> Neue Aufgabenkultur<a href="10-analysis.html#neue-aufgabenkultur" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In der Verwendung von CAS ergibt sich die Notwendigkeit einer neuen Aufgabenkultur, da eine klassische Aufgabe der Art »Ermittle die Lösungsmenge der Gleichung <span class="math inline">\(x^2 = 5\)</span>« mithilfe eines CAS, sofern der entsprechende Befehl bekannt ist, keine mathematisch-gedankliche Herausforderung mehr darstellt.</p>
+<ul>
+<li><p><span class="citation">Kortenkamp (<a href="#ref-Kortenkamp2007">2007</a>)</span> schlägt beispielsweise vor, das <strong>CAS als Überprüfungsinstrument</strong> zu verwenden, um selbst erzeugte Aufgaben zu prüfen. Im oben genannten Beispiel könnte eine Aufgabenstellung lauten: »Stell eine quadratische Gleichung auf, die <span class="math inline">\(\sqrt{5}\)</span> als Lösung hat.« Solche Aufgaben können dann schrittweise variiert und komplexer gestaltet werden (»Stell eine quadratische Gleichung auf, die nur <span class="math inline">\(\sqrt{5}\)</span> als Lösung hat« usw.).</p></li>
+<li><p>Die von einem CAS ausgegebene <strong>Lösung</strong> kann wiederum <strong>als Anlass</strong> genutzt werden, mathematische Fragen zu stellen. Im obigen Beispiel wäre möglich zu fragen: »Warum gibt das CAS zwei Lösungen aus?«, »Wie hängen die Lösungen miteinander zusammen?« o. ä. Derartige Fragen sollten auf die hinter der Aufgabe liegende Struktur hinzielen.</p></li>
+<li><p>Nicht zu verschweigen ist auch, dass sich durch die Verwendung von CAS (und anderen Taschenrechnern) sogenannte <strong>»oHiMi«-Aufgaben</strong> etabliert haben, also Aufgaben, die <strong>o</strong>hne <strong>Hi</strong>lfs<strong>mi</strong>ttel zu bearbeiten sind. Dahinter steckt die Auffassung, dass Schülerinnen und Schüler über gewisse Basiskenntnisse und -fertigkeiten verfügen sollten, die dann auch in Prüfungssituationen abgefragt werden. Entsprechende Erwartungen sind in den Lehrplänen formuliert, in Brandenburg z. B. über eine Anlage zum Rahmenlehrplan der gymnasialen Oberstufe <span class="citation">(<a href="#ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a">Ministerium für Bildung, Jugend und Sport des Landes Brandenburg, 2022a</a>)</span>.</p></li>
+</ul>
+<p>Eine etwas ausführlichere – und auch über 15 Jahre nach ihrer Entstehung immer noch nicht vollumfänglich im Schulalltag angekommene – Diskussion zum Einfluss von CAS und Graphikfähigen Taschenrechnern auf die Aufgabenkultur findet sich bei <span class="citation">Heinrich (<a href="#ref-Heinrich2007">2007</a>)</span>.</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0" line-spacing="2">
+<div id="ref-Ableitinger2013b" class="csl-entry">
+Ableitinger, C., &amp; Heitzer, J. (2013). Grenzwerte unterrichten. <span>Propädeutische</span> <span>Erfahrungen</span> und <span>Präzisierungen</span>. <em>mathematik lehren</em>, <em>180</em>, 2–10.
+</div>
+<div id="ref-Danckwerts2010" class="csl-entry">
+Danckwerts, R., &amp; Vogel, D. (2010). <em>Analysis verständlich unterrichten</em> (1. Aufl., 2. Nachdruck). Spektrum Akad. Verl.
+</div>
+<div id="ref-Enders2024" class="csl-entry">
+Enders, J. (2024). <em>Analysis <span>I</span> (<span>Lehramt</span>). <span>Skript</span> zur <span>Veranstaltung</span> im <span>WS</span> 2023/24</em> [Unveröffentlichtes Skript].
+</div>
+<div id="ref-Greefrath2016" class="csl-entry">
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., &amp; Weigand, H.-G. (2016). <em>Didaktik der <span>Analysis</span>. <span>Aspekte</span> und <span>Grundvorstellungen</span> zentraler <span>Begriffe</span></em> (F. Padberg &amp; A. Büchter, Hrsg.; 4. Aufl.). Springer Spektrum. <a href="https://doi.org/10.1007/978-3-662-48877-5">https://doi.org/10.1007/978-3-662-48877-5</a>
+</div>
+<div id="ref-Heinrich2007" class="csl-entry">
+Heinrich, R. (2007). Grafikfähige <span>Taschencomputer</span> in zentralen <span>Prüfungen</span>. In <em>Beiträge zum <span>Mathematikunterricht</span> 2007, 41. <span>Jahrestagung</span> der <span>Gesellschaft</span> für <span>Didaktik</span> der <span>Mathematik</span> vom 25.3. bis 30.3.2007 in <span>Berlin</span></em>. <a href="https://doi.org/10.17877/DE290R-6165">https://doi.org/10.17877/DE290R-6165</a>
+</div>
+<div id="ref-Kortenkamp2007" class="csl-entry">
+Kortenkamp, U. (2007). <span>CAS</span> und <span>DGS</span> im <span>Dialog</span> – oder: <span>Wieviel</span> <span>CAS</span> braucht der <span>Mensch</span>? In <em>Beiträge zum <span>Mathematikunterricht</span> 2007, 41. <span>Jahrestagung</span> der <span>Gesellschaft</span> für <span>Didaktik</span> der <span>Mathematik</span> vom 25.3. bis 30.3.2007 in <span>Berlin</span></em>. <a href="https://doi.org/10.17877/DE290R-6158">https://doi.org/10.17877/DE290R-6158</a>
+</div>
+<div id="ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022a" class="csl-entry">
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022a). <em>Anlage zum <span>Rahmenlehrplan</span> für die gymnasiale <span>Oberstufe</span>. <span>Teil</span> <span>C</span>. <span>Mathematik</span></em>. <a href="https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik_Anlage_OHiMi.pdf">https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik_Anlage_OHiMi.pdf</a>
+</div>
+<div id="ref-MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022" class="csl-entry">
+Ministerium für Bildung, Jugend und Sport des Landes Brandenburg (Hrsg.). (2022b). <em>Rahmenlehrplan für die gymnasiale <span>Oberstufe</span>. <span>Teil</span> <span>C</span>. <span>Mathematik</span></em>. <a href="https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik.pdf">https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/rahmenlehrplaene/gymnasiale_oberstufe/curricula/2022/Teil_C_RLP_GOST_2022_Mathematik.pdf</a>
+</div>
+<div id="ref-Tietze:2000a" class="csl-entry">
+Tietze, U.-P., Klika, M., &amp; Wolpers, H. (Hrsg.). (2000a). <em>Mathematikunterricht in der <span>Sekundarstufe</span> <span>II</span>. <span>Band</span> 1: <span>Fachdidaktische</span> <span>Grundfragen</span>, <span>Didaktik</span> der <span>Analysis</span></em> (2. Aufl.). Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-90568-0">https://doi.org/10.1007/978-3-322-90568-0</a>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="30">
+<li id="fn30"><p>Hierfür existiert der Begriff der <em>Cauchy-Folge</em>.<a href="10-analysis.html#fnref30" class="footnote-back">↩︎</a></p></li>
+<li id="fn31"><p>Daher kann die Konvergenz von Cauchy-Folgen auch als Charakteristikum von <span class="math inline">\(\mathbb{R}\)</span> genutzt werden.<a href="10-analysis.html#fnref31" class="footnote-back">↩︎</a></p></li>
+<li id="fn32"><p><span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016, 147 ff.</a>)</span> trennen die lokale Änderungsrate noch von der Vorstellung des Anstiegs der Tangente und beschreiben als vierte Grundvorstellung die Ableitung als Verstärkungsfaktor kleiner Änderungen.<a href="10-analysis.html#fnref32" class="footnote-back">↩︎</a></p></li>
+<li id="fn33"><p>Zur Diskussion der Vorstellung, was eine Tangente ist, siehe auch <span class="citation">Greefrath et al. (<a href="#ref-Greefrath2016">2016, S. 149</a>)</span><a href="10-analysis.html#fnref33" class="footnote-back">↩︎</a></p></li>
+<li id="fn34"><p>Streng genommen ist dieses Beispiel hier im Kapitel falsch, da es eher ein algebraisches Problem ist. Es soll aber dennoch weiter verfolgt werden.<a href="10-analysis.html#fnref34" class="footnote-back">↩︎</a></p></li>
+<li id="fn35"><p><a href="https://www.geogebra.org/cas" class="uri">https://www.geogebra.org/cas</a><a href="10-analysis.html#fnref35" class="footnote-back">↩︎</a></p></li>
+<li id="fn36"><p><a href="https://photomath.com" class="uri">https://photomath.com</a><a href="10-analysis.html#fnref36" class="footnote-back">↩︎</a></p></li>
+<li id="fn37"><p><a href="http://www.yacas.org" class="uri">http://www.yacas.org</a><a href="10-analysis.html#fnref37" class="footnote-back">↩︎</a></p></li>
+<li id="fn38"><p><a href="https://sagecell.sagemath.org" class="uri">https://sagecell.sagemath.org</a><a href="10-analysis.html#fnref38" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="9-arithmetik-und-algebra.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="11-geometrie.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/10-Analysis.Rmd",
+"text": null
+},
+"download": ["Stoffdidaktik2024-Etzold.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"info": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

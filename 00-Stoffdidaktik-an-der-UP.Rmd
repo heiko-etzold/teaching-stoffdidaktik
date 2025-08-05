@@ -4,13 +4,13 @@
 
 ## Struktur der Veranstaltung {-}
 
-Die Veranstaltung *Stoffdidaktik Mathematik*^[Die Modulbeschreibung finden Sie bei [PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3155&menuid=&topitem=Modulbeschreibung&subitem=).] besteht aus einer **Vorlesung (2 SWS)** und einem zugehörigen **Seminar (2 SWS)**.
+Die Veranstaltung *Stoffdidaktik Mathematik*^[Die Modulbeschreibung finden Sie bei [PULS](https://puls-qis.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3155&menuid=&topitem=&subitem=).] besteht aus einer **Vorlesung (2 SWS)** und einem zugehörigen **Seminar (2 SWS)**.
 
-Im Wintersemester 2024/25 wird die **Vorlesung semesterbegleitend** stattfinden. Das **Seminar** können Sie entweder **parallel zur Vorlesung** im Wintersemester oder **semesterbegleitend** im Sommersemester 2025 besuchen.
+Im Wintersemester 2025/26 wird die **Vorlesung semesterbegleitend** stattfinden. Das **Seminar** können Sie entweder **parallel zur Vorlesung** im Wintersemester oder **semesterbegleitend** im Sommersemester 2026 besuchen.
 
 In der Vorlesung erhalten Sie einen **Input zu stoffdidaktischen Grundlagen**, wobei der Schwerpunkt auf **stoffdidaktischen Theorien** liegt, die über vielfältige Unterrichtsbeispiele illustriert werden. Im Seminar haben Sie die Aufgabe, diese Grundlagen selbstständig **auf verschiedene Lerngegenstände anzuwenden**.
 
-Sie halten einen **Seminarvortrag** (30 bis 45 Minuten) als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** (6 bis 8 Seiten) zusammen, die als Modulprüfung dient. 
+Sie halten einen **Seminarvortrag** als Voraussetzung für die Zulassung zur Modulprüfung und fassen Ihre Erarbeitungen in einer **Hausarbeit** zusammen, die als Modulprüfung dient. 
 
 
 ## Einordnung {-}
