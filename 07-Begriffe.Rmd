@@ -1,0 +1,175 @@
+# Begriffe
+
+> **Ziele**
+>
+> + Sie kennen prinzipielle Möglichkeiten, Begriffe einzuführen, ihre Aneignung mithilfe von Orientierungshilfen zu gestalten und die Begriffe zu festigen.
+> + Sie können Wege der Begriffseinführung und Beispiele und Gegenbeispiele zielgerichtet auswählen.
+> + Sie können geeignete Aufgaben zur Aneignung und Festigung von Begriffen formulieren.
+>
+> **Material**
+>
+> + Folien zum Kapitel 7 ([pdf](files/Stoffdidaktik2025-07-Begriffe.pdf), [Keynote](files/Stoffdidaktik2025-07-Begriffe.key))
+
+
+## Allgemeine Hinweise
+Aufbauend auf das letzte Kapitel wird in diesem und in den nächsten beiden Kapiteln dargestellt, wie die Stofferarbeitung (vgl. Abschnitt \@ref(stofferarbeitung)) und die Festigung (vgl. Abschnitt \@ref(festigung)) beim Unterrichten von Begriffen, Zusammenhängen und Verfahren gestaltet werden können. Die Kapitel starten jeweils mit einer Begriffsklärung der jeweiligen Stoffelementkateogie (vgl. Abschnitt \@ref(stoffelementkategorien)) und verfolgen dann eine einheitliche Struktur ist drei Schritten:  
+
+- Begriff/Zusammenhang/Verfahren **erarbeiten**  
+- Begriff/Zusammenhang/Verfahren **aneignen** über die Nutzung geeigneter Orientierungshilfen sowie der etappenweisen Ausbildung geistiger Handlungen  
+- Begriff/Zusammenhang/Verfahren **festigen**
+
+Perspektivisch sollten Sie in der Lage sein, die hier beschriebenen Prozesse auf konkrete Lerngegenstände anzuwenden. Dabei ist jedoch zu beachten, dass es sich *nicht* um eine *feste Vorgehensweise* handelt, sondern vielmehr *prinzipielle Gestaltungsmöglichkeiten* für die Stofferarbeitung und Festigung beschrieben werden.
+
+## Begriffsklärung
+
+»Man spricht allgemein von einem ›Begriff‹, wenn eine Anzahl von Objekten oder Ereignissen aufgrund gewisser übereinstimmender Merkmale mit einem gemeinsamen Namen belegt wird« [Weinert, 1974, S. 664, zitiert nach @Zech1998 165].
+
+Damit werden zwei Dimensionen von Begriffen sichtbar, nämlich der **Bezeichner** und das **Bezeichnete**. Während der Bezeichner das *Wort* bzw. der *Name* ist, mit dem das zu betrachtende Objekt oder Ereignis belegt wird, ist das Bezeichnete die *Idee* hinter dem Objekt, also das Gefüge an *übereinstimmenden Merkmalen*. Weder *Bezeichner* noch *Bezeichnetes* sind jedoch das Objekt oder Ereignis selbst.
+Äquivalente, und auch in den Sprachwissenschaften bedeutsame Bezeichnungen sind **Signifikant** für den Bezeichner und **Signifikat** für das Bezeichnete [vgl. auch @Rembowski2015 {13 ff.}; @dewiki:214582005; @dewiki:212433603].
+
+Wenn etwa ein Kind den Bezeichner *Quader* verwendet, um ein Viereck mit vier gleich langen Seiten und vier rechten Winkeln zu beschreiben (also eigentlich das Bezeichnete eines *Quadrates* meint), kann es sich hier durchaus um eine Wortverwechslung handeln, die nicht zwingend mit einem inhaltlichen Fehlverständnis einhergehen muss.
+
+
+## Begriffe erarbeiten
+
+Das Erarbeiten von Begriffen wird auch als ***Begriffsbildung*** bezeichnet. Die Einführung eines Begriffs kann dabei stets als Wechselspiel zwischen **Beispielen/Gegenbeispielen** und der **Begriffsfestlegung** aufgefasst werden. Die Richtung und Qualität dieses Zusammenhangs ermöglicht verschiedene Wege zum Begriff (siehe Abbildung \@ref(fig:Begriffseinfuehrung)).
+
+```{r Begriffseinfuehrung, echo=FALSE, fig.cap="Möglichkeiten der Begriffseinführung", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/7-Begriffe.png")
+```
+
+### Ostensive Begriffseinführung
+
+Bei der ostensiven Begriffseinführung wird das Lernen eines Begriffs als **Erfassen der Gestalt** als einprägsames Ganzes angenommen. Das heißt, der Begriff wird gar nicht formal definiert, sondern nur über Beispiele dargestellt. Dies wird insbesondere bei Arbeitsbegriffen so gehandhabt (z. B. *Bruchstrich*) oder bei der Begriffseinführung in der Grundschule, wenn deren Gestalt leicht eingänglich ist (z. B. *Kreis*).
+
+Dabei muss jedoch die **wahrgenommene Gestalt dem Wesentlichen** des Begriffs entsprechen und der **Gestalteindruck ist häufig abhängig von der Lage**. Es ist also darauf zu achten, nicht ausschließlich Spezialfälle zu präsentieren, die dann zu einer Untergeneralisierung des Begriffs führen. Werden z. B. zwei *zueinenander senkrechte* Strecken präsentiert, sollten diese also nicht gleich lang sein, sich nicht in der Mitte schneiden und auch nicht parallel zu den Tafel-/Blatt-/Bildschirmrändern ausgerichtet sein (siehe Abbildung \@ref(fig:SenkrechtOstensiv)).
+
+(ref:citeSenkrechtOstensiv) Ungeeignete und geeignete ostensive Darstellung des Begriffs *senkrecht zueinander*
+
+```{r SenkrechtOstensiv, echo=FALSE, fig.cap="(ref:citeSenkrechtOstensiv)", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/7-senkrecht.png")
+```
+
+### Induktive Begriffseinführung
+
+Bei der induktiven Begriffseinführung wird zunächst eine **Vielzahl an Beispielen** präsentiert. Aus diesen heraus wird dann das **Wesentliche des Begriffs extrahiert**. Dafür werden die Objekte zunächst beschrieben und anschließend gemeinsame Eigenschaften entdeckt. Dies kann passieren, indem die ungeordneten Beispiele nach Merkmalen sortieren werden oder bereits in Teilmengen aufgeteilt präsentiert werden. Daran wird nun der Begriffsinhalt herausgearbeitet.
+
+Dieses Vorgehen ist relativ natürlich, da es auch der Begriffsbildung im Vorschulalter bzw. im Alltag entspricht. Allerdings benötigt es sehr viel Zeit. Hinzu kommt, dass das Erkennen der gemeinsamen Merkmale in der Unterrichtssituation nicht selten zu einem *Ostereiersuchen* verfällt, indem die Lehrkraft so lange nachfragt, bis die gewünschte Eigenschaft gefunden wird. Oder noch kritischer formuliert: »Die Lernenden jedoch haben noch keine Ahnung von diesem Wesen und können sie auch nicht gewinnen, da sie keinerlei Mittel dafür besitzen« [@Giest2004a].
+
+Beim Einsatz der induktiven Begriffseinführung müssen also insbesondere geeignete Impulsfragen im Vorhinein bedacht werden, um die Schülerinnen und Schüler durch gezielte Fragestellungen das Wesentliche des Begriffs entdecken lassen zu können.
+
+### Deduktive Begriffseinführung
+
+Die deduktive Begriffseinführung geht den Weg **von der Definition zu den Beispielen**. Dieses Vorgehen ist das übliche in der Hochschulmathematik und sollte -- um zum Beispiel wissenschaftspropädeutisch tätig zu sein -- auch im Schulunterricht schon vermittelt werden.
+
+
+Typische Impulsfragen für das anschließende Identifizieren und Realisieren von  Repräsentanten^[Diese *Repräsentanten* eines Begriffs sind nicht mit dessen *Repräsentationen* im Sinne der Grundvorstellungsidee zu verwechseln! Die Repräsentanten sind konkrete (reale oder ideelle) Objekte, Repräsentationen dagegen Darstellungen, die ein operatives Arbeiten ermöglichen. Beides kann aber natürlich sehr ähnlich aussehen oder sogar zusammenfallen.] bei der deduktiven Begriffseinführung nach Gabe der Definition können sein:
+
+* Ist das ein …?
+* Stelle ein … her.
+* Welche Teile der Definition sind nicht erfüllt?
+* Was muss an dem … verändert werden, damit es ein … ist?
+* Wie prüft man, ob das ein … ist?
+* Warum entsteht ein …, wenn man das so und so herstellt?
+
+### Aufsteigen vom Abstrakten zum Konkreten
+
+Das Aufsteigen vom Abstakten zum Konkreten ist durch ein spezifisches **Wechselspiel von einem Beispiel, der Definition und weiterer Beispiele** geprägt. Nach @Lompscher1996 sind drei Schritte relevant.
+
+```{r AK, echo=FALSE, fig.cap="Aufsteigen vom Abstrakten zum Konkreten", fig.align='center', out.width='90%'}
+knitr::include_graphics("pictures/7-AK.png")
+```
+
+
+1. Für die Einführung des Begriffs wird ein konkretes Ausgangsbeispiel gewählt, an dem das Wesen des Begriffs besonders gut deutlich wird. An diesem **Ausgangskonkretum** werden Lernhandlungen erarbeitet, die sich zwar am Beispiel orientieren, aber verallgemeinern lassen, sodass sie dem Begriffsaufbau dienlich sind.  
+
+2. Im Anschluss wird, mit Unterstützung der Lehrkraft, das Wesen des Begriffs herausgearbeitet und in Form einer **Ausgangsabstraktion** formuliert. Dieses Vorgehen ist vergleichbar mit dem induktiven Begriffserwerb, allerdings wird nicht aus einer Vielzahl von Beispielen eine gemeinsame Eigenschaft eliminiert, sondern am charakteristischen Beispiel wird die Eigenschaft durch eine wissende Person (Lehrkraft) in Bezug auf die Handlungserfahrungen der Schülerinnen und Schüler dargestellt. Dieser Prozess kann durch Orientierungshilfen oder Arbeitsmittel (siehe nächstes Kapitel) unterstützt werden.  
+
+3. Der dritte Schritt, das eigentliche Aufsteigen vom Abstrakten zum Konkreten, ist nun das Abarbeiten von **Konkretisierungsreihen**. Hierzu werden weitere Beispiele für den Begriff betrachtet, auf die das Ausgangsabstraktum angewandt wird. Orientierungshilfen/Arbeitsmittel dienen dabei als Mittler und die Lernhandlungen werden in verallgemeinerter und ggf. auch modifizierter Form angewandt. Erst auf diese Weise ist ein echtes Durchdringen des Begriffs möglich. Dieses Vorgehen ist mit dem deduktiven Vorgehen vergleichbar, allerdings nicht im dem Sinne, dass aus einer Definition heraus die Beispiele generiert werden. Vielmehr wird auf gegebene Beispiele die Definition angewandt, ausgeschärft und damit der Begriff immer besser verstanden.  
+
+
+Diese Vorgehensweise hat den Vorteil, **relativ effektiv** zu sein und trotz des Verzichts auf ein deduktives Vorgehen recht schnell zu einer (ersten) Definition des Begriff zu kommen. Außerdem ist sie **ehrlich gegenüber den noch nicht vorhandenen Kenntnissen der Schülerinnen und Schüler**, da diese bei einem induktiven Vorgehen i. d. R. noch nicht wissen, nach welchem gemeinsamen Merkmal die Beispiele nun analysiert werden sollen, so dass es oft mit einem Raten (oder letztlich doch einer Vorgabe durch die Lehrkraft) verbunden ist, auf das zu interessierende Merkmal zu stoßen.
+
+
+
+### Beispiele und Gegenbeispiele
+
+Unabhängig davon, auf welche Art und Weise man Begriffe einführt, ist stets ein Zusammenspiel aus Beispielen, Gegenbeispielen und verbalen Erläuterungen notwendig -- und das in allen Altersklassen! Bei entsprechenden Verbalisierungen sind ggf. weniger Beispiele/Gegenbeispiele nötig, da damit das Wesen des Begriffs besser herausgearbeitet werden kann [@Zech1998 260].
+
+Bei der Auswahl von Beispielen und Gegenbeispielen bieten sich das **Variationsprinzip** und das **Kontrastprinzip** an. Die folgenden Überlegungen stammen hauptsächlich von @Zech1998 [{260 ff.}].
+
+#### Variationsprinzip
+
+Beispiele sollten breit variiert werden, es darf nicht zu einer Untergeneralisierung kommen. Im Alltag als Gegenbeispiele empfundene Beispiele müssen mit angebracht werden. Wichtig erscheinende **irrelevante Merkmale** sollten mindestens einmal **variiert** werden.
+
+Für den Rechtecktbegriff kann dies eine Variation in Größe, Seitenverhältnis, Ausrichtung und Farbe, aber auch die Präsentation von Spezialfällen (z. B. eines Quadrates) bedeuten (siehe Abbildung \@ref(fig:VariationRechteck)).
+
+(ref:citeVariationRechteck) Variationsprinzip beim Begriff *Rechteck*
+
+```{r VariationRechteck, echo=FALSE, fig.cap="(ref:citeVariationRechteck)", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/7-Variation.png")
+```
+
+Um dieses Prinzip für einen Begriff zu realisieren, muss man sich als Lehrkraft also Gedanken über die mathematisch relevanten und irrelevanten Eigenschaften machen. Auch eine explizite Diskussion mit den Schülerinnen und Schülern, warum diese Eigenschaften variiert werden durften (und andere nicht), kann hilfreich für das Begriffsverständnis sein.
+
+#### Kontrastprinzip
+
+Gegenbeispiele dürfen nicht für Beispiele gehalten werden, es darf nicht zu einer Übergeneralisierung kommen. Im Alltag als Beispiele empfundene Gegenbeispiele (sogenannte *Fastbeispiele*) müssen diskutiert werden. **Relevante Merkmale** müssen mindestens einmal **fehlen**.
+
+Für den Rechteckbegriff relevant sind etwa die rechten Winkel (was bei Beibehaltung der gleich langen, parallelen Seiten zu einem Parallelogramm führt). Auch die *Ecken*-Eigenschaften und die Tatsache, dass es sich um eine Figur (und nicht um einen Körper) handelt, sind relevant (siehe Abbildung \@ref(fig:KontrasRechteck)).
+
+(ref:citeKontrasRechteck) Kontrastprinzip beim Begriff *Rechteck*
+
+```{r KontrasRechteck, echo=FALSE, fig.cap="(ref:citeKontrasRechteck)", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/7-Kontrast.png")
+```
+
+#### Darbietung von Beispielen und Gegenbeispielen
+
+@Zech1998 [261] fasst zusammen: **»Beispiele und Gegenbeispiele sind dann am effektivsten, wenn sich die Beispiele möglichst stark in den irrelevanten Merkmalen unterscheiden und die Gegenbeispiele in möglichst wenigen relevanten Merkmalen unterscheiden.«**
+
+Eine simultane Darbietung zweier stark kontrastierender Beispiele (Abbildung \@ref(fig:SimultanBeispiel)) oder eines Beispiels mit einem sehr ähnlichen Gegenbeispiel  (Abbildung \@ref(fig:SimultanGegenbeispiel)) kann weiterhin den Fokus auf die relevanten Merkmale des Begriffs lenken.
+
+(ref:citeSimultanBeispiel) Simultane Darbietung zweier Beispiele zum Begriff *Quadrat*
+
+```{r SimultanBeispiel, echo=FALSE, fig.cap="(ref:citeSimultanBeispiel)", fig.align='center', out.width='50%'}
+knitr::include_graphics("pictures/7-Quadrat.png")
+```
+
+(ref:citeSimultanGegenbeispiel) Simultane Darbietung von Beispiel und Gegenbeispiel zum Begriff *Achsensymmetrie*
+
+```{r SimultanGegenbeispiel, echo=FALSE, fig.cap="(ref:citeSimultanGegenbeispiel)", fig.align='center', out.width='40%'}
+knitr::include_graphics("pictures/7-Achsensymmetrie.png")
+```
+
+
+## Begriffe aneignen
+
+Die relevanten Aneignungshandlungen beim Begriffserwerb sind das **Identifizieren** und **Realisieren**. Die Tabelle konkretisiert die Möglichkeit der Gestaltung von Orientierungshilfen und das etappenweise Ausbilden geistiger Handlungen an diesen beiden Aneignungshandlungen.
+
+|  | Identifizieren | Realisieren |
+|:-|----|----|
+| **Orientierungshilfen** | System der Merkmale des Begriffs; <br/> Schrittfolge  zum Prüfen der Merkmale | Handlungsvorschrift zum Herstellen oder Vervollständigen des Objekts |
+| **Etappe der materiellen/materialisierten Handlung** | Überprüfung der Merkmale an gegebenen Objekten oder an Modellen (Zeichnungen, Diagramme); Orientierungshilfe liegt schriftlich vor | Beim Lösen entsprechender Aufgaben orientieren sich Schülerinnen und Schüler am Text der Handlungsvorschrift, die schriftlich vorliegt.|
+| **Etappe der sprachlichen Handlung** | sprachliches Begründen des Zutreffens oder Nichtzutreffens der einzelnen Merkmale (unter zunehmender Zurückdrängung der Orientierungshilfe) | Kommentieren des Lösungsweges beim Ausführen der Handlungsschritte (Handlungsvorschrift liegt nicht mehr vor) |
+| **Etappe der geistigen Handlung** | sofortiges Entscheiden, ob der Begriff zutrifft oder nicht (ohne Benutzung der Orientierungshilfe) | selbstständiges Lösen entsprechender Aufgaben (ohne Verwendung der Handlungsvorschrift) |
+
+Table: (\#tab:begriffsschritte) Teilprozesse zur Begriffsbildung und -aneignung, nach @Steinhofel1988 [46]
+
+
+## Begriffe festigen
+
+Vertiefende Übungen ergeben sich v. a. durch die Einordnung des neu erlernten Begriffs in ein **Begriffssystem**. Hinzu kommt die Verwendung **alternativer Definitionen** sowie die **Variabilität in der Verwendung von Bezeichnungen** (z. B. Variablen). Auch können **Grenz- und Sonderfälle** des Begriffs diskutiert werden, um ein vertieftes Verständnis zu gewinnen [vgl. @Steinhofel1988 34]. Eine systematische Übersicht, auch für ein ähnliches Vorgehen bei Sachverhalten und Verfahren, bietet Tabelle \@ref(tab:festigen) in Abschnitt \@ref(zusammenfassung-begriffe-zusammenhaenge-verfahren).
+
+
+Nach @Vollrath2012 [48] ist ein Begriff verstanden, wenn Schülerinnen und Schüler
+
+* die Bezeichnung des Begriffs kennen,
+* Beispiele angeben und jeweils begründen können, weshalb es sich um ein Beispiel handelt, 
+* begründen können, weshalb etwas nicht unter den Begriff fällt,
+* charakteristische Eigenschaften des Begriffs kennen, 
+* Oberbegriffe, Unterbegriffe und Nachbarbegriffe kennen, 
+* mit dem Begriff beim Argumentieren und Problemlösen arbeiten können.
+
+
+

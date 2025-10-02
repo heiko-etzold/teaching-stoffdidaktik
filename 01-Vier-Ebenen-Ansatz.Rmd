@@ -1,4 +1,3 @@
-<!--
 # (PART\*) Stoffdidaktische Analyse {.unnumbered}  
   
 # Vier-Ebenen-Ansatz
@@ -12,7 +11,7 @@
 >
 > **Material**
 >
-> + Folien zum Kapitel 1 ([pdf](files/Stoffdidaktik2024-01-VierEbenenAnsatz.pdf), [Keynote](files/Stoffdidaktik2024-01-VierEbenenAnsatz.key))
+> + Folien zum Kapitel 1 ([pdf](files/Stoffdidaktik2025-01-VierEbenenAnsatz.pdf), [Keynote](files/Stoffdidaktik2025-01-VierEbenenAnsatz.key))
 > + [App *Winkel-Farm*](https://apps.apple.com/de/app/winkel-farm/id1369585218) (nur für iOS)
 
 ## Analyse von Lerngegenständen
@@ -29,7 +28,7 @@ Ziel der `r concrete("konkreten Ebene")`\index{Vier-Ebenen-Ansatz!konkrete Ebene
 
 Über die `r empiric("empirische Ebene")`\index{Vier-Ebenen-Ansatz!empirische Ebene|textbf} werden die kognitiven und ggf. sozialen Aspekte der Schülerinnen und Schüler in die stoffdidaktische Analyse integriert.
 
-Über die **Spezifizierung** wird ermittelt, *was* genau Schülerinnen und Schüler bezüglich eines bestimmten mathematischen Themas lernen sollen, während die **Strukturierung** analysiert, *wie* diese Elemente miteinander in Verbindung stehen und wie sie im Lernpfad strukturiert werden können.
+Über die **Spezifizierung** wird ermittelt, welche tatsächlichen Inhalte zu einem mathematischen Thema *ausgewählt* werden, während die **Strukturierung** analysiert, wie diese Elemente in einem Lernpfad *angeordnet* werden können.
 
 Aus den vier Ebenen und der jeweiligen Unterscheidung in Spezifizierung und Strukturierung ergeben sich acht (nicht immer trennscharfe) Dimensionen, die den Analyseprozess zu einem Lerngegenstand kategorisieren können. Um dies für Forschungs- und Entwicklungsprozesse greifbar zu machen, haben @Hussmann:2016 [36] typische Fragestellungen formuliert, an die in Tabelle \@ref(tab:fragen-ebenen) mehr oder weniger stark angelehnt wird.
 
@@ -37,27 +36,27 @@ Aus den vier Ebenen und der jeweiligen Unterscheidung in Spezifizierung und Stru
 |----|:----|:----
 | **`r formal("Formale Ebene")`** | **Welche Begriffe, Zusammenhänge und Verfahren** sollen erarbeitet werden? <br/> Wie können die Zusammenhänge und Verfahren **formal begründet** werden? | Wie kann das **Netzwerk** aus Begriffen, Zusammenhängen und Verfahren **logisch strukturiert** werden? <br/> Welche **Verbindungen** zwischen den Fachinhalten sind aus fachlicher Perspektive entscheidend, welche weniger?
 | **`r semantic("Semantische Ebene")`** | **Welche** (mathematisch-gesellschaftliche) **Bedeutung** liegt hinter dem Lerngegenstand (vgl. [*Fundamentale Ideen*](#fundamentale-ideen))? <br/> **Welcher Sinn** soll bei den Schülerinnen und Schülern hinsichtlich des Lerngegenstands aufgedeckt werden und **welche Repräsentationen** sind dafür geeignet (vgl. [*Grundvorstellungen*](#grundvorstellungen))? | Wie **verhalten** sich Sinn und Bedeutung des Lerngegenstands **zueinander** und **zu früheren und späteren Lerngegenständen**?
-| **`r concrete("Konkrete Ebene")`** | **Welche [Kernfragen und Kernideen](#kernidee-begriffsklaerung)** können die Entwicklung der Begriffe, Zusammenhänge und Verfahren leiten? <br/> **Welche** (inner- und außermathematischen) **[Kontexte](#kontexte-begriffsklaerung)** sind geeignet, um an ihnen die Kernfragen und -ideen exemplarisch zu behandeln und die Inhalte zu rekonstruieren? | Wie kann das Verständnis sukzessive **über realitätsbezogene Situationen** in dem beabsichtigten Lernpfad konstruiert werden (vgl. [*horizontale Mathematisierung*](#mathematisierungstypen))? <br/> Wie kann der Lernpfad **in Bezug auf die mathematische Problemstruktur** angeordnet werden (vgl. [*vertikale Mathematisierung*](#mathematisierungstypen))?
+| **`r concrete("Konkrete Ebene")`** | **Welche [Kernideen](#kernidee-begriffsklaerung)** können die Entwicklung der Begriffe, Zusammenhänge und Verfahren leiten? <br/> **Welche** (inner- und außermathematischen) **[Kontexte](#kontexte-begriffsklaerung)** sind geeignet, um an ihnen die Kernideen exemplarisch zu behandeln und die Inhalte zu rekonstruieren? | Wie kann das Verständnis sukzessive **über realitätsbezogene Situationen** in dem beabsichtigten Lernpfad konstruiert werden (vgl. [*horizontale Mathematisierung*](#mathematisierungstypen))? <br/> Wie kann der Lernpfad **in Bezug auf die mathematische Problemstruktur** angeordnet werden (vgl. [*vertikale Mathematisierung*](#mathematisierungstypen))?
 | **`r empiric("Empirische Ebene")`** | **Welche** typischen **individuellen Voraussetzungen** (Vorstellungen, Kenntnisse, Kompetenzen, …) sind zu erwarten und **wie passen** diese zum **angestrebten Verständnis**? <br/> **Woher** kommen typische **Hindernisse** oder **unerwünschte Vorstellungen**? | Wie können typische **Vorkenntnisse und Vorstellungen** als **fruchtbare Anknüpfungspunkte** dienen? <br/> Welche **Schlüsselstellen** (Hindernisse, Wendepunkte, …) gibt es **im Lernweg** der Schülerinnen und Schüler?
 
 Table: (\#tab:fragen-ebenen) Typische Fragestellungen, angelehnt an @Hussmann:2016 [36]
 
 
-Diese Fragen können dabei helfen, einen Lerngegenstand aus professioneller Sicht vollumfänglich zu analysieren (insb. Spezifizierung) und daraus die Gestaltung eines Lernpfades für Schülerinnen und Schüler abzuleiten (insb. Strukturierung). Noch *nicht* abgeleitet werden kann daraus jedoch die Gestaltung einer *konkreten Unterrichtsstunde* -- dies bedarf weiterer Überlegungen, z. B. zu Unterrichtsmethoden, Aufgaben, Klassenmanagement, ... [@Hussmann:2016, 37].
+Diese Fragen können dabei helfen, einen Lerngegenstand aus professioneller Sicht umfassend zu analysieren und daraus die Gestaltung eines Lernpfades für Schülerinnen und Schüler abzuleiten. Noch *nicht* abgeleitet werden kann daraus jedoch die Gestaltung einer *konkreten Unterrichtsstunde* -- dies bedarf weiterer Überlegungen, z. B. zu Unterrichtsmethoden, Aufgaben, Klassenmanagement, ... [@Hussmann:2016, 37].
 
 ## Lernbereich und Lerngegenstand
 
 Als ***Lerngegenstände*** werden im Rahmen dieser Veranstaltung für spezifische Ausbildungszwecke ausgewählte Ausschnitte des gesellschaftlichen Wissens und Könnens angesehen [vgl. @Lompscher1985b]. Diese Sichtweise entstammt tätigkeitstheoretischen Überlegungen, wobei zwischen gesellschaftlichem Wissen und Können und individuellen Kenntnissen, Fähigkeiten und Fertigkeiten unterschieden wird. Weitere Hintergrundinformationen dazu finden Sie in späteren Kapiteln.<!--Abschnitt \@ref(aneignung-von-lerngegenstaenden) sowie in den Kapiteln \@ref(taetigkeitstheorie-und-lernen) und \@ref(lernhandlungen-ausbilden).-->
 
-<!--
-Zu Lerngegenständen gehören -- im Rahmen des Mathematikunterrichts -- sowohl **inhaltliche Themen** (wie der *Satz des Pythagoras*, *Rechnen mit negativen Zahlen*, …) als auch **typische Methoden und Vorgehensweisen** (wie das *Modellieren*, *Problemlösen*), aber auch **Werte und Normen**, die vermittelt werden sollen (z. B. dass in Rechnungen das *Gleichheitszeichen untereinander* geschrieben wird, handschriftliche Zeichnungen *mit einem gespitzen Bleistift anzufertigen* sind usw.). Auch innerhalb eines Themengebietes (z. B. dem Umgang mit Dezimalbrüchen) können Lerngegenstände beliebig kleinteilig beschreiben werden (etwa das Stellenwertverständnis, das Eintrag von Dezimalzahlen auf dem Zahlenstrahl usw.).
 
-Um einer solchen Kleinteiligkeit entgegenwirken und zielgerichtete Analysen vornehmen zu können, wird sich im Rahmen der Stoffdidaktik-Veranstaltung auf inhaltliche Themen konzentriert, die zu ***Lernbereichen*** zusammengeführt werden. Üblicherweise spiegeln sich Lernbereiche in einer **Unterrichtssequenz** (oder auch in der Kapitelstruktur von Schulbüchern) wider [vgl. auch @Vollrath2012 187] und benötigen einen einigermaßen vergleichbaren Aufwand für die stoffdidaktische Analyse.
+Zu Lerngegenständen gehören -- im Rahmen des Mathematikunterrichts -- sowohl **inhaltliche Themen** (wie der *Satz des Pythagoras*, *Rechnen mit negativen Zahlen*, …) als auch **typische Methoden und Vorgehensweisen** (wie das *Modellieren*, *Problemlösen*), aber auch **Werte und Normen**, die vermittelt werden sollen (z. B. eine positive Fehlerkultur zu entwickeln). Auch innerhalb eines Themengebietes (z. B. dem Umgang mit Dezimalbrüchen) können Lerngegenstände beliebig kleinteilig beschreiben werden (etwa das Stellenwertverständnis, das Eintrag von Dezimalzahlen auf dem Zahlenstrahl usw.).
+
+Um einer solchen Kleinteiligkeit entgegenwirken und zielgerichtete Analysen vornehmen zu können, wird sich im Rahmen der Stoffdidaktik-Veranstaltung auf inhaltliche Themen konzentriert, die zu ***Lernbereichen*** zusammengeführt werden. Üblicherweise spiegeln sich Lernbereiche in einer **Unterrichtssequenz** (oder auch in der Kapitelstruktur von Schulbüchern) wider [vgl. auch @Vollrath2012 187].
 
 
 ## Beispiel Winkelbegriff
 
-Um sich der Komplexität des Vier-Ebenen-Ansatzes bewusst zu werden, sollen mögliche Gedankengänge am Beispiel des Winkelbegriffs\index{Winkel|(} durchgeführt werden. Grundlage hierfür bietet die Dissertation *Neue Zugänge zum Winkelbegriff* [@Etzold2021]. In dieser wird zwar nicht der Vier-Ebenen-Ansatz für die stoffdidaktische Analyse verfolgt, aber dennoch lassen sich die einzelnen Elemente darin wiederfinden. Ziel ist hier keine vollumfängliche stoffdidaktische Analyse, sondern eher eine Darstellung der exemplarischen Herangehensweise, wie man sich einer Spezifizierung und Strukturierung des Lerngegenstands *Winkel* auf den vier Ebenen nähern kann.
+Um sich der Komplexität des Vier-Ebenen-Ansatzes bewusst zu werden, sollen mögliche Gedankengänge ansatzweise am Beispiel des Winkelbegriffs illustriert werden. Grundlage hierfür bietet die Dissertation *Neue Zugänge zum Winkelbegriff* [@Etzold2021]. In dieser wird zwar nicht der Vier-Ebenen-Ansatz für die stoffdidaktische Analyse verfolgt, aber dennoch lassen sich die einzelnen Elemente darin wiederfinden. Ziel ist hier keine vollumfängliche stoffdidaktische Analyse, sondern eher eine Darstellung der exemplarischen Herangehensweise, wie man sich einer Spezifizierung und Strukturierung des Lerngegenstands *Winkel* auf den vier Ebenen nähern kann.
 
 ### Formale Ebene
 
@@ -71,8 +70,9 @@ Eine\index{Vier-Ebenen-Ansatz!formale Ebene|(} fachmathematische Analyse (bereit
 knitr::include_graphics("pictures/1-FreudenthalWinkel.jpg")
 ```
 
-Er diskutiert, welchen Einfluss die jeweilige Sichtweise auf dem Maßbereich hat, wie Winkel überhaupt gemessen werden können und wie mit Winkeln operiert werden kann. Was passiert denn, wenn man ein  geordnetes Strahlenpaar in der orientierten Ebene spiegelt [vgl. @Freudenthal:1973 {443 ff.}]?
+Er diskutiert, welchen Einfluss die jeweilige Sichtweise auf dem Maßbereich hat, wie Winkel überhaupt gemessen werden können und wie mit Winkeln operiert werden kann. 
 
+So wird beispielsweise die Frage diskutiert, was passiert, wenn man ein geordnetes Strahlenpaar in der orientierten Ebene spiegelt [vgl. @Freudenthal:1973 {443 ff.}]. 
 Wenn die Reihenfolge der Strahlen erhalten bleibt und die Winkelmessung aufgrund der Orientierung der Ebene vorgegeben ist, ändert sich damit ggf. auch das Maß des Winkels (siehe Abbildung \@ref(fig:FreudenthalWinkelSpiegeln)).
 
 (ref:citeFreudenthalWinkelSpiegeln) Spiegelung eines goniometrischen Winkels [@Freudenthal:1973 {443}]
@@ -122,7 +122,7 @@ Die Schülerinnen und Schüler nutzen dazu eine App (siehe Abbildung \@ref(fig:W
 4. Setze das Schaf an eine Stelle, an der es noch gerade so von der Kuh gesehen wird.
 5. Wo muss das Schaf lang laufen, damit es die gesamte Zeit gerade so von der Kuh gesehen wird?
 
-An Aufgabe 5 kann z. B. erkundet werde, dass sich das Schaf geradlinig auf der Grenze zwischen Sichtfeld und Nicht-Sichtfeld bewegen muss. In die eine Richtung ist die Bewegung beliebig fortsetzbar, in die andere durch den Kopf der Kuh begrenzt. Eine mathematische Verallgemeinerung dieser Handlung besteht dann in der Identifizierung des Schenkels (Begrenzung) als Strahl (nur in eine Richtung fortsetzbar) mit dem Scheitelpunkt (Kopf der Kuh) als *Quelle* des Winkelfeldes.
+An Aufgabe 5 kann z. B. erkundet werden, dass sich das Schaf geradlinig auf der Grenze zwischen Sichtfeld und Nicht-Sichtfeld bewegen muss. In die eine Richtung ist die Bewegung beliebig fortsetzbar, in die andere durch den Kopf der Kuh begrenzt. Eine mathematische Verallgemeinerung dieser Handlung besteht dann in der Identifizierung des Schenkels (Begrenzung) als Strahl (nur in eine Richtung fortsetzbar) mit dem Scheitelpunkt (Kopf der Kuh) als *Quelle* des Winkelfeldes.
 
 (ref:citeWinkelfarmApp) Screenshot der App Winkel-Farm [@Etzold:2019]
 
@@ -168,9 +168,3 @@ Das ist aber gar nicht schlimm, ganz im Gegenteil. Es zeigt wieder einmal, wie w
 Wichtig ist v. a., dass Sie sich als Lehrkraft stets darüber im Klaren sind, dass für eine stoffdidaktische Analyse verschiedene Perspektiven verfolgt werden müssen. Sehen Sie den Vier-Ebenen-Ansatz daher auch als Kontrollinstrument, ob Sie an alles gedacht haben, wenn Sie einen Lerngegenstand intensiv analysieren.
 
 
-## Zum Nachbereiten {#vier-ebenen-nachbereitung}
-
-1. Lesen Sie den Artikel von @Hussmann:2016 zum Vier-Ebenen-Ansatz.
-2. Reflektieren Sie Ihre bisherige Fach- und Fachdidaktikausbildung in Mathematik dahingehend, welche der aufgeworfenen Fragen Sie zu konkreten Themenbereichen (nicht) beantworten könnten.
-
--->

@@ -21,18 +21,14 @@ Nach @Wygotski1985a erfolgt eine Interaktion eines Individuums mit einem Lerngeg
 
 Durch die Nutzung eines geeigneten Werkzeugs ist das Individuum damit einerseits in der Lage, seine Kenntnisse, Fähigkeiten und Fertigkeiten zu ***externalisieren***, d. h. das Werkzeug zielgerichtet so einzusetzen, dass auf den Lerngegenstand eingewirkt werden kann. Andererseits kann das Werkzeug auch dabei helfen, Eigenschaften des Lerngegenstands zu ***internalisieren***, indem die Werkzeugnutzung dazu führt, dass das Individuum Kenntnisse, Fähigkeiten und Fertigkeiten über den Lerngegenstand gewinnt. Um sich also einen Lerngegenstand *anzueignen*, sind sowohl stets Externalisierungs- als auch Internalisierungsprozesse notwendig. Man kann auch sagen, dass **Aneignung als Einheit aus Externalisierung und Internalisierung** aufzufassen ist.
 
-```{r SubjektObjekt2, echo=FALSE, fig.cap="Die Nutzung eines Zirkels zur Aneignung des Kreis-Begriffs", fig.align='center', out.width='75%'}
+```{r SubjektObjekt2b, echo=FALSE, fig.cap="Die Nutzung eines Zirkels zur Aneignung des Kreis-Begriffs", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/6-Aneignung.png")
 ```
 
 ### Zur Rolle des Sprechens
 Eine wichtige Rolle beim Aneignen spielt das **Sprechen über die durchgeführten Handlungen**. Dieses dient quasi als Bindeglied zwischen geistiger Handlung und praktisch-gegenständlicher Handlung, da es sowohl den Externalisierungsprozess unterstützt (das Geistige muss über das Sprechen externalisiert werden) als aus der Internalisierung dienlich ist (über das Sprechen wird das Praktisch-Gegenständliche psychisch verarbeitet). Damit unterstützt das Sprechen auch eine **schrittweise Abkehr vom externen Werkzeug** und damit eine geistige Durchdringung des betrachteten Lerngegenstands. Abbildung \@ref(fig:GVverinnerlichen) zeigt eine entsprechende Schrittfolge zum Aufbau von Grundvorstellungen, wie sie @Wartha2011 [11] vorschlagen  (wobei die dort verwendeten Farben nichts mit den hier im Skript genutzten Farben für die vier Ebenen zu tun haben).
 
-(ref:GVverinnerlichen) Aufbau von Grundvorstellungen nach @Wartha2011 [11]
-
-```{r GVverinnerlichen, echo=FALSE, fig.cap="(ref:GVverinnerlichen)", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/6-GVverinnerlichen.png")
-```
+SIEHE KAPITEL 4
 
 In Abschnitt \@ref(ausfuehren-und-verinnerlichen) wird diese Sichtweise noch einmal mit tätigkeitstheoretischen Theorien in Bezug gebracht.
 
@@ -117,7 +113,7 @@ Diese Etappen führen letztlich dazu, die Lernhandlungen (und damit auch den Ler
 
 (ref:citeEtappen) Beispiele zur etappenweisen Verinnerlichung von Handlungen im Mathematikunterricht nach @Steinhofel1988 [19]
 
-```{r Etappen, echo=FALSE, fig.cap="(ref:citeEtappen)", fig.align='center', out.width='90%'}
+```{r Etappenb, echo=FALSE, fig.cap="(ref:citeEtappen)", fig.align='center', out.width='90%'}
 knitr::include_graphics("pictures/6-Etappen.png")
 ```
 
@@ -164,7 +160,7 @@ Insgesamt ergeben sich aus den Überlegungen **typische Unterrichtssituationen**
 
 (ref:citeUnterrichtsphasen) Typische Unterrichtssituationen nach @Bruder1991
 
-```{r Unterrichtsphasen, echo=FALSE, fig.cap="(ref:citeUnterrichtsphasen)", fig.align='center', out.width='95%'}
+```{r Unterrichtsphasenb, echo=FALSE, fig.cap="(ref:citeUnterrichtsphasen)", fig.align='center', out.width='95%'}
 knitr::include_graphics("pictures/6-Unterrichtssituationen.png")
 ```
 

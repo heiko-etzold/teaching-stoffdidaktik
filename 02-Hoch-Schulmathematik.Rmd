@@ -1,4 +1,4 @@
-<!--
+
 # (Hoch-)Schulmathematik strukturieren
 
 > **Ziele**
@@ -10,21 +10,23 @@
 >
 > **Material**
 >
-> + Folien zum Kapitel 2 ([pdf](files/Stoffdidaktik2024-02-HochSchulmathematikStrukturieren.pdf), [Keynote](files/Stoffdidaktik2024-02-HochSchulmathematikStrukturieren.key))
+> + Folien zum Kapitel 2 ([pdf](files/Stoffdidaktik2025-02-HochSchulmathematikStrukturieren.pdf), [Keynote](files/Stoffdidaktik2025-02-HochSchulmathematikStrukturieren.key))
 
 
-## Doppelte Diskontinuität
+## Allgemeine Hinweise
 
-Auf der `r formal("formalen Ebene")` des Vier-Ebenene-Ansatzes soll der zu betrachtende Lerngegenstand fachmathematisch untersucht werden, um eine erste Auswahl (*Spezifizierung*) und Anordnung (*Strukturierung*) der Lerninhalte zu ermöglichen. Dies ruft natürlich -- auch für Lerngegenstände der Grundschulmathematik -- danach, die im Studium erworbenen hochschulmathematischen Erkenntnisse zu nutzen. Dieser Ruf wird jedoch (scheinbar!) geschmälert durch eine offensichtliche Ungleichheit zwischen Schulmathematik und Hochschulmathematik. Felix Klein beschreibt dieses Phänomen, das sich insbesondere auf die Ausbildung von Lehrkräften auswirkt, bereits im Übergang vom 19. zum 20. Jahrhunderts als ***doppelte Diskontinuität***: »Der junge Student sieht sich am Beginn seines Studiums vor Probleme gestellt, die ihn in keinem Punkte mehr an die Dinge erinnern, mit denen er sich auf der Schule beschäftigt hat; natürlich vergißt er daher alle diese Sachen rasch und gründlich. Tritt er aber nach Absolvierung des Studiums ins Lehramt über, so soll er plötzlich eben diese herkömmliche Elementarmathematik schulmäßig unterrichten; da er diese Aufgabe kaum selbständig mit seiner Hochschulmathematik in Zusammenhang bringen kann, so wird er in den meisten Fällen recht bald die althergebrachte Unterrichtstradition aufnehmen, und das Hochschulstudium bleibt ihm nur eine mehr oder minder angenehme Erinnerung, die auf seinen Unterricht keinen Einfluß hat.« [@Klein1967, 1]^[Es handelt sich hier um den Nachdruck eines Werke, dessen erste Auflage 1908 erschien.]
+### Doppelte Diskontinuität
+
+Auf der `r formal("formalen Ebene")` des Vier-Ebenene-Ansatzes soll der zu betrachtende Lerngegenstand fachmathematisch untersucht werden, um eine erste Auswahl (*Spezifizierung*) und Anordnung (*Strukturierung*) der Lerninhalte zu ermöglichen. Dies ruft natürlich -- auch für Lerngegenstände der Grundschulmathematik -- danach, die im Studium erworbenen hochschulmathematischen Erkenntnisse zu nutzen. Dieser Ruf wird jedoch (scheinbar!) geschmälert durch eine offensichtliche Ungleichheit zwischen Schulmathematik und Hochschulmathematik. Felix Klein beschreibt dieses Phänomen, das sich insbesondere auf die Ausbildung von Lehrkräften auswirkt, bereits im Übergang vom 19. zum 20. Jahrhunderts als ***doppelte Diskontinuität***: »Der junge Student sieht sich am Beginn seines Studiums vor Probleme gestellt, die ihn in keinem Punkte mehr an die Dinge erinnern, mit denen er sich auf der Schule beschäftigt hat; natürlich vergißt er daher alle diese Sachen rasch und gründlich. Tritt er aber nach Absolvierung des Studiums ins Lehramt über, so soll er plötzlich eben diese herkömmliche Elementarmathematik schulmäßig unterrichten; da er diese Aufgabe kaum selbständig mit seiner Hochschulmathematik in Zusammenhang bringen kann, so wird er in den meisten Fällen recht bald die althergebrachte Unterrichtstradition aufnehmen, und das Hochschulstudium bleibt ihm nur eine mehr oder minder angenehme Erinnerung, die auf seinen Unterricht keinen Einfluß hat.« [@Klein1967, 1]^[Es handelt sich hier um den Nachdruck eines Werkes, dessen erste Auflage 1908 erschien.]
 
 Einen Ausweg, dieser doppelten Diskontinität zu entgehen, sah Klein in einer ***Elementarmathematik vom höheren Standpunkte aus*** [@Klein1967; @Klein1925; @Klein1955]. Dabei verfolgt er »das Ziel, im Anschluss an umfassende hochschulmathematische Erfahrungen die Schulmathematik in den erworbenen Wissenskanon fachlich einzubetten« [@Danckwerts2013, 78].
 
 Diesen Gedanken fortsetzend kann man auch »gleich am Anfang des Studiums direkt und explizit an die schulmathematischen Vorerfahrungen an[knüpfen], bleibt inhaltlich bei diesen und arbeitet einen höheren Standpunkt heraus, der auf die vertiefte Auseinandersetzung mit der Oberstufenmathematik zielt und prinzipiell mit den bis dahin erworbenen (elementar-)mathematischen Mitteln auskommt.« [@Danckwerts2013, 78] Eine solche Entwicklung hat das Projekt *Mathematik Neu Denken* verfolgt, das gut 100 Jahre nach Kleins Publikationen die Lehramtsausbildung im Fach Mathematik weiterentwickeln wollte [@Beutelspacher2012]. Entwickelt wird daraus eine ***Schulmathematik vom höheren Standpunkt***, die auf eine fachliche und verstehensorientierte Durchdringung der Schulmathematik zielt, »ohne im vollen Umfang auf das Instrumentarium der kanonischen […] [Hochschulmathematik] zurückgreifen zu müssen« [@Danckwerts2013, 87].
 
-Im Rahmen der Stoffdidaktik-Veranstaltung sollen beide Ansätze aufgegriffen und an konkreten Beispielen versucht werden, die Fragen der `r formal("formalen Ebene")` zu beantworten. Als bedeutsames Bindeglied zwischen Schul- und Hochschulmathematik stellen sich dabei fundamentale Ideen heraus, die auch schon auf die `r semantic("semantische Ebene")` des Vier-Ebenen-Ansatzes zielen -- siehe dazu Abschnitt \@ref(fundamentale-ideen).
+Im Rahmen der Stoffdidaktik-Veranstaltung sollen beide Ansätze aufgegriffen und an konkreten Beispielen versucht werden, die Fragen der `r formal("formalen Ebene")` zu beantworten. 
 
 
-## Geeignete Quellen
+### Geeignete Quellen
 
 * Neben den Werken von Felix Klein zu Beginn des 20. Jahrhunderts [@Klein1967; @Klein1925; @Klein1955] und aktuellen Ansätzen zum Umgang mit der doppelten Diskontinuität in der Lehramtsausbildung [@Beutelspacher2012; @Ableitinger2013] liefern die in den 1970er Jahren von Hans Freudenthal verfassten Werke zur *Mathematik als pädagogische Aufgabe* [@Freudenthal1973a; @Freudenthal:1973; englischsprachig auch digital verfügbar über @Freudenthal1973c] Ansätze, Schul- und Hochschulmathematik miteinander in Bezug zu bringen.
 
@@ -46,11 +48,9 @@ Im Rahmen der Stoffdidaktik-Veranstaltung sollen beide Ansätze aufgegriffen und
 
 
 
-## Strukturierungsmöglichkeiten
+Mathematik kann auf verschiedene Weisen strukturiert werden. Manche Strukturierungsmöglichkeiten orientieren sich stärker an der Fachwissenschaft (z. B. *Sachgebiete*), andere haben über die Gestaltung der Bildungsstandards eine eher politische Funktion (z. B. *Litdeen*). Im Folgenden werden drei Strukturierungsmöglichkeiten vorgestellt.
 
-Mathematik kann auf verschiedene Weisen strukturiert werden. Manche Strukturierungsmöglichkeiten orientieren sich stärker an der Fachwissenschaft (z. B. *Sachgebiete*), andere an der Bedeutung der Fachinhalte für die mathematische Kultur an sich (z. B. *Fundamentale Ideen*). Im Folgenden werden vier Strukturierungsmöglichkeiten vorgestellt.
-
-### Sachgebiete
+## Sachgebiete
 
 Für die Fachwissenschaft Mathematik haben sich historisch verschiedene Unterdisziplinen entwickelt, die als Sachgebiete der Mathematik bezeichnet werden können. Schulrelevante Gebiete sind hierbei:
 
@@ -63,9 +63,9 @@ Für die Fachwissenschaft Mathematik haben sich historisch verschiedene Unterdis
 
 Auch heute bilden sich diese und weitere Sachgebiete (z. B. Numerik) in den Strukturen von universitären Lehrveranstaltungen, Forschungsrichtungen und nicht zuletzt der Strukturierung einzelner Lehrpläne der Schulen ab.
 
-Für eine Vertiefung mit der Didaktik der Sachgebiete eignen sich u. a. die in Abschnitt \@ref(geeignete-quellen) dargestellten Quellen. Weiterhin werden Sie im Masterstudium im Modul *Ausgewählte Themen der Mathematikdidaktik*^[siehe Modulbeschreibung zum Modul [MAT-LS-D3 bei PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3186&menuid=&topitem=Modulbeschreibung&subitem=)] die Möglichkeit haben, sich mit der Didaktik einzelner Sachgebiete näher auseinanderzusetzen.
+Für eine Vertiefung mit der Didaktik der Sachgebiete eignen sich u. a. die in Abschnitt \@ref(geeignete-quellen) dargestellten Quellen. Weiterhin werden Sie im Masterstudium im Modul *Ausgewählte Themen der Mathematikdidaktik*^[siehe Modulbeschreibung zum Modul [MAT-LS-D3 bei PULS](https://puls-qis.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3186&menuid=&topitem=&subitem=)] die Möglichkeit haben, sich mit der Didaktik einzelner Sachgebiete näher auseinanderzusetzen.
 
-### Leitideen
+## Leitideen
 
 Die Strukturierung mathematischer Inhalte in Leitideen ist seit Anfang der 2000er Jahre im deutschen Bildungswesen etabliert, als die KMK^[Mehr zur Kultusministerkonferenz (KMK) und ihrer eigentlichen Bezeichnungen siehe @dewiki:228417777.] **Bildungsstandards** für den Mittleren Schulabschluss (2004), den Primarbereich (2005) und später auch die Allgemeine Hochschulreife (2012) herausgebracht hat. Darauf aufbauend wurden in den meisten Bundesländern die Lehrpläne angepasst.
 Zwischenzeitlich wurden die Bildungsstandards für den Primarbereich sowie den Ersten und Mittleren Schulabschluss überarbeitet, für die gymnasiale Oberstufe gelten während der gerade laufenden Überarbeitung noch die von 2012.  [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022a; @SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022; @KMK:2012].
@@ -81,133 +81,24 @@ Im Laufe der letzten 20 Jahre haben sich für die Leitideen teils verschiedene B
 
 Die Leitidee Zahl und Operation beispielweise »umfasst sinntragende Vorstellungen und Darstellungen von Zahlen und Operationen sowie die Nutzung von Rechengesetzen und Kontrollverfahren. Dazu gehören die sachgerechte Nutzung von Prozent- und Zinsrechnung ebenso wie kombinatorische Überlegungen und Verfahren, denen Algorithmen zu Grunde liegen.« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 15]. Weiterhin werden diese Kompetenzen an spezifischen Fachinhalten konkretisiert, etwa: »Die Schülerinnen und Schüler […] • untersuchen Zahlen nach ihren Faktoren, in einfachen Fällen ohne digitale Mathematikwerkzeuge, • stellen Zahlen der Situation angemessen dar, z.B. unter anderem in Zehnerpotenzschreibweise, • rechnen mit natürlichen, ganzen und rationalen Zahlen, die im täglichen Leben vorkommen, sowohl zur Kontrolle als auch im Kopf und erklären die Bedeutung der Rechenoperationen […]« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 15]
 
-Die Leitideen werden in den Bildungsstandards als **inhaltsbezogene Kompetenzen** beschrieben, die mit Abschluss des ersten bzw. mittleren Schulabschlusses zu erreichen sind. Es handelt sich dabei um **Regelstandards**, also Kompetenzen, die »Schülerinnen und Schüler im Durchschnitt in einem Fach erreichen sollen« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 2]. Diese sind abzugrenzen gegenüber **Basiskompetenzen** als »mathematisch zentrale, instrumentell bedeutsame und geradezu grundlegende Konzepte und Verfahren, die für die mathematische Kompetenzentwicklung unverzichtbar sind« (vgl. https://pikas-mi.dzlm.de/node/92). Für Basiskompetenzen gibt es derzeit in Deutschland keine politischen Dokumente wie Rahmenlehrpläne oder Bildungsstandards.
+Die konkreten Ausführungen innerhalb der Leitideen werden in den Bildungsstandards als **inhaltsbezogene Kompetenzen** beschrieben, die mit Abschluss des ersten bzw. mittleren Schulabschlusses zu erreichen sind. Es handelt sich dabei um **Regelstandards**, also Kompetenzen, die »Schülerinnen und Schüler im Durchschnitt in einem Fach erreichen sollen« [@SekretariatderStandigenKonferenzderKultusministerderLanderinderBundesrepublikDeutschland2022, 2]. Diese sind abzugrenzen gegenüber **Basiskompetenzen** als »mathematisch zentrale, instrumentell bedeutsame und geradezu grundlegende Konzepte und Verfahren, die für die mathematische Kompetenzentwicklung unverzichtbar sind« (vgl. https://pikas-mi.dzlm.de/node/92). Für Basiskompetenzen gibt es derzeit in Deutschland keine politischen Dokumente wie Rahmenlehrpläne oder Bildungsstandards.
 
 
-### Arten mathematischen Wissens
+## Stoffelementkategorien
 
-Eine weitere Strukturierung mathematischen Wissens kann darin bestehen, den Blick darauf zu lenken, wie dieses Wissen angeeignet wird. So können ähnliche Aneigungsprozesse Motivation bieten, das Wissen entsprechend zu strukturieren und dies dann für die Gestaltung von Lehr-Lern-Prozessen nutzbar zu machen. Etabliert hat sich hierfür eine Unterscheidung in drei Arten mathematischen Wissens [vgl. @Vollrath2012, 45 f.]:
+Eine weitere Strukturierung mathematischen Wissens kann darin bestehen, den Blick darauf zu lenken, wie dieses Wissen angeeignet wird. So können ähnliche Aneigungsprozesse Motivation bieten, das Wissen entsprechend zu strukturieren und dies dann für die Gestaltung von Lehr-Lern-Prozessen nutzbar zu machen. Die Bezeichnung *Stoffelementkategorie* nutzt u. a. @Zais2003, während @Vollrath2012 [{45 f.}] von *Arten mathematischen Wissens* sprechen. Es können drei Kategorien unterschieden werden.
 
 * **Begriffe.** Diese bilden das Grundgerüst der Mathematik und belegen Objekte gleicher Eigenschaft mit einem gemeinsamen Bezeichner. Neben der Begriffsfestlegung, i. d. R. über eine Definition, ist der Einsatz geeignter Beispiele und Gegenbeispiele essentiell beim Aufbau eines Begriffsverständnisses.
 
-* **Zusammenhänge** Diese beschreiben Eigenschaften von Begriffen und ihre Beziehungen zueinander. Klassischerweise gehören hierzu mathematische Sätze inkl. ihrer Beweise, aber auch präformale Begründungen. Bei @Vollrath2012 [{45 f.}] wird statt von *Zusammenhängen* von *Sachverhalten* gesprochen, ältere Quellen beziehen sich auch nur auf *Sätze*.
+* **Zusammenhänge.** Diese beschreiben Eigenschaften von Begriffen und ihre Beziehungen zueinander. Klassischerweise gehören hierzu mathematische Sätze inkl. ihrer Beweise, aber auch präformale Begründungen. Bei @Vollrath2012 [{45 f.}] wird statt von *Zusammenhängen* von *Sachverhalten* gesprochen, ältere Quellen beziehen sich auch nur auf *Sätze*.
 
 * **Verfahren.** Diese bestimmen, wie bestimmte Aufgaben zu lösen sind, z. B. schriftliche Rechenverfahren, Lösungsverfahren von Gleichungen und Gleichungssystemen.
 
-Einige Autoren zählen zu den Verfahren auch heuristische Strategien zum Problemlösen oder die Anwendung des Permanenzprinzips [vgl. @Steinhofel1988,23]. @Vollrath2012 [46 ff.] ergänzen dagegen die drei Wissensarten noch:
+Einige Autoren zählen zu den Verfahren auch heuristische Strategien zum Problemlösen oder die Anwendung des Permanenzprinzips [vgl. @Steinhofel1988,23]. @Vollrath2012 [46 ff.] ergänzen inhaltlich ähnlich:
 
 * **Metamathematisches Wissen.** Darunter ist zu verstehen, *wie* Mathematik betrieben wird, also bspw. welche Möglichkeiten es gibt, ein mathematisches Problem zu lösen oder eine Sachsituation mathematisch zu modellieren.
 
-In den nächsten Kapiteln <!--Abschnitt \@ref(begriffe-sachverhalte-verfahren)--> <!--wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Wissensarten gestaltet werden können.
-
-
-### Fundamentale Ideen
-
-#### Begriffsklärung {#fundamentale-ideen-begriffsklaerung}
-
-Die Entwicklung Fundamentaler Ideen beruft sich auf Bruners Annahme, dass »jedes Kind [...] auf jeder Entwicklungsstufe jeder Lehrgegenstand in einer intellektuell ehrlichen Form erfolgreich gelehrt werden« kann [vgl. @Bruner:1976 77]. Voraussetzung dafür ist, dass die *Struktur* eines Inhaltsbereichs in einer Art und Weise präsentiert wird, dass sie dem Kind zugänglich wird. Diese *hinter den Dingen* liegende Struktur hebt sich vom konkreten Inhaltsbereich ab, ist allgemeinerer Natur und kann daher über *Fundamentale Ideen* beschrieben werden.
-
-Ziel der Orientierung des Unterrichtens an Fundamentalen Ideen besteht v. a. darin, die (oftmals) isolierten Stoffelemente einzuordnen und in einem größeren Ganzen zu sehen. Im Umkehrschluss heißt dies aber auch, dass die Auswahl des konkreten Stoffes daran orientiert sein muss, wie dieser dazu beitragen kann, den dahinter liegenden mathematischen Kern und die zugehörigen Fundamentalen Ideen zu vertreten.
-
-Die dazu seit den 1960er Jahren in Gang gesetzte Forschung führte zu vielfältigen Vorschlägen Fundamentaler Ideen der Mathematik -- jedoch bisher nicht zu einem allgemeingültigen Katalog. Dieser Vielfalt in den Formulierungen und Kategorisierungen kann begegnet werden, indem Fundamentale Ideen über Eigenschaften charakterisiert werden. @Schwill:1994 schlägt hierzu vor.
-
-»Eine **Fundamentale Idee**\index{Fundamentale Idee|textbf} bzgl. eines Gegenstandsbereichs (Wissenschaft, Teilgebiet) ist ein **Denk-, Handlungs-, Beschreibungs- oder Erklärungsschema**, das
-
- 1. in verschiedenen Gebieten des Bereichs vielfältig anwendbar oder erkennbar ist (**Horizontalkriterium**),\index{Fundamentale Idee!Horizontalkriterium|textbf}
- 2. auf jedem intellektuellen Niveau aufgezeigt und vermittelt werden kann (**Vertikalkriterium**),\index{Fundamentale Idee!Vertikalkriterium|textbf}
- 3. in der historischen Entwicklung des Bereichs deutlich wahrnehmbar ist und längerfristig relevant bleibt (**Zeitkriterium**),\index{Fundamentale Idee!Zeitkriterium|textbf}
- 4. einen Bezug zu Sprache und Denken des Alltags und der Lebenswelt besitzt (**Sinnkriterium**).\index{Fundamentale Idee!Sinnkriterium|textbf}«
-
-
-Fundamentale Ideen haben zwar ihren Ursprung in der Fachstruktur, aber sie »sind nicht Elemente der Wissenschaft an sich, sondern Produkte unseres Verstandes, die wir der Wissenschaft aufprägen. Folglich können sie nur relativ zum Menschen objektiviert werden« [@Schubert:2011 62].
-
-> **Überblick zur historischen Entwicklung Fundamentaler Ideen**
->
-> - @Bank:2016 [{37 ff.}]: *Fundamentale Ideen der Mathematik: Weiterentwicklung einer Theorie zu deren unterrichtspraktischer Nutzung*
-
-
-Für Ihre stoffdidaktische Analyse können Fundamentale Ideen insbesondere hilfreich für die **Dekonstruktion** des Fachwissens und anschließende **Rekonstruktion** des Schulwissens sein.
-
-Wenn sie also beispielsweise eine stoffdidaktische Analyse zur Flächeninhaltsberechnung durchführen, setzen Sie sich mit der Fundamentalen Idee des *Messens*\index{Messen} auseinander. Dabei verstehen Sie Messvorgänge als Vergleiche zu einem Standardmaß (z. B. Kästchen auszählen), erkennen Zerlegungs- und Ergänzungsgleichheit als notwendige Prinzipien zur präziseren Beschreibung, sehen Dreiecke als bedeutsame Basisfiguren für Flächeninhaltsberechnungen an und haben den Blick für die Integralrechnung als verallgemeinerbare Methode zur Flächeninhaltsbestimmung krummliniger Figuren [vgl. @Vohns:2000 {98 ff.}]. Sie *dekonstruieren* (zerlegen) damit Ihr eigenes mathematisches Fachwissen.
-
-Nun sind Sie in der Lage, das Wissen zur Flächeninhaltsberechnung für Schülerinnen und Schüler neu aufzubauen, also zu *rekonstruieren* und (unter Hinzunahme der Betrachtung von Grundvorstellungen und den restlichen Ebenen des Vier-Ebenen-Ansatzes) einen Lernpfad zu entwickeln. Im Zusammenhang mit der Integralrechnung kann dies z. B. heißen, dass Sie parallel zum Bilden von Ober- und Untersummen noch einmal eine krummlinig begrenzte Fläche durch Kästchen auszählen lassen -- ggf. mit unterschiedlicher Feinheit und einer Abschätzung nach oben und nach unten. Die Fundamentalen Ideen haben für Sie damit auch eine *ordnende Funktion* des Unterrichtsstoffes.
-
-```{r Flaeche, echo=FALSE, fig.cap="Flächeninhaltsbestimmung", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/3-Flaeche.png")
-```
-
-
-#### Auswahl Fundamentaler Ideen
-
-Das Fehlen eines allgemeingültigen Katalogs sollte nicht davon abhalten, bestehende Auflistungen und Strukturierungen Fundamentaler Ideen zu betrachten. @vonderBank:2013 [103] und @Lambert:2012 diskutieren eine Kategorisierung Fundamentaler Ideen in drei Bereiche:
-
-- **Inhaltsideen** beziehen sich auf konkrete Inhaltsbereiche der Mathematik, die die Kriterien Fundamentaler Ideen erfüllen können. Nicht ganz zufällig spiegeln diese sich in den Leitideen der Bildungsstandards wider (siehe Abschnitt \@ref(leitideen)).
-
-- **Schnittstellenideen** haben die Eigenschaft, dass durch sie die »Mathe(matik) wirkt« und »auch für andere Fächer in ihrer je spezifischen Weise relevant sind« [@Lambert:2012]. Damit korrelieren sie mit den prozessbezogenen Kompetenzen der Bildungsstandards.
-
-- **Tätigkeitsideen** beziehen sich insbesondere auf innermathematische Tätigkeiten, die sich über verschiedene Inhaltsbereiche hinweg zeigen. @Lambert:2012 betont, dass es diese (über die Bildungsstandards hinaus) ebenfalls zu beachten gilt, wenn man einen reichhaltigen Mathematikunterricht bewirken möchte.
-
-Beispiele derartiger Tätigkeitsideen sind:
-
-- Approximierung
-- Optimierung
-- Linearität/Linearisierung
-- Symmetrie
-- Invarianz
-- Rekursion
-- Vernetzung
-- Ordnen
-- Strukturierung
-- Formalisierung
-- Exaktifizierung
-- Verallgemeinern
-- Idealisieren
-
-Im Rahmen des Projektmoduls *Erweitertes Fachwissen für den schulischen Kontext in Mathematik*^[siehe Modulbeschreibung zum Modul [MAT-LS-7 bei PULS](https://puls.uni-potsdam.de/qisserver/rds?state=verpublish&status=init&vmfile=no&moduleCall=modulansicht&publishConfFile=modulverwaltung&publishSubDir=up/modulbearbeiter&&modul.modul_id=3156&menuid=&topitem=Modulbeschreibung&subitem=)] werden Sie insbesondere Bezüge zwischen Schul- und Hochschulmathematik auf Basis Fundamentaler Ideen herstellen, wofür die Inhalts- und Tätigkeitsideen von hoher Relevanz sind.
-
-
-#### Beispiel Linearität {#beispiel-linearitaet}
-
-##### Horizontal- und Vertikalkriterium {-}
-
-Linearität\index{Linearität|(}\index{Fundamentale Idee!Horizontalkriterium|(}\index{Fundamentale Idee!Vertikalkriterium|(} ist ein wesentliches Konzept über die gesamte Schullaufbahn hinweg (und darüber hinaus). Dies spiegelt sich in vielfältigen Themenbereichen wider, die sowohl die Breite (*Horizontalkriterium*) als auch Tiefe (*Vertikalkriterium*) von Linearität und (später) auch Linearisierung zeigen. Dieser Abschnitt orientiert sich an den Darstellungen von @Danckwerts:1988.
-
-- Linearität als Phänomen tritt schon im Geometrieunterricht der Grundschule mit **Geraden** als essentielle geometrische Objekte auf. In der euklidischen Geometrie sind Geraden neben Punkten die Basisobjekte eines axiomatischen Aufbaus.
-- Das **Distributivgesetz** $a\cdot (b+c) = a\cdot b + a\cdot c$, das ebenfalls bereits in der Grundschule behandelt wird, beschreibt einen linearen Vorgang und bietet die Grundlage für die halbschriftliche Multiplikation. Über die Schulmathematik hinaus dient es z. B. als eines der Vektorraumaxiome (Skalarmultiplikation).
-- Das Bestimmen eines **Rechteckflächeninhalts** ist ein linearer Vorgang: Ein Rechteck, das doppelt so breit ist, hat (bei gleicher Höhe) einen doppelt so großen Flächeninhalt. Betrachtet man diese Eigenschaft nicht als Phänomen, sondern als Forderung an eine Flächeninhaltsformel, so kann aus den Bedingungen $A(a_1+a_2,b) = A(a_1,b) + A(a_2,b)$ und $A(a,b_1+b_2) = A(a,b_1)+A(a,b_2)$ sowie der Stetigkeit in $\mathbb{R}^+$ die Formel $A(a,b) = a\cdot b$ abgeleitet werden.
-- Lineare Zuordnungen der Art $f(x+y) = f(x)+f(y)$ werden zu Beginn der Sekundarstufe I als **proportionale Zuordnungen** behandelt. Dies wird fortgeführt bei **linearen Funktionen** der Art $f(x) = mx+n$, in der Fachmathematik als affin-lineare Abbildungen bezeichnet.
-- **Lineare Gleichungen und Gleichungssysteme** sind ebenfalls bedeutsamer Bestandteil des Mathematikunterrichts. Überhaupt baut die gesamte **Lineare Algebra** auf lineare und affin-lineare Abbildungen auf.
-- Die **Strahlensätze** beschreiben ebenfalls ein lineares Verhalten: Geradenabschnitte in $c$-facher Entfernung sind $c$ mal so lang.
-
-```{r Strahlensatz, echo=FALSE, fig.cap="Strahlensatzfigur", fig.align='center', out.width='50%'}
-knitr::include_graphics("pictures/3-Strahlensatz.png")
-```
-- Beim **Ableitungsbegriff** ist eine wesentliche Vorstellung, dass die Funktion in der Umgebung der zu betrachtenden Stelle linearisiert wird. Insbesondere bei höherdimensionalen Funktionen wird der Linearisierungsansatz weiterverfolgt. Die ebenfalls vorherrschende Tangentenvorstellung ist auf mehr als drei Dimensionen nicht mehr anschaulich übertragbar -- der Linearisierungsansatz weist hier aufgrund seiner algebraischen Beschreibung die bessere Verallgemeinerbarkeit auf.
-- Eng an den Linearisierungsansatz angelehnt ist die **lineare Approximation** von Funktionen (z. B. $\sin(x)\approx x$ für $x\approx 0$). Die führt sich in der Hochschulmathematik fort, beispielsweise bei Taylor-Reihen.
-- Das Bedürfnis der Linearisierung, insbesondere aus der Physik heraus, zeigt sich auch bei der Nutzung **spezifisch skalierter Diagrammachsen**, z. B. von Logarithmuspapier. Wegen der Äquivalenz von $y = c\cdot a^x$ und $\ln y = (\ln a )\cdot x + \ln c$ lassen sich beliebige Exponentialfunktionen auf Logarithmuspapier als lineare Funktionen darstellen.
-- Verschiedene Näherungsverfahren, wie das **Newton-Verfahren**, bedienen sich ebenfalls der Linearisierung.
-
-An dieser Stelle sei darauf hingewiesen, dass Linearität derart fundamental ist, dass selbst nicht-lineare Zusammenhänge häufig fälschlicherweise als linear angenommen werden. Dies zeigt sich zum Beispiel an den Fehlannahmen $(x+y)^2 \overset{?!}{=} x^2+y^2$, $\sqrt{x+y} \overset{?!}{=} \sqrt{x}+\sqrt{y}$ oder $\sin(x+y) \overset{?!}{=} \sin(x)+\sin(y)$. Derartige Fehler können Sie als Lehrkraft besser einordnen (und korrigieren), wenn Sie sich der Fundamentalen Idee *Linearität* (die hier eben *nicht* gilt) bewusst sind. Insbesondere spricht dies auch für ein Explizitmachen der Fundamentalen Idee Ihren Schülerinnen und Schülern gegenüber, so dass Sie derartigen Fehlern nicht nur mit Gegenbeispielen entgegen treten können, sondern auch eine strukturelle Einordnung sichtbar machen können.
-
-Gerade wegen der genannten Fehlannahmen und der für die Schülerinnen und Schüler i. d. R. nicht in Zusammenhang gebrachten Dualität aus *geradlinig* und *additiv und homogen* sehen @Tietze:2002 [39] die Linearität dagegen nicht als eine im Mathematikunterricht etablierte Fundamentale Idee, »die die Schüler erkennen und die ihr Denken ordnet und anregt«.\index{Fundamentale Idee!Horizontalkriterium|)}\index{Fundamentale Idee!Vertikalkriterium|)}
-
-##### Zeit- und Sinnkriterium {-}
-
-Linearität\index{Fundamentale Idee!Zeitkriterium|(}\index{Fundamentale Idee!Sinnkriterium|(} zeigt sich auch in der historischen Entwicklung der Mathematik als eine prägende Leitlinie, womit sie das *Zeitkriterium* Fundamentaler Ideen erfüllt. In der Linearen Algebra sei beispielsweise das Lösen linearer Gleichungssysteme im 18. Jahrhundert bis hin zum Gauß-Algorithmus im 19. Jahrhundert oder die Darstellung linearer Vorgänge mit Matrizen im 17./18. Jahrhundert erwähnt [vgl. @Tietze:2000, {73 ff.}]. In der Analysis spiegelt sich die Linearität bzw. Linearisierung in der gesamten Differenzialrechnung wider, von der Interpolation nach der Jahrtausendwende über Taylors *Linear perspective* von 1715 [vgl. @Bruckler:2018 {39,119}] bis in die Gegenwart der linearen Modellierung nichtlinearer Zusammenhänge.
-
-> **Historische Originalausgabe**
->
-> @Taylor:1715: *Linear perspective*
-
-Auch Alltagssituationen bzw. die Alltagssprache ist von Linearität geprägt. Beispielsweise treten proportionale Zuordnungen unmittelbar beim Einkaufen auf, wenn Waren abgewogen und der Preis bestimmt wird. Auch reale Messvorgänge, wie z. B. die Geschwindigkeitsmessung, beziehen sich in der Regel auf die Messung von (sehr kurzen) Zeitintervallen, in denen ein lineares Verhalten angenommen wird. Das *Sinnkriterium* zeigt sich aber auch in Begriffen wie *lineares Fernsehen* oder *lineare Erzählungen*. Dies ist zwar keine mathematische Linearität im Sinne der Formel $f(x+y) = f(x) +f(y)$, aber der Begriff findet in einer verwandten Bedeutung in der Alltagssprache Verwendung.\index{Linearität|)}\index{Fundamentale Idee!Zeitkriterium|)}\index{Fundamentale Idee!Sinnkriterium|)}
-
-#### Gegenbeispiele
-
-Zur Verständnisförderung sollen noch ein paar Gegenbeispiele für Fundamentale Ideen angebracht werden.
-
-- Das bereits erwähnte **Distributivgesetz** an sich ist zwar elementar, aber ihm fehlt die Weite, womit es nicht das Horizontalkriterium erfüllt. Die *Linearität* als dahinterliegende Idee ist dagegen weit genug [vgl. ähnliche Argumentation zum **Kommutativgesetz** und der  dahinterliegenden Idee der *Invarianz* bei @Schubert:2011 63].
-- Der **Umkehrfunktion** fehlt das Sinnkriterium, da dieser Begriff in der Lebenswelt außerhab der Mathematik kaum von Relevanz ist. Dahinter liegt vielmehr die Idee der *Reversibilität* als »Umkehrbarkeit von Operationen mit Wiederherstellung des Ausgangszustandes« [@Schubert:2011 63].
-
+In den nächsten Kapiteln <!--Abschnitt \@ref(begriffe-sachverhalte-verfahren)-->wird näher darauf eingegangen, wie Lernprozesse bei der Ausbildung der jeweiligen Stoffelement-Kategorien gestaltet werden können.
 
 
 
@@ -268,17 +159,21 @@ Sichtbar gemacht werden kann dieses Prinzip über ***Permanenzreihen***. Dies is
 knitr::include_graphics("pictures/2-Permanenz.png")
 ```
 
-Entscheidend ist beim Aufstellen von Permanenzreihen jedoch, dass der Übergang von einer Zeile zur nächsten auf einem entsprechenden Rechengesetz beruht. Im Abbildung \@ref(fig:Permanenz) ist dies das Distributivgesetzt $(a-1) \cdot b = a \cdot b - b$. Varnachlässigt man die Existenz einer Übergangsregel, lassen sich plausibel erscheinende Muster fortsetzen (wie $0^3 = 0$, $0^2 = 0$, $0^1 = 0$), die dann allerdings zu falschen Schlussfolgerungen ($0^0 = 0$) führen. Im dargestellten Beispiel kann die Übergangsregel $a^{m-1} = a^m : a$ wegen $a = 0$ nicht angewandt werden.
+Entscheidend ist beim Aufstellen von Permanenzreihen jedoch, dass der Übergang von einer Zeile zur nächsten auf einem entsprechenden Rechengesetz beruht. In Abbildung \@ref(fig:Permanenz) ist dies das Distributivgesetz $(a-1) \cdot b = a \cdot b - b$. Vernachlässigt man die Existenz einer Übergangsregel, lassen sich plausibel erscheinende Muster fortsetzen (wie $0^3 = 0$, $0^2 = 0$, $0^1 = 0$), die dann allerdings zu falschen Schlussfolgerungen ($0^0 = 0$) führen. Im dargestellten Beispiel kann die Übergangsregel $a^{m-1} = a^m : a$ wegen $a = 0$ nicht angewandt werden.
+
+Weitere Hinweise zum Einsatz des Permanenzprinzips im Mathematikunterricht finden Sie zum Beispiel bei @Hoffkamp2024.
+
+
 
 #### Ableitungen für den Lernpfad
 
 Aus all den bisherigen Überlegungen auf der formalen Ebene lassen sich für den Unterricht zentrale Fachinhalte ableiten:
 
-`r formal("Ganze Zahlen können über Zahlenpaare aus den natürlichen Zahlen oder als »Gegenzahlen« der natürlichen Zahlen entwickelt werden.")`
+Ganze Zahlen können über Zahlenpaare aus den natürlichen Zahlen oder als »Gegenzahlen« der natürlichen Zahlen entwickelt werden.
 
-- `r formal("Natürliche Zahlen sind als Teilmenge in die ganzen Zahlen eingebettet.")`
-- `r formal("Die Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.")`
-- `r formal("Die Rechenregeln werden erweitert, wobei die bekannten weiter gelten. Die wird über das Permanenzprinzip begleitet, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.")`
+- Natürliche Zahlen sind als Teilmenge in die ganzen Zahlen eingebettet.
+- Die Subtraktion natürlicher Zahlen $m-n$ mit $n > m$ ist nun lösbar.
+- Die Rechenregeln werden erweitert, wobei die bekannten weiter gelten. Die wird über das Permanenzprinzip begleitet, bei der Herleitung von Rechenregeln bietet sich die Nutzung von Permanenzreihen an.
 
 
 
@@ -289,13 +184,5 @@ In fachlich analoger Weise lassen sich auch die rationalen Zahlen über Äquival
 Aus Sicht der formalen Ebene lässt sich daher auch nicht ableiten, ob im Mathematikunterricht nach den natürlichen Zahlen zunächst die rationalen Zahlen (wie z. B. in Deutschland) oder erst die ganzen Zahlen (wie z. B. in Australien) eingeführt werden sollten. Innerhalb eines Zahlbereichs bietet jedoch die fachlogische Struktur Ansatzpunkte zur Gestaltung des Lernpfads, wie bei den negativen Zahlen dargestellt.
 
 
-
-## Zum Nachbereiten {#mathematik-strukturieren-nachbereitung}
-
-1. Nutzen Sie verschiedene fachmathematische und fachdidaktische Quellen sowie Schulbücher, um fachlich zu klären, was »Terme« und »Gleichungen« sind.
-2. Nutzen Sie Permanenzreihen, um weitere Rechengesetze nachzuvollziehen, z. B. dass $a^0 = 1$ ($a\neq 0$) und $a^\frac{1}{2} = \sqrt{a}$ ($a \geq 0$) ist.
-3. Wählen Sie eine Leitidee aus den Bildungsstandards aus und nennen Sie innerhalb dieser Begriffe, Zusammenhänge und Verfahren, die im Mathematikunterricht behandelt werden.
-
--->
 
 
