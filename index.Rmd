@@ -40,7 +40,7 @@ link-citations: yes
 linkcolor: linkColor
 urlcolor: linkColor
 github-repo: "heiko-etzold/teaching-stoffdidaktik"
-url: "stoffdidaktik.heiko-etzold.de/"
+url: "stoffdidaktik.heiko-etzold.de/2025/"
 ---
 
 # Über dieses Dokument {#index -}
@@ -48,11 +48,11 @@ url: "stoffdidaktik.heiko-etzold.de/"
 Die Veranstaltung *Stoffdidaktik Mathematik* wird über dieses Dokument begleitet. Es wird fortlaufend aktualisiert und zur Verfügung gestellt. Über ein Git-Respository können Änderungen nachverfolgt werden. 
 In der html-Version gelangt man über die Menüleiste am oberen Rand sowohl zu den Rohdaten als auch zu einer pdf-Version. Die Darstellung der Inhalte ist jedoch optimiert für die html-Version dieses Dokuments. 
 
-Aufgrund der permanenten Entwicklung ist eine Zitation des aktuellen Skriptes nicht unbedingt geeignet. Sollte ein Verweis notwendig sein, wird als Quellenangabe empfohlen: 
+Als Quellenangabe für das Skript wird empfohlen: 
 
-> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2025/26* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de
+> Etzold, H. (`r format(Sys.time(), '%Y')`). *Stoffdidaktik Mathematik -- Skript zur Vorlesung im Wintersemester 2025/26* (Version vom `r format(Sys.time(), '%d.%m.%Y')`). https://stoffdidaktik.heiko-etzold.de/2025
 
-Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur Zitation eignen, finden Sie unter:
+Die Vorlesungsskripte der letztjährigen Veranstaltungen finden Sie unter:
 
 - https://stoffdidaktik.heiko-etzold.de/2024
 - https://stoffdidaktik.heiko-etzold.de/2023
@@ -64,7 +64,7 @@ Die Vorlesungsskripte der letztjährigen Veranstaltungen, die sich dann auch zur
 Soweit nicht anders gekennzeichnet, ist dieses Dokument unter einem Creative Commons Lizenzvertrag lizenziert: »Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International«. Dies gilt nicht für Zitate und Werke, die aufgrund einer anderen Erlaubnis genutzt werden.
 Eine Beschreibung der Lizenz findet sich unter https://creativecommons.org/licenses/by-sa/4.0/deed.de.
 
-<!-- Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVverinnerlichen)<!--, \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten), und \@ref(fig:Etappen)<!--, \@ref(fig:Musterfolge), \@ref(fig:Grenzwert), \@ref(fig:Mittelsenkrechte), \@ref(fig:Modelle) und \@ref(fig:Prozessbetrachtung) -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet. -->
+Ausgenommen von der CC-BY-SA-Lizenz sind insbesondere die Abbildungen \@ref(fig:FreudenthalWinkel), \@ref(fig:FreudenthalWinkelSpiegeln), \@ref(fig:GVverinnerlichen)<!--, \@ref(fig:Tiergehege), \@ref(fig:FlaecheEinheiten),--> und \@ref(fig:Etappen)<!--, \@ref(fig:Musterfolge), \@ref(fig:Grenzwert), \@ref(fig:Mittelsenkrechte), \@ref(fig:Modelle) und \@ref(fig:Prozessbetrachtung)--> -- diese werden im Sinne des Zitaterechts ([§ 51 UrhG](https://www.gesetze-im-internet.de/urhg/__51.html)) verwendet.
 
 
 

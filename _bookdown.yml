@@ -1,6 +1,6 @@
 book_filename: "Stoffdidaktik2025-Etzold"
 view: "https://github.com/heiko-etzold/Stoffdidaktik/tree/main/%s"
-output_dir: "docs"
+output_dir: "docs/2025"
 language:
   label:
     fig: "Abb. "

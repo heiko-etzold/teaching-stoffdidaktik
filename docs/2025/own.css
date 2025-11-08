@@ -1,0 +1,35 @@
+.csl-entry {
+    text-indent: -10pt;
+    padding-left: 10pt;
+	margin-bottom: 5pt;
+}
+
+tr{
+  vertical-align: top;
+}
+
+
+table br{
+  display: block;
+  content: "";
+  margin-top: 0.6em
+}
+
+
+
+.section a, .footnotes a, .csl-entry a {
+//  color: #929292 !important;
+}
+
+
+div.definition {
+  background: #e5e5e5;
+  padding: 5pt 5pt 1pt 10pt;
+  margin: 0 0 5pt 0;
+}
+
+span.definition {
+  display: block;
+  content: "";
+  margin-bottom: 5pt;
+}
