@@ -49,6 +49,7 @@ fig:Skalen
 fig:Hefter
 fig:ScreenshotLagemass
 fig:Uebersicht
+fig:Lernbereiche
 fig:OrientierungFormal
 fig:OrientierungKernidee
 fig:OrientierungAusloesen
@@ -153,6 +154,7 @@ motivierung-und-zielbildung-1
 stofferarbeitung-1
 festigung-1
 handlungskontrolle-1
+sammlung-von-lernbereichen
 orientierungshilfen-fuer-lernhandlungen
 orientierungshilfe-formale-ebene
 orientierungshilfe-kernideen-finden

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  6 NOV 2025 13:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.9)  8 NOV 2025 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2318,7 +2318,10 @@ Requested font "[LibertinusSerif-Regular.otf]/OT:script=latn;language=dflt;slan
 t=0.2;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Regular.otf
-[4]
+[4] [5] [6
+
+
+]
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 227.
 Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
@@ -2331,10 +2334,7 @@ Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 14.4pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
-[5
-
-
-] [6
+[7] [8
 
 
 ]
@@ -2452,7 +2452,7 @@ Requested font "[LibertinusSerif-BoldItalic.otf]/OT:script=latn;language=dflt;+
 tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-BoldItalic.otf
-[7] [8] [9] [10
+[9] [10] [11] [12
 
 
 ]
@@ -2462,28 +2462,28 @@ Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 24.88pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
-[11] [12]
+[13] [14]
 chapter 1.
-[13
+[15
 
 
-] [14] [15]
+] [16] [17]
 File: pictures/1-FreudenthalWinkel.jpg Graphic file (type bmp)
 <pictures/1-FreudenthalWinkel.jpg>
 File: pictures/1-FreudenthalWinkelSpiegeln.jpg Graphic file (type bmp)
 <pictures/1-FreudenthalWinkelSpiegeln.jpg>
-[16] [17]
+[18] [19]
 File: pictures/1-Winkelsituationen.jpg Graphic file (type bmp)
 <pictures/1-Winkelsituationen.jpg>
-[18] [19]
+[20] [21]
 File: pictures/1-Winkelfarm.png Graphic file (type bmp)
 <pictures/1-Winkelfarm.png>
 File: pictures/1-Klassenraum.png Graphic file (type bmp)
 <pictures/1-Klassenraum.png>
-[20]
+[22]
 File: pictures/1-WinkelfarmStart.png Graphic file (type bmp)
 <pictures/1-WinkelfarmStart.png>
-[21] [22]
+[23] [24]
 chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 576--578
@@ -2495,10 +2495,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
-[23
+[25
 
 
-] [24]
+] [26]
 Underfull \hbox (badness 1194) in paragraph at lines 636--637
 []\TU/LibertinusSerif(0)/m/n/10.95 Nur gering geeignet für die Spezifizierung u
 nd Strukturierung sind die Bildungs-
@@ -2516,15 +2516,15 @@ Underfull \hbox (badness 1436) in paragraph at lines 636--637
 Inhalte und schränken damit die
  []
 
-[25] [26] [27]
+[27] [28] [29]
 File: pictures/2-Bijektion.png Graphic file (type bmp)
 <pictures/2-Bijektion.png>
 File: pictures/2-Vereinigung.png Graphic file (type bmp)
 <pictures/2-Vereinigung.png>
-[28] [29]
+[30] [31]
 File: pictures/2-Permanenz.png Graphic file (type bmp)
 <pictures/2-Permanenz.png>
-[30] [31] [32
+[32] [33] [34
 
 
 ]
@@ -2535,13 +2535,13 @@ Underfull \hbox (badness 1769) in paragraph at lines 839--841
 nusSerif(0)/m/n/10.95 Hier wird untersucht, inwieweit der jeweili-
  []
 
-[33]
+[35]
 Underfull \hbox (badness 2150) in paragraph at lines 869--871
 []\TU/LibertinusSerif(0)/m/n/10.95 in verschiedenen Gebieten des Bereichs vielf
 ältig anwendbar oder erkennbar ist
  []
 
-[34]
+[36]
 Overfull \hbox (22.73376pt too wide) in paragraph at lines 871--873
 []\TU/LibertinusSerif(0)/m/n/10.95 auf jedem intellektuellen Niveau aufgezeigt 
 und vermittelt werden kann (\TU/LibertinusSerif(0)/b/n/10.95 Vertikalkriterium\
@@ -2556,7 +2556,7 @@ s und der Lebenswelt besitzt
 
 File: pictures/3-Flaeche.png Graphic file (type bmp)
 <pictures/3-Flaeche.png>
-[35] [36]
+[37] [38]
 File: pictures/3-Strahlensatz.png Graphic file (type bmp)
 <pictures/3-Strahlensatz.png>
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
@@ -2573,7 +2573,7 @@ Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 6.57pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertine/LinLiber
 tine_R.otf
-[37] [38] [39]
+[39] [40] [41]
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 1052.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
@@ -2600,16 +2600,16 @@ Requested font "[LibertinusSerif-Italic.otf]/OT:script=latn;language=dflt;+tnum
 ibertinusSerif-Italic.otf
 File: pictures/4-Addition.png Graphic file (type bmp)
 <pictures/4-Addition.png>
-[40] [41] [42] [43]
+[42] [43] [44] [45]
 File: pictures/4-Bruchmulti.png Graphic file (type bmp)
 <pictures/4-Bruchmulti.png>
-[44]
+[46]
 File: pictures/4-Zahlengerade.png Graphic file (type bmp)
 <pictures/4-Zahlengerade.png>
-[45] [46]
+[47] [48]
 chapter 4.
 
-LaTeX Warning: Reference `aneignung-von-lerngegenstaenden' on page 47 undefined
+LaTeX Warning: Reference `aneignung-von-lerngegenstaenden' on page 49 undefined
  on input line 1283.
 
 
@@ -2618,13 +2618,13 @@ Underfull \hbox (badness 1571) in paragraph at lines 1290--1291
 rahmen, Zehnersystem-Material, Tangram,
  []
 
-[47
+[49
 
 
 ]
 File: pictures/4-Darstellungswechsel.png Graphic file (type bmp)
 <pictures/4-Darstellungswechsel.png>
-[48]
+[50]
 File: pictures/4-Definitionsbereich.png Graphic file (type bmp)
 <pictures/4-Definitionsbereich.png>
 File: pictures/4-GVverinnerlichen.png Graphic file (type bmp)
@@ -2632,7 +2632,7 @@ File: pictures/4-GVverinnerlichen.png Graphic file (type bmp)
 
 Underfull \vbox (badness 1072) has occurred while \output is active []
 
-[49] [50]
+[51] [52]
 File: pictures/4-Lernmodell.png Graphic file (type bmp)
 <pictures/4-Lernmodell.png>
 LaTeX Font Info:    Font shape `TU/LibertinusSerif(0)/b/n' will be
@@ -2641,10 +2641,10 @@ Requested font "[LibertinusSerif-Bold.otf]/OT:script=latn;language=dflt;+tnum;+
 lnum;mapping=tex-text;" at 8.76pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
-[51] [52] [53]
+[53] [54] [55]
 File: pictures/4-Waage.png Graphic file (type bmp)
 <pictures/4-Waage.png>
-[54]
+[56]
 Overfull \hbox (27.40208pt too wide) in paragraph at lines 1457--1458
 [] \TU/LibertinusSerif(0)/b/n/10.95 4.2.2.2.2 Streichholzschachtel-Modell[][] \
 TU/LibertinusSerif(0)/m/n/10.95 Eine weitere Möglichkeit bietet das Streichholz
@@ -2653,25 +2653,25 @@ schachtel-
 
 File: pictures/4-Streichholz.png Graphic file (type bmp)
 <pictures/4-Streichholz.png>
-[55]
+[57]
 File: pictures/4-Pfeile.png Graphic file (type bmp)
 <pictures/4-Pfeile.png>
 File: pictures/4-negativePfeile.png Graphic file (type bmp)
 <pictures/4-negativePfeile.png>
-[56] [57] [58
+[58] [59] [60
 
 
 ]
 chapter 5.
-[59] [60] [61] [62] [63
-
-
-] [64]
-chapter 6.
-[65
+[61] [62] [63] [64] [65
 
 
 ] [66]
+chapter 6.
+[67
+
+
+] [68]
 File: pictures/6-Aneignung.png Graphic file (type bmp)
 <pictures/6-Aneignung.png>
 
@@ -2686,17 +2686,17 @@ Underfull \hbox (badness 1342) in paragraph at lines 1670--1671
 ternalisierungsprozess unterstützt (das
  []
 
-[67]
+[69]
 File: pictures/1-Winkelfarm.png Graphic file (type bmp)
 <pictures/1-Winkelfarm.png>
-[68]
+[70]
 File: pictures/6-ZdnE.png Graphic file (type bmp)
 <pictures/6-ZdnE.png>
 
 Overfull \vbox (1.7897pt too high) detected at line 1722
  []
 
-[69] [70]
+[71] [72]
 LaTeX Font Info:    Font shape `TU/LinLibertine(1)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 1744.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
@@ -2722,16 +2722,16 @@ lnum;mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2023/texmf-dist/fonts/opentype/public/libertinus-fonts/L
 ibertinusSerif-Bold.otf
 
-LaTeX Warning: Reference `zusammenhaenge' on page 71 undefined on input line 17
+LaTeX Warning: Reference `zusammenhaenge' on page 73 undefined on input line 17
 48.
 
 
-LaTeX Warning: Reference `verfahren' on page 71 undefined on input line 1748.
+LaTeX Warning: Reference `verfahren' on page 73 undefined on input line 1748.
 
-[71] [72] [73]
+[73] [74] [75]
 File: pictures/6-Etappen.png Graphic file (type bmp)
 <pictures/6-Etappen.png>
-[74]
+[76]
 Underfull \hbox (badness 10000) in paragraph at lines 1809--1811
 
  []
@@ -2746,7 +2746,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1813--1815
 
  []
 
-[75]
+[77]
 Underfull \hbox (badness 1314) in paragraph at lines 1846--1848
 []\TU/LibertinusSerif(0)/m/n/10.95 Die \TU/LibertinusSerif(0)/b/n/10.95 etappen
 weise Verinnerlichung von Handlungen \TU/LibertinusSerif(0)/m/n/10.95 kann dabe
@@ -2762,7 +2762,7 @@ lungskontrolle \TU/LibertinusSerif(0)/m/n/10.95 wird über den Abgleich zwischen
 
 File: pictures/6-Unterrichtssituationen.png Graphic file (type bmp)
 <pictures/6-Unterrichtssituationen.png>
-[76] [77] [78
+[78] [79] [80
 
 
 ]
@@ -2777,25 +2777,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1900--1902
 
  []
 
-[79]
+[81]
 File: pictures/7-Begriffe.png Graphic file (type bmp)
 <pictures/7-Begriffe.png>
-[80]
+[82]
 File: pictures/7-senkrecht.png Graphic file (type bmp)
 <pictures/7-senkrecht.png>
-[81]
+[83]
 File: pictures/7-AK.png Graphic file (type bmp)
 <pictures/7-AK.png>
-[82]
+[84]
 File: pictures/7-Variation.png Graphic file (type bmp)
 <pictures/7-Variation.png>
-[83]
+[85]
 File: pictures/7-Kontrast.png Graphic file (type bmp)
 <pictures/7-Kontrast.png>
 
 Underfull \vbox (badness 2142) has occurred while \output is active []
 
-[84]
+[86]
 File: pictures/7-Quadrat.png Graphic file (type bmp)
 <pictures/7-Quadrat.png>
 File: pictures/7-Achsensymmetrie.png Graphic file (type bmp)
@@ -2810,12 +2810,12 @@ Overfull \hbox (20.09427pt too wide) in paragraph at lines 2101--2101
 \TU/LibertinusSerif(0)/b/n/10.95 len/materialisierten 
  []
 
-[85] [86]
+[87] [88]
 chapter 8.
-[87
+[89
 
 
-] [88]
+] [90]
 Underfull \hbox (badness 2547) in paragraph at lines 2207--2208
 \TU/LibertinusSerif(0)/m/n/10.95 sammenhangs zu verinnerlichen und dessen logis
 che Struktur zu betonen. Dies
@@ -2843,7 +2843,7 @@ Underfull \vbox (badness 10000) detected at line 2254
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[89]
+[91]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 2259.
 
@@ -2853,7 +2853,7 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 2259.
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 2259.
 
-[90]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 2303--2305
 
  []
@@ -2878,7 +2878,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2311--2313
 
  []
 
-[91] [92]
+[93] [94]
 Underfull \hbox (badness 10000) in paragraph at lines 2367--2369
 
  []
@@ -2903,10 +2903,10 @@ Overfull \hbox (13.0382pt too wide) in paragraph at lines 2412--2412
 []|\TU/LibertinusSerif(0)/m/n/10.95 Unterbegriffe;Grenzfälle|  
  []
 
-[93] [94] [95
+[95] [96] [97
 
 
-] [96]
+] [98]
 chapter 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2433--2435
@@ -2924,23 +2924,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 2435--2437
 
  []
 
-[97
+[99
 
 
 ]
 File: pictures/B-Skalen.png Graphic file (type bmp)
 <pictures/B-Skalen.png>
-[98]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 2514--2516
 
  []
 
-[99]
+[101]
 
-LaTeX Warning: Reference `bezuege-zur-stoffdidaktik' on page 100 undefined on i
+LaTeX Warning: Reference `bezuege-zur-stoffdidaktik' on page 102 undefined on i
 nput line 2525.
 
-[100]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 2563--2565
 
  []
@@ -2948,7 +2948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2563--2565
 File: pictures/B-Einfuehrung.png Graphic file (type bmp)
 <pictures/B-Einfuehrung.png>
 
-LaTeX Warning: Reference `ausfuehren-und-verinnerlichen' on page 101 undefined 
+LaTeX Warning: Reference `ausfuehren-und-verinnerlichen' on page 103 undefined 
 on input line 2584.
 
 File: pictures/B-Hefter.png Graphic file (type bmp)
@@ -2958,7 +2958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2609--2611
 
  []
 
-[101]
+[103]
 Underfull \hbox (badness 1259) in paragraph at lines 2611--2613
 \TU/LibertinusSerif(0)/m/n/10.95 angesehen werden, um den Begriff des arithmeti
 schen Mittels zu realisieren (vgl.
@@ -2969,30 +2969,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 2611--2613
 
  []
 
-[102]
+[104]
 File: pictures/B-ScreenshotLagemass.png Graphic file (type bmp)
 <pictures/B-ScreenshotLagemass.png>
-[103]
+[105]
 Underfull \hbox (badness 10000) in paragraph at lines 2669--2671
 
  []
 
 File: pictures/B-Uebersicht.png Graphic file (type bmp)
 <pictures/B-Uebersicht.png>
-[104]
+[106]
 chapter A.
-File: pictures/C-OrientierungshilfeFormaleEbene.png Graphic file (type bmp)
-<pictures/C-OrientierungshilfeFormaleEbene.png>
-File: pictures/C-OrientierungshilfeKernidee.png Graphic file (type bmp)
-<pictures/C-OrientierungshilfeKernidee.png>
-File: pictures/C-OrientierungshilfeLernprozesseAusloesen.png Graphic file (type
- bmp)
-<pictures/C-OrientierungshilfeLernprozesseAusloesen.png>
-[105
-
-
-] [106]
-chapter B.
+File: pictures/A-SammlungLernbereiche.png Graphic file (type bmp)
+<pictures/A-SammlungLernbereiche.png>
 [107
 
 
@@ -3000,25 +2990,42 @@ chapter B.
 
 
 ]
+chapter B.
+File: pictures/C-OrientierungshilfeFormaleEbene.png Graphic file (type bmp)
+<pictures/C-OrientierungshilfeFormaleEbene.png>
+File: pictures/C-OrientierungshilfeKernidee.png Graphic file (type bmp)
+<pictures/C-OrientierungshilfeKernidee.png>
+File: pictures/C-OrientierungshilfeLernprozesseAusloesen.png Graphic file (type
+ bmp)
+<pictures/C-OrientierungshilfeLernprozesseAusloesen.png>
+[109] [110]
 chapter C.
+[111
 
-Underfull \hbox (badness 2269) in paragraph at lines 2763--2764
+
+] [112
+
+
+]
+chapter D.
+
+Underfull \hbox (badness 2269) in paragraph at lines 2780--2781
 \TU/LibertinusSerif(0)/m/it/10.95 mit schulischen Vorerfahrungen und Erforderni
 ssen\TU/LibertinusSerif(0)/m/n/10.95 . Springer Fachmedien Wiesbaden.
  []
 
-[109] [110] [111] [112] [113] [114] (./Stoffdidaktik2025-Etzold.aux)
+[113] [114] [115] [116] [117] [118] (./Stoffdidaktik2025-Etzold.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 35170 strings out of 476683
- 728408 string characters out of 5804048
+ 35191 strings out of 476683
+ 729164 string characters out of 5804048
  1883018 words of memory out of 5000000
- 54900 multiletter control sequences out of 15000+600000
+ 54920 multiletter control sequences out of 15000+600000
  522952 words of font info for 175 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  108i,10n,136p,10638b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Stoffdidaktik2025-Etzold.pdf (114 pages).
+Output written on Stoffdidaktik2025-Etzold.pdf (118 pages).

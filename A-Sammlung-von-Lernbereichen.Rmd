@@ -1,12 +1,19 @@
 #  (APPENDIX) Anhang {-}
 
-<!--# Sammlung von Lernbereichen
+# Sammlung von Lernbereichen
 
 Die folgende Sammlung von Lernbereichen ist im Rahmen des Seminars zur Stoffdidaktik-Veranstaltung entstanden und berücksichtigt die Brandenburger Rahmenlehrpläne für die Klassenstufen 1 -- 10 bzw. die gymnasiale Oberstufe [@MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023; @MinisteriumfurBildungJugendundSportdesLandesBrandenburg2022].
 
 Die Darstellung nach Klassenstufen orientiert sich an den Niveaustufen für den gymnasialen Bildungsgang [vgl. @MinisteriumfuerBildungJugendundSportdesLandesBrandenburg2023 20].
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVLKx4ghA=/?moveToViewport=-1424,-785,2778,1261&embedId=904046284101" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
-Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2024-SammlungLernbereiche.pdf) heruntergeladen werden.
--->
+
+
+
+```{r Lernbereiche, echo=FALSE, fig.cap="Sammlung von Lernbereichen", fig.align='center', out.width='95%'}
+knitr::include_graphics("pictures/A-SammlungLernbereiche.png")
+```
+
+
+
+Die Übersicht kann als [pdf-Datei](files/Stoffdidaktik2025-SammlungLernbereiche.pdf) heruntergeladen werden.
